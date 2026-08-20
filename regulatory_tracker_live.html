@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Finance Listening Portal – Bajaj Finserv </title>
+<title>BFL Compliance Listening Portal – Bajaj Finserv </title>
 <style>
   :root {
     --bg: #f7f8fa;
@@ -23,6 +23,8 @@
     --accent-nfra: #6d28d9;
     --accent-pcaob: #0f766e;
     --accent-newsletter: #7c3aed;
+    --accent-taxation: #b45309;
+    --accent-taxation: #b45309;
     --tag-notif: #e8f4fd;
     --tag-notif-text: #1a56db;
     --tag-circular: #fff4e5;
@@ -112,6 +114,8 @@
   .reg-nfra  { color: var(--accent-nfra); }
   .reg-pcaob { color: var(--accent-pcaob); }
   .reg-newsletter { color: var(--accent-newsletter); }
+  .reg-taxation { color: var(--accent-taxation); }
+  .reg-taxation { color: var(--accent-taxation); }
 
   .content-panel {
     background: var(--surface);
@@ -270,7 +274,7 @@
     <img class="company-logo" alt="Bajaj Finance" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOkAAABgCAIAAAB36sKkAAAoCUlEQVR42u1dd5xV1bVea+99yu1zpzAz9F6koyA2sGHBFOxRJCY+fbEk0WiieRosURNNMaaYWNKfGlvUFzU29KkEFJQmvcNQpzDt9nP23uv9ce70GRheGISfZ/lTYebeU7+99lrfalg25znwpQthDBNpZ9roXq/edabWhOg/kiNFiIj5T+EAggg+ZI9MzeI/Al987Prii4/dI8uwAiD/KfjYPVrB64uPXd9X88XHri+++Nj1xceu76v54mPX99V88bHr+2o+dn3xxceuL7742D1s5i75Fq+PXV98OZQijgh3CAARAb0/5J176uAy5ZUg0WFVhb6v5mO3I1iRAQCQBqnJlUoqpRRoIiACRIaAQIAIBJqACACJM2ZwbhkoOAcgTUT+hu5j9/BAljEEAKko60jHVQRkGSwWFP2KA+UFdlk8WBq3S2J2JCgitmUZHBCU1omM25B09talKqrTW/YmK6oztcksAUYChsFRaR+/PnZ71LJmqDQlUq4iXRg2JvaNjh1QMG5Q4Yi+sQG9Qr2iAdsyunMcqWRFdXrJxuo3l+5+59PKyvpcQcgEhJ5SwL6v9jnHLiI2ppywzc6bXDbzuL4njCwZVBoWXLSGiNbUbAIQkc7bDsAQ0YtuITAAwcXgsujgsujFpwzZXtX42OvrH3tzI2fC4Ez7BoSP3UOscREzjjrn2PK5Xxk3bmBRV+hmCEoDEDGGDFkrVJMm4k2Fjh7CiQABBvSK/ujKyaeMLbvmlx+6SnOOhx69vq/2ecYuIjiuOmNCWRNwKZVz99Rlt+5p3Lw3UVGd2lOX2ZfIpTMqpzRpMgQLmLy0IDC8T/iEkb2mjS7jjGmtEbE1KQEASmul6NxJ/X5xjbzqVwuiAdvf4H3sHkpRmsJB484nV7y4oKIkaiUyanddurIu25CWUipCYIxxRObRZAhE5JEPmrQh2OSh8V9dO3V0v7jSmrUtM2eIKFAqffHJg575YOvby/dGg6bvuvnYPTTWAiAQERIg44s21ClNDMEQzOAsEjQQTaQ8mdv0b56SyOtXgAVra696eMG8+84K2wZB+w0c86QvnD6+7LUlu5ttY99X87H7/7cTiCCZk0BkCGYKLhhGA+hlw3rRBa27zo2llv/1igXWVNQv3lBzxvjeSmnOsNPTNVmmPtB87P57wHWVFgiTh8YNjrv2pSpqso6rg7ZhGwwBDmpX16QBWCLjdnk6AAKoTeZ6BLi+r/b5wa4HTVOwP950wtkT+gJAQyq3fGvdq4sr3liye8veFBcsbBsMoZuGqSayDNa/JATQOYqQAQKs3FYrODv0PIOvxz9HehdBSSoMm2eOKycCqXQsZE0fUzZ9TNntl2T/+cnOp9/b+uH6mpxLkYBhCKb0/mhZhpjOqdH9I6MHxImIdTAYtCbG2LqddfNX14RscegdNV/pHqly6PPIiMA02K6a9B1/XYIIhmCOVFJpqXQ8bM8+dehrd894Ze6ps6f3NzjVNGZcRZxjV23qGIOs4359xhBL8E5xSQCI8LvX19WnXME49MT9+Kr382Pvak2hgPHr1zZVNuQeuPLY0oKgJtKatCZNxBBPOqb8pGPKN+6q/8u7m56fX1GxLxOyRcAUqm1yDWfYmJZTRxbOPnWI1rpTpSs4W11R99wHOwpCptLat3c/P8LD4y/uoUMHLbFkU93LH22PBozxgwo5Y5oImxIbNFFJLHD6+N4Xndy/KGJs2ZvYuS/NEE2DY5M2VQSM0V9vPrl/cURrakfuEgARMAbXPbJg7c5kwOKH3NhFREfqAb1Cl08f7AWofflcYJcIQrZoSKuXP9o+f83essLA0PKYB1yGwBh6yjgWtE4aVXrZtIGlBdbmvY07atKIaBkcgeqTud9847hzju0vO6PGpCJDsEdfX/vIa5vi4R4JSSCi4/rY/fxhFwA0geAYtIzNe9PPz9+2YlvN4LJwn6IwIipFnCFDJCKldMg2jx/R6yvTBpUWmJv3NO7al0pk5A9nj7v+vNGdA1drU/AFa/de+5uPupmA5mPXx+7/RwHbJjcE+3Rbw7Pzt1XWpccOisdCJhEQEENkDIlAaR20xPHDe10+fVAkIKaNLvn+xRNUlxqXr99dd8kDH6QdMnsiBacFu2pASejyU33sfi6x2+ysBy0BgPPXVL/80baQzScNKWLIlCZE9HIdiUhpCljGSaNKTxld3ql/JrU2BN9W1Xjhj97bXeuELNFz+Qu+vfv54sj2I55JWhy1ahrV9Y9+/MV731m+tUZwL9JGHlY4Q61JKq2U7sicSaUNztftrPvyve9uq8xGAsLPvPGxe/hEKjIFFkfs91ZWnXPnOw++sFxqzRlrZscQgTNsp3HJA67gH63f+8V7391enY0EhVQ9D1x/aRyp8tnUWhKBVBQLmlLT3X9b+d6qyvuvmDRhcBERdRql8Mg1Q/DnF2z+1mMfuxLDtlDqiICV0kT5ktA2RHDzX1v/vJVp1FL57K3V/KFaH4SIMWz3QDSRbvVdj7HZ/9LT7Q8L0HTGA94XYPuL7+piOv2A59J09Ea8HyC0uYvmo7XKJtwfhsRn+9YNjsXR4Bsf7iqPW7//9ilEnTxRpbQQXBP98G9Lf/rS2qBlBE0mD5+psJ+4GgGg4Ae3d5Emxhhj7V4EIaLgXa7b5g9yxtqdsA18OttYWWdXeMAC607vq7kCoMuLId0MOaVJcNbNqDqR4owf1LP8zLDrrdH6pBsOsIeun3z9ecd4ZTztXhsQCMG3VCZufmLxG0v3FscsBMw6yhSHqzptf3E1RKB/flKxt84xBWvKQ25StAgISEAIgAwtwQTH8rg1ZXjZ1sqGdz/dawlBAK7UZXFz5rH9U1nnH4sqHAUMAQgQMSvljPHlA3pFvaR7ImKIC9bsWbszYZscCLKuGtU3cuIxZaQ72a+8p5OT6qWF2/KHzUMKwja74IQBiF0iRZN+dfGO+qRrCDSEsA2miUb2jY7oE/fmzHkXs2Jr9ccba0O2sA2OCINKQ+MHFmkiRCQCwVky42yrStUmczlXuVK7UrtaK0lSawDQBAiYc1WvmPmFKf0/3Va7eENNwOREgEgEwBE4Y4wh4+hVJ3isFBDFwsZngF0E4BzTjs7mnLMmlt4ze9K4gYVtFiwA5bUyA4Cn39s096lllfWyrDCQzLg5V/UtsvfW5WzzM26MQgTI2IMvrPpgZXU4aDR7jflc4pb7JQAwBK9vyDx649TjR5R/snHf1Q8tCIctAkil3WljSmYeN6AhnbvxscUNGS04EAFnmMzIsyeVvnLXWQhAQJqAMfzru5sff2VDJGoRQLIx940vDj/pmHJF1FFla60F50+8uf7bv10cClm6KWDOENM597nvT7/opEGdcucIgID3PL1i2Zb6kCUIgDN0pB5UGnjvx+eUxPIRfibY65/s/K8nlkULbEBsTOaunDH4zzdN01ojEefsd/9c98ira2sSTtbx6mi98gJqbTMIjg0N2Z9fOwWRvbV01/ce+zgStWXTpeb7eGBTkRciAjCEtKOPHxE/3K+fM1SaahqzQ8vCt140cc5pQwHQVVq0MpSUJs7Q4GxzZePdTy17ceGOcMAqilhVdel+xYHbLprwpan9H399/f3PriqI2LqnjYcDHT4WsuKxQNg2vFR6hui5ldQa4gi1ydwFJw/4z3NGAYBtiVgsEAuaAGAIEQvb3nuJRyxukGD5ev3CaOC9VTW/eHnlrReOlyr/OkO2GYkF4mETABBZJGh1oTiJM7atMvGzF9eWFYcFZwTEADURYxjIGfc98+mZE3tHbbML7g8LQlZhNBAyhSYNAJzj9qrsf/1lyR9vnOY23VzAMsKxQDxiEoEmCFgGAGhNpsF/9crq7/5haTRkmZyFbM45IqDOl39Tc0V4Q9o9ZULZDeeNBIBw0IjEAoVhs8kgRMbAcbXMl9eC949X1kB0GG0GZIhA9alcxBY3fXnELbPGFEcDWmsCEk1LX2sCBMGZI9Vjb6z/xcurq+rdklgwlXVrG93Z0wfePXtCn6IwANx+yYScUj95fm1xNCB7IgXnYKx2pbTS2ttMs44EgKKI6TlZiGAazOBs0qDYz6+ZkrcnCKTSHryV0s3LT2lSijCvm0BrFY9YP/n7mtPGlk8e3ivnKsFBEzV/VyoNSF3vCXj308tqGp14xPSgn1XaFExKbZt83a7EQy+t/uHsSVJp3hl4W+6LyPtrYcR+Zn7FWZO2fOWUwVnHNYA3XwwRKA+YAKbBPlpXdeeTy0tiAUDwHkt90lFaB0xmGcwyhMm54BixjZDN77tygmUIAGCAUimlqWnhUzIrexcG4iHDFNw2OTLg+UgWjR9UcHhq3AEZJjIuEH35+N63XZSvdJdK8SYn2dtTPP/gjaU7H3h+5aIN+yIBsyBsVdZnBpUG771iwoUnDgIgqTQiEul7Ljt2Z1X6b/N3FEVMVxH2nOLtnmZHBFdSaYH9629MGTOgIN+WCkFwbnAWtAQAuFIbogPcsEuNzxEzGr/zxMdv3jfDErzjB7ztitrDTgvO/7lk+98X7igIWx4hQ0C94+beOkcIlErHw9Zjr2+4+OSBYwcUKqUZw27YSDpkm7f/delJI4v7FIc7uQlEz4r96YurpGbIQCliCIm0c+aEXheeOGhYebggbAVswxZccLBNETAFADhSmkK0XkGMYSLtXn/e0O9eMDZsCUMw3ta9lcrtcewKztKOzOTkiSOKvnfhmLMn9fUUBkP0rqY1apduqv7ZS6v++fEeYKw4GlBaK62uPG3gPbMnlsaDSulmckcDak0Pf2Pq2p2Nq3c0Rmyhekj5djsHkjOszeTuvGz06eN7d+qhN5vB2Dl0O1d+kYCxZHPd/c+u+NFXJxOBbsWCe3qh3TeJABETGeeuJ1cYQgARZ9iQdqePKf71tVPPu3teZb1jGZwhJLN055NLX7zjjG4+CU1gC1ZV59z65yVPf/fUjq6yd20bdjV8uL4mEhBKEWPYmHa+OXPYj782ufNjat1MxCEiAVKTFiiJGT+4dHzYNtsRO54BoWRPcmSe5VfTmBlaFr551sQ5ZwwVjHkptnn8aQIAjxdZtX3fI6+u+/vCHSlHF4RM77XlXDWoLPToN08EQFeq1qwNQ1SaIrbx2xumnjP3bamBfdZhBM/BSmXl1sqEo0gwQEQE4gwDpiiKWtjUeYq6/wCJpNKFEfu3r208dWz5WRP75lzZGqp5eoHaAEhw9st/rF65vbEkZktFCGAKuOPScYN6RW69cPT1v/04YHGlqCBkvLm08rn5Wy49ZYjsooi13dt0NcUj1ssf7fr9W+uvOXukK3U7IhkAlm/Z15By42GLiDKOGlIWvHP2RCKSihg2E8b5/3iWlW5ZjtS8D9umsaUyEQ2YBMQRBWcGZ4p0QdC0TcE5Ez0H3JxUWqtvfXH4bReMK4ra3mvgDInAC6R5qF2+pebxN9a/9NHOhrSKBc14qKWOLWCKtRUNv3ltzTfPG93RJOMMXakmDCy645Ixt/1pRWHM6pFoRbcPqTRFg+avX9nw29c2NrH6JDirTWR/etWka84e1exvYTdMBgRI5Vzb8HZSYpzf9Pjixb/oZRmitXnfDm9Nyfi1v3l1Q0HYkooEx5rG7PUzh50wotSR6opThzz5v1s+3lgXDhhKQ8AW9z7z6YyJfQqCZleBIW+FZBwpOBMcldLRoHnXU8u/OKVfyDY6MpUV1SnVdKhsTp40qn/AEFKpAxLh3q8JgTQYHGsT7nl3vevxeAzRFMxx1dCy8Is/OMMyAPbD8P2b22xO6qKweP7703/ytSlFUUsq7dG3ShNjaHDOkN5fufurD71/9tx5f3l3KwErCpsA1Do/QRMFbePnL62pqEl4qesd4MuU1t8495gTRhUlM7I7RltPUxFSQ9bVOalzrs5J2FOXmzi06IrThunOiu2a13knprPSXzq+j20xpUETBC2+tTrzrUcXVdZnDdFSUoodLoCA5j65NJVVggEiZF3dvzjwvQvGuFIrRQzZLbOO0ZoIkIiCJt+8J/2zv69krEu+nCFmcvKMCb1KC8ycqwFRCGxIyxufWFxRkxasfX1rKivB22EQiKi8MEgE1A1/pKNBlZOQdSDrQDqn65JyV23mhi8d47WPYT2EXQBUSj18zZQzxvfJOtKVXp4NcM4EZ/sSmb/+78Zz7po36773XvxwF+OiMGwjQMdQGRHYhthb5zz88mqP7u4kNkBgCnbz+aOVUp+Rr9bmA4JR0GRBi4UsFgnwgb3sh68+LmAK0p2/PQLwquwQqLkxCkNMZd3rzht+y6yR9cmM4ExKKgxZLy/a9e6Kqogt8jijvLLCZm6Rs+c+2PLmkr2xsCU1cYbJjHvz+aPK4iFDsIAlGMNzj+t/+vjSZMZhDKWieMR84q3NS7fUCM69TZ/a0NPAGCSz7qyp/R/82sRExmEISkEsZL+7ovrJd7dGQ3liu/kbAZMDUL7zAMPqhiwidMWHdMRu68/ZBtom2gaGLGYZ9L3zR54/dYDSefOmR2wGIjINNrJ/DACaIwhSqcUbal78cPvrn+zaWpk2BAvbJiIoTbJrN0spHQmY//PRzu9dmC6PB9vGJFuMwhkTyscOjK3dmQqa7BATvgfy1bDVJlCXzN5x6Zg5pw1VWgnOOELINqJBS1NbR75t3oPXONCj4KmZYWCYSLnfPO+Yvy/cvmxzo5cxFzRFu/QAbIk0I2NYk8je8+wK2zZIE0eWyMjJQwv+Y8aIHfsST727eU99LutoR8qd+9KmyCc/McScS3c/tezlH5yZV5fYXoMYnGVyavb0oZdP7//c/J1FUVsqbQhU1Mmz6RWzvQWlSQdMsWBttSOlYEwq4gxhf4+TmuIR4EhdGrOeuXVaNGh6NY6WiWUFQU0tfb16BLuMYTqjf/zcyltmjSGgHVWJhetr3l2xe+X2xqyjQ7ZRGLEISOsD008EYAqsbnRWbq8tjwc1QbsAEiIoRaYQ08aULduyLmQHQB1eurclE4WUhrK43a841HUOQCcGrqdFEFroLgLgAk3BEfHhq6ecfdc8qYkBdNzWm3QVAhFn7MEXVmzdmy6O2lIRYyiVunfOpJyk8+9999PtjbbBPQUYMHnA5FoDASlN0ZDxzvLKZz/YfNn0oVIqzhkAtdWUZJucCH7ytcmfbKzdU+fYBm+baOEpWQCAScOKQgGhFBFA0OTrdzbe/+yn98yexFhroiCv41rreA/V1GRhS6WG9YnYRktRjOcaInpfpx6xGbSmkGU896+K6be/ecbtb170wAc/fmHNim0J2xSFEcsQqDQdVDyB8lbU/tAzekAcsQdaSNMBoYttXh6BJnJcpbX2SqM7c4AQWr6Vt4NZU4YOQj5bIGgZADBhcPHtF4+tT+Y4x64fuBacLVpf9Ye3tsTDtlTEOdYnnVnH95k+pvzGxz5csq42GjAZY5yhYJhzVH3STeekd21ak22LHz23al8yy/L2K2LbBWIKQIReBcGfXz1ZStl5LA4RAMYNLJo+ujSRdb0YaiRoPPw/67/60PsL1+2tT+UcqTztxhh6NmTr9NfWmr6ywfnzOxtbL1dDMEMwwZkhmNGme/OhNhJDlqGIFGA4aEVapQLmG+wBUDemReQ76hGVxgL7B1jQEIfdUyMAZNhk7REAgGUIL18EEfdv2LXoXfSwC5zl+7UhIQM0OAKAlOqGL4x6e9me91dXx1plTTStm/x3XaXmPrlUamAIikApigTY3bMnZByXIV525mDS5Ll9eTqPQ20iu2xLvW0IRRQ0jY17Uw+9uOr+rx4nleas7faAeZ2ac+TZE/tee+6wX72yoThmt8ufbqacvzPrmLeX7aEmhyQcNF78cPdrn+zuXRgI2yJgcssUJodIyA6Z7NqZIyYMKmrx1ZpUsmWIH/z3p8/Nr+hbFLJNZgkM2qZtMM5ACD6kNNSD/K4mYq1oPyJIO1Iq7SVJCc5MwQzOGGtK2aRmNUfNZLXStHtf6kvH9z52aInWXbjqBAiwpbJBa89Yo0O9DPenkQXnnDMvfdEQaBoH7m9iCm4KxjkC5f1Xz3KwDCYYCi9kA/nsew1gMvbQ1ceefvvbUpPptXdHFBwER8/4M4T487yNC9fVFscsKckyeWVd5rYLRg0tL5BKPv6tkzu9jKwrz5r75srtyWhAaKLiqP2neVsuP3XI6P5xAgqYnDMmOCKCIbhtGp6+1JrmXjZx/qqqdbtT+boVRMHA4Plgk+Oqk0aVfmfWyPueWVVcEPBWYHHU1BqqGty9dY4mL1eSAKAh5eyoybx61xlehpbhPQ1s3pSNT7c2LNlUlw8MgpcqjZmcmjoyJnpaLzX/QXA4eWTJkPKgIXhj2t1ela6oSe5LOJmM0spb2V6GGxCAJvAC6bGguH7msB/OmWgaSJo6GvpEhAha06uLd9qmoEPf0wn3E7P1YoT19RlXmgSQTmRJH5juEAzrErmcqxlCMplLZV1vO2rMOFUNmYApFBEp2WwNS6WH94n/8Irx//GrDwOW4b1FwViyIZvKOgCwYXfDrX9aknN1VX0WALKOGt47/O0vj9ZEDJnyHIC2vqLSZBviR3MmzZg7L+tIBGCMpVLOjY9+9MrdMwKmyLq6tiGddU0gSKdz3kJCRCIK28ZD/znl7LlvVdZLhkBAnLFUYy6RdvIaR9Fdl000Bf/ta+v3NeaIgAAZEOQt+xZLKxwwXl+847n5W74ybUjOkYmGrCb0AqhN456wlUEMCMCQADRDfjjyGTjDumTuZ1dNvG7mMa1evN7XmN1Rk9lWmdheldq5L1XVkEtmnKyjACBkGb3i9tj+sdPGlY/oG/fGUWH73iKkNDBEzvGBF1Ys2VRfELbUYczLYQBANOeMoSP6FdgGtwTXWo0bGAegLltUIRLQsN7huZeOTjsKEFI5edzQYgCyDLzpSyN31mS83B1L8D5FIQDC/DQDfdWM4Qi0bldScDQ4WkI4Up0ypoSAGpKZq2YMMQ2OiLbgrpTTxpYXhi0v8bfTixEcldYnjy5/6OpJKyvqPRZPMBa0RSLjBAx+9YwhU4YX2oYwBEegUX0KAIihB009dUSv31w75cN11dGQZQpmGVxJPXFonIg87UtEt18yfvapg/+1tqqqLuMoyrnK6+7l7cOIaHAWMLkiKgxbAHTcsJL7vj7JMoX3EU1EmlRT6pnXVIkIOEdT8L6FJpbNea7HHXEER9LQssCdl407c0JfUxxc1zCv6LJlNmATSSQYAqLW+sEXPn3g72tDtjjkfhpjmMi400aXvHrnmV4+VFcOSrut4EAPpLPdo6Mh3OFQncKwy0IprfFAlc1EnZcMdXrM1hdDRO1rP9p+hpqCfN3nVfFg6rAT6fTh0LtEYArcsDt12U8XTBwcnzGx/ORjeh3Tr6AkFux4A97aap75w/KZxxoJWb4AM3+HGUfOW7brV6+sW7i2JhY2e2xG1YGXVrOZ7e2eB3wFWpNqXgneLCOGBKCaC9YIAIB3yE1sDk82fcqbK4PNB6SWmAB0J8qICJ4HAm1zuLDpXPnajw73hYgtX6QmwgRbKmQxn6udn/XYQghh+2fb/EWtvdxO7JJMavWbtKsOU/4uEQRMAQjLtzYsWl9rGWvKC+xB5ZFRfSLD+8YGlkb6lgR7RQOxkGEKAQDQuWqmhnR2977M6h31i9ZWv7+mcm1FgjGMR6yerHQ/AAnNWs8k6l7KGSJ0Wpp2wPrHDh/A/R+wmxZdN36O3b+Y9uHubqyg5vXQzbtARLPncnE6pR2AIGSJSEBoDTVJuXvNvvdWVhGQwTFoiWhQFIatwqhZFLULQ1Y0aFoGI6B0VjVm3Lpktro+V1mXqWrMJjJKEwRMEQ0ZANCzLRr8PpBHpDDGDnfNj6a8I24INA3BQBCCZyTUp1RNY0ruTHiUfnNtU75KiSHnzODM4DweFpjnIvzuCZ9PIc7wMytX9Cay67aer8EZYH7bwGbDqWXYZd5R83vh+MIQxRG0lJqK6Q7OV+rxy/Jb4xyBggDI/Mfw7xINvnxWqtd/BL6vdjSqE0Rf7/pydKIXfb3ry1G5FxIw397tpgvpi2/v+uLLIVK8SD52fV/N99V88eUwumro27u++Pau76v5crhNOR+7vvh61/fVfDm8Io505EDLCB0CoB4cA9jGTPDl6MUu7ufVttR5IpKmrnqwdewghnjgWq52Ilu6YAPrLK8eEQCwfZsjPNjzgOO2JFYanPkjLI/47bCTHEgCaoYj5Vs9UF7nERBRfnKq14rUNoygzTvNAc860uSt/RySGi2Ddx9VmqggJGIBrgg4YiKn6pJua1h5DZ2Ulk31JwSAmgiQG90eMuxVd/UtsgX3II9VjY4rdevyTl+OaL3LGDSm3Z98bfwZ43pnpOKIBPnOS0SkNWgCpUkRKKUdKXOu3l6ZfPZf25dsrosEzNaKzmu4/rOvT5g2uldOE0dUmkyOj7+18fE3NhdGbNmNlmGCs32N2Ru/NPyWWWPSORm0xJPvb/n2ox/Hw/nqNETISdUnbj/x7alhSzQfUSq64XeL1u5IBm1xwMIKRFAKAha8eMf03oVhpRVj7Lx73lm6qT5kCx8fRwd2EVBr3a8kMrxvvPvfv+qs4Tc+9tHTH+yIBI18H3OG9Sln5rFl/3nuqHYfvvOy0FtLd1c2SFN0RykSEViCWYZARFNw2+BtVwjLZnP/dcmY44eXtfvmvVdMvOD+97ttUhMCBi3DNgUAB0Bv3earcX1f7SjhGdBxtSbKuUppVZ/Kbq1s3FrZuGlvw4Zd9Wt31K3dUbdpT0N9KgdAUinHVZYh7r5iUlHEkFJ75eeuolhQ3PfViUTgSuU1+5BKO66Kh+y5l41LZ51OS/u7wC8QgVJE+b4MeRxxhg0pZ8bE8q+cMkQq3azIpdKuVGeM73PptP51Cad7rSAQACRRy4latZX3HbejxldDRK+jLWfimQ823PGX5ZGwmcq4SpGivFo1Ob70g+knjCyTQErriC2iISORyTKOgrHahux9V4wd3jvutWmXSq/eXjNuULFGUlpfevKQZz/YNm9Fh7Zw+yepsH2fMaUpYOA9V0xARG/K1d66lONS/5KQN47rzsvGz1u2O5UDzrsFP2x9oq68VF+OYL3bRpIZWZtygWhwWXj84PjUESUnjup14sji08aVFUYsyus/9vHG6oqqlGlwhpjMyOOGFlz/hVFae41O8NVPdp71g7crqpOIoDUg4g+vmBQ0YT9dJParHz1TGOuSuetmDh8/sEgqxQAQ8dY/fvKNRxYSotcPq29R5LaLxjamc5z9exy276sdPRxZy4uqbsgMKrVfu/P0QWVRwZk3mrCFBNBaKf3R+spb/rAUveJeAk3qvjkTg6bhSsUZa0g7P3p2ZU3Kve/Z5Y9/82TGSCo1dkDhdTNHPPjC6uJYUB78dBPGMJWVo/pGbj5/tNc+Rwj+9vJdr3y8Syp4ceG2C08c6JJWWl911vDnF2z7eGNDOCAOrhq+DeXm27tHld719sl+xfazt502qn+hbQrhtVtv8eU1Im6vSXz7sUWrKhpCtkCEuqQz+9QBp47t7f2WMfzlP1avqmgoi4ee/WD7grWVnDGvFcN3Zo0Z1TeaysmDGm5CRF5vuZwj77p8QixoKU2M8XTOvefpFYxxU/D7nv20Ie0KhqTJ4PzeORP5wXO9TU/Ax+xRhl2E/BAHNevEgZrU/NV7316+85XF2/6xaPv/LNr+2scVm/fUC45Eenjv+Lz7z/3CcaWJtCM19C40f3DpeK+RGGe4bmfdL15aG7a5Lcg02F/eXgdAjKEmigXNOy8f7zhy/+3TENt2jyPgnNUnc188vvesqf2V0ojEGf7+zY0L1lRbAuNhXlHV+PLCzd7sZKnUCSPKrjxjcH0yt/9mQa05Y2ppCEdt9yFfjgabQWltCOOlhTtufHxRSUHIcbVqMvsIIGiyt+49c/ygYsfVhWHrwasmn37721X1mfuvOK53YdiVymuAd8vvF08aGv/51VMKAgYXKDhKpRGBM6aUnjV1wBembHn14z0FIav1fI5mqHCGUuXH8+aVvQapqDhq3DN7kjeKQ3C2qzZ511PLrjxz0M1fHh0JGpxj0OSe4veGL3//4rH//GRXbVKagnUyqAPzTa29cAwCKq1zHmtBvrVwlGG3FW2kyTLtrKMVaQbIGDBEIPDarhMAZ6CJ+haFgiafOrLoa2cOV1oDAufs5UXbNu5OfPrI+XaHPuBaay+YddflE99fVa00ZXIy3z/ay1tAb+AhxMM4eVix1/pdEyWzTjaZvWnOuOG9Y95UV0Sc+9/LRg+I/fmmaR3vQZPWmkoLgt+/eOwNv1tkhq2GpIOYz43w0iQ4Yk7qsyaUFoZsTYQMcjmZyUnOGOXB6/tqRwl2qYlSJYJ01iVS3501ZlifqGkwU3BLMMPAIaWRfiURqbXWZHJW3eDUJjJ/uukkzrgrNWMs48g7n1w+YUjJh2v2OkrbhmAcEVFriAbYhMHFSoMr1ai+8etmDv/x86se/9YJ8ZCpibwxph4xIBgOLA0N6x2XSgEhQ1xTUT9iUPz6maOUVkQoBFu8serp97beNGv0vOU7FYFtcq/Nqauof0lgcGlUAyhFc04b8qe3NxoGv/2iMcmcZE0NzgBQMLBMftzQoqAlHKlNwepTTk1DTnCWzwDyfbWjBbuCMUQwBEOEdE7O/cqYOy6Z2Pk3GQKDtCO/+buFXz6+3wkjS5XWDIEzfOyN9Zt2J6vqndc/2en13faa6BIBop5331mThpR4TYW/f/H45/+1beXWup98fXKXl8i54LBuR/1LC3b88TsnBUzhSMUZaK3vfmq5ZZp/eHPTI6+uYwy9jvCMQSanxgyIvv/AuQFTKEWCs59eNfnCH//v0D7RASWRrk5kGRwAHnllbW3SjYVMpckH7VGDXURsyOTqU7mso4RgJ4zsNbxfwa7atFKKCBQRaVDU0vR40frqX76ydkd1+pNffkETKa0F55v2NP7yH+siAZMzFg1ZrX0ewbA+5dz51PJfXDOFMxSM2Qb/+oxhtzz+SXncnnP6UC9a4fWKlFq7SmuihpSzanvDPX9bcdqE8pnH9QMgUzAAfOq9De+tqo5HLNJkmm1OFLLNVdsTv39r/XXnjnYVgZIThxSeNKrXeXe987sbpvYuDNim4Ix5iUaaSLo6kXW3V6dfXLDthYU7IgGzJW7iGwxHqrTp2U8EYZtZgnlD+0zOckorTa3bkTdN7QQiaEy7jLHiqN2nyPa8cwTYl8hVNTitZ962ow5cqQ2BBkPBGQApwqxLOccti9v5zqREpEFqkkproqyrs44yDT60PFwQFIJzhsAQ1+xsTGSk6CxfzDuOIaBfUZAINEDOVRlHVdVnGcOwLUyRnyLlRZodV2ddnc65mjAWNJuzOr2komlj9tez35fPRIiond6FxowiUk0OODWTVNhudjwAAMRCFgEks+6n23LYssUzQ/CuOFUiMATTBFkJ5CrvpBwxaBk1jW5rdhm9UyJahgiYggi27E1JlW/L6A1nFF0kOnppja6EtbsSTR1RkTMM2gYRZF3KOLJ5KpZn0jDESNDCTjpR+77aUWPvtnZNsAN71ka818wQQ5Zo/ar3HwwggvzkOYbQFHMlok5m+zWNiVP5sXvMNloub/+jBT34BpumGXvdUfOZbk2nbofPzmNvvq92FPEM/w81ow8yckWdLYYDHqOLBr37O0un6D64e/TzGY5U+T+GzxpIWb+gswAAAABJRU5ErkJggg=="/>
     <div class="header-divider"></div>
     <div class="header-titles">
-      <h1>Finance Listening Portal</h1>
+      <h1>BFL Compliance Listening Portal</h1>
       <p>Bajaj Finserv </p>
     </div>
   </div>
@@ -312,11 +316,6 @@
       <span class="reg-full">Investor Education &amp; Protection</span>
       <span class="reg-count" id="count-IEPFA">—</span>
     </button>
-    <button class="reg-btn reg-egaz" data-reg="EGaz" onclick="selectReg('EGaz')">
-      <span class="reg-name">E-Gazette</span>
-      <span class="reg-full">Electronic Gazette of India</span>
-      <span class="reg-count" id="count-EGaz">—</span>
-    </button>
     <button class="reg-btn reg-mca" data-reg="MCA" onclick="selectReg('MCA')">
       <span class="reg-name">MCA</span>
       <span class="reg-full">Ministry of Corporate Affairs</span>
@@ -331,6 +330,11 @@
       <span class="reg-name">PCAOB</span>
       <span class="reg-full">Public Company Accounting Oversight Board</span>
       <span class="reg-count" id="count-PCAOB">—</span>
+    </button>
+    <button class="reg-btn reg-taxation" data-reg="TAXATION" onclick="selectReg('TAXATION')">
+      <span class="reg-name">Taxation</span>
+      <span class="reg-full">Income Tax, GST &amp; Case Law Updates</span>
+      <span class="reg-count" id="count-TAXATION">—</span>
     </button>
     <button class="reg-btn reg-newsletter" data-reg="NEWSLETTER" onclick="selectReg('NEWSLETTER')">
       <span class="reg-name">Newsletter</span>
@@ -365,11 +369,12 @@
             <th>DATE</th>
             <th>CATEGORY</th>
             <th>TITLE / DESCRIPTION</th>
+            <th>AI SUMMARY</th>
             <th>LINK</th>
           </tr>
         </thead>
         <tbody id="tableBody">
-          <tr class="state-row"><td colspan="5"><div class="spinner-wrap"><div class="mini-spin"></div>Loading data…</div></td></tr>
+          <tr class="state-row"><td colspan="6"><div class="spinner-wrap"><div class="mini-spin"></div>Loading data…</div></td></tr>
         </tbody>
       </table>
     </div>
@@ -466,14 +471,6 @@ const REGULATORS = {
       { label: 'Orders 7(3)&7(7)', cat: 'Orders',   rss: null, src: 'https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html',                   parser: 'iepfa' },
     ]
   },
-  EGaz: {
-    name: 'Electronic Gazette of India',
-    color: '#d35400',
-    tabs: [
-      { label: 'SEBI Updates', cat: 'SEBI/E-Gazette', rss: null, src: 'https://egazette.gov.in/SearchMinistry.aspx', parser: 'egazette', note: 'Requires date-wise search on site. Click ↗ Visit Source.' },
-      { label: 'MCA Updates',  cat: 'MCA/E-Gazette',  rss: null, src: 'https://egazette.gov.in/SearchMinistry.aspx', parser: 'egazette', note: 'Requires date-wise search on site. Click ↗ Visit Source.' },
-    ]
-  },
   MCA: {
     name: 'Ministry of Corporate Affairs',
     color: '#16a085',
@@ -516,16 +513,35 @@ const REGULATORS = {
       // ticker pages with no dates. Switched to a confirmed-working article listing page.
       { label: 'Economic Times',    cat: 'News', rss: null, src: 'https://economictimes.indiatimes.com/news/economy/articlelist/1286551815.cms', parser: 'generic' },
       { label: 'Business Standard', cat: 'News', rss: 'https://www.business-standard.com/rss/latest.rss',                     src: 'https://www.business-standard.com/finance',                        parser: 'bs_smallcard' },
-      // Reuters killed public RSS in 2020; the Google News RSS workaround turned out to be
-      // unreliable for automated/CI traffic too (401/403 based on IP reputation) — scraping
-      // Reuters' own business page directly instead.
-      // Reuters Business removed — persistently blocked by Akamai bot protection even via
-      // headless browser (confirmed), same reasoning as documented in scraper/sources.js.
-      { label: 'CNBC Business',     cat: 'News', rss: 'https://www.cnbc.com/id/19206666/device/rss/rss.html',                 src: 'https://www.cnbc.com/finance/',                                    parser: 'generic' },
+      // Reuters killed public RSS in 2020; the Google News RSS workaround was also
+      // unreliable for automated traffic (401/403 based on IP reputation), and direct
+      // headless scraping of reuters.com hit Akamai bot protection too — removed.
+      //
+      // CNBC Business, MarketWatch Top Stories, and Financial Times removed — all three
+      // fetched successfully on every run (no errors) but consistently returned 0 rows
+      // after keyword filtering across many consecutive runs, even after fixing CNBC's
+      // feed ID and broadening the keyword list twice. Unlike Indian Express/Moneycontrol
+      // (confirmed working at least some of the time), these three never produced usable
+      // content.
       { label: 'Yahoo Finance',     cat: 'News', rss: 'https://finance.yahoo.com/news/rssindex',                              src: 'https://finance.yahoo.com/topic/banking/',                         parser: 'generic' },
-      { label: 'MarketWatch Top Stories', cat: 'News', rss: 'https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines', src: 'https://www.marketwatch.com/economy-politics',                     parser: 'generic' },
       { label: 'Moneycontrol',      cat: 'News', rss: 'https://www.moneycontrol.com/rss/latestnews.xml',                       src: 'https://www.moneycontrol.com/news/business/banks/',                parser: 'generic' },
-      { label: 'Financial Times',   cat: 'News', rss: 'https://www.ft.com/rss/home',                                          src: 'https://www.ft.com/banks',                                          parser: 'generic' },
+      // ETBFSI's whole site is already Banking/Financial Services/Insurance news — no
+      // keyword filter applied server-side, since everything here is already on-topic.
+      { label: 'ETBFSI',            cat: 'News', rss: null,                                                                    src: 'https://bfsi.economictimes.indiatimes.com/',                       parser: 'generic' },
+    ]
+  },
+  TAXATION: {
+    name: 'Taxation — Direct & Indirect Tax',
+    color: '#b45309',
+    tabs: [
+      // Order must match scraper/sources.js TAXATION.tabs exactly.
+      { label: 'Income Tax Circulars',     cat: 'Circulars',    rss: 'https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss',    src: 'https://www.incometaxindia.gov.in/circulars',      parser: 'generic' },
+      { label: 'Income Tax Notifications', cat: 'Notifications',rss: 'https://www.incometaxindia.gov.in/notification-rss-feed/-/asset_publisher/bxhj/rss', src: 'https://www.incometaxindia.gov.in/notifications',   parser: 'generic' },
+      { label: 'Direct Tax Case Laws',     cat: 'Case Law',     rss: 'https://itatonline.org/feed/',                                                       src: 'https://itatonline.org/archives/',                 parser: 'generic' },
+      { label: 'Indirect Tax Circulars',   cat: 'Circulars',    rss: null,                                                                                  src: 'https://cbic-gst.gov.in/circulars-cgst.html',      parser: 'generic' },
+      { label: 'Indirect Tax Notifications', cat: 'Notifications', rss: null,                                                                               src: 'https://cbic-gst.gov.in/',                          parser: 'generic' },
+      { label: 'Indirect Tax Case Laws',   cat: 'Case Law',     rss: 'https://taxguru.in/feed',                                                            src: 'https://taxguru.in/type/goods-and-service-tax',    parser: 'generic' },
+      { label: 'Law Updates',              cat: 'Law Update',   rss: 'https://taxguru.in/feed',                                                            src: 'https://taxguru.in/type/income-tax',               parser: 'generic' },
     ]
   }
 };
@@ -645,7 +661,7 @@ async function loadTab(forceRefresh = false) {
     return acc + (e?.newCount || 0);
   }, 0);
   const countEl = document.getElementById('count-' + regKey);
-  if (countEl && regKey !== 'EGaz') countEl.textContent = allRegNew > 0 ? `${allRegNew} new` : '0 new';
+  if (countEl) countEl.textContent = allRegNew > 0 ? `${allRegNew} new` : '0 new';
 
   document.getElementById('panelCount').textContent = rows.length;
   setLoading(false);
@@ -695,14 +711,6 @@ function fallbackRows(reg, cat, src, isFileProtocol = false, errMsg = '') {
   const reason = isFileProtocol
     ? 'Data source not configured — see the yellow banner above.'
     : 'Live fetch failed' + (errMsg ? ': ' + errMsg.substring(0,120) : '') + '. Click Refresh, or visit the source directly for the latest updates.';
-  // E-Gazette genuinely can't be scraped (session-based search form), so this note is
-  // accurate guidance rather than a placeholder — safe to show as-is.
-  if (reg === 'EGaz') {
-    return [{ sr: 1, date: '—', year: null, cat,
-      title: 'E-Gazette requires a manual date-range search',
-      desc: 'Path: E-Gazette → Search → Ministry → SEBI/MCA → Date Wise → Select date range → Submit',
-      link: src }];
-  }
   // IMPORTANT: never fabricate plausible-sounding circular titles here. A compliance tool
   // showing invented content that looks real (even with a caveat) risks being mistaken for
   // an actual update. Show one honest, clearly-labeled "no data" row instead.
@@ -729,7 +737,7 @@ function renderRows() {
   const tbody = document.getElementById('tableBody');
   tbody.innerHTML = '';
   if (!filteredRows.length) {
-    tbody.innerHTML = '<tr class="state-row"><td colspan="5">No results found.</td></tr>';
+    tbody.innerHTML = '<tr class="state-row"><td colspan="6">No results found.</td></tr>';
     document.getElementById('footerInfo').textContent = '0 items';
     return;
   }
@@ -743,6 +751,7 @@ function renderRows() {
         <span class="title-main">${esc(r.title)}${r.isNew ? '<span class="row-new-badge">NEW</span>' : ''}</span>
         ${r.desc ? `<span class="title-desc">${esc(r.desc.substring(0,160))}</span>` : ''}
       </td>
+      <td class="summary-col">${r.summary ? `<span class="ai-summary-text">${esc(r.summary)}</span>` : `<span class="ai-error">Not summarized yet</span>`}</td>
       <td class="link-col">${r.link ? `<a class="link-open" href="${esc(r.link)}" target="_blank">Open</a>` : '—'}</td>
     `;
     tbody.appendChild(tr);
@@ -772,7 +781,7 @@ function setLoading(on) {
   document.getElementById('refreshBtn').classList.toggle('spinning', on);
   if (on) {
     document.getElementById('tableBody').innerHTML =
-      '<tr class="state-row"><td colspan="5"><div class="spinner-wrap"><div class="mini-spin"></div>Loading live data…</div></td></tr>';
+      '<tr class="state-row"><td colspan="6"><div class="spinner-wrap"><div class="mini-spin"></div>Loading live data…</div></td></tr>';
   }
 }
 
@@ -783,13 +792,6 @@ function populateAllCounts() {
   Object.keys(REGULATORS).forEach(reg => {
     const el = document.getElementById('count-' + reg);
     if (!el) return;
-    if (reg === 'EGaz') {
-      // E-Gazette has no browsable list to scrape — it's a manual date-range search form.
-      // Showing "0" here reads as a failure; it isn't one, so label it clearly instead.
-      el.textContent = 'Manual Search';
-      el.classList.add('reg-count-label');
-      return;
-    }
     // Shows count of items NEW since the last scrape (dated today/yesterday and not seen
     // before), not the total row count — a compliance tracker's front page should surface
     // "what changed" at a glance, not an ever-growing total that's the same information
