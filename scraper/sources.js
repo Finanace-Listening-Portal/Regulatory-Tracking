@@ -75,13 +75,13 @@ module.exports = {
         // Confirmed via debug HTML: this page's actual circular list is a Liferay "client
         // extension" widget that loads its content asynchronously — the standard settle
         // wait wasn't enough, resulting in an empty page shell being captured. Longer wait.
-        htmlParse: 'generic', headless: true, extraWaitMs: 8000,
+        htmlParse: 'generic', headless: true, extraWaitMs: 15000,
       },
       {
         key: 'TAXATION_1', label: 'Income Tax Notifications', cat: 'Notifications',
         rss: 'https://www.incometaxindia.gov.in/notification-rss-feed/-/asset_publisher/bxhj/rss',
         src: 'https://www.incometaxindia.gov.in/notifications',
-        htmlParse: 'generic', headless: true, extraWaitMs: 8000,
+        htmlParse: 'generic', headless: true, extraWaitMs: 15000,
       },
       {
         // itatonline.org — a well-known, long-running free resource for Indian Income Tax
