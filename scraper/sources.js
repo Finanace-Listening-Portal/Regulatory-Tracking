@@ -39,15 +39,108 @@ const GLOBAL_BANKING_KEYWORDS = [
   'emerging market bank', 'global bank', 'bank earnings', 'bank stock',
 ];
 
+// Differentiates two tabs pulling from the same TaxGuru feed: Law Updates (circulars,
+// notifications, amendments, Finance Bill changes) vs Case Laws (actual tribunal/court
+// rulings). TaxGuru mixes both in one feed, so we split by keyword rather than needing two
+// separate source URLs.
+const TAX_LAW_UPDATE_KEYWORDS = [
+  'notification', 'circular', 'cbdt', 'cbic', 'amendment', 'finance bill', 'finance act',
+  'gst council', 'gst rate', 'income-tax rules', 'income tax rules', 'itr form',
+  'due date extended', 'clarification', 'press release', 'budget 202',
+];
+const TAX_CASE_LAW_KEYWORDS = [
+  'itat', 'tribunal', 'high court', 'supreme court', 'hc ', ' sc ', 'judgment', 'judgement',
+  'ruling', 'order', 'aar ', 'aaar', 'bench', 'appeal', 'writ petition', 'quash', 'held that',
+  'deletes', 'allows', 'dismisses', 'upholds',
+];
+
+// Differentiates Indirect Tax case laws (CESTAT/customs/excise/GST tribunal rulings) from
+// TaxGuru's mixed feed, the same way TAX_LAW_UPDATE/CASE_LAW keywords do for Direct Tax.
+const TAX_INDIRECT_CASE_LAW_KEYWORDS = [
+  'cestat', 'customs', 'excise', 'gst tribunal', 'gstat', 'aar ', 'aaar',
+  'anti-profiteering', 'naa ', 'high court', 'supreme court', 'writ petition',
+  'input tax credit', 'itc ', 'show cause notice', 'appellate', 'tribunal', 'ruling',
+];
+
 module.exports = {
+  TAXATION: {
+    tabs: [
+      // ── Direct Tax (Income Tax) ──
+      {
+        // Confirmed directly from incometaxindia.gov.in's own official RSS subscription
+        // page (/tax-feeds) — a real, dedicated department feed, not a guessed URL.
+        key: 'TAXATION_0', label: 'Income Tax Circulars', cat: 'Circulars',
+        rss: 'https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss',
+        src: 'https://www.incometaxindia.gov.in/circulars',
+        htmlParse: 'generic', headless: true,
+      },
+      {
+        key: 'TAXATION_1', label: 'Income Tax Notifications', cat: 'Notifications',
+        rss: 'https://www.incometaxindia.gov.in/notification-rss-feed/-/asset_publisher/bxhj/rss',
+        src: 'https://www.incometaxindia.gov.in/notifications',
+        htmlParse: 'generic', headless: true,
+      },
+      {
+        // itatonline.org — a well-known, long-running free resource for Indian Income Tax
+        // Appellate Tribunal (ITAT) and higher-court case law. RSS URL follows the standard
+        // WordPress /feed/ convention but wasn't individually confirmed — the existing
+        // preferHtml-style RSS→HTML fallback in scrapeTab handles a wrong guess gracefully.
+        key: 'TAXATION_2', label: 'Direct Tax Case Laws', cat: 'Case Law',
+        rss: 'https://itatonline.org/feed/',
+        src: 'https://itatonline.org/archives/',
+        htmlParse: 'generic', headless: true,
+      },
+      // ── Indirect Tax (GST, Customs, Central Excise) ──
+      {
+        // cbic-gst.gov.in is CBIC's actual current GST portal domain (confirmed via live
+        // content, distinct from the older cbic.gov.in used here previously) — real recent
+        // circulars visible directly on this page as of research time.
+        key: 'TAXATION_3', label: 'Indirect Tax Circulars', cat: 'Circulars',
+        rss: null,
+        src: 'https://cbic-gst.gov.in/circulars-cgst.html',
+        htmlParse: 'generic', headless: true,
+      },
+      {
+        // No confirmed direct notifications-only URL — CBIC's portal mixes notification
+        // announcements into its homepage ticker. Using the homepage itself; the generic
+        // parser's date-required passes should still filter to real dated items.
+        key: 'TAXATION_4', label: 'Indirect Tax Notifications', cat: 'Notifications',
+        rss: null,
+        src: 'https://cbic-gst.gov.in/',
+        htmlParse: 'generic', headless: true,
+      },
+      {
+        // Same TaxGuru feed as Law Updates/Direct Tax Case Laws, filtered instead to
+        // indirect-tax-specific tribunal/court keywords (CESTAT, customs, excise, GST AAR).
+        key: 'TAXATION_5', label: 'Indirect Tax Case Laws', cat: 'Case Law',
+        rss: 'https://taxguru.in/feed',
+        src: 'https://taxguru.in/type/goods-and-service-tax',
+        htmlParse: 'generic', keywordFilter: TAX_INDIRECT_CASE_LAW_KEYWORDS, maxAgeDays: 5,
+      },
+      // ── General ──
+      {
+        // Confirmed real, established RSS feed (98K+ Facebook followers, long-running site)
+        // via independent RSS directory listings — taxguru.in covers day-to-day tax law
+        // updates, amendments, and commentary across Income Tax, GST, and Company Law.
+        key: 'TAXATION_6', label: 'Law Updates', cat: 'Law Update',
+        rss: 'https://taxguru.in/feed',
+        src: 'https://taxguru.in/type/income-tax',
+        htmlParse: 'generic',
+      },
+    ]
+  },
   NEWSLETTER: {
     tabs: [
       {
         // indianexpress.com/feed/ is EVERY article on the site — politics, sports,
         // entertainment, all mixed in — so on any given run almost nothing matches a
         // banking keyword purely by chance. Switched to their actual Business section feed.
+        // Also hit an intermittent 403 on plain fetch (confirmed it works fine most runs —
+        // 3 real rows were captured previously) — added headless fallback for resilience,
+        // same pattern already proven for Business Standard's similar intermittent block.
         key: 'NEWSLETTER_0', label: 'Indian Express', cat: 'News',
         rss: 'https://indianexpress.com/section/business/feed/',
+        rssHeadlessFallback: true,
         src: 'https://indianexpress.com/section/business/banking-and-finance/',
         htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5,
       },
@@ -81,44 +174,43 @@ module.exports = {
       // of reuters.com hit Akamai bot protection (401) too. Confirmed independently (a plain
       // fetch from an unrelated tool got the same block), so this isn't fixable without paid
       // anti-bot/residential-proxy infrastructure. Re-add if that tradeoff becomes worth it.
+      //
+      // CNBC Business, MarketWatch Top Stories, and Financial Times removed — all three
+      // fetched successfully (no HTTP errors) on every run but consistently returned 0 rows
+      // after keyword filtering across many consecutive runs, even after: fixing CNBC's feed
+      // ID, switching MarketWatch to a more rate-focused feed, and broadening the global
+      // keyword list twice. Unlike Indian Express/Moneycontrol (confirmed working at least
+      // some of the time, just intermittently blocked), these three never produced usable
+      // content, so removing rather than continuing to guess. Re-add with a fresh look if
+      // ever revisited.
       {
-        // id=10001147 was actually CNBC's "CEOs Speak" niche feed, not general Business news
-        // — confirmed against CNBC's own RSS catalog. id=19206666 is their real Business feed.
-        key: 'NEWSLETTER_4', label: 'CNBC Business', cat: 'News',
-        rss: 'https://www.cnbc.com/id/19206666/device/rss/rss.html',
-        src: 'https://www.cnbc.com/finance/',
-        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS, maxAgeDays: 5,
-      },
-      {
-        key: 'NEWSLETTER_5', label: 'Yahoo Finance', cat: 'News',
+        key: 'NEWSLETTER_4', label: 'Yahoo Finance', cat: 'News',
         rss: 'https://finance.yahoo.com/news/rssindex',
         src: 'https://finance.yahoo.com/topic/banking/',
         htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS, maxAgeDays: 5,
       },
       {
-        // mw_topstories is confirmed live but skews toward general/human-interest content
-        // (Tesla, social security columns, M&A) that rarely mentions banking specifically.
-        // mw_realtimeheadlines is more market/rate-moves focused — confirmed via real content
-        // sample including Fed/Bank of England/Swiss National Bank rate coverage.
-        key: 'NEWSLETTER_6', label: 'MarketWatch Top Stories', cat: 'News',
-        rss: 'https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines',
-        src: 'https://www.marketwatch.com/economy-politics',
-        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS, maxAgeDays: 5,
-      },
-      {
         // MCtopnews.xml turned out to be unreliable in practice (debug dump showed it
         // landing on an unrelated article page instead of real feed content). latestnews.xml
-        // is confirmed across multiple independent RSS directories as the real, stable feed.
-        key: 'NEWSLETTER_7', label: 'Moneycontrol', cat: 'News',
+        // is confirmed across multiple independent RSS directories as the real, stable feed
+        // — but has also hit an intermittent 404. Added headless fallback the same way as
+        // Indian Express/Business Standard rather than hunting for yet another URL.
+        key: 'NEWSLETTER_5', label: 'Moneycontrol', cat: 'News',
         rss: 'https://www.moneycontrol.com/rss/latestnews.xml',
+        rssHeadlessFallback: true,
         src: 'https://www.moneycontrol.com/news/business/banks/',
         htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5,
       },
       {
-        key: 'NEWSLETTER_8', label: 'Financial Times', cat: 'News',
-        rss: 'https://www.ft.com/rss/home',
-        src: 'https://www.ft.com/banks',
-        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS, maxAgeDays: 5,
+        // ETBFSI is Economic Times' dedicated Banking/Financial Services/Insurance vertical
+        // — confirmed real domain via ETBFSI's own social profiles. No keyword filter here:
+        // everything on this vertical is already BFSI-relevant by definition, so filtering
+        // by bank-name keywords would just discard genuinely relevant coverage that happens
+        // not to name a specific bank (e.g. sector-wide fintech/regulatory pieces).
+        key: 'NEWSLETTER_6', label: 'ETBFSI', cat: 'News',
+        rss: null,
+        src: 'https://bfsi.economictimes.indiatimes.com/',
+        htmlParse: 'generic', headless: true, maxAgeDays: 5,
       },
     ]
   },
