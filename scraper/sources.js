@@ -72,13 +72,16 @@ module.exports = {
         key: 'TAXATION_0', label: 'Income Tax Circulars', cat: 'Circulars',
         rss: 'https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss',
         src: 'https://www.incometaxindia.gov.in/circulars',
-        htmlParse: 'generic', headless: true,
+        // Confirmed via debug HTML: this page's actual circular list is a Liferay "client
+        // extension" widget that loads its content asynchronously — the standard settle
+        // wait wasn't enough, resulting in an empty page shell being captured. Longer wait.
+        htmlParse: 'generic', headless: true, extraWaitMs: 8000,
       },
       {
         key: 'TAXATION_1', label: 'Income Tax Notifications', cat: 'Notifications',
         rss: 'https://www.incometaxindia.gov.in/notification-rss-feed/-/asset_publisher/bxhj/rss',
         src: 'https://www.incometaxindia.gov.in/notifications',
-        htmlParse: 'generic', headless: true,
+        htmlParse: 'generic', headless: true, extraWaitMs: 8000,
       },
       {
         // itatonline.org — a well-known, long-running free resource for Indian Income Tax
@@ -207,10 +210,15 @@ module.exports = {
         // everything on this vertical is already BFSI-relevant by definition, so filtering
         // by bank-name keywords would just discard genuinely relevant coverage that happens
         // not to name a specific bank (e.g. sector-wide fintech/regulatory pieces).
+        // Confirmed real, relevant articles genuinely exist here (RBI rate pause, Bajaj
+        // Housing Finance coverage) — the generic date-requiring parser was rejecting all
+        // of them because publish dates aren't in plain text near the article links on this
+        // site. Switched to the dateless link-list parser instead; no keyword filter applies
+        // here anyway, so losing date precision costs nothing relevance-wise.
         key: 'NEWSLETTER_6', label: 'ETBFSI', cat: 'News',
         rss: null,
         src: 'https://bfsi.economictimes.indiatimes.com/',
-        htmlParse: 'generic', headless: true, maxAgeDays: 5,
+        htmlParse: 'linklist', headless: true, linkMustInclude: '/articles/',
       },
     ]
   },

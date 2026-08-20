@@ -424,7 +424,7 @@ function parseCardFeed(html, base, cat, maxRows = DEFAULT_MAX_ROWS) {
 }
 
 /* ── Link-list parser (SEBI FAQ style — no dates by nature) ── */
-function parseLinkList(html, base, cat, maxRows = DEFAULT_MAX_ROWS) {
+function parseLinkList(html, base, cat, maxRows = DEFAULT_MAX_ROWS, linkMustInclude = null) {
   const $ = stripChrome(cheerio.load(html));
   const rows = [];
   const seen = new Set();
@@ -432,8 +432,10 @@ function parseLinkList(html, base, cat, maxRows = DEFAULT_MAX_ROWS) {
     if (rows.length >= maxRows) return;
     const t = $(a).text().trim();
     if (t.length < 10 || seen.has(t) || NAV_WORDS.has(t.toLowerCase()) || IS_URL_RE.test(t)) return;
+    const href = $(a).attr('href') || '';
+    if (linkMustInclude && !href.includes(linkMustInclude)) return;
     seen.add(t);
-    rows.push({ sr: rows.length + 1, date: '—', year: null, cat, title: t, desc: '', link: resolveLink($(a).attr('href') || '', base) });
+    rows.push({ sr: rows.length + 1, date: '—', year: null, cat, title: t, desc: '', link: resolveLink(href, base) });
   });
   return rows;
 }
@@ -739,7 +741,7 @@ async function scrapeTab(tab, cat) {
   if (tab.preferHtml && tab.src) {
     try {
       const html = await (tab.headless
-        ? fetchViaHeadlessBrowser(tab.src, 45000, { clickButtonText: tab.clickButtonText, warmupUrl: tab.warmupUrl })
+        ? fetchViaHeadlessBrowser(tab.src, 45000, { clickButtonText: tab.clickButtonText, warmupUrl: tab.warmupUrl, extraWaitMs: tab.extraWaitMs })
         : fetchWithRetry(tab.src));
       const rows = runHtmlParser(tab, html, cat);
       if (rows.length >= MIN_ACCEPTABLE_HTML_ROWS) return rows;
@@ -791,7 +793,7 @@ async function scrapeTab(tab, cat) {
   }
 
   const html = tab.headless
-    ? await fetchViaHeadlessBrowser(tab.src, 45000, { clickButtonText: tab.clickButtonText, warmupUrl: tab.warmupUrl })
+    ? await fetchViaHeadlessBrowser(tab.src, 45000, { clickButtonText: tab.clickButtonText, warmupUrl: tab.warmupUrl, extraWaitMs: tab.extraWaitMs })
     : await fetchWithRetry(tab.src);
   const rows = runHtmlParser(tab, html, cat);
   if (rows.length < 3) dumpDebugHtml(tab.key, html);
@@ -827,7 +829,7 @@ function runHtmlParser(tab, html, cat) {
   const maxRows = tab.maxRows || DEFAULT_MAX_ROWS;
   let rows;
   switch (tab.htmlParse) {
-    case 'linklist':      rows = parseLinkList(html, tab.src, cat, maxRows); break;
+    case 'linklist':      rows = parseLinkList(html, tab.src, cat, maxRows, tab.linkMustInclude); break;
     case 'nse_next_data': rows = parseNSENextData(html, tab.src, cat, maxRows); break;
     case 'rbi_nav_tree':  rows = parseRBINavTree(html, tab.src, cat, maxRows); break;
     case 'mca_marquee':   rows = parseMCAMarquee(html, tab.src, cat, maxRows); break;
@@ -928,8 +930,11 @@ async function fetchViaHeadlessBrowserOnce(url, timeoutMs, opts = {}) {
     await dismissAnyModal();
     // Give client-side rendering a moment to settle after the network goes idle —
     // some sites still run a final render pass (e.g. React hydration) after their
-    // last network request completes.
-    await new Promise(r => setTimeout(r, 2500));
+    // last network request completes. Some sites (confirmed: incometaxindia.gov.in's
+    // Liferay "client extension" widgets) load their actual content via a slower,
+    // separate async call well after networkidle2 fires — those pass a longer
+    // opts.extraWaitMs to give the widget time to actually populate.
+    await new Promise(r => setTimeout(r, opts.extraWaitMs || 2500));
 
     // Verify we actually landed on (roughly) the intended page rather than being bounced
     // elsewhere (e.g. redirected to the homepage) — if the path looks wrong, try navigating
