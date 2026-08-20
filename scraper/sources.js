@@ -88,9 +88,14 @@ module.exports = {
         // Appellate Tribunal (ITAT) and higher-court case law. RSS URL follows the standard
         // WordPress /feed/ convention but wasn't individually confirmed — the existing
         // preferHtml-style RSS→HTML fallback in scrapeTab handles a wrong guess gracefully.
+        // /archives/ turned out to be a taxonomy/browse page (court names, judge names,
+        // section tags), not a judgment listing — confirmed against real captured output,
+        // which was scraping "Bombay High Court" and "Abhay Ahuja J" as if they were case
+        // titles. /archives/category/all-judgements/ is the real listing with actual
+        // judgment content, confirmed via live search results.
         key: 'TAXATION_2', label: 'Direct Tax Case Laws', cat: 'Case Law',
-        rss: 'https://itatonline.org/feed/',
-        src: 'https://itatonline.org/archives/',
+        rss: null,
+        src: 'https://itatonline.org/archives/category/all-judgements/',
         htmlParse: 'generic', headless: true,
       },
       // ── Indirect Tax (GST, Customs, Central Excise) ──
@@ -198,11 +203,17 @@ module.exports = {
         // is confirmed across multiple independent RSS directories as the real, stable feed
         // — but has also hit an intermittent 404. Added headless fallback the same way as
         // Indian Express/Business Standard rather than hunting for yet another URL.
+        // The RSS URL now returns HTTP 404 even via the headless-browser retry (not just
+        // the plain fetch) — that's a different signal than the earlier intermittent
+        // block, since headless replicates a real browser and still failed. Most likely
+        // the URL itself has moved or been retired on Moneycontrol's end, not worth
+        // continuing to guess at RSS variants. Going straight to headless HTML scraping
+        // of the actual banks-news page instead, same proven approach as Business
+        // Standard and ETBFSI.
         key: 'NEWSLETTER_5', label: 'Moneycontrol', cat: 'News',
-        rss: 'https://www.moneycontrol.com/rss/latestnews.xml',
-        rssHeadlessFallback: true,
+        rss: null,
         src: 'https://www.moneycontrol.com/news/business/banks/',
-        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5,
+        htmlParse: 'generic', headless: true, keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5,
       },
       {
         // ETBFSI is Economic Times' dedicated Banking/Financial Services/Insurance vertical
