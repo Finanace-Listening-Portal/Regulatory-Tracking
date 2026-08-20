@@ -75,13 +75,13 @@ module.exports = {
         // Confirmed via debug HTML: this page's actual circular list is a Liferay "client
         // extension" widget that loads its content asynchronously — the standard settle
         // wait wasn't enough, resulting in an empty page shell being captured. Longer wait.
-        htmlParse: 'generic', headless: true, extraWaitMs: 15000,
+        htmlParse: 'generic', headless: true, extraWaitMs: 15000, pierceShadowDOM: true,
       },
       {
         key: 'TAXATION_1', label: 'Income Tax Notifications', cat: 'Notifications',
         rss: 'https://www.incometaxindia.gov.in/notification-rss-feed/-/asset_publisher/bxhj/rss',
         src: 'https://www.incometaxindia.gov.in/notifications',
-        htmlParse: 'generic', headless: true, extraWaitMs: 15000,
+        htmlParse: 'generic', headless: true, extraWaitMs: 15000, pierceShadowDOM: true,
       },
       {
         // itatonline.org — a well-known, long-running free resource for Indian Income Tax
@@ -230,6 +230,10 @@ module.exports = {
         rss: null,
         src: 'https://bfsi.economictimes.indiatimes.com/',
         htmlParse: 'linklist', headless: true, linkMustInclude: '/articles/',
+        // The listing page has no dates at all, but each article's own page shows a real
+        // "Published On ..." date (confirmed) — fetched via standard SEO metadata instead
+        // of screen-scraping that exact phrase, since the visible text format may vary.
+        fetchDateFromArticle: true,
       },
     ]
   },
