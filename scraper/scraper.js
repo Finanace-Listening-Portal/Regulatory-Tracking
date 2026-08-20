@@ -741,7 +741,7 @@ async function scrapeTab(tab, cat) {
   if (tab.preferHtml && tab.src) {
     try {
       const html = await (tab.headless
-        ? fetchViaHeadlessBrowser(tab.src, 45000, { clickButtonText: tab.clickButtonText, warmupUrl: tab.warmupUrl, extraWaitMs: tab.extraWaitMs })
+        ? fetchViaHeadlessBrowser(tab.src, 45000, { clickButtonText: tab.clickButtonText, warmupUrl: tab.warmupUrl, extraWaitMs: tab.extraWaitMs, pierceShadowDOM: tab.pierceShadowDOM })
         : fetchWithRetry(tab.src));
       const rows = runHtmlParser(tab, html, cat);
       if (rows.length >= MIN_ACCEPTABLE_HTML_ROWS) return rows;
@@ -793,7 +793,7 @@ async function scrapeTab(tab, cat) {
   }
 
   const html = tab.headless
-    ? await fetchViaHeadlessBrowser(tab.src, 45000, { clickButtonText: tab.clickButtonText, warmupUrl: tab.warmupUrl, extraWaitMs: tab.extraWaitMs })
+    ? await fetchViaHeadlessBrowser(tab.src, 45000, { clickButtonText: tab.clickButtonText, warmupUrl: tab.warmupUrl, extraWaitMs: tab.extraWaitMs, pierceShadowDOM: tab.pierceShadowDOM })
     : await fetchWithRetry(tab.src);
   const rows = runHtmlParser(tab, html, cat);
   if (rows.length < 3) dumpDebugHtml(tab.key, html);
@@ -967,6 +967,33 @@ async function fetchViaHeadlessBrowserOnce(url, timeoutMs, opts = {}) {
       } else {
         console.warn(`  [headless] clickButtonText "${opts.clickButtonText}" not found on page`);
       }
+    }
+
+    if (opts.pierceShadowDOM) {
+      // Some widgets (suspected: incometaxindia.gov.in's Liferay "client extension" —
+      // page size grew substantially with a longer wait, confirming content DOES load,
+      // yet the parser still found nothing, which rules out a plain timing issue) render
+      // their actual content inside a Shadow DOM. That's invisible to page.content()
+      // entirely, no matter how long you wait — it's a different DOM tree, not slow
+      // content. This walks the full tree, and for any element with a shadow root, clones
+      // that shadow content into a plain visible wrapper appended as a normal child, so it
+      // shows up in the eventual page.content() call.
+      await page.evaluate(() => {
+        function pierce(root) {
+          const walker = document.createTreeWalker(root, NodeFilter.SHOW_ELEMENT);
+          let node = walker.currentNode;
+          do {
+            if (node.shadowRoot) {
+              const wrapper = document.createElement('div');
+              wrapper.setAttribute('data-shadow-extracted', 'true');
+              wrapper.innerHTML = node.shadowRoot.innerHTML;
+              node.appendChild(wrapper);
+              pierce(node.shadowRoot);
+            }
+          } while ((node = walker.nextNode()));
+        }
+        pierce(document.body);
+      }).catch(() => {});
     }
 
     return await page.content();
@@ -1288,6 +1315,64 @@ async function enrichWithAISummaries(output, previous) {
   console.log(`\n[ai-summary] ${summarized} new, ${carried} carried over${capped ? `, ${capped} deferred to next run (raise MAX_NEW_SUMMARIES_PER_RUN if this happens often)` : ''}.`);
 }
 
+/* ── Fetch real dates from individual article pages ──
+   Some sites (confirmed: ETBFSI) don't show a publish date on the listing page at all, but
+   DO show one on each article's own page — e.g. "Published On Aug 20, 2026 at 02:52 PM IST".
+   Rather than a fragile text-search for that exact phrase (which varies by site/template),
+   this looks for the standard SEO metadata almost every modern news site embeds regardless
+   of what it shows visually: the Open Graph article:published_time meta tag, or the
+   schema.org datePublished field in JSON-LD structured data. Uses a plain (non-headless)
+   fetch per article — much cheaper than a full headless page load, and most sites that
+   block scraping at the listing level still allow individual article pages through, since
+   those are what search engines and social-media link previews need to access. */
+async function fetchArticleDate(url) {
+  try {
+    const html = await fetchText(url, 10000);
+    // Open Graph / standard meta tag
+    let m = html.match(/<meta[^>]+property=["']article:published_time["'][^>]+content=["']([^"']+)["']/i);
+    if (m) return m[1];
+    m = html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']article:published_time["']/i);
+    if (m) return m[1];
+    // schema.org JSON-LD
+    m = html.match(/"datePublished"\s*:\s*"([^"]+)"/i);
+    if (m) return m[1];
+    return null;
+  } catch (e) {
+    return null;
+  }
+}
+
+/* Fills in real dates for rows that came back dateless, capped per run to control cost
+   (each one is an extra network request) — carries the same spirit as the AI summary cap:
+   an hourly job doesn't need to re-check hundreds of already-seen dateless rows every run,
+   just the newly-added ones each time. */
+async function enrichDatelessRows(output) {
+  const MAX_DATE_LOOKUPS_PER_RUN = 40;
+  let fetched = 0;
+  const optedInKeys = new Set();
+  for (const reg of Object.values(REGULATORS)) {
+    for (const tab of reg.tabs) {
+      if (tab.fetchDateFromArticle) optedInKeys.add(tab.key);
+    }
+  }
+  for (const [tabKey, entry] of Object.entries(output)) {
+    if (!optedInKeys.has(tabKey)) continue;
+    if (!entry.ok || !entry.rows.length) continue;
+    for (const row of entry.rows) {
+      if (row.date && row.date !== '—') continue;
+      if (!row.link) continue;
+      if (fetched >= MAX_DATE_LOOKUPS_PER_RUN) return;
+      const rawDate = await fetchArticleDate(row.link);
+      if (rawDate) {
+        const d = tryParseDate(rawDate);
+        if (d) { row.date = d; row.year = extractYear(d); }
+      }
+      fetched++;
+      await new Promise(r => setTimeout(r, 200));
+    }
+  }
+}
+
 async function main() {
   // Load previous output so a source that fails this run doesn't wipe out
   // the last good data — we keep serving stale-but-real data over nothing.
@@ -1325,6 +1410,9 @@ async function main() {
       await new Promise(r => setTimeout(r, 1200));
     }
   }
+
+  console.log('\nFetching real dates for dateless articles...');
+  await enrichDatelessRows(output);
 
   console.log('\nGenerating AI summaries...');
   await enrichWithAISummaries(output, previous);
