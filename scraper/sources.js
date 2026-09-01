@@ -103,6 +103,13 @@ module.exports = {
         src: 'https://itatonline.org/archives/category/all-judgements/',
         htmlParse: 'linklist', headless: true,
         linkMustExclude: ['/archives/court/', '/archives/judges/', '/archives/section/', '/archives/category/', '/archives/tag/'],
+        // Confirmed against real captured output: this page also has each judgment's bench
+        // members, bare dates, and "Read more"/nav links as their own separately-clickable
+        // elements (e.g. "Atul Jasani", "April 24, 2021", "Read more ›" were all leaking
+        // through as if they were case titles). Real case titles have a distinctive,
+        // recognizable shape instead — "X vs. Y (Court Name)" — so requiring that pattern
+        // directly is far more precise than trying to exclude every junk category one by one.
+        titleMustMatch: /\bvs?\.?\s.+\([^)]*(court|tribunal|itat|aar|aaar)[^)]*\)/i,
       },
       // ── Indirect Tax (GST, Customs, Central Excise) ──
       {

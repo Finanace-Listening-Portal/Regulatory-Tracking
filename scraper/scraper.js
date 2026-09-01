@@ -424,7 +424,7 @@ function parseCardFeed(html, base, cat, maxRows = DEFAULT_MAX_ROWS) {
 }
 
 /* ── Link-list parser (SEBI FAQ style — no dates by nature) ── */
-function parseLinkList(html, base, cat, maxRows = DEFAULT_MAX_ROWS, linkMustInclude = null, linkMustExclude = null) {
+function parseLinkList(html, base, cat, maxRows = DEFAULT_MAX_ROWS, linkMustInclude = null, linkMustExclude = null, titleMustMatch = null) {
   const $ = stripChrome(cheerio.load(html));
   const rows = [];
   const seen = new Set();
@@ -435,6 +435,7 @@ function parseLinkList(html, base, cat, maxRows = DEFAULT_MAX_ROWS, linkMustIncl
     const href = $(a).attr('href') || '';
     if (linkMustInclude && !href.includes(linkMustInclude)) return;
     if (linkMustExclude && linkMustExclude.some(pat => href.includes(pat))) return;
+    if (titleMustMatch && !titleMustMatch.test(t)) return;
     seen.add(t);
     rows.push({ sr: rows.length + 1, date: '—', year: null, cat, title: t, desc: '', link: resolveLink(href, base) });
   });
@@ -830,7 +831,7 @@ function runHtmlParser(tab, html, cat) {
   const maxRows = tab.maxRows || DEFAULT_MAX_ROWS;
   let rows;
   switch (tab.htmlParse) {
-    case 'linklist':      rows = parseLinkList(html, tab.src, cat, maxRows, tab.linkMustInclude, tab.linkMustExclude); break;
+    case 'linklist':      rows = parseLinkList(html, tab.src, cat, maxRows, tab.linkMustInclude, tab.linkMustExclude, tab.titleMustMatch); break;
     case 'nse_next_data': rows = parseNSENextData(html, tab.src, cat, maxRows); break;
     case 'rbi_nav_tree':  rows = parseRBINavTree(html, tab.src, cat, maxRows); break;
     case 'mca_marquee':   rows = parseMCAMarquee(html, tab.src, cat, maxRows); break;
