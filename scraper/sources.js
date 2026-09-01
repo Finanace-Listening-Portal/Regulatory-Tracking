@@ -93,10 +93,16 @@ module.exports = {
         // which was scraping "Bombay High Court" and "Abhay Ahuja J" as if they were case
         // titles. /archives/category/all-judgements/ is the real listing with actual
         // judgment content, confirmed via live search results.
+        // The generic parser was still grabbing the site's persistent sidebar (court/judge/
+        // section taxonomy links: /archives/court/..., /archives/judges/..., /archives/
+        // section/...) instead of real judgment entries, confirmed against actual captured
+        // output ("Bombay High Court", "Abhay Ahuja J..." as if they were case titles).
+        // Switched to the dateless link-list parser with those exact patterns excluded.
         key: 'TAXATION_2', label: 'Direct Tax Case Laws', cat: 'Case Law',
         rss: null,
         src: 'https://itatonline.org/archives/category/all-judgements/',
-        htmlParse: 'generic', headless: true,
+        htmlParse: 'linklist', headless: true,
+        linkMustExclude: ['/archives/court/', '/archives/judges/', '/archives/section/', '/archives/category/', '/archives/tag/'],
       },
       // ── Indirect Tax (GST, Customs, Central Excise) ──
       {
