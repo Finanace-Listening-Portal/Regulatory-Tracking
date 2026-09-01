@@ -1231,101 +1231,16 @@ function esc(s) {
   return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
 }
 
-/* ── AI Summary (Azure OpenAI) ──
-   Runs server-side during the scrape, NOT in the browser — the API key must never be
-   embedded in the committed HTML/JS, since GitHub Pages serves that publicly and anyone
-   could read it straight out of the page source and run up charges on the account. Set
-   these as GitHub Actions repository secrets instead:
-     AZURE_OPENAI_KEY       — the API key
-     AZURE_OPENAI_ENDPOINT  — full URL incl. ?api-version=... (as given, e.g.
-                               https://finance-openai.openai.azure.com/openai/responses?api-version=2025-04-01-preview)
-     AZURE_OPENAI_DEPLOYMENT — deployment name (e.g. gpt-5.4-mini)
-   If any are missing, summarization is silently skipped — same graceful-degradation
-   pattern already used for the email notification feature. */
-async function generateAISummary(title, desc) {
-  const { AZURE_OPENAI_KEY, AZURE_OPENAI_ENDPOINT, AZURE_OPENAI_DEPLOYMENT } = process.env;
-  if (!AZURE_OPENAI_KEY || !AZURE_OPENAI_ENDPOINT) return null;
-
-  const prompt = `Summarize this regulatory/financial news update in one short, plain-English sentence (max 25 words) for a corporate compliance team. Do not just repeat the title.\n\nTitle: ${title}\nDescription: ${(desc || '').substring(0, 500) || '(none provided)'}`;
-
-  try {
-    const resp = await fetch(AZURE_OPENAI_ENDPOINT, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'api-key': AZURE_OPENAI_KEY },
-      body: JSON.stringify({
-        model: AZURE_OPENAI_DEPLOYMENT || 'gpt-5.4-mini',
-        input: prompt,
-      }),
-      signal: AbortSignal.timeout(20000),
-    });
-    if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    const data = await resp.json();
-
-    // Azure/OpenAI's Responses API can shape output a couple of different ways depending
-    // on model/version — try the documented convenience field first, then walk the
-    // structured output array as a fallback.
-    if (typeof data.output_text === 'string' && data.output_text.trim()) {
-      return data.output_text.trim();
-    }
-    if (Array.isArray(data.output)) {
-      for (const item of data.output) {
-        if (!Array.isArray(item.content)) continue;
-        for (const c of item.content) {
-          if ((c.type === 'output_text' || c.type === 'text') && c.text) return c.text.trim();
-        }
-      }
-    }
-    // Got a successful HTTP response but neither known shape matched — log the actual
-    // structure ONCE so the real format can be identified and fixed properly, instead of
-    // silently returning null over and over with no visibility into what Azure actually
-    // sent back.
-    if (!generateAISummary._loggedUnknownShape) {
-      generateAISummary._loggedUnknownShape = true;
-      console.warn('  [ai-summary] Got HTTP 200 but response shape not recognized. Top-level keys: '
-        + Object.keys(data).join(', ') + '\n  Full response (first 2000 chars): ' + JSON.stringify(data).substring(0, 2000));
-    }
-    return null;
-  } catch (e) {
-    console.warn(`  [ai-summary] failed: ${e.message}`);
-    return null;
-  }
-}
-
-/* Carries over summaries for rows that already had one from the previous run (matched by
-   link, falling back to title+date), and only calls the API for genuinely new rows — an
-   hourly job re-summarizing hundreds of unchanged rows every single run would be pure
-   wasted cost. Capped per run as a further safety limit against a sudden burst of new
-   items (e.g. after a source that was failing for weeks suddenly recovers). */
-async function enrichWithAISummaries(output, previous) {
-  const { AZURE_OPENAI_KEY, AZURE_OPENAI_ENDPOINT } = process.env;
-  if (!AZURE_OPENAI_KEY || !AZURE_OPENAI_ENDPOINT) {
-    console.log('  [ai-summary] Skipping — AZURE_OPENAI_KEY / AZURE_OPENAI_ENDPOINT not set as secrets.');
-    return;
-  }
-  const MAX_NEW_SUMMARIES_PER_RUN = 60;
-  let summarized = 0, carried = 0, capped = 0;
-
-  for (const [tabKey, entry] of Object.entries(output)) {
-    if (!entry.ok || !entry.rows.length) continue;
-    const prevEntry = previous[tabKey];
-    const prevSummaryByKey = new Map();
-    if (prevEntry && Array.isArray(prevEntry.rows)) {
-      for (const r of prevEntry.rows) {
-        if (r.summary) prevSummaryByKey.set(r.link || `${r.title}|${r.date}`, r.summary);
-      }
-    }
-    for (const row of entry.rows) {
-      const k = row.link || `${row.title}|${row.date}`;
-      const existing = prevSummaryByKey.get(k);
-      if (existing) { row.summary = existing; carried++; continue; }
-      if (summarized >= MAX_NEW_SUMMARIES_PER_RUN) { capped++; continue; }
-      const summary = await generateAISummary(row.title, row.desc);
-      if (summary) { row.summary = summary; summarized++; }
-      await new Promise(r => setTimeout(r, 300)); // be polite to the API — avoid bursting rate limits
-    }
-  }
-  console.log(`\n[ai-summary] ${summarized} new, ${carried} carried over${capped ? `, ${capped} deferred to next run (raise MAX_NEW_SUMMARIES_PER_RUN if this happens often)` : ''}.`);
-}
+/* ── AI Summary generation ──
+   Deliberately NOT done here. Azure OpenAI's network firewall only allows calls from a
+   specific whitelisted IP, and GitHub Actions runners use different, constantly-changing
+   IPs that can never be added to that allowlist — every attempt from here fails with
+   HTTP 403, confirmed repeatedly. AI summaries are instead generated by a separate script
+   (ai-summary-updater.js) running on a VM whose IP IS whitelisted; it pulls this repo's
+   data.json, fills in "summary" fields locally, and pushes the result back. This scraper's
+   only related job is enrichThinDescriptions() below — giving that VM script richer content
+   to summarize from, since fetching PDFs/articles needs open internet access (which this
+   GitHub Actions runner has, and that VM does not). */
 
 /* ── Fetch real dates from individual article pages ──
    Some sites (confirmed: ETBFSI) don't show a publish date on the listing page at all, but
@@ -1490,9 +1405,6 @@ async function main() {
 
   console.log('\nFetching real dates for dateless articles...');
   await enrichDatelessRows(output);
-
-  console.log('\nGenerating AI summaries...');
-  await enrichWithAISummaries(output, previous);
 
   const newByRegulator = findNewItems(previous, output);
   const newCount = Object.values(newByRegulator).reduce(
