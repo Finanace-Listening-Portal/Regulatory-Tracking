@@ -424,7 +424,7 @@ function parseCardFeed(html, base, cat, maxRows = DEFAULT_MAX_ROWS) {
 }
 
 /* ── Link-list parser (SEBI FAQ style — no dates by nature) ── */
-function parseLinkList(html, base, cat, maxRows = DEFAULT_MAX_ROWS, linkMustInclude = null) {
+function parseLinkList(html, base, cat, maxRows = DEFAULT_MAX_ROWS, linkMustInclude = null, linkMustExclude = null) {
   const $ = stripChrome(cheerio.load(html));
   const rows = [];
   const seen = new Set();
@@ -434,6 +434,7 @@ function parseLinkList(html, base, cat, maxRows = DEFAULT_MAX_ROWS, linkMustIncl
     if (t.length < 10 || seen.has(t) || NAV_WORDS.has(t.toLowerCase()) || IS_URL_RE.test(t)) return;
     const href = $(a).attr('href') || '';
     if (linkMustInclude && !href.includes(linkMustInclude)) return;
+    if (linkMustExclude && linkMustExclude.some(pat => href.includes(pat))) return;
     seen.add(t);
     rows.push({ sr: rows.length + 1, date: '—', year: null, cat, title: t, desc: '', link: resolveLink(href, base) });
   });
@@ -829,7 +830,7 @@ function runHtmlParser(tab, html, cat) {
   const maxRows = tab.maxRows || DEFAULT_MAX_ROWS;
   let rows;
   switch (tab.htmlParse) {
-    case 'linklist':      rows = parseLinkList(html, tab.src, cat, maxRows, tab.linkMustInclude); break;
+    case 'linklist':      rows = parseLinkList(html, tab.src, cat, maxRows, tab.linkMustInclude, tab.linkMustExclude); break;
     case 'nse_next_data': rows = parseNSENextData(html, tab.src, cat, maxRows); break;
     case 'rbi_nav_tree':  rows = parseRBINavTree(html, tab.src, cat, maxRows); break;
     case 'mca_marquee':   rows = parseMCAMarquee(html, tab.src, cat, maxRows); break;
@@ -1271,6 +1272,15 @@ async function generateAISummary(title, desc) {
           if ((c.type === 'output_text' || c.type === 'text') && c.text) return c.text.trim();
         }
       }
+    }
+    // Got a successful HTTP response but neither known shape matched — log the actual
+    // structure ONCE so the real format can be identified and fixed properly, instead of
+    // silently returning null over and over with no visibility into what Azure actually
+    // sent back.
+    if (!generateAISummary._loggedUnknownShape) {
+      generateAISummary._loggedUnknownShape = true;
+      console.warn('  [ai-summary] Got HTTP 200 but response shape not recognized. Top-level keys: '
+        + Object.keys(data).join(', ') + '\n  Full response (first 2000 chars): ' + JSON.stringify(data).substring(0, 2000));
     }
     return null;
   } catch (e) {
