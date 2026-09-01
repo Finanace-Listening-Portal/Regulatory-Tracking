@@ -7,6 +7,7 @@
 const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
+const pdfParse = require('pdf-parse');
 const { XMLParser } = require('fast-xml-parser');
 const REGULATORS = require('./sources');
 
@@ -1357,6 +1358,68 @@ async function fetchArticleDate(url) {
    (each one is an extra network request) — carries the same spirit as the AI summary cap:
    an hourly job doesn't need to re-check hundreds of already-seen dateless rows every run,
    just the newly-added ones each time. */
+/* ── Enrich thin/empty descriptions with real document content ──
+   Many tabs — confirmed from real output: NFRA, PCAOB, IEPFA circulars especially — link
+   directly to a PDF with only a bare filename-like title and no description at all. That
+   leaves nothing for downstream AI summarization to work with beyond the title. This runs
+   here (as part of the GitHub Actions scrape, which has full unrestricted internet access)
+   rather than on the VM that generates AI summaries, since that VM has no general internet
+   access of its own — only a whitelisted path to Azure OpenAI. Splitting it this way means
+   each machine only does what its own network access actually permits: this step fetches
+   and stores real content in data.json here, and the VM later just reads that already-rich
+   desc field locally with no fetch of its own required. */
+async function fetchDocumentDesc(url) {
+  if (!url) return null;
+  try {
+    const resp = await fetch(url, {
+      signal: AbortSignal.timeout(20000),
+      headers: { 'User-Agent': UA },
+    });
+    if (!resp.ok) return null;
+
+    const contentType = (resp.headers.get('content-type') || '').toLowerCase();
+    const isPdf = contentType.includes('pdf') || url.toLowerCase().endsWith('.pdf');
+
+    if (isPdf) {
+      const buffer = Buffer.from(await resp.arrayBuffer());
+      const parsed = await pdfParse(buffer);
+      return (parsed.text || '').replace(/\s+/g, ' ').trim().substring(0, 1500) || null;
+    } else {
+      const html = await resp.text();
+      const $ = cheerio.load(html);
+      $('script, style, nav, header, footer, .nav, .navbar, .menu, .sidebar').remove();
+      const text = $('article').text() || $('main').text() || $('body').text();
+      return text.replace(/\s+/g, ' ').trim().substring(0, 1500) || null;
+    }
+  } catch (e) {
+    return null; // silent — this is a best-effort enrichment, not a required step
+  }
+}
+
+async function enrichThinDescriptions(output) {
+  const optedInKeys = new Set();
+  for (const reg of Object.values(REGULATORS)) {
+    for (const tab of reg.tabs) {
+      if (tab.fetchDescFromDocument) optedInKeys.add(tab.key);
+    }
+  }
+  const MAX_PER_RUN = 40; // each one is a real network fetch (and PDF parse, which is slower) — cap to keep run time reasonable
+  let fetched = 0;
+  for (const [tabKey, entry] of Object.entries(output)) {
+    if (!optedInKeys.has(tabKey)) continue;
+    if (!entry.ok || !entry.rows.length) continue;
+    for (const row of entry.rows) {
+      if (row.desc && row.desc.length >= 60) continue; // already has meaningful description
+      if (!row.link) continue;
+      if (fetched >= MAX_PER_RUN) return;
+      const desc = await fetchDocumentDesc(row.link);
+      if (desc) row.desc = desc;
+      fetched++;
+      await new Promise(r => setTimeout(r, 200));
+    }
+  }
+}
+
 async function enrichDatelessRows(output) {
   const MAX_DATE_LOOKUPS_PER_RUN = 40;
   let fetched = 0;
@@ -1421,6 +1484,9 @@ async function main() {
       await new Promise(r => setTimeout(r, 1200));
     }
   }
+
+  console.log('\nEnriching thin descriptions with real document content...');
+  await enrichThinDescriptions(output);
 
   console.log('\nFetching real dates for dateless articles...');
   await enrichDatelessRows(output);
