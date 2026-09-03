@@ -1318,7 +1318,7 @@ async function enrichThinDescriptions(output) {
       if (tab.fetchDescFromDocument) optedInKeys.add(tab.key);
     }
   }
-  const MAX_PER_RUN = 40; // each one is a real network fetch (and PDF parse, which is slower) — cap to keep run time reasonable
+  const MAX_PER_RUN = 100; // each one is a real network fetch (and PDF parse, which is slower) — raised now that this covers all tabs, not just 3
   let fetched = 0;
   for (const [tabKey, entry] of Object.entries(output)) {
     if (!optedInKeys.has(tabKey)) continue;

@@ -75,13 +75,13 @@ module.exports = {
         // Confirmed via debug HTML: this page's actual circular list is a Liferay "client
         // extension" widget that loads its content asynchronously — the standard settle
         // wait wasn't enough, resulting in an empty page shell being captured. Longer wait.
-        htmlParse: 'generic', headless: true, extraWaitMs: 15000, pierceShadowDOM: true,
+        htmlParse: 'generic', headless: true, extraWaitMs: 15000, pierceShadowDOM: true, fetchDescFromDocument: true
       },
       {
         key: 'TAXATION_1', label: 'Income Tax Notifications', cat: 'Notifications',
         rss: 'https://www.incometaxindia.gov.in/notification-rss-feed/-/asset_publisher/bxhj/rss',
         src: 'https://www.incometaxindia.gov.in/notifications',
-        htmlParse: 'generic', headless: true, extraWaitMs: 15000, pierceShadowDOM: true,
+        htmlParse: 'generic', headless: true, extraWaitMs: 15000, pierceShadowDOM: true, fetchDescFromDocument: true
       },
       {
         // itatonline.org — a well-known, long-running free resource for Indian Income Tax
@@ -109,7 +109,7 @@ module.exports = {
         // through as if they were case titles). Real case titles have a distinctive,
         // recognizable shape instead — "X vs. Y (Court Name)" — so requiring that pattern
         // directly is far more precise than trying to exclude every junk category one by one.
-        titleMustMatch: /\bvs?\.?\s.+\([^)]*(court|tribunal|itat|aar|aaar)[^)]*\)/i,
+        titleMustMatch: /\bvs?\.?\s.+\([^)]*(court|tribunal|itat|aar|aaar)[^)]*\)/i, fetchDescFromDocument: true
       },
       // ── Indirect Tax (GST, Customs, Central Excise) ──
       {
@@ -119,7 +119,7 @@ module.exports = {
         key: 'TAXATION_3', label: 'Indirect Tax Circulars', cat: 'Circulars',
         rss: null,
         src: 'https://cbic-gst.gov.in/circulars-cgst.html',
-        htmlParse: 'generic', headless: true,
+        htmlParse: 'generic', headless: true, fetchDescFromDocument: true
       },
       {
         // No confirmed direct notifications-only URL — CBIC's portal mixes notification
@@ -128,7 +128,7 @@ module.exports = {
         key: 'TAXATION_4', label: 'Indirect Tax Notifications', cat: 'Notifications',
         rss: null,
         src: 'https://cbic-gst.gov.in/',
-        htmlParse: 'generic', headless: true,
+        htmlParse: 'generic', headless: true, fetchDescFromDocument: true
       },
       {
         // Same TaxGuru feed as Law Updates/Direct Tax Case Laws, filtered instead to
@@ -136,7 +136,7 @@ module.exports = {
         key: 'TAXATION_5', label: 'Indirect Tax Case Laws', cat: 'Case Law',
         rss: 'https://taxguru.in/feed',
         src: 'https://taxguru.in/type/goods-and-service-tax',
-        htmlParse: 'generic', keywordFilter: TAX_INDIRECT_CASE_LAW_KEYWORDS, maxAgeDays: 5,
+        htmlParse: 'generic', keywordFilter: TAX_INDIRECT_CASE_LAW_KEYWORDS, maxAgeDays: 5, fetchDescFromDocument: true
       },
       // ── General ──
       {
@@ -146,7 +146,7 @@ module.exports = {
         key: 'TAXATION_6', label: 'Law Updates', cat: 'Law Update',
         rss: 'https://taxguru.in/feed',
         src: 'https://taxguru.in/type/income-tax',
-        htmlParse: 'generic',
+        htmlParse: 'generic', fetchDescFromDocument: true
       },
     ]
   },
@@ -163,13 +163,13 @@ module.exports = {
         rss: 'https://indianexpress.com/section/business/feed/',
         rssHeadlessFallback: true,
         src: 'https://indianexpress.com/section/business/banking-and-finance/',
-        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5,
+        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5, fetchDescFromDocument: true
       },
       {
         key: 'NEWSLETTER_1', label: 'Times Now', cat: 'News',
         rss: null,
         src: 'https://www.timesnownews.com/business-economy',
-        htmlParse: 'generic', headless: true, keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5,
+        htmlParse: 'generic', headless: true, keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5, fetchDescFromDocument: true
       },
       {
         // The .cfm "RSS" URL previously here wasn't real news content — it was silently
@@ -178,7 +178,7 @@ module.exports = {
         key: 'NEWSLETTER_2', label: 'Economic Times', cat: 'News',
         rss: null,
         src: 'https://economictimes.indiatimes.com/news/economy/articlelist/1286551815.cms',
-        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5,
+        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5, fetchDescFromDocument: true
       },
       {
         // The RSS feed itself has real dates but 403s a plain HTTP fetch — confirmed it
@@ -188,7 +188,7 @@ module.exports = {
         rss: 'https://www.business-standard.com/rss/latest.rss',
         rssHeadlessFallback: true,
         src: 'https://www.business-standard.com/finance',
-        htmlParse: 'bs_smallcard', headless: true, keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5,
+        htmlParse: 'bs_smallcard', headless: true, keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5, fetchDescFromDocument: true
       },
       // Reuters Business removed — killed its public RSS in 2020, the Google News RSS
       // workaround was unreliable for automated traffic (401), and direct headless scraping
@@ -208,7 +208,7 @@ module.exports = {
         key: 'NEWSLETTER_4', label: 'Yahoo Finance', cat: 'News',
         rss: 'https://finance.yahoo.com/news/rssindex',
         src: 'https://finance.yahoo.com/topic/banking/',
-        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS, maxAgeDays: 5,
+        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS, maxAgeDays: 5, fetchDescFromDocument: true
       },
       {
         // MCtopnews.xml turned out to be unreliable in practice (debug dump showed it
@@ -226,7 +226,7 @@ module.exports = {
         key: 'NEWSLETTER_5', label: 'Moneycontrol', cat: 'News',
         rss: null,
         src: 'https://www.moneycontrol.com/news/business/banks/',
-        htmlParse: 'generic', headless: true, keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5,
+        htmlParse: 'generic', headless: true, keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5, fetchDescFromDocument: true
       },
       {
         // ETBFSI is Economic Times' dedicated Banking/Financial Services/Insurance vertical
@@ -246,45 +246,45 @@ module.exports = {
         // The listing page has no dates at all, but each article's own page shows a real
         // "Published On ..." date (confirmed) — fetched via standard SEO metadata instead
         // of screen-scraping that exact phrase, since the visible text format may vary.
-        fetchDateFromArticle: true,
+        fetchDateFromArticle: true, fetchDescFromDocument: true
       },
     ]
   },
   SEBI: {
     tabs: [
-      { key: 'SEBI_0', label: 'Circulars',           cat: 'Circulars',          sebiPaginate: 12, preferHtml: true, rss: 'https://www.sebi.gov.in/sebirss.xml', linkFilter: '/legal/circulars/',        src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0' },
-      { key: 'SEBI_1', label: 'Master Circulars',    cat: 'Master Circular',    sebiPaginate: 6, preferHtml: true, rss: 'https://www.sebi.gov.in/sebirss.xml', linkFilter: '/legal/master-circulars/', src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0' },
-      { key: 'SEBI_2', label: 'Informal Guidance',   cat: 'Informal Guidance',  rss: null,  src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=10&smid=0', htmlParse: 'generic' },
-      { key: 'SEBI_3', label: 'Consultation Papers', cat: 'Consultation Paper', sebiPaginate: 12, preferHtml: true, rss: 'https://www.sebi.gov.in/sebirss.xml', linkFilter: '/reports-and-statistics/', src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35' },
-      { key: 'SEBI_4', label: "FAQ's",               cat: 'FAQ',                rss: null,  src: 'https://www.sebi.gov.in/sebiweb/other/OtherAction.do', htmlParse: 'linklist' },
-      { key: 'SEBI_5', label: 'Insider Trading',     cat: 'Insider Trading',    rss: null,  src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=11&smid=0', htmlParse: 'generic' },
-      { key: 'SEBI_6', label: 'Orders of AO',        cat: 'Orders',             sebiPaginate: 12, preferHtml: true, rss: 'https://www.sebi.gov.in/sebirss.xml', linkFilter: '/enforcement/orders/', src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6' },
-    ]
+      { key: 'SEBI_0', label: 'Circulars',           cat: 'Circulars',          sebiPaginate: 12, preferHtml: true, rss: 'https://www.sebi.gov.in/sebirss.xml', linkFilter: '/legal/circulars/',        src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0' , fetchDescFromDocument: true },
+      { key: 'SEBI_1', label: 'Master Circulars',    cat: 'Master Circular',    sebiPaginate: 6, preferHtml: true, rss: 'https://www.sebi.gov.in/sebirss.xml', linkFilter: '/legal/master-circulars/', src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0' , fetchDescFromDocument: true },
+      { key: 'SEBI_2', label: 'Informal Guidance',   cat: 'Informal Guidance',  rss: null,  src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=10&smid=0', htmlParse: 'generic' , fetchDescFromDocument: true },
+      { key: 'SEBI_3', label: 'Consultation Papers', cat: 'Consultation Paper', sebiPaginate: 12, preferHtml: true, rss: 'https://www.sebi.gov.in/sebirss.xml', linkFilter: '/reports-and-statistics/', src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35' , fetchDescFromDocument: true },
+      { key: 'SEBI_4', label: "FAQ's",               cat: 'FAQ',                rss: null,  src: 'https://www.sebi.gov.in/sebiweb/other/OtherAction.do', htmlParse: 'linklist' , fetchDescFromDocument: true },
+      { key: 'SEBI_5', label: 'Insider Trading',     cat: 'Insider Trading',    rss: null,  src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=11&smid=0', htmlParse: 'generic' , fetchDescFromDocument: true },
+      { key: 'SEBI_6', label: 'Orders of AO',        cat: 'Orders',             sebiPaginate: 12, preferHtml: true, rss: 'https://www.sebi.gov.in/sebirss.xml', linkFilter: '/enforcement/orders/', src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6' , fetchDescFromDocument: true },
+    ], fetchDescFromDocument: true
   },
   RBI: {
     tabs: [
-      { key: 'RBI_0', label: 'Notifications',       cat: 'Notifications',       preferHtml: true, htmlParse: 'rbi_dated_docs', rss: 'https://www.rbi.org.in/notifications_rss.xml', src: 'https://www.rbi.org.in/Scripts/NotificationUser.aspx' },
-      { key: 'RBI_1', label: 'Master Directions',   cat: 'Master Directions',   rss: null, src: 'https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx', htmlParse: 'rbi_dated_docs' },
-      { key: 'RBI_2', label: 'Master Circulars',    cat: 'Master Circulars',    rss: null, src: 'https://www.rbi.org.in/scripts/BS_ViewMasterCirculardetails.aspx', htmlParse: 'rbi_dated_docs' },
-      { key: 'RBI_3', label: 'Draft Notifications', cat: 'Draft Notifications', rss: null, src: 'https://www.rbi.org.in/Scripts/DraftNotificationsGuildelines.aspx', htmlParse: 'rbi_dated_docs' },
-    ]
+      { key: 'RBI_0', label: 'Notifications',       cat: 'Notifications',       preferHtml: true, htmlParse: 'rbi_dated_docs', rss: 'https://www.rbi.org.in/notifications_rss.xml', src: 'https://www.rbi.org.in/Scripts/NotificationUser.aspx' , fetchDescFromDocument: true },
+      { key: 'RBI_1', label: 'Master Directions',   cat: 'Master Directions',   rss: null, src: 'https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx', htmlParse: 'rbi_dated_docs' , fetchDescFromDocument: true },
+      { key: 'RBI_2', label: 'Master Circulars',    cat: 'Master Circulars',    rss: null, src: 'https://www.rbi.org.in/scripts/BS_ViewMasterCirculardetails.aspx', htmlParse: 'rbi_dated_docs' , fetchDescFromDocument: true },
+      { key: 'RBI_3', label: 'Draft Notifications', cat: 'Draft Notifications', rss: null, src: 'https://www.rbi.org.in/Scripts/DraftNotificationsGuildelines.aspx', htmlParse: 'rbi_dated_docs' , fetchDescFromDocument: true },
+    ], fetchDescFromDocument: true
   },
   BSE: {
     tabs: [
-      { key: 'BSE_0', label: 'Circulars to Listed Co.', cat: 'Circular', rss: null, src: 'https://www.bseindia.com/corporates/CirularToListedComp.html', htmlParse: 'generic', headless: true },
-    ]
+      { key: 'BSE_0', label: 'Circulars to Listed Co.', cat: 'Circular', rss: null, src: 'https://www.bseindia.com/corporates/CirularToListedComp.html', htmlParse: 'generic', headless: true , fetchDescFromDocument: true },
+    ], fetchDescFromDocument: true
   },
   NSE: {
     tabs: [
-      { key: 'NSE_0', label: 'Circulars (Equity)', cat: 'Circular', rss: null, src: 'https://www.nseindia.com/companies-listing/circular-for-listed-companies-equity-market', htmlParse: 'nse_next_data' },
-    ]
+      { key: 'NSE_0', label: 'Circulars (Equity)', cat: 'Circular', rss: null, src: 'https://www.nseindia.com/companies-listing/circular-for-listed-companies-equity-market', htmlParse: 'nse_next_data' , fetchDescFromDocument: true },
+    ], fetchDescFromDocument: true
   },
   IRDAI: {
     tabs: [
-      { key: 'IRDAI_0', label: 'Notifications', cat: 'Notifications', rss: null, src: 'https://irdai.gov.in/notifications', htmlParse: 'generic' },
-      { key: 'IRDAI_1', label: 'Circulars',     cat: 'Circulars',     rss: null, src: 'https://irdai.gov.in/circulars', htmlParse: 'generic' },
-      { key: 'IRDAI_2', label: 'Guidelines',    cat: 'Guidelines',    rss: null, src: 'https://irdai.gov.in/guidelines', htmlParse: 'generic' },
-    ]
+      { key: 'IRDAI_0', label: 'Notifications', cat: 'Notifications', rss: null, src: 'https://irdai.gov.in/notifications', htmlParse: 'generic' , fetchDescFromDocument: true },
+      { key: 'IRDAI_1', label: 'Circulars',     cat: 'Circulars',     rss: null, src: 'https://irdai.gov.in/circulars', htmlParse: 'generic' , fetchDescFromDocument: true },
+      { key: 'IRDAI_2', label: 'Guidelines',    cat: 'Guidelines',    rss: null, src: 'https://irdai.gov.in/guidelines', htmlParse: 'generic' , fetchDescFromDocument: true },
+    ], fetchDescFromDocument: true
   },
   IEPFA: {
     tabs: [
@@ -295,12 +295,12 @@ module.exports = {
   },
   MCA: {
     tabs: [
-      { key: 'MCA_0', label: "What's New",           cat: 'Updates', rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/home.html', htmlParse: 'mca_marquee', headless: true, warmupUrl: 'https://www.mca.gov.in/content/mca/global/en/home.html' },
-      { key: 'MCA_1', label: 'ROC Adj. Orders',      cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html', htmlParse: 'generic', headless: true, clickButtonText: 'Filter', warmupUrl: 'https://www.mca.gov.in/content/mca/global/en/home.html' },
-      { key: 'MCA_2', label: 'ROC Adj. (Off-sys)',   cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html', htmlParse: 'generic', headless: true, clickButtonText: 'Filter', warmupUrl: 'https://www.mca.gov.in/content/mca/global/en/home.html' },
-      { key: 'MCA_3', label: 'RD Adj. Orders',       cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html', htmlParse: 'generic', headless: true, clickButtonText: 'Filter', warmupUrl: 'https://www.mca.gov.in/content/mca/global/en/home.html' },
-      { key: 'MCA_4', label: 'RD Adj. (Off-sys)',    cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html', htmlParse: 'generic', headless: true, clickButtonText: 'Filter', warmupUrl: 'https://www.mca.gov.in/content/mca/global/en/home.html' },
-    ]
+      { key: 'MCA_0', label: "What's New",           cat: 'Updates', rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/home.html', htmlParse: 'mca_marquee', headless: true, warmupUrl: 'https://www.mca.gov.in/content/mca/global/en/home.html' , fetchDescFromDocument: true },
+      { key: 'MCA_1', label: 'ROC Adj. Orders',      cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html', htmlParse: 'generic', headless: true, clickButtonText: 'Filter', warmupUrl: 'https://www.mca.gov.in/content/mca/global/en/home.html' , fetchDescFromDocument: true },
+      { key: 'MCA_2', label: 'ROC Adj. (Off-sys)',   cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html', htmlParse: 'generic', headless: true, clickButtonText: 'Filter', warmupUrl: 'https://www.mca.gov.in/content/mca/global/en/home.html' , fetchDescFromDocument: true },
+      { key: 'MCA_3', label: 'RD Adj. Orders',       cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html', htmlParse: 'generic', headless: true, clickButtonText: 'Filter', warmupUrl: 'https://www.mca.gov.in/content/mca/global/en/home.html' , fetchDescFromDocument: true },
+      { key: 'MCA_4', label: 'RD Adj. (Off-sys)',    cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html', htmlParse: 'generic', headless: true, clickButtonText: 'Filter', warmupUrl: 'https://www.mca.gov.in/content/mca/global/en/home.html' , fetchDescFromDocument: true },
+    ], fetchDescFromDocument: true
   },
   NFRA: {
     tabs: [
