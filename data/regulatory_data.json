@@ -141,7 +141,9 @@
           "title": "ADIT vs. E-Funds IT Solution Inc (Supreme Court)",
           "desc": "",
           "link": "https://itatonline.org/archives/adit-vs-e-funds-it-solution-inc-supreme-court-permanent-establishment-pe-under-article-5-of-dtaa-entire-law-on-concept-of-fixed-place-of-business-service-pe-and/#comment-4048",
-          "isNew": false
+          "isNew": false,
+          "summary": "The Supreme Court’s ADIT v. E-Funds IT Solution Inc. case is a tax and jurisdiction decision that may affect cross-border enforcement and compliance risk.",
+          "summarySource": "title"
         }
       ],
       "ts": 1788433207046,
@@ -436,7 +438,9 @@
           "title": "Custom Duty | CBIC Implements SCMTR 2018 Across Ports in Phased Manner",
           "desc": "CBIC Circular 38/2026-Customs implements SCMTR 2018 across Indian ports in phases from 1 September 2026, with remaining ports by 15 October.The post CBIC Implements SCMTR 2018 Across Ports in Phased M",
           "link": "https://taxguru.in/custom-duty/cbic-implements-scmtr-2018-ports-phased-manner.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "CBIC will roll out SCMTR 2018 at Indian ports in phases starting 1 September 2026, with all remaining ports covered by 15 October.",
+          "summarySource": "desc"
         },
         {
           "sr": 12,
@@ -446,7 +450,9 @@
           "title": "Income Tax | Partners’ Capital Contributions Cannot Be Taxed Under Section 68: Telangana HC",
           "desc": "Telangana High Court holds Section 68 cannot be invoked against a firm for capital contributions made by its partners and modifies the Tribunal order.The post Partners’ Capital Contributions Cannot Be",
           "link": "https://taxguru.in/income-tax/partners-capital-contributions-cannot-taxed-section-68-telangana-hc.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Telangana High Court ruled that a partnership firm cannot be taxed under Section 68 for capital contributions made by its partners.",
+          "summarySource": "desc"
         },
         {
           "sr": 13,
@@ -456,7 +462,9 @@
           "title": "Custom Duty | Customs Detention Waiver Certificates Bind CCSPs After Importer Succeeds: Madras HC",
           "desc": "Madras HC holds HCCA/SCMT Regulations override contracts; detention-waiver certificates bind CCSPs when adjudication ends in importer’s favour.The post Customs Detention Waiver Certificates Bind CCSPs",
           "link": "https://taxguru.in/custom-duty/customs-detention-waiver-certificates-bind-ccsps-importer-succeeds-madras-hc.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Madras High Court ruled customs detention waiver certificates are binding on CCSPs, and regulatory rules override private contracts when importers win adjudication.",
+          "summarySource": "desc"
         },
         {
           "sr": 14,
@@ -466,7 +474,9 @@
           "title": "Custom Duty | Gauhati HC Sets Aside Release of Vehicle Seized Under Customs Act by Criminal Court",
           "desc": "Gauhati HC sets aside release of a truck seized under the Customs Act, holding release applications should be pursued under Section 110A.The post Gauhati HC Sets Aside Release of Vehicle Seized Under ",
           "link": "https://taxguru.in/custom-duty/gauhati-hc-sets-release-vehicle-seized-customs-act-criminal-court.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Gauhati High Court ruled that a vehicle seized under the Customs Act must be sought for release through Section 110A, not criminal court.",
+          "summarySource": "desc"
         },
         {
           "sr": 15,
@@ -476,7 +486,9 @@
           "title": "Income Tax | Karnataka HC Quashes Notional Rent Tax on Building Without Occupancy Certificate",
           "desc": "Karnataka High Court quashes notional rent addition where the building lacked an occupancy certificate and rental income was declared subsequently.The post Karnataka HC Quashes Notional Rent Tax on Bu",
           "link": "https://taxguru.in/income-tax/karnataka-hc-quashes-notional-rent-tax-building-without-occupancy-certificate.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Karnataka High Court ruled that notional rent tax cannot be added for an unoccupied building without an occupancy certificate, even if rent was later reported.",
+          "summarySource": "desc"
         },
         {
           "sr": 16,
@@ -693,7 +705,9 @@
           "title": "Income Tax | ITAT Bangalore Partly Allows Dotgo’s Transfer Pricing Appeal on Comparables &#038; Costs",
           "desc": "ITAT Bangalore excludes marketing and bank costs, directs inclusion/exclusion of comparables and deletes notional interest adjustment.The post ITAT Bangalore Partly Allows Dotgo’s Transfer Pricing App",
           "link": "https://taxguru.in/income-tax/itat-bangalore-partly-dotgos-transfer-pricing-appeal-comparables-costs.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "ITAT Bangalore partly favored Dotgo, removing some cost adjustments and changing which comparables count in its transfer pricing case.",
+          "summarySource": "desc"
         },
         {
           "sr": 12,
@@ -703,7 +717,9 @@
           "title": "Income Tax | ITAT Jodhpur Restores Trust Registration Application u/s 12AA to CIT(E) for Fresh Decision",
           "desc": "ITAT Jodhpur restored Jogniya Mata Shaktipith Prabandh AVM Viikas Sansthan’s section 12AA registration application to CIT(E), granting one more opportunity to submit the required documents and details",
           "link": "https://taxguru.in/income-tax/itat-jodhpur-restores-trust-registration-application-12aa-cit-fresh-decision.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "ITAT Jodhpur gave the trust another chance to submit documents as it sent its 12AA registration application back to the tax authority for reconsideration.",
+          "summarySource": "desc"
         },
         {
           "sr": 13,
@@ -713,7 +729,9 @@
           "title": "Income Tax | SC Dismisses SLP Against Bombay HC Ruling on Section 271(1)(c) Penalty",
           "desc": "Supreme Court declines interference with Bombay HC dismissal of Revenue appeal concerning defective Section 271(1)(c) penalty notice.The post SC Dismisses SLP Against Bombay HC Ruling on Section 271(1",
           "link": "https://taxguru.in/income-tax/sc-dismisses-slp-against-bombay-hc-ruling-section-271-1-penalty.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The Supreme Court left intact a Bombay High Court ruling dismissing a tax penalty appeal because the Section 271(1)(c) notice was defective.",
+          "summarySource": "desc"
         },
         {
           "sr": 14,
@@ -723,7 +741,9 @@
           "title": "Income Tax | Bombay High Court Dismisses Revenue Appeal on Defective Penalty Notice",
           "desc": "Bombay High Court upholds deletion of Section 271(1)(c) penalty where satisfaction was absent and the penalty notice was defective.The post Bombay High Court Dismisses Revenue Appeal on Defective Pena",
           "link": "https://taxguru.in/income-tax/bombay-high-court-dismisses-revenue-appeal-defective-penalty-notice.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Bombay High Court upheld cancellation of an income tax penalty because the tax department failed to properly record its reasons and issued a defective notice.",
+          "summarySource": "desc"
         },
         {
           "sr": 15,
@@ -1885,7 +1905,9 @@
           "title": "Niva Bupa hikes premiums 8-9% annually to keep pace with medical inflation: CFO Vishwanath Mahendra",
           "desc": "",
           "link": "https://bfsi.economictimes.indiatimes.com/articles/niva-bupa-hikes-premiums-8-9-annually-to-keep-pace-with-medical-inflation-cfo-vishwanath-mahendra/133602500?utm_source=most_read&utm_medium=homepage",
-          "isNew": false
+          "isNew": false,
+          "summary": "Niva Bupa says it is raising health insurance premiums 8–9% each year to offset rising medical costs, according to its CFO.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -1895,7 +1917,9 @@
           "title": "HDFC Bank, Kotak, Axis seen as re-rating candidates despite Q1 margin pressure",
           "desc": "",
           "link": "https://bfsi.economictimes.indiatimes.com/articles/hdfc-bank-kotak-axis-seen-as-re-rating-candidates-despite-q1-margin-pressure/133445973?utm_source=most_read&utm_medium=homepage",
-          "isNew": false
+          "isNew": false,
+          "summary": "HDFC Bank, Kotak and Axis may see valuation gains despite weaker first-quarter margins, according to the update.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -1905,7 +1929,9 @@
           "title": "HDFC Bank’s deposit franchise shows cracks as retail share falls, wholesale funding rises",
           "desc": "",
           "link": "https://bfsi.economictimes.indiatimes.com/articles/hdfc-banks-deposit-franchise-shows-cracks-as-retail-share-falls-wholesale-funding-rises/133526991?utm_source=most_read&utm_medium=homepage",
-          "isNew": false
+          "isNew": false,
+          "summary": "HDFC Bank’s deposit base is becoming less retail-focused and more reliant on wholesale funding, which may raise funding and compliance risks.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -1915,7 +1941,9 @@
           "title": "HDFC Bank CEO Jagdishan’s refusal to overhaul bank fueled surprise exit as chairman pushed for changes",
           "desc": "",
           "link": "https://bfsi.economictimes.indiatimes.com/articles/hdfc-bank-ceo-jagdishans-refusal-to-overhaul-bank-fueled-surprise-exit-as-chairman-pushed-for-changes/133675211?utm_source=most_read&utm_medium=homepage",
-          "isNew": false
+          "isNew": false,
+          "summary": "HDFC Bank’s CEO exit reportedly followed a dispute over proposed management changes, raising governance and compliance concerns.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -2082,7 +2110,9 @@
           "title": "Extension of timelines with repect to compliance of Digital Accessibility Circulars.",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/jul-2026/extension-of-timelines-with-repect-to-compliance-of-digital-accessibility-circulars-_103277.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators have extended deadlines for complying with digital accessibility circular requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -2092,7 +2122,9 @@
           "title": "‘Green-Channel: AIF Rollout Upon Document Acknowledgement’ (GARUDA) Mechanism for Processing of Placement Memorandum of Alternative Investment Funds (AIFs) filed with SEBI",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/jul-2026/-green-channel-aif-rollout-upon-document-acknowledgement-garuda-mechanism-for-processing-of-placement-memorandum-of-alternative-investment-funds-aifs-filed-with-sebi_103241.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI introduced a green-channel process that lets eligible AIF placement memorandums move forward once documents are acknowledged.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -2102,7 +2134,9 @@
           "title": "Ease of Doing Investment and Ease of Doing Business – Simplification and standardisation of the framework for transmission of securities",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/jul-2026/ease-of-doing-investment-and-ease-of-doing-business-simplification-and-standardisation-of-the-framework-for-transmission-of-securities_103030.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators are simplifying and standardizing how securities are transferred to make investing and business operations easier and more consistent.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -2112,7 +2146,9 @@
           "title": "Certification Requirements for Distribution of Specialized Investment Funds (SIFs)",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/jul-2026/certification-requirements-for-distribution-of-specialized-investment-funds-sifs-_102986.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "New certification rules may now apply to firms distributing specialized investment funds, affecting compliance checks and staff qualifications.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -5079,7 +5115,9 @@
           "title": "Master Circular for issue and listing of Non-convertible Securities, Securitised Debt Instruments, Security Receipts, Municipal Debt Securities and Commercial Paper",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/oct-2025/master-circular-for-issue-and-listing-of-non-convertible-securities-securitised-debt-instruments-security-receipts-municipal-debt-securities-and-commercial-paper_97343.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The circular consolidates listing and issuance rules for non-convertible securities, securitised debt instruments, security receipts, municipal debt securities, and commercial paper.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -5089,7 +5127,9 @@
           "title": "Master Circular for Debenture Trustees (DTs)",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/aug-2025/master-circular-for-debenture-trustees-dts-_96073.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator issued a master circular consolidating rules for debenture trustees, updating compliance obligations and oversight requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -5099,7 +5139,9 @@
           "title": "Master Circular for Portfolio Managers",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/jul-2025/master-circular-for-portfolio-managers_95347.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator has issued a master circular consolidating the current rules that portfolio managers must follow.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -5109,7 +5151,9 @@
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/jul-2025/master-circular-for-infrastructure-investment-trusts-invits-_95233.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India issued a master circular consolidating key rules and compliance requirements for Infrastructure Investment Trusts (InvITs).",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -6436,7 +6480,9 @@
           "title": "Request for Informal Guidance by way of an Interpretative Letter under provisions of Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from UTI Alternatives Private Limited related to Securities and Exchange Board of India (Mutual Funds) Regulations, 2026 (erstwhile Securities and Exchange Board of India (Mutual Funds) Regulations, 1996",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/informal-guidance/apr-2026/request-for-informal-guidance-by-way-of-an-interpretative-letter-under-provisions-of-securities-and-exchange-board-of-india-informal-guidance-scheme-2025-received-from-uti-alternatives-private-limi-_100852.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI received UTI Alternatives’ request for informal guidance on how the mutual fund regulations apply under the new 2026 framework.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -6446,7 +6492,9 @@
           "title": "Request for informal guidance by way of an interpretative letter under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2003 received from Sanguine Wealth Advisors LLP",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/informal-guidance/mar-2026/request-for-informal-guidance-by-way-of-an-interpretative-letter-under-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2003-received-from-sanguine-wealth-advisors-llp_100504.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI received Sanguine Wealth Advisors’ request for an informal interpretative guidance letter, which may clarify applicable securities rules.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -6456,7 +6504,9 @@
           "title": "Request for Informal Guidance by way of an interpretative letter under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from FRR Shares and Securities Limited",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/informal-guidance/mar-2026/request-for-informal-guidance-by-way-of-an-interpretative-letter-under-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2025-received-from-frr-shares-and-securities-limited_100488.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI received FRR Shares and Securities Limited’s request for informal guidance through an interpretative letter under its 2025 scheme.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -6466,7 +6516,9 @@
           "title": "Informal Guidance request received from Ambo Agritec Limited with respect to Regulation 3(2) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeover) Regulations, 2011 (“SAST Regulations”)",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/informal-guidance/mar-2026/informal-guidance-request-received-from-ambo-agritec-limited-with-respect-to-regulation-3-2-of-the-securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeover-regulations-_100405.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Ambo Agritec Limited has sought informal guidance from SEBI on how Regulation 3(2) of the takeover rules applies to a possible share acquisition.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -6713,7 +6765,9 @@
           "title": "Consultation Paper on Review of provisions related to ISIN for Debt Securities Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/consultation-paper-on-review-of-provisions-related-to-isin-for-debt-securities_103475.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators are seeking comments on proposed changes to ISIN rules for debt securities, which may affect issuance, tracking, and compliance processes.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -6723,7 +6777,9 @@
           "title": "Consultation Paper on Measures for ease of doing business on Settlement and Risk Management provisions for Clearing Corporations Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/consultation-paper-on-measures-for-ease-of-doing-business-on-settlement-and-risk-management-provisions-for-clearing-corporations_103412.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator has proposed changes to clearing corporation settlement and risk rules to make business operations easier and is seeking public comments.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -6733,7 +6789,9 @@
           "title": "Consultation Paper On Measures Towards Ease Of Doing Business For REIT And InvITs Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/consultation-paper-on-measures-towards-ease-of-doing-business-for-reit-and-invits_103401.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator is seeking feedback on proposals to simplify rules and improve ease of doing business for REITs and InvITs.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -6743,7 +6801,9 @@
           "title": "Consultation Paper on Issuance of Depository Receipts against units of REITs and Publicly Listed InvITs Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/consultation-paper-on-issuance-of-depository-receipts-against-units-of-reits-and-publicly-listed-invits_103343.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators are seeking comments on new rules for issuing depository receipts backed by REIT and listed InvIT units.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -9640,7 +9700,9 @@
           "title": "Invitation of Applications for the post of Security Coordinator on Contract basis",
           "desc": "",
           "link": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doCoordinatorForm=yes",
-          "isNew": false
+          "isNew": false,
+          "summary": "A contract Security Coordinator position is being advertised, and applications are now being invited.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -9650,7 +9712,9 @@
           "title": "Download the TRAI DND App and Report Spam",
           "desc": "",
           "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2025/trai_dnd_eng_p.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "TRAI is urging mobile users to install its DND app to report spam calls and messages more easily.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -9660,7 +9724,9 @@
           "title": "Join NCFE as a Financial Education Trainer today!",
           "desc": "",
           "link": "https://ncfe.org.in/announcements/",
-          "isNew": false
+          "isNew": false,
+          "summary": "NCFE is recruiting financial education trainers, which may require compliance review of role responsibilities and training content.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -9670,7 +9736,9 @@
           "title": "PACL Matters",
           "desc": "",
           "link": "https://www.sebi.gov.in/sebiweb/other/PACL.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators are continuing to address PACL-related issues, which compliance teams should monitor for any investor compensation, enforcement, or reporting implications.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -10958,7 +11026,9 @@
           "title": "Adjudication Order in respect of Cube Trafin Private Limited in the matter of Illiquid Stock Options at BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/aug-2026/adjudication-order-in-respect-of-cube-trafin-private-limited-in-the-matter-of-illiquid-stock-options-at-bse_103767.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE issued an adjudication order against Cube Trafin Private Limited over alleged irregularities involving illiquid stock options.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -10968,7 +11038,9 @@
           "title": "Adjudication Order in respect of Fatmabibi Yusufbhai Rangwala in the matter of Illiquid Stock Options at BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/aug-2026/adjudication-order-in-respect-of-fatmabibi-yusufbhai-rangwala-in-the-matter-of-illiquid-stock-options-at-bse_103632.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE issued an adjudication order against Fatmabibi Yusufbhai Rangwala over alleged misconduct involving illiquid stock options.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -10978,7 +11050,9 @@
           "title": "Adjudication Order in respect of Ram Asava HUF in the matter of Illiquid Stock Options at BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/aug-2026/adjudication-order-in-respect-of-ram-asava-huf-in-the-matter-of-illiquid-stock-options-at-bse_103584.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE issued an adjudication order against Ram Asava HUF over illiquid stock options trading issues, which may indicate potential market misconduct concerns.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -10988,7 +11062,9 @@
           "title": "Adjudication Order in respect to twenty entities in the matter of Ultracab (India) Limited",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/aug-2026/adjudication-order-in-respect-to-twenty-entities-in-the-matter-of-ultracab-india-limited_103452.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s market regulator issued an adjudication order against 20 entities in the Ultracab (India) case, likely for suspected securities-law violations.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -13985,7 +14061,9 @@
           "title": "Reserve Bank of India (Urban Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13683&amp;Mode=0",
-          "isNew": false
+          "isNew": false,
+          "summary": "The RBI issued updated rules changing cash reserve and liquidity requirements for urban co-operative banks.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -13995,7 +14073,9 @@
           "title": "Reserve Bank of India (Regional Rural Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13682&amp;Mode=0",
-          "isNew": false
+          "isNew": false,
+          "summary": "The RBI updated cash reserve and liquidity requirements for regional rural banks, likely affecting how much cash they must hold on hand.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -14005,7 +14085,9 @@
           "title": "Reserve Bank of India (Small Finance Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13681&amp;Mode=0",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s central bank updated reserve and liquidity requirements for small finance banks under new 2026 directions.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -14015,7 +14097,9 @@
           "title": "Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13680&amp;Mode=0",
-          "isNew": false
+          "isNew": false,
+          "summary": "The RBI issued new 2026 rules updating commercial banks’ cash reserve and statutory liquidity requirements, which may affect liquidity compliance and reporting.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -14292,7 +14376,9 @@
           "title": "Master Direction - Reserve Bank of India (Internal Ombudsman for Regulated Entities) Directions, 2023",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12586",
-          "isNew": false
+          "isNew": false,
+          "summary": "The RBI issued new rules requiring regulated entities to set up internal ombudsman processes to review certain customer complaints independently.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -14302,7 +14388,9 @@
           "title": "Reserve Bank of India (Commercial Banks - Capital Charge for Credit Risk – Standardised Approach) Directions, 2026 (Effective from April 1, 2027)",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13399",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s central bank has issued new rules on how commercial banks must calculate credit-risk capital, effective April 1, 2027.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -14312,7 +14400,9 @@
           "title": "Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13400",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI has issued updated rules for commercial banks on classifying assets, setting aside provisions, and recognizing income for regulatory compliance.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -14322,7 +14412,9 @@
           "title": "Reserve Bank of India (Commercial Banks – Prudential Norms on Declaration of Dividend and Remittances of Profits) Directions, 2026",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13319",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI issued 2026 rules tightening commercial banks’ prudential requirements for declaring dividends and remitting profits.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -17319,7 +17411,9 @@
           "title": "Master Circular - Guarantees and Co-acceptances",
           "desc": "",
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12820",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator issued an updated master circular consolidating the rules for guarantees and co-acceptances that companies must follow.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -17329,7 +17423,9 @@
           "title": "Master Circular – Basel III Capital Regulations",
           "desc": "",
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12815",
-          "isNew": false
+          "isNew": false,
+          "summary": "The central bank has updated Basel III capital rules, which may affect banks’ capital, risk, and compliance requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -17339,7 +17435,9 @@
           "title": "Master Circular - Credit facilities to Scheduled Castes (SCs) & Scheduled Tribes (STs)",
           "desc": "Master Circulars (257 kb)Master Circular - Credit facilities to Scheduled Castes (SCs) & Scheduled Tribes (STs) RBI/2025-26/56 FIDD.CO.GSSD.BC.No.07/09.09.001/2025-26 June 16, 2025 The Chairman/ Managing Director / Chief Executive Officer All Scheduled Commercial Banks (including Small Finance Banks) Madam/ Dear Sir, Master Circular - Credit facilities to Scheduled Castes (SCs) & Scheduled Tribes (STs) The Reserve Bank of India has, from time to time, issued a number of guidelines/instructions to banks on credit facilities to Scheduled Castes (SCs) & Scheduled Tribes (STs). The enclosed Master Circular consolidates the circulars issued by Reserve Bank on the subject till date, as listed in the Appendix. Yours faithfully, (R. Giridharan) Chief General Manager Master Circular - Credit Facilities to Scheduled Castes (SCs) & Scheduled Tribes (STs) Banks should take the measures indicated below to step up their advances to SCs/STs. 1. Planning Process 1.1 The District Level Consultative Committees formed under the Lead Bank Scheme should continue to be the principal mechanism of co-ordination between banks and development agencies in this regard. The district credit plans formulated by the Lead Banks should clearly indicate the linkage of credit with employment and development schemes. 1.2 Banks will have to establish closer liaison with the District Industries Centres, which have been set up in different districts for promoting self-employment. 1.3 At the block level, a certain weightage is to be given to SCs/STs in the planning process. Accordingly, the credit planning should be weighted in their favour and special bankable schemes suited to them should be drawn up to ensure their participation and larger flow of credit to them for self-employment. It will be necessary for the banks to consider their loan proposals with utmost sympathy and understanding. 1.4 Banks should periodically review their lending procedures and policies to see that loans are sanctioned in time, are adequate and production-oriented and that they generate incremental income to make them self-liquidating. 1.5 While formulating the Block/ District Credit Plan, special focus may be given to villages with sizeable population of SC/ST communities/ specific localities (bastis) in the towns/villages having a concentration of these communities. 2. Role of Banks 2.1 Bank staff may help the borrowers in filling up the forms and completing other formalities so that they are able to get credit facility within a stipulated period from the date of receipt of applications. 2.2 In order to encourage SC/ST borrowers to take advantage of credit facilities, greater awareness among them about various schemes formulated by banks needs to be created through various means such as brochures, visits by field staff etc so that salient features of the schemes, as also the advantages that will accrue to them are known to such borrowers. Banks should advise their branches to organize meetings more frequently exclusively for SC/ST beneficiaries to understand their credit needs and to incorporate the same in the credit plan. 2.3 Circulars issued by RBI/NABARD should be circulated among the staff for compliance. 2.4 Banks should not insist on deposits while considering loan applications under Government sponsored poverty alleviation schemes/self-employment programmes from borrowers belonging to SCs/STs. It should also be ensured that applicable subsidy is not held back while releasing the loan component till the full repayment of bank dues. Non-release of subsidy upfront amounts to under-financing and hampers asset creation/income generation. 2.5 The National Scheduled Tribes Finance & Development Corporation and National Scheduled Castes Finance & Development Corporation have been set up under the administrative control of Ministry of Tribal Affairs and Ministry of Social Justice & Empowerment, respectively. Banks should advise their branches/controlling offices to render all the necessary institutional support to enable these institutions to achieve the desired objectives. 2.6. Loans sanctioned to State Sponsored Organisations for Scheduled Castes/ Scheduled Tribes for the specific purpose of purchase and supply of inputs and/or the marketing of the outputs of the beneficiaries of these organisations are eligible for priority sector classification. 2.7 Rejection of SC/STs’ loan applications under government programmes should be done at the next higher level instead of at the branch level and reasons of rejection should be clearly indicated. 3. Role of SC/ST Development Corporations The Government of India has advised all State Governments that the Scheduled Caste/Scheduled Tribes Development Corporations can consider bankable schemes/proposals for bank finance. 4. Reservations for SC/ST beneficiaries under major Centrally Sponsored Schemes. There are several major centrally sponsored schemes under which credit is provided by banks and subsidy is received through Gove",
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12869",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI’s master circular consolidates bank rules to expand, speed up and better support credit access for SC/ST borrowers.",
+          "summarySource": "desc"
         },
         {
           "sr": 14,
@@ -17349,7 +17447,9 @@
           "title": "Master Circular – Lead Bank Scheme",
           "desc": "",
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12808",
-          "isNew": false
+          "isNew": false,
+          "summary": "The central bank has issued a master circular updating rules and responsibilities under the Lead Bank Scheme for coordinating local banking development.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -17506,7 +17606,9 @@
           "title": "RBI releases draft Master Direction - Reserve Bank of India (Call, Notice and Term Money Markets) Directions, 2026",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63023",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI issued draft rules for call, notice, and term money markets in 2026, signaling possible changes to borrowing, lending, and compliance requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -17516,7 +17618,9 @@
           "title": "RBI releases draft Master Direction – Reserve Bank of India (Secondary Market Transactions in Government Securities) Directions, 2026",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63019",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI has issued draft rules for secondary market trading of government securities, likely changing compliance requirements for market participants.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -17526,7 +17630,9 @@
           "title": "RBI issues draft ‘Guidance on Regulatory Principles for Model Risk Management’",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63006",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s central bank has proposed draft guidance to help financial institutions manage risks from using models in decision-making and compliance.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -17536,7 +17642,9 @@
           "title": "RBI invites comments on Harmonisation and Consolidation of Instructions on Control / Assurance Functions",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62909",
-          "isNew": false
+          "isNew": false,
+          "summary": "The RBI is seeking public feedback on proposed changes to unify and streamline rules for control and assurance functions in regulated entities.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -17733,7 +17841,9 @@
           "title": "Extension of timeline for compliance with terms and conditions by\nDebenture Trustees for carrying out activities outside the purview of\nSEBI",
           "desc": "",
           "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260506-37/20260506-37.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI has extended the deadline for debenture trustees to comply with rules on activities performed outside SEBI’s regulatory scope.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -17743,7 +17853,9 @@
           "title": "XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI PIT Regulations, 2015",
           "desc": "",
           "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-17/20260504-17.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI now requires XBRL filing for code of conduct violation disclosures under its insider trading regulations.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -17753,7 +17865,9 @@
           "title": "Update of single filing system through API-based integration between Stock Exchanges",
           "desc": "",
           "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-16/20260504-16.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "Stock exchanges have updated their single filing system by connecting through APIs, which may change how companies submit regulatory disclosures.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -17763,7 +17877,9 @@
           "title": "Master Circular - Listing Compliance",
           "desc": "",
           "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260430-29/20260430-29.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "The circular updates stock exchange listing compliance requirements and procedures that listed companies must follow.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -18010,7 +18126,9 @@
           "title": "XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI (Prohibition of Insider Trading) Regulations, 2015",
           "desc": "National Stock Exchange of India Circular Department: Listing Circular Ref. No.: NSE/CML/2026/13 Date: May 04, 2026 To, The Company Secretary, All Listed Entities/Intermediaries/Fiduciaries Subject: XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI (Prohibition of Insider Trading) Regulations, 2015 SEBI vide Circular No. SEBI/HO/ISD/ISD/CIR/P/2020/135 dated July 23, 2020, prescribed the format for reporting violations of the Code of Conduct under SEBI (Prohibition of Insider Trading) Regulations, 2015. To enhance accuracy and efficiency in disclosures, the Exchange has introduced an XBRL utility for reporting such violations through NEAPS with effect from May 05, 2026. All Listed Companies/Intermediaries/Fiduciaries shall submit the reporting through the following paths: To download XBRL utility: NEAPS  Compliance  Download XBRL Utilities For Submissions: NEAPS  Compliance  Common XBRL Upload  Violation of Code of Conduct under SEBI (PIT) Regulations, 2015 It may be noted that reporting by listed entities shall be made only in XBRL mode without submission of any PDF. Further, any unlisted entity reporting in the capacity of Intermediary or Fiduciary shall continue to submit the disclosures through email at pit_coc@nse.co.in, as per Exchange Circular No. NSE/CML/2020/44 dated August 26, 2020. The disclosure pertaining to violations of the Code of Conduct shall not be disseminated on the Exchange website. All listed entities are advised to mandatorily submit the reporting through NEAPS only. Submission through any other mode shall not be taken on record and shall be considered invalid. Listed entities, Intermediaries and Fiduciaries are advised to take note of the above and comply accordingly. Yours faithfully, For National Stock Exchange of India Limited Harshad Dharod Chief Manager-Listing Compliance",
           "link": "https://nsearchives.nseindia.com//web/circular/2026-05/Violation_of_Code_of_Conduct_20260504201244.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "NSE now requires listed entities to report Code of Conduct violations under SEBI insider-trading rules only through NEAPS XBRL, effective May 5, 2026.",
+          "summarySource": "desc"
         },
         {
           "sr": 12,
@@ -18020,7 +18138,9 @@
           "title": "Master Circular for Listed Companies",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/circular/2026-04/Master_Circular_NSE_2026.zip",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator has issued a master circular consolidating rules and compliance requirements for listed companies.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -18030,7 +18150,9 @@
           "title": "Update of single filing system through API-based integration between Stock Exchanges",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/circular/2026-04/API_Circular_24_April_2026_20260424200426.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "Stock exchanges have updated their single-filing system with API integration, which may simplify compliance reporting and data sharing.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -18040,7 +18162,9 @@
           "title": "Update of single filing system through API-based integration between Stock Exchanges",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/circular/2026-04/Circular_for_update_on_single_filing_system_through_API-based_integration_between_Stock_Exchanges_20260420201527.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "The stock exchanges updated their single filing system by connecting through an API-based integration to streamline regulatory submissions.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -21025,7 +21149,9 @@
           "title": "वित्तीय वर्ष 2023-24 के लिए अनिवार्य अध्यर्पण _ Obligatory Cession for the financial year 2023-24.pdf\n\t\t\t\t\t\t\t\t\t\t\t622 KB",
           "desc": "",
           "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+2023-24+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B0%E0%A5%8D%E0%A4%AA%E0%A4%A3+_+Obligatory+Cession+for+the+financial+year+2023-24.pdf/20b71247-88f2-bee9-7800-aa0fe674cf57?version=1.2&t=1688470351212&download=true",
-          "isNew": false
+          "isNew": false,
+          "summary": "India has issued a mandatory cession requirement for financial year 2023–24, which compliance teams should review and implement.",
+          "summarySource": "title"
         },
         {
           "sr": 11,
@@ -21035,7 +21161,9 @@
           "title": "आईआरडीएआई बीमा मध्यस्थ (संशोधन) विनियम 2022 _  IRDAI Insurance Intermediaries (Amendment) Regulations 2022.pdf\n\t\t\t\t\t\t\t\t\t\t\t1.1 MB",
           "desc": "",
           "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A5%8D%E0%A4%A5+%28%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE+2022+_++IRDAI+Insurance+Intermediaries+%28Amendment%29+Regulations+2022.pdf/72e2da55-495f-2343-51a5-538b401d5168?version=1.1&t=1688449954298&download=true",
-          "isNew": false
+          "isNew": false,
+          "summary": "IRDAI has issued amended insurance intermediary rules in 2022, so compliance teams should review updated licensing and conduct requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -21045,7 +21173,9 @@
           "title": "आईआरडीएआई (अन्य प्रकार की पूँजी) विनियम, 2022 _ IRDAI (Other Forms of Capital) Regulations, 2022.pdf\n\t\t\t\t\t\t\t\t\t\t\t1.6 MB",
           "desc": "",
           "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%AF+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0+%E0%A4%95%E0%A5%80+%E0%A4%AA%E0%A5%82%E0%A4%81%E0%A4%9C%E0%A5%80%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2022+_+IRDAI+%28Other+Forms+of+Capital%29+Regulations%2C+2022.pdf/46ca7deb-2573-8020-bad6-5655c1707a3f?version=1.1&t=1688450321874&download=true",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s insurance regulator has issued rules on other forms of capital that companies may use to support solvency and compliance.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -21055,7 +21185,9 @@
           "title": "पुनर्बीमा सलाहकार समिति का पुनर्गठन _ Reconstitution of Reinsurance Advisory Committee.pdf\n\t\t\t\t\t\t\t\t\t\t\t606 KB",
           "desc": "",
           "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%B2%E0%A4%BE%E0%A4%B9%E0%A4%95%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A0%E0%A4%A8+_+Reconstitution+of+Reinsurance+Advisory+Committee.pdf/2a9c6ede-0b1d-87c3-9994-61eac7f88b74?version=1.2&t=1688455005965&download=true",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s Reinsurance Advisory Committee has been reconstituted, which may affect oversight and compliance related to reinsurance practices.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -21065,7 +21197,9 @@
           "title": "बीमा सलाहकार समिति के सदस्यों की नियुक्ति अधिसूचना _ Appointment Notification of Insurance Advisory committee Members.pdf\n\t\t\t\t\t\t\t\t\t\t\t925 KB",
           "desc": "",
           "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%B2%E0%A4%BE%E0%A4%B9%E0%A4%95%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A4%A6%E0%A4%B8%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%80+%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A5%81%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+_+Appointment+Notification+of+Insurance+Advisory+committee+Members.pdf/e2c6b236-733c-d381-a995-bc8ba72c39b8?version=1.2&t=1688451486309&download=true",
-          "isNew": false
+          "isNew": false,
+          "summary": "India has notified appointments to the Insurance Advisory Committee, which may affect insurance regulatory oversight and compliance monitoring.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -21250,7 +21384,9 @@
           "title": "परिपत्र - सर्वेक्षकों और हानि निर्धारकों के लिए वार्षिक शुल्क भुगतान संबंधी स्पष्टीकरण _ Circular - Surveyors and Loss Assessors clarification regarding payment of Annual Fees.pdf\n\t\t\t\t\t\t\t\t\t\t\t607 KB",
           "desc": "",
           "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+-+%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%B9%E0%A4%BE%E0%A4%A8%E0%A4%BF+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%95+%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95+%E0%A4%AD%E0%A5%81%E0%A4%97%E0%A4%A4%E0%A4%BE%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Circular+-+Surveyors+and+Loss+Assessors+clarification+regarding+payment+of+Annual+Fees.pdf/8b47078c-d4e8-9a3d-0ead-e4f0a515ea4f?version=1.0&t=1775642573794&download=true",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator clarified how surveyors and loss assessors must pay their annual fees to remain compliant.",
+          "summarySource": "title"
         },
         {
           "sr": 11,
@@ -21260,7 +21396,9 @@
           "title": "भारतीय लेखांकन मानकों (इंड एएस) के कार्यान्वयन संबंधी स्पष्टीकरण _ Clarifications on implementation of Indian Accounting Standards (Ind AS).pdf\n\t\t\t\t\t\t\t\t\t\t\t301 KB",
           "desc": "",
           "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B2%E0%A5%87%E0%A4%96%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A4%A8+%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B%E0%A4%82+%28%E0%A4%87%E0%A4%82%E0%A4%A1+%E0%A4%8F%E0%A4%8F%E0%A4%B8%29+%E0%A4%95%E0%A5%87+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Clarifications+on+implementation+of+Indian+Accounting+Standards+%28Ind+AS%29.pdf/75505922-46a0-cd6a-efc2-00b38d38f49c?version=3.0&t=1775558439491&download=true",
-          "isNew": false
+          "isNew": false,
+          "summary": "India issued clarifications on how to implement Indian Accounting Standards (Ind AS), affecting accounting and reporting compliance requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -21270,7 +21408,9 @@
           "title": "पॉलिसीधारकों को सेवाएं प्रदान करने हेतु- चालू वित्तीय वर्ष 2025-26 के लिए विशेष उपाय _ Servicing to the policyholders – Special Measure for the current Financial Year 2025-26.pdf\n\t\t\t\t\t\t\t\t\t\t\t182 KB",
           "desc": "",
           "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A5%89%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A5%80%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%8B+%E0%A4%B8%E0%A5%87%E0%A4%B5%E0%A4%BE%E0%A4%8F%E0%A4%82+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A6%E0%A4%BE%E0%A4%A8+%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%87+%E0%A4%B9%E0%A5%87%E0%A4%A4%E0%A5%81-+%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A5%82+%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+2025-26+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%87%E0%A4%B7+%E0%A4%89%E0%A4%AA%E0%A4%BE%E0%A4%AF+_+Servicing+to+the+policyholders+%E2%80%93+Special+Measure+for+the+current+Financial+Year+2025-26.pdf/a20f0d9f-d9b2-757f-8d12-30b5d1a845c1?version=1.0&t=1774444019239&download=true",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator announced special measures for the 2025–26 financial year to improve services for policyholders.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -21280,7 +21420,9 @@
           "title": "वार्षिक शुल्क के भुगतान और पंजीकरण प्रमाणपत्र के निर्गम के लिए परिवर्ती व्यवस्थाएँ (मध्यवर्तियों) _ Transitional arrangements for payment of Annual Fee and issuance  of  Certificate  of  Registration (Intermediaries).pdf\n\t\t\t\t\t\t\t\t\t\t\t267 KB",
           "desc": "",
           "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%95+%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95+%E0%A4%95%E0%A5%87+%E0%A4%AD%E0%A5%81%E0%A4%97%E0%A4%A4%E0%A4%BE%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%80+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%8F%E0%A4%81+%28%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82%29+_+Transitional+arrangements+for+payment+of+Annual+Fee+and+issuance++of++Certificate++of++Registration+%28Intermediaries%29.pdf/840b8111-53f2-566b-e1ce-e2d5a6b961aa?version=2.0&t=1774597157001&download=true",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators issued transitional rules for intermediaries on paying annual fees and receiving registration certificates.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -21290,7 +21432,9 @@
           "title": "वैकल्पिक निवेश निधियों (एआईएफएस) में निवेश के संबंध में उपबंधों संबंधी स्पष्टीकरण _ Clarifications on provisions with respect to investment in Alternative Investment Funds(AIFs).pdf\n\t\t\t\t\t\t\t\t\t\t\t393 KB",
           "desc": "",
           "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A5%88%E0%A4%95%E0%A4%B2%E0%A5%8D%E0%A4%AA%E0%A4%BF%E0%A4%95+%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6+%E0%A4%A8%E0%A4%BF%E0%A4%A7%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%28%E0%A4%8F%E0%A4%86%E0%A4%88%E0%A4%8F%E0%A4%AB%E0%A4%8F%E0%A4%B8%29+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%89%E0%A4%AA%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Clarifications+on+provisions+with+respect+to+investment+in+Alternative+Investment+Funds%28AIFs%29.pdf/f7d75129-66cd-99d4-2cc5-3bb4fe1f4ff4?version=2.0&t=1771505532123&download=true",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators clarified rules for how investors can put money into Alternative Investment Funds, affecting compliance requirements for AIF investments.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -21475,7 +21619,9 @@
           "title": "सीमापार पुनर्बीमाकर्ताओं को एफआरएन के निर्गम संबंधी दिशानिर्देश Guidelines on issuance of FRNs to Cross Border Reinsurers.pdf\n\t\t\t\t\t\t\t\t\t\t\t8.1 MB",
           "desc": "",
           "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%B8%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0+%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%8B+%E0%A4%8F%E0%A4%AB%E0%A4%86%E0%A4%B0%E0%A4%8F%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6+Guidelines+on+issuance+of+FRNs+to+Cross+Border+Reinsurers.pdf/f7c83eaa-24b2-ce7d-96ed-9d8e5e5eecaa?version=2.0&t=1682510377843&download=true",
-          "isNew": false
+          "isNew": false,
+          "summary": "India issued guidelines for foreign reinsurers on issuing FRNs, setting the rules for cross-border reinsurance note offerings.",
+          "summarySource": "title"
         },
         {
           "sr": 11,
@@ -21485,7 +21631,9 @@
           "title": "Guidelines on Establishment and Closure of Liaison Office in India by an Insurance Company registered outside India",
           "desc": "",
           "link": "https://irdai.gov.in/document-detail?documentId=1445464",
-          "isNew": false
+          "isNew": false,
+          "summary": "India has issued rules for foreign insurance companies on how to open and shut liaison offices, affecting their local compliance and reporting obligations.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -21495,7 +21643,9 @@
           "title": "Guidelines in respect of Conflict of Interest and Common Directorship  among Intermediary or Insurance intermediary.pdf\n\t\t\t\t\t\t\t\t\t\t\t1.5 MB",
           "desc": "",
           "link": "https://irdai.gov.in/documents/37343/366029/Guidelines+in+respect+of+Conflict+of+Interest+and+Common+Directorship++among+Intermediary+or+Insurance+intermediary.pdf/2ac57f2e-5a61-5bb6-6a96-469d23025bcb?version=1.0&t=1665634621535&download=true",
-          "isNew": false
+          "isNew": false,
+          "summary": "New guidelines address conflict-of-interest and common-directorship risks among intermediaries and insurance intermediaries to strengthen governance and compliance.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -21505,7 +21655,9 @@
           "title": "Guidelines on Information and Cyber Security.pdf\n\t\t\t\t\t\t\t\t\t\t\t292 KB",
           "desc": "",
           "link": "https://irdai.gov.in/documents/37343/366029/Guidelines+on+Information+and+Cyber+Security.pdf/052a1248-cfce-3f37-ff2d-16e4a2aeed3c?version=1.1&t=1665031369193&download=true",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document appears to provide guidelines for managing information and cyber security risks and controls to support compliance and protect sensitive data.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -21515,7 +21667,9 @@
           "title": "Master Guidelines on Anti-Money Laundering/ Counter Financing of Terrorism (AML/CFT), 2022",
           "desc": "",
           "link": "https://irdai.gov.in/document-detail?documentId=1345417",
-          "isNew": false
+          "isNew": false,
+          "summary": "The 2022 AML/CFT master guidelines set updated compliance requirements to prevent money laundering and terrorist financing.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -22190,7 +22344,9 @@
           "title": "Order in the matter of Vikas Proppant and Granite Limited for the FY 2020-21 against M/s Singh Ajay & Co. and CA Priyank Mittal",
           "desc": "",
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/07/20240705380026246.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "Indian authorities issued an order concerning FY2020-21 proceedings against the company’s auditor and a chartered accountant.",
+          "summarySource": "title"
         },
         {
           "sr": 11,
@@ -22200,7 +22356,9 @@
           "title": "Order against CA Kashinath Chaturvedi in the matter of DHFL Branch Audit",
           "desc": "",
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/06/202406212101761437.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s regulator issued an order against CA Kashinath Chaturvedi over the DHFL branch audit matter.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -22210,7 +22368,9 @@
           "title": "Order against CA Krishna Bihari Chaturvedi in the matter of DHFL Branch Audit",
           "desc": "",
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/06/202406211115088640.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "Indian regulators issued an order against CA Krishna Bihari Chaturvedi over his role in the DHFL branch audit.",
+          "summarySource": "title"
         }
       ],
       "ts": 1788433536737,
@@ -22335,7 +22495,9 @@
           "title": "NFRA Consultation Paper on Enhancing Engagement with Stakeholders Report of Technical Advisory Committee (March 2021)",
           "desc": "",
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/20230207100.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "NFRA has issued a consultation paper seeking stakeholder input on ways to improve engagement and strengthen its technical advisory process.",
+          "summarySource": "title"
         },
         {
           "sr": 11,
@@ -22345,7 +22507,9 @@
           "title": "Report of Technical Advisory Committee (TAC)",
           "desc": "",
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020735.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "A technical advisory committee report was issued, and compliance teams should review it for any regulatory or reporting changes that may affect operations.",
+          "summarySource": "title"
         }
       ],
       "ts": 1788433538215,
@@ -22470,7 +22634,9 @@
           "title": "M/s MSKA & Associates LLP– Inspection Report No. 132.2-2024-03",
           "desc": "",
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260316866297865.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "A regulatory inspection report was issued for M/s MSKA & Associates LLP, which the compliance team should review for any required follow-up.",
+          "summarySource": "title"
         },
         {
           "sr": 11,
@@ -22480,7 +22646,9 @@
           "title": "M/s Walker Chandiok & Co LLP – Inspection Report No.132.2-2023-06",
           "desc": "",
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2025/03/202503281125535815.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s audit regulator issued an inspection report on Walker Chandiok & Co LLP, which compliance teams should review for any oversight or quality-control findings.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -22490,7 +22658,9 @@
           "title": "M/s Deloitte Haskins & Sells LLP – Inspection Report No.132.2-2023-07",
           "desc": "",
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2025/03/202503281699084526.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "A regulatory inspection report was issued for Deloitte Haskins & Sells LLP, which compliance teams should review for any findings or required actions.",
+          "summarySource": "title"
         }
       ],
       "ts": 1788433539695,
@@ -22615,7 +22785,9 @@
           "title": "The PCAOB announced the appointment of George Kostolampros as General Counsel.",
           "desc": "",
           "link": "https://pcaobus.org/news-events/news-releases/news-release-detail/george-kostolampros-named-pcaob-general-counsel",
-          "isNew": false
+          "isNew": false,
+          "summary": "The PCAOB has appointed George Kostolampros as its new General Counsel.",
+          "summarySource": "title"
         },
         {
           "sr": 11,
@@ -22625,7 +22797,9 @@
           "title": "The PCAOB announced the appointment of Dr. Ying Li Compton as its Chief Economist and Director of the Office of Economic and Risk Analysis.",
           "desc": "",
           "link": "https://pcaobus.org/news-events/news-releases/news-release-detail/dr.-ying-li-compton-named-pcaob-chief-economist-and-director-of-its-office-of-economic-and-risk-analysis",
-          "isNew": false
+          "isNew": false,
+          "summary": "The PCAOB named Dr. Ying Li Compton as its new Chief Economist and head of economic and risk analysis.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -22635,7 +22809,9 @@
           "title": "Chief Auditor Barbara Vanich will leave the PCAOB after more than 17 years of service.",
           "desc": "",
           "link": "https://pcaobus.org/news-events/news-releases/news-release-detail/chief-auditor-barbara-vanich-to-depart-the-pcaob",
-          "isNew": false
+          "isNew": false,
+          "summary": "The PCAOB’s chief auditor, Barbara Vanich, is departing after more than 17 years of service.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -22645,7 +22821,9 @@
           "title": "The PCAOB today announced the establishment of a Firm Consultation Process designed to provide timely and consistent guidance from PCAOB staff.",
           "desc": "",
           "link": "https://pcaobus.org/news-events/news-releases/news-release-detail/pcaob-staff-launches-firm-consultation-process-to-enhance-clarity-and-to-support-application-and-implementation-of-pcaob-standards",
-          "isNew": false
+          "isNew": false,
+          "summary": "The PCAOB launched a new consultation process to give audit firms faster, more consistent guidance from its staff.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -22655,7 +22833,9 @@
           "title": "The PCAOB has launched an open comment period for stakeholders to provide input on its standard-setting and research agendas.",
           "desc": "",
           "link": "https://pcaobus.org/news-events/news-releases/news-release-detail/pcaob-seeks-stakeholder-input-on-its-standard-setting-and-research-agendas",
-          "isNew": false
+          "isNew": false,
+          "summary": "The PCAOB is asking for public feedback to help shape its future auditing standards and research priorities.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -22840,7 +23020,9 @@
           "title": "The PCAOB has sanctioned two firms for violations related to required audit records and disclosure of key information for investors.",
           "desc": "",
           "link": "https://pcaobus.org/news-events/news-releases/news-release-detail/pcaob-sanctions-two-firms-for-violations-related-to-required-audit-records-and-disclosure-of-key-information-for-investors",
-          "isNew": false
+          "isNew": false,
+          "summary": "The PCAOB penalized two audit firms for failing to keep required audit records and properly disclose key investor information.",
+          "summarySource": "title"
         },
         {
           "sr": 11,
@@ -22850,7 +23032,9 @@
           "title": "The PCAOB has sanctioned Michael Coglianese, CPA P.C., for engagement quality review failures on 17 engagements.",
           "desc": "",
           "link": "https://pcaobus.org/news-events/news-releases/news-release-detail/pcaob-sanctions-michael-coglianese--cpa-pc-for-engagement-quality-review-failures-on-17-engagements",
-          "isNew": false
+          "isNew": false,
+          "summary": "The PCAOB sanctioned Michael Coglianese, CPA P.C. for failing to properly perform engagement quality reviews on 17 audits.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -22860,7 +23044,9 @@
           "title": "PCAOB imposes a total of $8.5 million in fines on three Dutch firms for quality control violations related to widespread training exam misconduct.",
           "desc": "",
           "link": "https://pcaobus.org/news-events/news-releases/news-release-detail/pcaob-imposes-fines-totaling--8.5-million-on-netherlands-member-firms-of-deloitte--pwc--and-ey-after-widespread-exam-misconduct",
-          "isNew": false
+          "isNew": false,
+          "summary": "The PCAOB fined three Dutch firms $8.5 million total for quality control failures tied to widespread misconduct in training exams.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -22870,7 +23056,9 @@
           "title": "The PCAOB has permanently barred Michael T. Studer, CPA, and permanently revoked the PCAOB registration of his firm, Michael T. Studer CPA P.C.",
           "desc": "",
           "link": "https://pcaobus.org/news-events/news-releases/news-release-detail/pcaob-permanently-bars-repeat-violator--revokes-firm-registration-after-violations-tied-to-china-based-company",
-          "isNew": false
+          "isNew": false,
+          "summary": "The PCAOB permanently barred Michael T. Studer and revoked his firm’s registration, signaling serious audit oversight enforcement action.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -22880,7 +23068,9 @@
           "title": "The PCAOB has sanctioned a firm and one of its partners for, among other violations, failing to properly document five audits.",
           "desc": "",
           "link": "https://pcaobus.org/news-events/news-releases/news-release-detail/pcaob-sanctions-heaton-co-partner-among-other-violations-failing-to-properly-document-five-audits",
-          "isNew": false
+          "isNew": false,
+          "summary": "The PCAOB penalized a firm and a partner for audit violations, including poor documentation of five audits.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
@@ -23065,7 +23255,9 @@
           "title": "Deloitte LLP (Canada)",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-071-deloitte-canada.pdf?sfvrsn=1bc21d33_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "Deloitte LLP Canada is the subject of a regulatory or financial news update, but no additional details were provided.",
+          "summarySource": "title"
         },
         {
           "sr": 11,
@@ -23075,7 +23267,9 @@
           "title": "GreerWalker LLP",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-074-greerwalker.pdf?sfvrsn=44b6f125_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "GreerWalker LLP appears to be the subject of a regulatory or financial update, but no article details were provided to summarize.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -23085,7 +23279,9 @@
           "title": "Kreit & Chiu CPA LLP",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-078-kreitchiu.pdf?sfvrsn=bd66d52a_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "No substantive regulatory or financial update was provided; this item only names Kreit & Chiu CPA LLP.",
+          "summarySource": "title"
         },
         {
           "sr": 13,
@@ -23095,7 +23291,9 @@
           "title": "Güney Bağımsız Denetim Ve Serbest Muhasebeci Mali Müşavirlik A.Ş (Turkey)",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-075-ey-turkey.pdf?sfvrsn=4981b29b_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "Turkey’s Güney Bağımsız Denetim Ve Serbest Muhasebeci Mali Müşavirlik A.Ş. is the subject of a regulatory or financial update requiring compliance review.",
+          "summarySource": "title"
         },
         {
           "sr": 14,
@@ -23105,7 +23303,9 @@
           "title": "Deloitte AG (Switzerland)",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-070-deloitte-switzerland.pdf?sfvrsn=ae8701f1_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "Deloitte AG in Switzerland is listed here, but no additional regulatory or financial update details were provided.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
