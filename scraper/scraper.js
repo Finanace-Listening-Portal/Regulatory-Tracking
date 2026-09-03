@@ -1326,31 +1326,50 @@ async function enrichThinDescriptions(output) {
       if (tab.fetchDescFromDocument) optedInKeys.add(tab.key);
     }
   }
-  const MAX_PER_RUN = 100; // each one is a real network fetch (and PDF parse, which is slower) — raised now that this covers all tabs, not just 3
+  const MAX_PER_RUN = 100; // each one is a real network fetch (and PDF parse, which is slower)
+
+  function needsDesc(row) {
+    if (!row.link) return false;
+    // Confirmed against real data: a 60-char threshold was far too low — RSS/feed
+    // excerpts routinely clear that bar while still being a thin, mid-sentence-truncated
+    // snippet (e.g. "...detention-waiver certificates bind CCSPsThe post Customs Detention
+    // Waiver Certificates Bind CCSPs" — WordPress's auto-appended "The post ... appeared
+    // first on" boilerplate cut off partway through). Raised the bar substantially, and
+    // also explicitly re-fetch anything that looks like a truncated RSS excerpt
+    // regardless of length, since those are never the real document content.
+    const looksLikeThinExcerpt = /the post\s.{0,80}$/i.test(row.desc || '') || /\[…\]|\.\.\.$/i.test((row.desc || '').trim());
+    // Confirmed against real data: this exact boilerplate ("Skip to Main Content ... Upto
+    // 60% Off") was captured as "desc" for every itatonline.org row before the extraction
+    // fix above — it's long enough (1500 chars) to otherwise look like real content, so
+    // without this explicit check it would never get re-fetched despite being pure junk.
+    const looksLikeNavBoilerplate = /skip to main content|only the latest.{0,40}updates|off on books|no results found/i.test(row.desc || '');
+    return !row.desc || row.desc.length < 400 || looksLikeThinExcerpt || looksLikeNavBoilerplate;
+  }
+
+  // Round-robin across tabs, same fix already proven in the VM summarizer script —
+  // confirmed via real data (RBI's desc field was empty across nearly every row) that
+  // draining tabs in fixed iteration order let early tabs (Taxation/Newsletter/SEBI, with
+  // hundreds of rows needing enrichment) consume the entire 100/run budget every single
+  // run, so RBI — positioned later — almost never got a turn at all.
+  const tabEntries = Object.entries(output).filter(([k]) => optedInKeys.has(k)).map(([, e]) => e).filter(e => e.ok && e.rows.length);
+  const tabCursors = new Map(tabEntries.map(e => [e, 0]));
+
   let fetched = 0;
-  for (const [tabKey, entry] of Object.entries(output)) {
-    if (!optedInKeys.has(tabKey)) continue;
-    if (!entry.ok || !entry.rows.length) continue;
-    for (const row of entry.rows) {
-      // Confirmed against real data: a 60-char threshold was far too low — RSS/feed
-      // excerpts routinely clear that bar while still being a thin, mid-sentence-truncated
-      // snippet (e.g. "...detention-waiver certificates bind CCSPsThe post Customs Detention
-      // Waiver Certificates Bind CCSPs" — WordPress's auto-appended "The post ... appeared
-      // first on" boilerplate cut off partway through). Raised the bar substantially, and
-      // also explicitly re-fetch anything that looks like a truncated RSS excerpt
-      // regardless of length, since those are never the real document content.
-      const looksLikeThinExcerpt = /the post\s.{0,80}$/i.test(row.desc || '') || /\[…\]|\.\.\.$/i.test((row.desc || '').trim());
-      // Confirmed against real data: this exact boilerplate ("Skip to Main Content ... Upto
-      // 60% Off") was captured as "desc" for every itatonline.org row before the extraction
-      // fix above — it's long enough (1500 chars) to otherwise look like real content, so
-      // without this explicit check it would never get re-fetched despite being pure junk.
-      const looksLikeNavBoilerplate = /skip to main content|only the latest.{0,40}updates|off on books|no results found/i.test(row.desc || '');
-      if (row.desc && row.desc.length >= 400 && !looksLikeThinExcerpt && !looksLikeNavBoilerplate) continue; // already has real, substantial content
-      if (!row.link) continue;
-      if (fetched >= MAX_PER_RUN) return;
+  let anyRemaining = true;
+  while (fetched < MAX_PER_RUN && anyRemaining) {
+    anyRemaining = false;
+    for (const entry of tabEntries) {
+      if (fetched >= MAX_PER_RUN) break;
+      let idx = tabCursors.get(entry);
+      while (idx < entry.rows.length && !needsDesc(entry.rows[idx])) idx++;
+      if (idx >= entry.rows.length) { tabCursors.set(entry, idx); continue; }
+      anyRemaining = true;
+
+      const row = entry.rows[idx];
       const desc = await fetchDocumentDesc(row.link);
       if (desc) row.desc = desc;
       fetched++;
+      tabCursors.set(entry, idx + 1);
       await new Promise(r => setTimeout(r, 200));
     }
   }
@@ -1358,26 +1377,37 @@ async function enrichThinDescriptions(output) {
 
 async function enrichDatelessRows(output) {
   const MAX_DATE_LOOKUPS_PER_RUN = 40;
-  let fetched = 0;
   const optedInKeys = new Set();
   for (const reg of Object.values(REGULATORS)) {
     for (const tab of reg.tabs) {
       if (tab.fetchDateFromArticle) optedInKeys.add(tab.key);
     }
   }
-  for (const [tabKey, entry] of Object.entries(output)) {
-    if (!optedInKeys.has(tabKey)) continue;
-    if (!entry.ok || !entry.rows.length) continue;
-    for (const row of entry.rows) {
-      if (row.date && row.date !== '—') continue;
-      if (!row.link) continue;
-      if (fetched >= MAX_DATE_LOOKUPS_PER_RUN) return;
+  // Round-robin, same fix as enrichThinDescriptions — harmless today with only one tab
+  // using this flag, but avoids the identical starvation bug the moment a second tab opts
+  // in and ends up positioned after a large one in iteration order.
+  const tabEntries = Object.entries(output).filter(([k]) => optedInKeys.has(k)).map(([, e]) => e).filter(e => e.ok && e.rows.length);
+  const tabCursors = new Map(tabEntries.map(e => [e, 0]));
+
+  let fetched = 0;
+  let anyRemaining = true;
+  while (fetched < MAX_DATE_LOOKUPS_PER_RUN && anyRemaining) {
+    anyRemaining = false;
+    for (const entry of tabEntries) {
+      if (fetched >= MAX_DATE_LOOKUPS_PER_RUN) break;
+      let idx = tabCursors.get(entry);
+      while (idx < entry.rows.length && !(entry.rows[idx].date === '—' && entry.rows[idx].link)) idx++;
+      if (idx >= entry.rows.length) { tabCursors.set(entry, idx); continue; }
+      anyRemaining = true;
+
+      const row = entry.rows[idx];
       const rawDate = await fetchArticleDate(row.link);
       if (rawDate) {
         const d = tryParseDate(rawDate);
         if (d) { row.date = d; row.year = extractYear(d); }
       }
       fetched++;
+      tabCursors.set(entry, idx + 1);
       await new Promise(r => setTimeout(r, 200));
     }
   }
