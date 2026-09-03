@@ -1345,7 +1345,11 @@ async function fetchDocumentDesc(url) {
       }
     }
 
-    return text.substring(0, 1500) || null;
+    // Raised from 1500 → 5000 chars: confirmed via direct testing against a real RBI Master
+    // Direction that documents can have 60,000+ characters of real content, and the
+    // AI-summarization step needs enough substance to work from — 1500 chars was cutting
+    // off well before even the first full chapter on longer documents.
+    return text.substring(0, 5000) || null;
   } catch (e) {
     return null; // silent — this is a best-effort enrichment, not a required step
   }
@@ -1356,18 +1360,26 @@ async function extractPdfText(arrayBuffer) {
   // area" whenever a PDF embeds a custom font whose glyph mappings exceed a reserved Unicode
   // range — common in official government PDFs with non-standard embedded fonts. It's benign
   // (extraction still succeeds, at most an occasional character doesn't map perfectly) but
-  // floods the log and drowns out warnings that actually matter. Filtered out specifically by
-  // message text, so any other real warning from this call still comes through normally.
+  // floods the log and drowns out warnings that actually matter. Filtered by pattern rather
+  // than one exact message, since pdfjs-dist's font-rendering subsystem produces several
+  // variants of the same class of harmless warning — also confirmed benign: "TT: undefined
+  // function: N" and "TT: invalid function id: N" (TrueType hinting instructions the bundled
+  // parser doesn't fully implement — cosmetic rendering detail, doesn't affect extracted
+  // text). Any other warning from this call still comes through normally.
+  const BENIGN_PDF_WARNING_PATTERNS = [
+    /ran out of space in font private use area/i,
+    /TT: (undefined function|invalid function id)/i,
+  ];
   const originalWarn = console.warn;
   console.warn = (...args) => {
     const msg = args.join(' ');
-    if (msg.includes('Ran out of space in font private use area')) return;
+    if (BENIGN_PDF_WARNING_PATTERNS.some(p => p.test(msg))) return;
     originalWarn(...args);
   };
   try {
     const buffer = Buffer.from(arrayBuffer);
     const parsed = await pdfParse(buffer);
-    return (parsed.text || '').replace(/\s+/g, ' ').trim().substring(0, 1500) || null;
+    return (parsed.text || '').replace(/\s+/g, ' ').trim().substring(0, 5000) || null;
   } catch (e) {
     return null;
   } finally {
