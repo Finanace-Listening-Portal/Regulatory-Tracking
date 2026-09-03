@@ -1302,22 +1302,35 @@ async function fetchDocumentDesc(url) {
     const html = await resp.text();
     const $ = stripChrome(cheerio.load(html));
     $('.sidebar, .promo, .banner, .advertisement, .widget, .related-posts, .comments, aside').remove();
-    // Confirmed against real data: grabbing whole <article>/<main>/<body> text and taking
-    // the first 1500 chars was capturing nav/promotional banner content ("Skip to Main
-    // Content", "Upto 60% Off on Books") that happened to sit before the real content in
-    // the DOM — on itatonline.org specifically, every row's "desc" ended up being that
-    // same boilerplate instead of the actual judgment. Real article/judgment content is
-    // reliably wrapped in <p> tags; nav bars and promo banners almost never are, and any
-    // stray short <p> (menu labels, etc.) gets filtered out by the length check below.
-    const paragraphs = $('p').map((_, el) => $(el).text().trim()).get().filter(t => t.length > 40);
-    let text = paragraphs.length ? paragraphs.join(' ') : ($('article').text() || $('main').text() || $('body').text());
+
+    // Confirmed against real data: RBI's Master Direction page DOES have the entire real
+    // regulatory text embedded directly in the HTML — but a massive navigation menu
+    // (hundreds of links: About Us, Notification, Publications, ...) sits before it, so
+    // grabbing "first 1500 chars of whatever text is found" was capturing pure nav junk
+    // and never reaching the actual content. Real prose is almost never link-heavy; nav
+    // menus almost entirely are — scoring candidate blocks by LOW link density (rather
+    // than raw length, which just picks the biggest wrapper) reliably finds the genuine
+    // content block regardless of where it sits on the page or whether it uses <p> tags.
+    let bestBlock = null, bestScore = 0;
+    $('div, td, section, article, main').each((_, el) => {
+      const elText = $(el).text().trim();
+      if (elText.length < 300) return;
+      const linkText = $(el).find('a').text().length;
+      const linkDensity = elText.length > 0 ? linkText / elText.length : 1;
+      const score = elText.length * (1 - linkDensity); // nav-heavy blocks score near zero regardless of raw length
+      if (score > bestScore) { bestScore = score; bestBlock = el; }
+    });
+    // Only fall back to the whole page body if nothing more specific qualified — prefer an
+    // isolated content block over body+nav combined, so the extracted text isn't diluted
+    // with a nav-menu prefix even when a cleaner alternative exists.
+    if (!bestBlock) bestBlock = $('body').get(0);
+
+    let text = bestBlock ? $(bestBlock).text() : $('body').text();
     text = text.replace(/\s+/g, ' ').trim();
 
-    // Confirmed against real data: RBI's Master Direction pages (BS_ViewMasDirections.aspx)
-    // render almost nothing as extractable HTML text — just the reference number and title
-    // — because the actual regulatory content lives entirely in a linked PDF, not the page
-    // itself. When the HTML extraction comes back thin, look for that PDF link and follow
-    // it instead of settling for a near-empty description.
+    // If even the best-scoring block came back thin, the real content likely lives only in
+    // a linked PDF (confirmed happening on some sites) rather than the page itself — follow
+    // that link as a last resort rather than settling for a near-empty description.
     if (text.length < 200) {
       const pdfHref = $('a[href$=".pdf" i], a[href*=".pdf?" i]').first().attr('href');
       if (pdfHref) {
