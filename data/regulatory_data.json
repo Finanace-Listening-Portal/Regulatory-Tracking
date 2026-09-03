@@ -5148,7 +5148,9 @@
           "title": "Relaxation from compliance with certain provisions of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/oct-2024/relaxation-from-compliance-with-certain-provisions-of-the-sebi-listing-obligations-and-disclosure-requirements-regulations-2015_87323.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI has relaxed compliance requirements for certain listing and disclosure provisions, reducing regulatory obligations for affected companies.",
+          "summarySource": "title"
         },
         {
           "sr": 249,
@@ -5158,7 +5160,9 @@
           "title": "Review of Stress Testing Framework for Equity Derivatives segment for determining the corpus of Core Settlement Guarantee Fund",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/oct-2024/review-of-stress-testing-framework-for-equity-derivatives-segment-for-determining-the-corpus-of-core-settlement-guarantee-fund_87209.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator is reviewing how stress tests are used to set the Core Settlement Guarantee Fund for equity derivatives.",
+          "summarySource": "title"
         },
         {
           "sr": 250,
@@ -5168,7 +5172,9 @@
           "title": "Measures to Strengthen Equity Index Derivatives Framework for Increased Investor Protection and Market Stability",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/oct-2024/measures-to-strengthen-equity-index-derivatives-framework-for-increased-investor-protection-and-market-stability_87208.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators plan changes to equity index derivatives rules to better protect investors and reduce market instability.",
+          "summarySource": "title"
         },
         {
           "sr": 251,
@@ -5178,7 +5184,9 @@
           "title": "Operational Guidelines for Foreign Venture Capital Investors (FVCIs) and Designated Depository Participants (DDPs)",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2024/operational-guidelines-for-foreign-venture-capital-investors-fvcis-and-designated-depository-participants-ddps-_87032.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s rules for foreign venture capital investors and their depository partners set updated operational requirements for registration, investment handling, and compliance oversight.",
+          "summarySource": "title"
         },
         {
           "sr": 252,
@@ -5188,7 +5196,9 @@
           "title": "Reduction in the timeline for listing of debt securities and Non-convertible Redeemable Preference Shares to T+3 working days from existing T + 6 working days (as an option to issuers for a period of one year and on a permanent basis thereafter such that all listings occur on a T+3 basis)",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2024/reduction-in-the-timeline-for-listing-of-debt-securities-and-non-convertible-redeemable-preference-shares-to-t-3-working-days-from-existing-t-6-working-days-as-an-option-to-issuers-for-a-period-of-_87014.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators will shorten the debt and preference share listing deadline to T+3 working days, initially optional for one year and then mandatory.",
+          "summarySource": "title"
         },
         {
           "sr": 253,
@@ -5198,7 +5208,9 @@
           "title": "Parameters for Performance Evaluation of Market Infrastructure Institutions",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2024/parameters-for-performance-evaluation-of-market-infrastructure-institutions_86974.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator has issued criteria for assessing how well market infrastructure institutions are performing and meeting oversight standards.",
+          "summarySource": "title"
         },
         {
           "sr": 254,
@@ -5208,7 +5220,9 @@
           "title": "Usage of UPI by individual investors for making an application in public issue of securities through intermediaries",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2024/usage-of-upi-by-individual-investors-for-making-an-application-in-public-issue-of-securities-through-intermediaries_86972.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s market regulator has clarified that individual investors can use UPI to apply for public securities offerings through intermediaries, under specified rules.",
+          "summarySource": "title"
         },
         {
           "sr": 255,
@@ -5218,7 +5232,9 @@
           "title": "Ease of Doing Business in the context of Standard Operating Procedure for payment of “Financial Disincentives” by Market Infrastructure Institutions (MIIs) as a result of Technical Glitch",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2024/ease-of-doing-business-in-the-context-of-standard-operating-procedure-for-payment-of-financial-disincentives-by-market-infrastructure-institutions-miis-as-a-result-of-technical-glitch_86878.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators have clarified how market infrastructure institutions should streamline payments of financial penalties when technical glitches disrupt operations.",
+          "summarySource": "title"
         },
         {
           "sr": 256,
@@ -5228,7 +5244,9 @@
           "title": "Flexibility in participation of Mutual Funds in Credit Default Swaps (CDS)",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2024/flexibility-in-participation-of-mutual-funds-in-credit-default-swaps-cds-_86871.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators are allowing mutual funds more flexibility to participate in credit default swaps, which may affect investment, risk, and compliance controls.",
+          "summarySource": "title"
         },
         {
           "sr": 257,
@@ -5238,7 +5256,9 @@
           "title": "Modification in framework for valuation of investment portfolio of AIFs",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2024/modification-in-framework-for-valuation-of-investment-portfolio-of-aifs_86803.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India has changed how Alternative Investment Funds must value their investment portfolios, affecting compliance and financial reporting requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 258,
@@ -5248,7 +5268,9 @@
           "title": "Enabling T+2 trading of Bonus shares where T is the record date",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2024/enabling-t-2-trading-of-bonus-shares-where-t-is-the-record-date_86714.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The rule allows bonus shares to start trading two business days after the record date, affecting settlement and compliance timing.",
+          "summarySource": "title"
         },
         {
           "sr": 259,
@@ -5258,7 +5280,9 @@
           "title": "Reporting by Foreign Venture Capital Investors",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2024/reporting-by-foreign-venture-capital-investors_86680.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Foreign venture capital investors may face new or updated reporting obligations that compliance teams should review for impact and deadlines.",
+          "summarySource": "title"
         },
         {
           "sr": 260,
@@ -5268,7 +5292,9 @@
           "title": "Optional mechanism for fee collection by SEBI registered Investment Advisers (IAs) and Research Analysts (RAs)",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2024/optional-mechanism-for-fee-collection-by-sebi-registered-investment-advisers-ias-and-research-analysts-ras-_86668.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI may allow registered investment advisers and research analysts to collect fees through an optional mechanism, changing how client payments are handled.",
+          "summarySource": "title"
         },
         {
           "sr": 261,
@@ -5278,7 +5304,9 @@
           "title": "Modifications in Guidelines for Business Continuity Plan (BCP) and Disaster Recovery (DR) of Market Infrastructure Institutions (MIIs)",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2024/modifications-in-guidelines-for-business-continuity-plan-bcp-and-disaster-recovery-dr-of-market-infrastructure-institutions-miis-_86601.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators have updated business continuity and disaster recovery requirements for market infrastructure institutions, affecting how they prepare for and recover from disruptions.",
+          "summarySource": "title"
         },
         {
           "sr": 262,
@@ -5288,7 +5316,9 @@
           "title": "Allowing securities funded through cash collateral as maintenance margin for Margin Trading Facility (MTF)",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2024/allowing-securities-funded-through-cash-collateral-as-maintenance-margin-for-margin-trading-facility-mtf-_86590.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The update allows securities funded by cash collateral to be used as maintenance margin in Margin Trading Facility accounts.",
+          "summarySource": "title"
         },
         {
           "sr": 263,
@@ -5298,7 +5328,9 @@
           "title": "Modification in the timeline for submission of status regarding payment obligations to the stock exchanges by entities that have listed commercial paper",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2024/modification-in-the-timeline-for-submission-of-status-regarding-payment-obligations-to-the-stock-exchanges-by-entities-that-have-listed-commercial-paper_86493.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Stock exchanges have changed the deadline for listed commercial paper issuers to report whether they have met their payment obligations.",
+          "summarySource": "title"
         },
         {
           "sr": 264,
@@ -5308,7 +5340,9 @@
           "title": "Review of eligibility criteria for entry/exit of stocks in derivatives segment",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/aug-2024/review-of-eligibility-criteria-for-entry-exit-of-stocks-in-derivatives-segment_86373.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Authorities are reviewing the rules for which stocks can be added to or removed from the derivatives trading segment.",
+          "summarySource": "title"
         },
         {
           "sr": 265,
@@ -10529,7 +10563,9 @@
           "title": "Consultation Paper on Performance Validation Agency",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2023/consultation-paper-on-performance-validation-agency_76220.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Authorities have issued a consultation on creating a performance validation agency, which could affect how corporate compliance and reporting are assessed.",
+          "summarySource": "title"
         },
         {
           "sr": 249,
@@ -10539,7 +10575,9 @@
           "title": "Extension of timeline for submission of public comments on the Consultation Paper on collating and defining use cases of Financial Information Users in the Account Aggregator Framework in Securities Markets",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2023/extension-of-timeline-for-submission-of-public-comments-on-the-consultation-paper-on-collating-and-defining-use-cases-of-financial-information-users-in-the-account-aggregator-framework-in-securities-m-_76161.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The consultation comment deadline has been extended to allow more time for feedback on defining financial information users’ use cases in the account aggregator framework.",
+          "summarySource": "title"
         },
         {
           "sr": 250,
@@ -10549,7 +10587,9 @@
           "title": "Consultation Paper on Flexibility in the framework on Social Stock Exchange (SSE)",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2023/consultation-paper-on-flexibility-in-the-framework-on-social-stock-exchange-sse-_76054.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator is seeking feedback on making Social Stock Exchange rules more flexible for organizations that raise or report social-impact funding.",
+          "summarySource": "title"
         },
         {
           "sr": 251,
@@ -10559,7 +10599,9 @@
           "title": "Consultation Paper on mechanism for fee collection by SEBI registered  Investment Advisers and Research Analysts",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2023/consultation-paper-on-mechanism-for-fee-collection-by-sebi-registered-investment-advisers-and-research-analysts_75933.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI has issued a consultation paper proposing a new mechanism for collecting fees from registered investment advisers and research analysts.",
+          "summarySource": "title"
         },
         {
           "sr": 252,
@@ -10569,7 +10611,9 @@
           "title": "Consultation Paper on Association of SEBI Registered Intermediaries/Regulated Entities with Unregistered Entities (including Finfluencers)",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2023/consultation-paper-on-association-of-sebi-registered-intermediaries-regulated-entities-with-unregistered-entities-including-finfluencers-_75932.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI has issued a consultation paper seeking input on how registered firms should handle relationships with unregistered entities, including finfluencers.",
+          "summarySource": "title"
         },
         {
           "sr": 253,
@@ -10579,7 +10623,9 @@
           "title": "Consultation Paper on permitting increased participation of Non – Resident Indians (NRIs) and Overseas Citizens of India (OCIs) into SEBI registered Foreign Portfolio Investors (FPIs) based out of International Financial Services Centres (IFSCs) in India and regulated by the International Financial Services Centres Authority (IFSCA)",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2023/consultation-paper-on-permitting-increased-participation-of-non-resident-indians-nris-and-overseas-citizens-of-india-ocis-into-sebi-registered-foreign-portfolio-investors-fpis-based-out-of-int-_75915.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI is considering allowing more NRIs and OCIs to invest through IFSC-based foreign portfolio investors regulated by IFSCA.",
+          "summarySource": "title"
         },
         {
           "sr": 254,
@@ -10589,7 +10635,9 @@
           "title": "Consultation Paper on Recognition of Body Corporate for Administration and Supervision of Research Analysts",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2023/consultation-paper-on-recognition-of-body-corporate-for-administration-and-supervision-of-research-analysts_75531.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator is seeking views on whether a company should be formally recognized to oversee and supervise research analysts.",
+          "summarySource": "title"
         },
         {
           "sr": 255,
@@ -10599,7 +10647,9 @@
           "title": "Consultation Paper on Review of Voluntary Delisting norms under SEBI (Delisting of Equity Shares) Regulations, 2021  Addendum- Executive Summary",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2023/consultation-paper-on-review-of-voluntary-delisting-norms-under-sebi-delisting-of-equity-shares-regulations-2021_75335.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI has released an addendum summarizing proposed changes to voluntary delisting rules for equity shares, likely affecting how companies exit public markets.",
+          "summarySource": "title"
         },
         {
           "sr": 256,
@@ -10609,7 +10659,9 @@
           "title": "Consultation paper on review of framework for borrowings by Large Corporates",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2023/consultation-paper-on-review-of-framework-for-borrowings-by-large-corporates_75179.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator has opened consultation on revising borrowing rules for large companies, which could affect their funding options and compliance requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 257,
@@ -10619,7 +10671,9 @@
           "title": "Consultation Paper on collating and  defining use cases of Financial Information  Users in the Account Aggregator  Framework in Securities Markets",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2023/consultation-paper-on-collating-and-defining-use-cases-of-financial-information-users-in-the-account-aggregator-framework-in-securities-markets_74811.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator is seeking input on how to identify and define who can use financial data under the Account Aggregator framework in securities markets.",
+          "summarySource": "title"
         },
         {
           "sr": 258,
@@ -10629,7 +10683,9 @@
           "title": "Extension of Timeline for Submission of Public Comments on the Consultation Paper on Consolidated Cybersecurity and Cyber Resilience Framework (CSCRF)",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2023/extension-of-timeline-for-submission-of-public-comments-on-the-consultation-paper-on-consolidated-cybersecurity-and-cyber-resilience-framework-cscrf-_74253.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator has extended the deadline for public comments on the proposed consolidated cybersecurity and cyber resilience framework.",
+          "summarySource": "title"
         },
         {
           "sr": 259,
@@ -10639,7 +10695,9 @@
           "title": "Consultation paper on ‘Prudential norms for exposure of Clearing Corporations’",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2023/consultation-paper-on-prudential-norms-for-exposure-of-clearing-corporations-_74194.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators are seeking feedback on proposed prudential rules that would limit and manage clearing corporations’ exposure risk.",
+          "summarySource": "title"
         },
         {
           "sr": 260,
@@ -10649,7 +10707,9 @@
           "title": "Consultation Paper on mandating FPIs to route a specific percentage of certain transactions in secondary market trades through Request for Quote (RFQ) platform of stock exchanges",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2023/consultation-paper-on-mandating-fpis-to-route-a-specific-percentage-of-certain-transactions-in-secondary-market-trades-through-request-for-quote-rfq-platform-of-stock-exchanges_73525.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators are proposing that foreign portfolio investors use exchange RFQ platforms for a set share of certain secondary-market trades.",
+          "summarySource": "title"
         },
         {
           "sr": 261,
@@ -10659,7 +10719,9 @@
           "title": "Consultation Paper on Consolidated Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2023/consultation-paper-on-consolidated-cybersecurity-and-cyber-resilience-framework-cscrf-for-sebi-regulated-entities_73442.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI has proposed a single cybersecurity and resilience framework to standardize cyber risk controls for regulated firms.",
+          "summarySource": "title"
         },
         {
           "sr": 262,
@@ -10669,7 +10731,9 @@
           "title": "Extension of timeline for submission of public comments on the consultation paper on Review of Total Expense Ratio charged by Asset Management Companies (AMCs) to unitholders of schemes of Mutual Funds to facilitate greater transparency and accrual of interest of economies of scale to investors",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2023/extension-of-timeline-for-submission-of-public-comments-on-the-consultation-paper-on-review-of-total-expense-ratio-charged-by-asset-management-companies-amcs-to-unitholders-of-schemes-of-mutual-fund-_72166.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator has extended the deadline for public comments on mutual fund expense ratio reforms aimed at improving transparency and passing more scale benefits to investors.",
+          "summarySource": "title"
         },
         {
           "sr": 263,
@@ -10679,7 +10743,9 @@
           "title": "Extension of timeline for submission of public comments on the consultation paper on Institutional Mechanism for Asset Management Companies for deterrence of possible market abuse and fraudulent transactions",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2023/extension-of-timeline-for-submission-of-public-comments-on-the-consultation-paper-on-institutional-mechanism-for-asset-management-companies-for-deterrence-of-possible-market-abuse-and-fraudulent-trans-_72164.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator has extended the deadline for public comments on a consultation about asset management companies’ controls to prevent market abuse and fraud.",
+          "summarySource": "title"
         },
         {
           "sr": 264,
@@ -10689,7 +10755,9 @@
           "title": "Consultation Paper on framework for mandating additional disclosures from Foreign Portfolio Investors (FPIs) that fulfil certain objective criteria, to 1) guard against possible circumvention of Minimum Public Shareholding (“MPS”), and 2) to guard against possible misuse of the FPI route to circumvent the requirements of Press Note 3 (“PN3”)",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2023/consultation-paper-on-framework-for-mandating-additional-disclosures-from-foreign-portfolio-investors-fpis-that-fulfil-certain-objective-criteria-to-1-guard-against-possible-circumvention-of-minim-_71946.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators are proposing extra disclosure rules for certain foreign investors to prevent bypassing public shareholding and foreign investment restrictions.",
+          "summarySource": "title"
         },
         {
           "sr": 265,
@@ -15480,7 +15548,9 @@
           "title": "Adjudication Order in respect of Alternative Dealers Private Limited in the matter of trading in Illiquid Stock Options at BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-respect-of-alternative-dealers-private-limited-in-the-matter-of-trading-in-illiquid-stock-options-at-bse_98231.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE issued an adjudication order against Alternative Dealers Private Limited over suspected trading misconduct in illiquid stock options.",
+          "summarySource": "title"
         },
         {
           "sr": 249,
@@ -15490,7 +15560,9 @@
           "title": "In the matter of Nuvama Wealth and Investment Limited",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/in-the-matter-of-nuvama-wealth-and-investment-limited_98089.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Indian regulators appear to be reviewing or taking action against Nuvama Wealth and Investment Limited, so compliance teams should monitor the matter closely.",
+          "summarySource": "title"
         },
         {
           "sr": 250,
@@ -15500,7 +15572,9 @@
           "title": "Adjudication Order in respect of Anil Bajaj HUF in the matter of Illiquid Stock Options at BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-anil-bajaj-huf-in-the-matter-of-illiquid-stock-options-at-bse_98028.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE issued an adjudication order involving Anil Bajaj HUF over alleged misconduct in illiquid stock options, which compliance should review.",
+          "summarySource": "title"
         },
         {
           "sr": 251,
@@ -15510,7 +15584,9 @@
           "title": "Adjudication Order in respect of Shiw Mohan Jaiswal  in the matter of Illiquid Stock Options at BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-shiw-mohan-jaiswal-in-the-matter-of-illiquid-stock-options-at-bse_98030.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE issued an adjudication order against Shiw Mohan Jaiswal over alleged misconduct involving illiquid stock options trading.",
+          "summarySource": "title"
         },
         {
           "sr": 252,
@@ -15520,7 +15596,9 @@
           "title": "Adjudication Order in respect of Mangalkamna Dealer Pvt. Ltd. in the matter of dealings in Illiquid Stock Options on BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-mangalkamna-dealer-pvt-ltd-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_98019.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE issued an adjudication order against Mangalkamna Dealer Pvt. Ltd. over illiquid stock options trading, signaling a regulatory enforcement action.",
+          "summarySource": "title"
         },
         {
           "sr": 253,
@@ -15530,7 +15608,9 @@
           "title": "Adjudication Order in respect of Tavarya Trade-Link Pvt. Ltd. in the matter of Illiquid Stock Options at BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-tavarya-trade-link-pvt-ltd-in-the-matter-of-illiquid-stock-options-at-bse_98017.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE issued an adjudication order against Tavarya Trade-Link Pvt. Ltd. over illiquid stock options trading matters.",
+          "summarySource": "title"
         },
         {
           "sr": 254,
@@ -15540,7 +15620,9 @@
           "title": "Adjudication Order in the matter of Kreo Capital Private Limited",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-kreo-capital-private-limited_98015.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s regulator issued an adjudication order concerning Kreo Capital Private Limited, signaling a potential compliance or enforcement action.",
+          "summarySource": "title"
         },
         {
           "sr": 255,
@@ -15550,7 +15632,9 @@
           "title": "Adjudication Order in the matter of Inspection of Launchpad Fintech Pvt. Ltd.",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-inspection-of-launchpad-fintech-pvt-ltd-_98000.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s regulator issued an adjudication order after inspecting Launchpad Fintech Pvt. Ltd., signaling possible compliance violations and penalties.",
+          "summarySource": "title"
         },
         {
           "sr": 256,
@@ -15560,7 +15644,9 @@
           "title": "Adjudication order in respect of Parduman Kumar Jain in the matter of dealings in Illiquid Stock Options on BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-parduman-kumar-jain-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_97990.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI issued an adjudication order against Parduman Kumar Jain for alleged misconduct in illiquid stock option trading on BSE.",
+          "summarySource": "title"
         },
         {
           "sr": 257,
@@ -15570,7 +15656,9 @@
           "title": "Adjudication Order in respect of Ms. Anita Devi Chokhani in the matter of dealings in Illiquid Stock Options on BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-ms-anita-devi-chokhani-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_97979.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s market regulator issued an adjudication order concerning Ms. Anita Devi Chokhani’s trades in illiquid stock options on the BSE.",
+          "summarySource": "title"
         },
         {
           "sr": 258,
@@ -15580,7 +15668,9 @@
           "title": "Adjudication Order in the matter of Octant Interactive Technologies Limited.",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-octant-interactive-technologies-limited-_97977.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s adjudicator issued an order involving Octant Interactive Technologies Limited, indicating a regulatory enforcement action that compliance teams should review.",
+          "summarySource": "title"
         },
         {
           "sr": 259,
@@ -15590,7 +15680,9 @@
           "title": "Adjudication Order in respect of Modex International Securities Limited in the matter of Trading Members in Illiquid Stock Options at BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-modex-international-securities-limited-in-the-matter-of-trading-members-in-illiquid-stock-options-at-bse_97970.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s market regulator issued an adjudication order involving Modex International Securities over suspected trading misconduct in illiquid BSE stock options.",
+          "summarySource": "title"
         },
         {
           "sr": 260,
@@ -15600,7 +15692,9 @@
           "title": "Adjudication Order in the matter of Alpine Commercial Company Limited",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-alpine-commercial-company-limited_97968.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s regulator issued an adjudication order involving Alpine Commercial Company Limited, signaling a compliance or enforcement action.",
+          "summarySource": "title"
         },
         {
           "sr": 261,
@@ -15610,7 +15704,9 @@
           "title": "Adjudication Order in the matter of Jainam Broking Limited",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-jainam-broking-limited_97958.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s securities regulator issued an adjudication order concerning Jainam Broking Limited, indicating potential compliance or enforcement action.",
+          "summarySource": "title"
         },
         {
           "sr": 262,
@@ -15620,7 +15716,9 @@
           "title": "Adjudication Order in the matter of Reliance Securities Limited w.r.t. Cyber Security and Cyber Resilience",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-reliance-securities-limited-w-r-t-cyber-security-and-cyber-resilience_97956.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Indian regulators issued an adjudication order against Reliance Securities Limited over cyber security and cyber resilience compliance issues.",
+          "summarySource": "title"
         },
         {
           "sr": 263,
@@ -15630,7 +15728,9 @@
           "title": "Adjudication Order in the matter of Emkay Consultants Limited",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-emkay-consultants-limited_97949.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s regulator issued an adjudication order involving Emkay Consultants Limited, which compliance teams should review for potential enforcement or disclosure implications.",
+          "summarySource": "title"
         },
         {
           "sr": 264,
@@ -15640,7 +15740,9 @@
           "title": "Adjudication Order in respect of Abhijit Mangaldas Shanghavi in the matter of dealings in Illiquid Stock Options on BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-abhijit-mangaldas-shanghavi-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_97941.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE issued an adjudication order against Abhijit Mangaldas Shanghavi over dealings in illiquid stock options, signaling a potential compliance violation.",
+          "summarySource": "title"
         },
         {
           "sr": 265,
@@ -19324,7 +19426,9 @@
           "title": "Reserve Bank of India (Non-Banking Financial Companies – Undertaking of Financial Services) Directions, 2025 (Updated as on July 01, 2026)",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12961",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI updated its 2025 rules for non-banking financial companies providing financial services, so compliance teams should review any new requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 249,
@@ -19334,7 +19438,9 @@
           "title": "Reserve Bank of India (Non-Banking Financial Companies – Branch Authorisation) Directions, 2025 (Updated as on April 15, 2026)",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12962",
-          "isNew": false
+          "isNew": false,
+          "summary": "The RBI updated rules for non-bank lenders opening branches, which may affect branch approval, reporting, and compliance obligations.",
+          "summarySource": "title"
         },
         {
           "sr": 250,
@@ -19344,7 +19450,9 @@
           "title": "Reserve Bank of India (Non-Banking Financial Companies – Voluntary Amalgamation) Directions, 2025",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12963",
-          "isNew": false
+          "isNew": false,
+          "summary": "The RBI has issued 2025 rules governing how non-banking financial companies can voluntarily merge, affecting compliance and approval requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 251,
@@ -19354,7 +19462,9 @@
           "title": "Reserve Bank of India (Non-Banking Financial Companies – Acquisition of Shareholding or Control) Directions, 2025",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12964",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s central bank issued new rules governing when non-bank lenders can be acquired or controlled, affecting ownership approvals and compliance obligations.",
+          "summarySource": "title"
         },
         {
           "sr": 252,
@@ -19364,7 +19474,9 @@
           "title": "Reserve Bank of India (Non-Banking Financial Companies – Registration, Exemptions and Framework for Scale Based Regulation) Directions, 2025 (Updated as on July 01, 2026)",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12965",
-          "isNew": false
+          "isNew": false,
+          "summary": "The RBI updated 2025 directions for NBFC registration, exemptions, and scale-based regulation, setting the current compliance framework as of July 1, 2026.",
+          "summarySource": "title"
         },
         {
           "sr": 253,
@@ -19374,7 +19486,9 @@
           "title": "Reserve Bank of India (Asset Reconstruction Companies – Know Your Customer) Directions, 2025 (Updated as on December 29, 2025)",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12927",
-          "isNew": false
+          "isNew": false,
+          "summary": "The RBI updated KYC rules for asset reconstruction companies, affecting their customer identification, verification, and compliance obligations.",
+          "summarySource": "title"
         },
         {
           "sr": 254,
@@ -19384,7 +19498,9 @@
           "title": "Reserve Bank of India (Asset Reconstruction Companies – Treatment of Wilful Defaulters and Large Defaulters) Directions, 2025",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12928",
-          "isNew": false
+          "isNew": false,
+          "summary": "The RBI issued new rules for asset reconstruction companies on how they must identify and handle wilful and large defaulters.",
+          "summarySource": "title"
         },
         {
           "sr": 255,
@@ -19394,7 +19510,9 @@
           "title": "Reserve Bank of India (Asset Reconstruction Companies – Credit Information Reporting) Directions, 2025 (Updated as on July 01, 2026)",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12929",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI has updated rules for asset reconstruction companies on how they must report credit information, affecting compliance and reporting obligations.",
+          "summarySource": "title"
         },
         {
           "sr": 256,
@@ -19404,7 +19522,9 @@
           "title": "Reserve Bank of India (Asset Reconstruction Companies) Directions, 2025 (Updated as on March 10, 2026)",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12930",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s central bank issued updated rules in 2025 governing asset reconstruction companies’ operations, compliance obligations, and oversight requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 257,
@@ -19414,7 +19534,9 @@
           "title": "Reserve Bank of India (Credit Information Companies – Managing Risks in Outsourcing) Directions, 2025",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12925",
-          "isNew": false
+          "isNew": false,
+          "summary": "The RBI issued new 2025 rules requiring credit information companies to better manage risks when outsourcing operations and services.",
+          "summarySource": "title"
         },
         {
           "sr": 258,
@@ -19424,7 +19546,9 @@
           "title": "Reserve Bank of India (Credit Information Companies) Directions, 2025 (Updated as on July 01, 2026)",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12926",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s central bank updated rules for credit information companies, which may affect how credit data is collected, shared, and regulated.",
+          "summarySource": "title"
         },
         {
           "sr": 259,
@@ -19434,7 +19558,9 @@
           "title": "Reserve Bank of India (Commercial Banks – Miscellaneous) Supervisory Directions, 2026",
           "desc": "Master Directions (474 kb)Reserve Bank of India (Commercial Banks – Miscellaneous) Supervisory Directions, 2026 RBI/DoS/2026-27/416 DoS.CO.PPG.10/11.01.005/2026-27 July 31, 2026 Reserve Bank of India (Commercial Banks – Miscellaneous) Supervisory Directions, 2026 Table of Contents Chapter I - Preliminary A. Short Title and Commencement B. Applicability C. Definitions Chapter II - Access to IT Systems Chapter III - Monitoring of End Use of Funds Chapter IV - Prompt Corrective Action Framework Chapter V - Fair Practices Code - Charging of Interest Chapter VI - Inoperative Accounts / Unclaimed Deposits Chapter VII - Nomination Facility Chapter VIII – Fraud Prevention Measures A. Frauds due to Collusion of the bank Officials B. Large Value Frauds C. Retail Loans - Sanction of Bulk Proposals D. Frauds by Deposit of Fake Title Deeds of Property E. Frauds in Non-resident Accounts F. Safe custody of Critical Documents G. Accounts opened by Employees H. Legal Compliance Certificate I. Legal Compliance Audit J. Forensic Scrutiny K. Exercise of Discretionary Power L. Best Practices Code in banks M. Other Instructions Chapter IX - Protected Disclosure Scheme A. Scope and Coverage B. Procedure for Lodging the Complaint under the Scheme C. Protected Disclosure Policy Chapter X – Vigilance A. Preamble B. Introduction C. Vigilance Angle D. Chief of Internal Vigilance D.1 Appointment D.2 Tenure D.3 Association with Sensitive Matters D.4 Submission of Reports and Returns - Review E. Preventive Vigilance F. Staff Rotation and Mandatory Leave G. Complaints H. Investigation Agency for Conducting Investigations I. Review of Cases entrusted to Investigating Agencies J. Action against Persons making False Complaints K. Liaison with Agencies Chapter XI - Vigilance Monitoring Return Chapter XII - Repeal and Other Provisions A. Repeal and Saving B. Application of Other Laws Not Barred C. Interpretations In exercise of the powers conferred by Section 35-A of the Banking Regulation Act, 1949, and all other provisions / laws enabling the Reserve Bank of India (‘RBI’) in this regard, RBI being satisfied that it is necessary and expedient in the public interest so to do, hereby, issues Directions hereinafter specified. Chapter I - Preliminary A. Short Title and Commencement 1. These Directions shall be called the Reserve Bank of India (Commercial Banks - Miscellaneous) Supervisory Directions, 2026. 2. These Directions shall come into effect immediately upon issuance. B. Applicability 3. These Directions shall be applicable to Commercial Banks (hereinafter collectively referred to as 'banks' and individually as 'bank'). For the purpose of these Directions, ‘Commercial Banks’ means banking companies (other than Small Finance Banks, Payments Banks and Local Area Banks), corresponding new banks, and the State Bank of India, as defined respectively under clauses (c), (da), and (nc) of Section 5 of the Banking Regulation Act, 1949. Provided that provisions of Chapter IX and Chapter X of these Directions shall be applicable only to Private Sector Banks and Foreign Banks, while the provisions of Chapter XI of these Directions shall be applicable only to Public Sector Banks. C. Definitions 4. All expressions herein shall have the same meaning as have been assigned to them under the Reserve Bank of India Act, 1934, or the Banking Regulation Act, 1949, or the Companies Act, 2013, or any statutory modification or re-enactment thereto, or other regulations issued by the RBI or the Glossary of Terms published by the RBI, or as used in commercial parlance, as the case may be. Chapter II - Access to IT Systems 5. The bank shall provide the highest level of 'read only' access to its Information Technology systems and manpower assistance, if required, to RBI’s officers. Chapter III - Monitoring of End Use of Funds 6. The bank shall evaluate the efficacy of its machinery for post-sanction monitoring and follow-up of advances and make it robust, wherever considered necessary, for preventing diversion of funds through practices such as crediting of term loan disbursements to the current / cash credit accounts of borrowers and utilisation thereof for day-to-day operations, and exclusive reliance on Chartered Accountants’ certification both in regard to infusion of promoters' contribution and deployment of bank’s funds. For this purpose, the systems and procedures of the bank may broadly include the following within the overall regulatory guidelines: (1) meaningful scrutiny of the periodical progress reports and operating / financial statements of the borrowers; (2) regular visits to the assisted units and inspection of securities charged / hypothecated to the bank; (3) periodical scrutiny of the books of accounts of the borrowers; (4) stock audits depending upon the extent of exposure; (5) obtention of certificates from the borrowers that the funds have been utilised for the purposes approved and in case of incorrect certification, initiation of prompt action ",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13637",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI has issued immediate new supervisory rules for commercial banks on IT access, fund-use monitoring, fraud prevention, vigilance, and related compliance controls.",
+          "summarySource": "desc"
         },
         {
           "sr": 260,
@@ -19444,7 +19570,9 @@
           "title": "Reserve Bank of India (Commercial Banks – Supervisory Returns) Directions, 2026",
           "desc": "Master Directions (971 kb)Reserve Bank of India (Commercial Banks – Supervisory Returns) Directions, 2026 RBI/DoS/2026-27/415 DoS.CO.DSG.9/33.01.001/2026-27 July 31, 2026 Reserve Bank of India (Commercial Banks – Supervisory Returns) Directions, 2026 Table of Contents Chapter I - Preliminary A. Short Title and Commencement B. Applicability C. Definitions Chapter II - Governance and Oversight A. Role of the Board and Senior Management B. Data Architecture and IT Infrastructure C. Accuracy and Integrity in Reporting Chapter III - Filing of Supervisory Returns A. Operational Guidelines B. List of Applicable Returns C. Timelines D. Exceptions E. Penalties F. Other Instructions Chapter IV - Repeal and Other Provisions A. Repeal and Saving B. Application of Other Laws Not barred C. Interpretations In exercise of powers conferred under Section 27 and Section 35-A of the Banking Regulation Act, 1949, Chapter III-A of the Reserve Bank of India Act, 1934, and all other provisions / laws enabling the Reserve Bank of India (‘RBI’) in this regard, RBI being satisfied that it is necessary and expedient in the public interest so to do, hereby, issues Directions hereinafter specified. Chapter I - Preliminary A. Short Title and Commencement 1. These Directions shall be called the Reserve Bank of India (Commercial Banks - Supervisory Returns) Directions, 2026. 2. These Directions shall come into effect immediately upon issuance. B. Applicability 3. These Directions shall be applicable to Commercial Banks (hereinafter collectively referred to as 'banks' and individually as 'bank'). For the purpose of these Directions, ‘Commercial Banks’ means banking companies (other than Small Finance Banks, Payment Banks, and Local Area Banks), corresponding new banks, and the State Bank of India, as defined respectively under clauses (c), (da), and (nc) of Section 5 of the Banking Regulation Act, 1949. C. Definitions 4. In these Directions, unless the context states otherwise, the terms herein shall bear the meaning assigned to them below: (1) ‘Centralised Information Management System (CIMS)’ refers to an online platform of RBI for return submission, data dissemination, and other related purposes. (2) ‘Supervisory Returns’ refer to all periodic / ad-hoc data submitted to RBI in formats prescribed from time to time, irrespective of the technology platform, periodicity, and the mode of submission. 5. All other expressions unless defined herein shall have the same meaning as have been assigned to them under the Reserve Bank of India Act, 1934, Banking Regulation Act, 1949, the Companies Act, 2013, or any statutory modification or re-enactment thereto or other regulations issued by RBI or the Glossary of Terms published by RBI or as used in commercial parlance, as the case may be. Chapter II - Governance and Oversight A. Role of the Board and Senior Management 6. The Board and Senior Management shall include the identification, assessment, and management of data quality risks as part of its overall risk management framework. The framework shall include standards for both in-house and outsourced risks for data-related processes, policies on data confidentiality, integrity, availability, and risk management. 7. The bank shall ensure that the risk data aggregation capabilities and risk reporting practices are fully documented and subjected to high standards of validation that are aligned with the bank’s other independent risk management reviews. Validation of risk data aggregation and risk reporting practices should be conducted by staff with specific Information Technology (IT), data, and reporting expertise. The Board and Senior Management shall ensure that adequate resources are deployed for this purpose. 8. The Board and Senior Management shall ensure that the ability of the bank to aggregate and report data at a consolidated level or at any relevant level within the organisation is not hindered by its group structure (e.g., sub-consolidated level, jurisdiction of operation level). Data aggregation and reporting shall be independent of the choices that the bank makes regarding its legal organisation and geographical presence, subject to the statutory limitations, if any. 9. While considering any acquisition / divestiture, new product development, IT change initiatives, the due diligence process shall consider the impact of such activities on data aggregation and reporting. In such cases, it shall be ensured that data aggregation and reporting facilities are integrated within the existing reporting framework within a timeframe. B. Data Architecture and IT Infrastructure 10. The bank shall design, build, and maintain the data architecture and supporting IT infrastructure for complete, accurate, and timely data aggregation as well as reporting not only in normal times but also during times of stress or crisis. 11. The data aggregation and reporting practices shall be considered an essential part of the bank’s business continuity planning proces",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13638",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI has issued immediate new rules for commercial banks on governance, data quality, IT systems, and timely filing of supervisory returns, with penalties for noncompliance.",
+          "summarySource": "desc"
         },
         {
           "sr": 261,
@@ -19454,7 +19582,9 @@
           "title": "Reserve Bank of India (Commercial Banks – Statutory Audit) Directions, 2026",
           "desc": "Master Directions (2294 kb)Reserve Bank of India (Commercial Banks – Statutory Audit) Directions, 2026 RBI/DoS/2026-27/414 DoS.CO.ARG.8/08.91.001/2026-27 July 31, 2026 Reserve Bank of India (Commercial Banks – Statutory Audit) Directions, 2026 Table of Contents Chapter I - Preliminary A. Short Title and Commencement B. Applicability C. Definitions Chapter II - Governance and Oversight A. Role of the Board and Senior Management Chapter III - Guidelines for Appointment A. Number of Statutory Central Auditors / Statutory Auditors and Branch Coverage B. Eligibility Criteria of Auditors C. Independence of Auditors D. Professional Standards E. Tenure and Rotation F. Audit Fees and Expenses G. Appointment Procedure H. Appointment of Statutory Auditors for Overseas Branch(es) Chapter IV – Long Form Audit Report A. Procedure and Timelines B. Long Form Audit Report by the Statutory Central Auditors B.1 Objectives, Strategy, Scope, and Coverage B.2 Indicative Coverage C. Long Form Audit Report by the Statutory Branch Auditors Chapter V - Repeal and Other Provisions A. Repeal and Saving B. Application of Other Laws Not Barred C. Interpretations Annex I Annex II Annex III Annex IV Annex V In exercise of powers conferred by Section 30(1A) of the Banking Regulation Act, 1949, Section 10(1) of the Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970 / 1980, and Section 41(1) of the State Bank of India Act, 1955 (SBI Act), and all other provisions / laws enabling the Reserve Bank of India (‘RBI’) in this regard, RBI being satisfied that it is necessary and expedient in the public interest so to do, hereby issues the Directions hereinafter specified. Chapter I - Preliminary A. Short Title and Commencement 1. These Directions shall be called the Reserve Bank of India (Commercial Banks – Statutory Audit) Directions, 2026. 2. These Directions shall come into effect immediately upon issuance. B. Applicability 3. These Directions shall be applicable to the Commercial Banks (hereinafter collectively referred to as ‘banks’ and individually as a ‘bank’) in respect of appointment / reappointment of their Statutory Central Auditors (SCAs) / Statutory Auditors (SAs). For the purpose of these Directions, ‘Commercial Banks’ means banking companies (other than Small Finance Banks, Payment Banks, and Local Area Banks), corresponding new banks, and the State Bank of India, as defined respectively under clauses (c), (da), and (nc) of Section 5 of the Banking Regulation Act, 1949. For the purpose of these Directions, the term SCAs is applicable to banks which appoint separate Statutory Branch Auditors (SBAs) whereas in all other cases, the term SAs shall be applicable. C. Definitions 4. In these Directions, unless the context states otherwise, the terms herein shall bear the meaning assigned to them below. (1) ‘All India Financial Institutions’ shall mean National Bank for Agriculture and Rural Development (NABARD), Small Industries Development Bank of India (SIDBI), National Housing Bank (NHB), Export-Import Bank of India (EXIM Bank) and National Bank for Financing Infrastructure and Development (NaBFID) as established under their respective statutes, (hereinafter collectively referred to as ‘AIFIs’). (2) ‘Audit Firm’ shall mean a partnership firm or Limited Liability Partnership (LLP). (3) ‘Central Co-operative Bank (CCB)’ shall be as defined under Sub-Section (d) of Section 2 of National Bank for Agriculture and Rural Development Act, 1981. (4) ‘Group Entities’ shall mean two or more entities related to each other through any of the following relationships, viz. Subsidiary - parent [defined in terms of Accounting Standards (AS) 21], Joint venture (defined in terms of AS 27), Associate (defined in terms of AS 23), Promoter - Promotee [as provided in the SEBI (Acquisition of Shares and Takeover) Regulations, 1997] for listed companies, a related party (defined in terms of AS 18), Common brand name, and investment in equity shares of 20 per cent and above. (5) “Large Exposure” or “LE” shall have the same meaning as defined in the Reserve Bank of India (Commercial Banks – Concentration Risk Management) Directions, 2025. (6) ‘NBFCs [including Housing Finance Companies (HFCs)]’ shall mean such entities as defined in the Reserve Bank of India (Non-Banking Financial Companies – Registration, Exemptions and Framework for Scale Based Regulation) Directions, 2025. (7) ‘Primary (Urban) Co-operative Banks (UCB)’ shall mean entities as defined in Section 5 (ccv) read with Section 56 of the Banking Regulation Act, 1949. (8) ‘Public Sector Banks (PSBs)’ (individually as a ‘PSB’) shall refer to State Bank of India and corresponding new banks collectively. (9) ‘State Bank of India’ shall mean State Bank of India as defined in Section 5 (nc) of the Banking Regulation Act, 1949. (10) ‘State Co-operative Bank (StCB)’ shall be as defined under Sub-Section (u) of Section 2 of National Bank for Agriculture and Rural Development Act, 1981. 5. All",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13639",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI issued new rules immediately tightening commercial banks’ statutory auditor appointment, independence, rotation, fees, and audit reporting requirements.",
+          "summarySource": "desc"
         },
         {
           "sr": 262,
@@ -19464,7 +19594,9 @@
           "title": "Reserve Bank of India (Commercial Banks - Internal Audit Function) Directions, 2026",
           "desc": "Master Directions (743 kb)Reserve Bank of India (Commercial Banks - Internal Audit Function) Directions, 2026 RBI/DoS/2026-27/413 DoS.CO.PPG.7/11.01.005/2026-27 July 31, 2026 Reserve Bank of India (Commercial Banks - Internal Audit Function) Directions, 2026 Table of Contents Introduction Chapter I - Preliminary A. Short Title and Commencement B. Applicability Chapter II - Governance and Oversight A. Role of the Board B. Role of the Senior Management Chapter III - Risk-Based Internal Audit Framework A. Policy on Internal Audit B. Functional Independence C. Risk Assessment D. Scope E. Communication F. Performance Evaluation G. Outsourcing Chapter IV - Head of Internal Audit A. Authority, Stature, and Independence B. Tenure C. Reporting Line Chapter V - Repeal and Other Provisions A. Repeal and Saving B. Application of Other Laws Not barred C. Interpretations Introduction A sound Internal Audit function is an integral component of a bank’s internal control and risk management framework. In view of the limitations of a transaction-centric audit approach, the banks are required to adopt Risk Based Internal Audit (RBIA), which places emphasis on the assessment of risk management systems and internal controls, in addition to selective transaction testing, in alignment with evolving governance standards and international best practices. In exercise of the powers conferred by Section 35-A of the Banking Regulation Act, 1949, and all other provisions / laws enabling the Reserve Bank of India (‘RBI’) in this regard, RBI being satisfied that it is necessary and expedient in the public interest so to do, hereby, issues the Directions hereinafter specified. Chapter I - Preliminary A. Short Title and Commencement 1. These Directions shall be called the Reserve Bank of India (Commercial Banks - Internal Audit Function) Directions, 2026. 2. These Directions shall come into effect immediately upon issuance. B. Applicability 3. These Directions shall be applicable to Commercial Banks (hereinafter collectively referred to as ‘banks’ and individually as a ‘bank’). For the purpose of these Directions, ‘Commercial Banks’ means banking companies (other than Small Finance Banks, Payments Banks, and Local Area Banks), corresponding new banks, and the State Bank of India, as defined respectively under clauses (c), (da), and (nc) of Section 5 of the Banking Regulation Act, 1949. Chapter II - Governance and Oversight A. Role of the Board 4. The Board of the bank / Local Advisory Board (LAB) (in case of a foreign bank) shall approve the following: (1) A well-defined policy for undertaking RBIA. (2) A risk assessment methodology devised by the Internal Audit Department (IAD) of the bank, keeping in view the size and complexity of the business undertaken by the bank. (3) An Annual Audit Plan (AAP) which should include the schedule and the rationale for audit work planned. (4) A policy to engage the services of the bank’s retired personnel for a maximum tenure not exceeding three years in areas where it does not have enough expertise which shall, inter alia, include the terms of engagement, review of performance, termination of services. 5. The Board / LAB shall be responsible for ensuring that an effective RBIA system is in place, and its importance is understood throughout the bank. 6. The Board / Audit Committee of the Board (ACB) / LAB shall periodically assess the performance of the RBIA for reliability, accuracy, and objectivity. 7. The Board / LAB shall prescribe a minimum period of service for staff in the Internal Audit function, except for banks where the Internal Audit function is a specialised function and managed by career internal auditors. The Board / LAB may also examine the feasibility of prescribing at least one stint of service in the Internal Audit function for those staff possessing specialised knowledge useful for the audit function, but who are posted in other departments, so as to have adequate skills for the staff in the Internal Audit function. B. Role of the Senior Management 8. The Senior Management shall ensure that the importance of an effective RBIA system is understood throughout the bank, and the Internal Audit staff perform their duties with objectivity and impartiality. Chapter III - Risk-Based Internal Audit Framework A. Policy on Internal Audit 9. The primary focus of Risk-Based Internal Audit (RBIA) shall be to provide reasonable assurance to the Board and senior management about the adequacy and effectiveness of the risk management and control framework in the bank’s operations. While examining the effectiveness of control framework, the RBIA shall report on proper recording as well as reporting of major exceptions and excesses. 10. The RBIA should focus on risk identification, prioritisation of audit areas, and allocation of audit resources in accordance with the risk assessment. The policy shall include the risk assessment methodology for identifying the risk areas based on which the audit plan wou",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13640",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI has ordered commercial banks to strengthen internal audits by using a risk-based approach, with board-approved policies, plans, and oversight.",
+          "summarySource": "desc"
         },
         {
           "sr": 263,
@@ -19474,7 +19606,9 @@
           "title": "Reserve Bank of India (Commercial Banks – Fraud Risk Management) Directions, 2026",
           "desc": "Master Directions (1144 kb)Reserve Bank of India (Commercial Banks – Fraud Risk Management) Directions, 2026 RBI/DoS/2026-27/412 DoS.CO.FMG.6/23.04.001/2026-27 July 31, 2026 Reserve Bank of India (Commercial Banks – Fraud Risk Management) Directions, 2026 Table of Contents Chapter I - Preliminary A. Short Title and Commencement B. Applicability C. Definitions Chapter II - Governance and Oversight A. Governance Structure for Fraud Risk Management Chapter III – Early Detection of Frauds - Framework for Early Warning Signals and Red Flagging of Accounts A. Governance Structure B. EWS / RFA Framework for Credit Facilities / Loan Accounts C. EWS Framework for Other Banking / Non-Credit Related Transactions Chapter IV - General Instructions A. Credit facility / Loan account classified as Red-flagged Account and Reporting of Fraud B. Independent Confirmation from Third-party Service Providers including Professionals C. Staff Accountability D. Penal Measures E. Treatment of Accounts under Resolution Chapter V - Reporting of Frauds to Law Enforcement Agencies Chapter VI - Reporting to Reserve Bank of India A. Reporting of Incidents of Fraud B. Central Fraud Registry C. Modalities of Reporting Incidents of Fraud D. Closure of Fraud Cases Reported Chapter VII - Cheque Related Frauds - Reporting to Law Enforcement Agencies and Reserve Bank of India Chapter VIII - Other Instructions A. Legal Audit of Title Documents in respect of Large Value Loan Accounts B. Treatment of Accounts classified as Fraud and sold to other Lenders / Asset Reconstruction Companies C. Role of Auditors Chapter IX - Reporting Cases of Theft, Burglary, Dacoity and Robbery Chapter X - Repeal and Other Provisions A. Repeal and Saving B. Application of Other Laws not barred C. Interpretations Introduction These Directions are issued with a view to providing a framework for prevention, early detection, and timely reporting of incidents of fraud by banks to Law Enforcement Agencies (LEAs) and Reserve Bank of India (RBI) and dissemination of information by RBI and matters connected therewith or incidental thereto. In exercise of the powers conferred under Section 21 and Section 35-A of the Banking Regulation Act, 1949, and all other provisions / laws enabling RBI in this regard, RBI being satisfied that it is necessary and expedient in public interest so to do, hereby issues the Directions hereinafter specified. Chapter I - Preliminary A. Short Title and Commencement 1. These Directions shall be called the Reserve Bank of India (Commercial Banks - Fraud Risk Management) Directions, 2026. 2. These Directions shall come into effect immediately upon issuance. B. Applicability 3. These Directions shall be applicable to Commercial Banks (hereinafter collectively referred to as 'banks' and individually as 'bank'). For the purpose of these Directions, ‘Commercial Banks’ is the term applied to banking companies (other than Small Finance Banks, Payments Banks, and Local Area Banks), corresponding new banks, and the State Bank of India, as defined respectively under clauses (c), (da), and (nc) of Section 5 of the Banking Regulation Act, 1949. C. Definitions 4. In these Directions, unless the context states otherwise, the terms herein shall bear the meaning assigned to them below: (1) ‘Central Fraud Registry (CFR)’ is a web-based searchable database maintained by RBI. Fraud related data, including the updates thereof, directly flow to CFR from online reporting by the bank through Fraud Monitoring Returns (FMRs). (2) ‘CRILC’ is the Central Repository of Information on Large Credits as referred to in the Reserve Bank of India (Commercial Banks – Supervisory Returns) Directions, 2026. (3) ‘Date of classification’, for the purpose of reporting under FMR, is the date when due approval from the competent authority has been obtained for such classification, and the reasoned order is passed. (4) ‘Date of detection’ to be reported in FMR, is the actual date when the fraud came to light in the concerned branch / audit / department of the bank, as the case may be, and not the date of approval by the competent authority of the bank. (5) ‘Date of occurrence’, for the purpose of reporting under FMR, is the date when the actual misappropriation of funds has started taking place, or the event occurred, as evidenced / reported in the audit or other findings. (6) 'Red Flagged Account' is one where suspicion of fraudulent activity is thrown up by the presence of one or more Early Warning Signal (EWS) indicators, alerting / triggering deeper investigation from potential fraud angle and requiring initiation of preventive measures by all banks. Chapter II - Governance and Oversight A. Governance Structure for Fraud Risk Management 5. The bank shall put in place a Board approved Policy on Fraud Risk Management delineating roles and responsibilities of Board / Board Committees and Senior Management of the bank. The policy shall inter alia contain measures towards prevention, early detect",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13641",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI has issued immediate rules requiring commercial banks to strengthen fraud prevention, early detection, reporting, and accountability controls.",
+          "summarySource": "desc"
         },
         {
           "sr": 264,
@@ -19484,7 +19618,9 @@
           "title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026",
           "desc": "Master Directions (403 kb)Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 RBI/DoS/2026-27/411 DoS.CO.CSITEG.5/31.01.015/2026-27 July 31, 2026 Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 Table of Contents Chapter I - Preliminary A. Short Title and Commencement B. Applicability C. Definitions Chapter II - Role of the Board A. Board Approved Policies Chapter III - General Controls A. Governance and Management of Security Risks B. Other Generic Security Controls C. Application Security Life Cycle D. Authentication Framework E. Fraud Risk Management F. Reconciliation Mechanism G. Customer Protection, Awareness and Grievance Redressal Mechanism Chapter IV - Internet Banking Security Controls Chapter V - Mobile Payments Application Security Controls Chapter VI - Card Payment Security Controls Chapter VII - Repeal and Other Provisions A. Repeal and Saving B. Application of Other Laws Not barred C. Interpretations In exercise of the powers conferred by extant provisions of the Banking Regulation Act, 1949, Chapter IV of Payment and Settlement Systems Act, 2007, and all other provisions / laws enabling the Reserve Bank of India (‘RBI’) in this regard, RBI being satisfied that it is necessary and expedient in the public interest so to do, hereby, issues Directions hereinafter specified. Chapter I - Preliminary A. Short Title and Commencement 1. These Directions shall be called the Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026. 2. These Directions shall come into effect immediately upon issuance. B. Applicability 3. These Directions shall be applicable to Commercial Banks (hereinafter collectively referred to as 'banks' and individually as 'bank'). For the purpose of these Directions, ‘Commercial Banks’ means banking companies (other than Small Finance Banks, Payments Banks and Local Area Banks), corresponding new banks, and the State Bank of India, as defined respectively under clauses (c), (da), and (nc) of Section 5 of the Banking Regulation Act, 1949. 4. These Directions are applicable for digital payment products and services provided by the bank as detailed below: (1) Any digital payment product or service offered by the bank to customers for carrying out financial transactions or non-financial transactions such as balance enquiry, set / change Personal Identification Number (PIN), mobile banking registration, generation of one-time password (OTP), mini-statement, facility of checking transaction status, and option to the customer to raise dispute / grievance. Such digital payment products and services offered directly by the bank or through a system operated by RBI or a system operated by any of the RBI authorised Payment System Operators (PSOs), and the associated IT assets (applications, systems, infrastructure) shall be considered for the scope of these Directions. C. Definitions 5. The following definitions are sourced from Financial Stability Board (FSB) Cyber Lexicon unless explicitly mentioned otherwise. In these Directions, unless the context states otherwise, the terms herein shall bear the meaning assigned to them below: (1) ‘Availability’ - Property of being accessible and usable on demand by an authorised entity. (2) ‘Confidentiality’ - Property that information is neither made available nor disclosed to unauthorised individuals, entities, processes, or systems. (3) ‘Cyber’ - Relating to, within, or through the medium of the interconnected information infrastructure of interactions among persons, processes, data, and information systems. (4) ‘Cybersecurity’ - Preservation of confidentiality, integrity, and availability of information, and / or information systems through the cyber medium. In addition, other properties, such as authenticity, accountability, non-repudiation, and reliability can also be involved. (5) ‘Cyber-attack’ - Malicious attempt(s) to exploit vulnerabilities through the cyber medium to damage, disrupt, or gain unauthorised access to assets. (6) ‘Distributed Denial of Service (DDoS)’ - A denial of service that is carried out using numerous sources simultaneously. (7) ‘Framework’ - A framework is a structured set of strategies, policies, procedures, methods, and best practices that guides organisational activities, enables governance, and supports the achievement of defined objectives. (Source: adapted from ISACA glossary) (8) ‘Information System’ - Set of applications, services, information technology assets, or other information-handling components, which includes the operating environment and networks. (9) ‘Integrity’ - Property of accuracy and completeness. (10) ‘Malware’ - Software designed with malicious intent containing features or capabilities that can potentially cause harm directly or indirectly to entities or their information systems. (11) ‘Penetration Testing’ - A test methodology in which assessors typically working under spec",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13642",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI now requires commercial banks to strengthen governance, authentication, fraud controls, and customer protection for all digital payment services.",
+          "summarySource": "desc"
         },
         {
           "sr": 265,
@@ -23578,7 +23714,9 @@
           "title": "Extension to SEBI Circular on “Relaxation in adherence to prescribed timelines issued by SEBI due to Covid 19” dated April 13, 2020",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_25022022.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI has extended Covid-related deadline relaxations, giving regulated entities more time to meet certain filing and compliance timelines.",
+          "summarySource": "title"
         },
         {
           "sr": 249,
@@ -23588,7 +23726,9 @@
           "title": "Approach to securities market data access and terms of usage of data provided by data sources in Indian securities market",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_25022022_1.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s securities regulator is outlining how market data can be accessed and used, with likely implications for data licensing, compliance, and usage controls.",
+          "summarySource": "title"
         },
         {
           "sr": 250,
@@ -23598,7 +23738,9 @@
           "title": "Release of New Digital Portal for filing of Information with the Exchange – for Equity Announcements and Disclosures under SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_17022022.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "The exchange has launched a new digital portal for submitting equity announcement and disclosure filings under SEBI takeover regulations.",
+          "summarySource": "title"
         },
         {
           "sr": 251,
@@ -23608,7 +23750,9 @@
           "title": "Conversion of Private Unlisted InvIT into Private Listed InvIT",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_15022022_8.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "A private unlisted infrastructure investment trust has converted into a private listed InvIT, changing its regulatory status and likely expanding market access.",
+          "summarySource": "title"
         },
         {
           "sr": 252,
@@ -23618,7 +23762,9 @@
           "title": "Disclosures in the abridged prospectus and front cover page of the offer document",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_15022022_6.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "The update sets disclosure requirements for the front cover and abridged prospectus in an offer document to ensure investors get key information.",
+          "summarySource": "title"
         },
         {
           "sr": 253,
@@ -23628,7 +23774,9 @@
           "title": "Framework for conversion of Private Listed InvIT into Public InvIT",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_15022022_7.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s regulator issued a framework allowing privately listed infrastructure investment trusts to convert into public InvITs, affecting disclosure and compliance requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 254,
@@ -23638,7 +23786,9 @@
           "title": "Schemes of Arrangement by Listed Entities",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_01022022.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "The exchange issued guidance on schemes of arrangement involving listed companies, which may affect compliance requirements for restructurings and mergers.",
+          "summarySource": "title"
         },
         {
           "sr": 255,
@@ -23648,7 +23798,9 @@
           "title": "Issuance of Securities in dematerialized form in case of Investor Service Requests",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27012022.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators now require securities issued through investor service requests to be handled in dematerialized form rather than paper certificates.",
+          "summarySource": "title"
         },
         {
           "sr": 256,
@@ -23658,7 +23810,9 @@
           "title": "Launch of Digital Portal for filings done with the Exchange",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_06012022.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "The exchange launched a digital portal to submit filings electronically, streamlining regulatory reporting for companies.",
+          "summarySource": "title"
         },
         {
           "sr": 257,
@@ -23668,7 +23822,9 @@
           "title": "Extension of facility for conducting annual meeting and other meetings of unitholders of REITs and InvITs through Video Conferencing (VC) or through Other Audio-Visual means (OAVM)",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_05012022.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "The deadline allowing REIT and InvIT unitholders’ annual and other meetings to be held virtually has been extended.",
+          "summarySource": "title"
         },
         {
           "sr": 258,
@@ -23678,7 +23834,9 @@
           "title": "Schemes of Arrangement by Listed Entities - Clarification w.r.t. timing of submission of NOC from the lending scheduled commercial banks/ financial institutions/ debenture trustee",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//content/equities/NSE_circular_03012022.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators clarified when listed companies must submit no-objection certificates from lenders or debenture trustees for scheme-of-arrangement approvals.",
+          "summarySource": "title"
         },
         {
           "sr": 259,
@@ -23688,7 +23846,9 @@
           "title": "FAQ’s - LODR amendments dated August 03, 2021",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_22122021.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "The update explains changes to listing disclosure requirements under the August 3, 2021 LODR amendments.",
+          "summarySource": "title"
         },
         {
           "sr": 260,
@@ -23698,7 +23858,9 @@
           "title": "Clarification with respect to Circular dated November 03, 2021, on Common and simplified norms for processing investor’s service request by RTAs and norms for furnishing PAN, KYC details and Nomination",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_15122021.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator clarified requirements for RTAs to process investor service requests and to collect PAN, KYC, and nomination details.",
+          "summarySource": "title"
         },
         {
           "sr": 261,
@@ -23708,7 +23870,9 @@
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_01122021_2.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator issued a master circular consolidating the current rules and compliance requirements for Real Estate Investment Trusts.",
+          "summarySource": "title"
         },
         {
           "sr": 262,
@@ -23718,7 +23882,9 @@
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_01122021_1.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "India issued a master circular consolidating key rules for Infrastructure Investment Trusts (InvITs) to guide their regulation and compliance requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 263,
@@ -23728,7 +23894,9 @@
           "title": "Non-compliance with certain provisions of SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018.",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_26112021.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI identified non-compliance with certain capital-raising disclosure requirements, which may expose the company to regulatory scrutiny or penalties.",
+          "summarySource": "title"
         },
         {
           "sr": 264,
@@ -29245,7 +29413,9 @@
           "title": "Ernst & Young Han Young (South Korea)",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-018-ey-south-korea.pdf?sfvrsn=224defaa_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "Ernst & Young Han Young in South Korea is the subject of this regulatory or financial news update, but no further details were provided.",
+          "summarySource": "title"
         },
         {
           "sr": 249,
@@ -29255,7 +29425,9 @@
           "title": "Grant Thornton Auditores Independentes Ltda. (Brazil)",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-020-gt-brazil.pdf?sfvrsn=901d86af_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "Grant Thornton Auditores Independentes Ltda. is the subject of a Brazil-related regulatory or financial news update, but no further details are provided.",
+          "summarySource": "title"
         },
         {
           "sr": 250,
@@ -29265,7 +29437,9 @@
           "title": "SRCO, C.P.A., Professional Corporation",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-027-srco.pdf?sfvrsn=39136a02_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "The update names SRCO, C.P.A., Professional Corporation, but provides no additional regulatory or financial details.",
+          "summarySource": "title"
         },
         {
           "sr": 251,
@@ -29275,7 +29449,9 @@
           "title": "JTC Fair Song CPA Firm (China)",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-022-jtc-china.pdf?sfvrsn=40f85cb7_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "China-based JTC Fair Song CPA Firm is the subject of a regulatory or financial update relevant to compliance monitoring.",
+          "summarySource": "title"
         },
         {
           "sr": 252,
@@ -29285,7 +29461,9 @@
           "title": "BPM LLP",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-015-bpm.pdf?sfvrsn=830a158e_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "BPM LLP was mentioned in a regulatory or financial news update, but no further details were provided.",
+          "summarySource": "title"
         },
         {
           "sr": 253,
@@ -29295,7 +29473,9 @@
           "title": "Deloitte Ireland LLP (Ireland)",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-012-deloitte-ireland.pdf?sfvrsn=ec16a8e2_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "Deloitte Ireland LLP is the subject of a regulatory or financial news update, but no additional details were provided.",
+          "summarySource": "title"
         },
         {
           "sr": 254,
@@ -29305,7 +29485,9 @@
           "title": "Weinberg & Company, P.A.",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-014-weinberg.pdf?sfvrsn=3e64b147_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "Weinberg & Company, P.A. has been identified in a regulatory or financial news update, but no further details were provided.",
+          "summarySource": "title"
         },
         {
           "sr": 255,
@@ -29315,7 +29497,9 @@
           "title": "PricewaterhouseCoopers LLP (United Kingdom)",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-013-pwc-uk.pdf?sfvrsn=d49bfae9_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "PwC’s UK operations are the subject of a regulatory or financial news update that compliance teams should review for potential oversight implications.",
+          "summarySource": "title"
         },
         {
           "sr": 256,
@@ -29325,7 +29509,9 @@
           "title": "Kerber, Eck & Braeckel LLP",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-006-kerbereck.pdf?sfvrsn=a863c15_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "Kerber, Eck & Braeckel LLP is named in a regulatory/financial update, but no further details were provided.",
+          "summarySource": "title"
         },
         {
           "sr": 257,
@@ -29335,7 +29521,9 @@
           "title": "Mac Accounting Group & CPAs, LLP",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-007-macaccounting.pdf?sfvrsn=75330c54_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "Mac Accounting Group & CPAs, LLP is the subject of a regulatory or financial news update, but no details were provided.",
+          "summarySource": "title"
         },
         {
           "sr": 258,
@@ -29345,7 +29533,9 @@
           "title": "BDO Bedrijfsrevisoren - BDO Réviseurs d’Entreprises (Belgium)",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-002-bdo-belgium.pdf?sfvrsn=3caf8c2c_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "BDO Belgium’s auditor status has been updated, which may affect its regulatory registration and compliance obligations.",
+          "summarySource": "title"
         },
         {
           "sr": 259,
@@ -29355,7 +29545,9 @@
           "title": "Berry, Dunn, McNeil & Parker, LLC",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-004-berry-dunn.pdf?sfvrsn=4a7030c7_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "A regulatory or financial update is unavailable because no article details were provided beyond the firm’s name.",
+          "summarySource": "title"
         },
         {
           "sr": 260,
@@ -29365,7 +29557,9 @@
           "title": "Armanino LLP",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-001-armanino.pdf?sfvrsn=86145d3e_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "No substantive update is provided here; it only names Armanino LLP without any regulatory or financial details.",
+          "summarySource": "title"
         },
         {
           "sr": 261,
@@ -29375,7 +29569,9 @@
           "title": "MSL, P.A.",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-008-msl.pdf?sfvrsn=643750c8_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "The update concerns MSL, P.A., but no regulatory or financial details are provided to assess any compliance impact.",
+          "summarySource": "title"
         },
         {
           "sr": 262,
@@ -29385,7 +29581,9 @@
           "title": "MSPC, Certified Public Accountants and Advisors, A Professional Corporation",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-009-mspc.pdf?sfvrsn=4bf4c715_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "The update appears to concern MSPC, a CPA/advisory firm, but no details are provided to assess any compliance or regulatory impact.",
+          "summarySource": "title"
         },
         {
           "sr": 263,
@@ -29395,7 +29593,9 @@
           "title": "WWC, P.C.",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-011-wwc.pdf?sfvrsn=f8f9dee0_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "The update concerns WWC, P.C., but no substantive regulatory or financial details are provided to assess compliance impact.",
+          "summarySource": "title"
         },
         {
           "sr": 264,
