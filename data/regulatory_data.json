@@ -1717,7 +1717,9 @@
           "title": "Income Tax | ITAT Chennai Allows Section 87A Rebate on Special Rate Income",
           "desc": "ITAT Chennai allows Rs.25,000 rebate under Section 87A for AY 2024-25, holding that rebate cannot be denied merely because total income includes income taxable at special rates.The post ITAT Chennai A",
           "link": "https://taxguru.in/income-tax/itat-chennai-section-87a-rebate-capital-gains-taxed-special-rates-ay-2024-25.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "ITAT Chennai said Section 87A rebate for AY 2024-25 cannot be denied just because part of a taxpayer’s income is taxed at special rates.",
+          "summarySource": "desc"
         },
         {
           "sr": 96,
@@ -1727,7 +1729,9 @@
           "title": "Corporate Law | Jammu &#038; Kashmir HC Upholds Single Complaint for Dishonour of Four Cheques",
           "desc": "J&#038;K High Court holds a single complaint maintainable for four dishonoured cheques where a consolidated demand notice was served.The post Jammu &#038; Kashmir HC Upholds Single Complaint for Disho",
           "link": "https://taxguru.in/corporate-law/jammu-kashmir-hc-upholds-single-complaint-dishonour-cheques.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The J&K High Court said one complaint can cover four bounced cheques if the payee sent a single combined demand notice.",
+          "summarySource": "desc"
         },
         {
           "sr": 97,
@@ -1737,7 +1741,9 @@
           "title": "Goods and Services Tax | Gujarat HC Allows Ford India’s Refund Claim Using Transitional CENVAT Credit",
           "desc": "Gujarat HC allows Ford India’s GST refund petitions, holding transitional CENVAT credit available from 1 July 2017.The post Gujarat HC Allows Ford India’s Refund Claim Using Transitional CENVAT Credit",
           "link": "https://taxguru.in/goods-and-service-tax/gujarat-hc-ford-indias-refund-claim-transitional-cenvat-credit.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Gujarat High Court allowed Ford India’s GST refund claim, ruling that transitional CENVAT credit remained available from July 1, 2017.",
+          "summarySource": "desc"
         },
         {
           "sr": 98,
@@ -1747,7 +1753,9 @@
           "title": "Goods and Services Tax | Gujarat HC Directs Refund of Unutilised VAT ITC Not Carried into GST",
           "desc": "Gujarat HC directs refund of Rs.3,90,762 unutilised VAT ITC not carried into GST, applying Section 174(2)(c) and Rule 15(6).The post Gujarat HC Directs Refund of Unutilised VAT ITC Not Carried into GS",
           "link": "https://taxguru.in/goods-and-service-tax/gujarat-hc-directs-refund-unutilised-vat-itc-not-carried-gst.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Gujarat High Court ordered a refund of unutilised VAT input tax credit not transitioned into GST, relying on Section 174(2)(c) and Rule 15(6).",
+          "summarySource": "desc"
         },
         {
           "sr": 99,
@@ -1757,7 +1765,9 @@
           "title": "Goods and Services Tax | Gujarat HC Allows GST Refund of Transitional ITC for Initial GST Months",
           "desc": "Gujarat HC allows refund of unutilized ITC, holding transitional CENVAT credit available as opening balance from 1 July 2017.The post Gujarat HC Allows GST Refund of Transitional ITC for Initial GST M",
           "link": "https://taxguru.in/goods-and-service-tax/gujarat-hc-gst-refund-transitional-itc-initial-gst-months.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Gujarat High Court ruled companies can claim GST refunds for unused transitional input tax credit carried over as opening balance from July 1, 2017.",
+          "summarySource": "desc"
         },
         {
           "sr": 100,
@@ -1767,7 +1777,9 @@
           "title": "Income Tax | Bangalore ITAT: AY 2016-17 Material Cannot Travel Backwards u/s 153C; Liquor Profit Cut to 5.5%",
           "desc": "Bangalore ITAT held that AY 2016-17 material cannot be extrapolated to earlier unabated years and accepted 5.5% liquor-business profit.The post Bangalore ITAT: AY 2016-17 Material Cannot Travel Backwa",
           "link": "https://taxguru.in/income-tax/bangalore-itat-ay-2016-17-material-cannot-travel-153c-liquor-profit-cut-5-5-percent.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Bangalore ITAT ruled later-year evidence can’t be used for earlier years in a tax search case and reduced the liquor business profit rate to 5.5%.",
+          "summarySource": "desc"
         }
       ],
       "ts": 1788420209528,
@@ -3362,7 +3374,9 @@
           "title": "Review of Block Deal Framework",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/oct-2025/review-of-block-deal-framework_97145.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The exchange is reviewing rules for large block trades, which could affect how big share deals are executed and reported.",
+          "summarySource": "title"
         },
         {
           "sr": 96,
@@ -3372,7 +3386,9 @@
           "title": "Extension of timeline for implementation of SEBI Circular dated February 04, 2025 on ‘Safer participation of retail investors in Algorithmic trading’",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2025/extension-of-timeline-for-implementation-of-sebi-circular-dated-february-04-2025-on-safer-participation-of-retail-investors-in-algorithmic-trading-_96979.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI has extended the deadline to implement its February 2025 rules aimed at making retail participation in algorithmic trading safer.",
+          "summarySource": "title"
         },
         {
           "sr": 97,
@@ -3382,7 +3398,9 @@
           "title": "Compliance Guidelines for Digital Accessibility Circular ‘Rights of Persons with Disabilities Act, 2016 and rules made thereunder- mandatory compliance by all Regulated Entities’ dated July 31, 2025 (Circular No. SEBI/HO/ITD-1/ITD_VIAP/P/CIR/2025/111)",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2025/compliance-guidelines-for-digital-accessibility-circular-rights-of-persons-with-disabilities-act-2016-and-rules-made-thereunder-mandatory-compliance-by-all-regulated-entities-dated-july-31-2025-_96862.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI issued mandatory digital accessibility compliance guidelines for all regulated entities under the Rights of Persons with Disabilities Act, 2016.",
+          "summarySource": "title"
         },
         {
           "sr": 98,
@@ -3392,7 +3410,9 @@
           "title": "Ease of doing investment - Smooth transmission of securities from Nominee to Legal Heir",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2025/ease-of-doing-investment-smooth-transmission-of-securities-from-nominee-to-legal-heir_96711.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The rules appear to make it easier to transfer securities from a nominee to the legal heir after an investor’s death.",
+          "summarySource": "title"
         },
         {
           "sr": 99,
@@ -3402,7 +3422,9 @@
           "title": "Framework on Social Stock Exchange",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2025/framework-on-social-stock-exchange_96702.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "A social stock exchange framework has been released, potentially changing how social enterprises can raise capital and report compliance.",
+          "summarySource": "title"
         },
         {
           "sr": 100,
@@ -3412,7 +3434,9 @@
           "title": "Revised regulatory framework for Angel Funds under AIF Regulations",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2025/revised-regulatory-framework-for-angel-funds-under-aif-regulations_96553.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators have updated the Angel Funds framework under AIF rules, which may affect how these funds are set up, managed, and monitored.",
+          "summarySource": "title"
         },
         {
           "sr": 101,
@@ -3422,7 +3446,9 @@
           "title": "Ease of regulatory compliances for FPIs investing only in Government Securities",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2025/ease-of-regulatory-compliances-for-fpis-investing-only-in-government-securities_96549.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators are making compliance easier for foreign portfolio investors that invest only in government securities.",
+          "summarySource": "title"
         },
         {
           "sr": 102,
@@ -3432,7 +3458,9 @@
           "title": "Framework for AIFs to make co-investment within the AIF structure under SEBI (Alternative Investment Funds) Regulations, 2012",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2025/framework-for-aifs-to-make-co-investment-within-the-aif-structure-under-sebi-alternative-investment-funds-regulations-2012_96506.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI now allows Alternative Investment Funds to make co-investments within the AIF structure, creating new compliance and allocation considerations.",
+          "summarySource": "title"
         },
         {
           "sr": 103,
@@ -3442,7 +3470,9 @@
           "title": "Format of Disclosure Document for Portfolio Managers",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2025/format-of-disclosure-document-for-portfolio-managers_96479.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator has set the required format for disclosure documents that portfolio managers must provide.",
+          "summarySource": "title"
         },
         {
           "sr": 104,
@@ -3452,7 +3482,9 @@
           "title": "Streamlining of the process for surrender of (Know Your Client) Registration Agency (KRA) registration",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2025/streamlining-of-the-process-for-surrender-of-know-your-client-registration-agency-kra-registration_96450.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator has simplified the process for KRA registration agencies to voluntarily give up their registration.",
+          "summarySource": "title"
         },
         {
           "sr": 105,
@@ -3462,7 +3494,9 @@
           "title": "Framework for Intraday Position Limits Monitoring for Equity Index Derivatives",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2025/framework-for-intraday-position-limits-monitoring-for-equity-index-derivatives_96376.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The update outlines a framework for monitoring intraday position limits on equity index derivatives to help ensure trading stays within regulatory limits.",
+          "summarySource": "title"
         },
         {
           "sr": 106,
@@ -3472,7 +3506,9 @@
           "title": "Extension of timelines and Update of reporting authority for IAs and RAs w.r.t. SEBI Circular for Compliance to Digital Accessibility Circular ‘Rights of Persons with Disabilities Act, 2016 and rules made thereunder- mandatory compliance by all Regulated Entities’ dated July 31, 2025 (Circular No. SEBI/HO/ITD-1/ITD_VIAP/P/CIR/2025/111)",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/aug-2025/extension-of-timelines-and-update-of-reporting-authority-for-ias-and-ras-w-r-t-sebi-circular-for-compliance-to-digital-accessibility-circular-rights-of-persons-with-disabilities-act-2016-and-rules-_96353.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI has extended compliance deadlines and changed reporting authority for investment and research advisers under its digital accessibility requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 107,
@@ -6537,7 +6573,9 @@
           "title": "Master Circular for Depositories",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/oct-2019/master-circular-for-depositories_44773.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The circular updates depository rules and procedures, so compliance teams should review any changes affecting settlement, reporting, and participant obligations.",
+          "summarySource": "title"
         },
         {
           "sr": 96,
@@ -6547,7 +6585,9 @@
           "title": "Guidelines on Anti-Money Laundering (AML) Standards and Combating the Financing of Terrorism (CFT) /Obligations of Securities Market Intermediaries under the Prevention of Money Laundering Act, 2002 and Rules framed there under",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/oct-2019/guidelines-on-anti-money-laundering-aml-standards-and-combating-the-financing-of-terrorism-cft-obligations-of-securities-market-intermediaries-under-the-prevention-of-money-laundering-act-2002-a-_44657.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "New AML/CFT guidelines clarify securities intermediaries’ obligations under India’s anti-money laundering law and related rules.",
+          "summarySource": "title"
         },
         {
           "sr": 97,
@@ -6557,7 +6597,9 @@
           "title": "Master Circular for Commodity Derivatives Market",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/sep-2018/master-circular-for-commodity-derivatives-market_40276.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator issued a master circular consolidating rules for the commodity derivatives market, which compliance teams should review for current requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 98,
@@ -6567,7 +6609,9 @@
           "title": "Master Circular for Mutual Funds",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/jul-2018/master-circular-for-mutual-funds_39491.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s mutual fund rules have been consolidated into a master circular, which compliance teams should review for current regulatory requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 99,
@@ -6577,7 +6621,9 @@
           "title": "Guidelines on Anti-Money Laundering (AML) Standards and Combating the Financing of Terrorism (CFT) /Obligations of Securities Market Intermediaries under the Prevention of Money Laundering Act, 2002 and Rules framed there under",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/jul-2018/guidelines-on-anti-money-laundering-aml-standards-and-combating-the-financing-of-terrorism-cft-obligations-of-securities-market-intermediaries-under-the-prevention-of-money-laundering-act-2002-a-_39431.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The update reminds securities market intermediaries to follow anti-money laundering and counter-terrorism financing rules under India’s Prevention of Money Laundering Act.",
+          "summarySource": "title"
         },
         {
           "sr": 100,
@@ -6587,7 +6633,9 @@
           "title": "Master Circular for Stock Brokers",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/jun-2018/master-circular-for-stock-brokers_39166.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The circular consolidates current rules and obligations for stock brokers, giving compliance teams a single updated reference for regulatory requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 101,
@@ -6597,7 +6645,9 @@
           "title": "Master Circular for Underwriters",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/may-2018/master-circular-for-underwriters_38907.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator issued a master circular consolidating key rules and compliance requirements for underwriters.",
+          "summarySource": "title"
         },
         {
           "sr": 102,
@@ -6607,7 +6657,9 @@
           "title": "Master Circular for Credit Rating Agencies",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/may-2018/master-circular-for-credit-rating-agencies_38832.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "A new master circular updates rules and expectations for credit rating agencies, which compliance teams should review for any operational or reporting changes.",
+          "summarySource": "title"
         },
         {
           "sr": 103,
@@ -6617,7 +6669,9 @@
           "title": "Master Circular for Debenture Trustees (DTs)",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2018/master-circular-for-debenture-trustees-dts-_38608.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "A master circular updates the rules and compliance duties that debenture trustees must follow when overseeing debt securities for investors.",
+          "summarySource": "title"
         },
         {
           "sr": 104,
@@ -6627,7 +6681,9 @@
           "title": "Master Circular for Stock Exchange and Clearing Corporation",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-stock-exchange-and-clearing-corporation_33797.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "A master circular has been issued consolidating rules for stock exchanges and clearing corporations, which compliance teams should review for updated obligations.",
+          "summarySource": "title"
         },
         {
           "sr": 105,
@@ -6637,7 +6693,9 @@
           "title": "Master Circular for Depositories",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-depositories_33796.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s depositories received a master circular that consolidates and updates key regulatory requirements for compliance and operations.",
+          "summarySource": "title"
         },
         {
           "sr": 106,
@@ -6647,7 +6705,9 @@
           "title": "Master Circular for Mutual Funds",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/sep-2016/master-circular-for-mutual-funds_33225.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s master circular on mutual funds consolidates current regulatory requirements and compliance obligations for fund operations and disclosures.",
+          "summarySource": "title"
         },
         {
           "sr": 107,
@@ -8369,7 +8429,9 @@
           "title": "Consultation paper for review of LODR Regulations - measures towards Ease of Doing Business  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2025/consultation-paper-for-review-of-lodr-regulations-measures-towards-ease-of-doing-business_95604.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator is seeking public comments on proposed changes to LODR rules aimed at easing compliance and improving the ease of doing business.",
+          "summarySource": "title"
         },
         {
           "sr": 96,
@@ -8379,7 +8441,9 @@
           "title": "Consultation Paper on Categorization and Rationalization of Mutual Fund Schemes  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2025/consultation-paper-on-categorization-and-rationalization-of-mutual-fund-schemes_95419.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator is seeking feedback on simplifying and standardizing mutual fund scheme categories to improve clarity and reduce overlap.",
+          "summarySource": "title"
         },
         {
           "sr": 97,
@@ -8389,7 +8453,9 @@
           "title": "Consultation Paper on review of valuation of physical gold and silver held by gold and silver Exchange Traded Funds (ETFs)  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2025/consultation-paper-on-review-of-valuation-of-physical-gold-and-silver-held-by-gold-and-silver-exchange-traded-funds-etfs-_95348.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators are seeking feedback on how gold and silver ETFs should value their physical metal holdings.",
+          "summarySource": "title"
         },
         {
           "sr": 98,
@@ -8399,7 +8465,9 @@
           "title": "Consultation Paper on Measures for Regulation of Activities of Credit Rating Agencies (CRAs)  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2025/consultation-paper-on-measures-for-regulation-of-activities-of-credit-rating-agencies-cras-_95142.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators are seeking feedback on new rules to better control credit rating agencies’ activities and strengthen oversight of their work.",
+          "summarySource": "title"
         },
         {
           "sr": 99,
@@ -8409,7 +8477,9 @@
           "title": "CONSULTATION PAPER ON REVIEW OF REGULATORY FRAMEWORK ON PERMISSIBLE BUSINESS ACTIVITIES FOR ASSET MANAGEMENT COMPANIES (AMCs) UNDER REGULATION 24 OF THE SEBI (MUTUAL FUNDS) REGULATIONS, 1996  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2025/consultation-paper-on-review-of-regulatory-framework-on-permissible-business-activities-for-asset-management-companies-amcs-under-regulation-24-of-the-sebi-mutual-funds-regulations-1996_95166.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI has issued a consultation paper seeking comments on updating the rules for what business activities asset management companies may legally carry out.",
+          "summarySource": "title"
         },
         {
           "sr": 100,
@@ -8419,7 +8489,9 @@
           "title": "Electronic Book Provider platform for issuance of instruments by Not for Profit Organizations on Social Stock Exchange   Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2025/electronic-book-provider-platform-for-issuance-of-instruments-by-not-for-profit-organizations-on-social-stock-exchange_95029.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "A new electronic platform has been launched to help not-for-profit organizations issue instruments on the Social Stock Exchange.",
+          "summarySource": "title"
         },
         {
           "sr": 101,
@@ -8429,7 +8501,9 @@
           "title": "Consultation on Draft Circular on Review of Framework for Conversion of Private Listed InvIT into Public InvIT  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2025/consultation-on-draft-circular-on-review-of-framework-for-conversion-of-private-listed-invit-into-public-invit_94936.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators are seeking feedback on draft rules for converting privately listed InvITs into public InvITs.",
+          "summarySource": "title"
         },
         {
           "sr": 102,
@@ -8439,7 +8513,9 @@
           "title": "Revised Guidelines for Capacity Planning and Real Time Performance Monitoring framework of Market Infrastructure Institutions with Commodity Derivative Segment  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2025/revised-guidelines-for-capacity-planning-and-real-time-performance-monitoring-framework-of-market-infrastructure-institutions-with-commodity-derivative-segment_94864.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator released revised capacity-planning and real-time monitoring guidelines for market infrastructure institutions handling commodity derivatives, inviting public comments.",
+          "summarySource": "title"
         },
         {
           "sr": 103,
@@ -8449,7 +8525,9 @@
           "title": "Consultation Paper on Strengthening Governance of Market Infrastructure Institutions (MIIs)  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2025/consultation-paper-on-strengthening-governance-of-market-infrastructure-institutions-miis-_94773.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators are seeking feedback on stricter governance rules for market infrastructure institutions to improve oversight, accountability, and risk management.",
+          "summarySource": "title"
         },
         {
           "sr": 104,
@@ -8459,7 +8537,9 @@
           "title": "Modification of Unique Client Code by Market Makers (MMs) of ETFs and certain institutional and non-institutional clients including clients clearing through custodians without levy of penalty  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2025/modification-of-unique-client-code-by-market-makers-mms-of-etfs-and-certain-institutional-and-non-institutional-clients-including-clients-clearing-through-custodians-without-levy-of-penalty_94719.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators are allowing market makers and certain ETF and institutional clients to change unique client codes, including custodian-cleared accounts, without penalties.",
+          "summarySource": "title"
         },
         {
           "sr": 105,
@@ -8469,7 +8549,9 @@
           "title": "Consultation Paper on guidelines for responsible usage of AI/ML In Indian Securities Markets  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2025/consultation-paper-on-guidelines-for-responsible-usage-of-ai-ml-in-indian-securities-markets_94687.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s securities regulator is seeking comments on proposed guidelines to ensure AI and machine learning are used responsibly in securities markets.",
+          "summarySource": "title"
         },
         {
           "sr": 106,
@@ -8479,7 +8561,9 @@
           "title": "Consultation Paper on extending certain flexibilities under accreditation framework",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2025/consultation-paper-on-extending-certain-flexibilities-under-accreditation-framework_94631.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators are consulting on whether to keep or expand temporary accreditation framework flexibilities, which could affect compliance and reporting requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 107,
@@ -11504,7 +11588,9 @@
           "title": "The Office will support SEBI's operation by handling investor complaints centrally and be the focal point of SEBI's investor education effort.The Office would be the single point interface with investors and would receive complaints relating to all departments, forward to the concerned departments.",
           "desc": "",
           "link": "https://www.sebi.gov.in/sebiweb/other/department/office-of-investor-assistance-and-education-19/overview.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The office will centrally handle investor complaints and education for SEBI, serving as the single contact point and routing issues to the right departments.",
+          "summarySource": "title"
         },
         {
           "sr": 96,
@@ -11514,7 +11600,9 @@
           "title": "Office of Ethics and Compliance (OEC)",
           "desc": "",
           "link": "https://www.sebi.gov.in/sebiweb/other/department/office-of-ethics-and-compliance-98/overview.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The Office of Ethics and Compliance appears to be the source or subject of this update, but no specific regulatory or financial developments are provided.",
+          "summarySource": "title"
         },
         {
           "sr": 97,
@@ -11524,7 +11612,9 @@
           "title": "The Office of Ethics and Compliance (OEC) has been established for administering and strengthening ethics and compliance framework for SEBI employees. The functions of OEC include establishing and administrating conflict of interest framework, overseeing whistleblower system for reporting conflicts of interest, maintaining disclosures made by employees concerning financial assets, immovable properties,  etc",
           "desc": "",
           "link": "https://www.sebi.gov.in/sebiweb/other/department/office-of-ethics-and-compliance-98/overview.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI has created an Office of Ethics and Compliance to manage employee conflicts of interest, whistleblowing, and financial disclosure oversight.",
+          "summarySource": "title"
         },
         {
           "sr": 98,
@@ -11534,7 +11624,9 @@
           "title": "Office of the Chairperson (OCH)",
           "desc": "",
           "link": "https://www.sebi.gov.in/sebiweb/other/department/office-of-the-chairperson-17/overview.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "No specific regulatory or financial update is provided; this item only names the Office of the Chairperson.",
+          "summarySource": "title"
         },
         {
           "sr": 99,
@@ -11544,7 +11636,9 @@
           "title": "The Department will handle its functions through the following Divisions:\n- Office of the Executive Assistant to Chairman",
           "desc": "",
           "link": "https://www.sebi.gov.in/sebiweb/other/department/office-of-the-chairperson-17/overview.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The department has assigned its functions to the Office of the Executive Assistant to the Chairman.",
+          "summarySource": "title"
         },
         {
           "sr": 100,
@@ -11554,7 +11648,9 @@
           "title": "Office of WTM (OWTM)",
           "desc": "",
           "link": "https://www.sebi.gov.in/sebiweb/other/department/office-of-wtm-91/overview.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The Office of WTM (OWTM) issued an update, but no additional details were provided to assess compliance impact.",
+          "summarySource": "title"
         },
         {
           "sr": 101,
@@ -11564,7 +11660,9 @@
           "title": "PACL Committtee (PACL Committtee)",
           "desc": "",
           "link": "https://www.sebi.gov.in/sebiweb/other/department/pacl-committtee-93/overview.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "No update details were provided, so there’s no substantive regulatory or financial news to summarize.",
+          "summarySource": "title"
         },
         {
           "sr": 102,
@@ -11574,7 +11672,9 @@
           "title": "PACL Committtee",
           "desc": "",
           "link": "https://www.sebi.gov.in/sebiweb/other/department/pacl-committtee-93/overview.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The PACL Committee issued an update that may affect regulatory compliance requirements and should be reviewed by the compliance team.",
+          "summarySource": "title"
         },
         {
           "sr": 103,
@@ -11584,7 +11684,9 @@
           "title": "Parliament Questions (PQ) Cell & Right to Information (RTI) Cell (PQ Cell & RTI Cell)",
           "desc": "",
           "link": "https://www.sebi.gov.in/sebiweb/other/department/parliament-questions-pq-cell-and-right-to-information-rti-cell-97/overview.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This update indicates a Parliament Questions and RTI compliance contact point, likely for handling official information requests and government inquiries.",
+          "summarySource": "title"
         },
         {
           "sr": 104,
@@ -11594,7 +11696,9 @@
           "title": "PQ Cell & RTI Cell",
           "desc": "",
           "link": "https://www.sebi.gov.in/sebiweb/other/department/parliament-questions-pq-cell-and-right-to-information-rti-cell-97/overview.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "No substantive regulatory or financial update is provided in the title or description.",
+          "summarySource": "title"
         },
         {
           "sr": 105,
@@ -11604,7 +11708,9 @@
           "title": "Prosecution and Settlement Department (PSD)",
           "desc": "",
           "link": "https://www.sebi.gov.in/sebiweb/other/department/prosecution-and-settlement-department-81/overview.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "No substantive update is provided; the title only names the Prosecution and Settlement Department (PSD).",
+          "summarySource": "title"
         },
         {
           "sr": 106,
@@ -11614,7 +11720,9 @@
           "title": "Prosecution and Settlement Department",
           "desc": "",
           "link": "https://www.sebi.gov.in/sebiweb/other/department/prosecution-and-settlement-department-81/overview.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The Prosecution and Settlement Department handled enforcement or settlement matters, so compliance teams should watch for related legal or regulatory obligations.",
+          "summarySource": "title"
         },
         {
           "sr": 107,
@@ -12990,7 +13098,9 @@
           "title": "Adjudication Order in respect of Ritu Overseas Private Limited in the matter of Illiquid Stock Options",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-ritu-overseas-private-limited-in-the-matter-of-illiquid-stock-options_100806.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators issued an adjudication order against Ritu Overseas Private Limited over alleged issues related to illiquid stock options.",
+          "summarySource": "title"
         },
         {
           "sr": 96,
@@ -13000,7 +13110,9 @@
           "title": "Adjudication Order in respect of Bimal Jha in the matter of Illiquid Stock Options on BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-bimal-jha-in-the-matter-of-illiquid-stock-options-on-bse_100742.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE issued an adjudication order against Bimal Jha over illiquid stock option trading, signaling possible compliance or market manipulation violations.",
+          "summarySource": "title"
         },
         {
           "sr": 97,
@@ -13010,7 +13122,9 @@
           "title": "Adjudication Order in respect of Rashmi Chandak in the matter of dealings in Illiquid Stock Options on BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-rashmi-chandak-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100656.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE has issued an adjudication order against Rashmi Chandak for alleged improper trading in illiquid stock options.",
+          "summarySource": "title"
         },
         {
           "sr": 98,
@@ -13020,7 +13134,9 @@
           "title": "Adjudication Order in respect of Ravindra Kumar Gupta HUF in the matter of dealings in Illiquid Stock Options on BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-ravindra-kumar-gupta-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100654.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE issued an adjudication order against Ravindra Kumar Gupta HUF over alleged trading in illiquid stock options.",
+          "summarySource": "title"
         },
         {
           "sr": 99,
@@ -13030,7 +13146,9 @@
           "title": "Adjudication Order in respect of Mange Lal Agarwal in the matter of dealings in Illiquid Stock Options on BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-mange-lal-agarwal-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100652.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE issued an adjudication order against Mange Lal Agarwal over suspected improper trading in illiquid stock options.",
+          "summarySource": "title"
         },
         {
           "sr": 100,
@@ -13040,7 +13158,9 @@
           "title": "Adjudication Order in respect of Rajeev Chandak HUF in the matter of dealings in Illiquid Stock Options on BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-rajeev-chandak-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100650.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI penalized Rajeev Chandak HUF for suspicious trading in illiquid BSE stock options, signaling enforcement against market manipulation.",
+          "summarySource": "title"
         },
         {
           "sr": 101,
@@ -13050,7 +13170,9 @@
           "title": "Adjudication Order in respect of Bhagat Ram Agarwal HUF in the matter of dealings in Illiquid Stock Options on BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-bhagat-ram-agarwal-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100639.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE issued an adjudication order against Bhagat Ram Agarwal HUF over alleged trading in illiquid stock options.",
+          "summarySource": "title"
         },
         {
           "sr": 102,
@@ -13060,7 +13182,9 @@
           "title": "Adjudication Order in respect of Late Juneja Ranjitsingh in the matter of dealings in Illiquid Stock Options on BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-late-juneja-ranjitsingh-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100637.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE issued an adjudication order about alleged improper trading in illiquid stock options involving the late Juneja Ranjitsingh.",
+          "summarySource": "title"
         },
         {
           "sr": 103,
@@ -13070,7 +13194,9 @@
           "title": "Adjudication Order in respect of Pawan Kumar Agarwal HUF in the matter of dealings in Illiquid Stock Options on BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-pawan-kumar-agarwal-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100635.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE issued an adjudication order against Pawan Kumar Agarwal HUF over alleged trading irregularities in illiquid stock options.",
+          "summarySource": "title"
         },
         {
           "sr": 104,
@@ -13080,7 +13206,9 @@
           "title": "Adjudication Order in respect of Rekha M Agarwal in the matter of dealings in Illiquid Stock Options on BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-rekha-m-agarwal-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100633.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI issued an adjudication order against Rekha M. Agarwal over alleged improper dealings in illiquid stock options on the BSE.",
+          "summarySource": "title"
         },
         {
           "sr": 105,
@@ -13090,7 +13218,9 @@
           "title": "Adjudication Order in respect of HKC Techind Pvt. Ltd. in the matter of dealings in Illiquid Stock Options on BSE",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-hkc-techind-pvt-ltd-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100631.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "BSE issued an adjudication order against HKC Techind for alleged illiquid stock options trading violations, which may signal compliance and market-conduct risks.",
+          "summarySource": "title"
         },
         {
           "sr": 106,
@@ -13100,7 +13230,9 @@
           "title": "Adjudication Order in respect of Ashlar Securities Private Limited in the matter of TradeTron and other Algo Platforms",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-ashlar-securities-private-limited-in-the-matter-of-tradetron-and-other-algo-platforms_100607.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators issued an adjudication order against Ashlar Securities over its role in TradeTron and other algorithmic trading platforms.",
+          "summarySource": "title"
         },
         {
           "sr": 107,
@@ -16528,7 +16660,9 @@
           "title": "Reserve Bank of India (Payments Banks – Acquisition and Holding of Shares or Voting Rights) Directions, 2025",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13104",
-          "isNew": false
+          "isNew": false,
+          "summary": "The RBI issued new 2025 rules governing who can acquire and hold shares or voting rights in payments banks.",
+          "summarySource": "title"
         },
         {
           "sr": 96,
@@ -16538,7 +16672,9 @@
           "title": "Reserve Bank of India (Local Area Banks – Prudential Norms on Declaration of Dividend) Directions, 2026",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13324",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI issued new prudential rules for local area banks on when they may declare dividends.",
+          "summarySource": "title"
         },
         {
           "sr": 97,
@@ -16548,7 +16684,9 @@
           "title": "Reserve Bank of India (Local Area Banks – Miscellaneous) Directions, 2025 (Updated as on April 27, 2026)",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13061",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI issued updated 2025 rules for local area banks, setting compliance requirements they must follow through April 27, 2026.",
+          "summarySource": "title"
         },
         {
           "sr": 98,
@@ -16558,7 +16696,9 @@
           "title": "Reserve Bank of India (Local Area Banks – Managing Risks in Outsourcing) Directions, 2025",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13062",
-          "isNew": false
+          "isNew": false,
+          "summary": "The RBI issued 2025 directions for local area banks to better manage risks when outsourcing services.",
+          "summarySource": "title"
         },
         {
           "sr": 99,
@@ -16568,7 +16708,9 @@
           "title": "Reserve Bank of India (Local Area Banks – Responsible Business Conduct) Directions, 2025 (Updated as on July 1, 2026)",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13063",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s central bank updated rules for local area banks, setting out responsible business conduct requirements that compliance teams should review and follow.",
+          "summarySource": "title"
         },
         {
           "sr": 100,
@@ -16578,7 +16720,9 @@
           "title": "Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025 (Updated as on December 29, 2025)",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13064",
-          "isNew": false
+          "isNew": false,
+          "summary": "The RBI’s 2025 KYC directions update the compliance rules local area banks must follow for customer identification and verification.",
+          "summarySource": "title"
         },
         {
           "sr": 101,
@@ -16588,7 +16732,9 @@
           "title": "Reserve Bank of India (Local Area Banks – Financial Statements: Presentation and Disclosures) Directions, 2025 (Updated as on May 18, 2026)",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13066",
-          "isNew": false
+          "isNew": false,
+          "summary": "The RBI issued updated 2025 rules setting presentation and disclosure requirements for local area bank financial statements.",
+          "summarySource": "title"
         },
         {
           "sr": 102,
@@ -16598,7 +16744,9 @@
           "title": "Reserve Bank of India (Local Area Banks – Treatment of Wilful Defaulters and Large Defaulters) Directions, 2025",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13067",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI issued 2025 rules for local area banks on identifying, handling, and reporting wilful and large defaulters.",
+          "summarySource": "title"
         },
         {
           "sr": 103,
@@ -16608,7 +16756,9 @@
           "title": "Reserve Bank of India (Local Area Banks – Resolution of Stressed Assets) Directions, 2025 (Updated as on July 1, 2026)",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13068",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI updated local area bank rules in 2025 to clarify how stressed assets must be identified, managed, and resolved.",
+          "summarySource": "title"
         },
         {
           "sr": 104,
@@ -16618,7 +16768,9 @@
           "title": "Reserve Bank of India (Local Area Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025 (Updated as on July 1, 2026)",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13069",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s central bank updated rules for local area banks on how they recognize income, classify bad assets, and make loan-loss provisions.",
+          "summarySource": "title"
         },
         {
           "sr": 105,
@@ -16628,7 +16780,9 @@
           "title": "Reserve Bank of India (Local Area Banks – Asset Liability Management) Directions, 2025",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13070",
-          "isNew": false
+          "isNew": false,
+          "summary": "RBI issued 2025 rules requiring local area banks to better manage and report their assets and liabilities to reduce liquidity and funding risk.",
+          "summarySource": "title"
         },
         {
           "sr": 106,
@@ -16638,7 +16792,9 @@
           "title": "Reserve Bank of India (Local Area Banks – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025 (Updated as on May 18, 2026)",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13071",
-          "isNew": false
+          "isNew": false,
+          "summary": "The Reserve Bank of India updated rules in 2025 for local area banks on how they classify, value, and manage their investment portfolios.",
+          "summarySource": "title"
         },
         {
           "sr": 107,
@@ -20476,7 +20632,9 @@
           "title": "SCORES 2.0 New Technology to strengthen SEBI Complaint Redressal System for Investors",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE%20Circular.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI has launched SCORES 2.0 to improve how investor complaints are tracked, handled, and resolved more efficiently.",
+          "summarySource": "title"
         },
         {
           "sr": 96,
@@ -20486,7 +20644,9 @@
           "title": "Frequently Asked Questions (FAQs) – Trading Window closure period under Clause 4 of Schedule B read with Regulation 9 of SEBI (Prohibition of Insider Trading) Regulations, 2015 (“PIT Regulations”) – Extending framework for restricting trading by Designated Persons (“DPs”) by freezing PAN at security level to all listed companies in a phased manner",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_28032024_5.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI is phasing in a rule that freezes designated persons’ PAN-linked trading in listed securities during trading windows to curb insider trading.",
+          "summarySource": "title"
         },
         {
           "sr": 97,
@@ -20496,7 +20656,9 @@
           "title": "Corporate Grouping of Listed Companies",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27032024.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators are clarifying how listed companies can be grouped within corporate structures, which may affect compliance, reporting, and governance obligations.",
+          "summarySource": "title"
         },
         {
           "sr": 98,
@@ -20506,7 +20668,9 @@
           "title": "Repeal of circular(s) outlining procedure to deal with cases where securities are issued prior to April 01, 2014, involving offer / allotment of securities to more 49 but up to 200 investors in a financial year",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_14032024.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators have repealed guidance for handling pre-April 2014 securities issuances made to 50–200 investors in a financial year.",
+          "summarySource": "title"
         },
         {
           "sr": 99,
@@ -20516,7 +20680,9 @@
           "title": "Revised Pricing Methodology for Institutional Placements of Privately Placed Infrastructure Investment Trust (InvIT)",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_09022024.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators have updated the pricing rules for institutional placements of privately placed infrastructure investment trusts, affecting how shares can be issued and priced.",
+          "summarySource": "title"
         },
         {
           "sr": 100,
@@ -20526,7 +20692,9 @@
           "title": "Guidelines for returning of draft offer document and its resubmission",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07022024.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "The regulator issued guidance on how draft offer documents may be returned and resubmitted, affecting the review process for capital market filings.",
+          "summarySource": "title"
         },
         {
           "sr": 101,
@@ -20536,7 +20704,9 @@
           "title": "Trading Window closure period under Clause 4 of Schedule B read with Regulation 9 of SEBI (Prohibition of Insider Trading) Regulations, 2015 (“PIT Regulations”) – Extending framework for restricting trading by Designated Persons (“DPs”) by freezing PAN at security level to all listed companies in a phased manner",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_30012024.zip",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI will gradually require all listed companies to freeze Designated Persons’ PAN-based trading access to better prevent insider trading during restricted periods.",
+          "summarySource": "title"
         },
         {
           "sr": 102,
@@ -20546,7 +20716,9 @@
           "title": "Framework for Offer for Sale (OFS) of Shares to Employees through Stock Exchange Mechanism",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_30012024.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "A new framework lets companies sell shares to employees through the stock exchange, creating a regulated process for employee stock sales.",
+          "summarySource": "title"
         },
         {
           "sr": 103,
@@ -20556,7 +20728,9 @@
           "title": "Extension of timeline for verification of market rumours by listed entities",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_29012024.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "Listed companies now have more time to verify market rumors before responding, which may affect disclosure and compliance timing.",
+          "summarySource": "title"
         },
         {
           "sr": 104,
@@ -20566,7 +20740,9 @@
           "title": "Revision to the Framework on Social Stock Exchange",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_29122023.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "The social stock exchange framework has been updated, which may affect how eligible social enterprises and investors register, disclose, and trade.",
+          "summarySource": "title"
         },
         {
           "sr": 105,
@@ -20576,7 +20752,9 @@
           "title": "Extension of timelines for providing ''choice of nomination’ in eligible demat accounts and mutual fund folios",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_28122023.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators have extended the deadline for demat account and mutual fund holders to choose whether to add a nominee.",
+          "summarySource": "title"
         },
         {
           "sr": 106,
@@ -25728,7 +25906,9 @@
           "title": "Nichols, Cauley & Associates, LLC",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-168-nicholscauley.pdf?sfvrsn=e4a72637_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "Nichols, Cauley & Associates, LLC appears to be the subject of a regulatory or financial news item, but no details are provided to summarize further.",
+          "summarySource": "title"
         },
         {
           "sr": 96,
@@ -25738,7 +25918,9 @@
           "title": "Horne LLP",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-167-horne.pdf?sfvrsn=ee94a051_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "No meaningful regulatory or financial update is provided here, so there’s nothing substantive to summarize for compliance.",
+          "summarySource": "title"
         },
         {
           "sr": 97,
@@ -25748,7 +25930,9 @@
           "title": "Grant Thornton Bharat (India)",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-166-gtbharat-india.pdf?sfvrsn=d1a788b1_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "Grant Thornton Bharat is the firm named in this update, but no regulatory or financial details were provided to summarize.",
+          "summarySource": "title"
         },
         {
           "sr": 98,
@@ -25758,7 +25942,9 @@
           "title": "RH CPA",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-171-rhcpa.pdf?sfvrsn=8f20cc8f_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "I’m unable to summarize this update because the only available text is the title “RH CPA,” with no content to report.",
+          "summarySource": "title"
         },
         {
           "sr": 99,
@@ -25768,7 +25954,9 @@
           "title": "Rodefer Moss & Co, PLLC",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-172-rodefermoss.pdf?sfvrsn=1e8563a1_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "The update concerns Rodefer Moss & Co., PLLC, but no substantive regulatory or financial details were provided.",
+          "summarySource": "title"
         },
         {
           "sr": 100,
@@ -25778,7 +25966,9 @@
           "title": "Berkower LLC",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-165-berkower.pdf?sfvrsn=b33c01c8_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "Berkower LLC appears in a regulatory/financial update, but no details are provided to assess any compliance impact.",
+          "summarySource": "title"
         },
         {
           "sr": 101,
@@ -25788,7 +25978,9 @@
           "title": "RW Group LLC",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-173-rwgroup.pdf?sfvrsn=2c01fc7b_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "RW Group LLC is the subject of a regulatory or financial update, but no details were provided about the nature or impact of the event.",
+          "summarySource": "title"
         },
         {
           "sr": 102,
@@ -25798,7 +25990,9 @@
           "title": "T R Chadha & CO LLP (India)",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-174-trchadha-india.pdf?sfvrsn=2c4e1136_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "T R Chadha & Co LLP is an India-based firm that may require compliance review for regulatory, audit, or financial reporting obligations.",
+          "summarySource": "title"
         },
         {
           "sr": 103,
@@ -25808,7 +26002,9 @@
           "title": "PricewaterhouseCoopers, Société coopérative (Luxembourg)",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-169-pwc-luxembourg.pdf?sfvrsn=e46dfb03_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "PwC Luxembourg is the subject of a regulatory filing or financial record update, but no details are provided about the underlying issue.",
+          "summarySource": "title"
         },
         {
           "sr": 104,
@@ -25818,7 +26014,9 @@
           "title": "PKF San Diego, LLP",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-163-pkf-sandiego.pdf?sfvrsn=5c08823c_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "PKF San Diego, LLP is mentioned in a regulatory or financial update, but no additional details were provided.",
+          "summarySource": "title"
         },
         {
           "sr": 105,
@@ -25828,7 +26026,9 @@
           "title": "Sanville & Company LLC",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-164-sanville.pdf?sfvrsn=7df341fe_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "Sanville & Company LLC was named in a regulatory/financial news update, but no additional details were provided.",
+          "summarySource": "title"
         },
         {
           "sr": 106,
