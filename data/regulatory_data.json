@@ -16290,7 +16290,9 @@
           "title": "Adjudication Order in respect of 8 entities in the matter of trading activities of certain entities in the scrip of Max Heights Infrastructure Ltd.",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/sep-2025/adjudication-order-in-respect-of-8-entities-in-the-matter-of-trading-activities-of-certain-entities-in-the-scrip-of-max-heights-infrastructure-ltd-_96768.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "Regulators issued an order against eight entities over suspected improper trading in Max Heights Infrastructure Ltd. shares.",
+          "summarySource": "title"
         }
       ],
       "ts": 1788433419651,
@@ -20238,7 +20240,9 @@
           "title": "Reserve Bank of India (Urban Co-operative Banks – Digital Payment Security Controls) Directions, 2026",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13615",
-          "isNew": false
+          "isNew": false,
+          "summary": "India’s central bank has issued new 2026 security rules for urban co-operative banks using digital payments.",
+          "summarySource": "title"
         }
       ],
       "ts": 1788433425531,
@@ -24596,7 +24600,9 @@
           "title": "Addendum to SEBI Circular on “Relaxation in adherence to prescribed timelines issued by SEBI due to Covid 19” dated April 13, 2020",
           "desc": "",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_29042021_1.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "SEBI issued an addendum extending or clarifying certain Covid-related deadline relaxations for regulated entities to help them meet compliance obligations.",
+          "summarySource": "title"
         }
       ],
       "ts": 1788433443888,
@@ -30355,7 +30361,9 @@
           "title": "Ernst & Young Vietnam Limited (Vietnam)",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2024-139-e-y-vietnam.pdf?sfvrsn=40915c8f_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "Ernst & Young Vietnam Limited is the subject of a regulatory or financial update relevant to compliance review.",
+          "summarySource": "title"
         },
         {
           "sr": 300,
@@ -30365,7 +30373,9 @@
           "title": "PricewaterhouseCoopers Japan LLC (Japan)",
           "desc": "",
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2024-145-pwc-japan.pdf?sfvrsn=81dd787f_2",
-          "isNew": false
+          "isNew": false,
+          "summary": "PwC Japan LLC is the subject of a regulatory or financial update that compliance teams should review for any reporting, audit, or conduct implications.",
+          "summarySource": "title"
         }
       ],
       "ts": 1788433555866,
