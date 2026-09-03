@@ -1339,12 +1339,26 @@ async function fetchDocumentDesc(url) {
 }
 
 async function extractPdfText(arrayBuffer) {
+  // pdf-parse's underlying library (pdfjs-dist) logs "Ran out of space in font private use
+  // area" whenever a PDF embeds a custom font whose glyph mappings exceed a reserved Unicode
+  // range — common in official government PDFs with non-standard embedded fonts. It's benign
+  // (extraction still succeeds, at most an occasional character doesn't map perfectly) but
+  // floods the log and drowns out warnings that actually matter. Filtered out specifically by
+  // message text, so any other real warning from this call still comes through normally.
+  const originalWarn = console.warn;
+  console.warn = (...args) => {
+    const msg = args.join(' ');
+    if (msg.includes('Ran out of space in font private use area')) return;
+    originalWarn(...args);
+  };
   try {
     const buffer = Buffer.from(arrayBuffer);
     const parsed = await pdfParse(buffer);
     return (parsed.text || '').replace(/\s+/g, ' ').trim().substring(0, 1500) || null;
   } catch (e) {
     return null;
+  } finally {
+    console.warn = originalWarn;
   }
 }
 
@@ -1380,25 +1394,39 @@ async function enrichThinDescriptions(output) {
   // draining tabs in fixed iteration order let early tabs (Taxation/Newsletter/SEBI, with
   // hundreds of rows needing enrichment) consume the entire 100/run budget every single
   // run, so RBI — positioned later — almost never got a turn at all.
-  const tabEntries = Object.entries(output).filter(([k]) => optedInKeys.has(k)).map(([, e]) => e).filter(e => e.ok && e.rows.length);
-  const tabCursors = new Map(tabEntries.map(e => [e, 0]));
+  //
+  // Within each tab, process rows newest-date-first rather than raw array order — confirmed
+  // real data isn't chronological at all (2018, 2016, 2026, 2026 back to back), so a row
+  // from years ago could sit ahead of this month's update in the queue for no good reason.
+  // A compliance team cares about what's recent far more than what's old, so recent items
+  // should get real content before old backlog does.
+  function parseRowDate(row) {
+    const d = new Date(row.date);
+    return isNaN(d.getTime()) ? 0 : d.getTime(); // undated/unparseable rows sort last, not first
+  }
+  const tabEntries = Object.entries(output)
+    .filter(([k]) => optedInKeys.has(k))
+    .map(([, e]) => e)
+    .filter(e => e.ok && e.rows.length)
+    .map(e => ({ entry: e, order: e.rows.map((_, i) => i).sort((a, b) => parseRowDate(e.rows[b]) - parseRowDate(e.rows[a])) }));
+  const tabCursors = new Map(tabEntries.map(t => [t, 0])); // cursor position within `order`, not a raw row index
 
   let fetched = 0;
   let anyRemaining = true;
   while (fetched < MAX_PER_RUN && anyRemaining) {
     anyRemaining = false;
-    for (const entry of tabEntries) {
+    for (const t of tabEntries) {
       if (fetched >= MAX_PER_RUN) break;
-      let idx = tabCursors.get(entry);
-      while (idx < entry.rows.length && !needsDesc(entry.rows[idx])) idx++;
-      if (idx >= entry.rows.length) { tabCursors.set(entry, idx); continue; }
+      let pos = tabCursors.get(t);
+      while (pos < t.order.length && !needsDesc(t.entry.rows[t.order[pos]])) pos++;
+      if (pos >= t.order.length) { tabCursors.set(t, pos); continue; }
       anyRemaining = true;
 
-      const row = entry.rows[idx];
+      const row = t.entry.rows[t.order[pos]];
       const desc = await fetchDocumentDesc(row.link);
       if (desc) row.desc = desc;
       fetched++;
-      tabCursors.set(entry, idx + 1);
+      tabCursors.set(t, pos + 1);
       await new Promise(r => setTimeout(r, 200));
     }
   }
