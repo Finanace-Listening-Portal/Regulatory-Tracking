@@ -1301,9 +1301,17 @@ async function fetchDocumentDesc(url) {
       return (parsed.text || '').replace(/\s+/g, ' ').trim().substring(0, 1500) || null;
     } else {
       const html = await resp.text();
-      const $ = cheerio.load(html);
-      $('script, style, nav, header, footer, .nav, .navbar, .menu, .sidebar').remove();
-      const text = $('article').text() || $('main').text() || $('body').text();
+      const $ = stripChrome(cheerio.load(html));
+      $('.sidebar, .promo, .banner, .advertisement, .widget, .related-posts, .comments, aside').remove();
+      // Confirmed against real data: grabbing whole <article>/<main>/<body> text and taking
+      // the first 1500 chars was capturing nav/promotional banner content ("Skip to Main
+      // Content", "Upto 60% Off on Books") that happened to sit before the real content in
+      // the DOM — on itatonline.org specifically, every row's "desc" ended up being that
+      // same boilerplate instead of the actual judgment. Real article/judgment content is
+      // reliably wrapped in <p> tags; nav bars and promo banners almost never are, and any
+      // stray short <p> (menu labels, etc.) gets filtered out by the length check below.
+      const paragraphs = $('p').map((_, el) => $(el).text().trim()).get().filter(t => t.length > 40);
+      const text = paragraphs.length ? paragraphs.join(' ') : ($('article').text() || $('main').text() || $('body').text());
       return text.replace(/\s+/g, ' ').trim().substring(0, 1500) || null;
     }
   } catch (e) {
@@ -1332,7 +1340,12 @@ async function enrichThinDescriptions(output) {
       // also explicitly re-fetch anything that looks like a truncated RSS excerpt
       // regardless of length, since those are never the real document content.
       const looksLikeThinExcerpt = /the post\s.{0,80}$/i.test(row.desc || '') || /\[…\]|\.\.\.$/i.test((row.desc || '').trim());
-      if (row.desc && row.desc.length >= 400 && !looksLikeThinExcerpt) continue; // already has real, substantial content
+      // Confirmed against real data: this exact boilerplate ("Skip to Main Content ... Upto
+      // 60% Off") was captured as "desc" for every itatonline.org row before the extraction
+      // fix above — it's long enough (1500 chars) to otherwise look like real content, so
+      // without this explicit check it would never get re-fetched despite being pure junk.
+      const looksLikeNavBoilerplate = /skip to main content|only the latest.{0,40}updates|off on books|no results found/i.test(row.desc || '');
+      if (row.desc && row.desc.length >= 400 && !looksLikeThinExcerpt && !looksLikeNavBoilerplate) continue; // already has real, substantial content
       if (!row.link) continue;
       if (fetched >= MAX_PER_RUN) return;
       const desc = await fetchDocumentDesc(row.link);
