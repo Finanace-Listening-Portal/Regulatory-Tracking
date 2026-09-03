@@ -1324,7 +1324,15 @@ async function enrichThinDescriptions(output) {
     if (!optedInKeys.has(tabKey)) continue;
     if (!entry.ok || !entry.rows.length) continue;
     for (const row of entry.rows) {
-      if (row.desc && row.desc.length >= 60) continue; // already has meaningful description
+      // Confirmed against real data: a 60-char threshold was far too low — RSS/feed
+      // excerpts routinely clear that bar while still being a thin, mid-sentence-truncated
+      // snippet (e.g. "...detention-waiver certificates bind CCSPsThe post Customs Detention
+      // Waiver Certificates Bind CCSPs" — WordPress's auto-appended "The post ... appeared
+      // first on" boilerplate cut off partway through). Raised the bar substantially, and
+      // also explicitly re-fetch anything that looks like a truncated RSS excerpt
+      // regardless of length, since those are never the real document content.
+      const looksLikeThinExcerpt = /the post\s.{0,80}$/i.test(row.desc || '') || /\[…\]|\.\.\.$/i.test((row.desc || '').trim());
+      if (row.desc && row.desc.length >= 400 && !looksLikeThinExcerpt) continue; // already has real, substantial content
       if (!row.link) continue;
       if (fetched >= MAX_PER_RUN) return;
       const desc = await fetchDocumentDesc(row.link);
