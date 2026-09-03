@@ -1296,26 +1296,55 @@ async function fetchDocumentDesc(url) {
     const isPdf = contentType.includes('pdf') || url.toLowerCase().endsWith('.pdf');
 
     if (isPdf) {
-      const buffer = Buffer.from(await resp.arrayBuffer());
-      const parsed = await pdfParse(buffer);
-      return (parsed.text || '').replace(/\s+/g, ' ').trim().substring(0, 1500) || null;
-    } else {
-      const html = await resp.text();
-      const $ = stripChrome(cheerio.load(html));
-      $('.sidebar, .promo, .banner, .advertisement, .widget, .related-posts, .comments, aside').remove();
-      // Confirmed against real data: grabbing whole <article>/<main>/<body> text and taking
-      // the first 1500 chars was capturing nav/promotional banner content ("Skip to Main
-      // Content", "Upto 60% Off on Books") that happened to sit before the real content in
-      // the DOM — on itatonline.org specifically, every row's "desc" ended up being that
-      // same boilerplate instead of the actual judgment. Real article/judgment content is
-      // reliably wrapped in <p> tags; nav bars and promo banners almost never are, and any
-      // stray short <p> (menu labels, etc.) gets filtered out by the length check below.
-      const paragraphs = $('p').map((_, el) => $(el).text().trim()).get().filter(t => t.length > 40);
-      const text = paragraphs.length ? paragraphs.join(' ') : ($('article').text() || $('main').text() || $('body').text());
-      return text.replace(/\s+/g, ' ').trim().substring(0, 1500) || null;
+      return await extractPdfText(await resp.arrayBuffer());
     }
+
+    const html = await resp.text();
+    const $ = stripChrome(cheerio.load(html));
+    $('.sidebar, .promo, .banner, .advertisement, .widget, .related-posts, .comments, aside').remove();
+    // Confirmed against real data: grabbing whole <article>/<main>/<body> text and taking
+    // the first 1500 chars was capturing nav/promotional banner content ("Skip to Main
+    // Content", "Upto 60% Off on Books") that happened to sit before the real content in
+    // the DOM — on itatonline.org specifically, every row's "desc" ended up being that
+    // same boilerplate instead of the actual judgment. Real article/judgment content is
+    // reliably wrapped in <p> tags; nav bars and promo banners almost never are, and any
+    // stray short <p> (menu labels, etc.) gets filtered out by the length check below.
+    const paragraphs = $('p').map((_, el) => $(el).text().trim()).get().filter(t => t.length > 40);
+    let text = paragraphs.length ? paragraphs.join(' ') : ($('article').text() || $('main').text() || $('body').text());
+    text = text.replace(/\s+/g, ' ').trim();
+
+    // Confirmed against real data: RBI's Master Direction pages (BS_ViewMasDirections.aspx)
+    // render almost nothing as extractable HTML text — just the reference number and title
+    // — because the actual regulatory content lives entirely in a linked PDF, not the page
+    // itself. When the HTML extraction comes back thin, look for that PDF link and follow
+    // it instead of settling for a near-empty description.
+    if (text.length < 200) {
+      const pdfHref = $('a[href$=".pdf" i], a[href*=".pdf?" i]').first().attr('href');
+      if (pdfHref) {
+        const pdfUrl = resolveLink(pdfHref, url);
+        try {
+          const pdfResp = await fetch(pdfUrl, { signal: AbortSignal.timeout(20000), headers: { 'User-Agent': UA } });
+          if (pdfResp.ok) {
+            const pdfText = await extractPdfText(await pdfResp.arrayBuffer());
+            if (pdfText && pdfText.length > text.length) return pdfText;
+          }
+        } catch (e) { /* fall through to whatever HTML text we already have */ }
+      }
+    }
+
+    return text.substring(0, 1500) || null;
   } catch (e) {
     return null; // silent — this is a best-effort enrichment, not a required step
+  }
+}
+
+async function extractPdfText(arrayBuffer) {
+  try {
+    const buffer = Buffer.from(arrayBuffer);
+    const parsed = await pdfParse(buffer);
+    return (parsed.text || '').replace(/\s+/g, ' ').trim().substring(0, 1500) || null;
+  } catch (e) {
+    return null;
   }
 }
 
@@ -1326,7 +1355,7 @@ async function enrichThinDescriptions(output) {
       if (tab.fetchDescFromDocument) optedInKeys.add(tab.key);
     }
   }
-  const MAX_PER_RUN = 100; // each one is a real network fetch (and PDF parse, which is slower)
+  const MAX_PER_RUN = 300; // each one is a real network fetch (and PDF parse, which is slower) — raised now that round-robin guarantees fairness, so a higher cap accelerates coverage without risking starvation
 
   function needsDesc(row) {
     if (!row.link) return false;
