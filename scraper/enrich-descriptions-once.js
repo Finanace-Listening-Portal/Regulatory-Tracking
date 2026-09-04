@@ -171,11 +171,21 @@ async function main() {
 
   function checkpoint(reason) {
     fs.writeFileSync(DATA_PATH, JSON.stringify(raw, null, 2));
-    run('git add data/regulatory_data.json');
-    run(`git commit -m "One-time description backlog clear — checkpoint (${reason}, ${new Date().toISOString()})"`);
-    run('git pull --rebase');
-    run('git push');
-    console.log(`  [checkpoint] Saved and pushed at ${fetched} total.\n`);
+    try {
+      run('git add data/regulatory_data.json');
+      run(`git commit -m "One-time description backlog clear — checkpoint (${reason}, ${new Date().toISOString()})"`);
+      run('git pull --rebase');
+      run('git push');
+      console.log(`  [checkpoint] Saved and pushed at ${fetched} total.\n`);
+    } catch (e) {
+      // A conflicting commit from elsewhere (e.g. the regular hourly scraper also writing
+      // to data.json) shouldn't kill this whole multi-hour run — log it and keep going.
+      // The in-memory `raw` object still has all progress made so far; the next successful
+      // checkpoint will include it. Abort any half-finished rebase so the next attempt
+      // starts clean rather than compounding the problem.
+      console.warn(`  [checkpoint] FAILED to sync (${e.message.split('\n')[0]}) — continuing, will retry at next checkpoint.`);
+      try { run('git rebase --abort'); } catch (e2) { /* nothing to abort, fine */ }
+    }
     sinceLastCheckpoint = 0;
   }
 
