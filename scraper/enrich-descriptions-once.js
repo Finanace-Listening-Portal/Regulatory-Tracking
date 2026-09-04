@@ -75,7 +75,7 @@ async function extractPdfText(arrayBuffer) {
   try {
     const buffer = Buffer.from(arrayBuffer);
     const parsed = await pdfParse(buffer);
-    return cleanExtractedText(parsed.text).substring(0, 1500) || null;
+    return cleanExtractedText(parsed.text).substring(0, 5000) || null;
   } catch (e) {
     return null;
   } finally {
@@ -122,7 +122,7 @@ async function fetchDocumentDesc(url) {
 
     let text = bestBlock ? $(bestBlock).text() : $('body').text();
     text = text.replace(/\s+/g, ' ').trim();
-    return cleanExtractedText(text).substring(0, 1500) || null;
+    return cleanExtractedText(text).substring(0, 5000) || null;
   } catch (e) {
     return null;
   }
