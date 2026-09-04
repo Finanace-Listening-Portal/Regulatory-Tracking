@@ -1345,10 +1345,11 @@ async function fetchDocumentDesc(url) {
     let text = bestBlock ? $(bestBlock).text() : $('body').text();
     text = text.replace(/\s+/g, ' ').trim();
 
-    // Capped at 1500 chars — was briefly raised to 5000 (documents can have 60,000+ real
-    // characters), but that made data.json too large to conveniently view/open. 1500 is
-    // still enough for a meaningful AI summary while keeping the overall file manageable.
-    return cleanExtractedText(text).substring(0, 1500) || null;
+    // Raised back to 5000 chars — the fuller-detail AI summary prompt needs enough source
+    // material to work from (documents can have 60,000+ real characters, and a short 1500-
+    // char excerpt often didn't reach the specific dates/numbers/procedures now expected in
+    // summaries). Accepted tradeoff: data.json will be larger than the 1500-char version.
+    return cleanExtractedText(text).substring(0, 5000) || null;
   } catch (e) {
     return null; // silent — this is a best-effort enrichment, not a required step
   }
@@ -1397,7 +1398,7 @@ async function extractPdfText(arrayBuffer) {
   try {
     const buffer = Buffer.from(arrayBuffer);
     const parsed = await pdfParse(buffer);
-    return cleanExtractedText(parsed.text).substring(0, 1500) || null;
+    return cleanExtractedText(parsed.text).substring(0, 5000) || null;
   } catch (e) {
     return null;
   } finally {
