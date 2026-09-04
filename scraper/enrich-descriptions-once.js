@@ -142,8 +142,17 @@ async function main() {
     }
   }
 
+  // Set FORCE_REFETCH_ALL=true to re-fetch every row regardless of current desc length —
+  // needed after raising the extraction cap, since a row that already has ~1500 chars would
+  // otherwise be considered "good enough" and never get upgraded to the fuller 5000-char
+  // version. Same pattern as FORCE_REGENERATE_ALL in ai-summary-updater.js.
+  const forceRefetchAll = process.env.FORCE_REFETCH_ALL === 'true';
+  if (forceRefetchAll) {
+    console.log('\n*** FORCE_REFETCH_ALL is set — re-fetching EVERY row, not just thin ones. ***\n');
+  }
   function needsDesc(row) {
     if (!row.link) return false;
+    if (forceRefetchAll) return true;
     const looksLikeThinExcerpt = /the post\s.{0,80}$/i.test(row.desc || '') || /\[…\]|\.\.\.$/i.test((row.desc || '').trim());
     const looksLikeNavBoilerplate = /skip to main content|only the latest.{0,40}updates|off on books|no results found/i.test(row.desc || '');
     return !row.desc || row.desc.length < 400 || looksLikeThinExcerpt || looksLikeNavBoilerplate;
