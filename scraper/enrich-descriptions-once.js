@@ -174,15 +174,17 @@ async function main() {
     try {
       run('git add data/regulatory_data.json');
       run(`git commit -m "One-time description backlog clear — checkpoint (${reason}, ${new Date().toISOString()})"`);
+      // Discard any uncommitted changes to files OTHER than the one we explicitly staged —
+      // confirmed root cause of every checkpoint failing all run long: npm install modifies
+      // package-lock.json, which was never staged/committed, and git pull --rebase refuses
+      // to run at all with ANY unstaged changes present, not just conflicting ones. Without
+      // this, that one incidental file change silently blocked saving progress for the
+      // entire run, even though the script kept reporting apparent success.
+      run('git checkout -- . || true');
       run('git pull --rebase');
       run('git push');
       console.log(`  [checkpoint] Saved and pushed at ${fetched} total.\n`);
     } catch (e) {
-      // A conflicting commit from elsewhere (e.g. the regular hourly scraper also writing
-      // to data.json) shouldn't kill this whole multi-hour run — log it and keep going.
-      // The in-memory `raw` object still has all progress made so far; the next successful
-      // checkpoint will include it. Abort any half-finished rebase so the next attempt
-      // starts clean rather than compounding the problem.
       console.warn(`  [checkpoint] FAILED to sync (${e.message.split('\n')[0]}) — continuing, will retry at next checkpoint.`);
       try { run('git rebase --abort'); } catch (e2) { /* nothing to abort, fine */ }
     }
