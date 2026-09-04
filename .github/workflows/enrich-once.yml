@@ -30,6 +30,12 @@ jobs:
         working-directory: scraper
         run: npm install
 
+      - name: Show git status after install (diagnostic)
+        run: |
+          echo "--- Files changed by npm install, if any ---"
+          git status --short
+          echo "--- (should be empty; if not, those files may block git pull --rebase during checkpoints) ---"
+
       - name: Configure git identity for checkpoint commits
         run: |
           git config user.name "regulatory-tracker-bot"
