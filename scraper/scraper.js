@@ -1345,14 +1345,32 @@ async function fetchDocumentDesc(url) {
     let text = bestBlock ? $(bestBlock).text() : $('body').text();
     text = text.replace(/\s+/g, ' ').trim();
 
-    // Raised from 1500 → 5000 chars: confirmed via direct testing against a real RBI Master
-    // Direction that documents can have 60,000+ characters of real content, and the
-    // AI-summarization step needs enough substance to work from — 1500 chars was cutting
-    // off well before even the first full chapter on longer documents.
-    return text.substring(0, 5000) || null;
+    // Capped at 1500 chars — was briefly raised to 5000 (documents can have 60,000+ real
+    // characters), but that made data.json too large to conveniently view/open. 1500 is
+    // still enough for a meaningful AI summary while keeping the overall file manageable.
+    return cleanExtractedText(text).substring(0, 1500) || null;
   } catch (e) {
     return null; // silent — this is a best-effort enrichment, not a required step
   }
+}
+
+/* Cleans extracted document text before it's stored as `desc`. Confirmed against real RBI
+   notification content: official PDFs are bilingual (Hindi letterhead + English), and every
+   one starts with a recurring boilerplate block (bilingual department address, a phishing-
+   caution notice) before the actual circular content begins. Strips the Hindi entirely, then
+   discards everything before the real reference number (e.g. "RBI/2026-27/242") — that
+   pattern reliably marks where the actual content starts, regardless of exact letterhead
+   wording or which department issued it. */
+function cleanExtractedText(raw) {
+  let text = (raw || '').replace(/[\u0900-\u097F]+/g, ' ').replace(/\s+/g, ' ').trim();
+  const refMatch = text.match(/\b[A-Z]{2,10}\/\d{4}-\d{2}\/\d+/);
+  if (refMatch && refMatch.index < text.length / 2) {
+    // Only trim if the reference number appears in the first half — guards against
+    // accidentally cutting a document that never had a letterhead to begin with, where a
+    // similar-looking pattern might coincidentally appear deep in the real content.
+    text = text.substring(refMatch.index);
+  }
+  return text;
 }
 
 async function extractPdfText(arrayBuffer) {
@@ -1379,7 +1397,7 @@ async function extractPdfText(arrayBuffer) {
   try {
     const buffer = Buffer.from(arrayBuffer);
     const parsed = await pdfParse(buffer);
-    return (parsed.text || '').replace(/\s+/g, ' ').trim().substring(0, 5000) || null;
+    return cleanExtractedText(parsed.text).substring(0, 1500) || null;
   } catch (e) {
     return null;
   } finally {
