@@ -1412,7 +1412,7 @@ async function enrichThinDescriptions(output) {
       if (tab.fetchDescFromDocument) optedInKeys.add(tab.key);
     }
   }
-  const MAX_PER_RUN = 300; // each one is a real network fetch (and PDF parse, which is slower) — raised now that round-robin guarantees fairness, so a higher cap accelerates coverage without risking starvation
+  const MAX_PER_RUN = 600; // each one is a real network fetch (and PDF parse, which is slower) — raised again: confirmed a legitimate, still-current Master Direction (old date, but reference documents don't go stale with age) was ranked 298th of 300 under newest-first sorting, which would've taken ~30 runs to reach at the previous cap. Kept below 800 to avoid risking the workflow's 40-minute timeout — each fetch has real network latency on top of the 200ms politeness delay, so this adds meaningful time to every scrape run.
 
   function needsDesc(row) {
     if (!row.link) return false;
@@ -1513,6 +1513,35 @@ async function enrichDatelessRows(output) {
   }
 }
 
+/* Carries over "summary"/"summarySource" fields from the previous run's data, matched by
+   link (falling back to title+date). Without this, every successful scrape produces brand
+   new row objects with no memory of summaries the separate VM script (ai-summary-updater.js)
+   added — since scraping and summarizing are two completely independent processes that only
+   share data through this JSON file, a fresh scrape would otherwise silently wipe out all
+   summarization work on every single run. */
+function carryOverSummaries(output, previous) {
+  let carried = 0;
+  for (const [tabKey, entry] of Object.entries(output)) {
+    if (!entry.ok || !entry.rows.length) continue;
+    const prevEntry = previous[tabKey];
+    if (!prevEntry || !Array.isArray(prevEntry.rows)) continue;
+
+    const prevByKey = new Map();
+    for (const r of prevEntry.rows) {
+      if (r.summary) prevByKey.set(r.link || `${r.title}|${r.date}`, { summary: r.summary, summarySource: r.summarySource });
+    }
+    for (const row of entry.rows) {
+      const match = prevByKey.get(row.link || `${row.title}|${row.date}`);
+      if (match && !row.summary) {
+        row.summary = match.summary;
+        row.summarySource = match.summarySource;
+        carried++;
+      }
+    }
+  }
+  if (carried > 0) console.log(`\n[summaries] Carried over ${carried} existing summaries from previous run.`);
+}
+
 async function main() {
   // Load previous output so a source that fails this run doesn't wipe out
   // the last good data — we keep serving stale-but-real data over nothing.
@@ -1550,6 +1579,9 @@ async function main() {
       await new Promise(r => setTimeout(r, 1200));
     }
   }
+
+  console.log('\nCarrying over existing AI summaries...');
+  carryOverSummaries(output, previous);
 
   console.log('\nEnriching thin descriptions with real document content...');
   await enrichThinDescriptions(output);
