@@ -1,0 +1,40 @@
+name: One-Time Description Backlog Clear
+
+on:
+  workflow_dispatch: {}
+  # Manual trigger only — this is NOT scheduled. Run it once from the Actions tab when
+  # you want to clear the current backlog; the regular hourly scraper handles new entries
+  # from then on with its own modest per-run cap.
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300   # 5 hours — generous, since this processes the FULL backlog with
+                            # no per-run cap. Checkpoints every 100 rows regardless, so even
+                            # if this timeout is hit, progress up to the last checkpoint is
+                            # already safely committed and pushed, not lost.
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        working-directory: scraper
+        run: npm install
+
+      - name: Configure git identity for checkpoint commits
+        run: |
+          git config user.name "regulatory-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+      - name: Run one-time backlog clear
+        working-directory: scraper
+        run: node enrich-descriptions-once.js
