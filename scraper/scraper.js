@@ -1303,6 +1303,22 @@ async function fetchDocumentDesc(url) {
     const $ = stripChrome(cheerio.load(html));
     $('.sidebar, .promo, .banner, .advertisement, .widget, .related-posts, .comments, aside').remove();
 
+    // Prioritize an actual file attachment over whatever text is on the page itself,
+    // whenever one exists — a page can have a decent-looking intro blurb that isn't the
+    // real, complete document, so "the page's text wasn't THAT thin" isn't good enough
+    // justification to skip the real attachment when one is right there.
+    const pdfHref = $('a[href$=".pdf" i], a[href*=".pdf?" i]').first().attr('href');
+    if (pdfHref) {
+      const pdfUrl = resolveLink(pdfHref, url);
+      try {
+        const pdfResp = await fetch(pdfUrl, { signal: AbortSignal.timeout(20000), headers: { 'User-Agent': UA } });
+        if (pdfResp.ok) {
+          const pdfText = await extractPdfText(await pdfResp.arrayBuffer());
+          if (pdfText && pdfText.length >= 200) return pdfText; // real attachment content wins
+        }
+      } catch (e) { /* attachment fetch failed — fall through to the page's own text below */ }
+    }
+
     // Confirmed against real data: RBI's Master Direction page DOES have the entire real
     // regulatory text embedded directly in the HTML — but a massive navigation menu
     // (hundreds of links: About Us, Notification, Publications, ...) sits before it, so
@@ -1311,6 +1327,7 @@ async function fetchDocumentDesc(url) {
     // menus almost entirely are — scoring candidate blocks by LOW link density (rather
     // than raw length, which just picks the biggest wrapper) reliably finds the genuine
     // content block regardless of where it sits on the page or whether it uses <p> tags.
+    // Only reached here when there's no PDF attachment at all, or fetching it failed.
     let bestBlock = null, bestScore = 0;
     $('div, td, section, article, main').each((_, el) => {
       const elText = $(el).text().trim();
@@ -1327,23 +1344,6 @@ async function fetchDocumentDesc(url) {
 
     let text = bestBlock ? $(bestBlock).text() : $('body').text();
     text = text.replace(/\s+/g, ' ').trim();
-
-    // If even the best-scoring block came back thin, the real content likely lives only in
-    // a linked PDF (confirmed happening on some sites) rather than the page itself — follow
-    // that link as a last resort rather than settling for a near-empty description.
-    if (text.length < 200) {
-      const pdfHref = $('a[href$=".pdf" i], a[href*=".pdf?" i]').first().attr('href');
-      if (pdfHref) {
-        const pdfUrl = resolveLink(pdfHref, url);
-        try {
-          const pdfResp = await fetch(pdfUrl, { signal: AbortSignal.timeout(20000), headers: { 'User-Agent': UA } });
-          if (pdfResp.ok) {
-            const pdfText = await extractPdfText(await pdfResp.arrayBuffer());
-            if (pdfText && pdfText.length > text.length) return pdfText;
-          }
-        } catch (e) { /* fall through to whatever HTML text we already have */ }
-      }
-    }
 
     // Raised from 1500 → 5000 chars: confirmed via direct testing against a real RBI Master
     // Direction that documents can have 60,000+ characters of real content, and the
