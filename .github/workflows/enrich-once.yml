@@ -1,7 +1,13 @@
 name: One-Time Description Backlog Clear
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      force_refetch_all:
+        description: 'Re-fetch EVERY row, even ones that already have content (needed after raising the desc cap)'
+        required: false
+        type: boolean
+        default: false
   # Manual trigger only — this is NOT scheduled. Run it once from the Actions tab when
   # you want to clear the current backlog; the regular hourly scraper handles new entries
   # from then on with its own modest per-run cap.
@@ -43,4 +49,6 @@ jobs:
 
       - name: Run one-time backlog clear
         working-directory: scraper
+        env:
+          FORCE_REFETCH_ALL: ${{ github.event.inputs.force_refetch_all }}
         run: node enrich-descriptions-once.js
