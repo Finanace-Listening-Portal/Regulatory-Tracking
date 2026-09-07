@@ -1,40 +1,45 @@
 /**
  * enrich-descriptions-once.js
  * ----------------------------------------------------------------------------
- * ONE-TIME backlog-clearing run for the "desc" field across every tab — NOT part of the
+ * ONE-TIME backlog-clearing run for document content across every tab — NOT part of the
  * regular hourly scraper. The regular scraper (scraper.js) keeps a modest per-run cap on
  * this same enrichment step specifically so a normal scheduled run can't blow past its
  * workflow timeout; this script has no cap at all, and instead checkpoints progress
  * periodically (commit + push every CHECKPOINT_EVERY rows) so an interruption partway
  * through doesn't lose everything back to the start.
  *
+ * Extracts the COMPLETE document text (no truncation) — a short 2000-char preview goes
+ * into data.json's "desc" field (keeps that file manageable to view/open), and the full
+ * text is saved to its own file under data/full-content/, one file per document, keyed by
+ * a hash of the row's link. The VM's AI summarizer reads that full-content file (via git
+ * pull — no internet access needed on that machine) instead of the short preview.
+ *
  * INTENDED USE: run this ONCE (or occasionally, if you want to force another full pass)
  * via its own GitHub Actions workflow with a long timeout — NOT on a schedule, and NOT on
  * the VM (which has no general internet access, only a whitelisted path to Azure OpenAI).
- * After this clears the backlog, the regular scraper.js naturally only has new rows left
- * to enrich each hour, since already-enriched rows are skipped.
+ * Set FORCE_REFETCH_ALL=true (workflow input) to re-process every row, not just thin ones
+ * — needed the first time this runs after the full-content feature was added, since
+ * existing rows already have "good enough" desc by the old definition and would otherwise
+ * be skipped, never getting a full-content file generated.
  *
  * Uses the exact same extraction logic as scraper.js (fetchDocumentDesc, cleanExtractedText,
- * extractPdfText, stripChrome) — kept in sync so results are identical regardless of which
- * script actually did the fetching.
+ * extractPdfText, stripChrome, linkToFilename, saveFullContent) — kept in sync so results
+ * are identical regardless of which script actually did the fetching.
  * ----------------------------------------------------------------------------
  */
 
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 const { execSync } = require('child_process');
 const cheerio = require('cheerio');
 const pdfParse = require('pdf-parse');
 const REGULATORS = require('./sources');
 
 const DATA_PATH = path.join(__dirname, '..', 'data', 'regulatory_data.json');
+const FULL_CONTENT_DIR = path.join(__dirname, '..', 'data', 'full-content');
 const CHECKPOINT_EVERY = 100;
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
-
-const NAV_WORDS = new Set([
-  'home', 'login', 'logout', 'sitemap', 'contact', 'contact us', 'about', 'about us',
-  'search', 'back', 'top', 'next', 'prev', 'previous', 'skip', 'menu', 'download',
-]);
 
 function stripChrome($) {
   $('nav, header, footer, .nav, .navbar, .menu, .breadcrumb, .breadcrumbs, #menu, #nav, #header, #footer, .sidebar, .footer, .header').remove();
@@ -49,6 +54,21 @@ function resolveLink(href, base) {
 function run(cmd) {
   console.log('> ' + cmd);
   execSync(cmd, { cwd: path.join(__dirname, '..'), stdio: 'inherit' });
+}
+
+// Same hashing scheme as scraper.js — must match exactly, filenames need to be findable
+// by the VM summarizer regardless of which script created them.
+function linkToFilename(link) {
+  return crypto.createHash('sha256').update(link).digest('hex').substring(0, 20) + '.txt';
+}
+
+function saveFullContent(link, text) {
+  try {
+    fs.mkdirSync(FULL_CONTENT_DIR, { recursive: true });
+    fs.writeFileSync(path.join(FULL_CONTENT_DIR, linkToFilename(link)), text, 'utf8');
+  } catch (e) {
+    console.warn(`  [full-content] failed to save for ${link}: ${e.message}`);
+  }
 }
 
 /* ── Identical to scraper.js — kept in sync ── */
@@ -75,7 +95,7 @@ async function extractPdfText(arrayBuffer) {
   try {
     const buffer = Buffer.from(arrayBuffer);
     const parsed = await pdfParse(buffer);
-    return cleanExtractedText(parsed.text).substring(0, 5000) || null;
+    return cleanExtractedText(parsed.text) || null; // no cap — complete text
   } catch (e) {
     return null;
   } finally {
@@ -122,7 +142,7 @@ async function fetchDocumentDesc(url) {
 
     let text = bestBlock ? $(bestBlock).text() : $('body').text();
     text = text.replace(/\s+/g, ' ').trim();
-    return cleanExtractedText(text).substring(0, 5000) || null;
+    return cleanExtractedText(text) || null; // no cap — complete text
   } catch (e) {
     return null;
   }
@@ -143,9 +163,9 @@ async function main() {
   }
 
   // Set FORCE_REFETCH_ALL=true to re-fetch every row regardless of current desc length —
-  // needed after raising the extraction cap, since a row that already has ~1500 chars would
-  // otherwise be considered "good enough" and never get upgraded to the fuller 5000-char
-  // version. Same pattern as FORCE_REGENERATE_ALL in ai-summary-updater.js.
+  // needed the first time this runs after the full-content feature was added, since
+  // existing rows already have desc content that clears the old "good enough" bar and
+  // would otherwise be skipped forever, never getting a full-content file generated.
   const forceRefetchAll = process.env.FORCE_REFETCH_ALL === 'true';
   if (forceRefetchAll) {
     console.log('\n*** FORCE_REFETCH_ALL is set — re-fetching EVERY row, not just thin ones. ***\n');
@@ -182,13 +202,12 @@ async function main() {
     fs.writeFileSync(DATA_PATH, JSON.stringify(raw, null, 2));
     try {
       run('git add data/regulatory_data.json');
+      run('git add data/full-content');
       run(`git commit -m "One-time description backlog clear — checkpoint (${reason}, ${new Date().toISOString()})"`);
-      // Discard any uncommitted changes to files OTHER than the one we explicitly staged —
+      // Discard any uncommitted changes to files OTHER than what we explicitly staged —
       // confirmed root cause of every checkpoint failing all run long: npm install modifies
       // package-lock.json, which was never staged/committed, and git pull --rebase refuses
-      // to run at all with ANY unstaged changes present, not just conflicting ones. Without
-      // this, that one incidental file change silently blocked saving progress for the
-      // entire run, even though the script kept reporting apparent success.
+      // to run at all with ANY unstaged changes present, not just conflicting ones.
       run('git checkout -- . || true');
       run('git pull --rebase');
       run('git push');
@@ -211,11 +230,14 @@ async function main() {
       anyRemaining = true;
 
       const row = t.entry.rows[t.order[pos]];
-      const desc = await fetchDocumentDesc(row.link);
-      if (desc) row.desc = desc;
+      const fullText = await fetchDocumentDesc(row.link);
+      if (fullText) {
+        row.desc = fullText.substring(0, 2000); // short preview only
+        saveFullContent(row.link, fullText); // complete text, for AI summarization
+      }
       fetched++;
       sinceLastCheckpoint++;
-      console.log(`  [${fetched}/${candidates}] ${desc ? 'OK' : 'no content found'}: ${row.title.substring(0, 60)}...`);
+      console.log(`  [${fetched}/${candidates}] ${fullText ? `OK (${fullText.length} chars)` : 'no content found'}: ${row.title.substring(0, 60)}...`);
       tabCursors.set(t, pos + 1);
       await new Promise(r => setTimeout(r, 200));
 
