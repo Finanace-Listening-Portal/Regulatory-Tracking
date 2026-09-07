@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T20:39:15.652Z",
+  "generatedAt": "2026-09-07T23:27:24.542Z",
   "data": {
     "TAXATION_0": {
       "rows": [
@@ -124,7 +124,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812099232,
+      "ts": 1788822439112,
       "ok": true,
       "newCount": 0
     },
@@ -251,7 +251,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812109639,
+      "ts": 1788822449593,
       "ok": true,
       "newCount": 0
     },
@@ -390,7 +390,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812118009,
+      "ts": 1788822457580,
       "ok": true,
       "newCount": 0
     },
@@ -517,7 +517,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812126442,
+      "ts": 1788822465934,
       "ok": true,
       "newCount": 0
     },
@@ -548,7 +548,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812134366,
+      "ts": 1788822473574,
       "ok": true,
       "newCount": 0
     },
@@ -913,7 +913,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812136796,
+      "ts": 1788822476019,
       "ok": true,
       "newCount": 0
     },
@@ -927,7 +927,7 @@
           "title": "SEBI | FPIs Investing Only in Government Securities Not Required to Furnish Investor Group Details: SEBI",
           "desc": "Advertisement (adsbygoogle = window.adsbygoogle || []).push({}); The Securities and Exchange Board of India (SEBI), through Circular No. HO/(485)2026-AFD-POD2/I/20296/2026 dated September 07, 2026, has further eased regulatory compliances for Foreign Portfolio Investors (FPIs) investing only in Government Securities. The circular modifies the “Master Circular for Foreign Portfolio Investors, Designated Depository Participants and Eligible Foreign Investors” dated May 30, 2024. SEBI had earlier, through its September 10, 2025 circular, provided that FPIs investing exclusively in Government Securities under the Fully Accessible Route would not be required to furnish investor group details. SEBI now states that the Reserve Bank of India, through its circular dated June 05, 2026, has withdrawn the requirement for FPIs investing in Government Securities through the General Route to comply with the prescribed concentration limit. Consequently, SEBI considers identification of the investor group by an FPI investing only in Government Securities to be no longer relevant. Accordingly, the relevant sub-paragraph under Para 1 of Part A of the Master Circular is modified to provide that FPIs investing only in Government Securities shall not be required to furnish investor group details. Depositories, Custodians and Designated Depository Participants are directed to make the necessary system changes. The circular takes effect immediately. SEBI states that it has been issued under Section 11(1) of the Securities and Exchange Board of India Act, 1992 read with Regulations 22(1), 22(3), 22(5) and 44 of the SEBI (Foreign Portfolio Investors) Regulations, 2019. ****** Securities and Exchange Board of India Circular No. HO/(485)2026-AFD-POD2/I/20296/2026 | Dated: September 07, 2026 To, 1. Foreign Portfolio Investors (FPIs) 2. Designated Depository Participants (DDPs) and Custodians 3. The Depositories Dear Sir / Madam, Subject: Ease of regulatory compliances for FPIs investing only in",
           "link": "https://taxguru.in/sebi/fpis-investing-government-securities-not-required-furnish-investor-group-details-sebi.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -937,7 +937,7 @@
           "title": "Goods and Services Tax | GSTN Enables Appeals Against NIL or Zero Demand Orders",
           "desc": "Advertisement (adsbygoogle = window.adsbygoogle || []).push({}); Summary: GSTN has enabled taxpayers to file appeals against demand orders where the demand amount is reflected as “NIL” or “Zero” but a dispute regarding liability continues to exist. The change addresses cases where taxpayers had already made payment before issuance of the demand order, resulting in the order reflecting no outstanding demand. Earlier, a validation on the GST Portal restricted taxpayers from filing an appeal against such NIL or Zero demand orders. That validation has now been removed. Consequently, taxpayers facing such cases can file an appeal in Form GST APL-01 against the relevant demand order even though the demand amount displayed in the order is NIL or Zero. The change is significant where the taxpayer disputes the underlying liability or findings recorded in the order notwithstanding that the monetary demand has already been discharged before the order was issued. The GSTN advisory specifically states that taxpayers affected by the earlier portal restriction may now proceed with filing their appeals in Form GST APL-01. Taxpayers experiencing any query or technical difficulty while filing such an appeal may raise a ticket with the GST Helpdesk for assistance. The update was issued by Team GSTN on September 7, 2026 and relates specifically to removal of the GST Portal validation that previously prevented appeal filing where the demand order reflected a NIL or Zero demand amount. Form GST APL-01 is the prescribed form for filing an appeal before the First Appellate Authority against an appealable decision or order passed under the GST law. Under Section 107 of the CGST Act, 2017, a taxpayer must ordinarily file the appeal within three months from the date the disputed order is communicated, subject to a further condonable period of one month. The appellant must generally deposit the admitted amount of tax, interest, fine, fee and penalty in full, along with the prescribed pre-depos",
           "link": "https://taxguru.in/goods-and-service-tax/gstn-enables-appeals-against-nil-demand-orders.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 3,
@@ -947,7 +947,7 @@
           "title": "DGFT | DGFT Launches Open API Integration for Certificate of Origin",
           "desc": "Advertisement (adsbygoogle = window.adsbygoogle || []).push({}); Summary: The Directorate General of Foreign Trade (DGFT), through Trade Notice No. 25/2026-27 dated September 07, 2026, has introduced an Open API facility for issuance of Certificates of Origin (CoOs) on the Trade Connect e-Platform. The facility is being made available to eligible exporters and systems in accordance with the prescribed process and technical requirements. It enables exporters to integrate their Enterprise Resource Planning (ERP), accounting or other software systems with DGFT’s Certificate of Origin system for electronic submission and exchange of CoO-related information, reducing manual data entry and facilitating a more efficient application process. The framework supports both Preferential and Non-Preferential Certificates of Origin. Exporters are required to obtain API credentials through the API Management section of the CoO Portal, whitelist relevant public IP addresses and configure a document signer for digitally signing payloads. The framework provides an Authentication Token API, CoO File API and Certificate Verification API. Access tokens remain valid for 60 minutes. Password protection uses PBKDF2 with a dynamic salt, while requests and responses are digitally signed using SHA-256 RSA digital signatures and 2048-bit X.509 certificates. A transaction ledger records application status and details including acknowledgement ID, file number, file date and certificate number. The annexed Help Manual also specifies applicant, certificate, importer, producer, invoice, product, shipment, supporting-document and declaration information required for API transactions and lists the trade agreements and certification schemes supported by the framework. Government of India Ministry of Commerce and Industry Department of Commerce Directorate General of Foreign Trade Trade Notice No. 25/2026-27-DGFT |Dated: September 07, 2026 To, All Exporters / Members of Trade & Industry All Designated C",
           "link": "https://taxguru.in/dgft/dgft-launches-open-api-integration-certificate-origin.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 4,
@@ -957,7 +957,7 @@
           "title": "Finance | From First Enquiry to Final Invoice: Digitising the Modern Professional Practice",
           "desc": "Tax and legal practices all run on the same rhythm — enquiry, intake, deadlines, time, invoice — held together by a patchwork of tools. Here is why a growing number of firms are consolidating that entire lifecycle into a single system, and what they gain by doing so. Every professional practice — whether it advises on tax, law, or compliance — runs on the same underlying rhythm. A client makes contact. Details are gathered and verified. Work is carried out against deadlines that cannot be missed. Time and costs accumulate. And eventually an invoice goes out, ideally reflecting everything that was actually done. For decades that rhythm has been held together by a patchwork of tools: a folder structure on a shared drive, a register or two, a spreadsheet for time, an accounting package for billing, and a great deal of institutional memory living in individual inboxes. That arrangement works, in the sense that the work gets done. But it quietly taxes a firm in ways that rarely appear on any statement. Information is re-entered at every handover. A deadline recorded in one person’s calendar is invisible to everyone else. A file handed over informally is a file no one can find when it matters. And the effort of holding it all together grows faster than the practice itself. As firms take on more clients and more colleagues, the cracks in a fragmented system begin to show. The response, increasingly, is consolidation: moving the whole lifecycle — from the first enquiry to the final invoice — into a single system where every piece of information sits in one place and every module works from the same data. It is a shift many practices are now making, and the logic behind it is worth understanding whether or not a firm is ready to act on it today. Table of Contents▸ Why one system beats five Client data, captured once and verified Deadlines and documents in one place Time that turns into revenue Security is part of the service Starting the shift Advertisement (adsbygoogle = wi",
           "link": "https://taxguru.in/finance/enquiry-final-invoice-digitising-modern-professional-practice.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 5,
@@ -1421,7 +1421,7 @@
           "title": "Fema / RBI | RBI Notification: UNSC 1988 (2011) Taliban Sanctions List — Amendment of 01 Entry",
           "desc": "RBI notifies regulated entities of the amendment to one entry in the UNSC 1988 (2011) Taliban Sanctions List under Section 51A of UAPA, 1967, and directs strict compliance with applicable sanctions pr",
           "link": "https://taxguru.in/rbi/rbi-notification-unsc-1988-2011-taliban-sanctions-list-amendment-01-entry.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 49,
@@ -2048,9 +2048,9 @@
           "isNew": false
         }
       ],
-      "ts": 1788812139127,
+      "ts": 1788822478386,
       "ok": true,
-      "newCount": 5
+      "newCount": 0
     },
     "NEWSLETTER_0": {
       "rows": [
@@ -2092,7 +2092,7 @@
     },
     "NEWSLETTER_1": {
       "rows": [],
-      "ts": 1788812166679,
+      "ts": 1788822506598,
       "ok": true
     },
     "NEWSLETTER_2": {
@@ -2182,7 +2182,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812168575,
+      "ts": 1788822508008,
       "ok": true,
       "newCount": 0
     },
@@ -2196,7 +2196,7 @@
           "title": "Govt keeps PSB employees' FY26 PLI scheme in abeyance after union plea",
           "desc": "@media (max-width:767px) { .header-active .headerabt .logo-div .bpdAll { max-width: 60px !important; } .header-active .headerabt .logo-div .bpdialogue { max-width: 55px !important; } .header-active .headerabt .logo-div .bpdround { max-width: 60px !important; } .header-active .headerabt .logo-div .bpdlogolens { max-width: 40px !important; } } @media (min-width:768px) and (max-width:1024px) { .header-active .headerabt .logo-div .bpdAll { max-width: 100px !important; } .header-active .headerabt .logo-div .bpdialogue { max-width: 90px !important; } .header-active .headerabt .logo-div .bpdround { max-width: 110px !important; } .header-active .headerabt .logo-div .bpdlogolens { max-width: 68px !important; } } Home / India News / Govt keeps PSB employees' FY26 PLI scheme in abeyance after union pleaGovt keeps PSB employees' FY26 PLI scheme in abeyance after union pleaFinance Minister Nirmala Sitharaman met a delegation of bank employees representing different PSBs, which raised several issues concerning the banking sector and employeesUnion Finance Minister Nirmala Sitharaman. Photo: Finance MinistryPress Trust of India New Delhi 2 min read Last Updated : Sep 07 2026 | 11:23 PM IST @media (min-width:1100px) and (max-width:1280px) { .storymeta .meta-info { flex: 0 0 45%; } } Listen to This ArticleThe government has decided to keep in abeyance the implementation of the performance-linked incentive (PLI) scheme for employees of public sector banks (PSBs) for 2025-26 following a representation by bank employees seeking a review of its existing structure.Finance Minister Nirmala Sitharaman met a delegation of bank employees representing different PSBs, led by the Bharatiya Mazdoor Sangh, which raised several issues concerning the banking sector and employees, the finance ministry said in a statement on Monday.The delegation sought, among other things, a review of ex-gratia, medical facilities for retired employees and changes in the existing PLI structure applicable to PSB empl",
           "link": "https://www.business-standard.com/india-news/govt-keeps-psb-employees-fy26-pli-scheme-in-abeyance-after-union-plea-126090701421_1.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -2206,7 +2206,7 @@
           "title": "Banks show little appetite for Reserve Bank of India's 30-day VRRR bid",
           "desc": "@media (max-width:767px) { .header-active .headerabt .logo-div .bpdAll { max-width: 60px !important; } .header-active .headerabt .logo-div .bpdialogue { max-width: 55px !important; } .header-active .headerabt .logo-div .bpdround { max-width: 60px !important; } .header-active .headerabt .logo-div .bpdlogolens { max-width: 40px !important; } } @media (min-width:768px) and (max-width:1024px) { .header-active .headerabt .logo-div .bpdAll { max-width: 100px !important; } .header-active .headerabt .logo-div .bpdialogue { max-width: 90px !important; } .header-active .headerabt .logo-div .bpdround { max-width: 110px !important; } .header-active .headerabt .logo-div .bpdlogolens { max-width: 68px !important; } } Home / Finance / News / Banks show little appetite for Reserve Bank of India's 30-day VRRR bidBanks show little appetite for Reserve Bank of India's 30-day VRRR bidBids worth ₹2.59 trn received against ₹7 trn notifiedRBI, Reserve Bank of India(Photo: Reuters)Anjali Kumari Mumbai 3 min read Last Updated : Sep 07 2026 | 10:54 PM IST @media (min-width:1100px) and (max-width:1280px) { .storymeta .meta-info { flex: 0 0 45%; } } Listen to This ArticleThe Reserve Bank of India (RBI) received tepid demand at its 30-day variable rate reverse repo (VRRR) auction for a notified amount of ₹7 trillion on Monday, as banks were reluctant to park funds for the long term, dealers said. The RBI received bids worth ₹2.59 trillion against the notified amount at the 30-day auction. Market participants had expected bids of up to ₹5 trillion, making the actual response well short of expectations. The 30-day VRRR auction offered an option for premature reversal, a first for a VRRR auction. The central bank announced a ₹5 trillion overnight VRRR auction after the first auction. Bids at the overnight VRRR auction were stronger, at ₹3.53 trillion against the notified amount. Net liquidity surplus in the banking system stood at a record ₹11.16 trillion on Sunday, latest RBI data showed. Net liq",
           "link": "https://www.business-standard.com/finance/news/rbi-s-7-trn-30-day-liquidity-mop-up-auction-receives-tepid-demand-126090701449_1.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 3,
@@ -2216,7 +2216,7 @@
           "title": "Bank of Baroda raises FY27 growth forecast, flags monsoon and oil risks",
           "desc": "@media (max-width:767px) { .header-active .headerabt .logo-div .bpdAll { max-width: 60px !important; } .header-active .headerabt .logo-div .bpdialogue { max-width: 55px !important; } .header-active .headerabt .logo-div .bpdround { max-width: 60px !important; } .header-active .headerabt .logo-div .bpdlogolens { max-width: 40px !important; } } @media (min-width:768px) and (max-width:1024px) { .header-active .headerabt .logo-div .bpdAll { max-width: 100px !important; } .header-active .headerabt .logo-div .bpdialogue { max-width: 90px !important; } .header-active .headerabt .logo-div .bpdround { max-width: 110px !important; } .header-active .headerabt .logo-div .bpdlogolens { max-width: 68px !important; } } Home / Economy / News / Bank of Baroda raises FY27 growth forecast, flags monsoon and oil risksBank of Baroda raises FY27 growth forecast, flags monsoon and oil risksBank of Baroda raised its FY27 growth forecast to 7-7.2 per cent after robust Q1 growth, but flagged upside risks to inflation and the fiscal deficit from monsoon and oil premium Himanshi Bhardwaj2 min read Last Updated : Sep 08 2026 | 12:30 AM IST @media (min-width:1100px) and (max-width:1280px) { .storymeta .meta-info { flex: 0 0 45%; } } Listen to This ArticleBank of Baroda on Monday raised its growth forecast for financial year 2026-27 (FY27) to 7-7.2 per cent from 6.6-6.8 per cent estimated in July on the back of robust first-quarter growth, even as a sub-normal monsoon and a fresh spike in oil prices tilt the risks to inflation and the fiscal deficit to the upside. Q1FY27 GDP grew 7.8 per cent, up from 6.9 per cent a year earlier, with gross value added (GVA) rising 8.2 per cent. Private consumption expanded 9.9 per cent and investment 20 per cent. “This basically signals that we have strong domestic fundamentals which are driving growth despite the volatile global situation,” said Bank of Baroda economist Sonal Badhan. The headline good-news story was the RBI's FCNR(B) window, which drew far more ",
           "link": "https://www.business-standard.com/economy/news/bank-of-baroda-raises-fy27-growth-forecast-flags-monsoon-and-oil-risks-126090701445_1.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 4,
@@ -2299,14 +2299,24 @@
           "isNew": false
         }
       ],
-      "ts": 1788812169923,
+      "ts": 1788822509444,
       "ok": true,
-      "newCount": 3
+      "newCount": 0
     },
     "NEWSLETTER_4": {
       "rows": [
         {
           "sr": 1,
+          "date": "06 Sept 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Evercore expects softer third-quarter investment banking and trading guidance",
+          "desc": "",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/evercore-expects-softer-third-quarter-142327599.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
           "date": "06 Sept 2026",
           "year": 2026,
           "cat": "News",
@@ -2316,16 +2326,6 @@
           "summary": "This is a general market summary rather than a regulatory rule or compliance directive. Based on the title alone, the document reports that mortgage and refinance interest rates on Sunday, September 6, 2026 were significantly higher compared with the prior week. No specific rate figures, spreads, thresholds, deadlines, affected institutions, or required actions are provided in the title, and there is no indication of a new legal, regulatory, or operational obligation for a corporate compliance team. In practical terms, the only substantive takeaway is that borrowing costs for mortgage and refinance products appear to have increased week-over-week as of that date, but the document content provided does not supply enough detail to identify any compliance impact beyond general market awareness.",
           "summarySource": "title",
           "isNew": false
-        },
-        {
-          "sr": 2,
-          "date": "06 Sept 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "A bankruptcy attorney explains exactly when creditors can — and can't — garnish your 401(k) to collect debts",
-          "desc": "",
-          "link": "https://finance.yahoo.com/markets/articles/bankruptcy-attorney-explains-exactly-creditors-121500208.html",
-          "isNew": true
         },
         {
           "sr": 3,
@@ -2360,7 +2360,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812171194,
+      "ts": 1788822510700,
       "ok": true,
       "newCount": 1
     },
@@ -2499,7 +2499,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812180892,
+      "ts": 1788822519444,
       "ok": true,
       "newCount": 0
     },
@@ -2513,7 +2513,7 @@
           "title": "Exclusive: Utkarsh Small Finance Bank ropes in Manmohan Shetty as CFO",
           "desc": "Articles 1 min read Exclusive: Utkarsh Small Finance Bank ropes in Manmohan Shetty as CFO Manmohan Shetty, who most recently served as CFO of IREP Credit Capital (now Viksit Capital) and previously spent nearly nine years with Barclays, is set to join Utkarsh Small Finance Bank as its Chief Financial Officer, two people aware of the discussion told ETBFSI. The bank’s board meeting is scheduled for September 19, with approval for Shetty’s appointment expected to be taken up at the meeting. Shrishti Sharma ETBFSI Published On Sep 8, 2026 at 01:36 AM IST var news_msid = 133895833; console.log(news_msid); Select ETBFSI as Preferred Choice on Google Copy Link Share on WhatsApp Share on Linkedin Share on X Share on Telegram Share on Facebook Utkarsh Small Finance Bank is set to appoint Manmohan Shetty as its Chief Financial Officer, subject to approval by the bank’s board, which is scheduled to meet on September 19, according to a person familiar with the development and an Utkarsh SFB spokesperson.“The board meeting is scheduled for September 19th and one of the agenda is the approvals on the CFO appointment,” the Utkarsh SFB spokesperson told ETBFSI.Shetty will succeed Sarju Kumar Pravin Simaria, who has been serving as the bank’s CFO since September 2022 and was elevated as Whole time Director in June 2026. Simaria relinquished his CFO responsibilities effective June 20, 2026, ahead of taking charge as Whole-time Director. Advt Shetty was most recently the CFO of IREP Credit Capital (now Viksit Capital), where he worked from February 2016 until March 2026. He is a chartered accountant with over two decades of experience in banking and financial services, with expertise spanning financial control, financial reporting, regulatory reporting, FP&A, treasury management and governance.Before joining IREP Credit Capital, Shetty spent nearly nine years with Barclays, where he served as Vice President – Finance and CFO of Barclays Investments & Loans India.The appointment follo",
           "link": "https://bfsi.economictimes.indiatimes.com/articles/exclusive-utkarsh-small-finance-bank-ropes-in-manmohan-shetty-as-cfo/133895833?utm_source=top_story&utm_medium=homepage",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -2672,9 +2672,9 @@
           "isNew": false
         }
       ],
-      "ts": 1788812187119,
+      "ts": 1788822525782,
       "ok": true,
-      "newCount": 1
+      "newCount": 0
     },
     "SEBI_0": {
       "rows": [
@@ -4149,18 +4149,6 @@
           "date": "26 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
-          "title": "Industry Standards on “Minimum information to be provided to the Audit Committee and Shareholders for approval of Related Party Transactions”",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/circulars/jun-2025/industry-standards-on-minimum-information-to-be-provided-to-the-audit-committee-and-shareholders-for-approval-of-related-party-transactions-_94809.html",
-          "summary": "SEBI has issued a circular dated June 26, 2025, titled **“Industry Standards on Minimum information to be provided to the Audit Committee and Shareholders for approval of Related Party Transactions”**. Based on the document content provided, the operative change is that listed entities must follow the prescribed **industry standards for the minimum information** that must be placed before the **Audit Committee** and **shareholders** when seeking approval for related party transactions (RPTs). The circular appears to be aimed at standardizing the disclosures/information packages used for RPT approvals so that approvals are obtained on the basis of a defined minimum set of facts rather than ad hoc or incomplete submissions.\n\nThe document as provided does **not** include the actual detailed standards, forms, thresholds, exemptions, implementation timeline, or a specific effective date beyond the circular date itself. It also does not identify any monetary thresholds, transaction limits, or specific categories of related party transactions affected, nor does it spell out a new filing procedure or revised approval workflow in the excerpt provided. For compliance purposes, the key takeaway from the text available is that the minimum-information requirements for RPT approvals are being formalized through industry standards, so companies that place RPTs before the Audit Committee or shareholders should confirm they are using the updated SEBI-prescribed disclosure set in all approval notes and supporting materials.",
-          "summarySource": "desc",
-          "isNew": false
-        },
-        {
-          "sr": 125,
-          "date": "26 Jun 2025",
-          "year": 2025,
-          "cat": "Circulars",
           "title": "Timelines for rebalancing of portfolios of mutual fund schemes in cases of all passive breaches",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/jun-2025/timelines-for-rebalancing-of-portfolios-of-mutual-fund-schemes-in-cases-of-all-passive-breaches_94804.html",
@@ -4169,7 +4157,7 @@
           "isNew": false
         },
         {
-          "sr": 126,
+          "sr": 125,
           "date": "12 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4181,7 +4169,7 @@
           "isNew": false
         },
         {
-          "sr": 127,
+          "sr": 126,
           "date": "12 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4193,7 +4181,7 @@
           "isNew": false
         },
         {
-          "sr": 128,
+          "sr": 127,
           "date": "12 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4205,7 +4193,7 @@
           "isNew": false
         },
         {
-          "sr": 129,
+          "sr": 128,
           "date": "11 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4217,7 +4205,7 @@
           "isNew": false
         },
         {
-          "sr": 130,
+          "sr": 129,
           "date": "06 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4229,7 +4217,7 @@
           "isNew": false
         },
         {
-          "sr": 131,
+          "sr": 130,
           "date": "05 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4241,7 +4229,7 @@
           "isNew": false
         },
         {
-          "sr": 132,
+          "sr": 131,
           "date": "05 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4253,7 +4241,7 @@
           "isNew": false
         },
         {
-          "sr": 133,
+          "sr": 132,
           "date": "03 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4265,7 +4253,7 @@
           "isNew": false
         },
         {
-          "sr": 134,
+          "sr": 133,
           "date": "02 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4277,7 +4265,7 @@
           "isNew": false
         },
         {
-          "sr": 135,
+          "sr": 134,
           "date": "02 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4289,7 +4277,7 @@
           "isNew": false
         },
         {
-          "sr": 136,
+          "sr": 135,
           "date": "29 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4301,7 +4289,7 @@
           "isNew": false
         },
         {
-          "sr": 137,
+          "sr": 136,
           "date": "26 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4313,7 +4301,7 @@
           "isNew": false
         },
         {
-          "sr": 138,
+          "sr": 137,
           "date": "26 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4325,7 +4313,7 @@
           "isNew": false
         },
         {
-          "sr": 139,
+          "sr": 138,
           "date": "23 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4337,7 +4325,7 @@
           "isNew": false
         },
         {
-          "sr": 140,
+          "sr": 139,
           "date": "19 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4349,7 +4337,7 @@
           "isNew": false
         },
         {
-          "sr": 141,
+          "sr": 140,
           "date": "16 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4361,7 +4349,7 @@
           "isNew": false
         },
         {
-          "sr": 142,
+          "sr": 141,
           "date": "16 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4373,7 +4361,7 @@
           "isNew": false
         },
         {
-          "sr": 143,
+          "sr": 142,
           "date": "15 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4385,7 +4373,7 @@
           "isNew": false
         },
         {
-          "sr": 144,
+          "sr": 143,
           "date": "14 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4397,7 +4385,7 @@
           "isNew": false
         },
         {
-          "sr": 145,
+          "sr": 144,
           "date": "14 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4409,7 +4397,7 @@
           "isNew": false
         },
         {
-          "sr": 146,
+          "sr": 145,
           "date": "13 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4421,7 +4409,7 @@
           "isNew": false
         },
         {
-          "sr": 147,
+          "sr": 146,
           "date": "13 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4433,7 +4421,7 @@
           "isNew": false
         },
         {
-          "sr": 148,
+          "sr": 147,
           "date": "07 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4445,7 +4433,7 @@
           "isNew": false
         },
         {
-          "sr": 149,
+          "sr": 148,
           "date": "07 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4457,7 +4445,7 @@
           "isNew": false
         },
         {
-          "sr": 150,
+          "sr": 149,
           "date": "06 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4469,7 +4457,7 @@
           "isNew": false
         },
         {
-          "sr": 151,
+          "sr": 150,
           "date": "02 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4479,7 +4467,7 @@
           "isNew": false
         },
         {
-          "sr": 152,
+          "sr": 151,
           "date": "30 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4491,7 +4479,7 @@
           "isNew": false
         },
         {
-          "sr": 153,
+          "sr": 152,
           "date": "29 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4503,7 +4491,7 @@
           "isNew": false
         },
         {
-          "sr": 154,
+          "sr": 153,
           "date": "29 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4515,7 +4503,7 @@
           "isNew": false
         },
         {
-          "sr": 155,
+          "sr": 154,
           "date": "28 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4527,7 +4515,7 @@
           "isNew": false
         },
         {
-          "sr": 156,
+          "sr": 155,
           "date": "22 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4539,7 +4527,7 @@
           "isNew": false
         },
         {
-          "sr": 157,
+          "sr": 156,
           "date": "11 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4551,7 +4539,7 @@
           "isNew": false
         },
         {
-          "sr": 158,
+          "sr": 157,
           "date": "09 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4563,7 +4551,7 @@
           "isNew": false
         },
         {
-          "sr": 159,
+          "sr": 158,
           "date": "09 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4575,7 +4563,7 @@
           "isNew": false
         },
         {
-          "sr": 160,
+          "sr": 159,
           "date": "04 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4587,7 +4575,7 @@
           "isNew": false
         },
         {
-          "sr": 161,
+          "sr": 160,
           "date": "04 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4599,7 +4587,7 @@
           "isNew": false
         },
         {
-          "sr": 162,
+          "sr": 161,
           "date": "02 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4611,7 +4599,7 @@
           "isNew": false
         },
         {
-          "sr": 163,
+          "sr": 162,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4623,7 +4611,7 @@
           "isNew": false
         },
         {
-          "sr": 164,
+          "sr": 163,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4635,7 +4623,7 @@
           "isNew": false
         },
         {
-          "sr": 165,
+          "sr": 164,
           "date": "28 Mar 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4647,7 +4635,7 @@
           "isNew": false
         },
         {
-          "sr": 166,
+          "sr": 165,
           "date": "28 Mar 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4659,7 +4647,7 @@
           "isNew": false
         },
         {
-          "sr": 167,
+          "sr": 166,
           "date": "28 Mar 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4671,7 +4659,7 @@
           "isNew": false
         },
         {
-          "sr": 168,
+          "sr": 167,
           "date": "28 Mar 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4683,7 +4671,7 @@
           "isNew": false
         },
         {
-          "sr": 169,
+          "sr": 168,
           "date": "28 Mar 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4695,7 +4683,7 @@
           "isNew": false
         },
         {
-          "sr": 170,
+          "sr": 169,
           "date": "28 Mar 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4707,7 +4695,7 @@
           "isNew": false
         },
         {
-          "sr": 171,
+          "sr": 170,
           "date": "28 Mar 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4719,7 +4707,7 @@
           "isNew": false
         },
         {
-          "sr": 172,
+          "sr": 171,
           "date": "21 Mar 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4731,7 +4719,7 @@
           "isNew": false
         },
         {
-          "sr": 173,
+          "sr": 172,
           "date": "21 Mar 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -4740,6 +4728,16 @@
           "link": "https://www.sebi.gov.in/legal/circulars/mar-2025/facilitating-ease-of-doing-business-relating-to-the-framework-on-alignment-of-interest-of-the-designated-employees-of-the-asset-management-company-amc-with-the-interest-of-the-unitholders-_92842.html",
           "summary": "This SEBI circular dated **21 March 2025** (Circular No. **SEBI/HO/IMD/IMD-PoD-1/P/CIR/2025/36**) is issued as a **“facilitating ease of doing business”** measure in relation to SEBI’s framework on **alignment of interest of designated employees of an Asset Management Company (AMC) with the interests of unitholders**. The document title indicates that it is intended to **modify or ease implementation of that alignment framework**, so compliance teams at AMCs should treat it as a regulatory update affecting the employee-interest alignment regime, not as a standalone unrelated communication.\n\nFrom the content provided, however, the circular text itself is not included beyond the title, so the exact operational changes, thresholds, timelines, reporting steps, or specific obligations cannot be extracted here. For compliance purposes, the key confirmed points are: **the affected entities are AMCs and their designated employees**, the subject matter is the **alignment-of-interest framework tied to unitholder protection**, and the circular was **issued on 21 March 2025** under the above circular number. A compliance officer should review the full circular and any linked annexures/implementation guidance to identify the precise amendments, because those details are not visible in the excerpt provided.",
           "summarySource": "desc",
+          "isNew": false
+        },
+        {
+          "sr": 173,
+          "date": "20 Mar 2025",
+          "year": 2025,
+          "cat": "Circulars",
+          "title": "Disclosure of holding of specified securities in dematerialized form",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/circulars/mar-2025/disclosure-of-holding-of-specified-securities-in-dematerialized-form_92797.html",
           "isNew": false
         },
         {
@@ -5330,6 +5328,16 @@
         },
         {
           "sr": 223,
+          "date": "28 Nov 2024",
+          "year": 2024,
+          "cat": "Circulars",
+          "title": "Business Continuity for Interoperable Segments of Stock Exchanges",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/circulars/nov-2024/business-continuity-for-interoperable-segments-of-stock-exchanges_89032.html",
+          "isNew": false
+        },
+        {
+          "sr": 224,
           "date": "26 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5341,7 +5349,7 @@
           "isNew": false
         },
         {
-          "sr": 224,
+          "sr": 225,
           "date": "22 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5353,7 +5361,7 @@
           "isNew": false
         },
         {
-          "sr": 225,
+          "sr": 226,
           "date": "21 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5365,7 +5373,7 @@
           "isNew": false
         },
         {
-          "sr": 226,
+          "sr": 227,
           "date": "18 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5377,7 +5385,7 @@
           "isNew": false
         },
         {
-          "sr": 227,
+          "sr": 228,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5389,7 +5397,7 @@
           "isNew": false
         },
         {
-          "sr": 228,
+          "sr": 229,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5401,7 +5409,7 @@
           "isNew": false
         },
         {
-          "sr": 229,
+          "sr": 230,
           "date": "12 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5413,7 +5421,7 @@
           "isNew": false
         },
         {
-          "sr": 230,
+          "sr": 231,
           "date": "11 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5425,7 +5433,7 @@
           "isNew": false
         },
         {
-          "sr": 231,
+          "sr": 232,
           "date": "11 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5437,7 +5445,7 @@
           "isNew": false
         },
         {
-          "sr": 232,
+          "sr": 233,
           "date": "05 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5449,7 +5457,7 @@
           "isNew": false
         },
         {
-          "sr": 233,
+          "sr": 234,
           "date": "04 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5461,7 +5469,7 @@
           "isNew": false
         },
         {
-          "sr": 234,
+          "sr": 235,
           "date": "25 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5473,7 +5481,7 @@
           "isNew": false
         },
         {
-          "sr": 235,
+          "sr": 236,
           "date": "25 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5485,7 +5493,7 @@
           "isNew": false
         },
         {
-          "sr": 236,
+          "sr": 237,
           "date": "24 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5497,7 +5505,7 @@
           "isNew": false
         },
         {
-          "sr": 237,
+          "sr": 238,
           "date": "22 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5509,7 +5517,7 @@
           "isNew": false
         },
         {
-          "sr": 238,
+          "sr": 239,
           "date": "22 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5521,7 +5529,7 @@
           "isNew": false
         },
         {
-          "sr": 239,
+          "sr": 240,
           "date": "22 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5533,7 +5541,7 @@
           "isNew": false
         },
         {
-          "sr": 240,
+          "sr": 241,
           "date": "18 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5545,7 +5553,7 @@
           "isNew": false
         },
         {
-          "sr": 241,
+          "sr": 242,
           "date": "16 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5557,7 +5565,7 @@
           "isNew": false
         },
         {
-          "sr": 242,
+          "sr": 243,
           "date": "15 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5569,7 +5577,7 @@
           "isNew": false
         },
         {
-          "sr": 243,
+          "sr": 244,
           "date": "14 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5581,7 +5589,7 @@
           "isNew": false
         },
         {
-          "sr": 244,
+          "sr": 245,
           "date": "14 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5593,7 +5601,7 @@
           "isNew": false
         },
         {
-          "sr": 245,
+          "sr": 246,
           "date": "10 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5605,7 +5613,7 @@
           "isNew": false
         },
         {
-          "sr": 246,
+          "sr": 247,
           "date": "10 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -5613,18 +5621,6 @@
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/oct-2024/extension-of-timeline-for-implementation-of-sebi-circular-sebi-ho-mirsd-mirsd-pod1-p-cir-2024-75-dated-june-05-2024_87508.html",
           "summary": "This circular does not introduce a new substantive compliance requirement; instead, SEBI extends the implementation timeline for the requirements set out in its earlier circular SEBI/HO/MIRSD/MIRSD-PoD1/P/CIR/2024/75 dated June 05, 2024. The October 10, 2024 circular is Circular No. SEBI/HO/MIRSD/MIRSD-PoD1/P/CIR/2024/136 and is specifically an extension notice for the earlier framework.\n\nFor a compliance team, the key point is that any obligations introduced by the June 05, 2024 circular remain applicable, but the date by which regulated entities must implement them has been pushed back. Because the text provided here contains only the title and reference information, it does not specify the exact underlying requirements, the original deadline, or the new extended deadline; those details would need to be taken from the June 05, 2024 circular and any instructions referenced therein.\n\nAccordingly, affected entities should treat this as a timeline adjustment rather than a change in scope or substance, and should confirm the revised implementation date against the full text of SEBI Circular 2024/75 and the present extension circular before finalizing internal actions or external communications.",
-          "summarySource": "desc",
-          "isNew": false
-        },
-        {
-          "sr": 247,
-          "date": "08 Oct 2024",
-          "year": 2024,
-          "cat": "Circulars",
-          "title": "Specific due diligence of investors and investments of AIFs",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/circulars/oct-2024/specific-due-diligence-of-investors-and-investments-of-aifs_87434.html",
-          "summary": "SEBI’s circular of October 8, 2024 (Circular No. SEBI/HO/AFD/AFD-POD-1/P/CIR/2024/135) on the “Specific due diligence of investors and investments of AIFs” is a compliance direction for Alternative Investment Funds (AIFs) and their managers/trustees to carry out enhanced due diligence on both investors and investments. The document title indicates that the regulator is requiring AIFs to more carefully verify the identity, background, source/legitimacy of investor funds, and the nature of investments made by the fund, rather than relying only on ordinary onboarding or investment screening processes.\n\nBased on the content provided, the notice is a formal SEBI circular rather than a market update or guidance note, so it should be treated as a binding compliance requirement for affected AIF entities. However, the excerpt you provided contains only the circular heading and not the substantive operative paragraphs, so no specific procedural steps, thresholds, exemptions, timelines, reporting formats, or implementation dates beyond the circular date of October 8, 2024 are visible here. For compliance purposes, the team should verify the full circular text to identify the exact diligence steps, any triggering conditions for enhanced review, any required recordkeeping or reporting obligations, and whether the requirement applies to all AIF categories or only specified investors/investment types.",
           "summarySource": "desc",
           "isNew": false
         },
@@ -6213,9 +6209,19 @@
           "summary": "SEBI’s circular dated **June 6, 2024** (Circular No. **SEBI/HO/MIRSD/SECFATF/P/CIR/2024/79**) addresses the **uploading of KYC information by KYC Registration Agencies (KRAs) to the Central KYC Records Registry (CKYCRR)**. Based on the text provided, the document appears to be a **regulatory direction on KYC data handling and transmission**, but the excerpt itself does **not include the operative requirements**, implementation mechanics, timelines, or any specific thresholds/rates.\n\nFor a compliance team, the key takeaway from the available text is only that **KRAs are the affected entities** and that the subject matter is the **uploading of KYC information into CKYCRR**, which likely implies obligations around KYC record sharing, synchronization, and centralized record maintenance. However, because the document content provided contains only the title and citation, it does **not specify what exact change is being made, when it becomes effective, which data fields must be uploaded, what procedures must be followed, or whether any deadlines/exemptions apply**.\n\nIf you want, I can also help by turning this into a **formal compliance note template** once you provide the full circular text.",
           "summarySource": "desc",
           "isNew": false
+        },
+        {
+          "sr": 297,
+          "date": "05 Jun 2024",
+          "year": 2024,
+          "cat": "Circulars",
+          "title": "Framework for providing flexibility to Foreign Portfolio Investors in dealing with their securities post expiry of their registration",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/circulars/jun-2024/framework-for-providing-flexibility-to-foreign-portfolio-investors-in-dealing-with-their-securities-post-expiry-of-their-registration_83940.html",
+          "isNew": false
         }
       ],
-      "ts": 1788812221659,
+      "ts": 1788822561367,
       "ok": true,
       "newCount": 0
     },
@@ -7447,7 +7453,7 @@
         },
         {
           "sr": 103,
-          "date": "09 Apr 2018",
+          "date": "10 Apr 2018",
           "year": 2018,
           "cat": "Master Circular",
           "title": "Master Circular for Debenture Trustees (DTs)",
@@ -7459,20 +7465,8 @@
         },
         {
           "sr": 104,
-          "date": "16 Dec 2016",
-          "year": 2016,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange and Clearing Corporation",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-stock-exchange-and-clearing-corporation_33797.html",
-          "summary": "The document is a **SEBI “Master Circular for Stock Exchange and Clearing Corporation” dated December 16, 2016**, but the text provided contains only the title and website/script code, not the substantive circular provisions themselves. Based on the content available here, there are **no identifiable regulatory changes, compliance obligations, effective dates beyond the document date, thresholds, rates, procedural requirements, or affected entities/activity details** that can be reliably summarized.\n\nFor a corporate compliance team, the only confirmable point is that this is a **master circular directed at stock exchanges and clearing corporations** and was issued on **16 Dec 2016**. However, because the operative body of the circular is missing, I cannot state what it requires, what changed, or what deadlines apply without risking inaccuracy. If you provide the full circular text or a PDF/image of the substantive pages, I can produce the detailed compliance summary you requested.",
-          "summarySource": "desc",
-          "isNew": false
-        },
-        {
-          "sr": 105,
-          "date": "15 Dec 2016",
-          "year": 2016,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -7482,9 +7476,21 @@
           "isNew": false
         },
         {
+          "sr": 105,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange and Clearing Corporation",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-stock-exchange-and-clearing-corporation_33797.html",
+          "summary": "The document is a **SEBI “Master Circular for Stock Exchange and Clearing Corporation” dated December 16, 2016**, but the text provided contains only the title and website/script code, not the substantive circular provisions themselves. Based on the content available here, there are **no identifiable regulatory changes, compliance obligations, effective dates beyond the document date, thresholds, rates, procedural requirements, or affected entities/activity details** that can be reliably summarized.\n\nFor a corporate compliance team, the only confirmable point is that this is a **master circular directed at stock exchanges and clearing corporations** and was issued on **16 Dec 2016**. However, because the operative body of the circular is missing, I cannot state what it requires, what changed, or what deadlines apply without risking inaccuracy. If you provide the full circular text or a PDF/image of the substantive pages, I can produce the detailed compliance summary you requested.",
+          "summarySource": "desc",
+          "isNew": false
+        },
+        {
           "sr": 106,
-          "date": "14 Sept 2016",
-          "year": 2016,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -7495,20 +7501,8 @@
         },
         {
           "sr": 107,
-          "date": "26 May 2015",
-          "year": 2015,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange and Clearing Corporation",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-stock-exchange-and-clearing-corporation_29849.html",
-          "summary": "The document appears to be a SEBI webpage entry titled **“Master Circular for Stock Exchange and Clearing Corporation”** dated **May 26, 2015**, but the content provided does **not include the actual circular text or any substantive regulatory provisions**. Instead, it contains only webpage/script elements (for example, functions such as `setmenu`, `setleftmenu`, `chcklogin`, and `getmarquee`), which are not regulatory requirements and do not impose compliance obligations.\n\nBecause no circular language, amendments, operative directions, thresholds, deadlines, applicability scope, or procedural requirements are included in the supplied text, there are **no specific compliance actions, affected entities, or effective-date obligations that can be reliably summarized** from this excerpt alone. If you provide the full circular text or the underlying PDF/HTML content, I can produce a complete compliance-focused summary covering the substantive requirements.",
-          "summarySource": "desc",
-          "isNew": false
-        },
-        {
-          "sr": 108,
-          "date": "07 May 2015",
-          "year": 2015,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -7518,9 +7512,21 @@
           "isNew": false
         },
         {
+          "sr": 108,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange and Clearing Corporation",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-stock-exchange-and-clearing-corporation_29849.html",
+          "summary": "The document appears to be a SEBI webpage entry titled **“Master Circular for Stock Exchange and Clearing Corporation”** dated **May 26, 2015**, but the content provided does **not include the actual circular text or any substantive regulatory provisions**. Instead, it contains only webpage/script elements (for example, functions such as `setmenu`, `setleftmenu`, `chcklogin`, and `getmarquee`), which are not regulatory requirements and do not impose compliance obligations.\n\nBecause no circular language, amendments, operative directions, thresholds, deadlines, applicability scope, or procedural requirements are included in the supplied text, there are **no specific compliance actions, affected entities, or effective-date obligations that can be reliably summarized** from this excerpt alone. If you provide the full circular text or the underlying PDF/HTML content, I can produce a complete compliance-focused summary covering the substantive requirements.",
+          "summarySource": "desc",
+          "isNew": false
+        },
+        {
           "sr": 109,
-          "date": "01 Oct 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -7531,8 +7537,8 @@
         },
         {
           "sr": 110,
-          "date": "20 May 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges - 2014",
           "desc": "",
@@ -7543,8 +7549,8 @@
         },
         {
           "sr": 111,
-          "date": "07 Apr 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -7555,8 +7561,8 @@
         },
         {
           "sr": 112,
-          "date": "11 Sept 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -7567,20 +7573,8 @@
         },
         {
           "sr": 113,
-          "date": "17 Apr 2013",
-          "year": 2013,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange - Cash Market",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-stock-exchange-cash-market_24630.html",
-          "summary": "The provided document does not contain substantive regulatory text beyond its title and webpage boilerplate. It identifies itself as **“Master Circular for Stock Exchange - Cash Market”** and shows a publication date of **April 17, 2013**, under **SEBI Master Circulars**, but the content excerpt does **not include any actual rules, amendments, thresholds, deadlines, affected entities, or compliance obligations** that a corporate compliance team could act on. The remainder of the text is only site scripting/navigation code (e.g., menu setup and login/marquee functions), which has no regulatory effect.\n\nBased on the excerpt alone, there is **no actionable compliance requirement disclosed** and **no specific change** described. If you want a compliance summary of the actual circular, I would need the full circular text or a PDF/image of the document contents.",
-          "summarySource": "desc",
-          "isNew": false
-        },
-        {
-          "sr": 114,
-          "date": "15 Apr 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -7590,9 +7584,21 @@
           "isNew": false
         },
         {
+          "sr": 114,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange - Cash Market",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-stock-exchange-cash-market_24630.html",
+          "summary": "The provided document does not contain substantive regulatory text beyond its title and webpage boilerplate. It identifies itself as **“Master Circular for Stock Exchange - Cash Market”** and shows a publication date of **April 17, 2013**, under **SEBI Master Circulars**, but the content excerpt does **not include any actual rules, amendments, thresholds, deadlines, affected entities, or compliance obligations** that a corporate compliance team could act on. The remainder of the text is only site scripting/navigation code (e.g., menu setup and login/marquee functions), which has no regulatory effect.\n\nBased on the excerpt alone, there is **no actionable compliance requirement disclosed** and **no specific change** described. If you want a compliance summary of the actual circular, I would need the full circular text or a PDF/image of the document contents.",
+          "summarySource": "desc",
+          "isNew": false
+        },
+        {
           "sr": 115,
-          "date": "01 Apr 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -7603,8 +7609,8 @@
         },
         {
           "sr": 116,
-          "date": "11 May 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -7615,8 +7621,8 @@
         },
         {
           "sr": 117,
-          "date": "13 Apr 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -7627,8 +7633,8 @@
         },
         {
           "sr": 118,
-          "date": "13 Apr 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges / Cash Market",
           "desc": "",
@@ -7639,8 +7645,8 @@
         },
         {
           "sr": 119,
-          "date": "02 Jan 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -7651,20 +7657,8 @@
         },
         {
           "sr": 120,
-          "date": "07 Jan 2011",
-          "year": 2011,
-          "cat": "Master Circular",
-          "title": "Master Circular for Mutual Funds",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2011/master-circular-for-mutual-funds_14415.html",
-          "summary": "This document is a **SEBI Master Circular for Mutual Funds dated January 7, 2011**, but the text provided contains only the page/header metadata and website script, not the operative regulatory instructions themselves. Based on the content shown, the only material fact we can confirm is that it is a **master circular issued under SEBI’s mutual fund framework**, and that it was posted as part of SEBI’s “Master Circulars” repository.\n\nBecause the substantive circular text is not included, **no compliance obligations, thresholds, deadlines, procedural requirements, entity-specific rules, or changes to existing mutual fund requirements can be extracted from the provided excerpt**. A compliance team would need the full circular text or attachment to determine what mutual fund entities, schemes, trustees, AMCs, custodians, distributors, or other market participants are affected and what filings, disclosures, investment limits, or operational procedures are required.",
-          "summarySource": "desc",
-          "isNew": false
-        },
-        {
-          "sr": 121,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "AML/CFT- Master Circular",
           "desc": "",
@@ -7674,9 +7668,9 @@
           "isNew": false
         },
         {
-          "sr": 122,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "sr": 121,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -7686,9 +7680,9 @@
           "isNew": false
         },
         {
-          "sr": 123,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "sr": 122,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master circular for Exchange Traded Derivatives",
           "desc": "",
@@ -7698,9 +7692,21 @@
           "isNew": false
         },
         {
+          "sr": 123,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Mutual Funds",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2011/master-circular-for-mutual-funds_14415.html",
+          "summary": "This document is a **SEBI Master Circular for Mutual Funds dated January 7, 2011**, but the text provided contains only the page/header metadata and website script, not the operative regulatory instructions themselves. Based on the content shown, the only material fact we can confirm is that it is a **master circular issued under SEBI’s mutual fund framework**, and that it was posted as part of SEBI’s “Master Circulars” repository.\n\nBecause the substantive circular text is not included, **no compliance obligations, thresholds, deadlines, procedural requirements, entity-specific rules, or changes to existing mutual fund requirements can be extracted from the provided excerpt**. A compliance team would need the full circular text or attachment to determine what mutual fund entities, schemes, trustees, AMCs, custodians, distributors, or other market participants are affected and what filings, disclosures, investment limits, or operational procedures are required.",
+          "summarySource": "desc",
+          "isNew": false
+        },
+        {
           "sr": 124,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -7711,8 +7717,8 @@
         },
         {
           "sr": 125,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges and Depositories",
           "desc": "",
@@ -7723,8 +7729,8 @@
         },
         {
           "sr": 126,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Administration of Stock Exchanges, Arbitration in recognised Stock Exchanges and Stock Exchanges / trading platform for Small & Medium Enterprises including guidelines for Market Makers",
           "desc": "",
@@ -7735,44 +7741,44 @@
         },
         {
           "sr": 127,
-          "date": "06 Apr 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
+          "title": "Master Circular on Anti Money Laundering and Combating Financing of Terrorism (AML and CFT) Standards-PDF",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-depositories_1729.html",
-          "summary": "This document is a **SEBI Master Circular for Depositories dated April 6, 2010**, but the text provided does **not include the actual regulatory provisions** of the circular—only the title, date, and website/navigation code. Based on the supplied content, there are **no disclosed substantive requirements, thresholds, deadlines, reporting obligations, procedural changes, or affected entities** that can be summarized with confidence.\n\nFor a compliance team, the only reliable information available here is that this is a **consolidated “Master Circular” intended for depositories** under SEBI, issued on **06-Apr-2010**. However, because the operative regulatory text is missing, I cannot identify what rules were changed, which market participants were affected, or what compliance actions would have been required. If you provide the full circular text or the linked content, I can produce a detailed compliance summary covering obligations, dates, and operational impacts.",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2008/master-circular-on-anti-money-laundering-and-combating-financing-of-terrorism-aml-and-cft-standards-a-href-http-www-sebi-gov-in-cms-sebi-data-commondocs-isdcir0108-p-pdf-target-blank-pdf-a-_6847.html",
+          "summary": "This SEBI Master Circular dated December 19, 2008 consolidates and reinforces AML/CFT obligations for all intermediaries registered with SEBI under section 12 of the SEBI Act, 1992, with delivery through stock exchanges for stock brokers, sub-brokers, and depository participants. It states that the Prevention of Money Laundering Act, 2002 became effective on July 1, 2005, and that the related notifications/rules were published the same day; SEBI had already issued earlier AML guidance on January 18, 2006, and this master circular is intended to restate the standards in one place. The circular applies to “intermediaries” broadly, including stock-brokers, sub-brokers, share transfer agents, bankers to an issue, trustees to a trust deed, registrars to an issue, merchant bankers, underwriters, portfolio managers, investment advisers, and any other SEBI-registered securities market intermediary, as well as banking companies and financial institutions under PMLA; these entities must maintain records of all transactions and the nature of those transactions.\n\nThe document emphasizes that AML/CFT compliance is mandatory because it is required both by the PMLA framework and by FATF-aligned international standards, and it signals that intermediaries must adopt procedures to detect and prevent money laundering and terrorist financing. At the point where the excerpt ends, it specifically begins listing the statutory obligation to maintain records, implying that SEBI-registered intermediaries and the other covered entities must preserve transaction records and comply with the PMLA rules and associated SEBI directions. If you want, I can also provide a clause-by-clause compliance summary if you share the rest of the circular.",
           "summarySource": "desc",
           "isNew": false
         },
         {
           "sr": 128,
-          "date": "06 Apr 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange - Cash Market",
+          "title": "Master Circular-Mutual Funds",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-stock-exchange-cash-market_1929.html",
-          "summary": "This document is a SEBI Master Circular for stock exchanges covering **Trading – Part I (Cash Market)**, compiled from all applicable circulars issued by SEBI’s Market Regulation Department **up to March 31, 2010**, and it states that the compilation **takes effect from the date of issue**. In practical terms, it is not a single new rule but a consolidated reference of then-current obligations for stock exchanges, including requirements on **bulk deals and block deals**, **index-based market-wide circuit filters and scrip-wise price bands**, and **uniform security-specific actions** that exchanges must implement. It also covers **margin trading**, including which securities are eligible, the **eligibility criteria for brokers** that want to offer margin trading to clients, and the need for a **no-objection certificate (NOC)** in that process.\n\nFor a compliance team, the key point is that this circular serves as the authoritative compilation of existing obligations as of March 31, 2010, so affected entities should treat the listed sections as the operative framework for exchange-level trading controls and related broker permissions. The document’s structure indicates that compliance responsibilities are not limited to trading parameters alone; they also extend to **exchange procedures** for monitoring and enforcing market safeguards like circuit filters and price bands, and to **broker-side controls** for margin trading authorization and eligibility. No specific numeric thresholds, rates, or new deadline dates are visible in the excerpt beyond the March 31, 2010 cut-off and immediate effective date of the master compilation.",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2010/master-circular-mutual-funds_2699.html",
+          "summary": "The document appears to be a **SEBI Master Circular on Mutual Funds dated January 1, 2010**, but the content provided does **not include the actual circular text or any operative regulatory requirements**. Instead, it only contains the page title and embedded website/javascript code such as menu-loading functions, which are not substantive compliance instructions.\n\nBecause no rules, amendments, thresholds, deadlines, affected entities, or procedural obligations are visible in the supplied text, there is **no actionable regulatory change that can be summarized from this extract alone**. For a compliance briefing, the only reliable takeaway is that this is a reference to a SEBI mutual funds master circular from **01-Jan-2010**, but the actual obligations would need to be obtained from the full circular text.",
           "summarySource": "desc",
           "isNew": false
         },
         {
           "sr": 129,
-          "date": "06 Apr 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular on Allotment of codes to Stock Exchanges, Subsidiary management by Stock Exchanges, Governance of recognised Stock Exchanges and Arbitration in recognised Stock Exchanges",
+          "title": "Master Circular on Anti-Money Laundering (AML) and Combating Financing of Terrorism (CFT) Standards",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-on-allotment-of-codes-to-stock-exchanges-subsidiary-management-by-stock-exchanges-governance-of-recognised-stock-exchanges-and-arbitration-in-recognised-stock-exchanges_1730.html",
-          "summary": "This Master Circular issued by SEBI on April 6, 2010 consolidates the regulatory framework for recognized stock exchanges on four related topics: allocation of exchange codes, management of subsidiaries by stock exchanges, governance requirements for recognized stock exchanges, and arbitration mechanisms within recognized stock exchanges. As a master circular, it is intended to bring together and organize existing instructions rather than announce a single new standalone rule, but it is still the operative reference point for compliance by recognized stock exchanges and, where relevant, their subsidiaries and market participants using the exchange’s arbitration framework.\n\nFor a compliance team, the key implication is that the document governs how recognized exchanges must be identified in official systems through allotted codes, how they may structure and supervise subsidiaries, what governance standards apply to their internal oversight and management practices, and how disputes are to be handled through arbitration at the exchange level. The circular would therefore matter to entities operating or administering a recognized stock exchange, as well as any affiliated subsidiary or member/participant subject to the exchange’s governance or dispute-resolution processes. The document title indicates there are specific procedural requirements in each of these areas, but the provided text does not include the detailed provisions themselves, so the circular should be reviewed in full for the exact code-allotment process, subsidiary controls, governance obligations, and arbitration steps that apply.",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2010/master-circular-on-anti-money-laundering-aml-and-combating-financing-of-terrorism-cft-standards_2492.html",
+          "summary": "This document is a SEBI Master Circular, dated **February 12, 2010**, that consolidates the anti-money laundering and counter-terrorism financing standards applicable to SEBI-regulated entities. It is directed at firms and intermediaries subject to SEBI oversight and is intended to require them to maintain AML/CFT controls that prevent their businesses from being used to launder proceeds of crime or to finance terrorism.\n\nBecause the content provided here includes only the **title and publication date** and not the body of the circular, the specific substantive requirements, thresholds, procedures, reporting obligations, and deadlines cannot be extracted from the text shown. What can be stated with confidence is that the circular establishes the governing AML/CFT compliance framework under SEBI as of that date, and compliance teams would need to review the full circular to identify the exact obligations imposed on covered entities. If you can provide the full text or attached circular contents, I can produce a detailed compliance summary covering the precise requirements, affected entities, and any timelines or transaction/reporting thresholds.",
           "summarySource": "desc",
           "isNew": false
         },
         {
           "sr": 130,
-          "date": "17 Mar 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Oversight of Members (Stock Brokers/Trading Members/Clearing Members of any Segment of Stock Exchanges and Clearing Corporations)",
           "desc": "",
@@ -7783,42 +7789,42 @@
         },
         {
           "sr": 131,
-          "date": "12 Feb 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular on Anti-Money Laundering (AML) and Combating Financing of Terrorism (CFT) Standards",
+          "title": "Master Circular for Depositories",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2010/master-circular-on-anti-money-laundering-aml-and-combating-financing-of-terrorism-cft-standards_2492.html",
-          "summary": "This document is a SEBI Master Circular, dated **February 12, 2010**, that consolidates the anti-money laundering and counter-terrorism financing standards applicable to SEBI-regulated entities. It is directed at firms and intermediaries subject to SEBI oversight and is intended to require them to maintain AML/CFT controls that prevent their businesses from being used to launder proceeds of crime or to finance terrorism.\n\nBecause the content provided here includes only the **title and publication date** and not the body of the circular, the specific substantive requirements, thresholds, procedures, reporting obligations, and deadlines cannot be extracted from the text shown. What can be stated with confidence is that the circular establishes the governing AML/CFT compliance framework under SEBI as of that date, and compliance teams would need to review the full circular to identify the exact obligations imposed on covered entities. If you can provide the full text or attached circular contents, I can produce a detailed compliance summary covering the precise requirements, affected entities, and any timelines or transaction/reporting thresholds.",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-depositories_1729.html",
+          "summary": "This document is a **SEBI Master Circular for Depositories dated April 6, 2010**, but the text provided does **not include the actual regulatory provisions** of the circular—only the title, date, and website/navigation code. Based on the supplied content, there are **no disclosed substantive requirements, thresholds, deadlines, reporting obligations, procedural changes, or affected entities** that can be summarized with confidence.\n\nFor a compliance team, the only reliable information available here is that this is a **consolidated “Master Circular” intended for depositories** under SEBI, issued on **06-Apr-2010**. However, because the operative regulatory text is missing, I cannot identify what rules were changed, which market participants were affected, or what compliance actions would have been required. If you provide the full circular text or the linked content, I can produce a detailed compliance summary covering obligations, dates, and operational impacts.",
           "summarySource": "desc",
           "isNew": false
         },
         {
           "sr": 132,
-          "date": "01 Jan 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular-Mutual Funds",
+          "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2010/master-circular-mutual-funds_2699.html",
-          "summary": "The document appears to be a **SEBI Master Circular on Mutual Funds dated January 1, 2010**, but the content provided does **not include the actual circular text or any operative regulatory requirements**. Instead, it only contains the page title and embedded website/javascript code such as menu-loading functions, which are not substantive compliance instructions.\n\nBecause no rules, amendments, thresholds, deadlines, affected entities, or procedural obligations are visible in the supplied text, there is **no actionable regulatory change that can be summarized from this extract alone**. For a compliance briefing, the only reliable takeaway is that this is a reference to a SEBI mutual funds master circular from **01-Jan-2010**, but the actual obligations would need to be obtained from the full circular text.",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-stock-exchange-cash-market_1929.html",
+          "summary": "This document is a SEBI Master Circular for stock exchanges covering **Trading – Part I (Cash Market)**, compiled from all applicable circulars issued by SEBI’s Market Regulation Department **up to March 31, 2010**, and it states that the compilation **takes effect from the date of issue**. In practical terms, it is not a single new rule but a consolidated reference of then-current obligations for stock exchanges, including requirements on **bulk deals and block deals**, **index-based market-wide circuit filters and scrip-wise price bands**, and **uniform security-specific actions** that exchanges must implement. It also covers **margin trading**, including which securities are eligible, the **eligibility criteria for brokers** that want to offer margin trading to clients, and the need for a **no-objection certificate (NOC)** in that process.\n\nFor a compliance team, the key point is that this circular serves as the authoritative compilation of existing obligations as of March 31, 2010, so affected entities should treat the listed sections as the operative framework for exchange-level trading controls and related broker permissions. The document’s structure indicates that compliance responsibilities are not limited to trading parameters alone; they also extend to **exchange procedures** for monitoring and enforcing market safeguards like circuit filters and price bands, and to **broker-side controls** for margin trading authorization and eligibility. No specific numeric thresholds, rates, or new deadline dates are visible in the excerpt beyond the March 31, 2010 cut-off and immediate effective date of the master compilation.",
           "summarySource": "desc",
           "isNew": false
         },
         {
           "sr": 133,
-          "date": "19 Dec 2008",
-          "year": 2008,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular on Anti Money Laundering and Combating Financing of Terrorism (AML and CFT) Standards-PDF",
+          "title": "Master Circular on Allotment of codes to Stock Exchanges, Subsidiary management by Stock Exchanges, Governance of recognised Stock Exchanges and Arbitration in recognised Stock Exchanges",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2008/master-circular-on-anti-money-laundering-and-combating-financing-of-terrorism-aml-and-cft-standards-a-href-http-www-sebi-gov-in-cms-sebi-data-commondocs-isdcir0108-p-pdf-target-blank-pdf-a-_6847.html",
-          "summary": "This SEBI Master Circular dated December 19, 2008 consolidates and reinforces AML/CFT obligations for all intermediaries registered with SEBI under section 12 of the SEBI Act, 1992, with delivery through stock exchanges for stock brokers, sub-brokers, and depository participants. It states that the Prevention of Money Laundering Act, 2002 became effective on July 1, 2005, and that the related notifications/rules were published the same day; SEBI had already issued earlier AML guidance on January 18, 2006, and this master circular is intended to restate the standards in one place. The circular applies to “intermediaries” broadly, including stock-brokers, sub-brokers, share transfer agents, bankers to an issue, trustees to a trust deed, registrars to an issue, merchant bankers, underwriters, portfolio managers, investment advisers, and any other SEBI-registered securities market intermediary, as well as banking companies and financial institutions under PMLA; these entities must maintain records of all transactions and the nature of those transactions.\n\nThe document emphasizes that AML/CFT compliance is mandatory because it is required both by the PMLA framework and by FATF-aligned international standards, and it signals that intermediaries must adopt procedures to detect and prevent money laundering and terrorist financing. At the point where the excerpt ends, it specifically begins listing the statutory obligation to maintain records, implying that SEBI-registered intermediaries and the other covered entities must preserve transaction records and comply with the PMLA rules and associated SEBI directions. If you want, I can also provide a clause-by-clause compliance summary if you share the rest of the circular.",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-on-allotment-of-codes-to-stock-exchanges-subsidiary-management-by-stock-exchanges-governance-of-recognised-stock-exchanges-and-arbitration-in-recognised-stock-exchanges_1730.html",
+          "summary": "This Master Circular issued by SEBI on April 6, 2010 consolidates the regulatory framework for recognized stock exchanges on four related topics: allocation of exchange codes, management of subsidiaries by stock exchanges, governance requirements for recognized stock exchanges, and arbitration mechanisms within recognized stock exchanges. As a master circular, it is intended to bring together and organize existing instructions rather than announce a single new standalone rule, but it is still the operative reference point for compliance by recognized stock exchanges and, where relevant, their subsidiaries and market participants using the exchange’s arbitration framework.\n\nFor a compliance team, the key implication is that the document governs how recognized exchanges must be identified in official systems through allotted codes, how they may structure and supervise subsidiaries, what governance standards apply to their internal oversight and management practices, and how disputes are to be handled through arbitration at the exchange level. The circular would therefore matter to entities operating or administering a recognized stock exchange, as well as any affiliated subsidiary or member/participant subject to the exchange’s governance or dispute-resolution processes. The document title indicates there are specific procedural requirements in each of these areas, but the provided text does not include the detailed provisions themselves, so the circular should be reviewed in full for the exact code-allotment process, subsidiary controls, governance obligations, and arbitration steps that apply.",
           "summarySource": "desc",
           "isNew": false
         }
       ],
-      "ts": 1788812240765,
+      "ts": 1788822580399,
       "ok": true,
       "newCount": 0
     },
@@ -7914,7 +7920,7 @@
           "year": 2026,
           "cat": "Informal Guidance",
           "title": "Informal Guidance by way of an Interpretive Letter under the SEBI (Informal Guidance) Scheme, 2003 in relation to the provisions of InvIT Regulations by Sustainable Energy Infra Investment Managers Private Limited",
-          "desc": "",
+          "desc": "Informal Guidance by way of an Interpretive Letter under the SEBI (Informal Guidance) Scheme, 2003 in relation to the provisions of InvIT Regulations by Sustainable Energy Infra Investment Managers Private Limited May 22, 2026| Informal Guidance 20-02-2026Informal Guidance Letter by SEBI27-11-2025Applicant’s Letter",
           "link": "https://www.sebi.gov.in/enforcement/informal-guidance/may-2026/informal-guidance-by-way-of-an-interpretive-letter-under-the-sebi-informal-guidance-scheme-2003-in-relation-to-the-provisions-of-invit-regulations-by-sustainable-energy-infra-investment-managers-pr-_101601.html",
           "summary": "SEBI issued an interpretive letter under the SEBI (Informal Guidance) Scheme, 2003 in response to a query from Sustainable Energy Infra Investment Managers Private Limited regarding the InvIT Regulations. The request appears to have been made by the manager of an Infrastructure Investment Trust, and the letter is meant to clarify how the InvIT Regulations should be understood in the specific context raised by the applicant rather than to announce a broad regulatory amendment. The document is dated May 22, 2026, with references to an informal guidance reference date of 20-02-2026 and the applicant’s letter dated 27-11-2025.\n\nFor a compliance team, the key takeaway is that this is interpretive guidance on the application of the InvIT Regulations to the applicant’s proposed or existing arrangement, and it should be read as SEBI’s position on the regulatory question presented. Because the excerpt provided does not include the body of the interpretive answer, the specific obligation, threshold, or procedural requirement being clarified cannot be stated from the supplied text alone. A compliance officer should therefore treat the letter as potentially relevant only to the precise facts submitted by Sustainable Energy Infra Investment Managers Private Limited and review the full letter to determine whether it changes filing, approval, governance, disclosure, or investment-limit compliance for the InvIT or its manager.",
           "summarySource": "desc",
@@ -7926,7 +7932,7 @@
           "year": 2026,
           "cat": "Informal Guidance",
           "title": "Request for Informal Guidance under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from Geojit Financial Services Limited on permitting pledging of securities purchased under Non-Discretionary Portfolio Management Services.",
-          "desc": "S=3 ==] LF Securitiesand Exchange Boardofindia NodalCo-ordinationCell InformalGuidance IssueNo.:1/11825/2026 May 18,2026 Mr.Satish Menon, Executive Director, Geojit FinancialServicesLimited 34/659-P, CivilLine Road, Padivattom, Kochi - 682024, Kerala Dear Sir, Subject:Request forInformalGuidanceundertheSecuritiesand Exchange BoardofIndia (Informal Guidance) Scheme, 2025on permittingpledging of securities purchased under Non-Discretionary Portfolio Management Services (ND-PMS). Ref:YourletterdatedMarch 17, 2026 1. In your letterunder reference, you have, inter alia, represented as under: 1.1.Yourservicesinclude Non-Discretionary Portfolio Management Services (“ND-PMS”). Inthesaid model, clients open designated bank and demataccountswiththe approved custodianandall trading activities are executed through empaneled brokers. Clientsalso grantpower of attorney tothe portfolio manager tofacilitatetransactionsthatare expressly consented by them. 1.2.Thesecurities purchased underND-PMSremain in the client's beneficial ownership andareheldintheclient'snameinthedemataccount withthe approved custodian. 1.3.A prospective clienthas askedyou whether they can pledge securities held intheir demataccount inND-PMSframeworkwhereinthe borrowing arrangement wouldbebetweentheclientandlenderandthe portfolio manager willnotbea party tothe borrowing transaction 2.Inviewofthe above, you have soughtguidance in theformofan interpretive letter undertheSecuritiesand Exchange Boardof India (Informal Guidance) Scheme, 2025onthe following queries: , \" \" , - , ~ 400051 SEBI Bhavan, “9” Block, BandraKurla Complex, Mumbai - 400051 www.sebi.gov.in | 022 - 2644 9000 / 40459000 = = grr | Fad: Securitiesand Exchange Boardof india Continuation: Query 1: Whether aPortfolio Managermay permit aclientto pledge securitiesheldintheclient'sdemat account (Securities purchased under the ND-PMS framework) either directlyby the client or through aninstruction routed viathePortfolio Manager to the Custodian, consideri",
+          "desc": "Request for Informal Guidance under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from Geojit Financial Services Limited on permitting pledging of securities purchased under Non-Discretionary Portfolio Management Services. May 19, 2026| Informal Guidance 18-05-2026Informal Guidance Letter by SEBI17-03-2026Applicant’s Letter",
           "link": "https://www.sebi.gov.in/enforcement/informal-guidance/may-2026/request-for-informal-guidance-under-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2025-received-from-geojit-financial-services-limited-on-permitting-pledging-of-securities-pur-_101507.html",
           "summary": "SEBI’s Informal Guidance response addresses whether securities purchased under a Non-Discretionary Portfolio Management Service (ND-PMS) can be pledged by the client. Geojit Financial Services said that in its ND-PMS model, clients maintain designated bank and demat accounts with an approved custodian, trades are executed through empaneled brokers, and clients give a power of attorney to the portfolio manager only to carry out transactions they have expressly consented to; the securities remain in the client’s beneficial ownership and are held in the client’s name in the demat account. The specific practical question was whether a client may pledge those securities in the ND-PMS demat account, either directly or through an instruction routed via the portfolio manager to the custodian, where the borrowing arrangement would be solely between the client and the lender and the portfolio manager would not be a party to the borrowing.\n\nThe document is a letter dated May 18, 2026 from SEBI’s Nodal Co-ordination Cell, Informal Guidance, issued in response to Geojit’s letter dated March 17, 2026 under the SEBI (Informal Guidance) Scheme, 2025. It records the facts and then frames the query for guidance; the excerpt provided does not yet contain SEBI’s actual interpretive conclusion or any approval, prohibition, or conditions, only the request and the factual basis for the question. For compliance purposes, the key issue presented is whether a portfolio manager under an ND-PMS arrangement may facilitate or permit pledging of client-owned securities that sit in the client’s demat account, and whether such action can be done directly by the client or through the portfolio manager-custodian channel without making the portfolio manager a counterparty to the loan transaction.",
           "summarySource": "desc",
@@ -8125,7 +8131,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812242979,
+      "ts": 1788822583418,
       "ok": true,
       "newCount": 0
     },
@@ -8148,9 +8154,9 @@
           "date": "27 Aug 2026",
           "year": 2026,
           "cat": "Consultation Paper",
-          "title": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers",
-          "desc": "Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers Click here to provide your comments Aug 27, 2026| Reports : Reports for Public Comments Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers<a href='https://www.sebi.gov.in/sebiweb/publiccommentv2/PublicCommentAction.do?doPublicComments=yes' target='_blank' style='color:#007ffc'> Click here to provide your comments </a>",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/exemption-from-the-requirement-of-mandatory-merchant-banker-appointment-for-small-value-debt-through-private-placement-by-certain-listed-issuers_104040.html",
+          "title": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers Click here to provide your comments",
+          "desc": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers Click here to provide your comments Aug 27, 2026| Reports : Reports for Public Comments Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers<a href='https://www.sebi.gov.in/sebiweb/publiccommentv2/PublicCommentAction.do?doPublicComments=yes' target='_blank' style='color:#007ffc'> Click here to provide your comments </a>",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/consultation-paper-on-exemption-from-the-requirement-of-mandatory-merchant-banker-appointment-for-small-value-debt-through-private-placement-by-certain-listed-issuers_104040.html",
           "isNew": false
         },
         {
@@ -9579,6 +9585,26 @@
         },
         {
           "sr": 122,
+          "date": "11 Apr 2025",
+          "year": 2025,
+          "cat": "Consultation Paper",
+          "title": "Investor Charter for Investment Advisers  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2025/investor-charter-for-investment-advisers_93419.html",
+          "isNew": false
+        },
+        {
+          "sr": 123,
+          "date": "04 Apr 2025",
+          "year": 2025,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on Investor Charter for KYC (Know Your Client) Registration Agencies (KRAs)  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2025/consultation-paper-on-investor-charter-for-kyc-know-your-client-registration-agencies-kras-_93308.html",
+          "isNew": false
+        },
+        {
+          "sr": 124,
           "date": "28 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9590,7 +9616,7 @@
           "isNew": false
         },
         {
-          "sr": 123,
+          "sr": 125,
           "date": "27 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9602,7 +9628,7 @@
           "isNew": false
         },
         {
-          "sr": 124,
+          "sr": 126,
           "date": "21 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9614,7 +9640,7 @@
           "isNew": false
         },
         {
-          "sr": 125,
+          "sr": 127,
           "date": "20 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9626,7 +9652,7 @@
           "isNew": false
         },
         {
-          "sr": 126,
+          "sr": 128,
           "date": "20 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9638,7 +9664,7 @@
           "isNew": false
         },
         {
-          "sr": 127,
+          "sr": 129,
           "date": "07 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9650,7 +9676,7 @@
           "isNew": false
         },
         {
-          "sr": 128,
+          "sr": 130,
           "date": "07 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9662,7 +9688,7 @@
           "isNew": false
         },
         {
-          "sr": 129,
+          "sr": 131,
           "date": "28 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9674,7 +9700,7 @@
           "isNew": false
         },
         {
-          "sr": 130,
+          "sr": 132,
           "date": "24 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9686,7 +9712,7 @@
           "isNew": false
         },
         {
-          "sr": 131,
+          "sr": 133,
           "date": "21 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9698,7 +9724,7 @@
           "isNew": false
         },
         {
-          "sr": 132,
+          "sr": 134,
           "date": "20 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9710,7 +9736,7 @@
           "isNew": false
         },
         {
-          "sr": 133,
+          "sr": 135,
           "date": "18 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9722,7 +9748,7 @@
           "isNew": false
         },
         {
-          "sr": 134,
+          "sr": 136,
           "date": "14 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9734,7 +9760,7 @@
           "isNew": false
         },
         {
-          "sr": 135,
+          "sr": 137,
           "date": "13 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9746,7 +9772,7 @@
           "isNew": false
         },
         {
-          "sr": 136,
+          "sr": 138,
           "date": "12 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9758,7 +9784,7 @@
           "isNew": false
         },
         {
-          "sr": 137,
+          "sr": 139,
           "date": "12 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9770,7 +9796,7 @@
           "isNew": false
         },
         {
-          "sr": 138,
+          "sr": 140,
           "date": "12 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9782,7 +9808,7 @@
           "isNew": false
         },
         {
-          "sr": 139,
+          "sr": 141,
           "date": "11 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9794,7 +9820,7 @@
           "isNew": false
         },
         {
-          "sr": 140,
+          "sr": 142,
           "date": "07 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9806,7 +9832,7 @@
           "isNew": false
         },
         {
-          "sr": 141,
+          "sr": 143,
           "date": "07 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9818,7 +9844,7 @@
           "isNew": false
         },
         {
-          "sr": 142,
+          "sr": 144,
           "date": "07 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9830,7 +9856,7 @@
           "isNew": false
         },
         {
-          "sr": 143,
+          "sr": 145,
           "date": "03 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9842,7 +9868,7 @@
           "isNew": false
         },
         {
-          "sr": 144,
+          "sr": 146,
           "date": "31 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9854,7 +9880,7 @@
           "isNew": false
         },
         {
-          "sr": 145,
+          "sr": 147,
           "date": "28 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9866,7 +9892,7 @@
           "isNew": false
         },
         {
-          "sr": 146,
+          "sr": 148,
           "date": "22 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9878,7 +9904,7 @@
           "isNew": false
         },
         {
-          "sr": 147,
+          "sr": 149,
           "date": "20 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9890,7 +9916,7 @@
           "isNew": false
         },
         {
-          "sr": 148,
+          "sr": 150,
           "date": "20 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9902,7 +9928,7 @@
           "isNew": false
         },
         {
-          "sr": 149,
+          "sr": 151,
           "date": "14 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9914,7 +9940,7 @@
           "isNew": false
         },
         {
-          "sr": 150,
+          "sr": 152,
           "date": "10 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9926,7 +9952,7 @@
           "isNew": false
         },
         {
-          "sr": 151,
+          "sr": 153,
           "date": "17 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9938,7 +9964,7 @@
           "isNew": false
         },
         {
-          "sr": 152,
+          "sr": 154,
           "date": "13 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9950,7 +9976,7 @@
           "isNew": false
         },
         {
-          "sr": 153,
+          "sr": 155,
           "date": "13 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9962,7 +9988,7 @@
           "isNew": false
         },
         {
-          "sr": 154,
+          "sr": 156,
           "date": "13 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9974,7 +10000,7 @@
           "isNew": false
         },
         {
-          "sr": 155,
+          "sr": 157,
           "date": "10 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9986,7 +10012,7 @@
           "isNew": false
         },
         {
-          "sr": 156,
+          "sr": 158,
           "date": "10 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9998,7 +10024,7 @@
           "isNew": false
         },
         {
-          "sr": 157,
+          "sr": 159,
           "date": "06 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10010,7 +10036,7 @@
           "isNew": false
         },
         {
-          "sr": 158,
+          "sr": 160,
           "date": "05 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10022,7 +10048,7 @@
           "isNew": false
         },
         {
-          "sr": 159,
+          "sr": 161,
           "date": "05 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10034,7 +10060,7 @@
           "isNew": false
         },
         {
-          "sr": 160,
+          "sr": 162,
           "date": "05 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10046,7 +10072,7 @@
           "isNew": false
         },
         {
-          "sr": 161,
+          "sr": 163,
           "date": "03 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10058,7 +10084,7 @@
           "isNew": false
         },
         {
-          "sr": 162,
+          "sr": 164,
           "date": "22 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10070,7 +10096,7 @@
           "isNew": false
         },
         {
-          "sr": 163,
+          "sr": 165,
           "date": "22 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10082,7 +10108,7 @@
           "isNew": false
         },
         {
-          "sr": 164,
+          "sr": 166,
           "date": "19 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10094,7 +10120,7 @@
           "isNew": false
         },
         {
-          "sr": 165,
+          "sr": 167,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10106,7 +10132,7 @@
           "isNew": false
         },
         {
-          "sr": 166,
+          "sr": 168,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10118,7 +10144,7 @@
           "isNew": false
         },
         {
-          "sr": 167,
+          "sr": 169,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10130,7 +10156,7 @@
           "isNew": false
         },
         {
-          "sr": 168,
+          "sr": 170,
           "date": "12 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10142,7 +10168,7 @@
           "isNew": false
         },
         {
-          "sr": 169,
+          "sr": 171,
           "date": "11 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10151,26 +10177,6 @@
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2024/consultation-paper-on-procedure-for-seeking-waiver-or-reduction-of-interest-in-respect-of-recovery-proceedings-initiated-for-failure-to-pay-penalty-_88322.html",
           "summary": "This document is a SEBI consultation paper, dated November 11, 2024, seeking public comments on a proposed “Procedure for seeking waiver or reduction of interest in respect of recovery proceedings initiated for failure to pay penalty.” Based on the text provided, it does not itself announce a final rule or immediate legal change; rather, it indicates that SEBI is considering a formal process for parties who have been subjected to recovery proceedings after failing to pay a penalty and are seeking relief from the interest component of those proceedings.\n\nFor compliance purposes, the key takeaway is that the proposal concerns only the interest charged in recovery actions triggered by non-payment of penalties, not the underlying penalty itself. The document indicates that SEBI is consulting on how such waiver or reduction requests should be made and processed, but the specific eligibility criteria, filing procedure, decision-maker, timelines, and any interest rates or thresholds are not included in the text provided. No effective date for a binding change is stated in the excerpt, and no compliance deadline is given other than the invitation to submit comments through SEBI’s public comment portal.\n\nIf your organization has any pending or potential SEBI penalty matters that could lead to recovery proceedings, this consultation may be relevant because it could affect the amount recoverable through interest relief. However, because the excerpt contains only the consultation notice and not the substantive proposal, a compliance team would need to review the full consultation paper to determine who may apply, under what conditions interest may be waived or reduced, and what procedural steps would apply once SEBI finalizes the framework.",
           "summarySource": "desc",
-          "isNew": false
-        },
-        {
-          "sr": 170,
-          "date": "09 Nov 2024",
-          "year": 2024,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on proposed review of the definition of Unpublished Price Sensitive Information under SEBI (Prohibition of Insider Trading) Regulations, 2015 to bring regulatory clarity, certainty and uniformity of compliance in the ecosystem",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2024/consultation-paper-on-proposed-review-of-the-definition-of-unpublished-price-sensitive-information-under-sebi-prohibition-of-insider-trading-regulations-2015-to-bring-regulatory-clarity-certainty-_88313.html",
-          "isNew": false
-        },
-        {
-          "sr": 171,
-          "date": "06 Nov 2024",
-          "year": 2024,
-          "cat": "Consultation Paper",
-          "title": "Consultation paper on review of requirements of alignment of interest of the Designated Employees of the AMC with the interest of the unitholders Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2024/consultation-paper-on-review-of-requirements-of-alignment-of-interest-of-the-designated-employees-of-the-amc-with-the-interest-of-the-unitholders_88268.html",
           "isNew": false
         },
         {
@@ -11646,7 +11652,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812277716,
+      "ts": 1788822619370,
       "ok": true,
       "newCount": 0
     },
@@ -13161,7 +13167,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812280761,
+      "ts": 1788822623299,
       "ok": true,
       "newCount": 0
     },
@@ -13192,7 +13198,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812282505,
+      "ts": 1788822625147,
       "ok": true,
       "newCount": 0
     },
@@ -16799,7 +16805,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812319640,
+      "ts": 1788822662809,
       "ok": true,
       "newCount": 0
     },
@@ -17054,7 +17060,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812321870,
+      "ts": 1788822665115,
       "ok": true,
       "newCount": 0
     },
@@ -20661,7 +20667,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812324745,
+      "ts": 1788822669930,
       "ok": true,
       "newCount": 0
     },
@@ -20860,7 +20866,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812326874,
+      "ts": 1788822672064,
       "ok": true,
       "newCount": 0
     },
@@ -21107,7 +21113,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812329084,
+      "ts": 1788822673963,
       "ok": true,
       "newCount": 0
     },
@@ -21414,7 +21420,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812338015,
+      "ts": 1788822682578,
       "ok": true,
       "newCount": 0
     },
@@ -25021,7 +25027,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812340230,
+      "ts": 1788822685278,
       "ok": true,
       "newCount": 0
     },
@@ -25268,7 +25274,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812343413,
+      "ts": 1788822688407,
       "ok": true,
       "newCount": 0
     },
@@ -25515,7 +25521,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812346629,
+      "ts": 1788822691480,
       "ok": true,
       "newCount": 0
     },
@@ -25635,7 +25641,7 @@
           "year": 2023,
           "cat": "Guidelines",
           "title": "सीमापार पुनर्बीमाकर्ताओं को एफआरएन के निर्गम संबंधी दिशानिर्देश Guidelines on issuance of FRNs to Cross Border Reinsurers.pdf\n\t\t\t\t\t\t\t\t\t\t\t8.1 MB",
-          "desc": "",
+          "desc": "INSURANCE REGULATORY AND Amrit Monhotsav ircleai DEVELOPMENT AUTHORITY OF INDIA : / / / /2/1/2023 3, 2023 Ref: IRDAI/REIN/GDL/MISC/2/1/2023 January 3, 2023 Wid/To / The CEOs of All Insurers fase: ( ) Subject: Guidelines on issuance of File Reference Numbers (FRN) to Cross Border Re-insurers 1. Background: . A. The Indian Insurance Industry is poised for growth and the Authority has been taking various steps to reduce the protection gap and develop the Insurance industry. These steps are towards ease of doing business and would also facilitate further development of the insurance industry. . ( ) / , - , ( ) , 2018 ( ) , B. The availability of well-developed reinsurance market ensures that insurance products are available at reasonable prices to the policyholders. The Cross Border Re-insurers (CBRs) play a significant role in reinsurance market in providing reinsurance support/capacity to the Insurers. The insurer has to ensure that CBRs meet, interalia, rating requirements as per IRDAI (Reinsurance) Regulations, 2018 and shall have File Reference Number (FRN), before placing any business with them. At present, such FRNs are allotted on annual basis by the Authority. . - ( ) , , C. After considering the feedback and also inputs from the Task Force on Non- life Insurers and Reinsurers and the Working group on ease of doing business, it has been decided to consider Auto-renewal of FRNs by the .-.115/1, 509 8 . 115/1, Financial District = 7 Nanakramguda, Gachibowli, Hyderabad — 500032 ARIEL SIs RITE SEU OE SE Tel: +91-40-20204000 : +91-40-20204000 7868 1/5 LS = Los INSURANCE REGULATORY AND Azadi DEVELOPMENT AUTHORITY OF INDIA Ss, m Insurer itself, provided such CBRs meet the required criteria as specified hereafter. ( ) , 2018 4(3) 1203) 3461) , . The Authority in exercise of the powers conferred under Sec. 34 (1) of the Insurance Act, 1938 read with Reg. 4 (3) and 12 (3) of the IRDAI (Re- insurance) Regulations, 2018, makes the following Guidelines. . / 1/ / /015/01/202",
           "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%B8%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0+%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%8B+%E0%A4%8F%E0%A4%AB%E0%A4%86%E0%A4%B0%E0%A4%8F%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6+Guidelines+on+issuance+of+FRNs+to+Cross+Border+Reinsurers.pdf/f7c83eaa-24b2-ce7d-96ed-9d8e5e5eecaa?version=2.0&t=1682510377843&download=true",
           "summary": "The Insurance Regulatory and Development Authority of India (IRDAI), by guidelines dated **January 3, 2023** and issued to the CEOs of all insurers, has changed the process for **File Reference Numbers (FRNs) for Cross Border Re-insurers (CBRs)**. Previously, FRNs were allotted **annually by IRDAI**; under these guidelines, insurers may now **auto-renew the FRN themselves** for eligible CBRs, rather than waiting for a fresh annual allotment from the Authority. The stated policy rationale is to support growth of the insurance market, improve ease of doing business, and ensure insurers can continue accessing reinsurance capacity efficiently.\n\nThe compliance implication is that an insurer may place reinsurance business with a CBR only if the CBR continues to satisfy the required criteria, including the **rating requirements under the IRDAI (Reinsurance) Regulations, 2018**, and the insurer must ensure the CBR has a valid FRN before placing business. The guidelines are issued under **Section 34(1) of the Insurance Act, 1938**, read with **Regulations 4(3) and 12(3) of the IRDAI (Reinsurance) Regulations, 2018**. No numerical threshold, percentage, or monetary limit is stated in the provided text, but the operative change is procedural: insurers are now expected to maintain the FRN status of qualifying cross-border reinsurers through an internal auto-renewal mechanism, subject to ongoing satisfaction of the prescribed eligibility conditions.",
           "summarySource": "desc",
@@ -25762,7 +25768,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812349759,
+      "ts": 1788822694580,
       "ok": true,
       "newCount": 0
     },
@@ -25819,7 +25825,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812359691,
+      "ts": 1788822706967,
       "ok": true,
       "newCount": 0
     },
@@ -25886,7 +25892,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812364507,
+      "ts": 1788822711763,
       "ok": true,
       "newCount": 0
     },
@@ -25953,7 +25959,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812369288,
+      "ts": 1788822716510,
       "ok": true,
       "newCount": 0
     },
@@ -25972,28 +25978,28 @@
           "isNew": false
         }
       ],
-      "ts": 1788812380630,
+      "ts": 1788822728113,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1788812402034,
+      "ts": 1788822746739,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1788812417153,
+      "ts": 1788822762169,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1788812432179,
+      "ts": 1788822778381,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1788812447684,
+      "ts": 1788822794295,
       "ok": true
     },
     "NFRA_0": {
@@ -26071,7 +26077,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812450845,
+      "ts": 1788822797240,
       "ok": true,
       "newCount": 0
     },
@@ -26222,7 +26228,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812452318,
+      "ts": 1788822798722,
       "ok": true,
       "newCount": 0
     },
@@ -26306,7 +26312,7 @@
           "year": 2021,
           "cat": "Consultation Paper",
           "title": "Public Comments Received on Questions Posed in Consultation Paper based on Report of the Technical Advisory Committee on Enhancing Engagement with Stakeholders",
-          "desc": "",
+          "desc": "PUBLIC COMMENTS RECEIVED on Questions Posed in Consultation Paper based on Report of the Technical Advisory Committee on Enhancing Engagement with Stakeholders National Financial Reporting Authority 7th – 8th Floor, Hindustan Times House 18- 20, Kasturba Gandhi Marg, New Delhi -110001 https://nfra.gov.in List of Respondents to the Comment Letter* Sl.No. Name of the Respondent Type of Respondent Page Number 1 Confederation of Indian Industry (CII) Industry Body 3-15 2 NASSCOM Industry Body 16-22 3 Bharatiya Vitta Salahkar Samiti (BVSS) Industry Body 23-27 4 ASSOCHAM Industry Body 28-37 5 Arun Jaitley National Institute of Financial Management (AJNIFM), Ministry of Finance, Government of India Research/Academia 38-43 6 Foundation for Audit Quality (FAQ) Research/Academia 44-56 7 Forum For Indian Accounting Research (FFIAR) Research/Academia 57-62 8 Walker Chandiok & Co LLP Audit Firm 63-70 9 S.R. Batliboi & Affiliates Audit Firm 71-81 10 Deloitte, Haskins & Sells LLP (DHS) Audit Firm 82-113 11 BSR &Co. LLP Audit Firm 114-139 12 Price Waterhouse Audit Firm 140-162 13 Mr Abhishek Mahawar Individual/Others 163-164 14 Excellence Enablers Private Limited Individual/Others 165-167 15 Dr. Avinash Chander, Former Technical Director, ICAI Individual/Others 168-174 16 Dr Vijay Kapur, Former Director, ICAI Individual/Others 175-182 17 The Institute of Chartered Accountants of India (ICAI) Professional Body 183-303 * Above list excludes 1 comment letter by the name Dinesh Trading which is not relevant to CP. CII’s views on NFRA’s Consultation Paper on Enhancing Engagement with Stakeholders (“the Paper”) Background The Confederation of Indian Industry (CII) greatly acknowledge the contribution made by the National Financial Reporting Authority (NFRA) in protecting the public interest and the interests of investors, creditors and others associated with public interest entities falling within the NFRA jurisdiction, by establishing high quality standards of accounting and auditing, a",
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020753.pdf",
           "summary": "This document is an NFRA compilation of public comments received in response to its consultation paper on the Technical Advisory Committee’s report on enhancing engagement with stakeholders. It does not itself impose new rules or deadlines; instead, it identifies who submitted comments and preserves those submissions for NFRA’s consideration. The listed respondents include industry bodies, academia/research institutions, audit firms, individual commenters, and ICAI, with page references for each submission; one comment letter from “Dinesh Trading” is expressly excluded as not relevant to the consultation paper.\n\nFrom the excerpt provided, CII’s comment letter begins by acknowledging NFRA’s role in protecting the public interest and the interests of investors, creditors, and other stakeholders associated with public interest entities under NFRA jurisdiction, primarily by establishing high-quality accounting and auditing standards. The visible text does not yet show the substantive proposals or objections from CII beyond this introductory recognition. Because the excerpt ends mid-sentence, a complete compliance assessment of the specific issues raised in the comments would require the remaining pages of the document.",
           "summarySource": "desc",
@@ -26361,7 +26367,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812453786,
+      "ts": 1788822800198,
       "ok": true,
       "newCount": 0
     },
@@ -26512,7 +26518,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812455254,
+      "ts": 1788822801672,
       "ok": true,
       "newCount": 0
     },
@@ -26759,7 +26765,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812461671,
+      "ts": 1788822808365,
       "ok": true,
       "newCount": 0
     },
@@ -27006,7 +27012,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812467930,
+      "ts": 1788822814602,
       "ok": true,
       "newCount": 0
     },
@@ -30613,7 +30619,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788812470138,
+      "ts": 1788822817084,
       "ok": true,
       "newCount": 0
     }
