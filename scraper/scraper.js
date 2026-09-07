@@ -1410,14 +1410,20 @@ const FULL_CONTENT_DIR = path.join(__dirname, '..', 'data', 'full-content');
 
 // Stable filename for a document's full text, derived from its link — same document always
 // maps to the same filename across every run, so the VM summarizer can find it reliably.
+// Sharded into subfolders by the first 2 hex characters of the hash (up to 256 subfolders,
+// same technique Git itself uses for its own object store) — with 2500+ documents, a flat
+// single folder would hit GitHub's 1000-file browsing truncation limit; sharding keeps each
+// individual folder small regardless of how large the full index grows.
 function linkToFilename(link) {
-  return crypto.createHash('sha256').update(link).digest('hex').substring(0, 20) + '.txt';
+  const hash = crypto.createHash('sha256').update(link).digest('hex').substring(0, 20);
+  return path.join(hash.substring(0, 2), hash + '.txt');
 }
 
 function saveFullContent(link, text) {
   try {
-    fs.mkdirSync(FULL_CONTENT_DIR, { recursive: true });
-    fs.writeFileSync(path.join(FULL_CONTENT_DIR, linkToFilename(link)), text, 'utf8');
+    const filePath = path.join(FULL_CONTENT_DIR, linkToFilename(link));
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    fs.writeFileSync(filePath, text, 'utf8');
   } catch (e) {
     console.warn(`  [full-content] failed to save for ${link}: ${e.message}`);
   }
