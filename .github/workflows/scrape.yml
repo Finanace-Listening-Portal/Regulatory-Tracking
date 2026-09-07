@@ -57,6 +57,13 @@ jobs:
           else
             echo "data/debug does NOT exist after scraper run"
           fi
+          if [ -d data/full-content ]; then
+            echo "data/full-content exists, file count:"
+            ls data/full-content | wc -l
+            git add data/full-content
+          else
+            echo "data/full-content does NOT exist after scraper run"
+          fi
           git status
           git diff --staged --quiet || git commit -m "Update regulatory data ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
           git push
