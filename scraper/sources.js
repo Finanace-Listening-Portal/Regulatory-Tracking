@@ -71,6 +71,7 @@ module.exports = {
         // page (/tax-feeds) — a real, dedicated department feed, not a guessed URL.
         key: 'TAXATION_0', label: 'Income Tax Circulars', cat: 'Circulars',
         rss: 'https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss',
+        rssHeadlessFallback: true,
         src: 'https://www.incometaxindia.gov.in/circulars',
         // Confirmed via debug HTML: this page's actual circular list is a Liferay "client
         // extension" widget that loads its content asynchronously — the standard settle
@@ -80,6 +81,7 @@ module.exports = {
       {
         key: 'TAXATION_1', label: 'Income Tax Notifications', cat: 'Notifications',
         rss: 'https://www.incometaxindia.gov.in/notification-rss-feed/-/asset_publisher/bxhj/rss',
+        rssHeadlessFallback: true,
         src: 'https://www.incometaxindia.gov.in/notifications',
         htmlParse: 'generic', headless: true, extraWaitMs: 15000, pierceShadowDOM: true, fetchDescFromDocument: true
       },
@@ -223,10 +225,15 @@ module.exports = {
         // continuing to guess at RSS variants. Going straight to headless HTML scraping
         // of the actual banks-news page instead, same proven approach as Business
         // Standard and ETBFSI.
+        // Confirmed via debug HTML: the fetch lands on the correct page (canonical URL
+        // matches, "bank" mentioned 232 times) but the date-requiring generic parser found
+        // 0 rows — same root cause already fixed once for ETBFSI: real articles exist, but
+        // this page doesn't have a date in plain text immediately next to each link.
+        // Switched to the dateless link-list parser instead.
         key: 'NEWSLETTER_5', label: 'Moneycontrol', cat: 'News',
         rss: null,
         src: 'https://www.moneycontrol.com/news/business/banks/',
-        htmlParse: 'generic', headless: true, keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5, fetchDescFromDocument: true
+        htmlParse: 'linklist', headless: true, keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5, fetchDescFromDocument: true
       },
       {
         // ETBFSI is Economic Times' dedicated Banking/Financial Services/Insurance vertical
