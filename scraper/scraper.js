@@ -1345,11 +1345,10 @@ async function fetchDocumentDesc(url) {
     let text = bestBlock ? $(bestBlock).text() : $('body').text();
     text = text.replace(/\s+/g, ' ').trim();
 
-    // Raised back to 5000 chars — the fuller-detail AI summary prompt needs enough source
-    // material to work from (documents can have 60,000+ real characters, and a short 1500-
-    // char excerpt often didn't reach the specific dates/numbers/procedures now expected in
-    // summaries). Accepted tradeoff: data.json will be larger than the 1500-char version.
-    return cleanExtractedText(text).substring(0, 5000) || null;
+    // No cap here anymore — returns the COMPLETE extracted document text. The caller
+    // decides how much becomes the short on-page preview vs. what gets stored in full for
+    // AI summarization, since those have very different size requirements.
+    return cleanExtractedText(text) || null;
   } catch (e) {
     return null; // silent — this is a best-effort enrichment, not a required step
   }
@@ -1398,11 +1397,29 @@ async function extractPdfText(arrayBuffer) {
   try {
     const buffer = Buffer.from(arrayBuffer);
     const parsed = await pdfParse(buffer);
-    return cleanExtractedText(parsed.text).substring(0, 5000) || null;
+    return cleanExtractedText(parsed.text) || null;
   } catch (e) {
     return null;
   } finally {
     console.warn = originalWarn;
+  }
+}
+
+const crypto = require('crypto');
+const FULL_CONTENT_DIR = path.join(__dirname, '..', 'data', 'full-content');
+
+// Stable filename for a document's full text, derived from its link — same document always
+// maps to the same filename across every run, so the VM summarizer can find it reliably.
+function linkToFilename(link) {
+  return crypto.createHash('sha256').update(link).digest('hex').substring(0, 20) + '.txt';
+}
+
+function saveFullContent(link, text) {
+  try {
+    fs.mkdirSync(FULL_CONTENT_DIR, { recursive: true });
+    fs.writeFileSync(path.join(FULL_CONTENT_DIR, linkToFilename(link)), text, 'utf8');
+  } catch (e) {
+    console.warn(`  [full-content] failed to save for ${link}: ${e.message}`);
   }
 }
 
@@ -1467,8 +1484,11 @@ async function enrichThinDescriptions(output) {
       anyRemaining = true;
 
       const row = t.entry.rows[t.order[pos]];
-      const desc = await fetchDocumentDesc(row.link);
-      if (desc) row.desc = desc;
+      const fullText = await fetchDocumentDesc(row.link);
+      if (fullText) {
+        row.desc = fullText.substring(0, 2000); // short preview only — keeps data.json manageable to view/open
+        saveFullContent(row.link, fullText); // complete text, for AI summarization to read from
+      }
       fetched++;
       tabCursors.set(t, pos + 1);
       await new Promise(r => setTimeout(r, 200));
