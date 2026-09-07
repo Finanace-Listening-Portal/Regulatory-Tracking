@@ -1813,7 +1813,9 @@
           "title": "Goods and Services Tax | Rule 43 Amendment Excluding Duty Scrips From ITC Reversal Is Prospective: GSTAT",
           "desc": "GSTAT Kolkata holds Notification No. 14/2022 amending Rule 43 to exclude duty credit scrips from exempt turnover is prospective, but Section 74 cannot apply without fraud, wilful misstatement or suppr",
           "link": "https://taxguru.in/goods-and-service-tax/rule-43-amendment-excluding-duty-scrips-itc-reversal-prospective-gstat.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports a GST Appellate Tribunal (GSTAT), Kolkata ruling on Notification No. 14/2022, which amended Rule 43 to exclude duty credit scrips from “exempt turnover” for input tax credit (ITC) reversal purposes. The key holding is that this amendment is **prospective only**, meaning taxpayers should apply it only from the date the notification took effect and not retroactively to prior periods. In practical terms, businesses that received or used duty credit scrips before the amendment should not have those amounts automatically included in exempt turnover for Rule 43 ITC reversal calculations based on the later amendment.  \n\nThe decision also addresses recovery action under **Section 74 of the GST law**, stating that Section 74 cannot be invoked unless the department can establish **fraud, wilful misstatement, or suppression of facts**. This means that where the department seeks to demand tax, interest, or penalties by alleging wrongful ITC treatment related to duty credit scrips, it must first satisfy the statutory threshold for Section 74; mere disagreement over interpretation or retrospective application of the Rule 43 amendment is not enough.  \n\nFor compliance teams, the ruling is relevant to entities that claim, receive, or account for duty credit scrips and that perform Rule 43 ITC reversals because they make both taxable and exempt supplies. The operational takeaway is to review historical periods separately from periods after Notification No. 14/2022, ensure Rule 43 calculations reflect the prospective effective date, and challenge any Section 74 demand that is not backed by evidence of fraud, wilful misstatement, or suppression.",
+          "summarySource": "desc"
         },
         {
           "sr": 81,
@@ -1823,7 +1825,9 @@
           "title": "Goods and Services Tax | IGST Refund on Exports: Madras High Court Directs Consideration of Claim",
           "desc": "Madras HC permits Kuntal Granites to submit documents for IGST export refund and directs GST authority to decide the claim on merits.The post IGST Refund on Exports: Madras High Court Directs Consider",
           "link": "https://taxguru.in/goods-and-service-tax/igst-refund-exports-madras-high-court-directs-consideration-claim.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports that the Madras High Court has allowed Kuntal Granites to submit supporting documents in relation to its claim for an IGST refund on exports and has directed the GST authority to examine and decide the refund claim on its merits. The practical compliance point is that the court did not itself grant the refund; instead, it required the tax authority to consider the claim after receiving the relevant documentation, which implies the taxpayer must promptly furnish the materials needed to support export/refund eligibility.  \n\nNo new general rule, rate, threshold, or industry-wide procedure is stated in the excerpt, and no effective date or deadline is specified beyond the immediate court direction to process the matter once the documents are submitted. The affected entity is Kuntal Granites, and by implication the ruling is relevant to exporters seeking IGST refund on export transactions where documentary support is required and the tax authority has not yet adjudicated the claim on the merits.",
+          "summarySource": "desc"
         },
         {
           "sr": 82,
@@ -1833,7 +1837,9 @@
           "title": "Income Tax | ITAT Indore Remands Agricultural Land Capital Gains Dispute for De Novo Adjudication",
           "desc": "ITAT Indore condones 575-day delay, sets aside CIT(A) order and remands rural agricultural land capital gains dispute to AO for fresh adjudication.The post ITAT Indore Remands Agricultural Land Capita",
           "link": "https://taxguru.in/income-tax/itat-indore-remands-agricultural-land-capital-gains-dispute-de-novo-adjudication.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The Income Tax Appellate Tribunal (ITAT), Indore has **condoned a 575-day delay** in filing the appeal and has **set aside the order of the Commissioner of Income Tax (Appeals) [CIT(A)]**, remanding the matter back to the Assessing Officer (AO) for **fresh, de novo adjudication**. The dispute concerns the **capital gains treatment of a rural agricultural land transaction**, so the key compliance issue is whether the land qualifies for the applicable tax treatment/exemption framework for agricultural land versus being taxable as a capital asset.\n\nFor a compliance team, the practical significance is that the earlier appellate finding is **not final** and the tax position on this land sale remains open pending re-examination by the AO. The remand means the taxpayer will need to **re-establish the factual and legal basis** for the treatment of the land, likely including proof of the land’s rural/agricultural character and any supporting records relevant to capital gains computation or exemption eligibility. No specific tax rate, threshold, or filing deadline is stated in the excerpt beyond the **575-day delay that was excused**; the operative procedural requirement is that the case will be reconsidered from the beginning by the tax officer.",
+          "summarySource": "desc"
         },
         {
           "sr": 83,
@@ -1843,7 +1849,9 @@
           "title": "Income Tax | ITAT Mumbai Deletes Notional Interest on Unconventional Exclusivity Payment",
           "desc": "ITAT Mumbai partly allows Tech Mahindra’s AY 2008-09 appeal, deleting major transfer-pricing interest adjustments and remanding section 14A computation.The post ITAT Mumbai Deletes Notional Interest o",
           "link": "https://taxguru.in/income-tax/itat-mumbai-deletes-notional-interest-unconventional-exclusivity-payment.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports that the Income Tax Appellate Tribunal (ITAT), Mumbai partly allowed Tech Mahindra’s appeal for Assessment Year 2008-09 and significantly reduced the transfer-pricing and disallowance adjustments made by the tax authorities. The Tribunal deleted a major notional-interest transfer-pricing adjustment that had been made in connection with an “unconventional exclusivity payment,” indicating that the tax authorities could not justify imputing interest on that payment structure for the year in question. This is important for entities engaged in cross-border or related-party arrangements because it shows that the tax treatment of non-standard commercial payments may not automatically support an interest imputation adjustment.\n\nThe Tribunal also remanded the computation under section 14A, meaning the disallowance relating to exempt-income expenses was not finally decided and must be recalculated/re-examined by the lower authority. For compliance teams, the practical takeaway is that companies with similar transfer-pricing positions or exempt-income expense allocations should maintain strong documentation supporting the commercial purpose and valuation of unusual payments, and ensure section 14A expense allocations are computed consistently with current legal standards, as these items remain audit-sensitive and may be revisited on remand. No new statutory deadlines, rates, or filing dates are stated in the document excerpt provided.",
+          "summarySource": "desc"
         },
         {
           "sr": 84,
@@ -1853,7 +1861,9 @@
           "title": "Goods and Services Tax | Madras HC Grants Retrospective ITC Benefit Where Return Filed Before 30.11.2021",
           "desc": "Madras HC quashes GST ITC demand for FY 2018-19 as return was filed before the Section 16(5) cut-off of 30.11.2021.The post Madras HC Grants Retrospective ITC Benefit Where Return Filed Before 30.11.2",
           "link": "https://taxguru.in/goods-and-service-tax/madras-hc-grants-retrospective-itc-benefit-return-filed-30-11-2021.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports a Madras High Court decision holding that a GST input tax credit (ITC) claim for FY 2018–19 could not be denied where the relevant return had been filed before the statutory cut-off date of 30.11.2021 under Section 16(5) of the CGST Act. In effect, the Court quashed the GST demand that had been raised to deny ITC for that year, treating the return filing date as determinative for eligibility to the retrospective benefit. The practical compliance takeaway is that taxpayers who had already filed the relevant return before 30.11.2021 may be protected from ITC disallowance on the basis of the Section 16(5) time limit, even if the credit related to an earlier period such as FY 2018–19. This is a litigation outcome rather than a new rule change, but it directly affects GST return filers and businesses facing or reviewing ITC denials tied to the 30.11.2021 deadline. Companies should check whether any pending or concluded GST notices/disallowance proceedings concern FY 2018–19 or similar periods and whether the return was filed before the cut-off, because that fact now appears central to defending the credit claim.",
+          "summarySource": "desc"
         },
         {
           "sr": 85,
@@ -1863,7 +1873,9 @@
           "title": "Income Tax | ITAT Chennai Allows Enhanced ₹25 Lakh Leave Encashment Exemption for Retired Bank Employee",
           "desc": "ITAT Chennai condones 1,221-day delay and allows ₹11.27 lakh leave encashment exemption under the enhanced ₹25 lakh limit.The post ITAT Chennai Allows Enhanced ₹25 Lakh Leave Encashment Exemption for ",
           "link": "https://taxguru.in/income-tax/itat-chennai-enhanced-rs-25-lakh-leave-encashment-exemption-retired-bank-employee.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports an Income Tax Appellate Tribunal (ITAT) Chennai ruling in favor of a retired bank employee on leave encashment tax exemption. The tribunal first condoned a significant procedural delay of 1,221 days, allowing the appeal to be heard on merits despite the lateness. On the substantive tax issue, it permitted the employee to claim leave encashment exemption of ₹11.27 lakh under the enhanced statutory ceiling of ₹25 lakh, rather than restricting the benefit under the older, lower limit.\n\nFor compliance purposes, the key point is that the enhanced ₹25 lakh exemption limit for leave encashment was applied to a retired bank employee, and the tribunal recognized that the taxpayer was entitled to exemption for the amount actually received, here ₹11.27 lakh, subject to the updated cap. The case indicates that payroll, tax withholding, and employee tax reporting for eligible retiring employees should reflect the revised exemption ceiling where applicable. It also shows that procedural delay in challenging tax treatment may sometimes be excused, but only by the tribunal on a case-specific basis; there is no general filing extension created by this decision.",
+          "summarySource": "desc"
         },
         {
           "sr": 86,
@@ -1873,7 +1885,9 @@
           "title": "Goods and Services Tax | Bombay HC Quashes Consolidated GST Notice Covering Multiple Financial Years",
           "desc": "Bombay High Court quashes a Section 73 GST notice clubbing FY 2021-22 to 2023-24, allowing fresh notice strictly under law.The post Bombay HC Quashes Consolidated GST Notice Covering Multiple Financia",
           "link": "https://taxguru.in/goods-and-service-tax/bombay-hc-quashes-consolidated-gst-notice-covering-multiple-financial-years.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports that the Bombay High Court has quashed a GST notice issued under Section 73 that had improperly clubbed multiple financial years—FY 2021-22, FY 2022-23, and FY 2023-24—into a single consolidated proceeding. The court held that this approach was not permissible and that if the tax department wants to proceed, it must issue a fresh notice in compliance with the law, rather than relying on the invalid consolidated notice.\n\nFor compliance purposes, the key point is procedural: the decision reinforces that GST notices under Section 73 must be issued in a manner that is legally valid for the relevant tax period and cannot simply aggregate several years into one notice if the statute does not allow it. This affects taxpayers who receive multi-year consolidated GST demands or notices, as such notices may be vulnerable to challenge on procedural grounds. The document does not provide any tax-rate changes, threshold changes, penalty amounts, or deadline dates; its significance is the court’s rejection of the clubbed notice and the requirement that any further action be taken through a fresh notice that strictly follows the governing GST law.",
+          "summarySource": "desc"
         },
         {
           "sr": 87,
@@ -1883,7 +1897,9 @@
           "title": "Company Law | Kerala HC Rejects Limitation Objection Against Official Liquidator’s Recovery Claim",
           "desc": "Kerala High Court held that Official Liquidator’s claim under Section 446 can be filed within four years from the winding-up order.The post Kerala HC Rejects Limitation Objection Against Official Liqu",
           "link": "https://taxguru.in/company-law/kerala-hc-rejects-limitation-objection-against-official-liquidators-recovery-claim.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The Kerala High Court held that an Official Liquidator’s recovery claim under Section 446 is subject to a four-year limitation period running from the date of the winding-up order, and therefore a limitation objection could not defeat the claim in this case. The ruling confirms that where a company has been ordered to be wound up, the Official Liquidator may initiate recovery proceedings within four years of that order, rather than being barred by a shorter or earlier limitation period argued by the opposing party. For compliance purposes, this means entities dealing with a company in liquidation should treat claims brought by the Official Liquidator as potentially timely for up to four years after the winding-up order and should not assume such claims are time-barred merely because more time has passed from the underlying transaction or default. The decision is relevant to companies, counterparties, and legal/compliance teams involved in insolvency, liquidation, or legacy recovery disputes, because it reinforces the Liquidator’s ability to pursue recovery actions during that four-year window.",
+          "summarySource": "desc"
         },
         {
           "sr": 88,
@@ -1893,7 +1909,9 @@
           "title": "Corporate Law | Calcutta HC Accepted ED Officer’s Unconditional Apology in Stay Order Contempt",
           "desc": "Calcutta HC accepts ED officer’s unconditional apology for prima facie violation of a subsisting stay order and closes contempt proceedings.The post Calcutta HC Accepted ED Officer’s Unconditional Apo",
           "link": "https://taxguru.in/corporate-law/calcutta-hc-accepted-ed-officers-unconditional-apology-stay-order-contempt.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports a Calcutta High Court contempt matter involving an Enforcement Directorate (ED) officer who was found to have prima facie acted in violation of an existing stay order. The court accepted the officer’s unconditional apology and, as a result, closed the contempt proceedings. From a compliance perspective, the key point is that the court treated the conduct as a serious potential breach of a subsisting judicial stay, but resolved the matter through the officer’s apology rather than further sanction in this instance.\n\nNo new regulatory rule, filing deadline, monetary threshold, or formal procedure is announced in the text provided. The practical compliance takeaway is limited to the reminder that orders of court—especially stay orders—must be strictly observed by government officers and enforcement personnel, because even prima facie noncompliance can trigger contempt proceedings.",
+          "summarySource": "desc"
         },
         {
           "sr": 89,
@@ -1903,7 +1921,9 @@
           "title": "Goods and Services Tax | GSTAT Bengaluru Denies Section 128A Waiver for December 2020 ITC Demand",
           "desc": "GSTAT Bengaluru holds Section 128A waiver unavailable where excess ITC was first availed in December 2020.The post GSTAT Bengaluru Denies Section 128A Waiver for December 2020 ITC Demand appeared firs",
           "link": "https://taxguru.in/goods-and-service-tax/gstat-bengaluru-denies-section-128a-waiver-december-2020-itc-demand.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports a GST Appellate Tribunal (GSTAT), Bengaluru decision holding that the Section 128A waiver is **not available** for a demand involving **excess input tax credit (ITC) first availed in December 2020**. In practical terms, this means a taxpayer cannot use the Section 128A relief mechanism to extinguish or reduce liability for that ITC demand if the disputed credit originated in that period, and the tribunal’s view narrows the availability of the waiver based on the **date the excess ITC was first claimed**.\n\nFor compliance teams, the key point is that **timing of the original ITC availment matters**: if the excess credit was first taken in **December 2020**, this ruling indicates the taxpayer may remain exposed to the underlying GST demand, along with the associated consequences under the normal assessment/enforcement process. The summary provided does not include additional procedural directions, monetary amounts, or filing deadlines beyond the December 2020 date and the conclusion that Section 128A relief was denied, so the immediate compliance takeaway is to review any pending or historical ITC disputes to confirm whether the credit was first availed during a period that may fall outside Section 128A waiver eligibility.",
+          "summarySource": "desc"
         },
         {
           "sr": 90,
@@ -1913,7 +1933,9 @@
           "title": "Goods and Services Tax | Gujarat HC Quashes GST Notices and Orders Issued Against Deceased Proprietor",
           "desc": "Gujarat HC quashes GST proceedings initiated against deceased proprietor, allowing fresh proceedings against the legal heir in accordance with law.The post Gujarat HC Quashes GST Notices and Orders Is",
           "link": "https://taxguru.in/goods-and-service-tax/gujarat-hc-quashes-gst-notices-orders-issued-against-deceased-proprietor.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The Gujarat High Court held that GST notices and consequential orders issued in the name of a deceased sole proprietor are invalid, because proceedings cannot validly continue against a non-existent person. In the case described, the GST department had initiated and completed proceedings against a proprietorship after the proprietor had died, and the Court quashed those notices and orders on that ground.\n\nFor compliance purposes, the key takeaway is that when a proprietor dies, the tax authorities must follow the legal route for proceeding against the estate or legal heir rather than continuing or issuing fresh notices in the deceased proprietor’s name. The Court permitted the department to start fresh proceedings against the legal heir, but only in accordance with law, meaning the authority must identify and proceed against the correct successor/legal representative and comply with the applicable procedural requirements. This is especially relevant for GST registrations and assessments involving sole proprietorships, where the proprietor’s death can create a defect in jurisdiction or party identity if notices are still addressed to the deceased.\n\nThere is no change to GST rates, thresholds, filing deadlines, or tax liability rules in this item; the material point is procedural validity of enforcement actions. Compliance teams should therefore ensure that, upon learning of a proprietor’s death, any ongoing GST dispute, show-cause notice, assessment, demand, or appeal is reviewed promptly for whether the proper party has been substituted and whether notices need to be reissued to the legal heir or representative under the governing legal procedure.",
+          "summarySource": "desc"
         },
         {
           "sr": 91,
@@ -1923,7 +1945,9 @@
           "title": "Income Tax | Jharkhand HC Quashes GST Orders Passed Against Deceased Proprietor, Allows Fresh Legal Action",
           "desc": "Jharkhand HC quashes GST orders against deceased proprietor and leaves department free to pursue claims against legal representative in accordance with law.The post Jharkhand HC Quashes GST Orders Pas",
           "link": "https://taxguru.in/income-tax/jharkhand-hc-quashes-gst-orders-passed-against-deceased-proprietor-fresh-legal-action.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The Jharkhand High Court held that GST assessment/orders passed against a sole proprietorship after the proprietor’s death are not sustainable, and it quashed those orders. The key compliance point is that the tax department cannot validly continue proceedings or issue enforceable orders in the name of a deceased proprietor; once death occurs, any recovery or adjudication action must be taken in accordance with law against the proper legal representative or successor, rather than against the deceased individual. \n\nThe court also made clear that its ruling does not bar the department from pursuing the underlying tax claim itself. Instead, it left the authorities free to initiate fresh legal action against the deceased proprietor’s legal representative, provided they follow the correct statutory procedure. For compliance teams, this means that if a business is a sole proprietorship and the proprietor has died, all pending GST notices, orders, or recovery steps must be reviewed immediately to confirm whether they were issued to a non-existent party and whether fresh proceedings need to be commenced against the estate/legal heir under applicable law.",
+          "summarySource": "desc"
         },
         {
           "sr": 92,
@@ -1933,7 +1957,9 @@
           "title": "Income Tax | ₹1.80 Crore Cash During Demonetisation; ITAT Delhi Restricts Section 68 Addition to ₹5 Lakh",
           "desc": "ITAT Delhi restricts demonetisation cash deposit addition to Rs. 5 lakh and directs normal-rate taxation instead of Section 115BBE.The post ₹1.80 Crore Cash During Demonetisation; ITAT Delhi Restricts",
           "link": "https://taxguru.in/income-tax/rs-1-80-crore-cash-demonetisation-itat-delhi-restricts-section-68-addition-rs-5-lakh.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document reports an Income Tax Appellate Tribunal (ITAT) Delhi decision concerning cash deposits made during the demonetisation period. The taxpayer had deposited ₹1.80 crore in cash, and the tax department sought to treat the entire amount as unexplained cash credit under Section 68, which would ordinarily trigger taxation under Section 115BBE at the punitive rate applicable to unexplained income. The ITAT, however, restricted the Section 68 addition to only ₹5 lakh, rather than the full ₹1.80 crore, materially reducing the exposure.\n\nFor compliance purposes, the key point is that the tribunal directed that the deposit be taxed at normal rates rather than under Section 115BBE, meaning the harsher special-tax regime for unexplained income was not upheld on the full amount. The decision specifically arose in the context of demonetisation-era cash deposits, so it is relevant to entities or individuals with large cash holdings and deposits during that period. No statutory amendment is described; the document is summarizing a tribunal ruling that narrows the tax addition and the applicable tax rate in this fact pattern.",
+          "summarySource": "desc"
         },
         {
           "sr": 93,
@@ -1943,7 +1969,9 @@
           "title": "Income Tax | NRI Assessee Was Abroad During ₹58.50 Lakh Cash Deposit in Joint Account: ITAT Deletes Addition",
           "desc": "ITAT Chandigarh deletes Rs.58.50 lakh cash deposit addition after finding the assessee was abroad and deposits were made by her husband.The post NRI Assessee Was Abroad During ₹58.50 Lakh Cash Deposit",
           "link": "https://taxguru.in/income-tax/nri-assessee-rs-58-50-lakh-cash-deposit-joint-account-itat-deletes-addition.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document is not a regulation or rulemaking; it is an ITAT Chandigarh tax appellate decision addressing an income-tax addition made on account of cash deposits. The Tribunal deleted the addition of ₹58.50 lakh that had been made in the assessee’s hands because the evidence showed she was an NRI and was abroad at the time the cash was deposited into a joint account. The key factual finding was that the deposits were made by her husband, not by her, and therefore the cash could not be attributed to her as unexplained income merely because the account was jointly held.  \n\nFor compliance purposes, the case reinforces that tax authorities must establish actual ownership/source of cash deposits before treating them as taxable income in the hands of a joint-account holder, especially where the person is absent from India and another joint holder controls the funds. There are no new deadlines, filing changes, thresholds, or procedural obligations announced in this item; it is an adjudication limited to the facts of this assessee’s case.",
+          "summarySource": "desc"
         },
         {
           "sr": 94,
@@ -1953,7 +1981,9 @@
           "title": "Income Tax | ITAT Delhi Directs 25% Tax Rate for Rajasthan Pulses Despite Denial of Section 115BAA",
           "desc": "ITAT Delhi holds Rajasthan Pulses taxable at 25% where FY 2017-18 turnover was below Rs.400 crore, despite failure to file Form 10-IC.The post ITAT Delhi Directs 25% Tax Rate for Rajasthan Pulses Desp",
           "link": "https://taxguru.in/income-tax/itat-delhi-directs-25-percent-tax-rate-rajasthan-pulses-denial-section-115baa.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports an Income Tax Appellate Tribunal (ITAT), Delhi ruling involving Rajasthan Pulses on the applicability of the concessional corporate tax regime under Section 115BAA. The key holding is that Rajasthan Pulses was directed to be taxed at 25% because its financial year 2017–18 turnover was below Rs. 400 crore, even though the company had failed to file Form 10-IC, which is ordinarily the procedural filing associated with opting into the lower tax regime.\n\nFor compliance purposes, the material point is that the tribunal treated the turnover condition as decisive for the lower rate, and the absence of Form 10-IC did not prevent application of the 25% tax rate on the facts of this case. The affected entity type is a corporate taxpayer eligible for the Section 115BAA regime, with the relevant factual threshold being prior-year turnover under Rs. 400 crore. The decision signals that companies in similar circumstances should review whether they qualify for the reduced rate based on turnover and should not assume that a procedural lapse alone necessarily disqualifies them, although filing obligations remain important to avoid disputes.\n\nNo other deadlines, numerical rates, or procedural changes are provided in the excerpt beyond the 25% rate, the Rs. 400 crore turnover benchmark, and the missed Form 10-IC filing.",
+          "summarySource": "desc"
         },
         {
           "sr": 95,
@@ -1963,7 +1993,9 @@
           "title": "Service Tax | Microsoft software licence royalty not taxable as IPR service before 16.05.2008: CESTAT Allahabad",
           "desc": "CESTAT Allahabad sets aside service tax, interest and penalties on software royalty, holding pre-16.05.2008 software services not taxable under IPR service.The post Microsoft software licence royalty ",
           "link": "https://taxguru.in/service-tax/microsoft-software-licence-royalty-not-taxable-ipr-service-16-05-2008-cestat-allahabad.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports a CESTAT Allahabad ruling that **service tax, interest, and penalties were set aside** on amounts paid as **Microsoft software licence royalty**, because the tribunal held that **software-related services were not taxable as “Intellectual Property Right (IPR) service” for the period before 16.05.2008**. In practical compliance terms, this means that **royalty or licence payments for software use made prior to 16 May 2008** should not be treated as falling within the service tax net under the IPR service category on the basis applied in this case.\n\nThe affected activity is the **licensing/royalty arrangement for Microsoft software**, and the key legal cutoff is **16.05.2008**. For transactions or tax positions involving **pre-16.05.2008 software licence royalty**, the tribunal’s decision indicates that service tax demands, along with related interest and penalty exposure, were not sustainable under the IPR service classification used by the department. Compliance teams should therefore distinguish between **software royalty/licence payments before and after 16 May 2008**, since the ruling turns on that date and does not state that all software royalty is universally non-taxable.",
+          "summarySource": "desc"
         },
         {
           "sr": 96,
@@ -1973,7 +2005,9 @@
           "title": "Custom Duty | Condonation of 968-Day Customs Appeal Delay Denied for Prolonged Inaction: Delhi HC",
           "desc": "Delhi HC upholds CESTAT’s refusal to condone 968-day delay, finding no substantial question of law or sufficient cause.The post Condonation of 968-Day Customs Appeal Delay Denied for Prolonged Inactio",
           "link": "https://taxguru.in/custom-duty/condonation-968-day-customs-appeal-delay-denied-prolonged-inaction-delhi-hc.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The Delhi High Court upheld the CESTAT’s refusal to condone a **968-day delay** in filing a customs appeal, concluding that there was **no sufficient cause** shown for such prolonged inaction and **no substantial question of law** warranting interference. The ruling is important for customs compliance because it reinforces that appellate deadlines in customs matters are enforced strictly, and long periods of inactivity cannot be excused merely by seeking leniency after the fact. The court’s decision confirms that where an appellant fails to act diligently for an extended period, the tribunal is entitled to reject the appeal as time-barred rather than reopen the matter on equitable grounds. For companies handling customs disputes, the practical compliance takeaway is to monitor filing timelines closely, document any reasons for delay contemporaneously, and ensure appeals are lodged well within the prescribed limitation period to avoid dismissal without merits review.",
+          "summarySource": "desc"
         },
         {
           "sr": 97,
@@ -1983,7 +2017,9 @@
           "title": "Goods and Services Tax | Gauhati HC Grants Bail to Woman Accused in GST Case Subject to Investigation Conditions",
           "desc": "Gauhati HC grants bail to woman accused in GST case on Rs. 75,000 bond, with sureties and conditions for investigation cooperation.The post Gauhati HC Grants Bail to Woman Accused in GST Case Subject ",
           "link": "https://taxguru.in/goods-and-service-tax/gauhati-hc-grants-bail-woman-accused-gst-case-subject-investigation-conditions.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports a Gauhati High Court bail order in a GST-related criminal matter, not a new tax rule or regulatory amendment. The court granted bail to a woman accused in a GST case, but the release is conditional: she must furnish a bond of Rs. 75,000 and provide sureties, and she must comply with investigation-related conditions imposed by the court. The key compliance-relevant point is that the order preserves the investigating authority’s ability to continue its inquiry while the accused remains on bail, so the accused is required to cooperate with investigation proceedings rather than simply being released without restriction. \n\nFor a corporate compliance team, this is relevant only as a procedural enforcement development in GST litigation: it signals that the court is willing to grant bail in GST matters, but only with financial security and ongoing cooperation obligations. No broader GST rate, filing, or reporting requirement is announced in the document, and there is no indication of a change in GST law or compliance deadlines. The material details are limited to the bail amount, the requirement for sureties, and the condition that the accused assist with the investigation.",
+          "summarySource": "desc"
         },
         {
           "sr": 98,
@@ -1993,7 +2029,9 @@
           "title": "Corporate Law | Telangana HC Quashes Section 226(3) Attachment of BIOSOT Bank Accounts",
           "desc": "Telangana High Court holds BIOSOT entitled to Article 289 immunity and quashes Section 226(3) bank-account attachment.The post Telangana HC Quashes Section 226(3) Attachment of BIOSOT Bank Accounts ap",
           "link": "https://taxguru.in/corporate-law/telangana-hc-quashes-section-226-3-attachment-biosot-bank-accounts.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The Telangana High Court held that BIOSOT was entitled to constitutional immunity under Article 289 and therefore quashed the tax department’s attachment of BIOSOT’s bank accounts under Section 226(3). The practical effect is that the revenue authorities cannot proceed with this mode of recovery against BIOSOT’s accounts on the facts of this case, because the court found the attachment itself invalid. For a compliance team, the key takeaway is that if an entity can establish Article 289 protection, bank-account garnishment/attachment under Section 226(3) should not be used against it for the relevant tax demand. \n\nThe document does not provide the underlying tax amount, the specific nature of the demand, or any broader rule change beyond this court ruling, and it does not set any new filing deadline, rate, or threshold. It is therefore best read as a case-specific judicial ruling affecting BIOSOT’s accounts rather than a general legislative amendment.",
+          "summarySource": "desc"
         },
         {
           "sr": 99,
@@ -2003,7 +2041,9 @@
           "title": "Income Tax | ITAT Mumbai Deletes Notional Rent Addition and Allows Related Expense Claims",
           "desc": "ITAT Mumbai deletes Rs. 475.73 lakh notional rent addition, allows related expenses, and grants depreciation on moulds and dies.The post ITAT Mumbai Deletes Notional Rent Addition and Allows Related E",
           "link": "https://taxguru.in/income-tax/itat-mumbai-deletes-notional-rent-addition-related-expense-claims.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports an Income Tax Appellate Tribunal (ITAT), Mumbai decision in which the Tribunal removed a **Rs. 475.73 lakh notional rent addition** from the taxpayer’s assessment. The key compliance takeaway is that the tax authority’s attempt to tax an imputed rental value did not stand, so the assessed income was reduced by that amount. In addition, the Tribunal **allowed the related expense claims** tied to the disputed property/arrangement, meaning those expenditures were accepted as deductible rather than being disallowed alongside the notional rent adjustment.\n\nThe decision also **granted depreciation on moulds and dies**, confirming that these assets qualified for depreciation treatment under the applicable tax rules. For compliance and tax reporting purposes, this outcome supports the position that where a taxpayer has incurred actual, supportable expenses and holds depreciable assets such as moulds and dies, those claims may be sustainable even if the tax authority seeks to make an imputed income adjustment. No specific statutory amendment, filing deadline, or future effective date is mentioned in the provided text; the document is a case outcome rather than a rule change.",
+          "summarySource": "desc"
         },
         {
           "sr": 100,
@@ -2013,7 +2053,9 @@
           "title": "Income Tax | ITAT Mumbai Allows 12AB Renewal and 80G Approval Despite No Formal Trust Deed",
           "desc": "ITAT Mumbai allows 12AB renewal and 80G approval, holding that absence of a formal trust deed cannot alone defeat registration.The post ITAT Mumbai Allows 12AB Renewal and 80G Approval Despite No Form",
           "link": "https://taxguru.in/income-tax/itat-mumbai-12ab-renewal-80g-approval-no-formal-trust-deed.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports an ITAT Mumbai ruling that a charitable organization’s request for renewal of registration under section 12AB and approval under section 80G cannot be rejected solely because it does not have a formal trust deed. In other words, the tribunal held that the absence of a written trust deed, by itself, is not enough to deny tax-exempt charitable status or donor-deduction approval if the organization otherwise meets the legal requirements. This matters for charitable trusts, societies, and other nonprofit entities seeking or renewing income-tax registrations, because it clarifies that the tax authority must look at the substance of the organization’s constitution and activities rather than treating a missing deed as automatically disqualifying.\n\nThere is no new statutory deadline, rate, or numeric threshold announced in the text; the key compliance point is the evidentiary standard for registration renewals and approvals. For compliance teams, the practical implication is that organizations without a formal trust deed should still be prepared to demonstrate their governing structure, charitable objects, and actual operations through other founding documents and records when applying for or renewing 12AB and 80G status. The ruling is favorable to applicants, but it does not eliminate the need to satisfy the substantive conditions for registration and approval under the income-tax law.",
+          "summarySource": "desc"
         }
       ],
       "ts": 1788740892632,
