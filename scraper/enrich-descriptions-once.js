@@ -57,15 +57,19 @@ function run(cmd) {
 }
 
 // Same hashing scheme as scraper.js — must match exactly, filenames need to be findable
-// by the VM summarizer regardless of which script created them.
+// by the VM summarizer regardless of which script created them. Sharded into subfolders by
+// hash prefix (same technique Git uses internally) to avoid GitHub's 1000-file-per-folder
+// browsing truncation with 2500+ documents.
 function linkToFilename(link) {
-  return crypto.createHash('sha256').update(link).digest('hex').substring(0, 20) + '.txt';
+  const hash = crypto.createHash('sha256').update(link).digest('hex').substring(0, 20);
+  return path.join(hash.substring(0, 2), hash + '.txt');
 }
 
 function saveFullContent(link, text) {
   try {
-    fs.mkdirSync(FULL_CONTENT_DIR, { recursive: true });
-    fs.writeFileSync(path.join(FULL_CONTENT_DIR, linkToFilename(link)), text, 'utf8');
+    const filePath = path.join(FULL_CONTENT_DIR, linkToFilename(link));
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    fs.writeFileSync(filePath, text, 'utf8');
   } catch (e) {
     console.warn(`  [full-content] failed to save for ${link}: ${e.message}`);
   }
