@@ -157,19 +157,24 @@
   .visit-src:hover { text-decoration: underline; }
 
   .table-wrap { overflow-x: auto; }
-  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
   thead tr { background: var(--bg); border-bottom: 1px solid var(--border); }
   thead th { padding: 10px 16px; text-align: left; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .6px; color: var(--text-secondary); white-space: nowrap; }
   tbody tr { border-bottom: 1px solid var(--border); transition: background .12s; }
   tbody tr:last-child { border-bottom: none; }
   tbody tr:hover { background: #fafbfc; }
-  td { padding: 12px 16px; vertical-align: top; }
-  td.sr       { color: var(--text-muted); font-size: 12px; width: 44px; }
-  td.date-col { white-space: nowrap; color: var(--text-secondary); font-size: 12.5px; width: 110px; }
-  td.cat-col  { width: 130px; }
-  td.title-col { min-width: 220px; }
-  td.summary-col { width: 280px; font-size: 12px; color: var(--text-secondary); line-height: 1.6; }
-  td.link-col { width: 70px; text-align: right; }
+  td { padding: 12px 16px; vertical-align: top; overflow-wrap: break-word; }
+  /* Explicit proportional widths (table-layout:fixed makes these reliable, rather than the
+     browser auto-sizing based on content — which was letting the title column balloon
+     unbounded while summary got squeezed by a stray max-width rule). AI Summary gets the
+     most room since it's the primary readable content; Title/Description is usually a
+     single line and doesn't need nearly as much space. */
+  td.sr       { color: var(--text-muted); font-size: 12px; width: 4%; }
+  td.date-col { white-space: nowrap; color: var(--text-secondary); font-size: 12.5px; width: 8%; }
+  td.cat-col  { width: 9%; }
+  td.title-col { width: 26%; }
+  td.summary-col { width: 47%; font-size: 12px; color: var(--text-secondary); line-height: 1.6; }
+  td.link-col { width: 6%; text-align: right; }
 
   .tag { display: inline-block; border-radius: 5px; padding: 3px 9px; font-size: 11px; font-weight: 600; }
   .tag-notif    { background: var(--tag-notif);    color: var(--tag-notif-text); }
@@ -187,8 +192,6 @@
 
   .link-open { color: #1a56db; font-size: 12.5px; font-weight: 500; text-decoration: none; white-space: nowrap; }
   .link-open:hover { text-decoration: underline; }
-
-  td.summary-col { min-width: 220px; max-width: 320px; }
 
   /* AI Summary styles */
   .ai-summary-wrap { display: flex; flex-direction: column; gap: 4px; }
