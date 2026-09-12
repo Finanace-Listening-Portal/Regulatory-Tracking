@@ -1143,7 +1143,9 @@
           "title": "Income Tax | Section 271D Penalty Quashed Where AO Recorded No Section 269SS Satisfaction",
           "desc": "Telangana High Court quashes Section 271D penalties, holding Additional Commissioner lacked jurisdiction and assessment orders lacked Section 269SS satisfaction.The post Section 271D Penalty Quashed W",
           "link": "https://taxguru.in/income-tax/section-271d-penalty-quashed-ao-recorded-no-section-269ss-satisfaction.html",
-          "isNew": true
+          "isNew": true,
+          "summary": "The Telangana High Court has quashed penalties imposed under Section 271D of the Income-tax Act because the underlying assessment orders did not record any satisfaction that Section 269SS had been violated, and the Additional Commissioner who imposed the penalty was found to lack jurisdiction. In practical terms, the court held that a penalty for accepting a loan or deposit in contravention of Section 269SS cannot be sustained unless the assessing authority first reaches and records the required satisfaction in the assessment proceedings that such a violation occurred. The decision therefore reinforces a procedural safeguard: before a Section 271D penalty can be validly initiated and imposed, the assessment order must contain a clear finding tying the taxpayer’s conduct to Section 269SS, rather than the penalty being pursued independently without that foundational record.\n\nFor compliance teams, the ruling means that cash loan/deposit transactions remain risky under Section 269SS, but penalty exposure under Section 271D depends not only on the underlying transaction but also on proper jurisdictional and procedural steps by the tax authorities. The judgment is favorable to taxpayers where the assessment record is silent on Section 269SS satisfaction, and it can be used to challenge penalties that were levied without that jurisdictional foundation.",
+          "summarySource": "desc"
         },
         {
           "sr": 32,
@@ -1491,7 +1493,9 @@
           "title": "Goods and Services Tax | Karnataka AAR Declines GTA Diesel Valuation Ruling Due to Unpaid Statutory Fee",
           "desc": "Karnataka AAR rejects Revathi Enterprises’ advance ruling application for non-payment of prescribed CGST/KGST fee without deciding the merits.The post Karnataka AAR Declines GTA Diesel Valuation Rulin",
           "link": "https://taxguru.in/goods-and-service-tax/karnataka-aar-declines-gta-diesel-valuation-ruling-due-unpaid-statutory-fee.html",
-          "isNew": true
+          "isNew": true,
+          "summary": "The Karnataka Authority for Advance Ruling (AAR) did not decide the tax issue on the merits; it rejected Revathi Enterprises’ advance ruling application because the prescribed CGST/KGST fee had not been paid. As a result, the AAR declined to issue any ruling on the underlying question relating to GST valuation for a goods transport agency (GTA) in connection with diesel. The practical compliance point is that applicants seeking an advance ruling in Karnataka must ensure the statutory application fee is paid in the required manner, because failure to do so can cause the application to be dismissed outright without substantive consideration. The document does not state any change in GST law, rate, valuation rule, or reporting obligation for GTAs; it only records the procedural dismissal for non-payment of the fee.",
+          "summarySource": "desc"
         },
         {
           "sr": 66,
@@ -21147,7 +21151,9 @@
           "title": "Reclassification of Real Estate Investment Trusts (REITs) as equity related instruments for facilitating enhanced participation by Mutual Funds and Specialized Investment Funds (SIFs).",
           "desc": "",
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251218-23",
-          "isNew": false
+          "isNew": false,
+          "summary": "This appears to be a general policy/regulatory change based only on the title, with no supporting text provided. The document indicates that Real Estate Investment Trusts (REITs) are being reclassified as “equity related instruments” for the purpose of allowing or facilitating greater participation by Mutual Funds and Specialized Investment Funds (SIFs). In practical terms, the change is aimed at expanding the set of instruments these pooled investment vehicles may treat as eligible equity-like holdings, which could affect investment policy compliance, portfolio construction, exposure calculations, and internal classification rules for funds that invest in REITs.\n\nBecause no body text was provided, I cannot confirm the exact legal mechanism, implementation date, effective date, limits, thresholds, or whether the reclassification applies to all REITs or only certain categories, nor can I identify any transition period or reporting obligation. Compliance teams should nevertheless treat this as a potentially material classification change affecting mutual fund and SIF investment mandates, prospectus disclosures, portfolio limit monitoring, and valuation/risk frameworks until the full text is reviewed.",
+          "summarySource": "title"
         },
         {
           "sr": 12,
@@ -21217,7 +21223,9 @@
           "title": "XBRL based filing of Regulation 50 for Entities which has listed its non-convertible securities",
           "desc": "",
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251121-72",
-          "isNew": false
+          "isNew": false,
+          "summary": "This appears to be a general title-only reference to an XBRL-based filing requirement for Regulation 50 applicable to entities that have listed non-convertible securities. Based on the title alone, the document is signaling that covered issuers/entitles must submit filings under Regulation 50 in XBRL format rather than, or in addition to, a non-structured format. The affected population would be entities whose non-convertible securities are listed, so compliance would likely focus on listed debt or similar non-convertible instruments rather than equity issuers generally.\n\nBecause no body text was provided, the specific regulatory change, filing contents, effective date, deadline, thresholds, forms, technical specifications, and any transitional or exemption provisions cannot be determined from the source provided. A compliance team should treat this as an indication that an XBRL filing obligation exists for Regulation 50 disclosures and confirm the exact scope, submission timing, taxonomy/version, and portal or exchange filing mechanics from the full circular, regulation text, or implementing guidance before taking action.",
+          "summarySource": "title"
         },
         {
           "sr": 19,
