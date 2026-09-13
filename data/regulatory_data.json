@@ -9979,7 +9979,9 @@
           "title": "Consultation Paper on Draft Circular on Extension of automated implementation of trading window closure to Immediate Relatives of Designated Persons",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2025/consultation-paper-on-draft-circular-on-extension-of-automated-implementation-of-trading-window-closure-to-immediate-relatives-of-designated-persons_91727.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document is a **consultation paper** seeking input on a **draft circular** that would **extend the automated implementation of trading window closure** to cover the **immediate relatives of Designated Persons**. In practical terms, the proposal appears to broaden the scope of trading restrictions so that when a trading window is closed, the closure would not apply only to the Designated Persons themselves but would also be enforced automatically for their immediate family members, likely to strengthen controls around potential insider trading risks. Because the document content was not provided, no specific implementation mechanics, thresholds, platforms, timelines, or filing deadlines can be confirmed from the text beyond the title.\n\nFor a compliance team, the main takeaway is that this is a **proposed regulatory change under consultation**, not yet a final rule based on the information available. If adopted, firms subject to the applicable securities/trading window framework would likely need to update employee trading controls, surveillance systems, and any broker or depository integrations used to enforce trading window restrictions so that immediate relatives of Designated Persons are also captured. Since no operative text was provided, the **effective date, transition period, and exact compliance obligations remain unspecified** and should be verified in the full circular once issued.",
+          "summarySource": "title"
         },
         {
           "sr": 148,
