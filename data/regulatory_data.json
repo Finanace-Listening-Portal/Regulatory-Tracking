@@ -21381,7 +21381,9 @@
           "title": "Specification of the terms and conditions for Debenture Trustees for carrying out activities outside the purview of SEBI.",
           "desc": "",
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-65",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document appears to be a general SEBI-style specification setting out the terms and conditions under which **Debenture Trustees may carry out activities outside the purview of SEBI**. Based on the title alone, the key compliance point is that the document likely defines the scope of permitted non-SEBI-regulated activities, the conditions or safeguards attached to those activities, and any boundaries meant to prevent conflict with the trustee’s regulated obligations in relation to debenture holders and issuances. Because no text was provided, I cannot identify the exact activities covered, any approval requirements, thresholds, fees, reporting duties, or implementation dates, but a compliance team should treat this as potentially affecting any debenture trustee functions performed beyond the core SEBI-regulated trustee role.\n\nIn practical terms, if your organization acts as a debenture trustee or relies on one, this title suggests a need to confirm whether ancillary services, advisory work, administrative support, or other non-core activities are expressly permitted and whether they must be ring-fenced from regulated trustee functions. The relevant compliance question would be whether such outside activities are allowed only subject to conditions on independence, conflicts, disclosures, segregation of responsibilities, or other operational controls. Since the document content was not supplied, this should be treated as a high-level placeholder summary rather than an authoritative reading of the rule text.",
+          "summarySource": "title"
         },
         {
           "sr": 15,
