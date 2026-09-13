@@ -1327,7 +1327,9 @@
           "title": "Fema / RBI | RBI Proposes SOP for Suspected Money Mule Bank Accounts",
           "desc": "RBI issues draft Know Your Customer Amendment Directions, 2026 proposing a Standard Operating Procedure for temporary debit holds on suspected money mule accounts and cyber-enabled financial fraud, wi",
           "link": "https://taxguru.in/rbi/rbi-proposes-sop-suspected-money-mule-bank-accounts.html",
-          "isNew": true
+          "isNew": true,
+          "summary": "The Reserve Bank of India (RBI) has issued draft Know Your Customer (KYC) Amendment Directions, 2026 that would create a formal Standard Operating Procedure for banks and other regulated entities when they identify a **suspected money mule account** or an account linked to **cyber-enabled financial fraud**. The proposal is aimed at giving institutions a clear mechanism to **temporarily place a debit hold** on such accounts while suspicion is being reviewed, rather than allowing potentially fraudulent funds to continue moving through the account.  \n\nFor compliance teams, the practical significance is that institutions subject to RBI’s KYC framework would need to adjust internal monitoring, escalation, and account-restriction workflows so that suspected mule/fraud accounts can be flagged and subjected to the new temporary hold process under a documented SOP. The draft indicates this is an amendment to the existing KYC Directions, so it would sit within the bank’s customer due diligence and fraud-risk controls rather than being a standalone fraud rule.  \n\nThe document title and summary provided do not include the full operational mechanics, such as the exact trigger criteria, hold duration, escalation authority, customer-notice requirements, or exceptions, so those details would need to be reviewed in the full draft directions before implementation planning. No effective date or compliance deadline is stated in the provided text; since these are **draft** directions, obligations would arise only after RBI finalizes and notifies the amendment.",
+          "summarySource": "desc"
         },
         {
           "sr": 43,
