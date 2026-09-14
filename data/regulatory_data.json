@@ -2469,7 +2469,9 @@
           "title": "Bank of America has strong message for Marvell stock investors",
           "desc": "",
           "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-strong-message-marvell-173300004.html",
-          "isNew": true
+          "isNew": true,
+          "summary": "This document appears to be a **general market/news headline rather than a regulatory or formal financial filing**, and no underlying article text was provided. Based on the title alone, it indicates that **Bank of America issued a notably positive or cautionary view aimed at investors in Marvell Technology (Marvell stock)**, but **the specific substance of the message is not available**. Because no document content was supplied, there are **no stated changes, effective dates, deadlines, thresholds, rates, filing obligations, or compliance requirements** to extract, and no clear indication of any regulatory impact on a company’s operations or controls.\n\nFor a corporate compliance team, the only defensible takeaway is that this is **market commentary involving analyst sentiment about Marvell**, not a compliance directive. If you need a compliance-grade summary, the underlying article or report would be required to determine whether Bank of America changed its rating, price target, earnings outlook, or investment thesis, and whether any disclosed facts could affect disclosures, insider-trading controls, investor communications, or market-moving reporting obligations.",
+          "summarySource": "title"
         }
       ],
       "ts": 1789326282540,
