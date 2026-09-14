@@ -2451,7 +2451,9 @@
           "title": "OpenAI Just Came for Wall Street’s Junior Bankers. Morgan Stanley Helped Build the Thing.",
           "desc": "",
           "link": "https://finance.yahoo.com/markets/stocks/articles/openai-just-came-wall-street-174521809.html",
-          "isNew": true
+          "isNew": true,
+          "summary": "Based on the title alone, this is a **general, non-substantive summary** rather than a document-based regulatory analysis, because no actual article text, rule, filing, or policy language was provided. The title suggests a financial-industry story about **OpenAI being used to automate or materially assist tasks traditionally done by junior bankers on Wall Street**, with **Morgan Stanley** mentioned as having helped develop or implement that tool or system. From a corporate compliance perspective, the likely relevance would be around **AI governance, employee use of generative AI, controls over client-facing or investment-banking workflows, confidentiality/data security, and supervision of outputs**, but none of those points are confirmed by the title alone.\n\nThere are **no stated deadlines, effective dates, numeric thresholds, enforcement requirements, or formal obligations** visible from the title. There is also no indication of which business units are formally covered beyond the general implication of **Wall Street banking functions** and Morgan Stanley’s involvement in building the technology. If you want a true compliance summary, I would need the underlying article, memo, rule, or filing text.",
+          "summarySource": "title"
         },
         {
           "sr": 7,
