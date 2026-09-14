@@ -2964,7 +2964,9 @@
           "title": "Revision of Application Form for Mutual Fund Registration",
           "desc": "Revision of Application Form for Mutual Fund Registration Aug 17, 2026| Circular No.: 18849 Revision of Application Form for Mutual Fund Registration function addLoadEvent(func) { var oldonload = window.onload; if (typeof window.onload != 'function') { window.onload = func; } else { window.onload = function() { if (oldonload) { oldonload(); } } } } addLoadEvent(setmenu('2')); addLoadEvent(setleftmenu('2')); addLoadEvent(chcklogin()); addLoadEvent(getmarquee()); addLoadEvent(function() { })",
           "link": "https://www.sebi.gov.in/legal/circulars/aug-2026/revision-of-application-form-for-mutual-fund-registration_103721.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This circular, dated **August 17, 2026** and numbered **Circular No. 18849**, announces a **revision to the application form used for mutual fund registration**. Based on the text provided, the document does **not** state any substantive change to registration criteria, fees, filing thresholds, or approval standards; it only indicates that the **form itself has been revised**. No effective date beyond the circular date is given, and there is no additional detail in the supplied content about the specific fields added, removed, or modified in the form.\n\nFor compliance purposes, the key takeaway is that **firms seeking mutual fund registration should use the updated application form referenced by this circular** rather than any prior version. Because the provided text contains no further implementation instructions, deadline, transition period, or grandfathering rule, a compliance team would need to obtain the revised form and any accompanying annexure or instructions to determine whether internal filing procedures, document collection, or certifications must be updated.",
+          "summarySource": "desc"
         },
         {
           "sr": 10,
