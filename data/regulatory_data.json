@@ -21493,7 +21493,9 @@
           "title": "XBRL based filing of Regulation 50 for Entities which has listed its non-convertible securities",
           "desc": "",
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251121-72",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document appears to be a general filing requirement related to **XBRL-based filing of Regulation 50** for entities that have **listed non-convertible securities**. Based on the title alone, the operative compliance point is that affected issuers likely must submit Regulation 50 disclosures or filings in **XBRL format**, rather than only in a non-structured or manual format, so compliance teams should treat this as a reporting-format obligation tied to listed debt/non-convertible instruments.\n\nBecause no body text was provided, the exact **effective date, transition period, filing deadlines, technical schema/version, submission portal, or any exceptions** cannot be confirmed from the source provided. The title indicates the rule applies specifically to **entities with listed non-convertible securities**, so companies in that category should review whether their existing Regulation 50 reporting process must be adapted to produce machine-readable XBRL data, and whether internal finance, legal, and disclosure controls need to be updated accordingly.\n\nIn practical terms, a compliance officer should verify whether this requirement applies to all periodic or event-based filings under Regulation 50, whether any regulator-prescribed taxonomy or validation rules must be used, and whether sign-off, certification, and archival procedures need revision to accommodate XBRL submissions. Since the underlying document content is absent, this should be treated as a **high-level placeholder summary only**, not a definitive statement of obligations.",
+          "summarySource": "title"
         },
         {
           "sr": 19,
