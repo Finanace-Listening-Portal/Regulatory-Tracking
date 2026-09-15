@@ -21521,7 +21521,9 @@
           "title": "Filing of Financial Results by REITs & InvITs in XBRL Mode",
           "desc": "",
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251009-62",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document appears to be a **general notice or guidance item** concerning the **filing of financial results by REITs and InvITs in XBRL mode**. Based on the title alone, the key compliance point is that **Real Estate Investment Trusts (REITs) and Infrastructure Investment Trusts (InvITs)** are expected to submit their financial results using the **XBRL (eXtensible Business Reporting Language) format**, rather than or in addition to a non-XBRL filing method.\n\nBecause no document text was provided, I cannot confirm any **specific effective date, filing deadline, technical threshold, transitional rule, or exemption**. A compliance team should therefore treat this as an indication that **XBRL-based reporting obligations apply to REITs/InvITs** and should verify the exact filing workflow, formats, and due dates in the underlying regulatory circular, exchange filing instructions, or applicable SEBI/exchange framework before filing.\n\nIn practical terms, the affected entities would be those classified as **REITs and InvITs**, and the compliance implication is that their financial results may need to be **prepared, validated, and uploaded in a structured XBRL format** that is compatible with the relevant filing portal. Since the content is not available, no further substantive obligations, penalties, or implementation details can be reliably summarized beyond this general filing requirement.",
+          "summarySource": "title"
         },
         {
           "sr": 22,
