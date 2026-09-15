@@ -21581,7 +21581,9 @@
           "title": "SEBI Circular on “Minimum information to be provided to the Audit Committee and Shareholders for approval of Related Party Transactions.”",
           "desc": "",
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251014-34",
-          "isNew": false
+          "isNew": false,
+          "summary": "This appears to be a SEBI circular establishing the **minimum information that listed entities must provide to the Audit Committee and to shareholders when seeking approval for Related Party Transactions (RPTs)**. Based on the title alone, the practical compliance implication is that companies subject to SEBI’s RPT approval framework must ensure that any proposal for an RPT is supported by a sufficiently detailed disclosure package before it is placed for approval, rather than relying on a generic or high-level description of the transaction. The circular likely focuses on standardizing the information set needed to assess whether an RPT is justified, on arm’s-length terms where relevant, and in the best interests of the company and shareholders.\n\nFor a compliance team, the key takeaway is that the company would need to verify that its internal approval materials for the Audit Committee and shareholder resolutions contain all minimum disclosures required by SEBI for RPT review and voting. This would typically affect listed entities and their subsidiaries or other entities whose transactions qualify as related party transactions under SEBI rules, and it would likely require coordination among legal, finance, secretarial, and business teams so that the approval papers are complete before the transaction is submitted for approval. Since no document text was provided, I cannot confirm the exact fields, thresholds, timelines, or procedural changes, so this is a **general summary based on the title only** rather than a detailed rule-by-rule extraction.",
+          "summarySource": "title"
         },
         {
           "sr": 21,
