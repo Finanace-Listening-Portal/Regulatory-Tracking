@@ -21565,7 +21565,9 @@
           "title": "Update on single filing system through API-based integration between Stock Exchanges",
           "desc": "",
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250912-89",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document appears to be a **general update notice** about the rollout or enhancement of a **single filing system through API-based integration between stock exchanges**. Based on the title alone, the key change is that filings or data submissions that previously may have needed to be made separately to multiple exchanges are being streamlined into a unified process using **API integration**, which likely allows information to flow electronically between exchange systems and reduce duplicate reporting.\n\nFor a compliance team, the practical implication is that **listed entities, issuers, and other filing participants may need to adapt their reporting workflows, systems, and data formats** to support this single-filing/API model. The document title suggests a technology and process change rather than a substantive rule change, but it may still create new operational obligations such as ensuring internal systems can transmit required disclosures correctly, confirming data accuracy before submission, and verifying that filings made through one exchange are properly recognized by the connected exchange(s).\n\nBecause no content beyond the title was provided, **no specific effective date, deadline, threshold, rate, or explicit compliance requirement can be confirmed** from the document itself. This should therefore be treated as a **high-level systems/process update** that may affect entities with disclosure obligations to stock exchanges, and compliance teams should review the underlying implementation guidance or technical circulars for exact scope, launch timing, testing requirements, and any transitional arrangements.",
+          "summarySource": "title"
         },
         {
           "sr": 25,
