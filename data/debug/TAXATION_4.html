@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/responsive-home.css">
   <link rel="stylesheet" id="cbecthemes" href="css/cbec-theme-blue.css">
+  <link rel="stylesheet" href="css/marquee-init.css">
 
   <title>Goods &amp; Service Tax, CBIC, Government of India :: Home</title>
 
@@ -126,7 +127,7 @@
       top: 25%;
       margin: 0 auto;
     }
-  @-webkit-keyframes marqueeAnimation-9481459  { 100%  {margin-left:-41095.8px}}</style>
+  @-webkit-keyframes marqueeAnimation-4171335  { 100%  {margin-left:-41095.8px}}</style>
   <!-- <script>
 $(function(){
 var overlay = $('<div id="overlay"></div>');
@@ -148,22 +149,6 @@ return false;
 });
 </script> -->
 
-  <script>
-    function PopUp(hideOrshow) {
-      if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
-      else document.getElementById('ac-wrapper').removeAttribute('style');
-    }
-    window.onload = function () {
-      setTimeout(function () {
-        PopUp('show');
-      }, 100);
-    }
-
-    function closewin() {
-
-      document.getElementById('ac-wrapper').style.display = "none";
-    }
-  </script>
 
 </head>
 
@@ -217,7 +202,7 @@ return false;
   <div id="ac-wrapper" class="hidden-xs">
     <div id="popup">
       <center>
-        <h1 style="color:#0056b8; padding-top:6px !important;"><strong>May I help you?</strong><span style="float: right;"><a href="#" onclick="closewin()" style="float: right; font-size: 18px; margin-right: 10px; margin-top: 1px;"><i class="fa fa-times-circle" aria-hidden="true"></i></a></span> </h1>
+        <h1 style="color:#0056b8; padding-top:6px !important;"><strong>May I help you?</strong><span style="float: right;"><a href="#" class="js-closewin" style="float: right; font-size: 18px; margin-right: 10px; margin-top: 1px;"><i class="fa fa-times-circle" aria-hidden="true"></i></a></span> </h1>
         <div><span style="padding:0px;margin:0px;">From August 1st 2025 onwards, CBIC Mitra Helpdesk number will be
             <span style="color:red;font-weight:bold;">1800 425 0232</span></span></div>
         <div style="float:left;"><img src="images/assistance-img1.png" class="img-responsive" style="width:195px; height: 185px; margin-left:35px;"></div>
@@ -226,7 +211,7 @@ return false;
           </div>
           <!-- <div style="background-image:url(images/balloon-img.png); background-repeat: no-repeat; width:270px; height: 106px; margin-left: 215px;"></div> -->
           <!-- <div style="background-image:url(images/balloon-img1.png); background-repeat: no-repeat; width:270px; height: 106px; margin-left: 215px;"></div> -->
-          For any queries and quick assistance, <a href="help.html" role="button" class="btn btn-info btn-xs" onclick="closewin()"><i>Click Here</i></a>
+          For any queries and quick assistance, <a href="help.html" role="button" class="btn btn-info btn-xs js-closewin"><i>Click Here</i></a>
         </div>
       </center>
     </div>
@@ -249,7 +234,7 @@ return false;
             <!-- <span class="icon-dvdr"></span> <span class="top-icon-labels"><a href="feedback.html"><img src="images/feedback-icon.png" width="16" height="21" alt="Feedback" title="Feedback" class="icon-btm-margin"></a> <a href="feedback.html" class="right-menu-links hidden-xs">Feedback</a></span> -->
             <span class="icon-dvdr"></span> <span class="top-icon-labels"><a href="help.html"><img src="images/help-icon.png" width="21" height="20" alt="Help" title="Help" class="icon-btm-margin"></a>
               <a href="help.html" title="Help" class="right-menu-links hidden-xs">Help</a></span> <span class="icon-dvdr hidden-xs"></span><a href="#" class="right-menu-links hidden-xs minus" id="fontdecrease"><img src="images/font-decrease.png" alt="font decrease" title="font decrease" width="23" height="17"></a> &nbsp; <a href="#" class="right-menu-links hidden-xs" id="resetfont"><img src="images/font-normal.png" alt="font normal" title="font normal" width="16" height="17"></a> &nbsp;
-            <a href="#" class="right-menu-links hidden-xs" id="fontincrease"><img src="images/font-increase.png" alt="font increase" title="font increase" width="23" height="19"></a> <a href="#" class="color-box-black" onclick="applythemes('css/cbec-theme-black.css')">&nbsp;</a> <a href="#" onclick="applythemes('css/cbec-theme-blue.css')" class="color-box-blue">&nbsp;</a></span>
+            <a href="#" class="right-menu-links hidden-xs" id="fontincrease"><img src="images/font-increase.png" alt="font increase" title="font increase" width="23" height="19"></a> <a href="#" class="color-box-black" data-theme="css/cbec-theme-black.css">&nbsp;</a> <a href="#" class="color-box-blue" data-theme="css/cbec-theme-blue.css">&nbsp;</a></span>
         </div>
 
       </div>
@@ -426,40 +411,77 @@ return false;
       <div class="row hidden-sm hidden-xs">
         <div id="Scroll" class="flash-news-section">
           <div class="viewAll"><a href="tickers.html" title="View Tickers">View All</a></div>
-          <div class="marquee"><div style="width: 100000px; margin-left: 1259.69px; animation: 605.538s linear 1s infinite normal none running marqueeAnimation-9481459;" class="js-marquee-wrapper"><div class="js-marquee" style="margin-right: 0px; float: left;">
-           <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;"> “Important Notice | Central Excise/Service Tax/SBS/SVLDRS/HSNS Taxpayers: Please use the “Forgot Password” link on the login page to reset your old password before logging in.”</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;"> “Kind Attention : Directorate General of Systems, CBIC has planned a maintenance activity in the ACES-GST Application between 18:00 Hours to 23:00 Hours on 11th July 2026 (coming weekend). Accordingly, services relating to Central Excise/Service Tax/HSNS/SBS/SVLDRS  will not be available during the maintenance window. Taxpayers are advised to plan their activities accordingly”.
+          <div class="marquee" style="visibility: visible;"><div style="width: 100000px; margin-left: 1259.69px; animation: 605.538s linear 1s infinite normal none running marqueeAnimation-4171335;" class="js-marquee-wrapper"><div class="js-marquee" style="margin-right: 0px; float: left;">
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;"> “Important
+              Notice | Central Excise/Service Tax/SBS/SVLDRS/HSNS Taxpayers: Please use the “Forgot Password” link on
+              the login page to reset your old password before logging in.”</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;"> “Kind
+              Attention : Directorate General of Systems, CBIC has planned a maintenance activity in the ACES-GST
+              Application between 18:00 Hours to 23:00 Hours on 11th July 2026 (coming weekend). Accordingly, services
+              relating to Central Excise/Service Tax/HSNS/SBS/SVLDRS will not be available during the maintenance
+              window. Taxpayers are advised to plan their activities accordingly”.
             </span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;"> “Kind Attention : Advisory No. 11/2026 dated 24.06.2026 on   2 Factor Authentication   for Central Excise, SBS &amp; HSNS Taxpayers is available under ACES(CE&amp;ST)&gt;Advisories for ACES(CE &amp; ST) and   HSNS&gt;HSNS CESS Legislation”.<a href="pdf/Advisory No. 11of 2026 on 2 Factor Authentication.pdf" target="_blank">Please Click here
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;"> “Kind
+              Attention : Advisory No. 11/2026 dated 24.06.2026 on 2 Factor Authentication for Central Excise, SBS &amp;
+              HSNS Taxpayers is available under ACES(CE&amp;ST)&gt;Advisories for ACES(CE &amp; ST) and HSNS&gt;HSNS CESS
+              Legislation”.<a href="pdf/Advisory No. 11of 2026 on 2 Factor Authentication.pdf" target="_blank">Please
+                Click here
                 for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">“Kind attention to the  Chewing tobacco, Jarda and Gutkha Manufacturers: Advisory No. 10/2026 dated 09.06.2026 on   CE INT 01/CE INT 02 (Filing Procedure for Sealing/De-Sealing request) is available under “ACES(CE&amp;ST)&gt;Advisories for ACES(CE &amp; ST)”.<a href="pdf/Advisory No. 10 of 2026 dated 09.06.2026 on filing procedure of CE INT 01 and CE_INT02.pdf" target="_blank">Please Click here
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">“Kind
+              attention to the Chewing tobacco, Jarda and Gutkha Manufacturers: Advisory No. 10/2026 dated 09.06.2026 on
+              CE INT 01/CE INT 02 (Filing Procedure for Sealing/De-Sealing request) is available under
+              “ACES(CE&amp;ST)&gt;Advisories for ACES(CE &amp; ST)”.<a href="pdf/Advisory No. 10 of 2026 dated 09.06.2026 on filing procedure of CE INT 01 and CE_INT02.pdf" target="_blank">Please Click here
                 for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">KIND ATTENTION : CENTRAL EXCISE  TAXPAYERS:  New Functionality for e-Filing of Request for Sealing (Intimation CE INT-01) &amp; De-Sealing (Intimation CE INT-02) is enabled from 07.06.2026. Please refer to the Advisory being issued shortly</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">“Kind Attention HSNS Taxpayers : Advisory No. 09/2026 dated 05.06.2026 on HSNS INT 01/INT 02 (Filing Procedure for Sealing/De-Sealing request) for HSNS Cess Registered Persons is available under HSNS&gt;HSNS CESS Legislation”.<a href="pdf/Advisory No. 09_2026 dated 050626_HSNS_ for filing Sealing_De sealing request.pdf" target="_blank">Please Click here
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">KIND
+              ATTENTION : CENTRAL EXCISE TAXPAYERS: New Functionality for e-Filing of Request for Sealing (Intimation CE
+              INT-01) &amp; De-Sealing (Intimation CE INT-02) is enabled from 07.06.2026. Please refer to the Advisory being
+              issued shortly</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">“Kind
+              Attention HSNS Taxpayers : Advisory No. 09/2026 dated 05.06.2026 on HSNS INT 01/INT 02 (Filing Procedure
+              for Sealing/De-Sealing request) for HSNS Cess Registered Persons is available under HSNS&gt;HSNS CESS
+              Legislation”.<a href="pdf/Advisory No. 09_2026 dated 050626_HSNS_ for filing Sealing_De sealing request.pdf" target="_blank">Please Click here
                 for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">KIND ATTENTION : CENTRAL EXCISE / HSNS CESS/ SERVICE TAX &amp; SBS TAXPAYERS:  Two-Factor Authentication (2FA) at the time of User Login  is being introduced now. Please Click Here For Details<a href="pdf/Introduction_of_2FA.pdf" target="_blank">Please Click here
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">KIND
+              ATTENTION : CENTRAL EXCISE / HSNS CESS/ SERVICE TAX &amp; SBS TAXPAYERS: Two-Factor Authentication (2FA) at
+              the time of User Login is being introduced now. Please Click Here For Details<a href="pdf/Introduction_of_2FA.pdf" target="_blank">Please Click here
                 for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">KIND ATTENTION : HSNS CESS TAXPAYERS:  New Functionality for e-Filing of Request for Sealing (Intimation INT-01) &amp; De-Sealing (Intimation INT-02) is enabled from 29.05.2026. Please refer to the Advisory being issued shortly</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">KIND ATTENTION: CENTRAL EXCISE / HSNS CESS / SERVICE TAX Taxpayers: Due to urgent maintenance activity, ACES-GST application will NOT BE AVAILABLE  from 18:00 hrs 22:00 hrs on 25.05.2026. Kindly plan your activities.  The inconvenience caused is regretted.   </span>
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">KIND
+              ATTENTION : HSNS CESS TAXPAYERS: New Functionality for e-Filing of Request for Sealing (Intimation INT-01)
+              &amp; De-Sealing (Intimation INT-02) is enabled from 29.05.2026. Please refer to the Advisory being issued
+              shortly</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">KIND
+              ATTENTION: CENTRAL EXCISE / HSNS CESS / SERVICE TAX Taxpayers: Due to urgent maintenance activity,
+              ACES-GST application will NOT BE AVAILABLE from 18:00 hrs 22:00 hrs on 25.05.2026. Kindly plan your
+              activities. The inconvenience caused is regretted. </span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">KIND ATTENTION: CENTRAL  EXCISE / HSNS CESS / SERVICE TAX Taxpayers: Due to a Scheduled maintenance activity e-Payment facility including Internet Banking, NEFT/RTGS, Payment Aggregator services will NOT BE AVAILABLE (I) From 22:00 Hrs 22.05.2026 to 08:00 Hrs 23.05.2026 and  (II) From 22:00 Hrs 23.05.2026 to 08:00 Hrs 24.05.2026. Inconvenience caused is regretted.   </span>
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">KIND
+              ATTENTION: CENTRAL EXCISE / HSNS CESS / SERVICE TAX Taxpayers: Due to a Scheduled maintenance activity
+              e-Payment facility including Internet Banking, NEFT/RTGS, Payment Aggregator services will NOT BE
+              AVAILABLE (I) From 22:00 Hrs 22.05.2026 to 08:00 Hrs 23.05.2026 and (II) From 22:00 Hrs 23.05.2026 to
+              08:00 Hrs 24.05.2026. Inconvenience caused is regretted. </span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind attention to the  Chewing tobacco, Jarda and Gutkha Manufacturers: Advisory No. 08/2026 dated 24.04.2026 on   CE Amendment Declaration filing Procedure   is available under “ACES(CE&amp;ST)&gt;Advisories for ACES(CE &amp; ST) <a href="pdf/AdvisoryNo 08 of 2026_CE Declaration_Change _Addition_disposal of machines.pdf" target="_blank">Please Click here
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind
+              attention to the Chewing tobacco, Jarda and Gutkha Manufacturers: Advisory No. 08/2026 dated 24.04.2026 on
+              CE Amendment Declaration filing Procedure is available under “ACES(CE&amp;ST)&gt;Advisories for ACES(CE &amp; ST) <a href="pdf/AdvisoryNo 08 of 2026_CE Declaration_Change _Addition_disposal of machines.pdf" target="_blank">Please Click here
                 for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind Attention HSNS Taxpayers: Advisory No. 07/2026 dated 17.04.2026 on   HSNS Amendment Declaration filing Procedure  for HSNS Cess Registered Persons is available under HSNS&gt;HSNS CESS Legislation. <a href="pdf/AdvisoryNo. 07_2026HSNSAMENDMENT DECLARATION.pdf" target="_blank">Please Click here
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind
+              Attention HSNS Taxpayers: Advisory No. 07/2026 dated 17.04.2026 on HSNS Amendment Declaration filing
+              Procedure for HSNS Cess Registered Persons is available under HSNS&gt;HSNS CESS Legislation. <a href="pdf/AdvisoryNo. 07_2026HSNSAMENDMENT DECLARATION.pdf" target="_blank">Please Click here
                 for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">"KIND ATTENTION: CENTRAL EXCISE TAXPAYERS : 31st MARCH 2026 IS THE DUE DATE FOR PAYMENT OF CENTRAL EXCISE DUTY FOR THE MONTH OF MARCH 2026. please click here <a href="pdf/DuePayment.pdf" target="_blank">Click here
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">"KIND
+              ATTENTION: CENTRAL EXCISE TAXPAYERS : 31st MARCH 2026 IS THE DUE DATE FOR PAYMENT OF CENTRAL EXCISE DUTY
+              FOR THE MONTH OF MARCH 2026. please click here <a href="pdf/DuePayment.pdf" target="_blank">Click here
                 for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<!-- <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Directorate
+            <!-- <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Directorate
               General of Systems, CBIC has planned a maintenance activity in the ACES-GST Application between 18:00
               Hours on 21st March 2026 to 23:00 Hours on 21st March 2026. Hence, the services relating to Central
               Excise, Service Tax, HSNS, SBS and SVLDRS will not be available during the maintenance window. Taxpayers
@@ -471,7 +493,7 @@ return false;
                 for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-           
+
 
             <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind
               attention to the Chewing tobacco, Jarda and Gutkha Manufacturers: As per the Notification No.
@@ -480,7 +502,7 @@ return false;
               FORM CE PMT-01 is available under Taxpayer Dashboard &gt;Menu&gt;CE RETURNS&gt;File PMT-01. please click here <a href="pdf/ADVISORY_05-2026_CE_PMT_01.pdf" target="_blank">Click here for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-           
+
             <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind
               Attention HSNS Taxpayers : Advisory No. 04/2026 dated 09.02.2026 on HSNS Declaration filing Procedure for
               HSNS Cess Registered person is available under HSNS&gt;HSNS CESS Legislation”. <a href="pdf/HSNS_Declaration_filing_procedure.pdf" target="_blank">Click here for Advisory.</a></span>
@@ -523,7 +545,7 @@ return false;
               Attention of Central Excise Tax Payers: CBICMITRA HELPDESK Toll Free Number is changed from
               '1800-120-0232' to the New Toll Free Number "1800-425-0232" w.e.f. 1st August 2025 <a href="pdf/Helpdesk-Advisory-8-2025-29072025.pdf" target="_blank">Click here for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          
+
             <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <a href="pdf/procedure-locate-e-payment-challan.pdf" target="_blank">Latest Update - 6th February 2024 -
               alternate steps to locate e-Payment Challan under ICEGATE portal.</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </div></div></div>
@@ -602,7 +624,7 @@ return false;
             <p class="icon"><i class="fa fa-newspaper-o" aria-hidden="true"></i></p>
             <h4>What's New</h4>
             <div class="marquee-inner-sctn" id="marqueecontainer" onmouseover="copyspeed=pausespeed" onmouseout="copyspeed=marqueespeed">
-              <div id="vmarquee" style="position: absolute; top: -18px;">
+              <div id="vmarquee" style="position: absolute; top: -7px;">
                 <ul>
 
                   <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> <a href="pdf/Circular-No-250-2025.pdf" target="_blank">Reviewing authority, Revisional Authority and
@@ -782,7 +804,7 @@ return false;
             <div class="social-media-btns"><span class="follow-us-txt">Follow Us</span> <a onclick="popUpWindow('https://www.facebook.com/cbicindia/','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website."><i class="fa fa-facebook-square fa-2x"></i></a> <a onclick="popUpWindow('https://twitter.com/cbic_india?lang=en','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website."><i class="fa fa-twitter-square fa-2x"></i></a>
               <!--<a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>--> <a onclick="popUpWindow('https://www.youtube.com/channel/UC4Pwb1Utd_Pu3tEp09gMZlQ/videos?view=0&amp;sort=dd&amp;shelf_id=0','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website."><i class="fa fa-youtube-play fa-2x" style="color:#FFF;"></i></a>
               <!--<a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>--> <br>
-              <span class="lastupdate-txt">Last Updated: 08 September 2026</span>
+              <span class="lastupdate-txt">Last Updated: 15 September 2026</span>
             </div>
           </div>
         </div>
@@ -820,7 +842,7 @@ return false;
 
 
 
-  <a id="scroll-top" href="#" class="scroll-top" role="button" title="" data-toggle="tooltip" data-placement="left" data-original-title="Go to Top" aria-describedby="tooltip750869"><span class="glyphicon glyphicon-chevron-up" style="color:#FFF;"></span></a><div class="tooltip fade left in" role="tooltip" id="tooltip750869" style="top: 0px; left: -78px; display: block;"><div class="tooltip-arrow" style="top: 0%;"></div><div class="tooltip-inner">Go to Top</div></div>
+  <a id="scroll-top" href="#" class="scroll-top" role="button" title="" data-toggle="tooltip" data-placement="left" data-original-title="Go to Top" aria-describedby="tooltip200621"><span class="glyphicon glyphicon-chevron-up" style="color:#FFF;"></span></a><div class="tooltip fade left in" role="tooltip" id="tooltip200621" style="top: 0px; left: -78px; display: block;"><div class="tooltip-arrow" style="top: 0%;"></div><div class="tooltip-inner">Go to Top</div></div>
 
 
 
@@ -834,95 +856,20 @@ return false;
   <script src="js/fontsize.js"></script>
 
 
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lazy.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lazy.plugins.min.js"></script>
+  <!-- Self-hosted instead of loading from cdnjs.cloudflare.com, because
+       production's Content-Security-Policy only trusts script-src 'self'
+       and *.gov.in / *.cbic.gov.in / *.cbec.gov.in — the third-party CDN
+       was being blocked outright, so $('.lazy').Lazy() never worked. -->
 
-  <script>
-    $(function () {
-      $('.lazy').Lazy();
-    });
-  </script>
-
-  <script>
-    $(function () {
-      $('#goto').on('change', function () {
-        var url = $(this).val();
-        if (url) {
-          window.open(url, '_blank');
-        }
-        return false;
-      });
-    });
-  </script>
-  <script>
-    function showDiv(elem, index) {
-
-
-
-      var divs = $(".nav-content-container");
-
-      var target = divs[index];
-
-      if (target) {
-
-        $(target).slideDown(500);
-
-        //$(target).addClass("animateDiv");
-
-      }
-
-    }
-
-    function hideDiv(elem, index) {
-
-      var divs = $(".nav-content-container");
-
-      var target = divs[index];
-
-      if (target) {
-
-        $(target).hide();
-
-      }
-
-    }
-
-  </script>
-
-  <script>
-    function myFAQ() {
-      document.getElementById("faq-page").target = "_blank";
-    }
-  </script>
-
-  <script>
-
-    function applythemes(sheet) {
-
-      document.getElementById('cbecthemes').setAttribute('href', sheet);
-
-    }
-
-  </script>
-
-  <script>
-    // Initialize marquee only after ALL page resources (css, fonts, images)
-    // have fully loaded, so the plugin measures the ticker's real width/layout.
-    // Running this too early (e.g. on DOM ready) can make it compute the wrong
-    // dimensions on a first/cold-cache load, which is why it looked stuck/collapsed
-    // until a couple of refreshes warmed the browser cache.
-    $(window).on('load', function () {
-      $('.marquee').marquee({
-        pauseOnHover: true
-      });
-    });
-
-    $(".toggle").on("click", function () {
-      $(".container").toggleClass("microsoft");
-    });
-    //new WOW().init();
-  </script>
-
+  <script src="js/custom-init.js"></script>
+  <!-- All page-specific scripts (popup, lazy-load init, goto dropdown, nav
+       toggle, FAQ, theme switcher, marquee ticker) are combined into this
+       one external file. Kept external (not inline) because production's
+       Content-Security-Policy only allows specific pre-approved inline
+       scripts by SHA-256 hash; same-origin external files are trusted
+       under "script-src 'self'" with no hash needed. -->
   <!-- <script>
     (function () {
       var cx = '018444393568340268602:-j2synlwrfo';
