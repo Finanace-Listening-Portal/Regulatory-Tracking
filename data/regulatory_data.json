@@ -8695,7 +8695,9 @@
           "title": "Consultation paper on review of position limits for clients and penalty provision for violation / breach of position limits for Commodity Derivatives Segment. Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-review-of-position-limits-for-clients-and-penalty-provision-for-violation-breach-of-position-limits-for-commodity-derivatives-segment-_101384.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This appears to be a **consultation paper** rather than a final rule or binding order, so its purpose is to solicit market feedback on proposed changes to the **Commodity Derivatives Segment** rather than to impose an immediate compliance obligation. Based on the title alone, the paper concerns a **review of position limits for clients** and the **penalty provisions for any violation or breach of those position limits**, which suggests the regulator is considering whether client-level trading limits in commodity derivatives should be adjusted and how non-compliance should be sanctioned.\n\nBecause no body text was provided, the **specific proposed limit values, thresholds, penalty amounts, affected contract classes, implementation dates, or any transition period cannot be identified from the document content available**. For compliance purposes, firms active in the Commodity Derivatives Segment should treat this as a signal that the regulator may be revisiting both **how much exposure clients may hold** and **what consequences apply if those limits are exceeded**, and should monitor the consultation closely for proposed numeric limits, reporting/monitoring requirements, and any revised enforcement framework. The title indicates the document includes a request for comments (“Click here to provide your comments”), so the immediate action item is to review the eventual consultation text and submit feedback if the firm’s trading, surveillance, or client onboarding practices could be affected.",
+          "summarySource": "title"
         },
         {
           "sr": 37,
