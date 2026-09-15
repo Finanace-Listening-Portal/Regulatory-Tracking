@@ -9153,7 +9153,9 @@
           "title": "Circular on Relaxation of India geo-tagging for NRI clients re-KYCKYC modification through digital on-boarding video client Identification process (V-CIP) Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/oct-2025/circular-on-relaxation-of-india-geo-tagging-for-nri-clients-re-kyckyc-modification-through-digital-on-boarding-video-client-identification-process-v-cip-_97439.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This circular appears to announce a relaxation of the India geo-tagging requirement for NRI clients in the context of re-KYC and KYC modification conducted through the digital onboarding Video Client Identification Process (V-CIP). Based on the title alone, the key compliance implication is that institutions using V-CIP for NRI clients may be permitted to complete KYC update or modification workflows without requiring India geo-tagging, which would otherwise have been a location-based control tied to onboarding or verification. The circular is aimed at entities performing customer identification and KYC maintenance for NRI customers, and it likely affects operational procedures for remote/video-based verification, document capture, and associated identity checks.\n\nBecause no document text is provided, no specific effective date, cutoff date, procedural steps, thresholds, or exceptions can be confirmed from the source content. A compliance team should treat this as a general summary only and verify the final circular language to determine exactly which NRI categories are covered, whether the relaxation applies only to re-KYC or also to initial KYC modification, and what alternative controls or audit trail requirements remain in force when India geo-tagging is not used.",
+          "summarySource": "title"
         },
         {
           "sr": 75,
