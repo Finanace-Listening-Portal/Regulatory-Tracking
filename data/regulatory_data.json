@@ -2193,7 +2193,9 @@
           "title": "Nvidia, OpenAI, and Oracle's $745B Financing Circle Just Hit Its First Stress Test: A Fed Rate Hike",
           "desc": "",
           "link": "https://finance.yahoo.com/economy/policy/articles/nvidia-openai-oracles-745b-financing-135702453.html",
-          "isNew": true
+          "isNew": true,
+          "summary": "This appears to be a general, news-style financial article rather than a regulatory directive, and no underlying document text was provided, so a compliance-specific action summary cannot be derived beyond the title. Based on the title alone, the piece seems to concern a very large financing arrangement or capital cycle involving Nvidia, OpenAI, and Oracle, described as a “$745B financing circle,” and notes that it has encountered an initial market stress test in the form of a Federal Reserve interest-rate hike. The likely point of the article is that higher rates can affect the cost of capital, financing availability, valuation, and debt-service assumptions tied to large AI/infrastructure investments, but the title does not identify any formal rule, filing requirement, deadline, affected entity obligations, thresholds, or procedural compliance changes.\n\nFor a corporate compliance team, the only defensible takeaway from the title is that this is a market-development article flagging potential financial and funding risk around a very large AI-related financing ecosystem, not a document imposing new legal or regulatory requirements. No effective date, compliance deadline, enforcement standard, or mandated action is stated in the provided content.",
+          "summarySource": "title"
         },
         {
           "sr": 2,
@@ -2203,7 +2205,9 @@
           "title": "Bank of America Just Declared a ‘Generational Entry Point’ in U.S. Bonds. Why Investors Should Be Backing Up the Truck on Treasuries Here.",
           "desc": "",
           "link": "https://finance.yahoo.com/markets/articles/bank-america-just-declared-generational-140002404.html",
-          "isNew": true
+          "isNew": true,
+          "summary": "This appears to be a **general market/opinion piece, not a regulatory or compliance directive**, and no document body was provided beyond the title. Based on the title alone, the article’s apparent message is that Bank of America is characterizing current U.S. Treasury yields/prices as a “generational entry point,” meaning it is arguing that Treasuries may now offer unusually attractive value for investors and that investors should consider buying U.S. government bonds aggressively at current levels. Because there is no text, there are **no identifiable legal or regulatory requirements, deadlines, thresholds, procedural changes, or compliance obligations** to summarize from the source itself.  \n\nFor a corporate compliance team, the only actionable takeaway from the title is that this is a **market commentary/investment thesis** about U.S. bonds, not a rulemaking, filing requirement, or policy mandate. If you can provide the article text or a related regulatory release, I can produce a substantive compliance-focused summary with specific obligations, dates, and affected entities.",
+          "summarySource": "title"
         },
         {
           "sr": 3,
@@ -2213,7 +2217,9 @@
           "title": "Stock Market Today (Sept. 17, 2026): Nasdaq, S&P 500 surge on post-Fed rate hike buying",
           "desc": "",
           "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-17-134502255.html",
-          "isNew": true
+          "isNew": true,
+          "summary": "This is a general market-news item rather than a regulatory filing or compliance directive. Based on the title alone, it reports that U.S. equities rose sharply on September 17, 2026, with the Nasdaq and S&P 500 surging in what is described as “post-Fed rate hike buying,” meaning investors bought stocks after the Federal Reserve’s rate increase. There are no stated legal, regulatory, or policy changes, no effective dates for compliance action, no thresholds, and no entity-specific obligations described in the title. For a corporate compliance team, the only takeaway is contextual: it signals a market reaction to Fed monetary policy, not a document imposing new compliance requirements.",
+          "summarySource": "title"
         }
       ],
       "ts": 1789766522752,
@@ -3096,7 +3102,9 @@
           "title": "Borrowing by Mutual Funds",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/mar-2026/borrowing-by-mutual-funds_100329.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This appears to be a **general topic title only** with **no underlying document text provided**, so there are **no specific rule changes, requirements, deadlines, thresholds, rates, or procedural obligations to summarize** from the source itself. Based on the title **“Borrowing by Mutual Funds,”** the subject likely concerns regulatory limits or permitted practices governing when and how mutual funds may borrow, but the actual compliance impact cannot be determined without the document content.  \n\nFor a corporate compliance team, the appropriate takeaway is that this is **not enough information to assess obligations**: there is no indication here of whether borrowing is restricted, whether leverage limits apply, whether temporary borrowing exceptions exist, or whether any reporting, board approval, asset coverage, or custody requirements are imposed. If you can provide the full text or a citation to the actual rule, release, or filing, I can produce a complete compliance-focused summary with the specific requirements and affected entities.",
+          "summarySource": "title"
         },
         {
           "sr": 51,
@@ -8035,7 +8043,9 @@
           "title": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers Click here to provide your comments",
           "desc": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers Click here to provide your comments Aug 27, 2026| Reports : Reports for Public Comments Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers<a href='https://www.sebi.gov.in/sebiweb/publiccommentv2/PublicCommentAction.do?doPublicComments=yes' target='_blank' style='color:#007ffc'> Click here to provide your comments </a>",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/consultation-paper-on-exemption-from-the-requirement-of-mandatory-merchant-banker-appointment-for-small-value-debt-through-private-placement-by-certain-listed-issuers_104040.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document is a **consultation paper** issued on **27 Aug 2026** seeking public comments on a proposed **exemption from the mandatory appointment of a merchant banker** for certain **small-value debt issuances through private placement** by **specified listed issuers**. In other words, it signals that the current requirement to involve a merchant banker in these transactions may be relaxed for qualifying cases, but the paper itself is a **proposal for comment**, not a final rule change.\n\nFor a compliance team, the key point is that the proposal is aimed at **private placement debt issues of small value by listed entities that meet the specified conditions**; the document title indicates the scope is not all debt issues, but only those that are both **small-value** and **placed privately** by **certain listed issuers**. The consultation notice does **not provide the actual exemption thresholds, eligibility criteria, or procedural safeguards in the text shown here**, so the operative details would need to be confirmed in the full consultation paper or final SEBI action before any compliance change is implemented.\n\nThere is no effective date, filing deadline, or compliance implementation date stated in the excerpt beyond the publication date and the invitation to comment. The only immediate action indicated is that stakeholders may **submit comments through the provided public comments link** on SEBI’s website. Until SEBI issues a final circular/regulation, the current mandatory merchant banker requirement should be treated as still in force for covered private placement debt issuances.",
+          "summarySource": "desc"
         },
         {
           "sr": 7,
@@ -11201,7 +11211,9 @@
           "title": "Extension of timeline for submission of public comments on the consultation paper on Review of Total Expense Ratio charged by Asset Management Companies (AMCs) to unitholders of schemes of Mutual Funds to facilitate greater transparency and accrual of interest of economies of scale to investors",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2023/extension-of-timeline-for-submission-of-public-comments-on-the-consultation-paper-on-review-of-total-expense-ratio-charged-by-asset-management-companies-amcs-to-unitholders-of-schemes-of-mutual-fund-_72166.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document appears to be an extension of the deadline for submitting public comments on a consultation paper issued for a review of the Total Expense Ratio (TER) charged by Asset Management Companies (AMCs) to mutual fund unitholders. Based on the title alone, the substantive policy issue under review is whether current TER practices adequately support greater transparency and whether economies of scale in mutual fund operations are being passed through to investors rather than retained by AMCs.\n\nFor a compliance team at an AMC or related mutual fund entity, the immediate operational impact is procedural rather than substantive: if your organization intended to respond to the consultation paper, the public comment submission timeline has been extended, giving additional time to review the proposal, assess business and disclosure implications, and file comments before the revised deadline. No specific new TER caps, rate changes, calculation rules, or disclosure obligations are stated in the title, so the document itself should be treated as a timing update on the consultation process rather than a final rule.\n\nThe matters implicated by the consultation are likely to affect mutual funds, AMCs, and their distribution/operations and compliance functions because TER directly affects investor costs and fund expense charging. Since the stated objective is “greater transparency” and “accrual of interest of economies of scale to investors,” compliance teams should expect that the underlying consultation may concern how expense ratios are disclosed, justified, monitored, or potentially reduced as fund assets grow, but the title does not specify any final requirements. No effective date for a binding rule is indicated in the provided content, and no numeric thresholds, percentages, or filing mechanics are included beyond the fact that the comment period has been extended.",
+          "summarySource": "title"
         },
         {
           "sr": 271,
@@ -11211,7 +11223,9 @@
           "title": "Extension of timeline for submission of public comments on the consultation paper on Institutional Mechanism for Asset Management Companies for deterrence of possible market abuse and fraudulent transactions",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2023/extension-of-timeline-for-submission-of-public-comments-on-the-consultation-paper-on-institutional-mechanism-for-asset-management-companies-for-deterrence-of-possible-market-abuse-and-fraudulent-trans-_72164.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document announces an extension of the deadline for submitting public comments on a consultation paper concerning an “Institutional Mechanism for Asset Management Companies” intended to deter possible market abuse and fraudulent transactions. Based on the title alone, the substance appears to be that the regulator is seeking stakeholder feedback on proposed governance, oversight, or control mechanisms applicable to asset management companies, with the stated policy objective of preventing market abuse and fraud. The only explicit change identified in the title is the extension of the consultation comment timeline; however, no new deadline date is provided in the supplied content, so the revised submission cutoff cannot be stated from the text available.\n\nFor compliance purposes, this means firms in the asset management ecosystem—particularly asset management companies and any affiliated entities that may be subject to the proposed institutional requirements—should review the underlying consultation paper and prepare to assess whether the eventual mechanism would require new internal controls, surveillance, escalation, reporting, or anti-fraud procedures. Because no body text was provided, there are no specified thresholds, rates, filing formats, or operative compliance obligations to report beyond the fact of the consultation extension itself. This is therefore a general summary based on the title only, and a compliance team should confirm the updated comment deadline and the details of the proposed institutional mechanism from the full consultation document.",
+          "summarySource": "title"
         },
         {
           "sr": 272,
