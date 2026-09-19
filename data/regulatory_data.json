@@ -3882,7 +3882,9 @@
           "title": "Minimum information to be provided to the Audit Committee and Shareholders for approval of Related Party Transactions",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/oct-2025/minimum-information-to-be-provided-to-the-audit-committee-and-shareholders-for-approval-of-related-party-transactions_97281.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This appears to be a **general governance requirement** concerning the **minimum information that must be provided to the Audit Committee and to shareholders when seeking approval of related party transactions**. Based on the title alone, the document likely requires a company to present enough detail about a proposed related party transaction so that the Audit Committee can properly assess it before approval, and so that shareholders can make an informed voting decision where shareholder approval is required.\n\nFor a compliance team, the key implication is that any transaction involving a related party should not be submitted for approval with only a bare description; the company should expect to disclose the nature of the relationship, the substance and terms of the transaction, and the material facts needed to evaluate fairness, necessity, and potential conflicts of interest. The title also suggests a parallel disclosure obligation to shareholders, meaning the information package circulated for approval should be sufficiently complete to support informed consent and should likely align with any local related-party transaction approval rules, corporate governance standards, or stock exchange requirements.\n\nBecause no body text was provided, I cannot identify the exact minimum disclosure items, thresholds, timing, effective dates, or special exceptions. As a result, this should be treated as a **general summary only** and not as a substitute for the actual regulatory text or company policy.",
+          "summarySource": "title"
         },
         {
           "sr": 97,
@@ -3892,7 +3894,9 @@
           "title": "Review of Block Deal Framework",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/oct-2025/review-of-block-deal-framework_97145.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document appears to be a general review of the block deal framework, but no substantive text was provided, so there are no specific rule changes, thresholds, deadlines, affected entities, or new compliance procedures to summarize. Based on the title alone, it likely concerns the regulatory structure governing block trades—large negotiated share transactions executed under special market rules—but the document content needed to identify any actual obligations, exceptions, reporting requirements, price/quantity limits, timing restrictions, or compliance steps is missing. For a compliance team, the only reliable takeaway is that this is a framework review rather than a clearly stated new rule or amendment, and no action item can be confirmed without the underlying text. If you share the full document, I can produce a detailed compliance-focused summary covering all material requirements and deadlines.",
+          "summarySource": "title"
         },
         {
           "sr": 98,
@@ -3902,7 +3906,9 @@
           "title": "Extension of timeline for implementation of SEBI Circular dated February 04, 2025 on ‘Safer participation of retail investors in Algorithmic trading’",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/sep-2025/extension-of-timeline-for-implementation-of-sebi-circular-dated-february-04-2025-on-safer-participation-of-retail-investors-in-algorithmic-trading-_96979.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document is a **timeline extension** related to SEBI’s Circular dated **February 4, 2025** on **“Safer participation of retail investors in Algorithmic trading.”** Based on the title alone, it appears to **delay or extend the implementation schedule** for the measures SEBI had earlier required to make retail participation in algorithmic trading safer. Because no substantive text was provided, I cannot confirm the exact provisions being extended, any revised effective date, or whether any deadlines were moved for exchanges, brokers, algotrad providers, or other market participants.\n\nFor a compliance team, the key takeaway is that this is **not a new substantive framework on its face**, but rather a **change to the timing of implementation** of the February 4, 2025 requirements. Firms affected by the original circular should treat this as a notice to **re-check the revised compliance timeline**, since any controls, system changes, approvals, tagging, monitoring, customer disclosures, or governance arrangements tied to retail algorithmic trading may now have a later deadline than originally planned. Until the underlying circular text or the extension notice itself is reviewed, the exact obligations, dates, and affected entities remain unspecified.\n\n**Note:** This is a **general summary based only on the title**. The underlying document text was not provided, so the summary cannot identify the specific deadline changes, procedural requirements, or regulated parties with certainty.",
+          "summarySource": "title"
         }
       ],
       "ts": 1789844727649,
