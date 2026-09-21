@@ -2507,7 +2507,9 @@
           "title": "Mortgage and refinance interest rates today, Saturday, September 19, 2026: Mortgage rates move lower to start the weekend",
           "desc": "",
           "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-september-19-2026-mortgage-rates-move-lower-to-start-the-weekend-100000254.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This appears to be a general market update rather than a regulatory or compliance directive, and no document text was provided beyond the title. Based on the title alone, the piece reports that mortgage and refinance interest rates moved lower at the start of the weekend on Saturday, September 19, 2026. No specific rate levels, benchmark changes, lender actions, deadlines, affected entities, or compliance obligations are stated in the available content.\n\nFor a corporate compliance team, there is no apparent new requirement to implement from this title alone. If you want a compliance-focused summary with actionable details, I would need the full article or underlying document text, because the title does not contain any regulatory or policy substance.",
+          "summarySource": "title"
         },
         {
           "sr": 3,
@@ -2517,7 +2519,9 @@
           "title": "Mortgage and refinance interest rates today, Friday, September 18, 2026: Rates climb above 7%",
           "desc": "",
           "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-september-18-2026-rates-climb-above-7-100000327.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This item is a general interest-rate update rather than a regulatory rulemaking or compliance directive. Based on the title alone, it states that mortgage and refinance interest rates were higher on Friday, September 18, 2026, with rates climbing above 7%. No specific regulation, filing requirement, operational change, deadline, or affected entity set is provided in the supplied content, so there are no compliance obligations to extract from the text. For a corporate compliance team, the only relevant takeaway is that borrowing and refinance costs appear to have increased to a level above 7% on that date, which may affect treasury, lending, housing finance, or consumer-credit market monitoring, but the document itself does not impose any formal requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 4,
@@ -2527,7 +2531,9 @@
           "title": "Mortgage and refinance interest rates today, Sunday, September 20, 2026: Mortgage rates moved higher again compared to last week",
           "desc": "",
           "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-september-20-2026-mortgage-rates-moved-higher-again-compared-to-last-week-100000702.html",
-          "isNew": true
+          "isNew": true,
+          "summary": "This document is only a title and does not contain any underlying regulatory text, policy change, or formal requirement; it is a general market summary rather than a compliance directive. Based on the title alone, it reports that mortgage and refinance interest rates were higher on Sunday, September 20, 2026, compared with the prior week. No specific rate levels, spreads, thresholds, affected entities, filing deadlines, or procedural obligations are provided, and there is no indication of any new legal or compliance requirement for a corporate compliance team. In short, the only substantive point is a directional market observation: mortgage and refinance borrowing costs increased week over week as of the stated date.",
+          "summarySource": "title"
         }
       ],
       "ts": 1789956345083,
@@ -2743,7 +2749,9 @@
           "title": "UPI MDR could give credit cards some relief even as RuPay gains from UPI link",
           "desc": "Articles 4 min read UPI MDR could give credit cards some relief even as RuPay gains from UPI link UPI accounted for 77.3 per cent of merchant transactions in July 2026, up from 74.9 per cent a year earlier, while credit cards' share fell to 17.7 per cent from 19.8 per cent ETBFSI Research ETBFSI Published On Sep 21, 2026 at 07:29 AM IST var news_msid = 134377926; console.log(news_msid); Select ETBFSI as Preferred Choice on Google Copy Link Share on WhatsApp Share on Linkedin Share on X Share on Telegram Share on Facebook The 0.4 per cent MDR on eligible UPI payments above Rs 2,000 could make credit cards relatively more competitive for higher-value purchasesTransactions above Rs 2,000 account for only around 4 per cent of P2M volumes but about 67 per cent of their value, making the segment significant for payment revenuesRuPay credit cards can be linked to UPI, allowing users to make credit-funded payments through UPI's QR network while remaining outside the new direct-account MDRCredit cards outstanding rose to 122.86 million in July, but average transaction value fell 13.5 per cent to Rs 3,460 as UPI-linked RuPay cards expand their role in smaller-ticket paymentsThe reintroduction of merchant discount rate on select high-value UPI payments could give credit cards some room to regain merchant payment share, as the new framework puts a cost on direct account-to-merchant UPI transactions above Rs 2,000 while leaving credit card-linked UPI payments outside the new MDR regime.From October 15, a 0.4 per cent MDR will apply to specified person-to-merchant UPI transactions above Rs 2,000, capped at Rs 300 for transactions of Rs 75,000 and above. Payments up to Rs 2,000 will remain free, while the new MDR does not apply to credit-linked UPI transactions, including RuPay credit cards linked to UPI, according to NPCI's framework. Advt The distinction could become important for banks and card issuers as UPI continues to take share from cards in merchant payments. UPI accounte",
           "link": "https://bfsi.economictimes.indiatimes.com/articles/upi-mdr-could-give-credit-cards-some-relief-even-as-rupay-gains-from-upi-link/134377926?utm_source=latest_news&utm_medium=homepage",
-          "isNew": true
+          "isNew": true,
+          "summary": "The document reports a change to the pricing of certain UPI merchant payments that could affect card issuers, banks, and payment participants, but not all UPI transactions. Starting **October 15, 2026**, a **0.4% merchant discount rate (MDR)** will apply to **specified person-to-merchant UPI transactions above Rs 2,000**, with the MDR **capped at Rs 300 for transactions of Rs 75,000 and above**. **UPI payments of Rs 2,000 or less remain free**, so the new charge is aimed only at higher-value merchant payments.\n\nA key compliance point is that the MDR applies to **direct account-to-merchant UPI payments** above the threshold, but **does not apply to credit-linked UPI transactions**, including **RuPay credit cards linked to UPI**. That means card-funded UPI payments through the UPI QR ecosystem remain outside this new MDR regime, which may make them relatively more attractive than direct bank-account UPI for higher-ticket purchases.\n\nThe article explains why this matters commercially: transactions above **Rs 2,000 represent only about 4% of P2M volumes but around 67% of P2M value**, so the MDR targets a small share of transactions that generate a large share of payment value. It also notes that **UPI accounted for 77.3% of merchant transactions in July 2026**, up from **74.9% a year earlier**, while **credit cards fell to 17.7% from 19.8%**, showing continued share loss for cards in merchant payments.\n\nFor credit card issuers and banks, the policy may provide some relief by making cards more competitive for higher-value merchant purchases, especially because **credit cards outstanding rose to 122.86 million in July** even as the **average transaction value declined 13.5% to Rs 3,460**. The article links that decline in average ticket size to the growth of **RuPay credit cards on UPI**, which are increasingly being used for smaller-ticket payments through UPI’s QR network while remaining exempt from the new direct-account MDR.",
+          "summarySource": "desc"
         },
         {
           "sr": 7,
@@ -5256,7 +5264,9 @@
           "title": "Details/clarifications on provisions related to association of persons regulated by the Board, MIIs, and their agents with persons engaged in prohibited activities",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/jan-2025/details-clarifications-on-provisions-related-to-association-of-persons-regulated-by-the-board-miis-and-their-agents-with-persons-engaged-in-prohibited-activities_91356.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document appears to be a general clarification or detail note about rules governing the **association of persons regulated by the Board, market infrastructure institutions (MIIs), and their agents with persons engaged in prohibited activities**. Based on the title alone, it likely explains when regulated persons, MIIs, and their agents may or may not be connected, associated, or do business with individuals or entities involved in activities the Board prohibits, and may further clarify how such “association” is defined and applied in practice. It should be read as relevant to compliance programs that govern employee conduct, third-party relationships, business partnerships, outsourcing, referrals, and any other direct or indirect dealings that could be construed as support for prohibited conduct.\n\nBecause no actual text of the document was provided, I cannot identify specific rule changes, effective dates, thresholds, exceptions, filing requirements, or procedural obligations. For a corporate compliance team, the safest immediate takeaway is that any regulated entity, MII, or agent with relationships to counterparties that may be engaged in restricted, prohibited, or sanctionable activities should review the underlying Board rules and any implementing circulars or guidance to confirm whether existing associations, onboarding practices, monitoring controls, or termination procedures need to be tightened. This is a **general summary based on the title only**, and it should not be treated as a complete or definitive statement of the legal requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 200,
@@ -6154,7 +6164,9 @@
           "title": "Amendment to Master Circular for Real Estate Investment Trusts (REITs) dated May 15, 2024 – Board nomination rights to unitholders of REITs",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/aug-2024/amendment-to-master-circular-for-real-estate-investment-trusts-reits-dated-may-15-2024-board-nomination-rights-to-unitholders-of-reits_85493.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document is a general amendment to the Master Circular for Real Estate Investment Trusts (REITs) dated May 15, 2024, and it concerns board nomination rights for REIT unitholders. Based on the title alone, the change appears to address when and how unitholders of a REIT may exercise nomination rights in relation to the REIT’s board, likely affecting REIT managers, trustees, sponsor groups, and unitholders with specified ownership or governance rights. Because no body text was provided, the specific eligibility thresholds, procedural requirements, deadlines, voting conditions, or implementation dates cannot be confirmed from the document content itself.\n\nFor compliance purposes, a REIT should treat this as a governance-related regulatory update and review its trust deed, board constitution process, investor rights provisions, and unitholder communications to determine whether any nomination rights have been amended or newly recognized. The key compliance question will be whether the amendment imposes new rights, clarifies existing rights, or changes the conditions under which unitholders can nominate directors or board members. Since the document text is unavailable, no numerical thresholds, filing deadlines, notice periods, or enforcement consequences can be reliably summarized.",
+          "summarySource": "title"
         },
         {
           "sr": 275,
@@ -10721,7 +10733,9 @@
           "title": "Consultation Paper on review of the Securities and Exchange Board of India (Informal Guidance) Scheme, 2003  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2024/consultation-paper-on-review-of-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2003_86350.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This is a **consultation paper** from the **Securities and Exchange Board of India (SEBI)** on reviewing the **Informal Guidance Scheme, 2003**. Based on the title alone, the document appears to be seeking public comments on whether and how SEBI should amend or update the existing informal guidance process, which is the mechanism through which market participants can ask SEBI for interpretive guidance on securities law and compliance questions. Because no document text was provided, there are **no specific proposed rule changes, deadlines, thresholds, procedural revisions, or affected entities identified in the source material itself** beyond the fact that the review concerns the informal guidance framework.\n\nFor a compliance team, the practical takeaway is that this is likely relevant to any regulated entity or market participant that relies on SEBI informal guidance for issue-spotting, interpretation, or risk management in relation to securities regulations. However, without the body of the paper, it is not possible to confirm what changes are being proposed, whether there are comment deadlines, or whether SEBI is seeking changes to scope, response procedures, disclosure treatment, fees, timelines, or eligibility under the 2003 scheme. This should therefore be treated as a **general notice of potential regulatory consultation** rather than a statement of final requirements.",
+          "summarySource": "title"
         },
         {
           "sr": 198,
@@ -10731,7 +10745,9 @@
           "title": "Consultation paper on “Provisions pertaining to appointment of Public Interest Directors”  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2024/consultation-paper-on-provisions-pertaining-to-appointment-of-public-interest-directors-_86313.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This consultation paper concerns proposed provisions for the appointment of Public Interest Directors, but no substantive document text was provided, so only a high-level summary can be given based on the title alone. The paper likely addresses the regulatory framework, eligibility criteria, appointment process, tenure, independence requirements, or related governance safeguards for Public Interest Directors, but the specific changes, affected entities, thresholds, timelines, and compliance obligations cannot be identified from the information available. Because the content is missing, a compliance team should treat this as a placeholder notice that a consultation exists rather than as an actionable rule change. If you can provide the body of the consultation paper, I can produce a complete compliance-focused summary with the exact requirements, dates, and impacted parties.",
+          "summarySource": "title"
         },
         {
           "sr": 199,
