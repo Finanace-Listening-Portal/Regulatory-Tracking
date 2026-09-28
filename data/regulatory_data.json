@@ -1853,7 +1853,9 @@
           "title": "Income Tax | Moratorium Bars Revenue Appeal Without Established Insolvency Claim: ITAT Delhi",
           "desc": "ITAT Delhi dismissed Revenue appeals during moratorium, allowing restoration if the department later obtains a favourable order on its claim.The post Moratorium Bars Revenue Appeal Without Established",
           "link": "https://taxguru.in/income-tax/moratorium-bars-revenue-appeal-without-established-insolvency-claim-itat-delhi.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports an ITAT Delhi ruling that, during the moratorium period, the Revenue cannot pursue its appeal where its insolvency-related claim has not yet been established. In the case discussed, the tribunal dismissed the Revenue’s appeal because the moratorium was in force and the department did not yet have a favorable order recognizing or admitting its claim in the insolvency process. The practical effect is that tax recovery or appellate action by the department is stayed while the moratorium continues, unless and until the Revenue secures a favorable determination on its claim.\n\nThe ruling also notes that dismissal is not necessarily permanent: the appeal may be restored later if the department subsequently obtains a favorable order on its claim. For compliance teams, the key point is that tax disputes involving an entity under insolvency moratorium may be temporarily non-actionable by the Revenue, but the underlying exposure is not extinguished and can re-emerge if the department later succeeds in the insolvency proceedings.",
+          "summarySource": "desc"
         },
         {
           "sr": 77,
@@ -1863,7 +1865,9 @@
           "title": "Income Tax | ITAT Mumbai Directs 12AB Registration for Church Established Without Formal Trust Deed",
           "desc": "ITAT Mumbai directs Section 12AB registration as Rule 17A recognises institutions established without a formal written trust deed.The post ITAT Mumbai Directs 12AB Registration for Church Established ",
           "link": "https://taxguru.in/income-tax/no-trust-deed-needed-section-12ab-registration-itat-mumbai.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports that the ITAT Mumbai has directed grant of registration under Section 12AB to a church that was established without a formal written trust deed, holding that Rule 17A permits registration of institutions even where no formal trust deed exists. The practical compliance point is that the absence of a written trust deed, by itself, should not be treated as a ground to deny 12AB registration to a genuinely established religious or charitable institution if it can otherwise demonstrate its existence and eligibility under the law.\n\nFor compliance teams, the significance is that entities seeking or maintaining tax-exempt charitable/religious registration should not assume that a formal trust deed is mandatory in every case; the regulatory focus is on whether the institution is properly established and otherwise satisfies the conditions for registration. This ruling is relevant to organizations formed through other legal or historical arrangements, such as churches or similar institutions, because it reinforces that registration authorities should consider the substance of the entity’s establishment rather than reject the application solely for lack of a deed.\n\nThe document does not mention any monetary thresholds, tax rates, or a specific compliance deadline. It also does not describe any new filing procedure beyond the general implication that Section 12AB applications under Rule 17A can be supported even without a written trust deed, provided the applicant can substantiate the institution’s existence and entitlement to registration.",
+          "summarySource": "desc"
         },
         {
           "sr": 78,
@@ -1873,7 +1877,9 @@
           "title": "Corporate Law | Flipkart Penalised ₹10 Lakh for Misleading Cyclosinone Herbicide Listings: CCPA",
           "desc": "CCPA penalises Flipkart ₹10 lakh for misleading Cyclosinone herbicide listings and directs self-audit to prevent unlawful product listings.The post Flipkart Penalised ₹10 Lakh for Misleading Cyclosino",
           "link": "https://taxguru.in/corporate-law/flipkart-penalised-rs-10-lakh-misleading-cyclosinone-herbicide-listings-ccpa.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports that India’s Central Consumer Protection Authority (CCPA) has penalized Flipkart ₹10 lakh for misleading product listings related to the herbicide “Cyclosinone” (as titled in the source) and has also directed the company to conduct a self-audit to prevent unlawful product listings. The key compliance issue is that the marketplace allegedly allowed misleading listings for a regulated agricultural chemical product, which triggered enforcement under consumer protection standards governing false or deceptive online commerce. For compliance teams, the immediate takeaway is that marketplace operators must verify that product pages are accurate and lawful, especially for regulated goods, and should not permit listings that could misrepresent the product name, nature, or legality.\n\nThe monetary penalty is specific: ₹10 lakh. In addition to the fine, the CCPA’s direction to undertake a self-audit indicates an affirmative compliance obligation to review existing product listings and internal controls to identify and remove unlawful or misleading items before they reach consumers. The document does not provide a detailed implementation deadline, but the self-audit directive itself implies prompt remedial action and stronger listing governance. Any e-commerce platform, marketplace operator, or seller handling pesticides, herbicides, or similarly regulated products should treat this as a warning to tighten catalog review, seller onboarding, and content moderation processes to avoid similar penalties.",
+          "summarySource": "desc"
         },
         {
           "sr": 79,
@@ -1883,7 +1889,9 @@
           "title": "Corporate Law | CCPA Penalises JioMart ₹5 Lakh Over Unregistered Herbicide Listings",
           "desc": "CCPA penalises JioMart ₹5 lakh for misleading Cyclosinone herbicide listings and directs self-audit to prevent unlawful product listings.The post CCPA Penalises JioMart ₹5 Lakh Over Unregistered Herbi",
           "link": "https://taxguru.in/corporate-law/ccpa-penalises-jiomart-rs-5-lakh-unregistered-herbicide-listings.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports that India’s Central Consumer Protection Authority (CCPA) has imposed a penalty of ₹5 lakh on JioMart for allegedly misleading product listings related to Cyclosinone herbicide. The enforcement action centers on the sale or listing of an herbicide that was described in a way that the authority viewed as deceptive and unlawful, specifically because the product was not properly registered for the claims or use being promoted.  \n\nIn addition to the monetary penalty, the CCPA has directed JioMart to conduct a self-audit of its platform to identify and prevent unlawful product listings going forward. For compliance purposes, the key operational requirement is that online marketplaces must verify that regulated agricultural products such as herbicides are lawfully registered and accurately described before allowing them to be listed or advertised.  \n\nThe document does not provide a broader rulemaking change, implementation timeline, or new statutory deadline; instead, it reflects an enforcement action that signals heightened scrutiny of e-commerce listings for regulated products. Companies operating marketplaces or selling agricultural chemicals online should treat this as a warning that misleading claims or listings of unregistered products can result in monetary penalties and corrective compliance obligations, including internal audits of product catalog controls.",
+          "summarySource": "desc"
         },
         {
           "sr": 80,
@@ -1893,7 +1901,9 @@
           "title": "CA, CS, CMA | ICSI Seeks Inclusion of Company Secretaries for DGFT E-Commerce Compliance Certification",
           "desc": "ICSI seeks inclusion of Company Secretaries in Clause 9.06 for compliance certification under DGFT’s cross-border e-commerce framework.The post ICSI Seeks Inclusion of Company Secretaries for DGFT E-C",
           "link": "https://taxguru.in/chartered-accountant/icsi-seeks-inclusion-company-secretaries-dgft-commerce-compliance-certification.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports that the Institute of Company Secretaries of India (ICSI) is seeking a policy change from the Directorate General of Foreign Trade (DGFT) to expressly include Company Secretaries within Clause 9.06 of DGFT’s cross-border e-commerce compliance certification framework. The practical effect would be to expand the category of professionals authorized to provide compliance certification for entities operating under this e-commerce regime, rather than limiting that role to the currently recognized professionals.\n\nFor a compliance team, the key point is that this is a proposed inclusion request, not a confirmed rule change in the text provided. No effective date, transition period, filing deadline, monetary threshold, or substantive certification standard is stated in the excerpt. The only concrete compliance implication described is that, if DGFT accepts the request, companies engaged in cross-border e-commerce may be able to rely on certifications issued by Company Secretaries for the relevant compliance requirement under Clause 9.06.",
+          "summarySource": "desc"
         },
         {
           "sr": 81,
@@ -1903,7 +1913,9 @@
           "title": "Income Tax | Church’s 12AB Rejection Set Aside for Fresh Hearing Despite Initial Non-Compliance: ITAT Mumbai",
           "desc": "Mumbai ITAT restores Section 12AB renewal application despite admitted non-compliance, directing fresh hearing but warning against further default.The post Church’s 12AB Rejection Set Aside for Fresh ",
           "link": "https://taxguru.in/income-tax/sec12ab-renewal-rejection-single-opportunity-remanded-itat-mumbai.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports a Mumbai Income Tax Appellate Tribunal (ITAT) decision involving a church’s application for renewal of registration under Section 12AB of the Income-tax Act. The Tribunal set aside the rejection of the renewal application even though the applicant had admitted non-compliance with earlier requirements, and it directed the tax authorities to give the matter a fresh hearing rather than treating the application as finally rejected. The practical effect is that the church’s 12AB renewal process is reopened, so the applicant gets another opportunity to explain or cure the deficiencies before a final administrative decision is made.\n\nFor compliance purposes, the key point is that non-compliance does not automatically end the registration/renewal process if the applicant can seek appellate relief, but the Tribunal also warned that there should be no further default. That warning signals that the organization must respond promptly to any notices, submit all required information and documents, and fully cooperate with the re-hearing; failure to do so could result in the renewal being denied again. The document does not provide a specific statutory deadline, effective date, rate, or threshold, but it clearly affects entities seeking or maintaining tax-exempt status through Section 12AB registration/renewal, especially charitable or religious institutions like churches.",
+          "summarySource": "desc"
         },
         {
           "sr": 82,
@@ -1913,7 +1925,9 @@
           "title": "Income Tax | Toll Collection Right Under NHAI Concession Is Depreciable Intangible Asset: ITAT Mumbai",
           "desc": "Mumbai ITAT quashes Section 263 revision and holds BOT concession licence and toll collection right eligible for depreciation under Section 32(1)(ii).The post Toll Collection Right Under NHAI Concessi",
           "link": "https://taxguru.in/income-tax/depreciation-allowed-24-year-highway-toll-collection-licence-itat-mumbai.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports a Mumbai Income Tax Appellate Tribunal (ITAT) ruling that is favorable to taxpayers holding National Highways Authority of India (NHAI) build-operate-transfer (BOT) concession rights. The Tribunal quashed a revision order passed under Section 263 and held that a BOT concession licence/toll collection right qualifies as a depreciable intangible asset under Section 32(1)(ii) of the Income-tax Act. In practical terms, this means the taxpayer is allowed to claim depreciation on the right to collect tolls acquired under the concession arrangement, rather than treating it as a non-depreciable contractual or franchise-type benefit.\n\nFor compliance and tax reporting purposes, the key implication is that entities operating highway projects under NHAI concession agreements may be able to include the toll collection right in the block of intangible assets and claim depreciation accordingly, subject to the usual factual and documentation support for the asset’s existence and cost. The document does not specify a new deadline, filing date, rate change, or compliance timetable; its significance is interpretive and litigative, affecting how such concession rights are characterized for income-tax depreciation claims. Companies with similar BOT/NHAI arrangements should review prior and current depreciation claims, supporting concession documents, and any Section 263 exposure in light of this ruling.",
+          "summarySource": "desc"
         },
         {
           "sr": 83,
@@ -1923,7 +1937,9 @@
           "title": "Income Tax | Section 68 Share Premium Additions Deleted on Verified Investor Evidence: ITAT Mumbai",
           "desc": "ITAT Mumbai deletes Section 68 share premium additions after investor verification and holds post-2013 proviso inapplicable to AYs 2007-08 and 2008-09.The post Section 68 Share Premium Additions Delet",
           "link": "https://taxguru.in/income-tax/section-68-share-premium-additions-deleted-verified-investor-evidence-itat-mumbai.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This ITAT Mumbai ruling holds that Section 68 additions made on account of share premium/share capital cannot be sustained where the taxpayer has produced and verified investor evidence, and it specifically deleted the additions in the case before it. The tribunal’s key temporal holding is that the proviso to Section 68 inserted with effect from 1 April 2013 does **not** apply retrospectively to Assessment Years 2007-08 and 2008-09, so the enhanced burden under that proviso could not be used to justify additions for those earlier years. In practical compliance terms, for the years covered by this decision, a company facing a Section 68 inquiry over share premium must still substantiate the receipt with investor identity and verification evidence, but the post-2013 proviso cannot be invoked against pre-2013 assessments.\n\nThe document therefore reinforces that, at least for AYs 2007-08 and 2008-09, tax authorities cannot rely on the later-amended Section 68 standard to make share premium additions if the investor is identifiable and the evidence has been verified. For compliance teams, the material point is that documentation of investor identity and transaction evidence remained decisive in this case, and the court’s reasoning limits application of the stricter 2013 amendment to later assessment years only.",
+          "summarySource": "desc"
         },
         {
           "sr": 84,
@@ -1933,7 +1949,9 @@
           "title": "Income Tax | AO Cannot Treat 70% of Cash Redeposit as Unexplained Without Evidentiary Basis: ITAT Mumbai",
           "desc": "Mumbai ITAT deletes ₹11.82 lakh Section 69A addition as earlier bank withdrawals were not disproved and arbitrary 70% rejection lacked evidence.The post AO Cannot Treat 70% of Cash Redeposit as Unexpl",
           "link": "https://taxguru.in/income-tax/bank-passbook-cannot-support-section-68-cash-credit-addition-itat-mumbai.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document reports an Income Tax Appellate Tribunal (ITAT) Mumbai decision holding that the Assessing Officer (AO) could not treat 70% of a taxpayer’s cash redeposit as unexplained income under Section 69A without a proper evidentiary basis. The Tribunal deleted an addition of ₹11.82 lakh, finding that the taxpayer’s earlier cash withdrawals from the bank had not been disproved and that the AO’s decision to accept only 30% of the redeposit while disallowing 70% was arbitrary.  \n\nFor compliance purposes, the key substantive point is procedural and evidentiary: when a taxpayer explains a cash redeposit as being sourced from prior bank withdrawals, the tax authority must examine and rebut that explanation with evidence rather than apply an ad hoc percentage disallowance. The ruling reinforces that Section 69A additions for unexplained money require a factual foundation linking the redeposited cash to unexplained sources; mere suspicion or a rough estimation is insufficient.  \n\nNo new filing deadline, rate, threshold, or operational compliance requirement is announced in the document itself, but the decision is important for handling cash transaction documentation and defending source-of-funds explanations in assessments. Entities with significant cash withdrawals and redeposits should ensure bank statements, cash flow records, and contemporaneous explanations are maintained so that redeposits can be traced back to earlier withdrawals if challenged.",
+          "summarySource": "desc"
         },
         {
           "sr": 85,
@@ -1943,7 +1961,9 @@
           "title": "Income Tax | Section 201 Order on Non-Existent Amalgamated Company Quashed: ITAT Bangalore",
           "desc": "ITAT Bangalore quashes Section 201 order passed in EMC’s name despite prior merger intimations, holding the jurisdictional defect incurable.The post Section 201 Order on Non-Existent Amalgamated Compa",
           "link": "https://taxguru.in/income-tax/section-201-order-non-existent-amalgamated-company-quashed-itat-bangalore.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports an Income Tax Appellate Tribunal (ITAT), Bangalore decision holding that a Section 201 order was invalid because it was passed in the name of a company that had already ceased to exist after amalgamation. The tribunal quashed the order against EMC, finding that the income-tax authorities had been informed of the merger in advance, so proceeding against the amalgamating entity was a jurisdictional defect rather than a mere procedural error.\n\nFor compliance purposes, the key point is that once an amalgamation has taken effect, assessments, demands, and TDS/default orders must be addressed to the surviving amalgamated entity, not the non-existent predecessor company. The decision underscores that prior intimation of the merger matters: where the tax department has already been notified, continuing to issue orders in the old company’s name can make the order unenforceable. This case therefore reinforces the need for prompt, documented merger notifications to all tax authorities and for internal review of all pending tax proceedings after any corporate restructuring so that notices and orders are corrected to the proper legal entity.",
+          "summarySource": "desc"
         },
         {
           "sr": 86,
@@ -1953,7 +1973,9 @@
           "title": "Income Tax | Old Completion Certificate, Reworked Unit: No Notional Rent on Unfinished Stock",
           "desc": "Mumbai ITAT deletes ₹16.84 lakh notional rent and ₹27.49 crore Section 68 addition, holding opening stock was no fresh cash credit.The post Old Completion Certificate, Reworked Unit: No Notional Rent ",
           "link": "https://taxguru.in/income-tax/completion-certificate-reworked-unit-no-notional-rent-unfinished-stock.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document reports a Mumbai Income Tax Appellate Tribunal ruling in a case involving a developer’s reworked housing unit and the tax treatment of unfinished stock. The ITAT held that where a unit had an old completion certificate and was being reworked, the tax authority could not impute “notional rent” on the unfinished stock, and it deleted the notional rent addition of ₹16.84 lakh. It also deleted a much larger Section 68 addition of ₹27.49 crore, finding that the opening stock reflected in the accounts was not a fresh cash credit and therefore did not trigger unexplained-cash-credit treatment.\n\nFor compliance purposes, the key point is the tribunal’s substance-over-form view that inventory or opening stock shown from prior periods, particularly in a reworked project with an earlier completion certificate, should not automatically be treated as taxable deemed income or unexplained credits merely because the project is incomplete or restructured. The decision is relevant to real estate developers and similar taxpayers with unfinished inventory, project reworking, or historical completion documentation, because it limits the use of notional rent assumptions and Section 68 additions in these facts. No new filing deadline, procedural change, or statutory rate is announced in the title/content provided; the operative takeaway is the elimination of those two additions based on the facts of the case.",
+          "summarySource": "desc"
         },
         {
           "sr": 87,
@@ -1963,7 +1985,9 @@
           "title": "Income Tax | Return Filed Only After Section 148 Notice Does Not Make Section 270A Penalty Automatic: ITAT Mumbai",
           "desc": "Mumbai ITAT deletes ₹3.95 lakh Section 270A penalty where Section 148 return was accepted without addition and non-filing explanation was bona fide.The post Return Filed Only After Section 148 Notice ",
           "link": "https://taxguru.in/income-tax/bona-fide-non-filing-explanation-brings-income-section-270a-6-itat-mumbai.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports a Mumbai Income Tax Appellate Tribunal decision holding that a penalty under Section 270A is **not automatic** merely because a taxpayer filed a return only after receiving a **Section 148 reassessment notice**. In the case described, the taxpayer’s return was filed after the notice, but the assessing proceedings ended **without any addition to income**, and the Tribunal found the taxpayer’s explanation for the original non-filing to be **bona fide**. On that basis, the Tribunal **deleted the ₹3.95 lakh penalty** imposed under Section 270A.\n\nFor compliance purposes, the key point is that a late return in response to a Section 148 notice does **not by itself** establish under-reporting or trigger an unavoidable penalty. The ruling indicates that tax authorities still need a substantive basis for a Section 270A penalty, and taxpayers can defend against penalty exposure by showing a genuine, reasonable explanation for the failure to file earlier and by pointing out that the reassessment produced **no taxable addition**. While this is an ITAT decision rather than a statutory amendment, it is relevant to any entity or individual facing reassessment proceedings under Section 148 because it supports challenging penalty proposals that rest solely on the timing of the return filing rather than on a proven income discrepancy.",
+          "summarySource": "desc"
         },
         {
           "sr": 88,
@@ -1973,7 +1997,9 @@
           "title": "Income Tax | Reopening Challenge Requires Reasoned Decision; ₹2.94 Crore Addition Remanded: ITAT Mumbai",
           "desc": "ITAT Mumbai remands ₹2.94 crore Section 69 addition as CIT(A) failed to give reasoned findings on jurisdictional reopening objections.The post Reopening Challenge Requires Reasoned Decision; ₹2.94 Cro",
           "link": "https://taxguru.in/income-tax/reopening-challenge-requires-reasoned-decision-rs-2-94-crore-addition-remanded-itat-mumbai.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports an ITAT Mumbai decision in which a **₹2.94 crore addition made under Section 69** was **remanded** because the **CIT(A) did not issue a reasoned order on the taxpayer’s challenge to the validity of the reopening**. The key procedural point is that when an assessee specifically contests **jurisdictional reopening**—i.e., whether the reassessment itself was valid—the appellate authority must address that objection with a proper, reasoned finding rather than ignoring it or disposing of it summarily.\n\nFor compliance teams, the practical takeaway is that **reassessment matters can be overturned or sent back if the reopening challenge is not adjudicated properly**, even where the tax addition is substantial. The case underscores the need for the tax department and appellate authorities to document clear reasons supporting reopening jurisdiction, and it also reinforces that taxpayers should preserve and press procedural objections where reopening appears defective. No new tax rate, filing deadline, or industry-specific obligation is announced in the text; the decision is primarily a **procedural ruling on reassessment validity and appellate reasoning requirements**.",
+          "summarySource": "desc"
         },
         {
           "sr": 89,
@@ -1983,7 +2009,9 @@
           "title": "Income Tax | Cash Withdrawn Before Demonetisation Cannot Be Treated as Unexplained on Mere Suspicion: ITAT Mumbai",
           "desc": "Mumbai ITAT deletes ₹73.70 lakh Section 69A addition as recorded bank withdrawals sufficiently explained demonetisation cash deposits.The post Cash Withdrawn Before Demonetisation Cannot Be Treated as",
           "link": "https://taxguru.in/income-tax/cash-withdrawn-demonetisation-cannot-treated-unexplained-mere-suspicion-itat-mumbai.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document reports an Income Tax Appellate Tribunal (ITAT), Mumbai ruling that a taxpayer’s cash deposits made during the demonetisation period could not be added as “unexplained” income under Section 69A merely because the tax department suspected the cash might be unaccounted. The Tribunal deleted an addition of ₹73.70 lakh, accepting that the taxpayer had already withdrawn the money from a bank account before demonetisation and that those recorded withdrawals sufficiently explained the later cash deposits.\n\nFor compliance purposes, the key point is evidentiary: where a taxpayer can trace demonetisation-period cash deposits to prior, documented bank withdrawals, the department cannot sustain a Section 69A addition on suspicion alone. The decision underscores that assessment authorities must rely on concrete material and a proper factual nexus between withdrawals and deposits, rather than assuming that cash deposited after demonetisation is unexplained simply because it was held in cash for some period. There are no new filing deadlines, rates, or procedural changes announced in this item, but it is relevant for taxpayers facing scrutiny over demonetisation-era cash deposits and for substantiating cash trail documentation in assessments.",
+          "summarySource": "desc"
         },
         {
           "sr": 90,
@@ -1993,7 +2021,9 @@
           "title": "Income Tax | Pre-April 2017 Property Deal Not Taxable Under Section 56(2)(x): ITAT Mumbai",
           "desc": "ITAT Mumbai upholds deletion of ₹17.69 crore Section 56(2)(x) addition where payment, deed execution and possession preceded 1 April 2017.The post Pre-April 2017 Property Deal Not Taxable Under Sectio",
           "link": "https://taxguru.in/income-tax/pre-april-2017-property-deal-not-taxable-section-56-2-itat-mumbai.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The ITAT Mumbai held that Section 56(2)(x) of the Income-tax Act could not be applied to a property transaction where the payment, execution of the agreement/sale deed, and handing over of possession all occurred before 1 April 2017, even though the tax authorities had attempted to make an addition of ₹17.69 crore. In practical terms, the ruling confirms that a transfer completed before the effective date of Section 56(2)(x) is not taxable under that provision, so the deeming anti-abuse rule does not operate retroactively to capture earlier transactions.  \n\nFor compliance purposes, the key point is that real-estate and other property acquisitions must be reviewed against the timing of three critical events: payment, execution of the relevant conveyance/documentation, and possession/transfer of control. If all of those occurred before 1 April 2017, the buyer should not be exposed to an addition under Section 56(2)(x) on the basis of this ruling. The decision is especially relevant for taxpayers facing or reviewing assessment exposure on pre-1 April 2017 property deals where the consideration may have been below stamp duty value or where the department alleges undervaluation.",
+          "summarySource": "desc"
         },
         {
           "sr": 91,
@@ -2003,7 +2033,9 @@
           "title": "Income Tax | ESOP Deduction Cannot Be Revisited Through Section 263: ITAT Mumbai",
           "desc": "ITAT Mumbai quashes Section 263 revision of JSW Jaigarh Port’s ₹4.83 crore ESOP deduction, holding the AO adopted a sustainable view.The post ESOP Deduction Cannot Be Revisited Through Section 263: IT",
           "link": "https://taxguru.in/income-tax/esop-deduction-cannot-revisited-section-263-itat-mumbai.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports an ITAT Mumbai ruling involving JSW Jaigarh Port’s claim of a ₹4.83 crore deduction for ESOP-related expense, and the tribunal held that this deduction could not be reopened by the tax department under Section 263. In practical terms, the ITAT found that the Assessing Officer’s original acceptance of the ESOP deduction was a legally sustainable view, so the revision order issued under Section 263 was quashed.\n\nFor compliance teams, the key point is that this is a taxpayer-favorable precedent on ESOP deductions: where the company has taken a supportable position and the Assessing Officer has examined and accepted it, the tax authority cannot use Section 263 merely to substitute a different view later. The document does not announce any new statutory deadline, filing date, rate, or threshold, and it does not change ESOP accounting or tax rules prospectively; it is a case-specific judicial outcome relevant to how ESOP deductions may be defended in assessment and revision proceedings. Companies claiming ESOP deductions should nevertheless maintain strong documentation supporting the deduction amount, the accounting treatment, and the legal basis for the claim, since the ruling turns on the existence of a “sustainable view” by the Assessing Officer rather than a blanket immunity from scrutiny.",
+          "summarySource": "desc"
         },
         {
           "sr": 92,
@@ -2013,7 +2045,9 @@
           "title": "Income Tax | Penalty Cannot Shift From Section 271AAC to Section 271(1)(c): ITAT Mumbai",
           "desc": "Mumbai ITAT deletes ₹17.18 lakh penalty as assessment order initiated section 271AAC, not section 271(1)(c), making later levy jurisdictionally invalid.The post Penalty Cannot Shift From Section 271AA",
           "link": "https://taxguru.in/income-tax/penalty-cannot-shift-section-271aac-section-271-1-itat-mumbai.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This Mumbai ITAT ruling holds that a penalty cannot be imposed under Section 271(1)(c) of the Income-tax Act when the assessment order had specifically initiated penalty proceedings only under Section 271AAC. In the case discussed, the tribunal deleted a penalty of ₹17.18 lakh because the Assessing Officer’s original assessment order referenced Section 271AAC, and the department later attempted to levy penalty under Section 271(1)(c) instead; the ITAT found this change to be jurisdictionally invalid. The key compliance takeaway is that penalty proceedings must stay within the exact statutory provision cited in the assessment/initiation order, and the tax authorities cannot later substitute a different penalty section if the original initiation was under another provision.\n\nFor taxpayers and corporate compliance teams, this decision reinforces the importance of reviewing assessment and penalty notices for precise legal basis and consistency between the initiation language and the final penalty order. If a notice or assessment order cites one penalty provision, any later attempt to shift to another provision may be challengeable as lacking jurisdiction. The ruling does not create a new substantive tax filing obligation or deadline, but it materially affects how companies should contest penalty orders: they should verify whether the penalty section imposed matches the section originally initiated, and raise a jurisdictional objection where it does not.",
+          "summarySource": "desc"
         },
         {
           "sr": 93,
@@ -2023,7 +2057,9 @@
           "title": "Income Tax | Two Property Documents Cannot Be Treated as Two Purchases of Same Flat: ITAT Mumbai",
           "desc": "Mumbai ITAT deletes ₹2.20 crore Section 69 addition after finding two reported property entries related to a single ₹1.10 crore purchase.The post Two Property Documents Cannot Be Treated as Two Purcha",
           "link": "https://taxguru.in/income-tax/property-documents-flat-rs-2-20-crore-addition-penalties-deleted.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports an Income Tax Appellate Tribunal (ITAT), Mumbai ruling holding that two separate property-related documents should not be treated as two independent purchases of the same flat for tax purposes when they in fact relate to one actual acquisition. In the case described, the tax authority had made a ₹2.20 crore addition under Section 69 on the premise that there were two property entries, but the ITAT deleted the addition after concluding the records reflected a single flat purchase for ₹1.10 crore, not two separate transactions.\n\nFor compliance purposes, the key point is that tax treatment must follow the substance of the property transaction rather than a purely formal reading of multiple documents. If a taxpayer or company has multiple documents, entries, or registrations relating to one underlying property acquisition, the mere existence of more than one document does not automatically justify treating them as separate investments or unexplained expenditure under Section 69. The ruling therefore reinforces the need to reconcile property records, payment trail, and ownership/transfer documentation before reporting any additional income, unexplained investment, or capital outlay in tax computations.\n\nNo new statutory deadline, filing date, rate, or procedural rule is announced in the excerpt itself; the operative compliance takeaway is evidentiary and classification-based. Organizations should ensure internal tax reviews distinguish between duplicated documentation and truly separate purchases, because incorrectly characterizing one property acquisition as multiple purchases can lead to inflated additions under Section 69 and disputed assessments.",
+          "summarySource": "desc"
         },
         {
           "sr": 94,
@@ -2033,7 +2069,9 @@
           "title": "Income Tax | Section 263 Revision of JSW Infrastructure Assessment Quashed: ITAT Mumbai",
           "desc": "ITAT Mumbai quashes Section 263 revision involving ESOP expense, ₹494 crore group loan, interest and MAT adjustment.The post Section 263 Revision of JSW Infrastructure Assessment Quashed: ITAT Mumbai ",
           "link": "https://taxguru.in/income-tax/section-263-revision-jsw-infrastructure-assessment-quashed-itat-mumbai.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports that the Income Tax Appellate Tribunal (ITAT), Mumbai quashed a revisionary order passed under Section 263 in the case of JSW Infrastructure, meaning the tax authority’s attempt to revise the company’s assessment was set aside. The revision had concerned three substantive issues: the allowability/treatment of ESOP-related expense, a large intra-group loan of ₹494 crore, and related interest and Minimum Alternate Tax (MAT) adjustment matters. For compliance purposes, the practical takeaway is that the tribunal found the original assessment could not be reopened or revised on these grounds under Section 263, so the revisionary intervention by the tax department was invalid in this instance.\n\nThis matters for corporates because it highlights the limits on the Commissioner’s revision powers when an assessment has already been examined and the record does not justify a finding that the assessment was both erroneous and prejudicial to revenue. The document does not announce a new filing deadline, statutory rate change, or industry-wide procedural requirement; instead, it reflects a case-specific tax litigation outcome. Entities with similar fact patterns — especially those using ESOPs, inter-company financing, or MAT-related adjustments — should note that such matters may be scrutinized, but a Section 263 revision is not automatic and must meet the legal threshold before it can stand.",
+          "summarySource": "desc"
         },
         {
           "sr": 95,
@@ -2043,7 +2081,9 @@
           "title": "Income Tax | School Sections Cannot Be Split to Meet ₹1 Crore Section 10(23C)(iiiad) Limit: ITAT Mumbai",
           "desc": "Mumbai ITAT denies section 10(23C)(iiiad) exemption but directs AO to tax only net income after admissible expenditure.The post School Sections Cannot Be Split to Meet ₹1 Crore Section 10(23C)(iiiad) ",
           "link": "https://taxguru.in/income-tax/school-sections-cannot-split-rs-1-crore-exemption-limit-itat-mumbai.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports an Income Tax Appellate Tribunal (ITAT), Mumbai ruling involving a school/trust that claimed exemption under section 10(23C)(iiiad) of the Income-tax Act, which applies only where the institution’s annual receipts do not exceed ₹1 crore. The Tribunal held that the institution could not artificially split its school operations into separate “sections” to try to stay within that ₹1 crore threshold; in other words, the receipts had to be viewed on a consolidated basis for purposes of determining eligibility for the exemption. As a result, the exemption claim under section 10(23C)(iiiad) was denied.\n\nAt the same time, the Tribunal directed the Assessing Officer not to tax gross receipts indiscriminately, but only the net income after allowing admissible expenditure. For compliance purposes, this means educational institutions seeking this exemption must ensure that all related school receipts are aggregated correctly and cannot be fragmented across divisions or sections to fall below the statutory limit, while also maintaining proper records of allowable expenses in case exemption is denied and taxable income must be computed on a net basis. No specific effective date is mentioned in the summary provided; the operative requirement is the current interpretation of the ₹1 crore threshold under section 10(23C)(iiiad) as applied by the ITAT Mumbai.",
+          "summarySource": "desc"
         },
         {
           "sr": 96,
@@ -2053,7 +2093,9 @@
           "title": "Income Tax | Section 263 Revision of JSW Cement Assessments Quashed: ITAT Mumbai",
           "desc": "ITAT Mumbai quashes Section 263 revision for AYs 2020-21 and 2021-22 involving ESOPs, MAT, deemed dividend, branding fees and interest.The post Section 263 Revision of JSW Cement Assessments Quashed: ",
           "link": "https://taxguru.in/income-tax/section-263-revision-jsw-cement-assessments-quashed-itat-mumbai.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The ITAT Mumbai has quashed the Principal Commissioner’s revisionary action under Section 263 in the JSW Cement matter for Assessment Years 2020-21 and 2021-22, meaning the original assessment orders were allowed to stand and the attempted revision was set aside. The dispute covered several tax issues raised in the revision proceedings, including ESOP-related treatment, MAT computations, deemed dividend characterization, branding fee disallowance, and interest-related issues; however, the key procedural outcome is that the tribunal found the Section 263 invocation unsustainable on the facts of the case.\n\nFor compliance purposes, the practical takeaway is that a Section 263 order can be invalidated where the assessing officer’s order is not shown to be both erroneous and prejudicial to the interests of the revenue in the manner required by law. This decision does not announce a new filing deadline, rate change, or industry-wide substantive tax rule, but it does reinforce that large corporate taxpayers can challenge revisionary proceedings if the tax authority seeks to re-open or revise completed assessments without meeting the statutory threshold. Entities dealing with ESOP accounting, MAT positions, related-party funding or dividend characterization, brand fee deductions, or interest claims should still maintain robust documentation supporting their tax treatment, because those items were specifically in dispute even though the revision was ultimately quashed.",
+          "summarySource": "desc"
         },
         {
           "sr": 97,
@@ -2063,7 +2105,9 @@
           "title": "Income Tax | Section 292BB Cannot Cure Unproved Section 143(2) Notice: ITAT Mumbai",
           "desc": "ITAT Mumbai quashes reassessment as Revenue failed to prove issue and service of Section 143(2) notice; Section 292BB could not cure defect.The post Section 292BB Cannot Cure Unproved Section 143(2) N",
           "link": "https://taxguru.in/income-tax/section-292bb-cannot-cure-unproved-section-143-2-notice-itat-mumbai.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document summarizes an ITAT Mumbai ruling holding that a reassessment was invalid because the Revenue could not prove that a notice under Section 143(2) of the Income Tax Act had actually been issued and served. The tribunal found that the absence of proof of issue and service was a fatal procedural defect, and it rejected the Revenue’s attempt to rely on Section 292BB to cure the problem. In practical terms, the decision reinforces that tax authorities must be able to substantiate both the issuance and proper service of a Section 143(2) notice in reassessment proceedings; it is not enough to assume compliance or rely on an assessee’s participation if the statutory notice itself is not proven.\n\nFor a compliance team, the key takeaway is that reassessment actions can be challenged and potentially quashed where the record does not clearly evidence valid notice issuance/service, making documentation and audit trails critical in tax litigation and assessments. The ruling does not announce a new tax rate or filing deadline, but it materially affects process compliance: authorities must maintain demonstrable proof of Section 143(2) notice compliance, and taxpayers should preserve records to verify whether such notice was properly issued and served. Section 292BB cannot be used as a blanket cure for a missing or unproven notice where the foundational statutory requirement itself has not been established.",
+          "summarySource": "desc"
         },
         {
           "sr": 98,
@@ -2073,7 +2117,9 @@
           "title": "Income Tax | A Recovery Letter Cannot Become an Appeal Order Merely by Calling It One in Form 35",
           "desc": "ITAT Pune dismisses six TDS appeals as recovery letters were not appealable and section 200A intimations were not produced.The post A Recovery Letter Cannot Become an Appeal Order Merely by Calling It",
           "link": "https://taxguru.in/income-tax/recovery-letter-cannot-appeal-order-calling-form-35.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports an ITAT Pune decision dismissing six TDS appeals because the underlying communications were only recovery letters, not appealable orders, and the appellants did not produce any section 200A intimations that could have supported appellate jurisdiction. The key holding is that a recovery letter does not become an “appeal order” merely because the taxpayer labels it that way in Form 35; substance controls over the form of the filing.  \n\nFor compliance purposes, this means that if an organization receives a demand or recovery communication from the tax department, it must first determine whether the document is actually an appealable order or merely a recovery notice before filing an appeal. If the notice arises from TDS processing, the relevant section 200A intimation should be obtained and reviewed, because without that statutory intimation the appeal may be dismissed as not maintainable.  \n\nThe decision is procedural rather than substantive: it does not change TDS rates, thresholds, or payment deadlines, but it does reinforce that appeals must be based on the correct statutory instrument. Corporate tax and payroll teams should therefore retain all original tax intimations, demand notices, and processing orders, and verify the exact nature of any communication before escalating it into the appellate process.",
+          "summarySource": "desc"
         },
         {
           "sr": 99,
@@ -2083,7 +2129,9 @@
           "title": "Income Tax | Delayed Section 234E Appeals Dismissed Without Deciding Levy Merits: ITAT Pune",
           "desc": "ITAT Pune dismisses four delayed Section 234E appeals as assessee knew of fee demand in 2017; levy merits left undecided.The post Delayed Section 234E Appeals Dismissed Without Deciding Levy Merits: I",
           "link": "https://taxguru.in/income-tax/delayed-section-234e-appeals-dismissed-without-deciding-levy-merits-itat-pune.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports an Income Tax Appellate Tribunal (ITAT), Pune ruling on appeals involving the Section 234E late-filing fee for TDS/TCS statements. Four appeals were dismissed because they were filed late, with the tribunal finding that the assessee was already aware of the fee demand in 2017, so the delay was not excused. Importantly for compliance purposes, the tribunal did **not** decide whether the Section 234E levy itself was valid on the merits; the decision was limited to the procedural issue of delay in filing the appeals.  \n\nFor a corporate compliance team, the practical point is that objections to Section 234E demands can be lost if appeals are not filed within the required time or if there is no strong explanation for delay, even when the underlying legality of the levy remains unresolved. The ruling underscores the need to monitor TDS/TCS fee notices and appellate deadlines closely, since awareness of a demand can defeat later attempts to seek condonation of delay. No new statutory rate, threshold, or effective-date change is announced in the summary provided; the material development is the tribunal’s refusal to entertain stale appeals while leaving the substantive Section 234E issue open.",
+          "summarySource": "desc"
         },
         {
           "sr": 100,
@@ -2093,7 +2141,9 @@
           "title": "Income Tax | Wrong Authority Approved Reopening; Section 263 Could Not Repair It",
           "desc": "ITAT Mumbai quashes section 263 orders as reassessments lacked approval from the specified authority under section 151(ii).The post Wrong Authority Approved Reopening; Section 263 Could Not Repair It ",
           "link": "https://taxguru.in/income-tax/wrong-authority-approved-reopening-section-263-not-repair.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports that the ITAT Mumbai quashed section 263 revision orders because the underlying reassessment proceedings were invalid from the start: the reopening had not been approved by the authority specifically required under section 151(ii) of the Income-tax Act. In other words, even though a revisional authority later attempted to correct or sustain the matter through section 263, that could not cure the foundational defect in the reassessment process. The practical compliance point is that where a reassessment is initiated without the correct statutory sanction, the reassessment is vulnerable to being struck down, and any downstream section 263 action based on that defective reopening may also fail. This ruling is important for tax departments because it underscores the need to verify that reopening approvals are obtained from the exact authority mandated by law before responding to or relying on any reassessment notice or subsequent revision order.",
+          "summarySource": "desc"
         }
       ],
       "ts": 1790554014009,
