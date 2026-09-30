@@ -1805,7 +1805,9 @@
           "title": "Company Law | One-Year Auditor Re-Appointment Leads to ₹15 Lakh Compounding Fee: MCA",
           "desc": "Shree Renuka Sugars auditor re-appointments highlight Section 139 tenure, rotation, ADT-1 and AGM resolution compliance requirements.The post One-Year Auditor Re-Appointment Leads to ₹15 Lakh Compound",
           "link": "https://taxguru.in/company-law/year-auditor-appointment-leads-rs-15-lakh-compounding-fee-mca.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document is a short compliance note about an MCA enforcement action involving Shree Renuka Sugars and highlights that a one-year auditor re-appointment triggered a ₹15 lakh compounding fee because the company did not comply with the Companies Act requirements governing auditor tenure and re-appointment. The key point is that auditor appointments are subject to Section 139 rules on tenure and rotation, and companies must ensure that any re-appointment is made in the legally permitted manner rather than simply extending the same auditor for one year outside the prescribed framework. It also underscores the filing and corporate approval process: the auditor appointment/re-appointment must be properly approved by shareholders through an AGM resolution, and the company must file the relevant Form ADT-1 within the required time.\n\nFor compliance teams, the practical takeaway is that listed or otherwise covered companies must track auditor rotation limits, confirm that the proposed auditor is eligible for re-appointment under Section 139, obtain the correct AGM approval, and complete ADT-1 filing on time. The document does not give a detailed factual chronology beyond noting that the one-year re-appointment at issue resulted in the compounding penalty, but it clearly signals that even a seemingly minor deviation in auditor appointment/renewal mechanics can lead to monetary exposure under MCA enforcement. Companies should therefore treat auditor lifecycle management as a formal compliance process, not an administrative renewal, and should verify that board/AGM resolutions, tenure calculations, and statutory filings all align before the appointment takes effect.",
+          "summarySource": "desc"
         },
         {
           "sr": 82,
@@ -1815,7 +1817,9 @@
           "title": "Income Tax | Missing Irrevocability and Dissolution Clauses Cannot Deny 12AB Registration: ITAT Delhi",
           "desc": "ITAT Delhi held missing irrevocability and dissolution clauses cannot by themselves justify denial of 12AB registration and consequential 80G approval.The post Missing Irrevocability and Dissolution C",
           "link": "https://taxguru.in/income-tax/missing-irrevocability-dissolution-clauses-cannot-deny-12ab-registration-itat-delhi.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The ITAT Delhi ruled that the mere absence of an irrevocability clause and a dissolution/winding-up clause in a trust or institution’s governing document cannot, by itself, be used to deny registration under section 12AB of the Income-tax Act or the related approval under section 80G. In other words, tax authorities must look beyond these drafting omissions and cannot reject exemption registration solely because those two clauses are not expressly written into the deed or constitution. This matters to charitable trusts, societies, and other entities seeking or renewing 12AB registration and 80G recognition, because the decision limits a common technical basis for refusal.\n\nFor compliance teams, the practical takeaway is that the organization should still ensure its founding documents clearly support charitable objects and non-private benefit, but a missing irrevocability or dissolution clause should not automatically be treated as fatal to registration. The ruling does not eliminate the need to satisfy the substantive conditions for 12AB/80G eligibility; it only says that these specific omissions, standing alone, are insufficient grounds for denial. The document does not state any new filing deadline, monetary threshold, or procedural change beyond this legal position.",
+          "summarySource": "desc"
         },
         {
           "sr": 83,
@@ -1825,7 +1829,9 @@
           "title": "SEBI | Public InvIT Listing Requires Early Review of Structure, Compliance &#038; Governance",
           "desc": "InvIT public-listing readiness requires early review of listing route, structure, contracts, historical compliance and governance arrangements.The post Public InvIT Listing Requires Early Review of St",
           "link": "https://taxguru.in/sebi/public-invit-listing-requires-early-review-structure-compliance-governance.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This item says that an Infrastructure Investment Trust (InvIT) preparing for a public listing must begin an early, detailed readiness review well before filing, focusing on the listing route, the legal and operational structure, contractual arrangements, historical compliance record, and governance framework. The emphasis is not on a new numerical threshold or filing deadline, but on ensuring that the InvIT’s current setup is suitable for public-market scrutiny and that any issues are identified and remediated in advance of listing.  \n\nFor compliance purposes, the affected entities are InvITs considering a public offering/listing and the sponsors, managers, trustees, and counterparties involved in their structure and contracts. They should verify that governance arrangements are robust, contractual documents are consistent with listing requirements, and past compliance history does not contain unresolved gaps that could delay or jeopardize approval.  \n\nNo specific effective date, threshold, or rate is provided in the text excerpt. The practical obligation described is an early-stage preparatory review so that the public listing process is not approached only after the structure and compliance record have already been fixed in a way that may be difficult to correct.",
+          "summarySource": "desc"
         },
         {
           "sr": 84,
@@ -1835,7 +1841,9 @@
           "title": "SEBI | Public InvIT Listing Requires Financial, Valuation, Borrowing &#038; Disclosure Readiness",
           "desc": "Public InvIT listing requires aligned financial reporting, valuation, NDCF, borrowing controls and systems for timely material disclosures.The post Public InvIT Listing Requires Financial, Valuation, ",
           "link": "https://taxguru.in/sebi/public-invit-listing-requires-financial-valuation-borrowing-disclosure-readiness.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document states that a public Infrastructure Investment Trust (InvIT) cannot be listed unless it is operationally ready across several compliance areas, with emphasis on aligned financial reporting, valuation processes, net distributable cash flow (NDCF) computation, borrowing controls, and systems for making material disclosures on time. The core requirement is that the sponsor/manager and related stakeholders must have these functions and controls sufficiently in place before seeking public listing, rather than treating them as post-listing remediation items.\n\nFor a compliance team, the practical takeaway is that the InvIT must have consistent financial reporting arrangements and valuation frameworks that support the disclosures and investor information expected of a listed vehicle. It also must be able to calculate and support NDCF properly, since that metric is central to distribution and investor reporting in the InvIT structure. In addition, borrowing activity must be controlled through documented limits and governance so that debt taken on by the trust remains within the required framework.\n\nThe document also highlights the need for systems and procedures that allow timely disclosure of material information, meaning the issuer must be able to identify, escalate, approve, and publish price-sensitive or otherwise significant developments without delay. There are no specific dates, thresholds, or numeric limits provided in the text excerpt, so the compliance focus is on ensuring readiness and control design before public listing and maintaining those controls continuously after listing.",
+          "summarySource": "desc"
         },
         {
           "sr": 85,
@@ -1845,7 +1853,9 @@
           "title": "Income Tax | GST Turnover Difference Required Reconciliation, Not Automatic Addition: ITAT Bangalore",
           "desc": "ITAT Bangalore restores ₹61.24 crore purchase and ₹29.59 crore sales mismatch additions for detailed verification of GST and other records.The post GST Turnover Difference Required Reconciliation, Not",
           "link": "https://taxguru.in/income-tax/cit-cannot-reject-fresh-evidence-without-examination-itat-bangalore.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports that the ITAT Bangalore has sent back for detailed verification two large tax additions that had been made on account of mismatches between income-tax and GST turnover records: a ₹61.24 crore purchase mismatch and a ₹29.59 crore sales mismatch. The key takeaway is that the tribunal did not accept automatic addition of these differences solely because they appeared in GST data; instead, it required a reconciliation exercise against GST returns and other underlying records before any final income-tax adjustment can be sustained. For compliance teams, this means discrepancies between GST filings and income-tax books can trigger scrutiny, but they should be treated as reconcilable items requiring documentary support rather than as immediate taxable additions. The matter was restored for detailed verification, so affected entities should be prepared to produce reconciliations, supporting invoices, return filings, and related accounting records to explain the turnover differences and defend their reported figures.",
+          "summarySource": "desc"
         },
         {
           "sr": 86,
@@ -1855,7 +1865,9 @@
           "title": "Corporate Law | Bombay HC Quashes Rs. 15.45 Lakh Penalty for Parking Rs. 11,000 Bicycle in Society Staircase",
           "desc": "Bombay HC quashes Rs. 15.45 lakh retrospective society penalty for parking a bicycle and directs refund of Rs. 3.86 lakh deposit.The post Bombay HC Quashes Rs. 15.45 Lakh Penalty for Parking Rs. 11,00",
           "link": "https://taxguru.in/corporate-law/bombay-hc-quashes-rs-15-45-lakh-penalty-parking-rs-11-000-bicycle-society-staircase.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The Bombay High Court set aside a Maharashtra housing society’s retroactive penalty of Rs. 15.45 lakh imposed on a member for allegedly parking an Rs. 11,000 bicycle in the society staircase, holding that the society could not impose such an excessive retrospective charge in the circumstances described. The court also directed the society to refund a deposit of Rs. 3.86 lakh that had been collected in connection with the dispute. For a compliance team, the key takeaway is that housing societies’ enforcement actions against residents must be grounded in lawful authority, proportionate to the actual issue, and not applied retroactively in a punitive manner without proper basis. The matter concerns society governance and enforcement against member conduct in common areas, and it signals legal risk where a society attempts to levy disproportionate penalties for minor infractions such as bicycle parking in a staircase. The document snippet does not provide further procedural details, deadlines, or statutory amendments beyond the court’s ruling and refund direction.",
+          "summarySource": "desc"
         },
         {
           "sr": 87,
@@ -1865,7 +1877,9 @@
           "title": "Income Tax | Vegetable Exports Are Not Automatically Agricultural Income: ITAT Bangalore",
           "desc": "ITAT Bangalore restores ₹5.67 crore vegetable export receipts to AO to verify documents supporting the agricultural income exemption claim.The post Vegetable Exports Are Not Automatically Agricultural",
           "link": "https://taxguru.in/income-tax/rs-5-67-crore-vegetable-export-receipts-restored-ao-itat-bangalore.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports that the ITAT Bangalore has not accepted a blanket claim that vegetable export receipts are automatically exempt as “agricultural income” and has sent the matter back to the Assessing Officer for fresh verification. In this case, the taxpayer had claimed exemption on ₹5.67 crore of receipts from vegetable exports, but the tribunal held that the exemption cannot be granted merely because the products are vegetables; the factual and documentary basis for treating the receipts as agricultural income must be examined. The practical compliance point is that entities claiming agricultural-income treatment for export-related receipts must be able to substantiate, with proper records, that the income actually arises from agricultural operations and satisfies the statutory exemption conditions.\n\nThe order requires the Assessing Officer to review the supporting documents and determine whether the exemption claim is valid on the facts. For corporate compliance teams, this means companies engaged in trading or exporting agricultural produce should maintain clear evidence of cultivation, source of produce, ownership or linkage to agricultural land where relevant, and a traceable record showing how the income qualifies under the agricultural-income rules. The key takeaway is that vegetable exports are not exempt by default, and exemption claims in this area are likely to be scrutinized closely and supported only where the underlying documentation proves agricultural origin.",
+          "summarySource": "desc"
         },
         {
           "sr": 88,
@@ -1875,7 +1889,9 @@
           "title": "SEBI | Public InvIT Listing Requires Verified Offer Disclosures &#038; Post-Listing Compliance Readiness",
           "desc": "InvIT public listing requires unit readiness, verified offer disclosures, post-listing compliance systems and pre-filing testing.The post Public InvIT Listing Requires Verified Offer Disclosures &#038",
           "link": "https://taxguru.in/sebi/public-invit-listing-requires-verified-offer-disclosures-post-listing-compliance-readiness.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document states that a public listing of an Infrastructure Investment Trust (InvIT) is not just a filing exercise; it requires the sponsor and other responsible parties to have the units “ready” for public issuance, to ensure the offer disclosures are verified, and to have post-listing compliance systems in place before launch. In practical terms, this means the entities involved must not proceed to public listing unless they can demonstrate that the offer document content has been checked and substantiated, and that the organization is operationally prepared to meet continuing listed-entity obligations after the units are admitted to trading.  \n\nIt also indicates that pre-filing testing is expected, implying that compliance, disclosure, and operational processes should be validated in advance rather than corrected after the listing is underway. The emphasis is on readiness for both the offering stage and the post-listing phase, so affected parties should treat this as a requirement to establish internal controls, disclosure verification procedures, and ongoing compliance mechanisms before filing or launch.  \n\nBecause the provided content is only a short headline-style summary and does not include specific rule text, no effective date, deadline, numeric threshold, or detailed procedural timetable can be confirmed from this document alone. From a compliance perspective, however, the key takeaway is that public InvIT listings must be supported by verified disclosures and demonstrable post-listing compliance readiness, not merely by the intent to list.",
+          "summarySource": "desc"
         },
         {
           "sr": 89,
@@ -1885,7 +1901,9 @@
           "title": "Income Tax | Trading Account Matched Survey Margin; ITAT Bangalore Deletes ₹12.50 Lakh Demonetisation Deposit Addition",
           "desc": "ITAT Bangalore deletes ₹12.50 lakh survey addition and ₹13.27 lakh demonetisation cash addition supported by trading and cash records.The post Trading Account Matched Survey Margin; ITAT Bangalore Del",
           "link": "https://taxguru.in/income-tax/survey-disclosure-met-books-demonetisation-deposits-matched-cash-sales.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This ITAT Bangalore decision is favorable to the taxpayer and narrows the circumstances in which survey and cash-deposit additions can be sustained when the books and trading records reconcile. The tribunal deleted a ₹12.50 lakh addition arising from a survey margin issue because the trading account and related records matched, indicating that the apparent discrepancy did not represent an unexplained income item. It also deleted a separate ₹13.27 lakh addition relating to cash deposited during demonetisation, holding that the deposit was supported by the taxpayer’s cash records rather than being unexplained money.\n\nFor compliance teams, the practical takeaway is that contemporaneous trading, cash, and ledger records were decisive in defeating the additions; where records demonstrably reconcile, unsupported presumptions by the tax authority may not hold. The document does not announce any new statutory rule, rate, threshold, or filing deadline. Instead, it reflects an evidentiary standard in tax assessments: entities facing survey or demonetisation-related scrutiny should be able to substantiate cash balances and trading margins with consistent books, account statements, and source documentation to avoid additions for alleged unexplained income.",
+          "summarySource": "desc"
         },
         {
           "sr": 90,
@@ -1895,7 +1913,9 @@
           "title": "Income Tax | ITAT Bangalore Remands 8% Profit Estimate on ₹3.79 Crore Turnover",
           "desc": "ITAT Bangalore remands 8% profit estimation under Section 44AD as audited books were neither examined nor defects identified.The post ITAT Bangalore Remands 8% Profit Estimate on ₹3.79 Crore Turnover ",
           "link": "https://taxguru.in/income-tax/itat-bangalore-remands-8-percent-profit-estimate-rs-3-79-crore-turnover.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports an income-tax appellate ruling from the ITAT Bangalore in which an 8% profit estimation under Section 44AD was challenged and the matter was remanded because the lower authority had not properly examined the audited books of account and had not identified any specific defects in those books. The key factual context is that the taxpayer had a turnover of ₹3.79 crore, and the tax authority had applied an estimated profit rate of 8% rather than relying on the audited financial records. The ITAT’s action signals that an estimated-income approach cannot be sustained merely by applying a percentage unless the books have been reviewed and found unreliable or defective.\n\nFor compliance purposes, the practical point is that where a taxpayer maintains audited books, the assessing authority should articulate concrete defects or reasons for rejecting those books before resorting to profit estimation. The remand means the case goes back for fresh consideration, so the ultimate tax outcome is not finally determined in the snippet provided. No effective date or new prospective rule is stated; this is a case-specific judicial development, but it reinforces the documentation and audit-readiness requirement for businesses whose income may otherwise be estimated under presumptive or best-judgment methods.",
+          "summarySource": "desc"
         },
         {
           "sr": 91,
@@ -1905,7 +1925,9 @@
           "title": "Income Tax | Form 166 and the Foreign TIN Problem: What the Revised CBDT Guidance Note Changes for Reporting Financial Institutions",
           "desc": "Revised CBDT FATCA-CRS guidance changes Form 166 reporting, foreign TIN validation, self-certification and obligations for reporting financial institutions.The post Form 166 and the Foreign TIN Proble",
           "link": "https://taxguru.in/income-tax/form-166-foreign-tin-problem-revised-cbdt-guidance-note-reporting-financial-institutions.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document says the CBDT has revised its FATCA-CRS guidance in a way that directly affects reporting financial institutions using Form 166, especially for account reporting under India’s tax information exchange regime. The key change highlighted is a new focus on foreign TIN validation: institutions are expected to review and validate foreign tax identification numbers rather than simply collecting them, which implies tighter data-quality checks before reporting. The guidance also affects self-certification handling, meaning financial institutions must ensure the taxpayer declarations they rely on are complete, consistent, and usable for FATCA/CRS reporting rather than treating them as a formality.\n\nFor compliance teams, the practical obligation is to update onboarding, remediation, and reporting workflows so that Form 166 submissions align with the revised CBDT expectations, particularly where foreign TINs are missing, invalid, or inconsistent with account holder self-certifications. The document indicates that reporting financial institutions have continuing obligations under the revised note, so institutions should expect more rigorous internal validation, documentation retention, and exception handling around foreign tax residency information. No specific effective date, deadline, threshold, or numerical reporting rate is provided in the content shown, but the change is clearly framed as an immediate guidance revision impacting current FATCA-CRS reporting practice.",
+          "summarySource": "desc"
         },
         {
           "sr": 92,
@@ -1915,7 +1937,9 @@
           "title": "Income Tax | Foreign Remittances Were Examined Once; AO Could Not Reopen on the Same Material",
           "desc": "ITAT Bangalore quashes reassessment of ₹16.92 crore foreign payments as the same remittances were examined in original scrutiny.The post Foreign Remittances Were Examined Once; AO Could Not Reopen on ",
           "link": "https://taxguru.in/income-tax/foreign-remittances-examined-ao-not-reopen-material.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports an Income Tax Appellate Tribunal (ITAT), Bangalore ruling that quashed a reassessment initiated by the Assessing Officer (AO) concerning ₹16.92 crore of foreign remittances. The key holding is procedural: the AO could not reopen the assessment on the same material that had already been examined during the original scrutiny assessment. In other words, because these foreign payments had already been looked at in the prior assessment, the reassessment was considered impermissible and was set aside.\n\nFor compliance purposes, the practical takeaway is that where a taxpayer has already disclosed foreign remittances and the AO has specifically examined them in a completed scrutiny assessment, the department cannot simply reopen the case later on identical facts and documents without some new, independent basis. The ruling does not impose a new filing requirement, tax rate, threshold, or deadline; instead, it reinforces the limitation on reassessment powers and the importance of maintaining records showing that the issue was fully disclosed and examined in the original proceedings. Entities making large cross-border payments should therefore ensure that remittance documentation, scrutiny responses, and assessment records are retained and can demonstrate that the matter was already considered if the department later attempts reassessment on the same grounds.",
+          "summarySource": "desc"
         },
         {
           "sr": 93,
@@ -1925,7 +1949,9 @@
           "title": "Income Tax | Statutory Deposit Interest Eligible for Section 80P Deduction: ITAT Bangalore",
           "desc": "ITAT Bangalore allows Section 80P(2)(a)(i) deduction on ₹77.31 lakh interest from statutory reserve and mandatory fund deposits.The post Statutory Deposit Interest Eligible for Section 80P Deduction: ",
           "link": "https://taxguru.in/income-tax/statutory-deposit-interest-eligible-section-80p-deduction-itat-bangalore.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document reports an ITAT Bangalore ruling holding that a co-operative society was entitled to claim a Section 80P(2)(a)(i) income-tax deduction on ₹77.31 lakh of interest earned from statutory reserve and mandatory fund deposits. In substance, the tribunal treated this interest as eligible for the co-operative society deduction rather than denying it as ineligible interest income, which is favorable for co-operative entities that are required to place funds in statutory or mandatory deposits. The practical compliance impact is that co-operative societies with similar statutory reserve or mandated fund deposits may have a supportable basis to include the resulting interest in their Section 80P deduction computation, provided the facts match the ruling’s context. The document does not specify any new procedural filing requirement, deadline, or rate change; it is a case-law development that may affect tax positions, return preparation, and litigation support for affected co-operative societies.",
+          "summarySource": "desc"
         },
         {
           "sr": 94,
@@ -1935,7 +1961,9 @@
           "title": "Income Tax | ₹58 Lakh Property Sale Reassessment Remanded to Verify Joint Venture Share: ITAT Bangalore",
           "desc": "ITAT Bangalore restores ₹57.19 lakh capital gains dispute to AO as CIT(A) could not dismiss appeal merely for non-prosecution.The post ₹58 Lakh Property Sale Reassessment Remanded to Verify Joint Vent",
           "link": "https://taxguru.in/income-tax/itat-bangalore-remands-joint-venture-property-capital-gains-dispute-ao.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document concerns an income-tax appeal before the ITAT Bangalore involving a reassessment of capital gains arising from a property sale. The tax dispute was about a reported ₹57.19 lakh capital gains addition (described in the title as a ₹58 lakh property sale reassessment), which had been challenged by the taxpayer.\n\nThe ITAT held that the CIT(A) could not dispose of the appeal simply because the appellant did not prosecute it, and therefore remanded the matter back to the Assessing Officer for fresh verification and adjudication. The key factual issue to be re-examined is the taxpayer’s claimed joint venture share in the property transaction, which appears to affect the correct computation of capital gains and the related tax liability.\n\nFor compliance purposes, this is not a rule-changing regulatory update but a case-specific tax ruling that reinforces procedural fairness in appellate handling: an appeal cannot be dismissed solely for non-prosecution without examining the merits where a substantive tax addition is involved. The practical implication for taxpayers and corporate tax teams is that transaction records, ownership/joint venture agreements, and documents supporting the share of consideration or gains in property sales should be maintained and produced, because the assessing authority may need to verify them on remand.",
+          "summarySource": "desc"
         },
         {
           "sr": 95,
@@ -1945,7 +1973,9 @@
           "title": "Corporate Law | Sovereign Taxing Power Is Subject to Constitutional Limits Under Articles 14, 246 and 265",
           "desc": "Analysis of India’s sovereign taxing power and its constitutional limits under Articles 14, 246, 265, Part XIII and Supreme Court jurisprudence.The post Sovereign Taxing Power Is Subject to Constituti",
           "link": "https://taxguru.in/corporate-law/sovereign-taxing-power-subject-constitutional-limits-articles-14-246-265.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document is a legal analysis of India’s sovereign taxing power and how it is constrained by the Constitution, rather than a new tax rule or operational directive. It explains that while the State has broad authority to levy taxes under Article 246 and related constitutional provisions, that power is not unlimited and must comply with Article 265, which requires that “no tax shall be levied or collected except by authority of law,” as well as Article 14’s equality principle and the trade-and-commerce protections in Part XIII. The central compliance takeaway is that tax measures must have proper legal authority, cannot be arbitrary or discriminatory, and may be invalid if they violate constitutional standards even when enacted by a legislature with taxing competence.\n\nThe analysis further indicates that Supreme Court jurisprudence has treated taxation as subject to constitutional review, meaning a tax can be challenged not only for lack of legislative authorization but also for violating equality or free-trade constraints. For corporate compliance teams, this means the document is relevant as a framework for assessing whether a tax, fee, surcharge, levy, or related state action is constitutionally defensible, especially where it differentiates among taxpayers, burdens interstate trade, or appears punitive or unequal in application. No specific effective date, filing deadline, rate change, threshold, or new compliance procedure is announced in the text provided; instead, the document serves as a legal interpretive summary of the limits on sovereign taxing power in India.",
+          "summarySource": "desc"
         },
         {
           "sr": 96,
@@ -1955,7 +1985,9 @@
           "title": "Income Tax | Most Appropriate Transfer Pricing Method Depends on Reliable Transaction Evidence",
           "desc": "CUP, RPM, CPM, TNMM, PSM and Other Method compared for selecting the most appropriate transfer pricing method under Indian law.The post Most Appropriate Transfer Pricing Method Depends on Reliable Tra",
           "link": "https://taxguru.in/income-tax/transfer-pricing-method-depends-reliable-transaction-evidence.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document is a short tax-transfer-pricing note explaining that, under Indian income tax law, the “most appropriate” transfer pricing method must be selected based on the reliability of the transaction evidence available, rather than by choosing a method in the abstract. It compares the main prescribed methods—Comparable Uncontrolled Price (CUP), Resale Price Method (RPM), Cost Plus Method (CPM), Transactional Net Margin Method (TNMM), Profit Split Method (PSM), and “other” methods—and indicates that the choice among them depends on how well the facts and data support a reliable arm’s-length analysis for the specific controlled transaction.\n\nFor compliance purposes, the key point is that a company must be able to substantiate why a particular method best fits the transaction based on the quality, comparability, and completeness of the evidence, and not merely on convenience or precedent. The document does not appear to announce a new statutory change, threshold, rate, or filing deadline; rather, it reinforces the existing requirement under Indian transfer pricing rules to apply the method that most appropriately reflects the facts of the transaction. Entities with Indian transfer pricing exposure should therefore ensure their documentation explains the basis for method selection, the reliability of the underlying transaction data, and why alternative methods were rejected.",
+          "summarySource": "desc"
         },
         {
           "sr": 97,
@@ -1965,7 +1997,9 @@
           "title": "Income Tax | GST Authorities Cannot Seize Cash During Section 67 Search: Rajasthan HC",
           "desc": "Rajasthan High Court holds GST authorities cannot seize cash or securities under Section 67(2) and directs refund of seized money.The post GST Authorities Cannot Seize Cash During Section 67 Search: R",
           "link": "https://taxguru.in/income-tax/gst-authorities-cannot-seize-cash-section-67-search-rajasthan-hc.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The Rajasthan High Court has held that, during a search conducted under Section 67(2) of the GST law, GST authorities do not have the power to seize cash or securities. The ruling means that cash found during such a search cannot be treated as property lawfully subject to seizure under that provision, and the court directed that the money seized in the case be refunded. For compliance purposes, this is a significant limitation on enforcement powers: if GST officers conduct a Section 67 search, they may inspect, investigate, and seize documents or other materials as permitted by law, but they cannot lawfully seize cash simply because it is found on the premises.\n\nThe practical effect is that businesses and other persons subject to GST searches should be aware that cash seizure under Section 67(2) is not supported by this Rajasthan High Court ruling. If cash is taken during such a search, affected parties may have grounds to seek immediate return/refund of the amount seized. No specific deadline, monetary threshold, or procedural timeline is stated in the provided text, but the compliance takeaway is that GST search teams should not assume authority to confiscate cash or securities under Section 67(2), and entities undergoing search should preserve records of any seizure for potential legal challenge and refund relief.",
+          "summarySource": "desc"
         },
         {
           "sr": 98,
@@ -1975,7 +2009,9 @@
           "title": "Company Law | Deposits under Companies Act, 2013: Meaning, Exclusions, DPT-3 &#038; Shareholder Loans",
           "desc": "Understand deposits under the Companies Act, 2013, exclusions under Rule 2(1)(c), shareholder loans, director loans and DPT-3 reporting.The post Deposits under Companies Act, 2013: Meaning, Exclusions",
           "link": "https://taxguru.in/company-law/deposits-companies-act-2013-meaning-exclusions-dpt-3-shareholder-loans.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document is a general explainer on how “deposits” are treated under the Companies Act, 2013, with particular focus on what counts as a deposit, what is excluded from that definition under Rule 2(1)(c) of the Companies (Acceptance of Deposits) Rules, 2014, and how shareholder loans and director loans are handled for compliance and reporting purposes. It indicates that companies need to distinguish carefully between true deposits and amounts that are specifically excluded, because that classification determines whether the receipt is subject to the deposit-acceptance restrictions and ongoing compliance requirements under the Act. The document also highlights DPT-3 reporting, meaning companies may need to disclose relevant deposit-related and certain non-deposit transactions in the prescribed return, so accurate classification and tracking of shareholder and director funding is important. Because the content provided is only the title and a brief description rather than the full article, it does not supply the exact thresholds, dates, filing deadlines, procedural steps, or the complete list of exclusions; however, the compliance takeaway is that companies accepting funds from shareholders or directors should verify whether those receipts fall within the statutory exclusions and, if reportable, ensure they are captured correctly for DPT-3 and related deposit compliance.",
+          "summarySource": "desc"
         },
         {
           "sr": 99,
@@ -1985,7 +2021,9 @@
           "title": "Income Tax | “Misreporting” Is Not Enough: AO Must Tell the Assessee What Was Misreported",
           "desc": "ITAT Bangalore cancels ₹1.59 crore Section 270A penalty as AO failed to identify the specific misreporting limb under Section 270A(9).The post “Misreporting” Is Not Enough: AO Must Tell the Assessee W",
           "link": "https://taxguru.in/income-tax/misreporting-not-ao-assessee-misreported.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "This document reports an Income Tax Appellate Tribunal (ITAT) Bangalore ruling cancelling a ₹1.59 crore penalty imposed under Section 270A because the Assessing Officer (AO) did not clearly specify which exact “misreporting” ground under Section 270A(9) was alleged. The key compliance takeaway is that a Section 270A penalty cannot be sustained on a vague label such as “misreporting”; the tax authority must identify the precise limb or basis of misreporting so the assessee knows the exact charge and can respond properly. In practice, this strengthens the procedural burden on the tax department: penalty notices and orders must be specific, and a generic allegation is insufficient where the statute distinguishes multiple misreporting categories.\n\nThe document does not announce a new tax rate, threshold, or filing deadline, but it is important for taxpayers facing assessment or penalty proceedings because it clarifies the level of specificity required before a penalty under Section 270A can be levied. For compliance teams, this means any penalty notice or draft order under this provision should be reviewed to confirm that the alleged conduct is described with enough precision, tied to the correct statutory limb, and supported by facts showing why that specific misreporting category applies. If the notice or order simply states “misreporting” without particulars, this ruling supports challenging the penalty on procedural grounds.",
+          "summarySource": "desc"
         },
         {
           "sr": 100,
@@ -1995,7 +2033,9 @@
           "title": "SEBI | SAT Mumbai Quashes SEBI Order Against Raj Oil Mills Following Monnet Ispat Ruling",
           "desc": "SAT Mumbai quashed SEBIs order against Raj Oil Mills as the controversy was squarely covered by its Monnet Ispat ruling.The post SAT Mumbai Quashes SEBI Order Against Raj Oil Mills Following Monnet Is",
           "link": "https://taxguru.in/sebi/sat-mumbai-quashes-sebi-order-against-raj-oil-mills-monnet-ispat-ruling.html",
-          "isNew": false
+          "isNew": false,
+          "summary": "The Securities Appellate Tribunal (SAT), Mumbai quashed SEBI’s order against Raj Oil Mills, holding that the dispute was already squarely covered by SAT’s earlier ruling in the Monnet Ispat matter. The document indicates that the same legal issue was being addressed, and the Tribunal applied the Monnet Ispat precedent to invalidate SEBI’s action against Raj Oil Mills. \n\nFor a compliance team, the practical takeaway is that this development reflects a judicial override of SEBI’s order in this specific matter based on an existing SAT precedent, rather than the creation of a new standalone compliance requirement. The document does not describe any new filing obligation, deadline, monetary penalty, threshold, or procedure imposed on regulated entities. It is therefore relevant primarily as case-law guidance on how similar disputes may be treated if they fall within the scope of the Monnet Ispat ruling.",
+          "summarySource": "desc"
         }
       ],
       "ts": 1790732637141,
