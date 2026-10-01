@@ -4,14 +4,15 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Reserve Bank of India - Master Circulars</title>
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <title>Master Circulars | Official Website of Reserve Bank of India </title>
+    <meta name="description" content="Master Circulars - Reserve Bank of India" />
+    <meta name="keyword" content="RBI Master Circulars" />
+    <meta name="author " content="Reserve Bank of India" />
     <meta name="viewport" content="width=device-width" />
     <script type="text/javascript" src="/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
 <body onload="SetTreeStyles()">
-    <form method="post" action="./BS_ViewMasterCirculardetails.aspx?did=333" id="form1">
+    <form method="post" action="./BS_ViewMasterCirculardetails.aspx" id="form1">
 <div class="aspNetHidden">
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
@@ -79,14 +80,24 @@ function __doPostBack(eventTarget, eventArgument) {
   // Fetch Last Date Page
 
     function SearchLastUpdateDate() {
-        var strFilterComments = new RegExp("^[a-zA-Z0-9 =_:.&?–]+$");
-        var param = { keyWord1: window.location.href.slice(window.location.href.lastIndexOf('/') + 1) };
+        var strFilterComments = new RegExp("^[a-zA-Z0-9 =_:.&?'%,()-–]+$");
+	var url=window.location.href;
+	if(url.indexOf("WSSViewDetail.aspx")>0 || url.indexOf("PublicationReportDetails.aspx")>0)
+	{
+		url=url.substring(url,url.indexOf("?"));
+	}
+        var param = { keyWord1: url.slice(url.lastIndexOf('/') + 1) };
+	param.keyWord1=param.keyWord1.replaceAll("%20"," ");
+	if(param.keyWord1.indexOf("#")>0)
+	{
+		param.keyWord1=param.keyWord1.substring(param.keyWord1,param.keyWord1.indexOf("#"));
+	}
         if (!strFilterComments.test(param.keyWord1)) {            
             return false;
         }
         else {
             $.ajax({
-                url: "../Home.aspx/GetLastUpdateDate_new",
+                url: "/Home.aspx/GetLastUpdateDate_new",
                 data: JSON.stringify(param),
                 dataType: "json",
                 type: "POST",
@@ -119,7 +130,7 @@ function __doPostBack(eventTarget, eventArgument) {
                 var param = { keyWord: document.getElementById('txtSearch').value };
 
                 $.ajax({
-                    url: "../Home.aspx/GetKeywords",
+                    url: "/Home.aspx/GetKeywords",
                     data: JSON.stringify(param),
                     dataType: "json",
                     type: "POST",
@@ -284,33 +295,39 @@ left: -9999px;
             <ul style="margin:0px; padding:0px;">
                <li class="fonts"> 
                 <a id="UsrFontCntr_LinkBtnSpace" role="button" title="Increase Letter Spacing" href="javascript:__doPostBack(&#39;UsrFontCntr$LinkBtnSpace&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/letspace.png" alt="Increase Letter Spacing" />
-                                <span id="UsrFontCntr_spanBtnSpace" class="sr-only"></span></a>                                
+                                <span id="UsrFontCntr_spanBtnSpace" class="sr-only">Not Pressed</span></a>                                
             </li>
 
             <li class="fonts">
                 <a id="UsrFontCntr_LinkBtnFontIncrease" role="button" title="Increase Font Size" href="javascript:__doPostBack(&#39;UsrFontCntr$LinkBtnFontIncrease&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/font-increase.gif" alt="Increase Font Size" />
-                    <span id="UsrFontCntr_spanFontIncrease" class="sr-only"></span></a>
+                    
+                </a>
             </li>
             <li class="fonts">
                 <a id="UsrFontCntr_LinkBtnFontRegular" role="button" title="Regular Font Size" href="javascript:__doPostBack(&#39;UsrFontCntr$LinkBtnFontRegular&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/font-reset.gif" alt="Regular Font Size" />
-                    <span id="UsrFontCntr_spanFontRegular" class="sr-only">Selected</span></a>
+                    
+                </a>
             </li>
             <li class="fonts">
                 <a id="UsrFontCntr_LinkBtnFontDecrease" role="button" title="Decrease Font Size" href="javascript:__doPostBack(&#39;UsrFontCntr$LinkBtnFontDecrease&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/font-decrease.gif" alt="Decrease Font Size" />
-                    <span id="UsrFontCntr_spanFontDecrease" class="sr-only"></span></a>
+                    
+                </a>
             </li></ul>
 		<ul style="margin:0px;padding:0px;">
             <li class="black">
                 <a id="UsrFontCntr_LinkBtnAccessibilty" role="button" title="Apply Dark Theme" href="javascript:__doPostBack(&#39;UsrFontCntr$LinkBtnAccessibilty&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/dark-theme.gif" alt="Apply Dark Theme" />
-                    <span id="UsrFontCntr_spanAccessibilty" class="sr-only"></span></a>
+                    
+                </a>
             </li>
             <li class="white">
                 <a id="UsrFontCntr_LinkBtnUndoAccessibilty" role="button" title="Apply Normal Theme" href="javascript:__doPostBack(&#39;UsrFontCntr$LinkBtnUndoAccessibilty&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/bright-theme.gif" alt="Apply Normal Theme" />
-                     <span id="UsrFontCntr_spanUndoAccessibilty" class="sr-only">Selected</span></a>
+                     
+                </a>
             </li>
             <li class="white">
             <a id="UsrFontCntr_LinkBtnGreyScale" role="button" title="Apply Grey Theme" href="javascript:__doPostBack(&#39;UsrFontCntr$LinkBtnGreyScale&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/graytheme.gif" alt="Apply Grey Theme" />
-                                <span id="UsrFontCntr_spanGreyScale" class="sr-only"></span></a></li>
+                                
+                                </a></li>
 
             </ul>
 		<div>
@@ -321,7 +338,7 @@ left: -9999px;
                 <label style="margin-right: 6px;">
                     Change Language</label>
 			
-			<a href="#" onclick="SetLink();" class="link1" title="Website in Hindi">हिंदी</a>
+			<a href="#" onclick="SetLink();" class="link1" title="Change language to Hindi">हिंदी</a>
 			</div>
                    
         </div>
@@ -333,8 +350,8 @@ left: -9999px;
 <div class="container_12">
     <div class="grid_4" role="banner">
         <div class="logo">
-            <a href="/home.aspx" title="Official website of Reserve Bank of India">
-                <img src="/images/rbi-company-logo.jpg" alt="Logo of Official website of Reserve Bank of India" title="Official website of Reserve Bank of India" /></a></div>
+            <a href="/home.aspx" >
+                <img src="/images/rbi-company-logo.jpg" alt="Logo of Official website of Reserve Bank of India" /></a></div>
     </div>
     <div class="grid_5" align="right" role="search" style="float: right">
         <label for="searchbox" class="search_label">
@@ -379,7 +396,9 @@ left: -9999px;
 			<li><a href="/scripts/AboutUsDisplay.aspx?pg=ExecutiveDirectors.htm">Executive Directors</a></li>
         </ul>		
 	 </li>
+<li><a href="AboutUsDisplay.aspx?pg=MediaKit.htm">Media Kit</a></li>
 	 <li><a href="CommunicationPolicy.aspx">Communication Policy of RBI</a></li>
+	
      <li>
         <a href="#" aria-expanded="false" role="button" aria-controls="Ab-soi">Sources of Information <span aria-hidden="true">▶</span></a>
         <ul class="submenu1" id="Ab-soi">
@@ -406,7 +425,7 @@ left: -9999px;
 </ul>
 </li>
   <li>
-    <a href="#" aria-expanded="false" role="button" aria-controls="No-Sub1">Notification ▼</a>
+    <a href="#" aria-expanded="false" role="button" aria-controls="No-Sub1">Notifications ▼</a>
     <ul class="submenu1" id="No-Sub1">
       <li><a href="/scripts/NotificationUser.aspx">Notifications </a></li>
              <li><a href="/scripts/BS_ViewMasterDirections.aspx">Master Directions </a></li>
@@ -490,6 +509,15 @@ left: -9999px;
 </ul>
 </div></div>
 </nav>
+<div class="container_12" >
+    <section>
+        <div class="grid_12" >
+            <div id="dialogAlert" title="" tabindex="-1"  style="text-align: center; display: none;">
+                <p id="AM_Message" tabindex="-1" style="color: #444; font-size: 15px; margin: 20px 0; min-height: 40px;"></p>
+            </div>
+        </div>
+    </section>
+</div>
 <!--  NAVIGATION END-->
 <!--HEADER END-->
 <input type="submit" name="UsrFontCntr$btn" value="" id="btn" style="visibility: hidden; height: 0px; width: 0px;" />
@@ -499,7 +527,7 @@ left: -9999px;
         //a.href = "https://www.rbi.org.in/hindi/Home.aspx";
         var txt="This will lead you to Hindi (हिन्दी) language website. Are you sure you want to switch to this language?"
         if(window.confirm(txt)==true){
-            document.cookie = 'preferLang' + '=;secure; expires=Thu, 01-Jan-70 00:00:01 GMT;path=/;';
+            //document.cookie = 'preferLang' + '=;secure; expires=Thu, 01-Jan-70 00:00:01 GMT;path=/;';
             window.location.replace("https://www.rbi.org.in/hindi/");
         }
         else return false;
@@ -635,7 +663,7 @@ function setLetterSpace(val) {
         link.addEventListener('click', function (e) {
             const submenu = this.nextElementSibling;
 
-            if (submenu && submenu.classList.contains('submenu1')) {
+            if (submenu && submenu.classList.contains('submenu1')) {linkMessage();
                 e.preventDefault();
                 e.stopPropagation();
 
@@ -677,7 +705,9 @@ function setLetterSpace(val) {
     document.addEventListener('click', function () {
 		
         document.querySelectorAll('.menu li > a').forEach(menu => {
+		if(menu.hasAttribute('aria-expanded')){
             menu.setAttribute('aria-expanded','false');
+	}
 	
     });
 
@@ -690,7 +720,7 @@ function setLetterSpace(val) {
     });
 
     //  Prevent closing when clicking inside menu
-    document.querySelector('.menu').addEventListener('click', function (e) {
+    document.querySelector('.menu').addEventListener('click', function (e) {linkMessage();
         e.stopPropagation();
     });
 
@@ -790,39 +820,25 @@ function setLetterSpace(val) {
         </div>
         <div class="grid_3 omega">
             <div class="grid_3 margin0">
-                <div id="menubar">
-                    <span id="lblNavData"><div class="menuButton"><a class="link2" href=BS_ViewMasterCirculardetails.aspx?did=334> Banker and Debt Manager to Government</a> </div><div class="menuButton"><a class="link2" href=BS_ViewMasterCirculardetails.aspx?did=370> Banker to Banks</a> </div><div class="menuButton"><a class="link2" href=BS_ViewMasterCirculardetails.aspx?did=386> Banker to Governments and Banks</a> </div><div class="menuButton"><a class="link2" href=BS_ViewMasterCirculardetails.aspx?did=340> Co-operative Banking</a> </div><div class="menuButton"><a class="link2" href=BS_ViewMasterCirculardetails.aspx?did=342> Commercial Banking</a> </div><div class="menuButton"><a class="link2" href=BS_ViewMasterCirculardetails.aspx?did=343> Financial Inclusion and Development</a> </div><div class="menuButton"><a class="link2" href=BS_ViewMasterCirculardetails.aspx?did=336> Financial Market</a> </div><div class="menuButton"><a class="link2" href=BS_ViewMasterCirculardetails.aspx?did=335> Foreign Exchange Management</a> </div><div class="menuButton"><a class="link2" href=BS_ViewMasterCirculardetails.aspx?did=339> Issuer of Currency</a> </div><div class="menuButton"><a class="link2" href=BS_ViewMasterCirculardetails.aspx?did=333> Non-banking</a> </div><div class="menuButton"><a class="link2" href=BS_ViewMasterCirculardetails.aspx?did=344> Payment and Settlement System</a> </div><div class="menuButton"><a class="link2" href=BS_ViewMasterCirculardetails.aspx?did=332> Primary Dealers</a> </div></span>
+                <div id="menubar" role="menu">
+                    <span id="lblNavData" role="presentation"><div class="menuButton" ><a class="link2" role="menuitem" href=BS_ViewMasterCirculardetails.aspx?did=334> Banker and Debt Manager to Government</a> </div><div class="menuButton" ><a class="link2" role="menuitem" href=BS_ViewMasterCirculardetails.aspx?did=370> Banker to Banks</a> </div><div class="menuButton" ><a class="link2" role="menuitem" href=BS_ViewMasterCirculardetails.aspx?did=386> Banker to Governments and Banks</a> </div><div class="menuButton" ><a class="link2" role="menuitem" href=BS_ViewMasterCirculardetails.aspx?did=340> Co-operative Banking</a> </div><div class="menuButton" ><a class="link2" role="menuitem" href=BS_ViewMasterCirculardetails.aspx?did=342> Commercial Banking</a> </div><div class="menuButton" ><a class="link2" role="menuitem" href=BS_ViewMasterCirculardetails.aspx?did=343> Financial Inclusion and Development</a> </div><div class="menuButton" ><a class="link2" role="menuitem" href=BS_ViewMasterCirculardetails.aspx?did=336> Financial Market</a> </div><div class="menuButton" ><a class="link2" role="menuitem" href=BS_ViewMasterCirculardetails.aspx?did=335> Foreign Exchange Management</a> </div><div class="menuButton" ><a class="link2" role="menuitem" href=BS_ViewMasterCirculardetails.aspx?did=339> Issuer of Currency</a> </div><div class="menuButton" ><a class="link2" role="menuitem" href=BS_ViewMasterCirculardetails.aspx?did=333> Non-banking</a> </div><div class="menuButton" ><a class="link2" role="menuitem" href=BS_ViewMasterCirculardetails.aspx?did=344> Payment and Settlement System</a> </div><div class="menuButton" ><a class="link2" role="menuitem" href=BS_ViewMasterCirculardetails.aspx?did=332> Primary Dealers</a> </div></span>
                 </div>
             </div>
         </div>
         <div class="grid_8 alpha content_area omega">
             <div id="annual" class="text1">
                 <div id="note_text" class="note_text">
-                    <!--<span><a href="#Note" class="link1" ><font>Note </font>
-                    </a></span>-->
+                    
                     <br />
                 </div>
                 <h2 class="page_title">
                     Master Circulars</h2>
                 <div id="example-min">
                     <table width="100%" border="0" align="center" cellpadding="2" cellspacing="0" class="tablebg">
-                        <tr><td> No Master Circulars Found.</td></tr>
+                        <tr><td class="tableheader" colspan="4" align="left"><b>Financial Inclusion and Development</b></td></tr><tr><td class="tableheader" colspan="4" align="left"><b>Oct 01, 2026</b></td></tr><tr><td><a class="link2" href=BS_ViewMasCirculardetails.aspx?id=13716> Master Circular - Credit Facilities to Scheduled Castes (SCs) & Scheduled Tribes (STs)</a></td><td nowrap colspan="2"><a id='APDF_272MC011020266691348260DF4CF99ACE017F146409F1' target="_blank" href="http://rbidocs.rbi.org.in/rdocs/notification/PDFs/272MC011020266691348260DF4CF99ACE017F146409F1.PDF" aria-labelledby='APDF_272MC011020266691348260DF4CF99ACE017F146409F1 SPDF_272MC011020266691348260DF4CF99ACE017F146409F1'><img alt='PDF - Master Circular - Credit Facilities to Scheduled Castes (SCs) & Scheduled Tribes (STs)' style='padding: 8px;' src="../Images/pdf.gif" border="0" align="bsmiddle"></a><span aria-hidden="true" id='SPDF_272MC011020266691348260DF4CF99ACE017F146409F1'> 258 kb</span></td></tr>
                     </table>
                     <br />
-                    <!-- RBI Asked to Removed this on 07-06-2018 
-		    <a id="Note"></a>
-                    
-		    <table style="text-align: justify" width="100%">
-                        <tr>
-                            <td>
-                                <font color="red"><b>Note:</b> </font>Master Circulars are a one-point reference
-                                of instructions issued by the Reserve Bank of India on a particular subject between
-                                July-June. These are issued on July 1 every year and automatically expire on June
-                                30 next year. You can access the Master Circulars issued in previous years by using
-                                the Archives. For printing of these circulars please use the PDF version.
-                            </td>
-                        </tr>
-                    </table>-->
+
                     <br />
                     <div align="right">
                         </div>
@@ -869,20 +885,17 @@ function setLetterSpace(val) {
 <footer class="footer">
 
 <div class="footer">
-  <div class="container_12">
-
-
-    
+  <div class="container_12">    
       <div class="grid_9" style="width: 833px !important; ">
           
-          <h2><span class="blue">More</span> Links </h2>
-         
+          <h2><span class="blue">More</span> Links :</h2>
+          
 		<ul class="footerlist" style="column-count:4">
                   <li ><a href="/Scripts/HolidayMatrixDisplay.aspx">Bank Holidays</a></li>
                   <li ><a href="https://shabdavali.rbi.org.in/">Banking Glossary</a></li>
                   <li ><a href="/Scripts/CitiChart.aspx">Citizen's Charter</a></li>
                   <li ><a href="/Scripts/Complaints.aspx">Complaints</a></li>
-                  <li ><a href="/Scripts/helpdesk.aspx">Contact Us</a></li>
+                  <li ><a href="/Scripts/contactus.aspx">Contact Us</a></li>
   		<li ><a href="https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3894">COVID-19 Measures</a></li>
                   <li ><a target="_blank" href="https://ncfe.org.in/e-lms">E-LMS</a></li>
                   <li ><a href="/Scripts/EventsDisplay.aspx">Events</a></li>
@@ -894,7 +907,7 @@ function setLetterSpace(val) {
                   <li><a target="_blank" href="https://opportunities.rbi.org.in/scripts/index.aspx">Opportunities<span>@</span>RBI</a></li>
                   <li><a href="/Scripts/rbi_clarification.aspx">RBI Clarifications</a></li>
  		<li><a target="_blank" href="https://rbikehtahai.rbi.org.in/">RBI Kehta Hai</a></li>
-                  <li><a href="https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh202910042026.pdf">RBI’s Vision and Values </a></li>
+                  <li><a href="https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh202910042026.pdf" target="_blank">RBI’s Vision and Values <img src="../Images/pdf.gif" alt="PDF document" style="padding-bottom: 4px; width:12px; border:0; vertical-align:middle;"> (652 KB)</a></li>
                   <li><a href="/Scripts/Righttoinfoact.aspx">Right to Information Act</a></li>
                   <li><a href="/Scripts/BS_ViewTenders.aspx">Tenders</a></li>
                   
@@ -902,29 +915,39 @@ function setLetterSpace(val) {
       </div>
 
     <div class="grid_3" style="width:197px !important">
-    
+      
         <h2><span class="blue">Follow</span> RBI</h2>
-      <ul class="footerlist">      
+      <ul class="footerlist">
+        
+
           <li style="float: left;background: url(/images/footer_list_arrow.gif) left 8px no-repeat;"><a href="/Scripts/rss.aspx"><img src="/images/rss-icon.png" alt="RSS Icon" class="rss">RSS</a></li>
+
+        
           <li>
               <a href="https://twitter.com/RBI" target="_blank" class="twitter">
-                  <img src="/images/Twitter_New.png" width="14px" height="14px" alt="Twitter Icon" class="videos" style="padding-left: 18%;">Twitter
+                  <img src="/images/Twitter_New.png" alt="Twitter Icon" class="videos" style="padding-left: 18%; width:14px;">Twitter
               </a>
           </li>
+
+        
+
           <li style="float: left;"><a href="https://www.youtube.com/channel/UCIfCOl43tunZVNYafeC4RQA" class="videos" target="_blank"><img src="/images/youtube.png" alt="YouTube Icon" class="videos">YouTube</a></li>
+
           <li>
               <a href="https://instagram.com/reservebankofindia" class="videos" target="_blank">
-                  <img src="/images/Instagram.jpg" width="14px" height="14px" alt="Instagram Icon" class="videos" style="padding-left: 5%;">Instagram
+                  <img src="/images/Instagram.jpg" alt="Instagram Icon" class="videos" style="padding-left: 5%; width:14px;">Instagram
               </a>
           </li>
-          <li style="float: left;"><a href="https://www.facebook.com/RBIsays" class="videos" target="_blank"><img src="/images/Facebook.jpg" width="14px" height="14px" alt="Facebook Icon" class="videos">Facebook</a></li>
+          <li style="float: left;"><a href="https://www.facebook.com/RBIsays" class="videos" target="_blank"><img src="/images/Facebook.jpg" style="width:14px;" alt="Facebook Icon" class="videos">Facebook</a></li>
           <li>
               <a href="https://www.linkedin.com/company/reservebankofindia" class="videos" target="_blank">
                   <img src="/images/LinkedinIcon1.png" alt="LinkedIn Icon" class="" style="padding-left: 4%;width: 17px;background: bottom no-repeat;display: block;float: left;margin: 2px 3px 0 1px;">LinkedIn
               </a>
           </li>
-	
       </ul>
+	<a href="https://www.india.gov.in" class="videos" target="_blank">
+                  <img src="/images/indiaGov.png" alt="National Portal of India logo" class="">
+              </a>
     </div>
     <div class="clearfix"></div>
   </div>
@@ -935,10 +958,15 @@ function setLetterSpace(val) {
         <div class="clearfix"></div>
 
         <div class="grid_6 pull_left">Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in</div>
-        <div class="grid_5 pull_right">Website last updated date: Jul 07, 2026</div>
+        <div class="grid_5 pull_right">Website last updated date: Oct 01, 2026</div>
         <div class="clearfix"></div>
-        <div class="grid_6 pull_left">Supports: Google Chrome 125+ | Firefox 126+ | Microsoft Edge Version 125+ | Safari 17+</div>
-        <div class="grid_5 pull_right"><a href="https://rbidocs.rbi.org.in/rdocs/content/pdfs/Accessibility20012026.pdf">Accessibility Statement</a><span aria-hidden="true"> |</span><a href="/scripts/ScreenReader.aspx" title="Information related to screen reader">Screen Reader and Accessibility Help</a></div>
+	<div class="grid_6 pull_left"><a href="https://www.rbi.org.in/scripts/wim.aspx">Web Information Manager</a></div>
+	<div class="grid_5 pull_right"><a href="https://rbidocs.rbi.org.in/rdocs/content/pdfs/Accessibility20012026.pdf" target="_blank">Accessibility Statement
+	<img alt="PDF - Accessibility Statement" style="padding: 1px; width:16px; border:0; vertical-align:middle;" src="../Images/pdf.gif" > (133 KB)
+	</a><span aria-hidden="true"> |</span><a href="/scripts/ScreenReader.aspx" title="Information related to screen reader">Screen Reader and Accessibility Help</a></div>
+	<div class="clearfix"></div>
+        <div class="grid_12 pull_left">Supports: Google Chrome 147+ | Firefox 150+ | Microsoft Edge Version 147+ | Safari 17+</div>
+        
         <div class="clearfix"></div>
     </div>
   </div>
@@ -947,13 +975,11 @@ function setLetterSpace(val) {
 
 
 </div>
-</div>
+
 </footer>
 
-
-<script src="/js/ReplaceURL.js" type="text/javascript"></script>
-<script src="/js/jquery.cookie.js" type="text/javascript"></script>
-<script type="text/javascript" language="javascript">
+<script src="/js/ReplaceURL.js" ></script>
+<script >
 
 
     //this is for floating TOP link
@@ -967,14 +993,14 @@ function setLetterSpace(val) {
         jQuery(window).scroll(function () {
             if (jQuery(this).scrollTop() > offset) {
                 jQuery('.scrollToTop').fadeIn(duration);
-               
+                
             } else {
                 jQuery('.scrollToTop').fadeOut(duration);
-               
+                
             }
         });
 
-       
+        
 	$('.page_title').attr('tabindex','-1');
         $('.scrollToTop').click(function () {
             $('html, body').animate({ scrollTop: 0 }, 800);
@@ -982,6 +1008,7 @@ function setLetterSpace(val) {
             return false;
         });
 	
+
 
 	if(!window.location.href.includes("Home.aspx") && !window.location.href.includes("home.aspx"))
 { 
@@ -1000,8 +1027,7 @@ else{
     });
 
 
-    //Below code is for floating left panel and floating tree structure
-    
+  
     $(window).scroll(function () {
 
         if ($('div.banner2').length) {
@@ -1015,6 +1041,10 @@ else{
                 $('.sidebar_nav').css("position", "fixed");
                 $('.sidebar_nav').css("margin-top", "-200px");
                 $('.sidebar_nav').css("width", "236px");
+
+
+             
+
             }
 
             else {
@@ -1027,6 +1057,9 @@ else{
                 $('.sidebar_nav').css("margin-top", "");
                 $('.sidebar_nav').css("width", "");
 
+
+
+         
             }
 
         }
@@ -1040,6 +1073,9 @@ else{
             $('.sidebar_nav').css("position", "fixed");
             $('.sidebar_nav').css("margin-top", "-200px");
             $('.sidebar_nav').css("width", "236px");
+
+
+          
 		var treeheight=0;
 		if($('#treeYear').height()>0){treeheight=$('#treeYear').height();}
 	    	if($(window).scrollTop() >= $('#example-min').height()-treeheight)
@@ -1050,7 +1086,7 @@ else{
 			$('#menubar').css("top", $('#example-min').height()+100-treeheight +"px");
 		}
 		else{$('#menubar').css("position", "fixed"); $('#menubar').css("top", "");}
-		//Issue 11 end
+		
         }
 
         else {
@@ -1064,18 +1100,19 @@ else{
             $('.sidebar_nav').css("width", "");
 
 
-      
+       
         }
+     
 
        
     });
 	
-       
+      
     $(document).ready(function () {
 	
 	
 		  $('.window .close').click(function (e) {
-           
+            //Cancel the link behavior
             e.preventDefault();
             $.cookie('feedback_Cookie', 'Yes', { expires: 365, path: '/' });
             $('#maskWN').hide();
@@ -1089,11 +1126,13 @@ else{
             $.cookie('feedback_Cookie', 'Yes', { expires: 365, path: '/' });
             $('.window').hide();
 
-        });       
+        });
+
         
 
         //if close button is clicked
         $('.window .close').click(function (e) {
+            //Cancel the link behavior
             e.preventDefault();
             $.cookie('feedback_Cookie', 'Yes', { expires: 365, path: '/' });
             $('#mask').hide();
@@ -1114,7 +1153,8 @@ else{
             var maskHeight = $(document).height();
             var maskWidth = $(window).width();
 
-            //Set heigth and width to mask to fill up the whole screen            
+            //Set heigth and width to mask to fill up the whole screen
+            
             $('#mask').css({ 'width': '100%', 'height': '100%', 'position': 'fixed' });
 
             //transition effect
@@ -1200,7 +1240,9 @@ else{
         function ValidateEmail(email) {
             var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
             return expr.test(email);
-        };       
+        };
+
+       
 
         $('a.style1').each(function () {
 
@@ -1213,32 +1255,67 @@ else{
    });
 
   function isExternal(url) {
+	if(url){url=url.toLowerCase();
        if(url=='#' || url=='javascript:void(0);' || url.includes('javascript')||url=='' )
 	{ return false;} 
-	else
-    	return (url.indexOf("rbi.org.in")==-1)
+	else{//return (url.indexOf("rbi.org.in")==-1)
+	
+	if(url.indexOf("www.rbi.org.in")==-1 || url.indexOf("https://rbi.org.in")==-1)
+		{	
+			if(url.indexOf("rbi.org.in")==-1)		
+    				return "external";
+			else if(url.indexOf("www.rbi.org.in")==-1 && url.indexOf(".rbi.org.in")>0 && url.indexOf("rbidocs.rbi.org.in")==-1)
+				{return "subdomain";}
+			else if(url.indexOf("financialeducation")>0 || url.indexOf("commonperson")>0 || url.indexOf("/rekyc/")>0 || url.indexOf("rbi90years")>0 ){
+				return "subsite";}
+			
+		}
+	
+	}}
     }
     document.addEventListener("click", function () {
-	
-        if (event.target.tagName.toLowerCase() === "a") {
-            if (isExternal(event.target.href)) {
+	linkMessage();
+        
+    });
+function linkMessage(){
+	if (event.target.tagName.toLowerCase() === "a") {
+            if (isExternal(event.target.href)=="external") {
 
                 if (confirm("You are being redirected to an external website that opens in a new tab. Please note that Reserve Bank of India will not be held responsible for external websites content in any manner.")) {
 
                     return;
                 }
-
                 else {
                    
                     event.preventDefault();
                     return;
                 }
             }
+	    if (isExternal(event.target.href)=="subdomain") {
+	    	 if (confirm("You are being redirected to a subdomain that will open in a new browser tab. The subdomain may have a different header, footer, and navigation structure from the main website. Continue?")) {
+                    return;
+                }
+                else {
+                   
+                    event.preventDefault();
+                    return;
+                }
+	    }
+		if (isExternal(event.target.href)=="subsite") {
+	    	 if (confirm("You are being redirected to a subsite that will open in a new browser tab. The subsite may have a different header, footer, and navigation structure from the main website. Some design elements and links may vary from the primary site experience. Continue?")) {
+                    return;
+                }
+                else {
+                   
+                    event.preventDefault();
+                    return;
+                }
+	    }
         }
 	else if (event.target.tagName.toLowerCase() === "img") {
 		$(event.target).preventDefault;		
 		if($(event.target).parent('a').length){
-			 if (isExternal($(event.target).parent('a').prop('href'))) {
+			 if (isExternal($(event.target).parent('a').prop('href'))==="external") {
                 		if (confirm("You are being redirected to an external website that opens in a new tab. Please note that Reserve Bank of India will not be held responsible for external websites content in any manner.")) {
                     		return;
                		 }
@@ -1246,14 +1323,75 @@ else{
                 	else {                   
                     		event.preventDefault();
                     		return;
-                	}
-		}
-	}}
-    });
+                	}}
+			if (isExternal($(event.target).parent('a').prop('href'))==="subdomain") {
+                		if (confirm("You are being redirected to a subdomain that will open in a new browser tab. The subdomain may have a different header, footer, and navigation structure from the main website. Continue?")) {
+                    		return;
+               		 	}
 
+                		else {                   
+                    		event.preventDefault();
+                    		return;
+                		}
+			}
+			if (isExternal(event.target.href)=="subsite") {
+	    	 	if (confirm("You are being redirected to a subsite that will open in a new browser tab. The subsite may have a different header, footer, and navigation structure from the main website. Some design elements and links may vary from the primary site experience. Continue?")) {
+                    	return;
+                	}
+                	else {
+                   
+                    		event.preventDefault();
+                    	return;
+                	}
+	    		}
+	}}
+	const link = event.target.closest('a[target="_blank"]');
+	if(link){ 
+		event.preventDefault();
+		const docRegx = /\.(pdf|docx?|xlsx?|zip?)$/i;
+		if(docRegx.test(link)){
+			if(/\.pdf$/i.test(link))
+			{	
+				if(confirm("This PDF will open in a new browser tab. Do you want to continue?")){
+				window.open(link.href,"_blank");}
+			}
+			else if(/\.docx$/i.test(link))
+			{	
+				if(confirm("Are you sure you want to download this document?")){
+				window.open(link.href,"_blank");}
+			}
+			else if(/\.xlsx$/i.test(link))
+			{	
+				if(confirm("Are you sure you want to download this document?")){
+				window.open(link.href,"_blank");}
+			}
+			else if(/\.zip$/i.test(link))
+			{	
+				if(confirm("Are you sure you want to download this file?")){
+				window.open(link.href,"_blank");}
+			}
+		}
+
+		else 
+		if(confirm("This link will open in a new browser tab. Do you want to continue?")){
+			window.open(link.href,"_blank");
+		}
+	}
+		if (event.target.tagName.toLowerCase() === "button") {
+		if($(event.target).parent('a').length>0){
+			const link1 = event.target.closest('a[target="_blank"]');
+		if(link1){
+			event.preventDefault();
+			if(confirm("This link will open in a new browser tab. Do you want to continue?")){
+				window.open(link.href,"_blank");
+			}
+		}
+		}
+	}
+}
 
 </script>
-<script type="text/javascript">
+<script >
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -1265,16 +1403,30 @@ else{
 document.querySelectorAll('table.tablebg').forEach(table => {
     const anchors = table.querySelectorAll('a[href^="#"]:not([href="#"])');
 
-    const hasInPageAnchorsInThisTableOnly = Array.from(anchors).some(a => {        
-        const closestTable = a.closest('table'); 
-        
+    const hasInPageAnchorsInThisTableOnly = Array.from(anchors).some(a => {
+        // Find the closest table ancestor of this anchor
+        const closestTable = a.closest('table');
+    
+        // Only count it if it belongs to the current table (not a nested one)
         return closestTable === table;
     });
 
     if (!hasInPageAnchorsInThisTableOnly) {
+       // table.setAttribute('role', 'presentation');
+       //} else {
+       //    table.removeAttribute('role'); 
+	if(table.closest('td')){
+	if(table.querySelector('th'))
+	{	
+		table.removeAttribute('role');
+	}
+	else{
         table.setAttribute('role', 'presentation');
-    } else {
-        table.removeAttribute('role'); 
+		}
+	}
+	else{
+        table.setAttribute('role', 'presentation');
+		}
     }
 });
 $('.brd-ptable1').attr('role','presentation');
@@ -1283,6 +1435,8 @@ document.querySelectorAll('br').forEach(br => {br.setAttribute('aria-hidden','tr
 $('#doublescroll').children('table').filter(':first').attr("role", "presentation");
 $('.page_title').nextAll('table').first().attr("role", "presentation");
 
+
+
 document.addEventListener('DOMContentLoaded', function(){
 $('.tableheader b').each(function () {
 		var curEle= $(this);
@@ -1290,7 +1444,7 @@ $('.tableheader b').each(function () {
         });
  });
 
-// Global tooltip controller 
+//  tooltip 
 var TooltipManager = {
     _tip: null, // Create the tooltip element once 
 init: function() {
@@ -1319,7 +1473,7 @@ $(document).ready(function() {
     $('body').on('focusin', 'input, button, a, select, textarea, img', function() {
         var title = $(this).attr('title'); if (title) {
     
-           
+            
       
             TooltipManager.show(this, title);
         }
@@ -1331,24 +1485,62 @@ $(document).ready(function() {
     $(document).keyup(function(e) { if (e.key === "Escape") TooltipManager.hide(); });
 });
 
-//for breadcrumb current page announce
+//breadcrumb current page announce
+$(document).ready(function(){
+
 const breadcrumbList = document.querySelector('.breadcrumbs');
 
     if (breadcrumbList) {
         const listItems = breadcrumbList.querySelectorAll('li');
     
         if (listItems.length > 0) {
-           
-            const lastItem = $('.breadcrumbs li').filter(function(){ return $.trim($(this).text())!=="";}).last().attr('aria-current', 'page');
-            $('.breadcrumbs li').filter(function(){ return $.trim($(this).text())==="";}).attr('role','presentation');
-                  
+            
+            const lastItem = $('.breadcrumbs li').filter(function(){ return $.trim($(this).text())!=="";}).last().attr('aria-current', 'page').css('background','none'); //remove extra icons from empty breadcrumbs
+            $('.breadcrumbs li').filter(function(){ return $.trim($(this).text())==="" && $(this).children().length===0;}).attr('role','presentation');
+	    
+       		$('.breadcrumbs li').filter(function(){
+			if($(this).children().length!==0)
+			{
+				if($(this).children().text() ===""){}
+			}
+		});
             const lastLink =lastItem.find('a');
             if (lastLink) {
-                lastLink.attr('aria-current', 'page');                
-                //lastItem.find('a').removeAttr('href');
+                lastLink.attr('aria-current', 'page');               
+                
             }
+		if($('.breadcrumbs li').last().find('a').length>0)
+		{			
+			const $a = $('.breadcrumbs li').last().find('a');
+			$('<span>',{class: $a.attr('class'), text: $a.text()}).replaceAll($a).attr('aria-current', 'page').css('background','none');;
+		}
+		
+		if($('.breadcrumbs li').last().find('span').length>0)
+		{
+			
+			if($('.breadcrumbs li').last().find('span')[0].innerText==='')
+			{
+				$('.breadcrumbs li').last().find('span').removeAttr('aria-current');				
+			}
+			else{
+				$('.breadcrumbs li').last().find('span').filter(function(){ return $(this).attr('role')!=='presentation';}).last().attr('aria-current', 'page').css('background','none');;					
+			}		
+		}
+		$('.breadcrumbs li').filter(function(){ return $.trim($(this).text())!=="";}).removeAttr('role','presentation'); 
+		$('.breadcrumbs li').filter(function(){ return $.trim($(this).text())==="" }).css('background','none');//remove extra icons from empty breadcrumbs
         }
     }
+});
+
+//document.addEventListener("DOMContentLoaded", () => {
+//    document.querySelectorAll('img').forEach(img => {
+//      try {
+//        const url = new URL(img.src);
+//        img.crossOrigin = "anonymous";
+//        img.src = window.location.origin + url.pathname + url.search + url.hash;
+//      } catch (e) {}
+//    });
+//  });
 </script>
 
 <script type="text/javascript">
@@ -1383,7 +1575,7 @@ setLetterSpace(false);//]]>
             if (toDay.getFullYear() - 9 > parseInt(strYear)) { document.getElementById("divArchiveSub").style.display = "block" }
         }
     }   
-</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'HHOMGABHCODOLFCHKKIMHHJJLCIGOCCCKOEMNDFCHEHCFGKPPLKGAFKMODBCOKOCDPIBEBAIAAKMAOJFGIAADHBGAAJEADFLCEAKGDDJODEDIEMLFOLIDHCHHGNAIGAN',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1126094645aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/;'+'';}
+</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'NKDILCGBGINCFKHCOCGAMOPIDNGLFDPOJNGBFEADCCADCIDOMIENJHCDNPNBNDKOLLGBLPHMAADACKPLKBMADEDIAAADLBBHAKPAJADLLPIHMIKKNLICHOLDNCCDPGMC',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0863824298aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/;'+'';}
 return;}}
 catch(err){return;}
 setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
