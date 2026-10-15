@@ -68,7 +68,7 @@
         
     
 <!--<sly data-sly-test="false">-->
-<!--	<input type="hidden" id="referer" value="/content/mca/global/en/mca/fo-llp-services/company-llp-name-search.html"/>-->
+<!--	<input type="hidden" id="referer" value="/content/mca/global/en/home.html"/>-->
 <!--</sly>-->
 
         
@@ -189,12 +189,14 @@
                     </form>
                 </div>
             </div>
-            <div class="col-md-12 col-lg-3 col-xl-2 d-flex align-items-center justify-content-end" style="font-size: 14px;">
-                <div class="signInOuter" style="font-size: 14px;">
-                    <div class="signInUp" style="font-size: 14px;">
-                        <span style="font-size: 12px;">Create an account with us now</span>
-                        <div class="signoption" style="font-size: 14px;">
-                            
+
+<div class="col-md-12 col-lg-3 col-xl-2 d-flex flex-column align-items-end justify-content-center header-login-session-col" style="font-size: 14px;">
+
+    <div class="signInOuter" style="font-size: 14px;">
+        <div class="signInUp" style="font-size: 14px;">
+            <span style="font-size: 12px;">Create an account with us now</span>
+            <div class="signoption" style="font-size: 14px;">
+                
     
 <script src="/etc.clientlibs/mca/components/content/home/signincomponent/v1/signincomponent/clientlibs.min.js" style="font-size: 14px;"></script>
 
@@ -231,10 +233,76 @@
         </div>
     </div>
 </div>
-                        </div>
-                    </div>
-                </div>
             </div>
+        </div>
+    </div>
+
+    <div class="sessionTimerWrap" style="font-size: 14px;">
+        
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/mca/components/content/home/sessiontimer/v1/sessiontimer/clientlib.min.css" type="text/css" style="font-size: 14px;">
+<script src="/etc.clientlibs/mca/components/content/home/sessiontimer/v1/sessiontimer/clientlib.min.js" style="font-size: 14px;"></script>
+
+
+
+
+    <div class="mca-session-timer-component" style="display: none !important; font-size: 14px;" data-total-timeout-minutes="40" data-popup-trigger-minutes="1" data-logout-endpoint="/bin/mca/logout" data-logout-redirect-path="/content/mca/global/en/foportal/fologin.html" data-session-storage-key="mcaSessionTimerState">
+
+        <!-- Header/Menu Session Timer -->
+        <div class="sessionTimer mca-session-header-timer" aria-label="Session Time 15 minutes 00 seconds" tabindex="0" style="font-size: 14px;">
+
+            <span class="sessionTimeLabel" style="font-size: 14px;">Session Time</span>
+
+            <span class="sessionTime mca-minute-first" style="font-size: 14px;">0</span>
+            <span class="sessionTime mca-minute-second" style="font-size: 14px;">0</span>
+
+            <span class="mca-timer-colon" style="font-size: 14px;">:</span>
+
+            <span class="sessionTime mca-second-first" style="font-size: 14px;">0</span>
+            <span class="sessionTime mca-second-second" style="font-size: 14px;">0</span>
+        </div>
+
+        <!-- Static Timeout Popup -->
+        <div class="mca-session-popup-overlay" hidden="" style="font-size: 14px;">
+            <div class="mca-session-popup" role="dialog" aria-modal="true" aria-labelledby="mcaSessionPopupTitle" style="font-size: 14px;">
+
+                <div class="mca-session-popup-header" style="font-size: 14px;">
+                    <h2 id="mcaSessionPopupTitle" style="font-size: 22px;">Session Timeout!</h2>
+                </div>
+
+                <div class="mca-session-popup-body" style="font-size: 16px;">
+
+                    <!-- Primary Message -->
+                    <div class="mca-session-primary-message" data-primary-message-template="Your session is about to expire. You will be automatically logged out in" style="font-size: 14px;">
+                    </div>
+
+                    <!-- Popup Countdown -->
+                    <div class="mca-session-popup-countdown" aria-live="assertive" style="font-size: 20px;">
+                        00:00
+                    </div>
+
+                    <p style="font-size: 14px;">To stay logged in, please select Continue Session.</p>
+                    <p style="font-size: 14px;">If the session expires, you will be required to log in again using OTP authentication.</p>
+                </div>
+
+                <div class="mca-session-popup-footer" style="font-size: 14px;">
+                    <button type="button" class="mca-session-logout-btn" style="font-size: 14px;">
+                        Log Out
+                    </button>
+
+                    <button type="button" class="mca-session-continue-btn" style="font-size: 14px;">
+                        Continue Session
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+</div>
 
         </div>
     </div>
@@ -10632,7 +10700,7 @@ Hon'ble Minister of State</p>
 
 
 
- <span class="config-tab" data-tabdialog="[{&quot;tabID&quot;:&quot;tab-3087&quot;,&quot;tabType&quot;:&quot;messages&quot;,&quot;messageFilePath&quot;:&quot;/content/dam/mca/configurations/important_updates_2026_01_29.csv&quot;},{&quot;tabID&quot;:&quot;tab-5293&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;325&quot;},{&quot;tabID&quot;:&quot;tab-9100&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;1442&quot;},{&quot;tabID&quot;:&quot;tab-4614&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;1420&quot;},{&quot;tabID&quot;:&quot;tab-5802&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;377&quot;},{&quot;tabID&quot;:&quot;tab-7513&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;329&quot;},{&quot;tabID&quot;:&quot;tab-8061&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;344&quot;},{&quot;tabID&quot;:&quot;tab-6991&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;342&quot;}]" data-alltabid="{&quot;columns&quot;:[&quot;Title&quot;,&quot;Date&quot;],&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;null,325,1442,1420,377,329,344,342&quot;}" style="font-size: 14px;"></span>
+ <span class="config-tab" data-tabdialog="[{&quot;tabID&quot;:&quot;tab-4171&quot;,&quot;tabType&quot;:&quot;messages&quot;,&quot;messageFilePath&quot;:&quot;/content/dam/mca/configurations/important_updates_2026_01_29.csv&quot;},{&quot;tabID&quot;:&quot;tab-4055&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;325&quot;},{&quot;tabID&quot;:&quot;tab-5751&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;1442&quot;},{&quot;tabID&quot;:&quot;tab-1309&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;1420&quot;},{&quot;tabID&quot;:&quot;tab-6858&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;377&quot;},{&quot;tabID&quot;:&quot;tab-4085&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;329&quot;},{&quot;tabID&quot;:&quot;tab-7992&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;344&quot;},{&quot;tabID&quot;:&quot;tab-4127&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;342&quot;}]" data-alltabid="{&quot;columns&quot;:[&quot;Title&quot;,&quot;Date&quot;],&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;null,325,1442,1420,377,329,344,342&quot;}" style="font-size: 14px;"></span>
     
     <div class="notification-tenders-tab-component mb-4" style="font-size: 14px;">
         <h1 class="firstheading" style="font-size: 20px;">Notifications &amp; Updates</h1>
@@ -10703,7 +10771,7 @@ Hon'ble Minister of State</p>
         </span>
                 </li>
 					<li style="font-size: 14px; float: left; list-style: none; position: relative; width: 183.333px;">
-                    <button type="button" data-tabid="tab-3087" class="nav-link nav-items slide dms-tab messages briefcase-iu active show" id="tab-3087-tab" data-bs-toggle="tab" data-bs-target="#tab-3087" tabindex="0" style="font-size: 14px;">
+                    <button type="button" data-tabid="tab-4171" class="nav-link nav-items slide dms-tab messages briefcase-iu active show" id="tab-4171-tab" data-bs-toggle="tab" data-bs-target="#tab-4171" tabindex="0" style="font-size: 14px;">
 
                         Important Updates
 
@@ -10719,7 +10787,7 @@ Hon'ble Minister of State</p>
         </span>
                 </li>
 					<li style="font-size: 14px; float: left; list-style: none; position: relative; width: 183.333px;">
-                    <button type="button" data-tabid="tab-5293" class="nav-link nav-items slide dms-tab dms circle-important " id="tab-5293-tab" data-bs-toggle="tab" data-bs-target="#tab-5293" tabindex="0" style="font-size: 14px;">
+                    <button type="button" data-tabid="tab-4055" class="nav-link nav-items slide dms-tab dms circle-important " id="tab-4055-tab" data-bs-toggle="tab" data-bs-target="#tab-4055" tabindex="0" style="font-size: 14px;">
 
                         What's New
 
@@ -10735,7 +10803,7 @@ Hon'ble Minister of State</p>
         </span>
                 </li>
 					<li style="font-size: 14px; float: left; list-style: none; position: relative; width: 183.333px;">
-                    <button type="button" data-tabid="tab-9100" class="nav-link nav-items slide dms-tab dms notice-circular " id="tab-9100-tab" data-bs-toggle="tab" data-bs-target="#tab-9100" tabindex="0" style="font-size: 14px;">
+                    <button type="button" data-tabid="tab-5751" class="nav-link nav-items slide dms-tab dms notice-circular " id="tab-5751-tab" data-bs-toggle="tab" data-bs-target="#tab-5751" tabindex="0" style="font-size: 14px;">
 
                         Notices
 
@@ -10751,7 +10819,7 @@ Hon'ble Minister of State</p>
         </span>
                 </li>
 					<li style="font-size: 14px; float: left; list-style: none; position: relative; width: 183.333px;">
-                    <button type="button" data-tabid="tab-4614" class="nav-link nav-items slide dms-tab dms circulars-assign " id="tab-4614-tab" data-bs-toggle="tab" data-bs-target="#tab-4614" tabindex="0" style="font-size: 14px;">
+                    <button type="button" data-tabid="tab-1309" class="nav-link nav-items slide dms-tab dms circulars-assign " id="tab-1309-tab" data-bs-toggle="tab" data-bs-target="#tab-1309" tabindex="0" style="font-size: 14px;">
 
                         Circulars
 
@@ -10767,7 +10835,7 @@ Hon'ble Minister of State</p>
         </span>
                 </li>
 					<li style="font-size: 14px; float: left; list-style: none; position: relative; width: 183.333px;">
-                    <button type="button" data-tabid="tab-5802" class="nav-link nav-items slide dms-tab dms press-releases " id="tab-5802-tab" data-bs-toggle="tab" data-bs-target="#tab-5802" tabindex="0" style="font-size: 14px;">
+                    <button type="button" data-tabid="tab-6858" class="nav-link nav-items slide dms-tab dms press-releases " id="tab-6858-tab" data-bs-toggle="tab" data-bs-target="#tab-6858" tabindex="0" style="font-size: 14px;">
 
                         Recent Reports
 
@@ -10783,7 +10851,7 @@ Hon'ble Minister of State</p>
         </span>
                 </li>
 					<li style="font-size: 14px; float: left; list-style: none; position: relative; width: 183.333px;">
-                    <button type="button" data-tabid="tab-7513" class="nav-link nav-items slide dms-tab dms rupees-qt " id="tab-7513-tab" data-bs-toggle="tab" data-bs-target="#tab-7513" tabindex="0" style="font-size: 14px;">
+                    <button type="button" data-tabid="tab-4085" class="nav-link nav-items slide dms-tab dms rupees-qt " id="tab-4085-tab" data-bs-toggle="tab" data-bs-target="#tab-4085" tabindex="0" style="font-size: 14px;">
 
                         Quotations &amp; Tenders
 
@@ -10799,7 +10867,7 @@ Hon'ble Minister of State</p>
         </span>
                 </li>
 					<li style="font-size: 14px; float: left; list-style: none; position: relative; width: 183.333px;">
-                    <button type="button" data-tabid="tab-8061" class="nav-link nav-items slide dms-tab dms press-releases " id="tab-8061-tab" data-bs-toggle="tab" data-bs-target="#tab-8061" tabindex="0" style="font-size: 14px;">
+                    <button type="button" data-tabid="tab-7992" class="nav-link nav-items slide dms-tab dms press-releases " id="tab-7992-tab" data-bs-toggle="tab" data-bs-target="#tab-7992" tabindex="0" style="font-size: 14px;">
 
                         Press Release
 
@@ -10815,7 +10883,7 @@ Hon'ble Minister of State</p>
         </span>
                 </li>
 					<li style="font-size: 14px; float: left; list-style: none; position: relative; width: 183.333px;">
-                    <button type="button" data-tabid="tab-6991" class="nav-link nav-items slide dms-tab dms vacancies " id="tab-6991-tab" data-bs-toggle="tab" data-bs-target="#tab-6991" tabindex="0" style="font-size: 14px;">
+                    <button type="button" data-tabid="tab-4127" class="nav-link nav-items slide dms-tab dms vacancies " id="tab-4127-tab" data-bs-toggle="tab" data-bs-target="#tab-4127" tabindex="0" style="font-size: 14px;">
 
                         Vacancies
 
@@ -10826,9 +10894,9 @@ Hon'ble Minister of State</p>
             <!-- <hr> -->
             <div class="tab-content" style="font-size: 14px;">
                 
-                    <div id="tab-3087" class="tab-pane fade active show" style="font-size: 14px;">
+                    <div id="tab-4171" class="tab-pane fade active show" style="font-size: 14px;">
 						
-                        <div class="updatedtabtext" style="font-size: 14px;"><p style="font-size: 16px;">Important Updates (<span id="totalSpan-tab-3087" style="font-size: 14px;"> 50</span> items) </p> </div>
+                        <div class="updatedtabtext" style="font-size: 14px;"><p style="font-size: 16px;">Important Updates (<span id="totalSpan-tab-4171" style="font-size: 14px;"> 50</span> items) </p> </div>
                         <!-- Row 1 -->
                         
                         <!-- Row 2 -->
@@ -12258,9 +12326,9 @@ V2 Portal for Company filing will remain available for all the forms during this
                         
                     </div>
                 
-                    <div id="tab-5293" class="tab-pane fade " style="font-size: 14px;">
+                    <div id="tab-4055" class="tab-pane fade " style="font-size: 14px;">
 						
-                        <div class="updatedtabtext" style="font-size: 14px;"><p style="font-size: 16px;">What's New (<span id="totalSpan-tab-5293" style="font-size: 14px;"> 0</span> items) </p> </div>
+                        <div class="updatedtabtext" style="font-size: 14px;"><p style="font-size: 16px;">What's New (<span id="totalSpan-tab-4055" style="font-size: 14px;"> 0</span> items) </p> </div>
                         <!-- Row 1 -->
                         
                             <div class="row" style="font-size: 14px;">
@@ -12293,9 +12361,9 @@ V2 Portal for Company filing will remain available for all the forms during this
                         
                     </div>
                 
-                    <div id="tab-9100" class="tab-pane fade " style="font-size: 14px;">
+                    <div id="tab-5751" class="tab-pane fade " style="font-size: 14px;">
 						
-                        <div class="updatedtabtext" style="font-size: 14px;"><p style="font-size: 16px;">Notices (<span id="totalSpan-tab-9100" style="font-size: 14px;"> 0</span> items) </p> </div>
+                        <div class="updatedtabtext" style="font-size: 14px;"><p style="font-size: 16px;">Notices (<span id="totalSpan-tab-5751" style="font-size: 14px;"> 0</span> items) </p> </div>
                         <!-- Row 1 -->
                         
                             <div class="row" style="font-size: 14px;">
@@ -12328,9 +12396,9 @@ V2 Portal for Company filing will remain available for all the forms during this
                         
                     </div>
                 
-                    <div id="tab-4614" class="tab-pane fade " style="font-size: 14px;">
+                    <div id="tab-1309" class="tab-pane fade " style="font-size: 14px;">
 						
-                        <div class="updatedtabtext" style="font-size: 14px;"><p style="font-size: 16px;">Circulars (<span id="totalSpan-tab-4614" style="font-size: 14px;"> 0</span> items) </p> </div>
+                        <div class="updatedtabtext" style="font-size: 14px;"><p style="font-size: 16px;">Circulars (<span id="totalSpan-tab-1309" style="font-size: 14px;"> 0</span> items) </p> </div>
                         <!-- Row 1 -->
                         
                             <div class="row" style="font-size: 14px;">
@@ -12363,9 +12431,9 @@ V2 Portal for Company filing will remain available for all the forms during this
                         
                     </div>
                 
-                    <div id="tab-5802" class="tab-pane fade " style="font-size: 14px;">
+                    <div id="tab-6858" class="tab-pane fade " style="font-size: 14px;">
 						
-                        <div class="updatedtabtext" style="font-size: 14px;"><p style="font-size: 16px;">Recent Reports (<span id="totalSpan-tab-5802" style="font-size: 14px;"> 0</span> items) </p> </div>
+                        <div class="updatedtabtext" style="font-size: 14px;"><p style="font-size: 16px;">Recent Reports (<span id="totalSpan-tab-6858" style="font-size: 14px;"> 0</span> items) </p> </div>
                         <!-- Row 1 -->
                         
                             <div class="row" style="font-size: 14px;">
@@ -12398,9 +12466,9 @@ V2 Portal for Company filing will remain available for all the forms during this
                         
                     </div>
                 
-                    <div id="tab-7513" class="tab-pane fade " style="font-size: 14px;">
+                    <div id="tab-4085" class="tab-pane fade " style="font-size: 14px;">
 						
-                        <div class="updatedtabtext" style="font-size: 14px;"><p style="font-size: 16px;">Quotations &amp; Tenders (<span id="totalSpan-tab-7513" style="font-size: 14px;"> 0</span> items) </p> </div>
+                        <div class="updatedtabtext" style="font-size: 14px;"><p style="font-size: 16px;">Quotations &amp; Tenders (<span id="totalSpan-tab-4085" style="font-size: 14px;"> 0</span> items) </p> </div>
                         <!-- Row 1 -->
                         
                             <div class="row" style="font-size: 14px;">
@@ -12433,9 +12501,9 @@ V2 Portal for Company filing will remain available for all the forms during this
                         
                     </div>
                 
-                    <div id="tab-8061" class="tab-pane fade " style="font-size: 14px;">
+                    <div id="tab-7992" class="tab-pane fade " style="font-size: 14px;">
 						
-                        <div class="updatedtabtext" style="font-size: 14px;"><p style="font-size: 16px;">Press Release (<span id="totalSpan-tab-8061" style="font-size: 14px;"> 0</span> items) </p> </div>
+                        <div class="updatedtabtext" style="font-size: 14px;"><p style="font-size: 16px;">Press Release (<span id="totalSpan-tab-7992" style="font-size: 14px;"> 0</span> items) </p> </div>
                         <!-- Row 1 -->
                         
                             <div class="row" style="font-size: 14px;">
@@ -12468,9 +12536,9 @@ V2 Portal for Company filing will remain available for all the forms during this
                         
                     </div>
                 
-                    <div id="tab-6991" class="tab-pane fade " style="font-size: 14px;">
+                    <div id="tab-4127" class="tab-pane fade " style="font-size: 14px;">
 						
-                        <div class="updatedtabtext" style="font-size: 14px;"><p style="font-size: 16px;">Vacancies (<span id="totalSpan-tab-6991" style="font-size: 14px;"> 0</span> items) </p> </div>
+                        <div class="updatedtabtext" style="font-size: 14px;"><p style="font-size: 16px;">Vacancies (<span id="totalSpan-tab-4127" style="font-size: 14px;"> 0</span> items) </p> </div>
                         <!-- Row 1 -->
                         
                             <div class="row" style="font-size: 14px;">
