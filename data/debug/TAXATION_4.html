@@ -7,9 +7,10 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/responsive-home.css">
   <link rel="stylesheet" id="cbecthemes" href="css/cbec-theme-blue.css">
-  <link rel="stylesheet" href="css/marquee-init.css">
+   <link rel="stylesheet" href="css/marquee-init.css">
+  <link rel="stylesheet" href="css/home-responsive-fixes.css">
 
-  <title>Goods &amp; Service Tax, CBIC, Government of India :: Home</title>
+  <title> CBIC, Government of India :: Home</title>
 
   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 
@@ -45,6 +46,10 @@
     .custommsg a {
       text-decoration: none;
     }
+
+    /* #header.navbar-fixed-top {
+      background-color: #fff !important;
+    } */
 
     .popup {
       width: 100%;
@@ -115,8 +120,8 @@
     #popup {
       width: 525px;
       height: 274px;
-      background: #e5e5e5;
-      border: 5px solid #3498db;
+      background: #eee9e9;
+      border: 3px solid #002d74;
       border-radius: 25px;
       -moz-border-radius: 25px;
       -webkit-border-radius: 25px;
@@ -127,27 +132,125 @@
       top: 25%;
       margin: 0 auto;
     }
-  @-webkit-keyframes marqueeAnimation-5616678  { 100%  {margin-left:-41095.8px}}</style>
-  <!-- <script>
-$(function(){
-var overlay = $('<div id="overlay"></div>');
-overlay.show();
-overlay.appendTo(document.body);
-$('.popup').show();
-$('.close').click(function(){
-$('.popup').hide();
-overlay.appendTo(document.body).remove();
-return false;
-});
 
+    /* Skip to Main Content */
+    #skipToMain:focus {
+      outline: 2px solid #fff;
+      outline-offset: 2px;
+    }
 
-$('.x').click(function(){
-$('.popup').hide();
-overlay.appendTo(document.body).remove();
-return false;
-});
-});
-</script> -->
+    #main-content:focus {
+      outline: none;
+    }
+
+    /* Ticker (flash news) hyperlinks - make them clearly visible */
+    #Scroll.flash-news-section .marquee a,
+    #Scroll.flash-news-section .marquee a:link,
+    #Scroll.flash-news-section .marquee a:visited {
+      color: #c00000 !important;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    #Scroll.flash-news-section .marquee a:hover,
+    #Scroll.flash-news-section .marquee a:focus {
+      color: #7a0000 !important;
+      text-decoration: underline;
+    }
+
+    /* Leadership cards: two columns on larger screens, one column on phones. */
+    .leadership-section {
+      clear: left;
+      float: left;
+      min-height: 180px;
+    }
+
+    .leadership-people {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 16px;
+      width: 100% !important;
+      min-height: 0 !important;
+      margin: 0 !important;
+      padding: 16px !important;
+      background: transparent !important;
+      border-radius: 0 !important;
+      box-shadow: none !important;
+    }
+
+    .leadership-person {
+      display: flex;
+      align-items: flex-start;
+      flex: 1 1 220px;
+      min-width: 0;
+      width: calc(50% - 8px) !important;
+      min-height: 0 !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      gap: 16px;
+      background: transparent !important;
+      border-radius: 0 !important;
+      box-shadow: none !important;
+    }
+
+    .leadership-person img {
+      width: 72px;
+      height: 72px;
+      flex: 0 0 72px;
+      object-fit: cover;
+    }
+
+    .leadership-person p {
+      margin: 0;
+      color: #000;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: left;
+    }
+
+    @media (max-width: 767px) {
+      .leadership-section {
+        float: none;
+        min-height: 0;
+      }
+
+      .leadership-people {
+        display: block;
+      }
+
+      .leadership-person + .leadership-person {
+        margin-top: 16px;
+      }
+
+      .leadership-person {
+        width: auto !important;
+      }
+    }
+  @-webkit-keyframes marqueeAnimation-4532768  { 100%  {margin-left:-41335.5px}}</style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var overlay = document.createElement('div');
+      overlay.id = 'overlay';
+      document.body.appendChild(overlay);
+
+      document.querySelectorAll('.popup').forEach(function (popup) {
+        popup.style.display = 'block';
+      });
+
+      function closePopup(event) {
+        event.preventDefault();
+        document.querySelectorAll('.popup').forEach(function (popup) {
+          popup.style.display = 'none';
+        });
+        overlay.remove();
+      }
+
+      document.querySelectorAll('.close, .x').forEach(function (closeButton) {
+        closeButton.addEventListener('click', closePopup);
+      });
+    });
+  </script>
 
 
 </head>
@@ -170,6 +273,25 @@ return false;
         </div>
         <div class="modal-footer">
           <a href="aces/aces.html" role="button" class="btn btn-info">OK</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- External website notice modal (used for taxinformation.cbic.gov.in links) -->
+  <div class="modal fade" id="externalLinkModal" tabindex="-1" role="dialog" aria-labelledby="externalLinkTitle">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #34495e; color: #FFF;">
+          <h4 class="modal-title" id="externalLinkTitle"><strong>Attention</strong></h4>
+        </div>
+        <div class="modal-body">
+          <p class="text-center">You are being redirected to an external website. It will open in a new tab.
+            Do you want to continue?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          <a href="#" id="externalLinkContinue" class="btn btn-info" target="_blank" rel="noopener noreferrer">Continue</a>
         </div>
       </div>
     </div>
@@ -199,19 +321,42 @@ return false;
     </div>
 </div> -->
 
+  <!-- <div id="ac-wrapper" style='display:none' class="hidden-xs">
+    <div id="popup">
+      <center>
+        <h1 style="color:#0056b8; padding-top:6px !important;"><strong>May I help you?</strong><span
+            style="float: right;"><a href="#" class="js-closewin"
+              style="float: right; font-size: 18px; margin-right: 10px; margin-top: 1px;"><i class="fa fa-times-circle"
+                aria-hidden="true"></i></a></span> </h1>
+        <div><span style="padding:0px;margin:0px;">From August 1st 2025 onwards, CBIC Mitra Helpdesk number will be
+            <span style="color:red;font-weight:bold;">1800 425 0232</span></span></div>
+        <div style="float:left;"><img src="images/assistance-img1.png" class="img-responsive"
+            style="width:195px; height: 185px; margin-left:35px;" /></div>
+        <div style="padding-right: 35px; padding-top: 15px;">
+          <div
+            style="background-image:url(images/balloon-img-call.png); background-repeat: no-repeat; width:270px; height: 106px; margin-left: 215px;">
+          </div> -->
+  <!-- <div style="background-image:url(images/balloon-img.png); background-repeat: no-repeat; width:270px; height: 106px; margin-left: 215px;"></div> -->
+  <!-- <div style="background-image:url(images/balloon-img1.png); background-repeat: no-repeat; width:270px; height: 106px; margin-left: 215px;"></div> -->
+  <!-- For any queries and quick assistance, <a href="help.html" role="button" class="btn btn-info btn-xs js-closewin"><i>Click Here</i></a>
+        </div>
+      </center>
+    </div>
+  </div> -->
+
   <div id="ac-wrapper" class="hidden-xs">
     <div id="popup">
       <center>
-        <h1 style="color:#0056b8; padding-top:6px !important;"><strong>May I help you?</strong><span style="float: right;"><a href="#" class="js-closewin" style="float: right; font-size: 18px; margin-right: 10px; margin-top: 1px;"><i class="fa fa-times-circle" aria-hidden="true"></i></a></span> </h1>
+        <h1 style="color:#002d74; padding-top:6px !important;"><strong>May I help you?</strong><span style="float: right;"><a href="#" class="js-closewin" style="float: right; font-size: 18px; margin-right: 10px; margin-top: 1px;"><i class="fa fa-times-circle" aria-hidden="true"></i></a></span> </h1>
         <div><span style="padding:0px;margin:0px;">From August 1st 2025 onwards, CBIC Mitra Helpdesk number will be
             <span style="color:red;font-weight:bold;">1800 425 0232</span></span></div>
-        <div style="float:left;"><img src="images/assistance-img1.png" class="img-responsive" style="width:195px; height: 185px; margin-left:35px;"></div>
+        <div style="float:left;"><img src="images/Photoroom.png" class="img-responsive" style="width:195px; height: 185px; margin-left:12px;"></div>
         <div style="padding-right: 35px; padding-top: 15px;">
-          <div style="background-image:url(images/balloon-img-call.png); background-repeat: no-repeat; width:270px; height: 106px; margin-left: 215px;">
+          <div style="background-image:url(images/GlossyBlue.png); background-repeat: round; width:270px; height: 106px; margin-left: 215px;">
           </div>
           <!-- <div style="background-image:url(images/balloon-img.png); background-repeat: no-repeat; width:270px; height: 106px; margin-left: 215px;"></div> -->
           <!-- <div style="background-image:url(images/balloon-img1.png); background-repeat: no-repeat; width:270px; height: 106px; margin-left: 215px;"></div> -->
-          For any queries and quick assistance, <a href="help.html" role="button" class="btn btn-info btn-xs js-closewin"><i>Click Here</i></a>
+          For any queries and quick assistance, <a href="help.html" style="color: #f5f5f5 !important; background-color: #002d74;" role="button" class="btn btn-info btn-xs js-closewin"><i>Click Here</i></a>
         </div>
       </center>
     </div>
@@ -229,35 +374,85 @@ return false;
         <!--<div class="pull-left language-btns-top-space"><a href="hindi/index.html" class="language-btns">हिन्दी</a> <a href="#" class="language-btns">English</a></div>-->
 
         <div class="pull-right hidden-sm hidden-xs"><span class="top-right-menu-section-bg">
-
-            <span><a href="hindi/index.html" class="right-menu-links hidden-xs">हिन्दी</a></span> <span class="icon-dvdr"></span> <span class="top-icon-labels"><a href="sitemap.html" title="Sitemap"><img src="images/sitemap-icon.png" width="21" height="18" alt="Sitemap" title="Sitemap" class="icon-btm-margin"></a> <a href="sitemap.html" title="Sitemap" class="right-menu-links hidden-xs">Sitemap</a></span>
+            <span class="top-icon-labels"><a href="#main-content" id="skipToMain" class="right-menu-links top-menu-icon-link" data-tooltip="Skip to Main Content" aria-label="Skip to Main Content" title="Skip to Main Content">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+                  <path d="M7 8h10"></path>
+                  <path d="M7 12h5"></path>
+                  <path d="M13 16h5"></path>
+                  <path d="m16 13 3 3-3 3"></path>
+                </svg>
+                <span class="top-menu-label">Skip to Main Content</span>
+              </a></span>
+            <span class="icon-dvdr"></span>
+            <span class="top-icon-labels"><a href="sitemap.html" class="right-menu-links top-menu-icon-link" data-tooltip="Sitemap" aria-label="Sitemap" title="Sitemap"><img src="images/sitemap-icon.png" width="21" height="18" alt="" title="" class="icon-btm-margin"><span class="top-menu-label">Sitemap</span></a></span>
             <!-- <span class="icon-dvdr"></span> <span class="top-icon-labels"><a href="feedback.html"><img src="images/feedback-icon.png" width="16" height="21" alt="Feedback" title="Feedback" class="icon-btm-margin"></a> <a href="feedback.html" class="right-menu-links hidden-xs">Feedback</a></span> -->
-            <span class="icon-dvdr"></span> <span class="top-icon-labels"><a href="help.html"><img src="images/help-icon.png" width="21" height="20" alt="Help" title="Help" class="icon-btm-margin"></a>
-              <a href="help.html" title="Help" class="right-menu-links hidden-xs">Help</a></span> <span class="icon-dvdr hidden-xs"></span><a href="#" class="right-menu-links hidden-xs minus" id="fontdecrease"><img src="images/font-decrease.png" alt="font decrease" title="font decrease" width="23" height="17"></a> &nbsp; <a href="#" class="right-menu-links hidden-xs" id="resetfont"><img src="images/font-normal.png" alt="font normal" title="font normal" width="16" height="17"></a> &nbsp;
-            <a href="#" class="right-menu-links hidden-xs" id="fontincrease"><img src="images/font-increase.png" alt="font increase" title="font increase" width="23" height="19"></a> <a href="#" class="color-box-black" data-theme="css/cbec-theme-black.css">&nbsp;</a> <a href="#" class="color-box-blue" data-theme="css/cbec-theme-blue.css">&nbsp;</a></span>
-        </div>
+            <span class="icon-dvdr"></span> <span class="top-icon-labels"><a href="help.html" class="right-menu-links top-menu-icon-link" data-tooltip="Help" aria-label="Help" title="Help"><img src="images/help-icon.png" width="21" height="20" alt="" title="" class="icon-btm-margin"><span class="top-menu-label">Help</span></a></span> <span class="icon-dvdr hidden-xs"></span><span class="top-icon-labels" style="position:relative; display:inline-block;"><a href="#" id="a11yDropdownBtn" class="right-menu-links hidden-xs" title="Accessibility" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 122.88" width="18" height="18" role="img" aria-label="Accessibility" style="fill:#ffffff; vertical-align:middle;">
+                  <title>Accessibility</title>
+                  <path d="M61.44,0A61.46,61.46,0,1,1,18,18,61.21,61.21,0,0,1,61.44,0Zm-.39,74.18L52.1,98.91a4.94,4.94,0,0,1-2.58,2.83A5,5,0,0,1,42.7,95.5l6.24-17.28a26.3,26.3,0,0,0,1.17-4,40.64,40.64,0,0,0,.54-4.18c.24-2.53.41-5.27.54-7.9s.22-5.18.29-7.29c.09-2.63-.62-2.8-2.73-3.3l-.44-.1-18-3.39A5,5,0,0,1,27.08,46a5,5,0,0,1,5.05-7.74l19.34,3.63c.77.07,1.52.16,2.31.25a57.64,57.64,0,0,0,7.18.53A81.13,81.13,0,0,0,69.9,42c.9-.1,1.75-.21,2.6-.29l18.25-3.42A5,5,0,0,1,94.5,39a5,5,0,0,1,1.3,7,5,5,0,0,1-3.21,2.09L75.15,51.37c-.58.13-1.1.22-1.56.29-1.82.31-2.72.47-2.61,3.06.08,1.89.31,4.15.61,6.51.35,2.77.81,5.71,1.29,8.4.31,1.77.6,3.19,1,4.55s.79,2.75,1.39,4.42l6.11,16.9a5,5,0,0,1-6.82,6.24,4.94,4.94,0,0,1-2.58-2.83L63,74.23,62,72.4l-1,1.78Zm.39-53.52a8.83,8.83,0,1,1-6.24,2.59,8.79,8.79,0,0,1,6.24-2.59Zm36.35,4.43a51.42,51.42,0,1,0,15,36.35,51.27,51.27,0,0,0-15-36.35Z"></path>
+                </svg></a>
+              <div class="a11y-dropdown-menu" id="a11yDropdownMenu" style="display:none; position:absolute; right:0; top:100%; z-index:1050; min-width:220px; background:#ffffff; border:1px solid #ccd6e0; border-radius:6px; box-shadow:0 8px 24px rgba(0,0,0,0.18); padding:12px; margin-top:5px; text-align:left;">
+                <div style="font-size:11px; font-weight:bold; color:#002d74; text-transform:uppercase; margin-bottom:8px; letter-spacing:0.5px; border-bottom:1px solid #eef2f6; padding-bottom:5px; display:flex; align-items:center; gap:6px;">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 122.88" width="14" height="14" aria-hidden="true" style="fill:#002d74; flex:0 0 auto;">
+                    <path d="M61.44,0A61.46,61.46,0,1,1,18,18,61.21,61.21,0,0,1,61.44,0Zm-.39,74.18L52.1,98.91a4.94,4.94,0,0,1-2.58,2.83A5,5,0,0,1,42.7,95.5l6.24-17.28a26.3,26.3,0,0,0,1.17-4,40.64,40.64,0,0,0,.54-4.18c.24-2.53.41-5.27.54-7.9s.22-5.18.29-7.29c.09-2.63-.62-2.8-2.73-3.3l-.44-.1-18-3.39A5,5,0,0,1,27.08,46a5,5,0,0,1,5.05-7.74l19.34,3.63c.77.07,1.52.16,2.31.25a57.64,57.64,0,0,0,7.18.53A81.13,81.13,0,0,0,69.9,42c.9-.1,1.75-.21,2.6-.29l18.25-3.42A5,5,0,0,1,94.5,39a5,5,0,0,1,1.3,7,5,5,0,0,1-3.21,2.09L75.15,51.37c-.58.13-1.1.22-1.56.29-1.82.31-2.72.47-2.61,3.06.08,1.89.31,4.15.61,6.51.35,2.77.81,5.71,1.29,8.4.31,1.77.6,3.19,1,4.55s.79,2.75,1.39,4.42l6.11,16.9a5,5,0,0,1-6.82,6.24,4.94,4.94,0,0,1-2.58-2.83L63,74.23,62,72.4l-1,1.78Zm.39-53.52a8.83,8.83,0,1,1-6.24,2.59,8.79,8.79,0,0,1,6.24-2.59Zm36.35,4.43a51.42,51.42,0,1,0,15,36.35,51.27,51.27,0,0,0-15-36.35Z"></path>
+                  </svg>
+                  Accessibility Controls
+                </div>
 
+                <div style="font-size:11px; color:#555; margin-bottom:5px; font-weight:600;">Text Resizing:</div>
+                <div style="display:flex; gap:6px; align-items:center; margin-bottom:10px;">
+                  <a href="#" id="fontdecrease" title="Decrease Font (A-)" style="flex:1; text-align:center; padding:4px 0; border:1px solid #ccd6e0; border-radius:4px; font-size:12px; font-weight:bold; color:#002d74; background:#f8fafc; text-decoration:none;">A-</a>
+                  <a href="#" id="resetfont" title="Default Font (A)" style="flex:1; text-align:center; padding:4px 0; border:1px solid #ccd6e0; border-radius:4px; font-size:12px; font-weight:bold; color:#002d74; background:#f8fafc; text-decoration:none;">A</a>
+                  <a href="#" id="fontincrease" title="Increase Font (A+)" style="flex:1; text-align:center; padding:4px 0; border:1px solid #ccd6e0; border-radius:4px; font-size:12px; font-weight:bold; color:#002d74; background:#f8fafc; text-decoration:none;">A+</a>
+                </div>
+
+                <div style="height:1px; background:#eef2f6; margin:8px 0;"></div>
+
+                <div style="font-size:11px; color:#555; margin-bottom:5px; font-weight:600;">Theme &amp; Contrast:</div>
+                <div style="display:flex; gap:6px; align-items:center;">
+                  <a href="#" class="color-box-black" data-theme="css/cbec-theme-black.css" title="High Contrast Dark Theme" style="flex:1; display:inline-flex; align-items:center; justify-content:center; gap:6px; padding:5px 6px; border:1px solid #000; border-radius:4px; background:#000; color:#fff; text-decoration:none; font-size:11px; font-weight:bold; width:auto; height:auto; margin-left:0;">
+                    <span style="display:inline-block; width:10px; height:10px; background:#000; border:1px solid #fff; border-radius:2px;"></span>
+                    Dark
+                  </a>
+                  <a href="#" class="color-box-blue" data-theme="css/cbec-theme-blue.css" title="Standard Blue Theme" style="flex:1; display:inline-flex; align-items:center; justify-content:center; gap:6px; padding:5px 6px; border:1px solid #003466; border-radius:4px; background:#003466; color:#fff; text-decoration:none; font-size:11px; font-weight:bold; width:auto; height:auto;">
+                    <span style="display:inline-block; width:10px; height:10px; background:#003466; border:1px solid #fff; border-radius:2px;"></span>
+                    Standard
+                  </a>
+                </div>
+              </div>
+            </span> <span class="icon-dvdr"></span>
+            <span class="top-icon-labels"><a href="hindi/index.html" class="right-menu-links top-menu-icon-link hindi-menu-link" data-tooltip="हिन्दी" aria-label="हिन्दी" title="हिन्दी">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="30" viewBox="0 0 120 110" fill="none" aria-hidden="true">
+                  <path d="M12 13 Q12 6 20 6 H75 Q83 6 83 14 V61 Q83 69 75 69 H42 L26 84 V69 H20 Q12 69 12 61 Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"></path>
+                  <text x="25" y="49" font-family="Noto Sans Devanagari, Mangal, sans-serif" font-size="36" font-weight="500" fill="currentColor">अ</text>
+                  <path d="M54 45 Q54 37 62 37 H101 Q109 37 109 45 V83 Q109 91 101 91 H91 V103 L76 91 H62 Q54 91 54 83 Z" fill="#fff" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"></path>
+                  <text x="65" y="73" font-family="Arial, sans-serif" font-size="34" fill="currentColor">A</text>
+                </svg>
+                <span class="top-menu-label">हिन्दी</span>
+              </a></span></span>
+        </div>
       </div>
 
       <!-- Top Right Menu Section End Here -->
 
       <div class="section-separator"></div>
 
-
-
       <!--CBIC Logo Section Start Here -->
-
       <div class="row cbec-logo-section">
-
-        <div class="cbec-logo-space col-md-12 col-lg-12">
-          <a href="index.html"><img src="images/cbic-logo.png" alt="Central Board of Indirect Taxes and Customs, Government of India" class="img-responsive cbec-logo" title="Central Board of Indirect Taxes and Customs, Government of India"></a> <img src="images/gstawareness-logo.png" class="img-responsive" alt="1 Nation Tax Market" title="1 Nation Tax Market">
-          <div class="search-field-section col-md-3 col-lg-3 pull-right hidden-xs"><gcse:searchbox-only resultsurl="searchresult.html"></gcse:searchbox-only></div>
-
+        <div class="cbec-logo-space col-md-12 col-lg-9">
+          <a href="index.html">
+            <img src="images/CBIC_Logo_vector.svg" alt="Central Board of Indirect Taxes and Customs, Government of India" class="img-responsive cbec-logo" title="Central Board of Indirect Taxes and Customs, Government of India" width="650" height="100">
+            <!-- <img src="images/9 years of GST.webp" class="img-responsive cbec-logo" alt="9 Years of GST" title="9 Years of GST" width="180" height="180" /> -->
+          </a>
+          <!-- <img src="images/gstawareness-logo.png" class="img-responsive" alt="1 Nation Tax Market" title="1 Nation Tax Market" /> -->
+          <div class="search-field-section col-md-3 col-lg-3 pull-right hidden-xs"><form class="site-search" role="search" style="display: flex !important; align-items: center !important; box-sizing: border-box !important; width: 100% !important; height: 38px !important; padding: 0px 4px 0px 0px !important; margin: 0px !important; background: rgb(255, 255, 255) !important; border: 1px solid rgb(61, 72, 154) !important; border-radius: 6px !important; transition: transform 0.25s, box-shadow 0.25s !important;"><input type="text" name="q" placeholder="Search" aria-label="Search" autocomplete="off" style="flex: 1 1 auto !important; min-width: 0px !important; height: 100% !important; margin: 0px !important; padding: 0px 6px 0px 14px !important; border: 0px !important; outline: 0px !important; box-shadow: none !important; background: transparent !important; font-size: 14px !important; color: rgb(34, 34, 34) !important; display: block !important;"><button type="button" aria-label="Clear" style="flex: 0 0 auto !important; display: none !important; width: 22px !important; height: 22px !important; margin: 0px 4px !important; padding: 0px !important; border: 0px !important; background: transparent !important; color: rgb(61, 72, 154) !important; font-size: 20px !important; line-height: 20px !important; cursor: pointer !important;">×</button><button type="submit" aria-label="Search" style="flex: 0 0 auto !important; display: flex !important; align-items: center !important; justify-content: center !important; width: 34px !important; height: 34px !important; margin: 0px !important; padding: 0px !important; border: 0px !important; background: transparent !important; cursor: pointer !important; box-shadow: none !important;"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#3d489a" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"></circle><line x1="15.5" y1="15.5" x2="21" y2="21"></line></svg></button></form></div>
         </div>
-
-
-
       </div>
+
+
+      
+ 
+ 
 
 
       <!-- CBIC Logo Section End Here -->
@@ -268,27 +463,77 @@ return false;
 
       <!-- Main Navigation Section Start Here -->
 
-      <div class="row">
+      <div class="row main-navigation-row">
         <nav class="navbar-default">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1" aria-controls="bs-sidebar-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
               <span class="menu-icon"></span>
             </button>
           </div>
           <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
             <ul class="nav-justified" id="nav">
               <li><a href="index.html" title="Home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-
-
-
-              <li class="dropdown2"><a onclick="popUpWindow('https://taxinformation.cbic.gov.in/','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website.">GST
-                  Acts</a></li>
-              <li class="dropdown2"><a href="#" target="_self" title="Services">Services<span class="plussign hidden-md hidden-lg">+</span></a>
+              <li class="dropdown2"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="About Us">About Us<span class="plussign hidden-md hidden-lg">+</span></a>
                 <ul class="dropdown-menu">
-                  <li class="col-md-2 col-lg-2 col-sm-6 col-xs-12"><a href="gst-goods-services-rates.html" target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> GST Rates</a></li>
-                  <li class="col-md-2 col-lg-2 col-sm-6 col-xs-12"><a href="https://cbic-gst.gov.in/cbec-portal-ui/?knowYourJuris" target="_blank"><i class="fa fa-caret-right" aria-hidden="true"></i> Know Your Jurisdiction</a></li>
+                  <li class="col-md-6 col-lg-6 col-sm-6 col-xs-12"></li>
+                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="CBIC_Hierarchy_Interactive.html" title="Organization Hierarchy"><i class="fa fa-caret-right" aria-hidden="true"></i> Organization Hierarchy</a></li>
+                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="pdf/Citizens_Charter_CBIC_GST.pdf" target="_blank" title="Citizen Charter"><i class="fa fa-caret-right" aria-hidden="true"></i> Citizen Charter</a></li>
                 </ul>
               </li>
+              <!-- <li class="dropdown2"><a
+                  onclick="popUpWindow('https://taxinformation.cbic.gov.in/','Example','1024','600');"
+                  href="javascript:void(0);"
+                  title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website.">GST
+                  Acts</a></li> -->
+              <li class="dropdown2"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="ACES (CE&amp;ST)">ACES
+                  (CE&amp;ST)<span class="plussign hidden-md hidden-lg">+</span></a>
+                <ul class="dropdown-menu">
+                  <li class="col-md-5 col-lg-5 col-sm-6 col-xs-12"></li>
+                  <li class="col-md-2 col-lg-2 col-sm-6 col-xs-12"><a href="/cbec-portal-ui/" target="_blank" title="ACES (CE&amp;ST) Login"><i class="fa fa-caret-right" aria-hidden="true"></i>
+                      ACES (CE&amp;ST)
+                      Login</a></li>
+                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="advisories-aces-tax-payers.html" title="Advisories for ACES (CE&amp;ST) Tax Payers"><i class="fa fa-caret-right" aria-hidden="true"></i> Advisories for ACES (CE&amp;ST) Tax Payers</a></li>
+                  <li class="col-md-2 col-lg-2 col-sm-6 col-xs-12"><a href="#" role="button" data-toggle="modal" data-target="#myAttention" title="ACES Archives"><i class="fa fa-caret-right" aria-hidden="true"></i> ACES Archives</a></li>
+                </ul>
+              </li>
+              <li class="dropdown2"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="HSNS">HSNS<span class="plussign hidden-md hidden-lg">+</span></a>
+                <ul class="dropdown-menu">
+                  <li class="col-md-7 col-lg-7 col-sm-6 col-xs-12"></li>
+                  <li class="col-md-2 col-lg-2 col-sm-6 col-xs-12"><a href="/cbec-portal-ui/?hsns" target="_blank" title="HSNS CESS Login"><i class="fa fa-caret-right" aria-hidden="true"></i>
+                      HSNS CESS Login</a>
+                  </li>
+                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="advisories-hsns.html" title="Advisories for HSNS (CESS) Tax Payers"><i class="fa fa-caret-right" aria-hidden="true"></i>
+                      HSNS CESS Legislation</a></li>
+                       <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="https://taxinformation.cbic.gov.in/explore-hsns-cess" title="Advisories for HSNS (CESS) Tax Payers" target="_blank" rel="noopener noreferrer"><i class="fa fa-caret-right" aria-hidden="true"></i>
+                      HSNS Act, Rules</a></li>
+                </ul>
+              </li>
+              <li class="dropdown2"><a href="/cbec-portal-ui/?sabs" target="_blank" title="SBS Login">SBS</a></li>
+              <li class="dropdown2"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="SVLDRS">SVLDRS</a>
+                <ul class="dropdown-menu">
+                  <li class="col-md-6 col-lg-6 col-sm-6 col-xs-12"></li>
+                  <li class="col-md-4 col-lg-4 col-sm-4 col-xs-12"><a href="sabka-vishwas.html" role="button" title="Sabka Vishwas - (Legacy Dispute Resolution) Scheme, 2019 (SVLDRS)"><i class="fa fa-caret-right" aria-hidden="true"></i> Sabka Vishwas - (Legacy Dispute Resolution)
+                      Scheme, 2019 (SVLDRS)</a></li>
+                  <li class="col-md-2 col-lg-2 col-sm-6 col-xs-12"><a href="/cbec-portal-ui/" target="_blank" title="SVLDRS Login"><i class="fa fa-caret-right" aria-hidden="true"></i> SVLDRS
+                      Login</a></li>
+                </ul>
+              </li>
+              <li class="dropdown2"><a href="#" target="_self" title="Services">Other Services<span class="plussign hidden-md hidden-lg">+</span></a>
+                <ul class="dropdown-menu">
+                  <li class="col-md-2 col-lg-2 col-sm-6 col-xs-12"><a href="https://cbic-gst.gov.in/cbec-portal-ui/?knowYourJuris" target="_blank"><i class="fa fa-caret-right" aria-hidden="true"></i> Know Your Jurisdiction</a></li>
+                  <!-- <li class="col-md-2 col-lg-2 col-sm-6 col-xs-12"><a href="gst-goods-services-rates.html"
+                      target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> GST</a></li> -->
+                </ul>
+              </li>
+               <!-- <li class="dropdown2"><a href="#" target="_self" title="GST">GST<span
+                    class="plussign hidden-md hidden-lg">+</span></a>
+                <ul class="dropdown-menu">
+                  <li class="col-md-2 col-lg-2 col-sm-6 col-xs-12"><a
+                      href="https://taxinformation.cbic.gov.in" target="_blank" rel="noopener noreferrer"><i
+                        class="fa fa-caret-right" aria-hidden="true"></i> GST Act</a></li>
+                  <li class="col-md-2 col-lg-2 col-sm-6 col-xs-12"><a href="https://taxinformation.cbic.gov.in" target="_blank" rel="noopener noreferrer"><i class="fa fa-caret-right" aria-hidden="true"></i> GST Rate</a></li>
+                </ul>
+              </li> -->
               <!-- <li class="dropdown2"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Migration<span class="plussign hidden-md hidden-lg">+</span></a>
                 <ul class="dropdown-menu">
                   <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="migration.html"><i class="fa fa-caret-right" aria-hidden="true"></i> What is Migration?</a></li>
@@ -317,73 +562,66 @@ return false;
                   <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="functions-dggst.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Functions of DG GST</a></li>
                     <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="organizationchart.html" title="Organisational Chart"><i class="fa fa-caret-right" aria-hidden="true"></i> Organisational Chart</a></li>              
                 </ul> -->
-              <li class="dropdown2"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="SVLDRS">SVLDRS</a>
-                <ul class="dropdown-menu">
-                  <li class="col-md-6 col-lg-6 col-sm-6 col-xs-12"></li>
-                  <li class="col-md-4 col-lg-4 col-sm-4 col-xs-12"><a href="sabka-vishwas.html" role="button" title="Sabka Vishwas - (Legacy Dispute Resolution) Scheme, 2019 (SVLDRS)"><i class="fa fa-caret-right" aria-hidden="true"></i> Sabka Vishwas - (Legacy Dispute Resolution)
-                      Scheme, 2019 (SVLDRS)</a></li>
-                  <li class="col-md-2 col-lg-2 col-sm-6 col-xs-12"><a href="/cbec-portal-ui/" target="_blank" title="SVLDRS Login"><i class="fa fa-caret-right" aria-hidden="true"></i> SVLDRS Login</a></li>
-                </ul>
-              </li>
+
               <!-- <li class="dropdown2"><a onclick="popUpWindow('https://gstawareness.cbic.gov.in/','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website.">Manthan</a></li> -->
               <!-- <li class="dropdown2"><a onclick="popUpWindow('https://nacin.gov.in/','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website.">GSTP</a></li> -->
-              <li class="dropdown2"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="ACES (CE&amp;ST)">ACES
-                  (CE&amp;ST)<span class="plussign hidden-md hidden-lg">+</span></a>
-                <ul class="dropdown-menu">
-                  <li class="col-md-5 col-lg-5 col-sm-6 col-xs-12"></li>
-                  <li class="col-md-2 col-lg-2 col-sm-6 col-xs-12"><a href="#" role="button" data-toggle="modal" data-target="#myAttention" title="ACES Archives"><i class="fa fa-caret-right" aria-hidden="true"></i> ACES Archives</a></li>
-                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="advisories-aces-tax-payers.html" title="Advisories for ACES (CE&amp;ST) Tax Payers"><i class="fa fa-caret-right" aria-hidden="true"></i> Advisories for ACES (CE&amp;ST) Tax Payers</a></li>
-                  <li class="col-md-2 col-lg-2 col-sm-6 col-xs-12"><a href="/cbec-portal-ui/" target="_blank" title="ACES (CE&amp;ST) Login"><i class="fa fa-caret-right" aria-hidden="true"></i> ACES (CE&amp;ST)
-                      Login</a></li>
-                </ul>
-              </li>
-              <li class="dropdown2"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="ACES (CE&amp;ST)">Archives<span class="plussign hidden-md hidden-lg">+</span></a>
+
+              <!-- <li class="dropdown2"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                  title="ACES (CE&ST)">Archives<span class="plussign hidden-md hidden-lg">+</span></a>
                 <ul class="dropdown-menu">
                   <li class="col-md-12 col-lg-12 col-sm-12 col-xs-12 Menuheading"><strong>GST - Concept &amp; Status,
                       Overview</strong></li>
-                  <li class="col-md-3 col-lg-3 col-sm-12 col-xs-12"><a href="pdf/01062019-GST-An-Update.pdf" target="_blank"><i class="fa fa-caret-right" aria-hidden="true"></i>Detailed PPT as on
+                  <li class="col-md-3 col-lg-3 col-sm-12 col-xs-12"><a href="pdf/01062019-GST-An-Update.pdf"
+                      target="_blank"><i class="fa fa-caret-right" aria-hidden="true"></i>Detailed PPT as on
                       01.06.2019</a></li>
-                  <li class="col-md-3 col-lg-3 col-sm-12 col-xs-12"><a href="pdf/ovw-short.pdf" target="_blank"><i class="fa fa-caret-right" aria-hidden="true"></i>Short PPT</a></li>
+                  <li class="col-md-3 col-lg-3 col-sm-12 col-xs-12"><a href="pdf/ovw-short.pdf" target="_blank"><i
+                        class="fa fa-caret-right" aria-hidden="true"></i>Short PPT</a></li>
                   <li class="col-md-12 col-lg-12 col-sm-12 col-xs-12 Menuheading"><strong>Frequently Asked
                       Questions</strong></li>
-                  <li class="col-md-3 col-lg-3 col-sm-12 col-xs-12"><a href="faqs-user-manual-new-gst-registration.html" target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQs and User Manual on new GST
+                  <li class="col-md-3 col-lg-3 col-sm-12 col-xs-12"><a href="faqs-user-manual-new-gst-registration.html"
+                      target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQs and User Manual on new GST
                       Registration</a></li>
                   <li class="col-md-12 col-lg-12 col-sm-12 col-xs-12 Menuheading"><strong>Services</strong></li>
-                  <li class="col-md-2 col-lg-2 col-sm-12 col-xs-12"><a href="sectoral-faq.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Sectoral FAQs</a></li>
-                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="faq.html" target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> Frequently Asked Questions</a></li>
+                  <li class="col-md-2 col-lg-2 col-sm-12 col-xs-12"><a href="sectoral-faq.html"><i
+                        class="fa fa-caret-right" aria-hidden="true"></i>Sectoral FAQs</a></li>
+                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="faq.html" target="_self"><i
+                        class="fa fa-caret-right" aria-hidden="true"></i> Frequently Asked Questions</a></li>
                   <li class="col-md-12 col-lg-12 col-sm-12 col-xs-12 Menuheading"><strong>Advertisements</strong></li>
-                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="advt-faq-relating-gst-migration-registration.html" target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> FAQs relating to GST
+                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a
+                      href="advt-faq-relating-gst-migration-registration.html" target="_self"><i
+                        class="fa fa-caret-right" aria-hidden="true"></i> FAQs relating to GST
                       Migration/Registration</a></li>
-                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="advt-faq-for-traders.html" target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> FAQs for Traders</a></li>
-                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="advt-faq-on-composition-levy.html" target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> FAQs on Composition Levy
+                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="advt-faq-for-traders.html" target="_self"><i
+                        class="fa fa-caret-right" aria-hidden="true"></i> FAQs for Traders</a></li>
+                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="advt-faq-on-composition-levy.html"
+                      target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> FAQs on Composition Levy
                       (Hindi)</a></li>
-                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="advt-faq.html" target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> FAQs Full Page AD (Hindi)</a></li>
-                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="advt-input-tax-credit-english.html" target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> Input Tax Credit (English)</a>
+                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="advt-faq.html" target="_self"><i
+                        class="fa fa-caret-right" aria-hidden="true"></i> FAQs Full Page AD (Hindi)</a></li>
+                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="advt-input-tax-credit-english.html"
+                      target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> Input Tax Credit (English)</a>
                   </li>
-                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="advt-input-tax-credit.html" target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> Input Tax Credit (Hindi)</a>
+                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="advt-input-tax-credit.html"
+                      target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> Input Tax Credit (Hindi)</a>
                   </li>
-                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="export-ad-english.html" target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> Export (English)</a></li>
-                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="export-ad-hindi.html" target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> Export (Hindi)</a></li>
-                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="restaurant-ad-english.html" target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> Restaurant (English)</a></li>
-                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="restaurant-ad-hindi.html" target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> Restaurant (Hindi)</a></li>
+                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="export-ad-english.html" target="_self"><i
+                        class="fa fa-caret-right" aria-hidden="true"></i> Export (English)</a></li>
+                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="export-ad-hindi.html" target="_self"><i
+                        class="fa fa-caret-right" aria-hidden="true"></i> Export (Hindi)</a></li>
+                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="restaurant-ad-english.html"
+                      target="_self"><i class="fa fa-caret-right" aria-hidden="true"></i> Restaurant (English)</a></li>
+                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="restaurant-ad-hindi.html" target="_self"><i
+                        class="fa fa-caret-right" aria-hidden="true"></i> Restaurant (Hindi)</a></li>
                   <li class="col-md-12 col-lg-12 col-sm-12 col-xs-12 Menuheading"><strong>Miscellaneous</strong></li>
-                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="communication-tax-payers.html" target="_self">Communication to Taxpayers</a></li>
-                  <!-- <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a onclick="popUpWindow('https://play.google.com/store/apps/details?id=in.gov.cbec.gsttaxratemanual','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website.">GST Rate Finder - Android Apps on Google Play</a></li>
+                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="communication-tax-payers.html"
+                      target="_self">Communication to Taxpayers</a></li> -->
+              <!-- <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a onclick="popUpWindow('https://play.google.com/store/apps/details?id=in.gov.cbec.gsttaxratemanual','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website.">GST Rate Finder - Android Apps on Google Play</a></li>
 								<li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a onclick="popUpWindow('https://play.google.com/store/apps/details?id=com.cbec.gst&amp;hl=en','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website.">Download GST Mobile App</a></li> -->
-                </ul>
-              </li>
+              <!-- </ul>
+              </li> -->
 
-              <li class="dropdown2"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="HSNS">HSNS<span class="plussign hidden-md hidden-lg">+</span></a>
-                <ul class="dropdown-menu">
-                  <li class="col-md-7 col-lg-7 col-sm-6 col-xs-12"></li>
-                  <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12"><a href="advisories-hsns.html" title="Advisories for HSNS (CESS) Tax Payers"><i class="fa fa-caret-right" aria-hidden="true"></i>
-                      HSNS CESS Legislation</a></li>
-                  <li class="col-md-2 col-lg-2 col-sm-6 col-xs-12"><a href="/cbec-portal-ui/?hsns" target="_blank" title="HSNS CESS Login"><i class="fa fa-caret-right" aria-hidden="true"></i>
-                      HSNS CESS Login</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown2"><a href="/cbec-portal-ui/?sabs" target="_blank" title="SBS Login">SBS Login</a></li>
+
+
               <!-- <li class="dropdown2" ><a href="/cbec-portal-ui/?cess" target="_blank" title="SBS Login">SBS1 Login</a></li> -->
               <!-- <li class="dropdown2"><a href="vacancy-circulars.html" title="Vacancy Circulars" style="background-image: url(images/blinking_new.gif); background-repeat: no-repeat; background-position: top left;"><strong>Vacancy Circulars</strong></a></li> -->
               <!--<li><a href="contactus.html" title="Contact Us">Contact Us</a></li>-->
@@ -397,98 +635,89 @@ return false;
 
       <div class="section-separator"></div>
 
-
-
-
-
-
-
-
-
-
       <!-- Flash News Section Style Start Here -->
 
-      <div class="row hidden-sm hidden-xs">
+      <div class="row">
         <div id="Scroll" class="flash-news-section">
-          <div class="viewAll"><a href="tickers.html" title="View Tickers">View All</a></div>
-          <div class="marquee" style="visibility: visible;"><div style="width: 100000px; margin-left: 1259.69px; animation: 605.538s linear 1s infinite normal none running marqueeAnimation-5616678;" class="js-marquee-wrapper"><div class="js-marquee" style="margin-right: 0px; float: left;">
-
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;"> “Important
+          <div class="viewAll"><a href="tickers.html" title="View All">View All</a></div>
+          <div class="marquee" style="visibility: visible;"><div style="width: 100000px; margin-left: 1258.64px; animation: 609.439s linear 1s infinite normal none running marqueeAnimation-4532768;" class="js-marquee-wrapper"><div class="js-marquee" style="margin-right: 0px; float: left;">
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;"> “Important
               Notice | Central Excise/Service Tax/SBS/SVLDRS/HSNS Taxpayers: Please use the “Forgot Password” link on
               the login page to reset your old password before logging in.”</span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;"> “Kind
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;"> “Kind
               Attention : Directorate General of Systems, CBIC has planned a maintenance activity in the ACES-GST
               Application between 18:00 Hours to 23:00 Hours on 11th July 2026 (coming weekend). Accordingly, services
               relating to Central Excise/Service Tax/HSNS/SBS/SVLDRS will not be available during the maintenance
               window. Taxpayers are advised to plan their activities accordingly”.
             </span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;"> “Kind
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;"> “Kind
               Attention : Advisory No. 11/2026 dated 24.06.2026 on 2 Factor Authentication for Central Excise, SBS &amp;
               HSNS Taxpayers is available under ACES(CE&amp;ST)&gt;Advisories for ACES(CE &amp; ST) and HSNS&gt;HSNS CESS
               Legislation”.<a href="pdf/Advisory No. 11of 2026 on 2 Factor Authentication.pdf" target="_blank">Please
                 Click here
                 for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">“Kind
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">“Kind
               attention to the Chewing tobacco, Jarda and Gutkha Manufacturers: Advisory No. 10/2026 dated 09.06.2026 on
               CE INT 01/CE INT 02 (Filing Procedure for Sealing/De-Sealing request) is available under
               “ACES(CE&amp;ST)&gt;Advisories for ACES(CE &amp; ST)”.<a href="pdf/Advisory No. 10 of 2026 dated 09.06.2026 on filing procedure of CE INT 01 and CE_INT02.pdf" target="_blank">Please Click here
                 for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">KIND
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">KIND
               ATTENTION : CENTRAL EXCISE TAXPAYERS: New Functionality for e-Filing of Request for Sealing (Intimation CE
               INT-01) &amp; De-Sealing (Intimation CE INT-02) is enabled from 07.06.2026. Please refer to the Advisory being
               issued shortly</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">“Kind
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">“Kind
               Attention HSNS Taxpayers : Advisory No. 09/2026 dated 05.06.2026 on HSNS INT 01/INT 02 (Filing Procedure
               for Sealing/De-Sealing request) for HSNS Cess Registered Persons is available under HSNS&gt;HSNS CESS
               Legislation”.<a href="pdf/Advisory No. 09_2026 dated 050626_HSNS_ for filing Sealing_De sealing request.pdf" target="_blank">Please Click here
                 for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">KIND
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">KIND
               ATTENTION : CENTRAL EXCISE / HSNS CESS/ SERVICE TAX &amp; SBS TAXPAYERS: Two-Factor Authentication (2FA) at
               the time of User Login is being introduced now. Please Click Here For Details<a href="pdf/Introduction_of_2FA.pdf" target="_blank">Please Click here
                 for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">KIND
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">KIND
               ATTENTION : HSNS CESS TAXPAYERS: New Functionality for e-Filing of Request for Sealing (Intimation INT-01)
               &amp; De-Sealing (Intimation INT-02) is enabled from 29.05.2026. Please refer to the Advisory being issued
               shortly</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">KIND
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">KIND
               ATTENTION: CENTRAL EXCISE / HSNS CESS / SERVICE TAX Taxpayers: Due to urgent maintenance activity,
               ACES-GST application will NOT BE AVAILABLE from 18:00 hrs 22:00 hrs on 25.05.2026. Kindly plan your
               activities. The inconvenience caused is regretted. </span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">KIND
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">KIND
               ATTENTION: CENTRAL EXCISE / HSNS CESS / SERVICE TAX Taxpayers: Due to a Scheduled maintenance activity
               e-Payment facility including Internet Banking, NEFT/RTGS, Payment Aggregator services will NOT BE
               AVAILABLE (I) From 22:00 Hrs 22.05.2026 to 08:00 Hrs 23.05.2026 and (II) From 22:00 Hrs 23.05.2026 to
               08:00 Hrs 24.05.2026. Inconvenience caused is regretted. </span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">Kind
               attention to the Chewing tobacco, Jarda and Gutkha Manufacturers: Advisory No. 08/2026 dated 24.04.2026 on
               CE Amendment Declaration filing Procedure is available under “ACES(CE&amp;ST)&gt;Advisories for ACES(CE &amp; ST) <a href="pdf/AdvisoryNo 08 of 2026_CE Declaration_Change _Addition_disposal of machines.pdf" target="_blank">Please Click here
                 for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">Kind
               Attention HSNS Taxpayers: Advisory No. 07/2026 dated 17.04.2026 on HSNS Amendment Declaration filing
-              Procedure for HSNS Cess Registered Persons is available under HSNS&gt;HSNS CESS Legislation. <a href="pdf/AdvisoryNo. 07_2026HSNSAMENDMENT DECLARATION.pdf" target="_blank">Please Click here
+              Procedure for HSNS Cess Registered Persons is available under HSNS&gt;HSNS CESS Legislation. <a href="pdf/AdvisoryNo. 07_2026HSNSAMENDMENT DECLARATION.pdf" target="_blank">Please
+                Click here
                 for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">"KIND
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">"KIND
               ATTENTION: CENTRAL EXCISE TAXPAYERS : 31st MARCH 2026 IS THE DUE DATE FOR PAYMENT OF CENTRAL EXCISE DUTY
               FOR THE MONTH OF MARCH 2026. please click here <a href="pdf/DuePayment.pdf" target="_blank">Click here
                 for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <!-- <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Directorate
+            <!-- <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">Directorate
               General of Systems, CBIC has planned a maintenance activity in the ACES-GST Application between 18:00
               Hours on 21st March 2026 to 23:00 Hours on 21st March 2026. Hence, the services relating to Central
               Excise, Service Tax, HSNS, SBS and SVLDRS will not be available during the maintenance window. Taxpayers
               are advised to plan their activities accordingly.</span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">Kind
               Attention HSNS Taxpayers : Advisory No. 06/2026 dated 12.03.2026 on HSNS Return filing Procedure for HSNS
               Cess Registered Persons is available under HSNS&gt;HSNS CESS Legislation. please click here <a href="pdf/AdvisoryNo.06of2026dated12.03.26onfilingofHSNSReturns_RET-01.pdf" target="_blank">Click here
                 for Advisory.</a></span>
@@ -496,65 +725,74 @@ return false;
 
 
 
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">Kind
               attention to the Chewing tobacco, Jarda and Gutkha Manufacturers: As per the Notification No.
               05/2025-Central Excise (N.T.) dated 31.12.2025, As per sub-section (2) of Rule 13, the manufacturer shall
               submit a statement in FORM CE PMT-01 on the existing cbic-gst.gov.in portal by 10th of the same month.
-              FORM CE PMT-01 is available under Taxpayer Dashboard &gt;Menu&gt;CE RETURNS&gt;File PMT-01. please click here <a href="pdf/ADVISORY_05-2026_CE_PMT_01.pdf" target="_blank">Click here for Advisory.</a></span>
+              FORM CE PMT-01 is available under Taxpayer Dashboard &gt;Menu&gt;CE RETURNS&gt;File PMT-01. please click here <a href="pdf/ADVISORY_05-2026_CE_PMT_01.pdf" target="_blank">Click here for
+                Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">Kind
               Attention HSNS Taxpayers : Advisory No. 04/2026 dated 09.02.2026 on HSNS Declaration filing Procedure for
-              HSNS Cess Registered person is available under HSNS&gt;HSNS CESS Legislation”. <a href="pdf/HSNS_Declaration_filing_procedure.pdf" target="_blank">Click here for Advisory.</a></span>
+              HSNS Cess Registered person is available under HSNS&gt;HSNS CESS Legislation”. <a href="pdf/HSNS_Declaration_filing_procedure.pdf" target="_blank">Click here for
+                Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">Kind
               attention to the Chewing tobacco, Jarda and Gutkha Manufacturers: Advisory No. 03/2026 dated 05.02.2026 on
               Central Excise Declaration filing Procedure for Central Excise Taxpayers is available under
-              ACES(CE&amp;ST)&gt;Advisories for ACES(CE &amp; ST) Taxpayers. , Please click here <a href="pdf/ADVISORY_03-2026_CE_DECLARATION.pdf" target="_blank">Click here for Advisory.</a></span>
+              ACES(CE&amp;ST)&gt;Advisories for ACES(CE &amp; ST) Taxpayers. , Please click here <a href="pdf/ADVISORY_03-2026_CE_DECLARATION.pdf" target="_blank">Click here for
+                Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">Kind
               Attention: Central Excise Tobacco (Chewing Tobacco/ Jarda/ Gutkha) Sector Taxpayers covered under New
               Packaging Capacity based Levy w.e.f. 1st February 2026.
 
               This Central Excise duty under Section 3A, is also to be paid like regular Basic Excise Duty (BED) under
               the Accounting Head "00380003" only. </span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">Kind
               attention to the Chewing tobacco, Jarda and Gutkha Manufacturers: As per the Notification No.
               05/2025-Central Excise (N.T.) dated 31.12.2025, every manufacturer of the notified goods shall file a
               declaration in FORM CE DEC-01 on the portal on or before the 7th day of February, 2026. Declaration Form
               in CE DEC-01 is available under Taxpayer Dashboard &gt;Menu&gt;Registration&gt;File Declaration </span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Due Date for
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">Due Date for
               Payment of HSNS CESS for the month of February 2026 is 7th February 2026 </span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">Kind
               Attention: HSNS CESS Application is functional from 01/02/2026 onwards. Taxpayers covered under HSNS CESS
               levy may login &amp; register on this portal and can use the Temporary Registration Number so generated to
               make payment of HSNS CESS thereafter.</span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">Kind
               Attention: Advisory 01/2026 - HSNS Cess - Login procedure and Filing Application for New Registration and
-              Payment in the CBIC Taxpayer’s portal – Reg, Please click here <a href="pdf/HSNS_Advisory_Helpdesk_01-2026.pdf" target="_blank">Click here for Advisory.</a></span>
+              Payment in the CBIC Taxpayer’s portal – Reg, Please click here <a href="pdf/HSNS_Advisory_Helpdesk_01-2026.pdf" target="_blank">Click here for
+                Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">Kind
               Attention: Advisory 02/2026 - Accounting Head for Payment of HSNS Cess – Reg, Please clcik here <a href="pdf/Advisory022026.pdf" target="_blank">Click here for Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: yellow;">Kind
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <span style="color: #002d74;">Kind
               Attention of Central Excise Tax Payers: CBICMITRA HELPDESK Toll Free Number is changed from
-              '1800-120-0232' to the New Toll Free Number "1800-425-0232" w.e.f. 1st August 2025 <a href="pdf/Helpdesk-Advisory-8-2025-29072025.pdf" target="_blank">Click here for Advisory.</a></span>
+              '1800-120-0232' to the New Toll Free Number "1800-425-0232" w.e.f. 1st August 2025 <a href="pdf/Helpdesk-Advisory-8-2025-29072025.pdf" target="_blank">Click here for
+                Advisory.</a></span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <a href="pdf/procedure-locate-e-payment-challan.pdf" target="_blank">Latest Update - 6th February 2024 -
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp; <a href="pdf/procedure-locate-e-payment-challan.pdf" target="_blank">Latest Update - 6th
+              February 2024 -
               alternate steps to locate e-Payment Challan under ICEGATE portal.</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </div></div></div>
         </div>
       </div>
 
-      <div style="background-color:#f3e853; font-size:20px; display:block;" class="text-center"><img src="images/blinking_new.gif"> <strong>Report Tax Fraud, <a href="http://dggi.gov.in/taxevasion" target="_blank" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website.">click
-            here</a></strong></div>
+      <!-- <div style="background-color:#002d74; font-size:20px; display:block;" class="text-center"><img
+          src="images/blinking_new.gif"> <strong>Report Tax Fraud, <a href="http://dggi.gov.in/taxevasion"
+            target="_blank"
+            title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website.">click
+            here</a></strong></div> -->
 
       <!-- Flash News Section Style End Here -->
     </div>
@@ -562,7 +800,7 @@ return false;
 
 
 
-  <div id="content" class="container-fluid marginTop" style="margin-top: 198.406px;">
+  <div id="content" class="container-fluid marginTop" style="margin-top: 0px !important; padding-top: 182.375px;">
 
     <div class="row" id="slider">
       <!-- Carousel -->
@@ -571,7 +809,8 @@ return false;
         <ol class="carousel-indicators">
           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <!-- <li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
+          <!-- <li data-target="#carousel-example-generic" data-slide-to="3"></li> -->
           <!--<li data-target="#carousel-example-generic" data-slide-to="3"></li>
           <li data-target="#carousel-example-generic" data-slide-to="4"></li>
           <li data-target="#carousel-example-generic" data-slide-to="5"></li>
@@ -582,17 +821,17 @@ return false;
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
           <div class="item active">
-            <img src="images/slide-CBIC.jpg" alt="First Slide">
+            <img src="images/CBEC to CBIC_ Modern Taxation Banner.png" alt="First Slide">
           </div>
+          <!-- <div class="item">
+            <img src="images/Health Security, National Stronger.png" alt="Second Slide">
+          </div> -->
           <div class="item">
-            <img src="images/IMG-20170425-WA0004.jpg" alt="Second Slide">
+            <img src="images/SBS Scheme for Budgetary Support Panorama.png" alt="Second Slide">
           </div>
-          <div class="item">
-            <img src="images/slide02.jpg" alt="Third Slide">
-          </div>
-          <div class="item">
+          <!-- <div class="item">
             <img src="images/slide04.jpg" alt="Fifth Slide">
-          </div>
+          </div> -->
           <!-- <div class="item">
             <img src="images/slide-CBIC.jpg" alt="slide-CBIC">
           </div>
@@ -617,48 +856,80 @@ return false;
         </div>
       </div>
 
-      <!-- Main Banner Section Style End Here -->
+      
 
-      <div class="row boxmodalContainer">
+      <!-- Main Banner Section Style End Here -->
+      <div class="row boxmodalContainer" id="main-content" tabindex="-1">
         <div class="boxmodal">
-          <div class="col-md-3 col-lg-3 col-sm-12">
+          <div class="col-sm-12 col-md-3 col-lg-3">
             <p class="icon"><i class="fa fa-newspaper-o" aria-hidden="true"></i></p>
             <h4>What's New</h4>
-            <div class="marquee-inner-sctn" id="marqueecontainer" onmouseover="copyspeed=pausespeed" onmouseout="copyspeed=marqueespeed">
-              <div id="vmarquee" style="position: absolute; top: -17px;">
+            <!-- <div class="marquee-inner-sctn" id="marqueecontainer" onmouseover="copyspeed=pausespeed"
+              onmouseout="copyspeed=marqueespeed">
+              <div id="vmarquee" style="position: absolute; top:30px;">
                 <ul>
-
-                  <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> <a href="pdf/Circular-No-250-2025.pdf" target="_blank">Reviewing authority, Revisional Authority and
+                  <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> <a
+                      href="pdf/Circular-No-250-2025.pdf" target="_blank" style="color: #002d74;">Reviewing authority,
+                      Revisional Authority and
                       Appellate Authority in respect of orders passed by Common Adjudicating Authority (CAA) for show
                       cause notices issued by DGGI -reg.</a></li>
-                  <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> <a href="pdf/Circular-No-249-2025.pdf" target="_blank">Generation and quoting of Document
+                  <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> <a
+                      href="pdf/Circular-No-249-2025.pdf" target="_blank" style="color: #002d74;">Generation and quoting
+                      of Document
                       Identification Number(DIN) on any communication issued by the officers of the Central Board of
                       Indirect Taxes and Customs (CBIC) to tax payers and other concerned persons - reg.s</a></li>
-                  <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> <a href="pdf/ins-gst-no-03-2025.pdf" target="_blank">Instructions for processing of applications for GST registration - regarding. </a>
+                  <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> <a
+                      href="pdf/ins-gst-no-03-2025.pdf" target="_blank" style="color: #002d74;">Instructions for
+                      processing of applications for GST registration - regarding. </a>
                   </li>
-                  <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> <a href="pdf/gst-ct-11-2025.pdf" target="_blank">Seeks to notify Central Goods and Services Tax (Second Amendment) Rules 2025</a>
+                  <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> <a
+                      href="pdf/gst-ct-11-2025.pdf" target="_blank" style="color: #002d74;">Seeks to
+                      notify Central
+                      Goods and Services Tax (Second Amendment) Rules 2025</a>
                   </li>
-                  <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> <a href="pdf/cir-cgst-246-03-2025.pdf" target="_blank">Clarification on applicability of late fee for
+                  <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> <a
+                      href="pdf/cir-cgst-246-03-2025.pdf" target="_blank" style="color: #002d74;">Clarification on
+                      applicability of late fee for
                       delay in furnishing of FORM GSTR-9C- reg.</a></li>
-                  <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> <a href="pdf/ins-gst-02-2025.pdf" target="_blank">Procedure to be followed in department appeal filed against interest and/or
+                  <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> <a
+                      href="pdf/ins-gst-02-2025.pdf" target="_blank" style="color: #002d74;">Procedure
+                      to be followed in
+                      department appeal filed against interest and/or
                       penalty only, related to Section 128A of the CGST Act, 2017 -regarding.</a></li>
-                  <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> <a href="pdf/GST-Circular.pdf" target="_blank">Clarification regarding GST rates &amp; classification (goods) based on the
+                  <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> <a
+                      href="pdf/GST-Circular.pdf" target="_blank" style="color: #002d74;">Clarification
+                      regarding GST
+                      rates & classification (goods) based on the
                       recommendations of the GST Council in its 55th meeting held on 21st December, 2024, at Jaisalmer
                       -reg.</a></li>
-                  <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> <a href="pdf/Circular-55thGSTC-Services.pdf" target="_blank">Clarifications regarding applicability
+                  <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> <a
+                      href="pdf/Circular-55thGSTC-Services.pdf" target="_blank" style="color: #002d74;">Clarifications
+                      regarding applicability
                       of GST on certain services – reg.</a></li>
-                  <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> <a href="pdf/Circular-Services-Co-insurance-Re-insurance.pdf" target="_blank"> Regularizing payment
+                  <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> <a
+                      href="pdf/Circular-Services-Co-insurance-Re-insurance.pdf" target="_blank"
+                      style="color: #002d74;"> Regularizing payment
                       of GST on co-insurance premium apportioned by the lead insurer to the co-insurer and on ceding
                       /re-insurance commission deducted from the reinsurance premium paid by the insurer to the
                       reinsurer – reg.</a></li>
-                  <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Seeks to appoint common adjudicating
-                    authority for Show cause notices issued by officers of DGGI. &nbsp; <a href="pdf/NN-31-2024-Eng.pdf" target="_blank">English</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="pdf/NN-31-2024-Hindiss.pdf" target="_blank">Hindi</a></li>
-                  <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Seeks to extend the due date for
+                  <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> Seeks to
+                    appoint common adjudicating
+                    authority for Show cause notices issued by officers of DGGI. &nbsp; <a href="pdf/NN-31-2024-Eng.pdf"
+                      target="_blank" style="color: #002d74;">English</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a
+                      href="pdf/NN-31-2024-Hindiss.pdf" target="_blank" style="color: #002d74;">Hindi</a></li>
+                  <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> Seeks to
+                    extend the due date for
                     furnishing FORM GSTR-3B for the month of October, 2024 for registered persons whose principal place
-                    of business is in the district of Murshidabad in the state of West Bengal. &nbsp; <a href="pdf/NN-30-2024-Eng.pdf" target="_blank">English</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="pdf/NN-30-2024-Hindi.pdf" target="_blank">Hindi</a></li>
-                  <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> <a href="pdf/circular-239-33-2024-GST.pdf" target="_blank"> Amendment to Circular No. 31/05/2018-GST,
+                    of business is in the district of Murshidabad in the state of West Bengal. &nbsp; <a
+                      href="pdf/NN-30-2024-Eng.pdf" target="_blank" style="color: #002d74;">English</a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp; <a href="pdf/NN-30-2024-Hindi.pdf" target="_blank"
+                      style="color: #002d74;">Hindi</a></li>
+                  <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> <a
+                      href="pdf/circular-239-33-2024-GST.pdf" target="_blank" style="color: #002d74;">
+                      Amendment to
+                      Circular No. 31/05/2018-GST,
                       dated 9th February, 2018 on 'Proper officer under sections 73 and 74 of the Central Goods and
-                      Services Tax Act, 2017 and under the Integrated Goods and Services Tax Act, 2017'–reg.</a></li>
+                      Services Tax Act, 2017 and under the Integrated Goods and Services Tax Act, 2017'–reg.</a></li> -->
                   <!-- <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Seeks to extend the due date for furnishing FORM GSTR-3B for the month of October, 2024 for registered persons whose principal place of business is in the State of Manipur.&nbsp; <a href="pdf/NN-29-Eng.pdf" target="_blank">English</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="pdf/NN-29-Hindi.pdf" target="_blank">Hindi</a></li>
               <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Extension of due date for filing of return in FORM GSTR-3B for the month of October, 2024 for the persons registered in the state of Maharashtra and Jharkhand.&nbsp; <a href="pdf/NN-26-2024_Eng.pdf" target="_blank">English</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="pdf/NN-26-2024-Hindi.pdf" target="_blank">Hindi</a></li>
 							<li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> <a href="pdf/corrigendum-Circular-237-31-2024-GST.pdf" target="_blank"> Corrigendum to Circular No. 237/31/2024-GST dated 15th October, 2024 issued vide F. No. CBIC-20001/6/2024-GST-reg.</a></li>
@@ -678,14 +949,26 @@ return false;
 							<li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Seeks to further amend No. 04/2022-Central Excise, dated the 30th June, 2022, to increase the Special Additional Excise Duty on export of Diesel. &nbsp; <a href="pdf/central-excise-7-24-eng.pdf" target="_blank">English</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="pdf/central-excise-7-24-hindi.pdf" target="_blank">Hindi</a></li>
 							<li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> <a href="pdf/CGST-Amendment-Act-2023.pdf" target="_blank">CGST (Amendment) Act, 2023</a></li>
 							<li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> <a href="pdf/IGST-Amendment-Act-2023.pdf" target="_blank">IGST (Amendment) Act, 2023</a></li> -->
-
-                </ul>
+                <!-- </ul>
+              </div>
+            </div> -->
+            
+            <div class="marquee-inner-sctn" id="marqueecontainer" onmouseover="copyspeed=pausespeed" onmouseout="copyspeed=marqueespeed">
+              <div id="vmarquee" style="position: absolute; top: 10px;">
+                <ul>
+                  <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> <a href="pdf/Notification No 03_2026 - HSNS CESS.pdf" target="_blank" style="color: #002d74;">Notification No 03/2026 - HSNS CESS</a></li>
+                    <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> <a href="pdf/Advisory No. 09_2026 dated 050626_HSNS.pdf" target="_blank" style="color: #002d74;">Advisory No. 09/2026 dated 050626 HSNS</a></li>
+                      <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> <a href="pdf/Notification No 02_2026 - HSNS CESS.pdf" target="_blank" style="color: #002d74;">Notification No 02/2026 - HSNS CESS</a>
+                  </li>
+                  <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> <a href="pdf/Notification No 01_2026 - HSNS CESS.pdf" target="_blank" style="color: #002d74;">Notification No 01/2026 - HSNS CESS</a>
+                  </li>
+                  <li><i class="fa fa-chevron-circle-right" style="color: #002d74;" aria-hidden="true"></i> <a href="pdf/HSNS ACT No 35 of 2025.pdf" target="_blank" style="color: #002d74;">HSNS ACT No 35 of 2025</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
 
-          </div>
-
-          <div class="col-md-3 col-lg-3 col-sm-12">
+          <div class="col-sm-12 col-md-3 col-lg-3">
             <p class="icon"><i class="fa fa-camera" aria-hidden="true"></i></p>
             <h4>Image Gallery</h4>
 
@@ -695,7 +978,8 @@ return false;
 
           </div>
 
-          <div class="col-md-3 col-lg-3 col-sm-12">
+
+          <div class="col-sm-12 col-md-3 col-lg-3">
             <p class="icon"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></p>
             <h4>CBIC MITRA HELPDESK</h4>
 
@@ -706,125 +990,182 @@ return false;
                     style="color:grey; text-decoration: none;cursor: not-allowed;">Query Form</span><span
                     style="color:red; font-weight:bold;margin-left:5px;cursor:default;">(Under Maintenance)</span>
                 </span>  -->
-                <span><i class="fa fa-ticket" aria-hidden="true"></i> <a href="/cbec-portal-ui/?webticketing" target="_blank">Query Form</a></span>
+
+                <span style="color: #002d74;"><i class="fa fa-phone-square" aria-hidden="true"></i> Toll Free number:
+                  1800 425
+                  0232</span><br>
+                <span style="color: #002d74;"><i class="fa fa-ticket" aria-hidden="true"></i> <a href="/cbec-portal-ui/?webticketing" target="_blank" style="color: #002d74;">Support Query
+                    Form</a></span>
                 <!-- <span><i class="fa fa-ticket" aria-hidden="true"></i> <a
                     href="https://cbic-gst.gov.in/cbec-portal-ui/?webticketing" target="_blank">Query Form</a></span> -->
                 <br>
-                <span><i class="fa fa-phone-square" aria-hidden="true"></i> 1800 425 0232</span><br>
                 <!-- <span><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; cbicmitra.helpdesk@icegate.gov.in</span> -->
               </li>
-              <li style="line-height: 30px;"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i><a onclick="popUpWindow('https://www.gst.gov.in/contact','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website.">GSTN
-                  HELPDESK</a></li>
+              <!-- <li style="line-height: 30px;"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i><a
+                  onclick="popUpWindow('https://www.gst.gov.in/contact','Example','1024','600');"
+                  href="javascript:void(0);"
+                  title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website.">GSTN
+                  HELPDESK</a></li> -->
               <!-- <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i><a href="feedback.html" target="_self">RAISE A WEBTICKET</a></li> -->
               <!-- <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i><a href="pdf/sectoral-working-gp-contactdtls-14june2017.pdf" target="_blank">Sectoral Groups on GST - Contact details <span style="font-size:10px;">(As on June 14, 2017)</span></a></li>
                    
                    <li><i class="fa fa-chevron-circle-right" aria-hidden="true"></i><a href="related-links.html" target="_self">Related links</a></li> -->
             </ul>
           </div>
-        </div>
-      </div>
 
 
+          <!-- Our Leadership -->
+          <div class="col-sm-12 col-md-3 col-lg-3 leadership-section">
+            <h4>Our Leadership</h4>
 
+            <div class="leadership-people">
+              <div class="leadership-person">
+                <img src="images/nirmala.jpg" alt="Smt. Nirmala Sitharaman">            
+                    <p><a href="https://doe.gov.in/smt-nirmala-sitharaman" target="_blank" rel="noopener noreferrer">Smt. Nirmala Sitharaman</a><br>
+                      Hon'ble Minister of Finance &amp;<br> Corporate Affairs </p>     
+              </div>
 
-    </div>
-    <!-- Footer Section Style Start Here -->
-
-    <footer>
-
-      <div class="footer-section">
-
-        <div class="nav-section col-md-9 col-xs-9 col-sm-12" style="padding-top:20px">
-
-          <ul class="footernav hidden-xs hidden-sm">
-
-            <li><a href="index.html" title="Home">Home</a></li>
-
-            <!-- <li><a href="vacancy-circulars.html" title="Vacancy Circulars">Vacancy Circulars</a></li> -->
-
-            <!--<li><a href="#">About GST</a></li>-->
-
-            <!-- <li><a href="#">Taxpayer Services</a></li> -->
-
-            <li><a href="sitemap.html" title="Sitemap">Sitemap</a></li>
-
-
-            <li><a href="help.html" title="Help">Help &nbsp;</a></li>
-
-            <li><a href="contactus.html" title="Contact Us">Contact Us</a> </li>
-
-            <li><a href="related-links.html" title="Related Links">Related Links</a></li>
-
-            <!--  <li><a href="#">Taxpayer Grievance</a></li> -->
-
-            <!--<li><a href="feedback.html">Feedback</a> </li>-->
-
-          </ul>
-
-          <ul class="footernavmob visible-xs visible-sm">
-
-            <li class="col-xs-12 col-sm-12"><a href="index.html" title="Home">Home</a></li>
-
-            <li class="col-xs-12 col-sm-12"><a onclick="popUpWindow('https://gstawareness.cbic.gov.in/','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website.">GST
-                Awareness</a> </li>
-
-            <!--<li class="col-xs-12 col-sm-12"><a href="about-gst.html">About GST</a></li>-->
-
-            <!--  <li class="col-xs-12 col-sm-12"><a href="#">Taxpayer Services</a></li>
-                     -->
-            <li class="col-xs-12 col-sm-12"><a href="sitemap.html" title="Sitemap">Sitemap</a></li>
-
-
-
-            <li class="col-xs-12 col-sm-12"><a href="help.html" title="Help">Help</a></li>
-
-            <li class="col-xs-12 col-sm-12"><a href="contactus.html" title="Contact Us">Contact Us</a></li>
-
-            <li class="col-xs-12 col-sm-12"><a href="related-links.html" title="Related Links">Related Links</a></li>
-
-            <!--  <li class="col-xs-12 col-sm-12"><a href="#">Taxpayer Grievance</a></li> -->
-
-            <!--<li class="col-xs-12 col-sm-12"><a href="feedback.html">Feedback</a></li>-->
-
-          </ul>
-
-
-
-          <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 copyright">
-
-            <span>© 2020. Central Board of Indirect Taxes and Customs, Government of India, New Delhi, India.
-              &nbsp;&nbsp; <a href="terms.html" title="Terms &amp; Condition"> Terms &amp; Conditions </a> | <a href="privacy.html" title="Privacy Policy">Privacy Policy </a> | <a href="disclaimer.html" title="Disclaimer">Disclaimer</a></span>
-
-          </div>
-
-        </div>
-
-
-        <div class="col-md-3 col-lg-3 col-sm-12">
-          <div class="social-media-link-section">
-            <div class="social-media-btns"><span class="follow-us-txt">Follow Us</span> <a onclick="popUpWindow('https://www.facebook.com/cbicindia/','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website."><i class="fa fa-facebook-square fa-2x"></i></a> <a onclick="popUpWindow('https://twitter.com/cbic_india?lang=en','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website."><i class="fa fa-twitter-square fa-2x"></i></a>
-              <!--<a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>--> <a onclick="popUpWindow('https://www.youtube.com/channel/UC4Pwb1Utd_Pu3tEp09gMZlQ/videos?view=0&amp;sort=dd&amp;shelf_id=0','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website."><i class="fa fa-youtube-play fa-2x" style="color:#FFF;"></i></a>
-              <!--<a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>--> <br>
-              <span class="lastupdate-txt">Last Updated: 13 October 2026</span>
+              <div class="leadership-person">
+                <img src="images/pankaj.jpg" alt="Shri Pankaj Chaudhary">
+                <p> <a href="https://doe.gov.in/shri-pankaj-chaudhary" target="_blank" rel="noopener noreferrer">Shri Pankaj Chaudhary<br></a>
+                  Hon'ble Minister of State for Finance
+                </p>
+              </div>
             </div>
+
           </div>
+          <!-- Our Leadership End -->
+
+
         </div>
-      </div>
-    </footer>
-    <div class="col-md-12 col-lg-12 nopadding">
-      <div class="col-md-1 col-lg-1 col-sm-12 nopadding">
-        <a onclick="popUpWindow('https://www.india.gov.in','Example','1024','600');" href="javascript:void(0);"><img src="images/india-gov-logo.png" height="34" width="128" alt="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website." title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website."></a>
-      </div>
-      <div class="col-md-11 col-lg-11 col-sm-12">
-        <p style="font-size:12px;line-height:1;padding:5px 0 5px 30px">
-          <strong>Disclaimer:</strong>Information is being made available at this site purely as a measure of public
-          facilitation. While every effort has been made to ensure that the information hosted in this website is
-          accurate and up-to-date, Central Board of Indirect Taxes and Customs does not hold itself liable for any
-          consequences, legal or otherwise, arising out of use or abuse of any such information.
-        </p>
+
       </div>
     </div>
   </div>
+
+
+
+
+  
+  <!-- Footer Section Style Start Here -->
+
+  <footer>
+
+    <div class="footer-section">
+
+      <div class="nav-section col-md-9 col-xs-9 col-sm-12" style="padding-top:20px">
+
+        <ul class="footernav hidden-xs hidden-sm">
+
+          <li><a href="index.html" title="Home">Home</a></li>
+
+          <!-- <li><a href="vacancy-circulars.html" title="Vacancy Circulars">Vacancy Circulars</a></li> -->
+
+          <!--<li><a href="#">About GST</a></li>-->
+
+          <!-- <li><a href="#">Taxpayer Services</a></li> -->
+
+          <li><a href="sitemap.html" title="Sitemap">Sitemap</a></li>
+
+          <li><a href="faq.html" title="Faq">FAQ</a></li>
+
+          <li><a href="related-links.html" title="Related Links">Related Links</a></li>
+
+          <li><a href="archives.html" title="Archives">Archives</a></li>
+
+          <li><a href="help.html" title="Help">Help &nbsp;</a></li>
+
+          <li><a href="contactus.html" title="Contact Us">Contact Us</a> </li>
+
+          <!--  <li><a href="#">Taxpayer Grievance</a></li> -->
+
+          <!--<li><a href="feedback.html">Feedback</a> </li>-->
+
+        </ul>
+
+        <ul class="footernavmob visible-xs visible-sm">
+
+          <li class="col-xs-12 col-sm-12"><a href="index.html" title="Home">Home</a></li>
+
+          <!-- <li class="col-xs-12 col-sm-12"><a
+              onclick="popUpWindow('https://gstawareness.cbic.gov.in/','Example','1024','600');"
+              href="javascript:void(0);"
+              title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website.">GST
+              Awareness</a> </li> -->
+
+          <!--<li class="col-xs-12 col-sm-12"><a href="about-gst.html">About GST</a></li>-->
+
+          <!--  <li class="col-xs-12 col-sm-12"><a href="#">Taxpayer Services</a></li> -->
+          <li class="col-xs-12 col-sm-12"><a href="sitemap.html" title="Sitemap">Sitemap</a></li>
+
+          <li><a href="faq.html" title="Faq">FAQ</a></li>
+
+
+          <li class="col-xs-12 col-sm-12"><a href="related-links.html" title="Related Links">Related Links</a></li>
+
+          <li><a href="archives.html" title="Archives">Archives</a></li>
+
+          <li class="col-xs-12 col-sm-12"><a href="help.html" title="Help">Help</a></li>
+
+          <li class="col-xs-12 col-sm-12"><a href="contactus.html" title="Contact Us">Contact Us</a></li>
+
+          <!--  <li class="col-xs-12 col-sm-12"><a href="#">Taxpayer Grievance</a></li> -->
+
+          <!--<li class="col-xs-12 col-sm-12"><a href="feedback.html">Feedback</a></li>-->
+
+        </ul>
+
+
+
+        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 copyright">
+
+          <span>© <span id="currentYear"></span>. Central Board of Indirect Taxes and Customs, Government of
+            India, New Delhi, India.
+            &nbsp;&nbsp; <a href="terms.html" title="Terms &amp; Condition"> Terms &amp; Conditions </a> | <a href="privacy.html" title="Privacy Policy">Privacy Policy </a> | <a href="disclaimer.html" title="Disclaimer">Disclaimer</a></span>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-3 col-lg-3 col-sm-12">
+        <div class="social-media-link-section">
+          <div class="social-media-btns"><span class="follow-us-txt">Follow Us</span>
+            <a onclick="popUpWindow('https://www.whatsapp.com/channel/0029VaIHEmo9Gv7XcriPOW27','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website."><i class="fa fa-whatsapp fa-2x"></i></a>
+            <a onclick="popUpWindow('https://x.com/cbic_india?lang=en','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website.">
+              <!-- <i class="fa fa-remove fa-2x"></i> -->
+              <!-- <img src="images/x.svg" alt="X" style="width:35px; height:35px; position:relative;bottom: 2px;"> -->
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" class="fa fa-x fa-2x">
+                <path d="M18.901 1.153h3.308l-7.227 8.26L23.484 22h-6.769l-5.3-6.932L5.343 22H2.034l7.73-8.835L1.5 1.153h6.941l4.79 6.326zM17.743 19.77h1.833L7.316 3.24H5.35z"></path>
+              </svg>
+            </a>
+            <a onclick="popUpWindow('https://www.youtube.com/channel/UC4Pwb1Utd_Pu3tEp09gMZlQ/videos?view=0&amp;sort=dd&amp;shelf_id=0','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website."><i class="fa fa-youtube-play fa-2x" style="color:#FFF;"></i></a>
+            <a onclick="popUpWindow('https://www.facebook.com/cbicindia/','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website."><i class="fa fa-facebook-square fa-2x"></i></a>
+            <a onclick="popUpWindow('https://www.instagram.com/cbicindia/?hl=en','Example','1024','600');" href="javascript:void(0);" title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website."><i class="fa fa-instagram fa-2x"></i></a>
+            <!--<a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>-->
+            <!--<a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>--> <br>
+            <span class="lastupdate-txt">Last Updated: 16 October 2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="col-md-12 col-lg-12 nopadding">
+    <!-- <div class="col-md-1 col-lg-1 col-sm-12 nopadding">
+        <a onclick="popUpWindow('https://www.india.gov.in','Example','1024','600');" href="javascript:void(0);"><img
+            src="images/india-gov-logo.png" height="34" width="128"
+            alt="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website."
+            title="This screen shall take you to a web page outside CBIC-GST Portal. For any queries regarding the content of the linked page  please contact the webmaster of the concerned website." /></a>
+      </div> -->
+    <div class="col-md-11 col-lg-11 col-sm-12">
+      <p style="font-size:12px;line-height:1;padding:5px 0 5px 30px">
+        <strong>Disclaimer: </strong>Information is being made available at this site purely as a measure of public
+        facilitation. While every effort has been made to ensure that the information hosted in this website is
+        accurate and up-to-date, Central Board of Indirect Taxes and Customs does not hold itself liable for any
+        consequences, legal or otherwise, arising out of use or abuse of any such information.
+      </p>
+    </div>
+  </div>
+  
 
 
 
@@ -843,7 +1184,7 @@ return false;
 
 
 
-  <a id="scroll-top" href="#" class="scroll-top" role="button" title="" data-toggle="tooltip" data-placement="left" data-original-title="Go to Top" aria-describedby="tooltip578885"><span class="glyphicon glyphicon-chevron-up" style="color:#FFF;"></span></a><div class="tooltip fade left in" role="tooltip" id="tooltip578885" style="top: 0px; left: -78px; display: block;"><div class="tooltip-arrow" style="top: 0%;"></div><div class="tooltip-inner">Go to Top</div></div>
+  <a id="scroll-top" href="#" class="scroll-top" role="button" title="" data-toggle="tooltip" data-placement="left" data-original-title="Go to Top" aria-describedby="tooltip810512"><span class="glyphicon glyphicon-chevron-up" style="color:#FFF;"></span></a><div class="tooltip fade left in" role="tooltip" id="tooltip810512" style="top: 0px; left: -78px; display: block;"><div class="tooltip-arrow" style="top: 0%;"></div><div class="tooltip-inner">Go to Top</div></div>
 
 
 
@@ -865,6 +1206,10 @@ return false;
        was being blocked outright, so $('.lazy').Lazy() never worked. -->
 
   <script src="js/custom-init.js"></script>
+  <script src="js/home-responsive.js"></script>
+  <script src="js/search-highlight.js"></script>
+  <script src="js/home-responsive.js"></script>
+  <script> document.getElementById("currentYear").textContent = new Date().getFullYear();</script>
   <!-- All page-specific scripts (popup, lazy-load init, goto dropdown, nav
        toggle, FAQ, theme switcher, marquee ticker) are combined into this
        one external file. Kept external (not inline) because production's
