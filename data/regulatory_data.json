@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T18:21:23.747Z",
+  "generatedAt": "2026-10-25T20:34:08.660Z",
   "data": {
     "TAXATION_0": {
       "rows": [
@@ -124,7 +124,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951022464,
+      "ts": 1792959088536,
       "ok": true,
       "newCount": 0
     },
@@ -245,7 +245,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951033233,
+      "ts": 1792959098961,
       "ok": true,
       "newCount": 0
     },
@@ -384,7 +384,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951041333,
+      "ts": 1792959106915,
       "ok": true,
       "newCount": 0
     },
@@ -511,13 +511,13 @@
           "isNew": false
         }
       ],
-      "ts": 1792951049491,
+      "ts": 1792959115582,
       "ok": true,
       "newCount": 0
     },
     "TAXATION_4": {
       "rows": [],
-      "ts": 1792951059758,
+      "ts": 1792959126509,
       "ok": true
     },
     "TAXATION_5": {
@@ -858,7 +858,7 @@
           "year": 2026,
           "cat": "Case Law",
           "title": "Goods and Services Tax | GST Order Set Aside as SCN Uploaded Under Additional Notices Tab: Delhi High Court",
-          "desc": "Delhi HC sets aside GST order after SCN uploaded under Additional Notices tab went unnoticed; grants fresh hearing and keeps notification validity open.The post GST Order Set Aside as SCN Uploaded Und",
+          "desc": "Case Law Details TaxGuru Citation 2026 taxguru.in 16833 Case Name H.M. Traders Vs Goods and Services Tax Officer (Delhi High Court) Appeal Number Only available for paid members Date of Judgement/Order Only available for paid members Courts All High Courts, Delhi High Court Subscribe to download. Already Upgraded? Log in. Advertisement (adsbygoogle = window.adsbygoogle || []).push({}); H.M. Traders Vs Goods and Services Tax Officer (Delhi High Court) Summary: The Delhi High Court, in H.M. Traders Vs Goods and Services Tax Officer, W.P.(C) 6545/2025, considered a challenge to a show cause notice dated 24 September 2023 and the consequential adjudication order dated 18 December 2023. The petitioner contended that the show cause notice and subsequent reminder dated 5 December 2023 had been uploaded under the ‘Additional Notices Tab‘ of the GST portal and consequently escaped its attention. As no reply was filed, the adjudication order was passed without the petitioner having an effective opportunity to contest the allegations on merits. The Court considered its earlier decisions concerning notices uploaded under this tab, particularly Neelgiri Machinery, Satish Chand Mittal and Anant Wire Industries. The Court noted that changes to the GST portal had made the Additional Notices tab visible after 16 January 2024. However, the show cause notice in the present case had been issued in September 2023, before those changes. Considering that the petitioner had not received a proper opportunity to respond or be heard, the Court set aside the impugned order and remanded the matter for fresh adjudication. The petitioner was permitted to submit its reply by 10 July 2025, following which the adjudicating authority was directed to issue a personal hearing notice, consider the reply and oral submissions, and pass a fresh order. Access to the GST portal and relevant notices and documents was also to be ensured. The petitioner had additionally challenged Central and State GST Notifica",
           "link": "https://taxguru.in/goods-and-service-tax/gst-order-set-scn-uploaded-additional-notices-tab-delhi-high-court.html",
           "isNew": false
         },
@@ -923,7 +923,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951062138,
+      "ts": 1792959129159,
       "ok": true,
       "newCount": 0
     },
@@ -937,7 +937,7 @@
           "title": "Company Law | Doctrine of Indoor Management in the Digital Era: Is the Turquand Rule Still Relevant?",
           "desc": "Summary: The Doctrine of Indoor Management, commonly known as the Turquand Rule, protects outsiders dealing with companies in good faith against certain irregularities in internal corporate procedures. Established in Royal British Bank v. Turquand (1856), the doctrine permits third parties to presume that necessary internal approvals, resolutions and procedural requirements have been satisfied, provided there are no circumstances suggesting otherwise. Companies operate through directors, officers and authorised representatives, and outsiders cannot reasonably be expected to investigate every internal decision before entering into commercial transactions. The doctrine has also been recognised in Indian company law and continues to support commercial certainty in dealings involving banks, investors, suppliers and other stakeholders. However, its protection is not unconditional. Important exceptions arise where an outsider has actual knowledge of an irregularity, encounters suspicious circumstances requiring further inquiry, relies on forged documents or deals with an officer lacking the necessary authority. Digitalisation has introduced new considerations through electronic corporate filings, online statutory records and the Ministry of Corporate Affairs’ digital systems. These facilities make corporate information more accessible and strengthen opportunities for due diligence, but they do not necessarily disclose every internal resolution, approval or management decision. Consequently, increased digital transparency does not eliminate the need for reasonable reliance on corporate representations. The doctrine remains relevant because it balances the protection of good-faith commercial transactions with the need for responsible verification, corporate accountability and appropriate scrutiny of unusual transactions. Its continued application depends on distinguishing legitimate reliance from situations in which an outsider should reasonably investigate further. Table o",
           "link": "https://taxguru.in/company-law/doctrine-indoor-management-digital-era-turquand-rule-relevant.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -1680,9 +1680,9 @@
           "isNew": false
         }
       ],
-      "ts": 1792951064181,
+      "ts": 1792959131311,
       "ok": true,
-      "newCount": 1
+      "newCount": 0
     },
     "NEWSLETTER_0": {
       "rows": [
@@ -1755,7 +1755,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951092765,
+      "ts": 1792959160867,
       "ok": true,
       "newCount": 0
     },
@@ -1772,7 +1772,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951094155,
+      "ts": 1792959162810,
       "ok": true,
       "newCount": 0
     },
@@ -1783,9 +1783,9 @@
           "date": "25 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Serbia election: Vucic faces tough challenge from student-backed movement",
-          "desc": "@media (max-width:767px) { .header-active .headerabt .logo-div .bpdAll { max-width: 60px !important; } .header-active .headerabt .logo-div .bpdialogue { max-width: 55px !important; } .header-active .headerabt .logo-div .bpdround { max-width: 60px !important; } .header-active .headerabt .logo-div .bpdlogolens { max-width: 40px !important; } .navsubscribe ul {justify-content: space-between;} } @media (min-width:768px) and (max-width:1024px) { .header-active .headerabt .logo-div .bpdAll { max-width: 100px !important; } .header-active .headerabt .logo-div .bpdialogue { max-width: 90px !important; } .header-active .headerabt .logo-div .bpdround { max-width: 110px !important; } .header-active .headerabt .logo-div .bpdlogolens { max-width: 68px !important; } } .Menumodal_overlay { position: fixed; background: rgba(0, 0, 0, 0.6); align-items: center; z-index: 111111; height: 100vh; width: 100%; top: 0; left: 0; bottom: 0; right: 0; } .Menumodal_overlay .Menumodal-box { transform: translateX(0); } .Menumodal_overlay.active { display: flex; } .Menumodal-box { position: relative; width: 95%; max-width: 95%; margin: 20px auto; padding: 15px; background: white; border-radius: 6px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); transform: translateX(-100%); transition: transform 2s ease; } .Menumodal-close { position: absolute; top: -2px; right: 8px; border: none; background: transparent; font-size: 35px; cursor: pointer; color: #282b32; z-index: 11; } .header-active.Menumodal-active .scrlhide { transform: none; } Home / World News / Serbia election: Vucic faces tough challenge from student-backed movementSerbia election: Vucic faces tough challenge from student-backed movementSerbia's parliamentary election pits Aleksandar Vucic's party against a student-backed movement, with high turnout expected amid concerns over voting irregularities and political instabilityPeople wait to vote inside a polling station during the parliamentary election in Belgrade, Serbia, October 25, 2026. REU",
-          "link": "https://www.business-standard.com/world-news/serbia-election-vucic-faces-tough-challenge-from-student-backed-movement-126102500196_1.html",
+          "title": "Emirates NBD branch merger to lift RBL Bank asset base by ₹11K cr: MD & CEO",
+          "desc": "@media (max-width:767px) { .header-active .headerabt .logo-div .bpdAll { max-width: 60px !important; } .header-active .headerabt .logo-div .bpdialogue { max-width: 55px !important; } .header-active .headerabt .logo-div .bpdround { max-width: 60px !important; } .header-active .headerabt .logo-div .bpdlogolens { max-width: 40px !important; } .navsubscribe ul {justify-content: space-between;} } @media (min-width:768px) and (max-width:1024px) { .header-active .headerabt .logo-div .bpdAll { max-width: 100px !important; } .header-active .headerabt .logo-div .bpdialogue { max-width: 90px !important; } .header-active .headerabt .logo-div .bpdround { max-width: 110px !important; } .header-active .headerabt .logo-div .bpdlogolens { max-width: 68px !important; } } .Menumodal_overlay { position: fixed; background: rgba(0, 0, 0, 0.6); align-items: center; z-index: 111111; height: 100vh; width: 100%; top: 0; left: 0; bottom: 0; right: 0; } .Menumodal_overlay .Menumodal-box { transform: translateX(0); } .Menumodal_overlay.active { display: flex; } .Menumodal-box { position: relative; width: 95%; max-width: 95%; margin: 20px auto; padding: 15px; background: white; border-radius: 6px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); transform: translateX(-100%); transition: transform 2s ease; } .Menumodal-close { position: absolute; top: -2px; right: 8px; border: none; background: transparent; font-size: 35px; cursor: pointer; color: #282b32; z-index: 11; } .header-active.Menumodal-active .scrlhide { transform: none; } Home / Industry / Banking / Emirates NBD branch merger to lift RBL Bank asset base by ₹11K cr: MD & CEOEmirates NBD branch merger to lift RBL Bank asset base by ₹11K cr: MD & CEORBL Bank expects ₹10,000-11,000 crore to be added to its balance sheet from the merger of three Emirates NBD branches and is targeting annual growth of at least 20%. premium R Subramaniakumar , RBL Bank MD & CEO | Image: Bank's WebsiteSubrata Panda Mumbai 8 min read Last Updated : Oct 25 2026 | 11:",
+          "link": "https://www.business-standard.com/industry/banking/emirates-nbd-branch-merger-to-lift-rbl-bank-asset-base-by-11k-cr-md-ceo-126102500406_1.html",
           "isNew": true
         },
         {
@@ -1793,13 +1793,23 @@
           "date": "25 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Glitter of gold loans",
-          "desc": "@media (max-width:767px) { .header-active .headerabt .logo-div .bpdAll { max-width: 60px !important; } .header-active .headerabt .logo-div .bpdialogue { max-width: 55px !important; } .header-active .headerabt .logo-div .bpdround { max-width: 60px !important; } .header-active .headerabt .logo-div .bpdlogolens { max-width: 40px !important; } .navsubscribe ul {justify-content: space-between;} } @media (min-width:768px) and (max-width:1024px) { .header-active .headerabt .logo-div .bpdAll { max-width: 100px !important; } .header-active .headerabt .logo-div .bpdialogue { max-width: 90px !important; } .header-active .headerabt .logo-div .bpdround { max-width: 110px !important; } .header-active .headerabt .logo-div .bpdlogolens { max-width: 68px !important; } } .Menumodal_overlay { position: fixed; background: rgba(0, 0, 0, 0.6); align-items: center; z-index: 111111; height: 100vh; width: 100%; top: 0; left: 0; bottom: 0; right: 0; } .Menumodal_overlay .Menumodal-box { transform: translateX(0); } .Menumodal_overlay.active { display: flex; } .Menumodal-box { position: relative; width: 95%; max-width: 95%; margin: 20px auto; padding: 15px; background: white; border-radius: 6px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); transform: translateX(-100%); transition: transform 2s ease; } .Menumodal-close { position: absolute; top: -2px; right: 8px; border: none; background: transparent; font-size: 35px; cursor: pointer; color: #282b32; z-index: 11; } .header-active.Menumodal-active .scrlhide { transform: none; } Home / Opinion / Editorial / Glitter of gold loansGlitter of gold loansIncreasing household debt needs careful examination premium Rising gold loans and household debt raise concerns over repayment capacity and financial stability in IndiaBusiness Standard Editorial Comment3 min read Last Updated : Oct 25 2026 | 10:17 PM IST @media (min-width:1100px) and (max-width:1280px) { .storymeta .meta-info { flex: 0 0 45%; } } Listen to This ArticleA report in this newspaper last we",
-          "link": "https://www.business-standard.com/opinion/editorial/glitter-of-gold-loans-126102500731_1.html",
-          "isNew": true
+          "title": "Serbia election: Vucic faces tough challenge from student-backed movement",
+          "desc": "@media (max-width:767px) { .header-active .headerabt .logo-div .bpdAll { max-width: 60px !important; } .header-active .headerabt .logo-div .bpdialogue { max-width: 55px !important; } .header-active .headerabt .logo-div .bpdround { max-width: 60px !important; } .header-active .headerabt .logo-div .bpdlogolens { max-width: 40px !important; } .navsubscribe ul {justify-content: space-between;} } @media (min-width:768px) and (max-width:1024px) { .header-active .headerabt .logo-div .bpdAll { max-width: 100px !important; } .header-active .headerabt .logo-div .bpdialogue { max-width: 90px !important; } .header-active .headerabt .logo-div .bpdround { max-width: 110px !important; } .header-active .headerabt .logo-div .bpdlogolens { max-width: 68px !important; } } .Menumodal_overlay { position: fixed; background: rgba(0, 0, 0, 0.6); align-items: center; z-index: 111111; height: 100vh; width: 100%; top: 0; left: 0; bottom: 0; right: 0; } .Menumodal_overlay .Menumodal-box { transform: translateX(0); } .Menumodal_overlay.active { display: flex; } .Menumodal-box { position: relative; width: 95%; max-width: 95%; margin: 20px auto; padding: 15px; background: white; border-radius: 6px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); transform: translateX(-100%); transition: transform 2s ease; } .Menumodal-close { position: absolute; top: -2px; right: 8px; border: none; background: transparent; font-size: 35px; cursor: pointer; color: #282b32; z-index: 11; } .header-active.Menumodal-active .scrlhide { transform: none; } Home / World News / Serbia election: Vucic faces tough challenge from student-backed movementSerbia election: Vucic faces tough challenge from student-backed movementSerbia's parliamentary election pits Aleksandar Vucic's party against a student-backed movement, with high turnout expected amid concerns over voting irregularities and political instabilityPeople wait to vote inside a polling station during the parliamentary election in Belgrade, Serbia, October 25, 2026. REU",
+          "link": "https://www.business-standard.com/world-news/serbia-election-vucic-faces-tough-challenge-from-student-backed-movement-126102500196_1.html",
+          "isNew": false
         },
         {
           "sr": 3,
+          "date": "25 Oct 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Glitter of gold loans",
+          "desc": "@media (max-width:767px) { .header-active .headerabt .logo-div .bpdAll { max-width: 60px !important; } .header-active .headerabt .logo-div .bpdialogue { max-width: 55px !important; } .header-active .headerabt .logo-div .bpdround { max-width: 60px !important; } .header-active .headerabt .logo-div .bpdlogolens { max-width: 40px !important; } .navsubscribe ul {justify-content: space-between;} } @media (min-width:768px) and (max-width:1024px) { .header-active .headerabt .logo-div .bpdAll { max-width: 100px !important; } .header-active .headerabt .logo-div .bpdialogue { max-width: 90px !important; } .header-active .headerabt .logo-div .bpdround { max-width: 110px !important; } .header-active .headerabt .logo-div .bpdlogolens { max-width: 68px !important; } } .Menumodal_overlay { position: fixed; background: rgba(0, 0, 0, 0.6); align-items: center; z-index: 111111; height: 100vh; width: 100%; top: 0; left: 0; bottom: 0; right: 0; } .Menumodal_overlay .Menumodal-box { transform: translateX(0); } .Menumodal_overlay.active { display: flex; } .Menumodal-box { position: relative; width: 95%; max-width: 95%; margin: 20px auto; padding: 15px; background: white; border-radius: 6px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); transform: translateX(-100%); transition: transform 2s ease; } .Menumodal-close { position: absolute; top: -2px; right: 8px; border: none; background: transparent; font-size: 35px; cursor: pointer; color: #282b32; z-index: 11; } .header-active.Menumodal-active .scrlhide { transform: none; } Home / Opinion / Editorial / Glitter of gold loansGlitter of gold loansIncreasing household debt needs careful examination premium Rising gold loans and household debt raise concerns over repayment capacity and financial stability in IndiaBusiness Standard Editorial Comment3 min read Last Updated : Oct 25 2026 | 10:17 PM IST @media (min-width:1100px) and (max-width:1280px) { .storymeta .meta-info { flex: 0 0 45%; } } Listen to This ArticleA report in this newspaper last we",
+          "link": "https://www.business-standard.com/opinion/editorial/glitter-of-gold-loans-126102500731_1.html",
+          "isNew": false
+        },
+        {
+          "sr": 4,
           "date": "25 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -1809,7 +1819,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 5,
           "date": "25 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -1819,7 +1829,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 6,
           "date": "25 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -1829,7 +1839,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 7,
           "date": "25 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -1839,7 +1849,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 8,
           "date": "25 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -1849,7 +1859,7 @@
           "isNew": false
         },
         {
-          "sr": 8,
+          "sr": 9,
           "date": "25 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -1859,7 +1869,7 @@
           "isNew": false
         },
         {
-          "sr": 9,
+          "sr": 10,
           "date": "25 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -1869,7 +1879,7 @@
           "isNew": false
         },
         {
-          "sr": 10,
+          "sr": 11,
           "date": "25 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -1879,7 +1889,7 @@
           "isNew": false
         },
         {
-          "sr": 11,
+          "sr": 12,
           "date": "25 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -1889,7 +1899,7 @@
           "isNew": false
         },
         {
-          "sr": 12,
+          "sr": 13,
           "date": "25 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -1899,7 +1909,7 @@
           "isNew": false
         },
         {
-          "sr": 13,
+          "sr": 14,
           "date": "25 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -1909,7 +1919,7 @@
           "isNew": false
         },
         {
-          "sr": 14,
+          "sr": 15,
           "date": "25 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -1919,9 +1929,9 @@
           "isNew": false
         }
       ],
-      "ts": 1792951096377,
+      "ts": 1792959164145,
       "ok": true,
-      "newCount": 2
+      "newCount": 1
     },
     "NEWSLETTER_4": {
       "rows": [],
@@ -1937,7 +1947,7 @@
           "year": null,
           "cat": "News",
           "title": "Apple Pay partnership may take place in a couple of quarters: Kotak Mahindra Bank CEO Ashok Vaswani",
-          "desc": ".article_author .byline_txt, .author_wrapper .byline_txt{ font: 400 14px/20px 'Josefin Sans', sans-serif !important; color: #343434 !important; display: inline-block; display: inline-block; width: auto !important;} @media screen and (max-width: 1279px){ .article_author .byline_txt, .author_wrapper .byline_txt{ font-size: 12px !important; line-height: 18px !important; width: auto !important;}} .articlename_join_follow{ display: flex; align-items: center; margin-bottom: 40px;} .articlename_join_follow .left_block{ width: calc(100% - 220px);} .join_follow{ float: right;} .join_follow{ display: flex; margin-left: 0;} .join_follow a:first-child span{ vertical-align: middle;} .join_follow a{ margin-left: 5px; color: #000000;} .join_follow span{ display: inline-block; vertical-align: text-bottom; margin-right: 5px;} .show_in_mobile{ display: none;} .articlename_join_follow.linechngs{ align-items: center;} .articlename_join_follow.linechngs .article_author{ border-right: 0;} .articlename_join_follow.linechngs .article_schedule{ line-height: 25px;} .articlename_join_follow .left_block{ position: relative; top: 0;} .join_follow .joinus_desktop{ width: 88px; height: 40px;} .join_follow .followus_desktop{ width: 106px; height: 40px;} .join_follow .preferred_desktop{ width: 150px; height: 40px;} .join_follow .joinus_mobile, .join_follow .followus_mobile{ display: none;} @media screen and (max-width: 980px){ .join_follow a{ margin-left: 0px;} .join_follow span{ margin-left: 0px; margin-right: 0;} .articlename_join_follow{ display: block; margin-bottom: 5px;} .articlename_join_follow .left_block{ width: 100%; bottom: 8px; top: unset;} .join_follow{ text-align: center; display: flex !important; justify-content: center; float: none; margin-top: 0; margin-bottom: 20px; gap: 10px;} .show_in_desktop{ display: none;} .show_in_mobile{ display: block;} .articlename_join_follow.linechngs .article_schedule{ line-height: 20px;} .join_follow .joinus_mobile{ background: url(\"https://images.mon",
+          "desc": "",
           "link": "https://www.moneycontrol.com/news/business/banks/apple-pay-partnership-may-take-place-in-a-couple-of-quarters-kotak-mahindra-bank-ceo-ashok-vaswani-14059223.html",
           "isNew": false
         },
@@ -1947,7 +1957,7 @@
           "year": null,
           "cat": "News",
           "title": "Bihar introduces 100-point performance index for banks; IDFC FIRST Bank tops list",
-          "desc": ".article_author .byline_txt, .author_wrapper .byline_txt{ font: 400 14px/20px 'Josefin Sans', sans-serif !important; color: #343434 !important; display: inline-block; display: inline-block; width: auto !important;} @media screen and (max-width: 1279px){ .article_author .byline_txt, .author_wrapper .byline_txt{ font-size: 12px !important; line-height: 18px !important; width: auto !important;}} .articlename_join_follow{ display: flex; align-items: center; margin-bottom: 40px;} .articlename_join_follow .left_block{ width: calc(100% - 220px);} .join_follow{ float: right;} .join_follow{ display: flex; margin-left: 0;} .join_follow a:first-child span{ vertical-align: middle;} .join_follow a{ margin-left: 5px; color: #000000;} .join_follow span{ display: inline-block; vertical-align: text-bottom; margin-right: 5px;} .show_in_mobile{ display: none;} .articlename_join_follow.linechngs{ align-items: center;} .articlename_join_follow.linechngs .article_author{ border-right: 0;} .articlename_join_follow.linechngs .article_schedule{ line-height: 25px;} .articlename_join_follow .left_block{ position: relative; top: 0;} .join_follow .joinus_desktop{ width: 88px; height: 40px;} .join_follow .followus_desktop{ width: 106px; height: 40px;} .join_follow .preferred_desktop{ width: 150px; height: 40px;} .join_follow .joinus_mobile, .join_follow .followus_mobile{ display: none;} @media screen and (max-width: 980px){ .join_follow a{ margin-left: 0px;} .join_follow span{ margin-left: 0px; margin-right: 0;} .articlename_join_follow{ display: block; margin-bottom: 5px;} .articlename_join_follow .left_block{ width: 100%; bottom: 8px; top: unset;} .join_follow{ text-align: center; display: flex !important; justify-content: center; float: none; margin-top: 0; margin-bottom: 20px; gap: 10px;} .show_in_desktop{ display: none;} .show_in_mobile{ display: block;} .articlename_join_follow.linechngs .article_schedule{ line-height: 20px;} .join_follow .joinus_mobile{ background: url(\"https://images.mon",
+          "desc": "",
           "link": "https://www.moneycontrol.com/news/business/banks/bihar-introduces-100-point-performance-index-for-banks-idfc-first-bank-tops-list-14059140.html",
           "isNew": false
         },
@@ -1957,7 +1967,7 @@
           "year": null,
           "cat": "News",
           "title": "RBI alert about AI-driven cyber risks, banks taking steps to plug vulnerabilities: Sanjay Malhotra",
-          "desc": ".article_author .byline_txt, .author_wrapper .byline_txt{ font: 400 14px/20px 'Josefin Sans', sans-serif !important; color: #343434 !important; display: inline-block; display: inline-block; width: auto !important;} @media screen and (max-width: 1279px){ .article_author .byline_txt, .author_wrapper .byline_txt{ font-size: 12px !important; line-height: 18px !important; width: auto !important;}} .articlename_join_follow{ display: flex; align-items: center; margin-bottom: 40px;} .articlename_join_follow .left_block{ width: calc(100% - 220px);} .join_follow{ float: right;} .join_follow{ display: flex; margin-left: 0;} .join_follow a:first-child span{ vertical-align: middle;} .join_follow a{ margin-left: 5px; color: #000000;} .join_follow span{ display: inline-block; vertical-align: text-bottom; margin-right: 5px;} .show_in_mobile{ display: none;} .articlename_join_follow.linechngs{ align-items: center;} .articlename_join_follow.linechngs .article_author{ border-right: 0;} .articlename_join_follow.linechngs .article_schedule{ line-height: 25px;} .articlename_join_follow .left_block{ position: relative; top: 0;} .join_follow .joinus_desktop{ width: 88px; height: 40px;} .join_follow .followus_desktop{ width: 106px; height: 40px;} .join_follow .preferred_desktop{ width: 150px; height: 40px;} .join_follow .joinus_mobile, .join_follow .followus_mobile{ display: none;} @media screen and (max-width: 980px){ .join_follow a{ margin-left: 0px;} .join_follow span{ margin-left: 0px; margin-right: 0;} .articlename_join_follow{ display: block; margin-bottom: 5px;} .articlename_join_follow .left_block{ width: 100%; bottom: 8px; top: unset;} .join_follow{ text-align: center; display: flex !important; justify-content: center; float: none; margin-top: 0; margin-bottom: 20px; gap: 10px;} .show_in_desktop{ display: none;} .show_in_mobile{ display: block;} .articlename_join_follow.linechngs .article_schedule{ line-height: 20px;} .join_follow .joinus_mobile{ background: url(\"https://images.mon",
+          "desc": "",
           "link": "https://www.moneycontrol.com/news/business/banks/rbi-alert-about-ai-driven-cyber-risks-banks-taking-steps-to-plug-vulnerabilities-sanjay-malhotra-14058881.html",
           "isNew": false
         },
@@ -1967,7 +1977,7 @@
           "year": null,
           "cat": "News",
           "title": "Bank of India sees NIM improving to 2.55% in H2 FY27 after RBI rate hike",
-          "desc": ".article_author .byline_txt, .author_wrapper .byline_txt{ font: 400 14px/20px 'Josefin Sans', sans-serif !important; color: #343434 !important; display: inline-block; display: inline-block; width: auto !important;} @media screen and (max-width: 1279px){ .article_author .byline_txt, .author_wrapper .byline_txt{ font-size: 12px !important; line-height: 18px !important; width: auto !important;}} .articlename_join_follow{ display: flex; align-items: center; margin-bottom: 40px;} .articlename_join_follow .left_block{ width: calc(100% - 220px);} .join_follow{ float: right;} .join_follow{ display: flex; margin-left: 0;} .join_follow a:first-child span{ vertical-align: middle;} .join_follow a{ margin-left: 5px; color: #000000;} .join_follow span{ display: inline-block; vertical-align: text-bottom; margin-right: 5px;} .show_in_mobile{ display: none;} .articlename_join_follow.linechngs{ align-items: center;} .articlename_join_follow.linechngs .article_author{ border-right: 0;} .articlename_join_follow.linechngs .article_schedule{ line-height: 25px;} .articlename_join_follow .left_block{ position: relative; top: 0;} .join_follow .joinus_desktop{ width: 88px; height: 40px;} .join_follow .followus_desktop{ width: 106px; height: 40px;} .join_follow .preferred_desktop{ width: 150px; height: 40px;} .join_follow .joinus_mobile, .join_follow .followus_mobile{ display: none;} @media screen and (max-width: 980px){ .join_follow a{ margin-left: 0px;} .join_follow span{ margin-left: 0px; margin-right: 0;} .articlename_join_follow{ display: block; margin-bottom: 5px;} .articlename_join_follow .left_block{ width: 100%; bottom: 8px; top: unset;} .join_follow{ text-align: center; display: flex !important; justify-content: center; float: none; margin-top: 0; margin-bottom: 20px; gap: 10px;} .show_in_desktop{ display: none;} .show_in_mobile{ display: block;} .articlename_join_follow.linechngs .article_schedule{ line-height: 20px;} .join_follow .joinus_mobile{ background: url(\"https://images.mon",
+          "desc": "",
           "link": "https://www.moneycontrol.com/news/business/banks/bank-of-india-sees-nim-improving-to-2-55-in-h2-fy27-after-rbi-rate-hike-14058844.html",
           "isNew": false
         },
@@ -1977,7 +1987,7 @@
           "year": null,
           "cat": "News",
           "title": "IndusInd Bank expects margins to recover by Q4, cuts CD book by Rs 10,000 crore",
-          "desc": ".article_author .byline_txt, .author_wrapper .byline_txt{ font: 400 14px/20px 'Josefin Sans', sans-serif !important; color: #343434 !important; display: inline-block; display: inline-block; width: auto !important;} @media screen and (max-width: 1279px){ .article_author .byline_txt, .author_wrapper .byline_txt{ font-size: 12px !important; line-height: 18px !important; width: auto !important;}} .articlename_join_follow{ display: flex; align-items: center; margin-bottom: 40px;} .articlename_join_follow .left_block{ width: calc(100% - 220px);} .join_follow{ float: right;} .join_follow{ display: flex; margin-left: 0;} .join_follow a:first-child span{ vertical-align: middle;} .join_follow a{ margin-left: 5px; color: #000000;} .join_follow span{ display: inline-block; vertical-align: text-bottom; margin-right: 5px;} .show_in_mobile{ display: none;} .articlename_join_follow.linechngs{ align-items: center;} .articlename_join_follow.linechngs .article_author{ border-right: 0;} .articlename_join_follow.linechngs .article_schedule{ line-height: 25px;} .articlename_join_follow .left_block{ position: relative; top: 0;} .join_follow .joinus_desktop{ width: 88px; height: 40px;} .join_follow .followus_desktop{ width: 106px; height: 40px;} .join_follow .preferred_desktop{ width: 150px; height: 40px;} .join_follow .joinus_mobile, .join_follow .followus_mobile{ display: none;} @media screen and (max-width: 980px){ .join_follow a{ margin-left: 0px;} .join_follow span{ margin-left: 0px; margin-right: 0;} .articlename_join_follow{ display: block; margin-bottom: 5px;} .articlename_join_follow .left_block{ width: 100%; bottom: 8px; top: unset;} .join_follow{ text-align: center; display: flex !important; justify-content: center; float: none; margin-top: 0; margin-bottom: 20px; gap: 10px;} .show_in_desktop{ display: none;} .show_in_mobile{ display: block;} .articlename_join_follow.linechngs .article_schedule{ line-height: 20px;} .join_follow .joinus_mobile{ background: url(\"https://images.mon",
+          "desc": "",
           "link": "https://www.moneycontrol.com/news/business/banks/indusind-bank-expects-margins-to-recover-by-q4-cuts-cd-book-by-rs-10-000-crore-14058816.html",
           "isNew": false
         },
@@ -1987,7 +1997,7 @@
           "year": null,
           "cat": "News",
           "title": "RBI's net dollar purchases hit record $43.26 billion in August: Bulletin",
-          "desc": ".article_author .byline_txt, .author_wrapper .byline_txt{ font: 400 14px/20px 'Josefin Sans', sans-serif !important; color: #343434 !important; display: inline-block; display: inline-block; width: auto !important;} @media screen and (max-width: 1279px){ .article_author .byline_txt, .author_wrapper .byline_txt{ font-size: 12px !important; line-height: 18px !important; width: auto !important;}} .articlename_join_follow{ display: flex; align-items: center; margin-bottom: 40px;} .articlename_join_follow .left_block{ width: calc(100% - 220px);} .join_follow{ float: right;} .join_follow{ display: flex; margin-left: 0;} .join_follow a:first-child span{ vertical-align: middle;} .join_follow a{ margin-left: 5px; color: #000000;} .join_follow span{ display: inline-block; vertical-align: text-bottom; margin-right: 5px;} .show_in_mobile{ display: none;} .articlename_join_follow.linechngs{ align-items: center;} .articlename_join_follow.linechngs .article_author{ border-right: 0;} .articlename_join_follow.linechngs .article_schedule{ line-height: 25px;} .articlename_join_follow .left_block{ position: relative; top: 0;} .join_follow .joinus_desktop{ width: 88px; height: 40px;} .join_follow .followus_desktop{ width: 106px; height: 40px;} .join_follow .preferred_desktop{ width: 150px; height: 40px;} .join_follow .joinus_mobile, .join_follow .followus_mobile{ display: none;} @media screen and (max-width: 980px){ .join_follow a{ margin-left: 0px;} .join_follow span{ margin-left: 0px; margin-right: 0;} .articlename_join_follow{ display: block; margin-bottom: 5px;} .articlename_join_follow .left_block{ width: 100%; bottom: 8px; top: unset;} .join_follow{ text-align: center; display: flex !important; justify-content: center; float: none; margin-top: 0; margin-bottom: 20px; gap: 10px;} .show_in_desktop{ display: none;} .show_in_mobile{ display: block;} .articlename_join_follow.linechngs .article_schedule{ line-height: 20px;} .join_follow .joinus_mobile{ background: url(\"https://images.mon",
+          "desc": "",
           "link": "https://www.moneycontrol.com/news/business/banks/rbi-s-net-dollar-purchases-hit-record-43-26-billion-in-august-bulletin-14058812.html",
           "isNew": false
         },
@@ -1997,7 +2007,7 @@
           "year": null,
           "cat": "News",
           "title": "RBI spells out operational risk capital rules for banks, changes from April 2027",
-          "desc": ".article_author .byline_txt, .author_wrapper .byline_txt{ font: 400 14px/20px 'Josefin Sans', sans-serif !important; color: #343434 !important; display: inline-block; display: inline-block; width: auto !important;} @media screen and (max-width: 1279px){ .article_author .byline_txt, .author_wrapper .byline_txt{ font-size: 12px !important; line-height: 18px !important; width: auto !important;}} .articlename_join_follow{ display: flex; align-items: center; margin-bottom: 40px;} .articlename_join_follow .left_block{ width: calc(100% - 220px);} .join_follow{ float: right;} .join_follow{ display: flex; margin-left: 0;} .join_follow a:first-child span{ vertical-align: middle;} .join_follow a{ margin-left: 5px; color: #000000;} .join_follow span{ display: inline-block; vertical-align: text-bottom; margin-right: 5px;} .show_in_mobile{ display: none;} .articlename_join_follow.linechngs{ align-items: center;} .articlename_join_follow.linechngs .article_author{ border-right: 0;} .articlename_join_follow.linechngs .article_schedule{ line-height: 25px;} .articlename_join_follow .left_block{ position: relative; top: 0;} .join_follow .joinus_desktop{ width: 88px; height: 40px;} .join_follow .followus_desktop{ width: 106px; height: 40px;} .join_follow .preferred_desktop{ width: 150px; height: 40px;} .join_follow .joinus_mobile, .join_follow .followus_mobile{ display: none;} @media screen and (max-width: 980px){ .join_follow a{ margin-left: 0px;} .join_follow span{ margin-left: 0px; margin-right: 0;} .articlename_join_follow{ display: block; margin-bottom: 5px;} .articlename_join_follow .left_block{ width: 100%; bottom: 8px; top: unset;} .join_follow{ text-align: center; display: flex !important; justify-content: center; float: none; margin-top: 0; margin-bottom: 20px; gap: 10px;} .show_in_desktop{ display: none;} .show_in_mobile{ display: block;} .articlename_join_follow.linechngs .article_schedule{ line-height: 20px;} .join_follow .joinus_mobile{ background: url(\"https://images.mon",
+          "desc": "",
           "link": "https://www.moneycontrol.com/news/business/banks/rbi-spells-out-operational-risk-capital-rules-for-banks-changes-from-april-2027-14058810.html",
           "isNew": false
         },
@@ -2007,7 +2017,7 @@
           "year": null,
           "cat": "News",
           "title": "RBI Bulletin | Bank lending rates can fall even without rate cuts, RBI study finds",
-          "desc": ".article_author .byline_txt, .author_wrapper .byline_txt{ font: 400 14px/20px 'Josefin Sans', sans-serif !important; color: #343434 !important; display: inline-block; display: inline-block; width: auto !important;} @media screen and (max-width: 1279px){ .article_author .byline_txt, .author_wrapper .byline_txt{ font-size: 12px !important; line-height: 18px !important; width: auto !important;}} .articlename_join_follow{ display: flex; align-items: center; margin-bottom: 40px;} .articlename_join_follow .left_block{ width: calc(100% - 220px);} .join_follow{ float: right;} .join_follow{ display: flex; margin-left: 0;} .join_follow a:first-child span{ vertical-align: middle;} .join_follow a{ margin-left: 5px; color: #000000;} .join_follow span{ display: inline-block; vertical-align: text-bottom; margin-right: 5px;} .show_in_mobile{ display: none;} .articlename_join_follow.linechngs{ align-items: center;} .articlename_join_follow.linechngs .article_author{ border-right: 0;} .articlename_join_follow.linechngs .article_schedule{ line-height: 25px;} .articlename_join_follow .left_block{ position: relative; top: 0;} .join_follow .joinus_desktop{ width: 88px; height: 40px;} .join_follow .followus_desktop{ width: 106px; height: 40px;} .join_follow .preferred_desktop{ width: 150px; height: 40px;} .join_follow .joinus_mobile, .join_follow .followus_mobile{ display: none;} @media screen and (max-width: 980px){ .join_follow a{ margin-left: 0px;} .join_follow span{ margin-left: 0px; margin-right: 0;} .articlename_join_follow{ display: block; margin-bottom: 5px;} .articlename_join_follow .left_block{ width: 100%; bottom: 8px; top: unset;} .join_follow{ text-align: center; display: flex !important; justify-content: center; float: none; margin-top: 0; margin-bottom: 20px; gap: 10px;} .show_in_desktop{ display: none;} .show_in_mobile{ display: block;} .articlename_join_follow.linechngs .article_schedule{ line-height: 20px;} .join_follow .joinus_mobile{ background: url(\"https://images.mon",
+          "desc": "",
           "link": "https://www.moneycontrol.com/news/business/banks/rbi-bulletin-bank-lending-rates-can-fall-even-without-rate-cuts-rbi-study-finds-14058781.html",
           "isNew": false
         },
@@ -2017,7 +2027,7 @@
           "year": null,
           "cat": "News",
           "title": "Bank of India Q2 net profit grows 18.68%; global profit rises 25% to Rs 3,202 crore on strong NII growth",
-          "desc": ".article_author .byline_txt, .author_wrapper .byline_txt{ font: 400 14px/20px 'Josefin Sans', sans-serif !important; color: #343434 !important; display: inline-block; display: inline-block; width: auto !important;} @media screen and (max-width: 1279px){ .article_author .byline_txt, .author_wrapper .byline_txt{ font-size: 12px !important; line-height: 18px !important; width: auto !important;}} .articlename_join_follow{ display: flex; align-items: center; margin-bottom: 40px;} .articlename_join_follow .left_block{ width: calc(100% - 220px);} .join_follow{ float: right;} .join_follow{ display: flex; margin-left: 0;} .join_follow a:first-child span{ vertical-align: middle;} .join_follow a{ margin-left: 5px; color: #000000;} .join_follow span{ display: inline-block; vertical-align: text-bottom; margin-right: 5px;} .show_in_mobile{ display: none;} .articlename_join_follow.linechngs{ align-items: center;} .articlename_join_follow.linechngs .article_author{ border-right: 0;} .articlename_join_follow.linechngs .article_schedule{ line-height: 25px;} .articlename_join_follow .left_block{ position: relative; top: 0;} .join_follow .joinus_desktop{ width: 88px; height: 40px;} .join_follow .followus_desktop{ width: 106px; height: 40px;} .join_follow .preferred_desktop{ width: 150px; height: 40px;} .join_follow .joinus_mobile, .join_follow .followus_mobile{ display: none;} @media screen and (max-width: 980px){ .join_follow a{ margin-left: 0px;} .join_follow span{ margin-left: 0px; margin-right: 0;} .articlename_join_follow{ display: block; margin-bottom: 5px;} .articlename_join_follow .left_block{ width: 100%; bottom: 8px; top: unset;} .join_follow{ text-align: center; display: flex !important; justify-content: center; float: none; margin-top: 0; margin-bottom: 20px; gap: 10px;} .show_in_desktop{ display: none;} .show_in_mobile{ display: block;} .articlename_join_follow.linechngs .article_schedule{ line-height: 20px;} .join_follow .joinus_mobile{ background: url(\"https://images.mon",
+          "desc": "",
           "link": "https://www.moneycontrol.com/news/business/banks/bank-of-india-q2-net-profit-grows-18-68-global-profit-rises-25-to-rs-3-202-crore-on-strong-nii-growth-14058779.html",
           "isNew": false
         },
@@ -2027,7 +2037,7 @@
           "year": null,
           "cat": "News",
           "title": "RBI Bulletin | FCNR-B deposit inflows help lower banks' deposit costs, RBI says",
-          "desc": ".article_author .byline_txt, .author_wrapper .byline_txt{ font: 400 14px/20px 'Josefin Sans', sans-serif !important; color: #343434 !important; display: inline-block; display: inline-block; width: auto !important;} @media screen and (max-width: 1279px){ .article_author .byline_txt, .author_wrapper .byline_txt{ font-size: 12px !important; line-height: 18px !important; width: auto !important;}} .articlename_join_follow{ display: flex; align-items: center; margin-bottom: 40px;} .articlename_join_follow .left_block{ width: calc(100% - 220px);} .join_follow{ float: right;} .join_follow{ display: flex; margin-left: 0;} .join_follow a:first-child span{ vertical-align: middle;} .join_follow a{ margin-left: 5px; color: #000000;} .join_follow span{ display: inline-block; vertical-align: text-bottom; margin-right: 5px;} .show_in_mobile{ display: none;} .articlename_join_follow.linechngs{ align-items: center;} .articlename_join_follow.linechngs .article_author{ border-right: 0;} .articlename_join_follow.linechngs .article_schedule{ line-height: 25px;} .articlename_join_follow .left_block{ position: relative; top: 0;} .join_follow .joinus_desktop{ width: 88px; height: 40px;} .join_follow .followus_desktop{ width: 106px; height: 40px;} .join_follow .preferred_desktop{ width: 150px; height: 40px;} .join_follow .joinus_mobile, .join_follow .followus_mobile{ display: none;} @media screen and (max-width: 980px){ .join_follow a{ margin-left: 0px;} .join_follow span{ margin-left: 0px; margin-right: 0;} .articlename_join_follow{ display: block; margin-bottom: 5px;} .articlename_join_follow .left_block{ width: 100%; bottom: 8px; top: unset;} .join_follow{ text-align: center; display: flex !important; justify-content: center; float: none; margin-top: 0; margin-bottom: 20px; gap: 10px;} .show_in_desktop{ display: none;} .show_in_mobile{ display: block;} .articlename_join_follow.linechngs .article_schedule{ line-height: 20px;} .join_follow .joinus_mobile{ background: url(\"https://images.mon",
+          "desc": "",
           "link": "https://www.moneycontrol.com/news/business/economy/rbi-bulletin-fcnr-b-deposit-inflows-help-lower-banks-deposit-costs-rbi-says-14058776.html",
           "isNew": false
         },
@@ -2037,7 +2047,7 @@
           "year": null,
           "cat": "News",
           "title": "RBI mandates SA-CCR for banks with derivative outstanding of Rs 25,000 crore and above",
-          "desc": ".article_author .byline_txt, .author_wrapper .byline_txt{ font: 400 14px/20px 'Josefin Sans', sans-serif !important; color: #343434 !important; display: inline-block; display: inline-block; width: auto !important;} @media screen and (max-width: 1279px){ .article_author .byline_txt, .author_wrapper .byline_txt{ font-size: 12px !important; line-height: 18px !important; width: auto !important;}} .articlename_join_follow{ display: flex; align-items: center; margin-bottom: 40px;} .articlename_join_follow .left_block{ width: calc(100% - 220px);} .join_follow{ float: right;} .join_follow{ display: flex; margin-left: 0;} .join_follow a:first-child span{ vertical-align: middle;} .join_follow a{ margin-left: 5px; color: #000000;} .join_follow span{ display: inline-block; vertical-align: text-bottom; margin-right: 5px;} .show_in_mobile{ display: none;} .articlename_join_follow.linechngs{ align-items: center;} .articlename_join_follow.linechngs .article_author{ border-right: 0;} .articlename_join_follow.linechngs .article_schedule{ line-height: 25px;} .articlename_join_follow .left_block{ position: relative; top: 0;} .join_follow .joinus_desktop{ width: 88px; height: 40px;} .join_follow .followus_desktop{ width: 106px; height: 40px;} .join_follow .preferred_desktop{ width: 150px; height: 40px;} .join_follow .joinus_mobile, .join_follow .followus_mobile{ display: none;} @media screen and (max-width: 980px){ .join_follow a{ margin-left: 0px;} .join_follow span{ margin-left: 0px; margin-right: 0;} .articlename_join_follow{ display: block; margin-bottom: 5px;} .articlename_join_follow .left_block{ width: 100%; bottom: 8px; top: unset;} .join_follow{ text-align: center; display: flex !important; justify-content: center; float: none; margin-top: 0; margin-bottom: 20px; gap: 10px;} .show_in_desktop{ display: none;} .show_in_mobile{ display: block;} .articlename_join_follow.linechngs .article_schedule{ line-height: 20px;} .join_follow .joinus_mobile{ background: url(\"https://images.mon",
+          "desc": "",
           "link": "https://www.moneycontrol.com/news/business/banks/rbi-mandates-sa-ccr-for-banks-with-derivative-outstanding-of-rs-25-000-crore-and-above-14058716.html",
           "isNew": false
         },
@@ -2047,7 +2057,7 @@
           "year": null,
           "cat": "News",
           "title": "SMBC factored in adverse AT-1 bond verdict while investing in Yes Bank: Sources",
-          "desc": ".article_author .byline_txt, .author_wrapper .byline_txt{ font: 400 14px/20px 'Josefin Sans', sans-serif !important; color: #343434 !important; display: inline-block; display: inline-block; width: auto !important;} @media screen and (max-width: 1279px){ .article_author .byline_txt, .author_wrapper .byline_txt{ font-size: 12px !important; line-height: 18px !important; width: auto !important;}} .articlename_join_follow{ display: flex; align-items: center; margin-bottom: 40px;} .articlename_join_follow .left_block{ width: calc(100% - 220px);} .join_follow{ float: right;} .join_follow{ display: flex; margin-left: 0;} .join_follow a:first-child span{ vertical-align: middle;} .join_follow a{ margin-left: 5px; color: #000000;} .join_follow span{ display: inline-block; vertical-align: text-bottom; margin-right: 5px;} .show_in_mobile{ display: none;} .articlename_join_follow.linechngs{ align-items: center;} .articlename_join_follow.linechngs .article_author{ border-right: 0;} .articlename_join_follow.linechngs .article_schedule{ line-height: 25px;} .articlename_join_follow .left_block{ position: relative; top: 0;} .join_follow .joinus_desktop{ width: 88px; height: 40px;} .join_follow .followus_desktop{ width: 106px; height: 40px;} .join_follow .preferred_desktop{ width: 150px; height: 40px;} .join_follow .joinus_mobile, .join_follow .followus_mobile{ display: none;} @media screen and (max-width: 980px){ .join_follow a{ margin-left: 0px;} .join_follow span{ margin-left: 0px; margin-right: 0;} .articlename_join_follow{ display: block; margin-bottom: 5px;} .articlename_join_follow .left_block{ width: 100%; bottom: 8px; top: unset;} .join_follow{ text-align: center; display: flex !important; justify-content: center; float: none; margin-top: 0; margin-bottom: 20px; gap: 10px;} .show_in_desktop{ display: none;} .show_in_mobile{ display: block;} .articlename_join_follow.linechngs .article_schedule{ line-height: 20px;} .join_follow .joinus_mobile{ background: url(\"https://images.mon",
+          "desc": "",
           "link": "https://www.moneycontrol.com/news/business/banks/smbc-was-aware-of-yes-bank-s-at-1-bonds-litigation-risk-ahead-of-deal-sources-14057806.html",
           "isNew": false
         },
@@ -2057,7 +2067,7 @@
           "year": null,
           "cat": "News",
           "title": "Karur Vysya Bank to tighten grip on gold loan portfolio: MD & CEO B Ramesh Babu",
-          "desc": ".article_author .byline_txt, .author_wrapper .byline_txt{ font: 400 14px/20px 'Josefin Sans', sans-serif !important; color: #343434 !important; display: inline-block; display: inline-block; width: auto !important;} @media screen and (max-width: 1279px){ .article_author .byline_txt, .author_wrapper .byline_txt{ font-size: 12px !important; line-height: 18px !important; width: auto !important;}} .articlename_join_follow{ display: flex; align-items: center; margin-bottom: 40px;} .articlename_join_follow .left_block{ width: calc(100% - 220px);} .join_follow{ float: right;} .join_follow{ display: flex; margin-left: 0;} .join_follow a:first-child span{ vertical-align: middle;} .join_follow a{ margin-left: 5px; color: #000000;} .join_follow span{ display: inline-block; vertical-align: text-bottom; margin-right: 5px;} .show_in_mobile{ display: none;} .articlename_join_follow.linechngs{ align-items: center;} .articlename_join_follow.linechngs .article_author{ border-right: 0;} .articlename_join_follow.linechngs .article_schedule{ line-height: 25px;} .articlename_join_follow .left_block{ position: relative; top: 0;} .join_follow .joinus_desktop{ width: 88px; height: 40px;} .join_follow .followus_desktop{ width: 106px; height: 40px;} .join_follow .preferred_desktop{ width: 150px; height: 40px;} .join_follow .joinus_mobile, .join_follow .followus_mobile{ display: none;} @media screen and (max-width: 980px){ .join_follow a{ margin-left: 0px;} .join_follow span{ margin-left: 0px; margin-right: 0;} .articlename_join_follow{ display: block; margin-bottom: 5px;} .articlename_join_follow .left_block{ width: 100%; bottom: 8px; top: unset;} .join_follow{ text-align: center; display: flex !important; justify-content: center; float: none; margin-top: 0; margin-bottom: 20px; gap: 10px;} .show_in_desktop{ display: none;} .show_in_mobile{ display: block;} .articlename_join_follow.linechngs .article_schedule{ line-height: 20px;} .join_follow .joinus_mobile{ background: url(\"https://images.mon",
+          "desc": "",
           "link": "https://www.moneycontrol.com/news/business/banks/karur-vysya-bank-to-tighten-grip-on-gold-loan-portfolio-md-ceo-b-ramesh-babu-14057474.html",
           "isNew": false
         },
@@ -2067,7 +2077,7 @@
           "year": null,
           "cat": "News",
           "title": "RBI may continue VRR auctions as overnight rates rise above repo amid liquidity squeeze",
-          "desc": ".article_author .byline_txt, .author_wrapper .byline_txt{ font: 400 14px/20px 'Josefin Sans', sans-serif !important; color: #343434 !important; display: inline-block; display: inline-block; width: auto !important;} @media screen and (max-width: 1279px){ .article_author .byline_txt, .author_wrapper .byline_txt{ font-size: 12px !important; line-height: 18px !important; width: auto !important;}} .articlename_join_follow{ display: flex; align-items: center; margin-bottom: 40px;} .articlename_join_follow .left_block{ width: calc(100% - 220px);} .join_follow{ float: right;} .join_follow{ display: flex; margin-left: 0;} .join_follow a:first-child span{ vertical-align: middle;} .join_follow a{ margin-left: 5px; color: #000000;} .join_follow span{ display: inline-block; vertical-align: text-bottom; margin-right: 5px;} .show_in_mobile{ display: none;} .articlename_join_follow.linechngs{ align-items: center;} .articlename_join_follow.linechngs .article_author{ border-right: 0;} .articlename_join_follow.linechngs .article_schedule{ line-height: 25px;} .articlename_join_follow .left_block{ position: relative; top: 0;} .join_follow .joinus_desktop{ width: 88px; height: 40px;} .join_follow .followus_desktop{ width: 106px; height: 40px;} .join_follow .preferred_desktop{ width: 150px; height: 40px;} .join_follow .joinus_mobile, .join_follow .followus_mobile{ display: none;} @media screen and (max-width: 980px){ .join_follow a{ margin-left: 0px;} .join_follow span{ margin-left: 0px; margin-right: 0;} .articlename_join_follow{ display: block; margin-bottom: 5px;} .articlename_join_follow .left_block{ width: 100%; bottom: 8px; top: unset;} .join_follow{ text-align: center; display: flex !important; justify-content: center; float: none; margin-top: 0; margin-bottom: 20px; gap: 10px;} .show_in_desktop{ display: none;} .show_in_mobile{ display: block;} .articlename_join_follow.linechngs .article_schedule{ line-height: 20px;} .join_follow .joinus_mobile{ background: url(\"https://images.mon",
+          "desc": "",
           "link": "https://www.moneycontrol.com/news/business/banks/rbi-may-continue-vrr-auctions-as-overnight-rates-rise-above-repo-amid-liquidity-squeeze-14057430.html",
           "isNew": false
         },
@@ -2077,7 +2087,7 @@
           "year": null,
           "cat": "News",
           "title": "As gold loans drive credit expansion for NBFCs, early signs of distress emerge",
-          "desc": "var is_app =0; var _w18WNSITE='WEB'; /*== common css ==*/ * { margin: 0; padding: 0 } body { padding: 0; margin: 0; background: #fff none repeat scroll 0 0; font-family: 'Lato', sans-serif; color: #282828; font-size: 100%; font-weight: 400 } a, body { font-family: \"Lato\", sans-serif } a, a:hover { text-decoration: none } a { color: #337ab7; text-decoration: none } a:focus, a:hover { color: #23527c; text-decoration: underline } table { border-collapse: collapse; border-spacing: 0 } td, th { padding: 0 } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; padding: 0; margin: 0 } button, input, optgroup, select, textarea { color: inherit; font: inherit; margin: 0 } h1, h2, h3, h4, h5, h6, li, p, ul { margin: 0; padding: 0 } .clearfix::after { clear: both; content: \".\"; display: block; height: 0; visibility: hidden } .clearfix:after { clear: both } .clearfix:after { content: \".\"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0 } .CL { clear: both; font-size: 0; height: 0; line-height: 0; } .clear { clear: both; } .FL { float: left } .FR { float: right; } .fleft { float: left } .fright { float: right } .TAR { text-align: right; } audio, canvas, iframe, img, svg, video { vertical-align: middle; } img { border: none; max-width: 100%; } .PR { position: relative; display: block } li, ul { list-style: outside none none } .CTR { text-align: center } b, strong { font-weight: 700; } .db { display: block } .PR10 { padding-right: 10px; } .PA10 { padding: 10px; } .PA15 { padding: 15px } .MT1 { margin-top: 1px } .MT2 { margin-top: 2px } .MT5 { margin-top: 5px } .MT10 { margin-top: 10px } .MT15 { margin-top: 15px } .MT20 { margin-top: 20px } .MR30 { margin-right: 30px; } .mtop { margin-top: 45px } .MR10 { margin-right: 10px } .MB5 { margin-bottom: 5px } .MB35 { margin-bottom: 35px } .ML5 { margin-left: 5px } .ML10 { margin-left: 10px } .ML15 { margin-left: 15px } .PB10 { padding-bottom: 10",
+          "desc": "",
           "link": "https://www.moneycontrol.com/news/opinion/as-gold-loans-drive-credit-expansion-for-nbfcs-early-signs-of-distress-emerge-14057081.html",
           "isNew": false
         },
@@ -2087,12 +2097,12 @@
           "year": null,
           "cat": "News",
           "title": "RBI Deputy Governor Swaminathan warns banks against diluting controls, flags mis-selling and customer data risks",
-          "desc": ".article_author .byline_txt, .author_wrapper .byline_txt{ font: 400 14px/20px 'Josefin Sans', sans-serif !important; color: #343434 !important; display: inline-block; display: inline-block; width: auto !important;} @media screen and (max-width: 1279px){ .article_author .byline_txt, .author_wrapper .byline_txt{ font-size: 12px !important; line-height: 18px !important; width: auto !important;}} .articlename_join_follow{ display: flex; align-items: center; margin-bottom: 40px;} .articlename_join_follow .left_block{ width: calc(100% - 220px);} .join_follow{ float: right;} .join_follow{ display: flex; margin-left: 0;} .join_follow a:first-child span{ vertical-align: middle;} .join_follow a{ margin-left: 5px; color: #000000;} .join_follow span{ display: inline-block; vertical-align: text-bottom; margin-right: 5px;} .show_in_mobile{ display: none;} .articlename_join_follow.linechngs{ align-items: center;} .articlename_join_follow.linechngs .article_author{ border-right: 0;} .articlename_join_follow.linechngs .article_schedule{ line-height: 25px;} .articlename_join_follow .left_block{ position: relative; top: 0;} .join_follow .joinus_desktop{ width: 88px; height: 40px;} .join_follow .followus_desktop{ width: 106px; height: 40px;} .join_follow .preferred_desktop{ width: 150px; height: 40px;} .join_follow .joinus_mobile, .join_follow .followus_mobile{ display: none;} @media screen and (max-width: 980px){ .join_follow a{ margin-left: 0px;} .join_follow span{ margin-left: 0px; margin-right: 0;} .articlename_join_follow{ display: block; margin-bottom: 5px;} .articlename_join_follow .left_block{ width: 100%; bottom: 8px; top: unset;} .join_follow{ text-align: center; display: flex !important; justify-content: center; float: none; margin-top: 0; margin-bottom: 20px; gap: 10px;} .show_in_desktop{ display: none;} .show_in_mobile{ display: block;} .articlename_join_follow.linechngs .article_schedule{ line-height: 20px;} .join_follow .joinus_mobile{ background: url(\"https://images.mon",
+          "desc": "",
           "link": "https://www.moneycontrol.com/news/business/banks/rbi-deputy-governor-swaminathan-warns-banks-against-diluting-controls-flags-mis-selling-and-customer-data-risks-14056936.html",
           "isNew": false
         }
       ],
-      "ts": 1792951123203,
+      "ts": 1792959206001,
       "ok": true,
       "newCount": 0
     },
@@ -2103,13 +2113,23 @@
           "date": "25 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "YES Bank keeps AT-1 coupon payment decision open, says it has coupon discretion",
-          "desc": "Articles 4 min read YES Bank keeps AT-1 coupon payment decision open, says it has coupon discretion YES Bank is yet to decide on the payment of coupons on its AT-1 bonds after the Supreme Court set aside the 2020 write-off of Rs 8,415 crore. The bank said it retains coupon discretion under the bond terms and is assessing the judgment and its implications and shall communicate the final decision in due course. Shrishti Sharma ETBFSI Published On Oct 25, 2026 at 08:31 PM IST var news_msid = 135193204; console.log(news_msid); Select ETBFSI as Preferred Choice on Google Copy Link Share on WhatsApp Share on Linkedin Share on X Share on Telegram Share on Facebook YES Bank says it retains discretion over AT-1 coupon payments9% AT-1 coupon was due on October 18Bank had earlier indicated 240-bps pro forma hit to CET1 from bond reinstatementQ2 profit of Rs 1,080 crore would have turned into a Rs 5,217-crore loss on a pro forma basis 1 Private sector lender YES Bank has kept its decision on coupon payments on its Additional Tier-1 (AT-1) bonds open, says it retains the right to exercise coupon discretion under the terms of the bonds, while also assessing the implications of the Supreme Court judgment that set aside the Rs 8,415-crore write-off of the securities in 2020 on October 15, 2026. “Under the terms of the AT-1 Bonds, the Bank retains the right to exercise coupon discretion in respect of the Bonds,” YES Bank said in an exchange filing. Advt The lender said that since its evaluation and assessment had not been completed, it would communicate its decision, if any, on whether or not to exercise coupon discretion after completing the assessment.The disclosure comes after the scheduled October 18 coupon payment date for YES Bank's 9% AT-1 bonds issued under the October 17, 2017 Information Memorandum. The coupon date fell three days after the Supreme Court's October 15 judgment on the bonds.What YES Bank said on October 19The latest disclosure follows commentary from YES Ban",
-          "link": "https://bfsi.economictimes.indiatimes.com/articles/yes-bank-keeps-at-1-coupon-payment-decision-open-says-it-has-coupon-discretion/135193204?utm_source=top_story&utm_medium=homepage",
+          "title": "IRDAI extends deadline for feedback on insurance distribution reforms to October 31",
+          "desc": "Articles 1 min read IRDAI extends deadline for feedback on insurance distribution reforms to October 31 Regulator receives over 650 comments on its two-part consultation paper proposing changes to the economics of insurance distribution. ETBFSI Staff ETBFSI Published On Oct 25, 2026 at 05:12 PM IST var news_msid = 135190036; console.log(news_msid); Select ETBFSI as Preferred Choice on Google Copy Link Share on WhatsApp Share on Linkedin Share on X Share on Telegram Share on Facebook The Insurance Regulatory and Development Authority of India (IRDAI) has extended the deadline for submitting feedback on its proposed insurance distribution reforms by a week to October 31, following an encouraging response from stakeholders, with over 650 comments received so far.IRDAI's commission overhaul may deter new insurance agents.The regulator had released a two-part consultation paper, titled ‘Recalibrating Economics of Insurance Distribution’, on September 23, seeking views from policyholders, insurers, intermediaries, the public and other stakeholders on the proposed changes.The consultation aims to foster a more efficient and inclusive insurance distribution ecosystem, with the feedback expected to inform further examination and refinement of the proposed reforms. Advt In a press release, IRDAI said the extension was intended to facilitate wider participation in the consultation process, given the significant interest shown so far.Stakeholders can submit their comments through the dedicated web portal at https://iib.gov.in/dr. They can also download the prescribed Excel template from the portal, complete it and upload it online, or email the completed template to drfeedback@iib.gov.in with the subject line “Reforms for Recalibrating Economics of Insurance Distribution”.The regulator said all other details and terms of the consultation paper remain unchanged. By ETBFSI Staff , ETBFSI Published On Oct 25, 2026 at 05:12 PM IST Telegram Facebook Copy Link Comments What are your ",
+          "link": "https://bfsi.economictimes.indiatimes.com/articles/irdai-extends-deadline-for-feedback-on-insurance-distribution-reforms-to-october-31/135190036?utm_source=top_story&utm_medium=homepage",
           "isNew": true
         },
         {
           "sr": 2,
+          "date": "25 Oct 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "YES Bank keeps AT-1 coupon payment decision open, says it has coupon discretion",
+          "desc": "Articles 4 min read YES Bank keeps AT-1 coupon payment decision open, says it has coupon discretion YES Bank is yet to decide on the payment of coupons on its AT-1 bonds after the Supreme Court set aside the 2020 write-off of Rs 8,415 crore. The bank said it retains coupon discretion under the bond terms and is assessing the judgment and its implications and shall communicate the final decision in due course. Shrishti Sharma ETBFSI Published On Oct 25, 2026 at 08:31 PM IST var news_msid = 135193204; console.log(news_msid); Select ETBFSI as Preferred Choice on Google Copy Link Share on WhatsApp Share on Linkedin Share on X Share on Telegram Share on Facebook YES Bank says it retains discretion over AT-1 coupon payments9% AT-1 coupon was due on October 18Bank had earlier indicated 240-bps pro forma hit to CET1 from bond reinstatementQ2 profit of Rs 1,080 crore would have turned into a Rs 5,217-crore loss on a pro forma basis 1 Private sector lender YES Bank has kept its decision on coupon payments on its Additional Tier-1 (AT-1) bonds open, says it retains the right to exercise coupon discretion under the terms of the bonds, while also assessing the implications of the Supreme Court judgment that set aside the Rs 8,415-crore write-off of the securities in 2020 on October 15, 2026. “Under the terms of the AT-1 Bonds, the Bank retains the right to exercise coupon discretion in respect of the Bonds,” YES Bank said in an exchange filing. Advt The lender said that since its evaluation and assessment had not been completed, it would communicate its decision, if any, on whether or not to exercise coupon discretion after completing the assessment.The disclosure comes after the scheduled October 18 coupon payment date for YES Bank's 9% AT-1 bonds issued under the October 17, 2017 Information Memorandum. The coupon date fell three days after the Supreme Court's October 15 judgment on the bonds.What YES Bank said on October 19The latest disclosure follows commentary from YES Ban",
+          "link": "https://bfsi.economictimes.indiatimes.com/articles/yes-bank-keeps-at-1-coupon-payment-decision-open-says-it-has-coupon-discretion/135193204?utm_source=top_story&utm_medium=homepage",
+          "isNew": false
+        },
+        {
+          "sr": 3,
           "date": "23 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -2119,7 +2139,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 4,
           "date": "23 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -2129,27 +2149,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
-          "date": "23 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "CSB Bank board yet to discuss Fairfax-IDBI deal, CEO says",
-          "desc": "Articles 3 min read CSB Bank board yet to discuss Fairfax-IDBI deal, CEO says Fairfax Financial Holdings’ proposed acquisition of IDBI Bank has put its existing stake in CSB Bank under review, with the RBI giving the Canadian group two years to either merge CSB with IDBI or sell its stake. However, CSB’s board has not yet discussed the transaction, its MD & CEO Pralay Mondal said. Shrishti Sharma ETBFSI Published On Oct 24, 2026 at 01:37 AM IST Read by 100 Professionals var news_msid = 135155370; console.log(news_msid); Select ETBFSI as Preferred Choice on Google Copy Link Share on WhatsApp Share on Linkedin Share on X Share on Telegram Share on Facebook CSB Bank’s board has not discussed Fairfax Financial Holdings’ proposed acquisition of IDBI Bank or the future of its stake in CSB, with MD & CEO Pralay Mondal saying the lender has also not received any deposit from the Canadian financial services group.“Fairfax has no deposit with the bank,” Mondal said during the bank’s Q2 FY27 analyst call, responding to a question on reports that Fairfax had a Rs 4,000–5,000 crore deposit with CSB Bank. He added that the Rs 5,000-crore related-party figure disclosed in CSB Bank’s annual report does not pertain to Fairfax.“There could be other transactions, but nothing to do with deposits,” Executive Director B.K. Divakara said during the call. Advt Mondal also said the CSB board has not discussed the IDBI transaction in its last two meetings and that the bank is not currently thinking through the implications of Fairfax’s proposed acquisition.“The second question on Fairfax, board have not even discussed this point in the last two board meetings,” Mondal said. He added that Fairfax has two years to decide on the two options available to it, while the IDBI transaction itself is yet to be completed.“At this point of time, they have the transaction to yet to complete, so it is too early to even discuss transaction,” Mondal said, pointing to pending share purchase agreements, regul",
-          "link": "https://bfsi.economictimes.indiatimes.com/articles/csb-bank-board-yet-to-discuss-fairfax-idbi-deal-ceo-says/135155370?utm_source=top_story&utm_medium=homepage",
-          "isNew": false
-        },
-        {
           "sr": 5,
-          "date": "25 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "IRDAI extends deadline for feedback on insurance distribution reforms to October 31",
-          "desc": "Articles 1 min read IRDAI extends deadline for feedback on insurance distribution reforms to October 31 Regulator receives over 650 comments on its two-part consultation paper proposing changes to the economics of insurance distribution. ETBFSI Staff ETBFSI Published On Oct 25, 2026 at 05:12 PM IST var news_msid = 135190036; console.log(news_msid); Select ETBFSI as Preferred Choice on Google Copy Link Share on WhatsApp Share on Linkedin Share on X Share on Telegram Share on Facebook The Insurance Regulatory and Development Authority of India (IRDAI) has extended the deadline for submitting feedback on its proposed insurance distribution reforms by a week to October 31, following an encouraging response from stakeholders, with over 650 comments received so far.IRDAI's commission overhaul may deter new insurance agents.The regulator had released a two-part consultation paper, titled ‘Recalibrating Economics of Insurance Distribution’, on September 23, seeking views from policyholders, insurers, intermediaries, the public and other stakeholders on the proposed changes.The consultation aims to foster a more efficient and inclusive insurance distribution ecosystem, with the feedback expected to inform further examination and refinement of the proposed reforms. Advt In a press release, IRDAI said the extension was intended to facilitate wider participation in the consultation process, given the significant interest shown so far.Stakeholders can submit their comments through the dedicated web portal at https://iib.gov.in/dr. They can also download the prescribed Excel template from the portal, complete it and upload it online, or email the completed template to drfeedback@iib.gov.in with the subject line “Reforms for Recalibrating Economics of Insurance Distribution”.The regulator said all other details and terms of the consultation paper remain unchanged. By ETBFSI Staff , ETBFSI Published On Oct 25, 2026 at 05:12 PM IST Telegram Facebook Copy Link Comments What are your ",
-          "link": "https://bfsi.economictimes.indiatimes.com/articles/irdai-extends-deadline-for-feedback-on-insurance-distribution-reforms-to-october-31/135190036?utm_source=latest_news&utm_medium=homepage",
-          "isNew": true
-        },
-        {
-          "sr": 6,
           "date": "24 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -2159,7 +2159,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 6,
           "date": "24 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -2169,7 +2169,27 @@
           "isNew": false
         },
         {
+          "sr": 7,
+          "date": "24 Oct 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "AU Small Finance Bank Q2 profit jumps 53 pc to Rs 858 cr",
+          "desc": "Articles 1 min read AU Small Finance Bank Q2 profit jumps 53 pc to Rs 858 cr PTI Published On Oct 24, 2026 at 05:08 PM IST var news_msid = 135169691; console.log(news_msid); Select ETBFSI as Preferred Choice on Google Copy Link Share on WhatsApp Share on Linkedin Share on X Share on Telegram Share on Facebook New Delhi, AU Small Finance Bank on Saturday reported a 53 per cent surge in net profit at Rs 858 crore for the second quarter ended September 30, 2026 on the back of improvement in interest income.The lender had earned a net profit of Rs 561 crore in the year-ago period.Total income rose to Rs 6,382 crore in the quarter under review from Rs 5,224 crore in the same period a year ago, AU Small Finance Bank said in a regulatory filing.Interest income increased to Rs 5,612 crore as against Rs 4,511 crore in the corresponding second quarter of the previous year.Net interest income of the bank improved to Rs 2,820 crore in the July-September quarter, from Rs 2,144 crore in the September quarter of 2025, registering a growth of 32 per cent. Advt Net interest margin increased to 5.8 per cent from 5.5 per cent at the end of September 2025.Asset quality of the bank also improved with gross non-performing assets (NPAs) rising to 1.99 per cent of gross advances at the end of the September quarter 2026, as against 2.41 per cent a year ago.Net NPAs or bad loan too moderated to 0.81 per cent, as against 0.88 per cent in the year-ago period.However, the Capital Adequacy Ratio of the bank decreased to 18.54 per cent, from 18.78 per cent at the end of September 2025.\"This quarter's performance is a reflection of the institution we are steadily building, one that combines growth with profitability, and ambition with prudence,\" AU Small Finance Bank MD & CEO Sanjay Agarwal said.The balanced growth of the franchise, improving profitability and stable asset quality reinforce confidence that the foundations for sustained, long-term performance are firmly in place, he added. PTI PTI ",
+          "link": "https://bfsi.economictimes.indiatimes.com/articles/au-small-finance-bank-q2-profit-jumps-53-pc-to-rs-858-cr/135169691?utm_source=latest_news&utm_medium=homepage",
+          "isNew": true
+        },
+        {
           "sr": 8,
+          "date": "24 Oct 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Gold loan boom raises risk as delinquencies climb and borrower stress surfaces",
+          "desc": "Articles 3 min read Gold loan boom raises risk as delinquencies climb and borrower stress surfaces An estimated Rs 4.7 lakh crore of gold loan disbursements in 2025-26 went to borrowers who were already more than 90 days overdue on at least one other loan, according to an industry estimate. ETBFSI Research ETBFSI Published On Oct 24, 2026 at 01:59 PM IST var news_msid = 135161841; console.log(news_msid); Select ETBFSI as Preferred Choice on Google Copy Link Share on WhatsApp Share on Linkedin Share on X Share on Telegram Share on Facebook India’s gold loan boom raises questions over borrower stressBank gold loans rose 83% year on year to Rs 5.6 lakh crore in August 2026, while NBFC gold loans grew 69% to about Rs 3.6 lakh crore.Shriram Finance’s gross Stage 3 gold loans rose to 3.12% in September from 2.57% in June and 2.28% a year earlier.Bajaj Finance reported a sequential increase in Stage 2 and Stage 3 assets, partly linked to short tenure gold loan schemes that have since been discontinued.A further fall in gold prices could erode collateral buffers and increase recovery risks if borrower defaults rise, making conservative lending and timely auctions critical.India's fast growing gold loan market is showing early signs of stress, with rising delinquencies at some non banking financial companies (NBFCs) and concerns over borrowers already overdue on loans elsewhere raising questions about the quality of credit expansion. Bank loans against gold jewellery rose 83% year on year to Rs 5.6 lakh crore in August 2026, while NBFC gold loans grew 69% to about Rs 3.6 lakh crore, according to Reserve Bank of India data. Shriram Finance reported a rise in bad loans against gold this week, following concerns flagged by Bajaj Finance and Piramal Finance. Advt A key concern is that some borrowers may be using gold backed loans to repay overdue debt from other lenders, shifting liabilities without improving their ability to service them. An estimated Rs 4.7 lakh crore of gold ",
+          "link": "https://bfsi.economictimes.indiatimes.com/articles/gold-loan-boom-raises-risk-as-delinquencies-climb-and-borrower-stress-surfaces/135161841?utm_source=latest_news&utm_medium=homepage",
+          "isNew": true
+        },
+        {
+          "sr": 9,
           "date": "20 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -2179,7 +2199,17 @@
           "isNew": false
         },
         {
-          "sr": 9,
+          "sr": 10,
+          "date": "23 Oct 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "CSB Bank board yet to discuss Fairfax-IDBI deal, CEO says",
+          "desc": "Articles 3 min read CSB Bank board yet to discuss Fairfax-IDBI deal, CEO says Fairfax Financial Holdings’ proposed acquisition of IDBI Bank has put its existing stake in CSB Bank under review, with the RBI giving the Canadian group two years to either merge CSB with IDBI or sell its stake. However, CSB’s board has not yet discussed the transaction, its MD & CEO Pralay Mondal said. Shrishti Sharma ETBFSI Published On Oct 24, 2026 at 01:37 AM IST Read by 100 Professionals var news_msid = 135155370; console.log(news_msid); Select ETBFSI as Preferred Choice on Google Copy Link Share on WhatsApp Share on Linkedin Share on X Share on Telegram Share on Facebook CSB Bank’s board has not discussed Fairfax Financial Holdings’ proposed acquisition of IDBI Bank or the future of its stake in CSB, with MD & CEO Pralay Mondal saying the lender has also not received any deposit from the Canadian financial services group.“Fairfax has no deposit with the bank,” Mondal said during the bank’s Q2 FY27 analyst call, responding to a question on reports that Fairfax had a Rs 4,000–5,000 crore deposit with CSB Bank. He added that the Rs 5,000-crore related-party figure disclosed in CSB Bank’s annual report does not pertain to Fairfax.“There could be other transactions, but nothing to do with deposits,” Executive Director B.K. Divakara said during the call. Advt Mondal also said the CSB board has not discussed the IDBI transaction in its last two meetings and that the bank is not currently thinking through the implications of Fairfax’s proposed acquisition.“The second question on Fairfax, board have not even discussed this point in the last two board meetings,” Mondal said. He added that Fairfax has two years to decide on the two options available to it, while the IDBI transaction itself is yet to be completed.“At this point of time, they have the transaction to yet to complete, so it is too early to even discuss transaction,” Mondal said, pointing to pending share purchase agreements, regul",
+          "link": "https://bfsi.economictimes.indiatimes.com/articles/csb-bank-board-yet-to-discuss-fairfax-idbi-deal-ceo-says/135155370?utm_source=most_read&utm_medium=homepage",
+          "isNew": false
+        },
+        {
+          "sr": 11,
           "date": "15 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -2189,7 +2219,7 @@
           "isNew": false
         },
         {
-          "sr": 10,
+          "sr": 12,
           "date": "18 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -2199,7 +2229,7 @@
           "isNew": false
         },
         {
-          "sr": 11,
+          "sr": 13,
           "date": "20 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -2209,7 +2239,7 @@
           "isNew": false
         },
         {
-          "sr": 12,
+          "sr": 14,
           "date": "21 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -2219,7 +2249,7 @@
           "isNew": false
         },
         {
-          "sr": 13,
+          "sr": 15,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -2229,7 +2259,7 @@
           "isNew": false
         },
         {
-          "sr": 14,
+          "sr": 16,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -2239,9 +2269,9 @@
           "isNew": false
         }
       ],
-      "ts": 1792951129188,
+      "ts": 1792959211798,
       "ok": true,
-      "newCount": 2
+      "newCount": 3
     },
     "SEBI_0": {
       "rows": [
@@ -5838,7 +5868,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951164659,
+      "ts": 1792959246074,
       "ok": true,
       "newCount": 0
     },
@@ -6590,7 +6620,7 @@
         },
         {
           "sr": 63,
-          "date": "03 Jul 2023",
+          "date": "04 Jul 2023",
           "year": 2023,
           "cat": "Master Circular",
           "title": "Master Circular for Credit Rating Agencies",
@@ -7453,7 +7483,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951183790,
+      "ts": 1792959265124,
       "ok": true,
       "newCount": 0
     },
@@ -7465,7 +7495,7 @@
           "year": 2026,
           "cat": "Informal Guidance",
           "title": "Request for Informal Guidance under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from Share India Securities Limited in relation to the provisions of the Securities and Exchange Board of India (Portfolio Managers) Regulations, 2020 regarding permitting pledging of securities purchased under Discretionary Portfolio Management Services",
-          "desc": "Request for Informal Guidance under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from Share India Securities Limited in relation to the provisions of the Securities and Exchange Board of India (Portfolio Managers) Regulations, 2020 regarding permitting pledging of securities purchased under Discretionary Portfolio Management Services Aug 17, 2026| Informal Guidance 17-08-2026Informal Guidance Letter by SEBI22-06-2026Applicant’s Letter",
+          "desc": "S=- 4. 3| — Securitiesand Exchange Boardofindia NodalCo-ordinationCell InformalGuidance IssueNo:1/18948/2026 August 17, 2026 Share IndiaSecuritiesLimited UnitNo.615 and 616, 6th Floor, X-Change Plaza, DandlStreetCommercial Co-operativeSociety Limited, Road5 E, Block 53, Zone 5, Gift City, Gandhinagar,Gujarat-382050 Sir, KindAttn:Bhavya Vora,PrincipalOfficer- ShareIndiaSecuritiesLimited Subject:Request for InformalGuidanceundertheSecurities and Exchange BoardofIndia (Informal Guidance) Scheme, 2025on permitting pledging of securities purchased under Discretionary Portfolio Management Services. Ref:YourletterdatedJune 22, 2026 1. Inthecontextof your letterunder reference, you have,inter-alia, requested for guidance onthe permissibility and regulatoryimplications of pledging ofsecurities purchased under Discretionary Portfolio Management Services (D-PMS) and represented asunder: 1.1.Yourservicesinclude D-PMS.UndertheD-PMS model, clients open demataccounts withthe approved custodian, andall trading activities areexecuted throughempaneled brokers. 1.2.Thesecurities purchased underDPMSremain intheclient'sbeneficial ownership andareheldintheclient'sname inthedemataccountwith the approved custodian. 1.3.A prospective clienthas inquired from you whether they can pledge securitiesheld intheirdemat account (purchasedthrough theD-PMS framework). , \" \" - , - SEB! Bhavan, “G” Block, BandraKurla Complex, Mumbai - 400051 www.sebigov.in | 022 - 2644 9000 / 40459000 5=== : F__ Securitiesand Exchange BoardofIndia Continuation: 2.Inviewofthe above, you have soughtguidance intheformofan interpretive letter undertheSecuritiesand Exchange BoardofIndia (Informal Guidance) Scheme, 2025onthe followingqueries: Query 1:WhetheraPortfolio Managermaypermit aclientto pledge securities heldintheclient'sdemataccountundertheD-PMS framework, either directlyby theclientor through instructionsroutedviathePortfolio Manager tothe Custodian, considering thatthesesecuritiesare the client's property and rema",
           "link": "https://www.sebi.gov.in/enforcement/informal-guidance/aug-2026/request-for-informal-guidance-under-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2025-received-from-share-india-securities-limited-in-relation-to-the-provisions-of-the-securi-_103723.html",
           "summary": "SEBI’s Nodal Co-ordination Cell issued an informal guidance response to Share India Securities Limited on August 17, 2026, in answer to a June 22, 2026 request concerning whether securities bought under Discretionary Portfolio Management Services (D-PMS) may be pledged. The firm explained that, under its D-PMS setup, clients maintain demat accounts with an approved custodian, trades are executed through empaneled brokers, and the securities purchased remain in the client’s beneficial ownership and are held in the client’s name in the demat account; the specific practical question was whether a client can pledge those securities, either directly or by routing instructions through the portfolio manager to the custodian.\n\nThe document is an interpretive guidance request rather than a rulemaking or enforcement order, so it does not announce a new regulation, fee, threshold, or deadline. Its substance is that the requester is seeking SEBI’s view on the permissibility and regulatory implications of pledging client-held securities purchased through the D-PMS framework, including whether the portfolio manager may facilitate or permit such pledging despite the securities being the client’s property. The text provided stops at the formulation of Query 1 and does not include SEBI’s answer, conditions, or any final compliance direction. For compliance purposes, the only concrete operational facts stated are that the assets are held in the client’s demat account with an approved custodian, the trading is routed through empaneled brokers, and the issue concerns possible pledge instructions from the client directly or through the portfolio manager.",
           "summarySource": "desc",
@@ -7758,7 +7788,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951187020,
+      "ts": 1792959267343,
       "ok": true,
       "newCount": 0
     },
@@ -7861,9 +7891,9 @@
           "date": "27 Aug 2026",
           "year": 2026,
           "cat": "Consultation Paper",
-          "title": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers",
-          "desc": "Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers Click here to provide your comments Aug 27, 2026| Reports : Reports for Public Comments Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers<a href='https://www.sebi.gov.in/sebiweb/publiccommentv2/PublicCommentAction.do?doPublicComments=yes' target='_blank' style='color:#007ffc'> Click here to provide your comments </a>",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/exemption-from-the-requirement-of-mandatory-merchant-banker-appointment-for-small-value-debt-through-private-placement-by-certain-listed-issuers_104040.html",
+          "title": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers Click here to provide your comments",
+          "desc": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers Click here to provide your comments Aug 27, 2026| Reports : Reports for Public Comments Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers<a href='https://www.sebi.gov.in/sebiweb/publiccommentv2/PublicCommentAction.do?doPublicComments=yes' target='_blank' style='color:#007ffc'> Click here to provide your comments </a>",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/consultation-paper-on-exemption-from-the-requirement-of-mandatory-merchant-banker-appointment-for-small-value-debt-through-private-placement-by-certain-listed-issuers_104040.html",
           "isNew": false
         },
         {
@@ -8925,33 +8955,13 @@
           "date": "01 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
-          "title": "Modification in the conditions specified for reduction in denomination of debt securities and non-convertible redeemable preference shares (NCRPS)  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2025/modification-in-the-conditions-specified-for-reduction-in-denomination-of-debt-securities-and-non-convertible-redeemable-preference-shares-ncrps-_95769.html",
-          "isNew": false
-        },
-        {
-          "sr": 100,
-          "date": "01 Aug 2025",
-          "year": 2025,
-          "cat": "Consultation Paper",
-          "title": "Revised Norms for appointment of an independent third-party reviewer/ certifier for green debt security   Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2025/revised-norms-for-appointment-of-an-independent-third-party-reviewer-certifier-for-green-debt-security_95767.html",
-          "isNew": false
-        },
-        {
-          "sr": 101,
-          "date": "01 Aug 2025",
-          "year": 2025,
-          "cat": "Consultation Paper",
           "title": "Consultation Paper on Amendment to the definition of Strategic Investor for REITs and InvITs   Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2025/consultation-paper-on-amendment-to-the-definition-of-strategic-investor-for-reits-and-invits_95764.html",
           "isNew": false
         },
         {
-          "sr": 102,
+          "sr": 100,
           "date": "31 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -8961,7 +8971,7 @@
           "isNew": false
         },
         {
-          "sr": 103,
+          "sr": 101,
           "date": "25 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -8973,7 +8983,7 @@
           "isNew": false
         },
         {
-          "sr": 104,
+          "sr": 102,
           "date": "18 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -8985,7 +8995,7 @@
           "isNew": false
         },
         {
-          "sr": 105,
+          "sr": 103,
           "date": "16 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -8997,7 +9007,7 @@
           "isNew": false
         },
         {
-          "sr": 106,
+          "sr": 104,
           "date": "09 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9009,7 +9019,7 @@
           "isNew": false
         },
         {
-          "sr": 107,
+          "sr": 105,
           "date": "07 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9021,7 +9031,7 @@
           "isNew": false
         },
         {
-          "sr": 108,
+          "sr": 106,
           "date": "03 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9033,7 +9043,7 @@
           "isNew": false
         },
         {
-          "sr": 109,
+          "sr": 107,
           "date": "01 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9045,7 +9055,7 @@
           "isNew": false
         },
         {
-          "sr": 110,
+          "sr": 108,
           "date": "30 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9057,7 +9067,7 @@
           "isNew": false
         },
         {
-          "sr": 111,
+          "sr": 109,
           "date": "24 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9069,7 +9079,7 @@
           "isNew": false
         },
         {
-          "sr": 112,
+          "sr": 110,
           "date": "20 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9081,7 +9091,7 @@
           "isNew": false
         },
         {
-          "sr": 113,
+          "sr": 111,
           "date": "20 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9093,7 +9103,7 @@
           "isNew": false
         },
         {
-          "sr": 114,
+          "sr": 112,
           "date": "17 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9105,7 +9115,7 @@
           "isNew": false
         },
         {
-          "sr": 115,
+          "sr": 113,
           "date": "16 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9117,7 +9127,7 @@
           "isNew": false
         },
         {
-          "sr": 116,
+          "sr": 114,
           "date": "09 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9129,7 +9139,7 @@
           "isNew": false
         },
         {
-          "sr": 117,
+          "sr": 115,
           "date": "13 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9141,7 +9151,7 @@
           "isNew": false
         },
         {
-          "sr": 118,
+          "sr": 116,
           "date": "09 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9153,7 +9163,7 @@
           "isNew": false
         },
         {
-          "sr": 119,
+          "sr": 117,
           "date": "09 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9165,7 +9175,7 @@
           "isNew": false
         },
         {
-          "sr": 120,
+          "sr": 118,
           "date": "09 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9177,7 +9187,7 @@
           "isNew": false
         },
         {
-          "sr": 121,
+          "sr": 119,
           "date": "06 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9189,7 +9199,7 @@
           "isNew": false
         },
         {
-          "sr": 122,
+          "sr": 120,
           "date": "02 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9201,7 +9211,7 @@
           "isNew": false
         },
         {
-          "sr": 123,
+          "sr": 121,
           "date": "02 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9210,6 +9220,26 @@
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2025/consultation-paper-on-regulatory-amendments-for-reits-and-invits_93776.html",
           "summary": "This appears to be a consultation paper, not a final rule or binding circular, and the only information provided is the title: **“Consultation Paper on Regulatory Amendments for REITs and InvITs.”** Based on that title alone, the document indicates that the regulator is seeking feedback on proposed changes to the regulatory framework governing **Real Estate Investment Trusts (REITs)** and **Infrastructure Investment Trusts (InvITs)**, but no specific amendments, thresholds, deadlines, or compliance requirements are included in the text provided.  \n\nFor a corporate compliance team, the key takeaway is that this is an **upstream policy consultation** that may affect entities operating as REITs/InvITs, sponsors, investment managers, trustees, managers, unitholders, and potentially other market participants subject to those regimes, but the exact scope of impact cannot be determined from the supplied content. There are no stated effective dates, implementation timelines, filing obligations, approval processes, numerical thresholds, or reporting changes in the material provided.  \n\nBecause no substantive text was provided, this summary is necessarily general: the document signals that regulatory amendments are being considered and comments are being invited, so relevant stakeholders should review the full consultation paper and any accompanying draft amendments to assess whether operational, governance, disclosure, investor communication, or transaction-structuring changes would be required.",
           "summarySource": "title",
+          "isNew": false
+        },
+        {
+          "sr": 122,
+          "date": "30 Apr 2025",
+          "year": 2025,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on amendment to Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018 with the objective of mandatory de-materialization of existing securities of select shareholders prior to IPO  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2025/consultation-paper-on-amendment-to-securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018-with-the-objective-of-mandatory-de-materialization-of-existin-_93728.html",
+          "isNew": false
+        },
+        {
+          "sr": 123,
+          "date": "29 Apr 2025",
+          "year": 2025,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on Framework for Orderly Winding Down of Critical Operations and Services of a KYC (Know Your Client) Registration Agency (KRA)  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2025/consultation-paper-on-framework-for-orderly-winding-down-of-critical-operations-and-services-of-a-kyc-know-your-client-registration-agency-kra-_93696.html",
           "isNew": false
         },
         {
@@ -9780,26 +9810,6 @@
         },
         {
           "sr": 172,
-          "date": "22 Nov 2024",
-          "year": 2024,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on Process for appointment of specific KMPs of an MII; and cooling-off period for KMPs and Directors of an MII joining a competing MII  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2024/consultation-paper-on-process-for-appointment-of-specific-kmps-of-an-mii-and-cooling-off-period-for-kmps-and-directors-of-an-mii-joining-a-competing-mii_88686.html",
-          "isNew": false
-        },
-        {
-          "sr": 173,
-          "date": "19 Nov 2024",
-          "year": 2024,
-          "cat": "Consultation Paper",
-          "title": "Consultation paper on Review of SME segment framework under SEBI (ICDR) Regulations, 2018, and applicability of corporate governance provisions under SEBI (LODR) Regulations, 2015 on SME companies to strengthen pre-listing and post-listing SME provisions  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2024/consultation-paper-on-review-of-sme-segment-framework-under-sebi-icdr-regulations-2018-and-applicability-of-corporate-governance-provisions-under-sebi-lodr-regulations-2015-on-sme-companies-to-_88627.html",
-          "isNew": false
-        },
-        {
-          "sr": 174,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9809,7 +9819,7 @@
           "isNew": false
         },
         {
-          "sr": 175,
+          "sr": 173,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9819,7 +9829,7 @@
           "isNew": false
         },
         {
-          "sr": 176,
+          "sr": 174,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9831,7 +9841,7 @@
           "isNew": false
         },
         {
-          "sr": 177,
+          "sr": 175,
           "date": "12 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9843,7 +9853,7 @@
           "isNew": false
         },
         {
-          "sr": 178,
+          "sr": 176,
           "date": "11 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9855,7 +9865,7 @@
           "isNew": false
         },
         {
-          "sr": 179,
+          "sr": 177,
           "date": "09 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9867,7 +9877,7 @@
           "isNew": false
         },
         {
-          "sr": 180,
+          "sr": 178,
           "date": "06 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9879,7 +9889,7 @@
           "isNew": false
         },
         {
-          "sr": 181,
+          "sr": 179,
           "date": "04 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9891,7 +9901,7 @@
           "isNew": false
         },
         {
-          "sr": 182,
+          "sr": 180,
           "date": "01 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9903,7 +9913,7 @@
           "isNew": false
         },
         {
-          "sr": 183,
+          "sr": 181,
           "date": "31 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9915,7 +9925,7 @@
           "isNew": false
         },
         {
-          "sr": 184,
+          "sr": 182,
           "date": "31 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9927,7 +9937,7 @@
           "isNew": false
         },
         {
-          "sr": 185,
+          "sr": 183,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9939,7 +9949,7 @@
           "isNew": false
         },
         {
-          "sr": 186,
+          "sr": 184,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9951,7 +9961,7 @@
           "isNew": false
         },
         {
-          "sr": 187,
+          "sr": 185,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9963,7 +9973,7 @@
           "isNew": false
         },
         {
-          "sr": 188,
+          "sr": 186,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9975,7 +9985,7 @@
           "isNew": false
         },
         {
-          "sr": 189,
+          "sr": 187,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9987,7 +9997,7 @@
           "isNew": false
         },
         {
-          "sr": 190,
+          "sr": 188,
           "date": "28 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9999,7 +10009,7 @@
           "isNew": false
         },
         {
-          "sr": 191,
+          "sr": 189,
           "date": "24 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10011,7 +10021,7 @@
           "isNew": false
         },
         {
-          "sr": 192,
+          "sr": 190,
           "date": "22 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10023,7 +10033,7 @@
           "isNew": false
         },
         {
-          "sr": 193,
+          "sr": 191,
           "date": "16 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10035,7 +10045,7 @@
           "isNew": false
         },
         {
-          "sr": 194,
+          "sr": 192,
           "date": "08 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10047,7 +10057,7 @@
           "isNew": false
         },
         {
-          "sr": 195,
+          "sr": 193,
           "date": "04 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10059,7 +10069,7 @@
           "isNew": false
         },
         {
-          "sr": 196,
+          "sr": 194,
           "date": "27 Sept 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10071,7 +10081,7 @@
           "isNew": false
         },
         {
-          "sr": 197,
+          "sr": 195,
           "date": "26 Sept 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10081,7 +10091,7 @@
           "isNew": false
         },
         {
-          "sr": 198,
+          "sr": 196,
           "date": "24 Sept 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10091,7 +10101,7 @@
           "isNew": false
         },
         {
-          "sr": 199,
+          "sr": 197,
           "date": "20 Sept 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10101,7 +10111,7 @@
           "isNew": false
         },
         {
-          "sr": 200,
+          "sr": 198,
           "date": "30 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10111,7 +10121,7 @@
           "isNew": false
         },
         {
-          "sr": 201,
+          "sr": 199,
           "date": "29 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10123,7 +10133,7 @@
           "isNew": false
         },
         {
-          "sr": 202,
+          "sr": 200,
           "date": "29 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10135,7 +10145,7 @@
           "isNew": false
         },
         {
-          "sr": 203,
+          "sr": 201,
           "date": "28 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10147,7 +10157,7 @@
           "isNew": false
         },
         {
-          "sr": 204,
+          "sr": 202,
           "date": "28 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10159,7 +10169,7 @@
           "isNew": false
         },
         {
-          "sr": 205,
+          "sr": 203,
           "date": "22 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10171,7 +10181,7 @@
           "isNew": false
         },
         {
-          "sr": 206,
+          "sr": 204,
           "date": "21 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10183,7 +10193,7 @@
           "isNew": false
         },
         {
-          "sr": 207,
+          "sr": 205,
           "date": "20 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10195,7 +10205,7 @@
           "isNew": false
         },
         {
-          "sr": 208,
+          "sr": 206,
           "date": "17 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10207,7 +10217,7 @@
           "isNew": false
         },
         {
-          "sr": 209,
+          "sr": 207,
           "date": "16 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10219,7 +10229,7 @@
           "isNew": false
         },
         {
-          "sr": 210,
+          "sr": 208,
           "date": "16 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10231,7 +10241,7 @@
           "isNew": false
         },
         {
-          "sr": 211,
+          "sr": 209,
           "date": "16 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10243,7 +10253,7 @@
           "isNew": false
         },
         {
-          "sr": 212,
+          "sr": 210,
           "date": "09 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10255,7 +10265,7 @@
           "isNew": false
         },
         {
-          "sr": 213,
+          "sr": 211,
           "date": "08 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10267,7 +10277,7 @@
           "isNew": false
         },
         {
-          "sr": 214,
+          "sr": 212,
           "date": "06 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10279,7 +10289,7 @@
           "isNew": false
         },
         {
-          "sr": 215,
+          "sr": 213,
           "date": "06 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10291,7 +10301,7 @@
           "isNew": false
         },
         {
-          "sr": 216,
+          "sr": 214,
           "date": "05 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10303,7 +10313,7 @@
           "isNew": false
         },
         {
-          "sr": 217,
+          "sr": 215,
           "date": "30 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10315,7 +10325,7 @@
           "isNew": false
         },
         {
-          "sr": 218,
+          "sr": 216,
           "date": "30 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10327,7 +10337,7 @@
           "isNew": false
         },
         {
-          "sr": 219,
+          "sr": 217,
           "date": "29 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10339,7 +10349,7 @@
           "isNew": false
         },
         {
-          "sr": 220,
+          "sr": 218,
           "date": "25 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10351,7 +10361,7 @@
           "isNew": false
         },
         {
-          "sr": 221,
+          "sr": 219,
           "date": "22 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10363,7 +10373,7 @@
           "isNew": false
         },
         {
-          "sr": 222,
+          "sr": 220,
           "date": "16 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10373,7 +10383,7 @@
           "isNew": false
         },
         {
-          "sr": 223,
+          "sr": 221,
           "date": "16 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10383,7 +10393,7 @@
           "isNew": false
         },
         {
-          "sr": 224,
+          "sr": 222,
           "date": "09 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10393,7 +10403,7 @@
           "isNew": false
         },
         {
-          "sr": 225,
+          "sr": 223,
           "date": "05 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10403,7 +10413,7 @@
           "isNew": false
         },
         {
-          "sr": 226,
+          "sr": 224,
           "date": "01 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10415,7 +10425,7 @@
           "isNew": false
         },
         {
-          "sr": 227,
+          "sr": 225,
           "date": "28 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10427,7 +10437,7 @@
           "isNew": false
         },
         {
-          "sr": 228,
+          "sr": 226,
           "date": "26 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10439,7 +10449,7 @@
           "isNew": false
         },
         {
-          "sr": 229,
+          "sr": 227,
           "date": "08 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10451,7 +10461,7 @@
           "isNew": false
         },
         {
-          "sr": 230,
+          "sr": 228,
           "date": "07 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10463,7 +10473,7 @@
           "isNew": false
         },
         {
-          "sr": 231,
+          "sr": 229,
           "date": "05 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10475,7 +10485,7 @@
           "isNew": false
         },
         {
-          "sr": 232,
+          "sr": 230,
           "date": "23 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10487,7 +10497,7 @@
           "isNew": false
         },
         {
-          "sr": 233,
+          "sr": 231,
           "date": "22 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10499,7 +10509,7 @@
           "isNew": false
         },
         {
-          "sr": 234,
+          "sr": 232,
           "date": "21 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10511,7 +10521,7 @@
           "isNew": false
         },
         {
-          "sr": 235,
+          "sr": 233,
           "date": "17 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10523,7 +10533,7 @@
           "isNew": false
         },
         {
-          "sr": 236,
+          "sr": 234,
           "date": "09 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10535,7 +10545,7 @@
           "isNew": false
         },
         {
-          "sr": 237,
+          "sr": 235,
           "date": "09 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10547,7 +10557,7 @@
           "isNew": false
         },
         {
-          "sr": 238,
+          "sr": 236,
           "date": "09 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10559,7 +10569,7 @@
           "isNew": false
         },
         {
-          "sr": 239,
+          "sr": 237,
           "date": "19 Apr 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10571,7 +10581,7 @@
           "isNew": false
         },
         {
-          "sr": 240,
+          "sr": 238,
           "date": "05 Apr 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10583,7 +10593,7 @@
           "isNew": false
         },
         {
-          "sr": 241,
+          "sr": 239,
           "date": "19 Mar 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10595,7 +10605,7 @@
           "isNew": false
         },
         {
-          "sr": 242,
+          "sr": 240,
           "date": "08 Mar 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10607,7 +10617,7 @@
           "isNew": false
         },
         {
-          "sr": 243,
+          "sr": 241,
           "date": "27 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10619,7 +10629,7 @@
           "isNew": false
         },
         {
-          "sr": 244,
+          "sr": 242,
           "date": "23 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10631,7 +10641,7 @@
           "isNew": false
         },
         {
-          "sr": 245,
+          "sr": 243,
           "date": "15 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10643,7 +10653,7 @@
           "isNew": false
         },
         {
-          "sr": 246,
+          "sr": 244,
           "date": "07 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10655,27 +10665,7 @@
           "isNew": false
         },
         {
-          "sr": 247,
-          "date": "07 Feb 2024",
-          "year": 2024,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on framework for providing flexibility to FPIs in dealing with their securities post expiry of their registration     Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2024/consultation-paper-on-framework-for-providing-flexibility-to-fpis-in-dealing-with-their-securities-post-expiry-of-their-registration_81210.html",
-          "isNew": false
-        },
-        {
-          "sr": 248,
-          "date": "02 Feb 2024",
-          "year": 2024,
-          "cat": "Consultation Paper",
-          "title": "Consultation paper on flexibility to Category I and II AIFs to create encumbrance on their holding of equity in infrastructure sector investee companies to facilitate raising of debt by such investee companies  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2024/consultation-paper-on-flexibility-to-category-i-and-ii-aifs-to-create-encumbrance-on-their-holding-of-equity-in-infrastructure-sector-investee-companies-to-facilitate-raising-of-debt-by-such-investee-_81047.html",
-          "isNew": false
-        },
-        {
-          "sr": 249,
+          "sr": 245,
           "date": "02 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10685,7 +10675,7 @@
           "isNew": false
         },
         {
-          "sr": 250,
+          "sr": 246,
           "date": "02 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10695,7 +10685,7 @@
           "isNew": false
         },
         {
-          "sr": 251,
+          "sr": 247,
           "date": "19 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10707,7 +10697,7 @@
           "isNew": false
         },
         {
-          "sr": 252,
+          "sr": 248,
           "date": "12 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10719,7 +10709,7 @@
           "isNew": false
         },
         {
-          "sr": 253,
+          "sr": 249,
           "date": "11 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10731,7 +10721,7 @@
           "isNew": false
         },
         {
-          "sr": 254,
+          "sr": 250,
           "date": "10 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10743,7 +10733,7 @@
           "isNew": false
         },
         {
-          "sr": 255,
+          "sr": 251,
           "date": "28 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10755,7 +10745,7 @@
           "isNew": false
         },
         {
-          "sr": 256,
+          "sr": 252,
           "date": "22 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10767,7 +10757,7 @@
           "isNew": false
         },
         {
-          "sr": 257,
+          "sr": 253,
           "date": "09 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10779,7 +10769,7 @@
           "isNew": false
         },
         {
-          "sr": 258,
+          "sr": 254,
           "date": "09 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10791,7 +10781,7 @@
           "isNew": false
         },
         {
-          "sr": 259,
+          "sr": 255,
           "date": "28 Nov 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10803,7 +10793,7 @@
           "isNew": false
         },
         {
-          "sr": 260,
+          "sr": 256,
           "date": "24 Nov 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10815,7 +10805,7 @@
           "isNew": false
         },
         {
-          "sr": 261,
+          "sr": 257,
           "date": "31 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10827,7 +10817,7 @@
           "isNew": false
         },
         {
-          "sr": 262,
+          "sr": 258,
           "date": "31 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10839,7 +10829,7 @@
           "isNew": false
         },
         {
-          "sr": 263,
+          "sr": 259,
           "date": "29 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10851,7 +10841,7 @@
           "isNew": false
         },
         {
-          "sr": 264,
+          "sr": 260,
           "date": "25 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10863,7 +10853,7 @@
           "isNew": false
         },
         {
-          "sr": 265,
+          "sr": 261,
           "date": "25 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10875,7 +10865,7 @@
           "isNew": false
         },
         {
-          "sr": 266,
+          "sr": 262,
           "date": "25 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10887,7 +10877,7 @@
           "isNew": false
         },
         {
-          "sr": 267,
+          "sr": 263,
           "date": "22 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10899,7 +10889,7 @@
           "isNew": false
         },
         {
-          "sr": 268,
+          "sr": 264,
           "date": "14 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10911,7 +10901,7 @@
           "isNew": false
         },
         {
-          "sr": 269,
+          "sr": 265,
           "date": "10 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10923,7 +10913,7 @@
           "isNew": false
         },
         {
-          "sr": 270,
+          "sr": 266,
           "date": "01 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10935,7 +10925,7 @@
           "isNew": false
         },
         {
-          "sr": 271,
+          "sr": 267,
           "date": "21 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10947,7 +10937,7 @@
           "isNew": false
         },
         {
-          "sr": 272,
+          "sr": 268,
           "date": "20 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10957,7 +10947,7 @@
           "isNew": false
         },
         {
-          "sr": 273,
+          "sr": 269,
           "date": "05 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10967,7 +10957,7 @@
           "isNew": false
         },
         {
-          "sr": 274,
+          "sr": 270,
           "date": "04 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10977,7 +10967,7 @@
           "isNew": false
         },
         {
-          "sr": 275,
+          "sr": 271,
           "date": "01 Jun 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10987,7 +10977,7 @@
           "isNew": false
         },
         {
-          "sr": 276,
+          "sr": 272,
           "date": "01 Jun 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10999,7 +10989,7 @@
           "isNew": false
         },
         {
-          "sr": 277,
+          "sr": 273,
           "date": "31 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11011,7 +11001,7 @@
           "isNew": false
         },
         {
-          "sr": 278,
+          "sr": 274,
           "date": "23 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11023,7 +11013,7 @@
           "isNew": false
         },
         {
-          "sr": 279,
+          "sr": 275,
           "date": "20 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11035,7 +11025,7 @@
           "isNew": false
         },
         {
-          "sr": 280,
+          "sr": 276,
           "date": "20 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11047,7 +11037,7 @@
           "isNew": false
         },
         {
-          "sr": 281,
+          "sr": 277,
           "date": "20 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11059,7 +11049,7 @@
           "isNew": false
         },
         {
-          "sr": 282,
+          "sr": 278,
           "date": "19 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11071,7 +11061,7 @@
           "isNew": false
         },
         {
-          "sr": 283,
+          "sr": 279,
           "date": "19 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11083,7 +11073,7 @@
           "isNew": false
         },
         {
-          "sr": 284,
+          "sr": 280,
           "date": "19 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11095,7 +11085,7 @@
           "isNew": false
         },
         {
-          "sr": 285,
+          "sr": 281,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11107,7 +11097,7 @@
           "isNew": false
         },
         {
-          "sr": 286,
+          "sr": 282,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11119,7 +11109,7 @@
           "isNew": false
         },
         {
-          "sr": 287,
+          "sr": 283,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11131,7 +11121,7 @@
           "isNew": false
         },
         {
-          "sr": 288,
+          "sr": 284,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11143,7 +11133,7 @@
           "isNew": false
         },
         {
-          "sr": 289,
+          "sr": 285,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11155,7 +11145,7 @@
           "isNew": false
         },
         {
-          "sr": 290,
+          "sr": 286,
           "date": "16 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11167,7 +11157,7 @@
           "isNew": false
         },
         {
-          "sr": 291,
+          "sr": 287,
           "date": "16 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11179,7 +11169,7 @@
           "isNew": false
         },
         {
-          "sr": 292,
+          "sr": 288,
           "date": "12 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11191,7 +11181,7 @@
           "isNew": false
         },
         {
-          "sr": 293,
+          "sr": 289,
           "date": "12 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11203,7 +11193,7 @@
           "isNew": false
         },
         {
-          "sr": 294,
+          "sr": 290,
           "date": "09 Mar 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11215,7 +11205,7 @@
           "isNew": false
         },
         {
-          "sr": 295,
+          "sr": 291,
           "date": "08 Mar 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11227,7 +11217,7 @@
           "isNew": false
         },
         {
-          "sr": 296,
+          "sr": 292,
           "date": "23 Feb 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11239,7 +11229,7 @@
           "isNew": false
         },
         {
-          "sr": 297,
+          "sr": 293,
           "date": "22 Feb 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11249,7 +11239,7 @@
           "isNew": false
         },
         {
-          "sr": 298,
+          "sr": 294,
           "date": "22 Feb 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11259,7 +11249,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951222970,
+      "ts": 1792959301788,
       "ok": true,
       "newCount": 0
     },
@@ -11283,7 +11273,7 @@
           "year": null,
           "cat": "FAQ",
           "title": "Click here to make payment to SEBI IPEF",
-          "desc": "ErrorErrorThis page can't be displayed. Contact support for additional information.The incident ID is: 7699657567319224308.",
+          "desc": "ErrorErrorThis page can't be displayed. Contact support for additional information.The incident ID is: 7699657567337351085.",
           "link": "https://eazypay.icicibank.com/eazypayLink?P1=R1ws3SZl9MhbXRHocyY3FA==",
           "summary": "The provided document does not contain any substantive regulatory or financial content to summarize. It appears to be an error page stating: “This page can't be displayed. Contact support for additional information. The incident ID is: N/A.”\n\nBecause the page contains no rule text, filing instructions, deadlines, rates, thresholds, affected entities, or compliance obligations, there are no actionable requirements for a corporate compliance team to extract from it. The title references “Click here to make payment to SEBI IPEF,” but the actual document content does not confirm any payment obligation, due date, amount, or affected party. If you intended to provide the underlying SEBI payment notice or regulatory circular, please resend the correct document text or attachment.",
           "summarySource": "desc",
@@ -12694,7 +12684,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951226656,
+      "ts": 1792959304731,
       "ok": true,
       "newCount": 0
     },
@@ -12725,7 +12715,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951228359,
+      "ts": 1792959306418,
       "ok": true,
       "newCount": 0
     },
@@ -16330,7 +16320,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951266074,
+      "ts": 1792959342956,
       "ok": true,
       "newCount": 0
     },
@@ -16565,7 +16555,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951268362,
+      "ts": 1792959345257,
       "ok": true,
       "newCount": 0
     },
@@ -20172,7 +20162,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951271511,
+      "ts": 1792959347852,
       "ok": true,
       "newCount": 0
     },
@@ -20191,7 +20181,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951273713,
+      "ts": 1792959349836,
       "ok": true,
       "newCount": 0
     },
@@ -20438,7 +20428,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951275994,
+      "ts": 1792959352004,
       "ok": true,
       "newCount": 0
     },
@@ -20695,7 +20685,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951284732,
+      "ts": 1792959360440,
       "ok": true,
       "newCount": 0
     },
@@ -21447,7 +21437,7 @@
           "year": 2024,
           "cat": "Circular",
           "title": "Update on single filing system through API-based integration between Stock Exchanges- Voting Results",
-          "desc": "",
+          "desc": "Circular Department: Listing Circular Ref No: NSE/CML/2024/43 Date: December 27, 2024 To, The Company Secretaries, All Listed Entities Subject: Update on single filing system through API-based integration between Stock Exchanges This has reference to Exchange Circular No. NSE/CML/2024/28 dated September 30, 2024, with respect to single filing system through API-based integration between Stock Exchanges. In this connection, we are pleased to inform you that the single filing system has been extended for the filings of disclosures pertaining to Voting Results of Shareholders Meeting with effect from December 28, 2024. With this, the Single filing system through API-based integration shall now be available for below mentioned disclosures: - Particulars Regulation as per SEBI LODR 2015/Depository Regulation Type of Listed Companies Only Equity Equity+ Debt Exclusively Debt REIT's and INVITs Corporate Governance Report 27(2) √ √ Shall be communicated later Shall be communicated later Investor Grievance Report 13 (3) √ √ √ Shall be communicated later Reconciliation of Share Capital Audit Report 76 √ √ - - Meetings of shareholders and voting 44 (3) √ √ - - Since the aforesaid implementation is being aimed at enabling single filing system, the Listed Entities are requested to avoid multiple filings of the same disclosure on both the Exchanges. In case any Exchange seeks any clarification post submission, for any queries/clarifications, the company shall be required to respond to the Exchange which has sought the clarification. In case any queries concerning the captioned subject, please reach out to the respective team members on the contact details available in the NEAPS platform at path NEAPS > Help > Contact Us > Listing Compliance or send an email to takeover@nse.co.in Yours faithfully, For National Stock Exchange of India Limited Yukti Sharma Head - Listing",
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE%20Circular-%20API%20Filing%20Voting%20Results.pdf",
           "summary": "This circular updates the National Stock Exchange’s single filing system through API-based integration with the other stock exchange and extends that system to cover **“Voting Results of Shareholders Meeting” filings under Regulation 44(3)**, effective **December 28, 2024**. The stated purpose is to allow listed entities to make a **single filing** that is shared through the exchange integration, rather than submitting the same disclosure separately to both exchanges.\n\nThe circular also reiterates the current scope of the single-filing arrangement across disclosure types and entity classes. For **Corporate Governance Report (Reg. 27(2))**, the single-filing system is available for **equity-listed** and **equity + debt-listed** companies, while availability for **exclusively debt-listed companies** and **REITs/InvITs** is marked **“shall be communicated later.”** For **Investor Grievance Report (Reg. 13(3))**, the system applies to **equity-listed**, **equity + debt-listed**, and **exclusively debt-listed** entities, with REITs/InvITs again noted as **to be communicated later**. For **Reconciliation of Share Capital Audit Report (Reg. 76)**, the system applies to **equity-listed** and **equity + debt-listed** companies only, and is shown as not applicable to **exclusively debt-listed** entities and **REITs/InvITs**.\n\nFrom a compliance perspective, the key operational instruction is that listed entities should **avoid multiple filings of the same disclosure on both exchanges** once the single-filing system is in use. If one exchange raises a clarification request after submission, the company must **respond to the same exchange that sought the clarification**, rather than redirecting the response elsewhere. The circular closes by directing companies to seek help through the **NEAPS platform** under **NEAPS > Help > Contact Us > Listing Compliance**, or by email at **takeover@nse.co.in**.",
           "summarySource": "desc",
@@ -24298,7 +24288,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951286803,
+      "ts": 1792959362657,
       "ok": true,
       "newCount": 0
     },
@@ -24545,7 +24535,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951290118,
+      "ts": 1792959365804,
       "ok": true,
       "newCount": 0
     },
@@ -24788,7 +24778,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951293655,
+      "ts": 1792959369159,
       "ok": true,
       "newCount": 0
     },
@@ -25035,7 +25025,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951296987,
+      "ts": 1792959372220,
       "ok": true,
       "newCount": 0
     },
@@ -25092,7 +25082,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951307986,
+      "ts": 1792959383401,
       "ok": true,
       "newCount": 0
     },
@@ -25139,7 +25129,7 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "summary": "This document is only a title-level public notice and no substantive text was provided, so a full regulatory analysis is not possible. Based on the title, it appears to relate to a “Niveshak Shivir,” which is typically a public investor outreach or awareness initiative, but the notice itself does not state any specific rule changes, compliance obligations, deadlines, thresholds, or affected entities in the material provided. Because the underlying content is absent, there is no confirmed indication of new reporting requirements, filing dates, enforcement actions, or operational procedures that a corporate compliance team would need to implement. \n\nFor compliance purposes, the only safe conclusion is that this is a general public notice concerning the Niveshak Shivir matter, and the team should review the full notice or accompanying publication to determine whether it imposes any obligations on regulated entities, intermediaries, issuers, or investors.",
@@ -25151,7 +25141,7 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "summary": "This document is only a title-level public notice and no substantive text was provided, so a full regulatory analysis is not possible. Based on the title, it appears to relate to a “Niveshak Shivir,” which is typically a public investor outreach or awareness initiative, but the notice itself does not state any specific rule changes, compliance obligations, deadlines, thresholds, or affected entities in the material provided. Because the underlying content is absent, there is no confirmed indication of new reporting requirements, filing dates, enforcement actions, or operational procedures that a corporate compliance team would need to implement. \n\nFor compliance purposes, the only safe conclusion is that this is a general public notice concerning the Niveshak Shivir matter, and the team should review the full notice or accompanying publication to determine whether it imposes any obligations on regulated entities, intermediaries, issuers, or investors.",
@@ -25159,7 +25149,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951312672,
+      "ts": 1792959388234,
       "ok": true,
       "newCount": 0
     },
@@ -25200,7 +25190,7 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
@@ -25210,13 +25200,13 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
         }
       ],
-      "ts": 1792951317319,
+      "ts": 1792959393082,
       "ok": true,
       "newCount": 0
     },
@@ -25235,75 +25225,28 @@
           "isNew": false
         }
       ],
-      "ts": 1792951337272,
+      "ts": 1792959419114,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
-      "rows": [
-        {
-          "sr": 1,
-          "date": "29 Sept 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Corrigendum to Adjudication Order Imposing Penalties under Section 62 of the Companies Act, 2013 in the Matter of M/s Integris Medtech Limited | 3 MB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#"
-        },
-        {
-          "sr": 2,
-          "date": "20 Aug 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order under Section 42 of the Companies Act, 2013 in the Matter of M/s.Hindustan Coca-Cola Holdings Private Limited. | 4 MB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#"
-        },
-        {
-          "sr": 3,
-          "date": "17 Aug 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU INVESTMENTS PRIVATE LIMITED | 428 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#"
-        },
-        {
-          "sr": 4,
-          "date": "17 Aug 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 394 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#"
-        },
-        {
-          "sr": 5,
-          "date": "17 Aug 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 179 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 424 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#"
-        }
-      ],
-      "ts": 1792951369273,
-      "ok": true,
-      "newCount": 0
+      "rows": [],
+      "ts": 1792959453189,
+      "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1792951403381,
+      "ts": 1792959494952,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1792951438653,
+      "ts": 1792959523897,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1792951466440,
+      "ts": 1792959554602,
       "ok": true
     },
     "NFRA_0": {
@@ -25381,7 +25324,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951469617,
+      "ts": 1792959557215,
       "ok": true,
       "newCount": 0
     },
@@ -25532,7 +25475,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951471146,
+      "ts": 1792959558679,
       "ok": true,
       "newCount": 0
     },
@@ -25616,7 +25559,7 @@
           "year": 2021,
           "cat": "Consultation Paper",
           "title": "Public Comments Received on Questions Posed in Consultation Paper based on Report of the Technical Advisory Committee on Enhancing Engagement with Stakeholders",
-          "desc": "",
+          "desc": "PUBLIC COMMENTS RECEIVED on Questions Posed in Consultation Paper based on Report of the Technical Advisory Committee on Enhancing Engagement with Stakeholders National Financial Reporting Authority 7th – 8th Floor, Hindustan Times House 18- 20, Kasturba Gandhi Marg, New Delhi -110001 https://nfra.gov.in List of Respondents to the Comment Letter* Sl.No. Name of the Respondent Type of Respondent Page Number 1 Confederation of Indian Industry (CII) Industry Body 3-15 2 NASSCOM Industry Body 16-22 3 Bharatiya Vitta Salahkar Samiti (BVSS) Industry Body 23-27 4 ASSOCHAM Industry Body 28-37 5 Arun Jaitley National Institute of Financial Management (AJNIFM), Ministry of Finance, Government of India Research/Academia 38-43 6 Foundation for Audit Quality (FAQ) Research/Academia 44-56 7 Forum For Indian Accounting Research (FFIAR) Research/Academia 57-62 8 Walker Chandiok & Co LLP Audit Firm 63-70 9 S.R. Batliboi & Affiliates Audit Firm 71-81 10 Deloitte, Haskins & Sells LLP (DHS) Audit Firm 82-113 11 BSR &Co. LLP Audit Firm 114-139 12 Price Waterhouse Audit Firm 140-162 13 Mr Abhishek Mahawar Individual/Others 163-164 14 Excellence Enablers Private Limited Individual/Others 165-167 15 Dr. Avinash Chander, Former Technical Director, ICAI Individual/Others 168-174 16 Dr Vijay Kapur, Former Director, ICAI Individual/Others 175-182 17 The Institute of Chartered Accountants of India (ICAI) Professional Body 183-303 * Above list excludes 1 comment letter by the name Dinesh Trading which is not relevant to CP. CII’s views on NFRA’s Consultation Paper on Enhancing Engagement with Stakeholders (“the Paper”) Background The Confederation of Indian Industry (CII) greatly acknowledge the contribution made by the National Financial Reporting Authority (NFRA) in protecting the public interest and the interests of investors, creditors and others associated with public interest entities falling within the NFRA jurisdiction, by establishing high quality standards of accounting and auditing, a",
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020753.pdf",
           "summary": "This document is an NFRA compilation of public comments received in response to its consultation paper on the Technical Advisory Committee’s report on enhancing engagement with stakeholders. It does not itself impose new rules or deadlines; instead, it identifies who submitted comments and preserves those submissions for NFRA’s consideration. The listed respondents include industry bodies, academia/research institutions, audit firms, individual commenters, and ICAI, with page references for each submission; one comment letter from “Dinesh Trading” is expressly excluded as not relevant to the consultation paper.\n\nFrom the excerpt provided, CII’s comment letter begins by acknowledging NFRA’s role in protecting the public interest and the interests of investors, creditors, and other stakeholders associated with public interest entities under NFRA jurisdiction, primarily by establishing high-quality accounting and auditing standards. The visible text does not yet show the substantive proposals or objections from CII beyond this introductory recognition. Because the excerpt ends mid-sentence, a complete compliance assessment of the specific issues raised in the comments would require the remaining pages of the document.",
           "summarySource": "desc",
@@ -25671,7 +25614,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951472670,
+      "ts": 1792959560140,
       "ok": true,
       "newCount": 0
     },
@@ -25822,7 +25765,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792951474183,
+      "ts": 1792959561601,
       "ok": true,
       "newCount": 0
     },
