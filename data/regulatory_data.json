@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T22:26:18.267Z",
+  "generatedAt": "2026-10-25T01:02:25.030Z",
   "data": {
     "TAXATION_0": {
       "rows": [
@@ -124,7 +124,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879513927,
+      "ts": 1792888742431,
       "ok": true,
       "newCount": 0
     },
@@ -245,7 +245,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879524348,
+      "ts": 1792888752963,
       "ok": true,
       "newCount": 0
     },
@@ -384,7 +384,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879533040,
+      "ts": 1792888761222,
       "ok": true,
       "newCount": 0
     },
@@ -511,13 +511,13 @@
           "isNew": false
         }
       ],
-      "ts": 1792879541400,
+      "ts": 1792888769988,
       "ok": true,
       "newCount": 0
     },
     "TAXATION_4": {
       "rows": [],
-      "ts": 1792879551733,
+      "ts": 1792888780516,
       "ok": true
     },
     "TAXATION_5": {
@@ -883,7 +883,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879554329,
+      "ts": 1792888783026,
       "ok": true,
       "newCount": 0
     },
@@ -1640,7 +1640,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879556632,
+      "ts": 1792888785440,
       "ok": true,
       "newCount": 0
     },
@@ -1705,7 +1705,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879583572,
+      "ts": 1792888814774,
       "ok": true,
       "newCount": 0
     },
@@ -1722,7 +1722,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879584954,
+      "ts": 1792888816486,
       "ok": true,
       "newCount": 0
     },
@@ -1869,7 +1869,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879586323,
+      "ts": 1792888817963,
       "ok": true,
       "newCount": 0
     },
@@ -2042,7 +2042,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879615636,
+      "ts": 1792888858270,
       "ok": true,
       "newCount": 0
     },
@@ -2249,7 +2249,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879621531,
+      "ts": 1792888864586,
       "ok": true,
       "newCount": 0
     },
@@ -5848,7 +5848,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879656640,
+      "ts": 1792888900512,
       "ok": true,
       "newCount": 0
     },
@@ -6600,7 +6600,7 @@
         },
         {
           "sr": 63,
-          "date": "04 Jul 2023",
+          "date": "03 Jul 2023",
           "year": 2023,
           "cat": "Master Circular",
           "title": "Master Circular for Credit Rating Agencies",
@@ -6864,7 +6864,7 @@
         },
         {
           "sr": 85,
-          "date": "30 Nov 2021",
+          "date": "29 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -6876,7 +6876,7 @@
         },
         {
           "sr": 86,
-          "date": "30 Nov 2021",
+          "date": "29 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -7356,8 +7356,8 @@
         },
         {
           "sr": 126,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges and Depositories",
           "desc": "",
@@ -7368,8 +7368,8 @@
         },
         {
           "sr": 127,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Administration of Stock Exchanges, Arbitration in recognised Stock Exchanges and Stock Exchanges / trading platform for Small & Medium Enterprises including guidelines for Market Makers",
           "desc": "",
@@ -7380,44 +7380,44 @@
         },
         {
           "sr": 128,
-          "date": "06 Apr 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
+          "title": "Master Circular on Anti Money Laundering and Combating Financing of Terrorism (AML and CFT) Standards-PDF",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-depositories_1729.html",
-          "summary": "This document is a **SEBI Master Circular for Depositories dated April 6, 2010**, but the text provided does **not include the actual regulatory provisions** of the circular—only the title, date, and website/navigation code. Based on the supplied content, there are **no disclosed substantive requirements, thresholds, deadlines, reporting obligations, procedural changes, or affected entities** that can be summarized with confidence.\n\nFor a compliance team, the only reliable information available here is that this is a **consolidated “Master Circular” intended for depositories** under SEBI, issued on **06-Apr-2010**. However, because the operative regulatory text is missing, I cannot identify what rules were changed, which market participants were affected, or what compliance actions would have been required. If you provide the full circular text or the linked content, I can produce a detailed compliance summary covering obligations, dates, and operational impacts.",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2008/master-circular-on-anti-money-laundering-and-combating-financing-of-terrorism-aml-and-cft-standards-a-href-http-www-sebi-gov-in-cms-sebi-data-commondocs-isdcir0108-p-pdf-target-blank-pdf-a-_6847.html",
+          "summary": "This SEBI Master Circular dated December 19, 2008 consolidates and reinforces AML/CFT obligations for all intermediaries registered with SEBI under section 12 of the SEBI Act, 1992, with delivery through stock exchanges for stock brokers, sub-brokers, and depository participants. It states that the Prevention of Money Laundering Act, 2002 became effective on July 1, 2005, and that the related notifications/rules were published the same day; SEBI had already issued earlier AML guidance on January 18, 2006, and this master circular is intended to restate the standards in one place. The circular applies to “intermediaries” broadly, including stock-brokers, sub-brokers, share transfer agents, bankers to an issue, trustees to a trust deed, registrars to an issue, merchant bankers, underwriters, portfolio managers, investment advisers, and any other SEBI-registered securities market intermediary, as well as banking companies and financial institutions under PMLA; these entities must maintain records of all transactions and the nature of those transactions.\n\nThe document emphasizes that AML/CFT compliance is mandatory because it is required both by the PMLA framework and by FATF-aligned international standards, and it signals that intermediaries must adopt procedures to detect and prevent money laundering and terrorist financing. At the point where the excerpt ends, it specifically begins listing the statutory obligation to maintain records, implying that SEBI-registered intermediaries and the other covered entities must preserve transaction records and comply with the PMLA rules and associated SEBI directions. If you want, I can also provide a clause-by-clause compliance summary if you share the rest of the circular.",
           "summarySource": "desc",
           "isNew": false
         },
         {
           "sr": 129,
-          "date": "06 Apr 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange - Cash Market",
+          "title": "Master Circular-Mutual Funds",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-stock-exchange-cash-market_1929.html",
-          "summary": "This document is a SEBI Master Circular for stock exchanges covering **Trading – Part I (Cash Market)**, compiled from all applicable circulars issued by SEBI’s Market Regulation Department **up to March 31, 2010**, and it states that the compilation **takes effect from the date of issue**. In practical terms, it is not a single new rule but a consolidated reference of then-current obligations for stock exchanges, including requirements on **bulk deals and block deals**, **index-based market-wide circuit filters and scrip-wise price bands**, and **uniform security-specific actions** that exchanges must implement. It also covers **margin trading**, including which securities are eligible, the **eligibility criteria for brokers** that want to offer margin trading to clients, and the need for a **no-objection certificate (NOC)** in that process.\n\nFor a compliance team, the key point is that this circular serves as the authoritative compilation of existing obligations as of March 31, 2010, so affected entities should treat the listed sections as the operative framework for exchange-level trading controls and related broker permissions. The document’s structure indicates that compliance responsibilities are not limited to trading parameters alone; they also extend to **exchange procedures** for monitoring and enforcing market safeguards like circuit filters and price bands, and to **broker-side controls** for margin trading authorization and eligibility. No specific numeric thresholds, rates, or new deadline dates are visible in the excerpt beyond the March 31, 2010 cut-off and immediate effective date of the master compilation.",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2010/master-circular-mutual-funds_2699.html",
+          "summary": "The document appears to be a **SEBI Master Circular on Mutual Funds dated January 1, 2010**, but the content provided does **not include the actual circular text or any operative regulatory requirements**. Instead, it only contains the page title and embedded website/javascript code such as menu-loading functions, which are not substantive compliance instructions.\n\nBecause no rules, amendments, thresholds, deadlines, affected entities, or procedural obligations are visible in the supplied text, there is **no actionable regulatory change that can be summarized from this extract alone**. For a compliance briefing, the only reliable takeaway is that this is a reference to a SEBI mutual funds master circular from **01-Jan-2010**, but the actual obligations would need to be obtained from the full circular text.",
           "summarySource": "desc",
           "isNew": false
         },
         {
           "sr": 130,
-          "date": "06 Apr 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular on Allotment of codes to Stock Exchanges, Subsidiary management by Stock Exchanges, Governance of recognised Stock Exchanges and Arbitration in recognised Stock Exchanges",
+          "title": "Master Circular on Anti-Money Laundering (AML) and Combating Financing of Terrorism (CFT) Standards",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-on-allotment-of-codes-to-stock-exchanges-subsidiary-management-by-stock-exchanges-governance-of-recognised-stock-exchanges-and-arbitration-in-recognised-stock-exchanges_1730.html",
-          "summary": "This Master Circular issued by SEBI on April 6, 2010 consolidates the regulatory framework for recognized stock exchanges on four related topics: allocation of exchange codes, management of subsidiaries by stock exchanges, governance requirements for recognized stock exchanges, and arbitration mechanisms within recognized stock exchanges. As a master circular, it is intended to bring together and organize existing instructions rather than announce a single new standalone rule, but it is still the operative reference point for compliance by recognized stock exchanges and, where relevant, their subsidiaries and market participants using the exchange’s arbitration framework.\n\nFor a compliance team, the key implication is that the document governs how recognized exchanges must be identified in official systems through allotted codes, how they may structure and supervise subsidiaries, what governance standards apply to their internal oversight and management practices, and how disputes are to be handled through arbitration at the exchange level. The circular would therefore matter to entities operating or administering a recognized stock exchange, as well as any affiliated subsidiary or member/participant subject to the exchange’s governance or dispute-resolution processes. The document title indicates there are specific procedural requirements in each of these areas, but the provided text does not include the detailed provisions themselves, so the circular should be reviewed in full for the exact code-allotment process, subsidiary controls, governance obligations, and arbitration steps that apply.",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2010/master-circular-on-anti-money-laundering-aml-and-combating-financing-of-terrorism-cft-standards_2492.html",
+          "summary": "This document is a SEBI Master Circular, dated **February 12, 2010**, that consolidates the anti-money laundering and counter-terrorism financing standards applicable to SEBI-regulated entities. It is directed at firms and intermediaries subject to SEBI oversight and is intended to require them to maintain AML/CFT controls that prevent their businesses from being used to launder proceeds of crime or to finance terrorism.\n\nBecause the content provided here includes only the **title and publication date** and not the body of the circular, the specific substantive requirements, thresholds, procedures, reporting obligations, and deadlines cannot be extracted from the text shown. What can be stated with confidence is that the circular establishes the governing AML/CFT compliance framework under SEBI as of that date, and compliance teams would need to review the full circular to identify the exact obligations imposed on covered entities. If you can provide the full text or attached circular contents, I can produce a detailed compliance summary covering the precise requirements, affected entities, and any timelines or transaction/reporting thresholds.",
           "summarySource": "desc",
           "isNew": false
         },
         {
           "sr": 131,
-          "date": "17 Mar 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Oversight of Members (Stock Brokers/Trading Members/Clearing Members of any Segment of Stock Exchanges and Clearing Corporations)",
           "desc": "",
@@ -7428,42 +7428,42 @@
         },
         {
           "sr": 132,
-          "date": "12 Feb 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular on Anti-Money Laundering (AML) and Combating Financing of Terrorism (CFT) Standards",
+          "title": "Master Circular for Depositories",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2010/master-circular-on-anti-money-laundering-aml-and-combating-financing-of-terrorism-cft-standards_2492.html",
-          "summary": "This document is a SEBI Master Circular, dated **February 12, 2010**, that consolidates the anti-money laundering and counter-terrorism financing standards applicable to SEBI-regulated entities. It is directed at firms and intermediaries subject to SEBI oversight and is intended to require them to maintain AML/CFT controls that prevent their businesses from being used to launder proceeds of crime or to finance terrorism.\n\nBecause the content provided here includes only the **title and publication date** and not the body of the circular, the specific substantive requirements, thresholds, procedures, reporting obligations, and deadlines cannot be extracted from the text shown. What can be stated with confidence is that the circular establishes the governing AML/CFT compliance framework under SEBI as of that date, and compliance teams would need to review the full circular to identify the exact obligations imposed on covered entities. If you can provide the full text or attached circular contents, I can produce a detailed compliance summary covering the precise requirements, affected entities, and any timelines or transaction/reporting thresholds.",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-depositories_1729.html",
+          "summary": "This document is a **SEBI Master Circular for Depositories dated April 6, 2010**, but the text provided does **not include the actual regulatory provisions** of the circular—only the title, date, and website/navigation code. Based on the supplied content, there are **no disclosed substantive requirements, thresholds, deadlines, reporting obligations, procedural changes, or affected entities** that can be summarized with confidence.\n\nFor a compliance team, the only reliable information available here is that this is a **consolidated “Master Circular” intended for depositories** under SEBI, issued on **06-Apr-2010**. However, because the operative regulatory text is missing, I cannot identify what rules were changed, which market participants were affected, or what compliance actions would have been required. If you provide the full circular text or the linked content, I can produce a detailed compliance summary covering obligations, dates, and operational impacts.",
           "summarySource": "desc",
           "isNew": false
         },
         {
           "sr": 133,
-          "date": "01 Jan 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular-Mutual Funds",
+          "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2010/master-circular-mutual-funds_2699.html",
-          "summary": "The document appears to be a **SEBI Master Circular on Mutual Funds dated January 1, 2010**, but the content provided does **not include the actual circular text or any operative regulatory requirements**. Instead, it only contains the page title and embedded website/javascript code such as menu-loading functions, which are not substantive compliance instructions.\n\nBecause no rules, amendments, thresholds, deadlines, affected entities, or procedural obligations are visible in the supplied text, there is **no actionable regulatory change that can be summarized from this extract alone**. For a compliance briefing, the only reliable takeaway is that this is a reference to a SEBI mutual funds master circular from **01-Jan-2010**, but the actual obligations would need to be obtained from the full circular text.",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-stock-exchange-cash-market_1929.html",
+          "summary": "This document is a SEBI Master Circular for stock exchanges covering **Trading – Part I (Cash Market)**, compiled from all applicable circulars issued by SEBI’s Market Regulation Department **up to March 31, 2010**, and it states that the compilation **takes effect from the date of issue**. In practical terms, it is not a single new rule but a consolidated reference of then-current obligations for stock exchanges, including requirements on **bulk deals and block deals**, **index-based market-wide circuit filters and scrip-wise price bands**, and **uniform security-specific actions** that exchanges must implement. It also covers **margin trading**, including which securities are eligible, the **eligibility criteria for brokers** that want to offer margin trading to clients, and the need for a **no-objection certificate (NOC)** in that process.\n\nFor a compliance team, the key point is that this circular serves as the authoritative compilation of existing obligations as of March 31, 2010, so affected entities should treat the listed sections as the operative framework for exchange-level trading controls and related broker permissions. The document’s structure indicates that compliance responsibilities are not limited to trading parameters alone; they also extend to **exchange procedures** for monitoring and enforcing market safeguards like circuit filters and price bands, and to **broker-side controls** for margin trading authorization and eligibility. No specific numeric thresholds, rates, or new deadline dates are visible in the excerpt beyond the March 31, 2010 cut-off and immediate effective date of the master compilation.",
           "summarySource": "desc",
           "isNew": false
         },
         {
           "sr": 134,
-          "date": "19 Dec 2008",
-          "year": 2008,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular on Anti Money Laundering and Combating Financing of Terrorism (AML and CFT) Standards-PDF",
+          "title": "Master Circular on Allotment of codes to Stock Exchanges, Subsidiary management by Stock Exchanges, Governance of recognised Stock Exchanges and Arbitration in recognised Stock Exchanges",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2008/master-circular-on-anti-money-laundering-and-combating-financing-of-terrorism-aml-and-cft-standards-a-href-http-www-sebi-gov-in-cms-sebi-data-commondocs-isdcir0108-p-pdf-target-blank-pdf-a-_6847.html",
-          "summary": "This SEBI Master Circular dated December 19, 2008 consolidates and reinforces AML/CFT obligations for all intermediaries registered with SEBI under section 12 of the SEBI Act, 1992, with delivery through stock exchanges for stock brokers, sub-brokers, and depository participants. It states that the Prevention of Money Laundering Act, 2002 became effective on July 1, 2005, and that the related notifications/rules were published the same day; SEBI had already issued earlier AML guidance on January 18, 2006, and this master circular is intended to restate the standards in one place. The circular applies to “intermediaries” broadly, including stock-brokers, sub-brokers, share transfer agents, bankers to an issue, trustees to a trust deed, registrars to an issue, merchant bankers, underwriters, portfolio managers, investment advisers, and any other SEBI-registered securities market intermediary, as well as banking companies and financial institutions under PMLA; these entities must maintain records of all transactions and the nature of those transactions.\n\nThe document emphasizes that AML/CFT compliance is mandatory because it is required both by the PMLA framework and by FATF-aligned international standards, and it signals that intermediaries must adopt procedures to detect and prevent money laundering and terrorist financing. At the point where the excerpt ends, it specifically begins listing the statutory obligation to maintain records, implying that SEBI-registered intermediaries and the other covered entities must preserve transaction records and comply with the PMLA rules and associated SEBI directions. If you want, I can also provide a clause-by-clause compliance summary if you share the rest of the circular.",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-on-allotment-of-codes-to-stock-exchanges-subsidiary-management-by-stock-exchanges-governance-of-recognised-stock-exchanges-and-arbitration-in-recognised-stock-exchanges_1730.html",
+          "summary": "This Master Circular issued by SEBI on April 6, 2010 consolidates the regulatory framework for recognized stock exchanges on four related topics: allocation of exchange codes, management of subsidiaries by stock exchanges, governance requirements for recognized stock exchanges, and arbitration mechanisms within recognized stock exchanges. As a master circular, it is intended to bring together and organize existing instructions rather than announce a single new standalone rule, but it is still the operative reference point for compliance by recognized stock exchanges and, where relevant, their subsidiaries and market participants using the exchange’s arbitration framework.\n\nFor a compliance team, the key implication is that the document governs how recognized exchanges must be identified in official systems through allotted codes, how they may structure and supervise subsidiaries, what governance standards apply to their internal oversight and management practices, and how disputes are to be handled through arbitration at the exchange level. The circular would therefore matter to entities operating or administering a recognized stock exchange, as well as any affiliated subsidiary or member/participant subject to the exchange’s governance or dispute-resolution processes. The document title indicates there are specific procedural requirements in each of these areas, but the provided text does not include the detailed provisions themselves, so the circular should be reviewed in full for the exact code-allotment process, subsidiary controls, governance obligations, and arbitration steps that apply.",
           "summarySource": "desc",
           "isNew": false
         }
       ],
-      "ts": 1792879675561,
+      "ts": 1792888920417,
       "ok": true,
       "newCount": 0
     },
@@ -7557,7 +7557,7 @@
           "year": 2026,
           "cat": "Informal Guidance",
           "title": "Request for Informal Guidance by way of a 'No action' letter under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from Saint Gobain Sekurit Automotive Private Limited in relation to the provisions of Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011",
-          "desc": "Request for Informal Guidance by way of a 'No action' letter under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from Saint Gobain Sekurit Automotive Private Limited in relation to the provisions of Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011 Jun 04, 2026| Informal Guidance 04-06-2026Informal Guidance Letter by SEBI30-03-2026Applicant’s Letter",
+          "desc": "oe S=3 —— ==] Securitiesand Exchange Boardof India Nodal Co-ordinationCell InformalGuidance Issue No.1/13081/2026 June 4, 2026 ShriK.Visweswaran Saint-GobainSekurit AutomotivePrivateLimited 18/3, Sigapi Achi Building, 6th Floor, Rukmini Lakshmipathy Road, Ethiraj Salai,Chennai, EgmoreNungambakkam, Tamil Nadu,India, 600008 Sir / Madam, Subject: Request forInformal Guidancebywayofa‘Noaction’ letterunder the Securities andExchangeBoardof India(Informal Guidance) Scheme,2025with respect toprovisions oftheSecurities andExchangeBoardof India(Substantial Acquisition of SharesandTakeovers) Regulations.2011. Ref: YourletterdatedMarch 30, 2026andemaildatedMay21,2026 1. Thisiswithreferenceto your letterdatedMarch 30, 2026andfurther information submittedvide your email dated May 21,2026, seekingguidanceby way of ‘NoAction Letter’undertheSecurities and Exchange Boardof India (Informal Guidance) Scheme, 2025on the applicability of Regulation 10(1)(d)(iii) ofthe Securitiesand Exchange Boardof India (Substantial Acquisition ofSharesand Takeover) Regulations, 2011 (“Takeover Regulations, 2011”) with respect tothetransferand vesting of shares held by Saint-GobainIndia PrivateLimited comprising of 26.74% (being 2,43,59,490 equity shares) ofSaint Gobain SekuritIndiaLimitedtoSaintGobainSekurit Automotive PrivateLimited pursuant tothe proposed schemeof Demerger. 2.Intheletter under reference, you have,inter-alia, represented asunder- a.Saint-Gobain Sekurit IndiaLimited (\"SGSIL/Target Company\") isa listed entity catering to thethree-wheelerandcommercial vehicle segments. b.The promoter shareholding of SGSILisasfollows: Nameof shareholder | Noof Equity shares | % Saint-GobainIndia | 2,43,59,490 | 26.74 , \" \" , - , - 400051 SEBI Bhavan, “G” Block, BandraKurla Complex, Mumbai - 400051 www.sebi.gov.in | 022 - 26449000 / 4045 9000 S=3 ==] : A Securitiesand Exchange BoardofIndia Continuation: PrivateLimited | [ | Saint-Gobain 4,39,69,785 48.26 SekuritFrance Total 6,83,29,275 | 75.00 ¢.Saint-Gob",
           "link": "https://www.sebi.gov.in/enforcement/informal-guidance/jun-2026/request-for-informal-guidance-by-way-of-a-no-action-letter-under-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2025-received-from-saint-gobain-sekurit-automotive-private-lim-_104291.html",
           "summary": "SEBI issued an informal guidance letter on June 4, 2026, in response to Saint-Gobain Sekurit Automotive Private Limited’s request for a “no action” view under the SEBI (Informal Guidance) Scheme, 2025 regarding the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011. The specific question was whether Regulation 10(1)(d)(iii) of the Takeover Regulations would apply to the transfer and vesting of shares currently held by Saint-Gobain India Private Limited—26.74% of the equity of Saint-Gobain Sekurit India Limited, consisting of 2,43,59,490 shares—into Saint Gobain Sekurit Automotive Private Limited under a proposed demerger scheme.\n\nSEBI summarized the facts represented by the applicant, including that Saint-Gobain Sekurit India Limited is a listed company serving the three-wheeler and commercial vehicle segments. The promoter shareholding structure disclosed to SEBI showed Saint-Gobain India Private Limited holding 2,43,59,490 equity shares (26.74%) and Saint-Gobain Sekurit France holding 4,39,69,785 equity shares (48.26%), for a total promoter holding of 6,83,29,275 shares, equal to 75.00% of the target company.\n\nThe document is primarily an informal guidance request and does not itself announce a new regulation or compliance deadline; rather, it records the specific transaction structure and the regulatory provision being tested for applicability. The compliance issue for the group is whether the proposed demerger-related transfer/vesting of the 26.74% promoter stake in the listed target company would be eligible for exemption under Regulation 10(1)(d)(iii) of the Takeover Regulations, 2011, which would determine whether an open offer or other takeover-related obligations are triggered. Any compliance review should focus on the exact demerger mechanics, the entities involved in the transfer, and whether the transaction fits squarely within the cited exemption conditions.",
           "summarySource": "desc",
@@ -7629,7 +7629,7 @@
           "year": 2026,
           "cat": "Informal Guidance",
           "title": "Request for Informal Guidance by way of an Interpretative Letter under provisions of Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from UTI Alternatives Private Limited related to Securities and Exchange Board of India (Mutual Funds) Regulations, 2026 (erstwhile Securities and Exchange Board of India (Mutual Funds) Regulations, 1996",
-          "desc": "= == i ==] “ Securitiesand Exchange Boardof India NodalCo-ordinationCell InformalGuidance Issue No.:1/9052/2026 April09, 2026 RajveerSingh CompanySecretary and Compliance Officer UTI AlternativesPrivateLimited Infinity Tower A, 7\" Floor, DLF Cybercity, DLFPhase II, Gurugram,Haryana-122002 Sir, Subject:Request forInformalGuidance byway ofan Interpretative Letter under provisions ofSecuritiesand Exchange BoardofIndia (InformalGuidance) Scheme, 2025 relatedtoSecuritiesand Exchange BoardofIndia (MutualFunds) Regulations, 1996 (“MF Regulations”). Ref: Yourletterdated January 01, 2026 andemails dated February 03, 2026and February 10, 2026. 1.Inthecontextof your letterunder reference, you have, inter-alia, stated thatUTI AlternativesPrivateLimited (UAPL) isthe wholly owned subsidiary ofUTI Asset ManagementCompany Limited (the asset managementcompany of UTIMutual Fund) andis acting astheInvestment Manager tothe following three Alternative InvestmentFunds (AlFs),registered withSEBIas Category IlAlFs: 1.1. UTI Emerging India Opportunities Fund (SEBIregn no.IN/AIF2/18- 19/0576) 1.2.UTISDOFGrowthThemeFund (SEBIregn no. IN/AIF2/22-23/1044) and 1.3.UTIMulti Opportunities Fund (SEBIregn no. IN/AIF2/21-22/0994) 2.Youhave sought an interpretive letter undertheSecuritiesand Exchange Board ofIndia (Informal Guidance) Scheme, 2025fromSEBIonthe followingqueries: , \" \" , - , - 400051 SEBI Bhavan, “G” Block, BandraKuria Complex, Mumbai = 400 051 www.sebi.gov.in | 022 - 26449000 / 4045 9000 S= | : Securitiesand Exchange BoardofIndia Continuation: 2.1. Query 1:Whetherthebroad basedfund requirementapplies tothe management/ advisory servicesrendered by UAPL to pooled assetsi.e. AlFs anditsschemes? 2.2. Query2: Whether compliance withthebroad basedfund criteriashould beassessedatthefund levelortheindividual schemelevel? 2.3. Query 3: In amasterfeeder structure, whether itissufficientif only the master fundisbroadbased asthefeederfundsdonot dostandalone investmentsandactive management isunderta",
+          "desc": "Request for Informal Guidance by way of an Interpretative Letter under provisions of Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from UTI Alternatives Private Limited related to Securities and Exchange Board of India (Mutual Funds) Regulations, 2026 (erstwhile Securities and Exchange Board of India (Mutual Funds) Regulations, 1996 Apr 09, 2026| Informal Guidance 09-04-2026Informal Guidance Letter by SEBI01-01-2026Applicant’s Letter",
           "link": "https://www.sebi.gov.in/enforcement/informal-guidance/apr-2026/request-for-informal-guidance-by-way-of-an-interpretative-letter-under-provisions-of-securities-and-exchange-board-of-india-informal-guidance-scheme-2025-received-from-uti-alternatives-private-limi-_100852.html",
           "summary": "The Securities and Exchange Board of India (SEBI) issued an informal guidance letter dated April 9, 2026 to UTI Alternatives Private Limited (UAPL), the investment manager for three SEBI-registered Category II Alternative Investment Funds: UTI Emerging India Opportunities Fund (registration no. IN/AIF2/18-19/0576), UTI SDOF Growth Theme Fund (registration no. IN/AIF2/22-23/1044), and UTI Multi Opportunities Fund (registration no. IN/AIF2/21-22/0994). UAPL asked how the “broad based fund” requirement under the SEBI (Mutual Funds) Regulations, 2026 (formerly the 1996 Mutual Funds Regulations) applies to its pooled vehicles and whether that requirement must be tested at the fund level or at the individual scheme level. It also asked, in a master-feeder structure, whether it is enough for only the master fund to be broad based when the feeder funds do not make standalone investments and active management is done at the master level.\n\nThe document is an interpretative request rather than a rulemaking order, so it does not itself amend the regulations or impose a new deadline or numeric threshold. Its compliance significance is that UAPL is seeking confirmation on whether broad-based-fund compliance is required for the management/advisory services it provides to AIF pooled assets, and if so, how SEBI expects the test to be applied across the relevant investment structure. A compliance team reviewing this would need to track SEBI’s interpretative position because it will determine whether the broad-based requirement must be satisfied at each scheme/vehicle level or only at the overarching fund level, and whether feeder funds can rely on the broad-based status of a master fund.",
           "summarySource": "desc",
@@ -7768,7 +7768,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879678170,
+      "ts": 1792888922837,
       "ok": true,
       "newCount": 0
     },
@@ -7871,9 +7871,9 @@
           "date": "27 Aug 2026",
           "year": 2026,
           "cat": "Consultation Paper",
-          "title": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers",
-          "desc": "Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers Click here to provide your comments Aug 27, 2026| Reports : Reports for Public Comments Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers<a href='https://www.sebi.gov.in/sebiweb/publiccommentv2/PublicCommentAction.do?doPublicComments=yes' target='_blank' style='color:#007ffc'> Click here to provide your comments </a>",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/exemption-from-the-requirement-of-mandatory-merchant-banker-appointment-for-small-value-debt-through-private-placement-by-certain-listed-issuers_104040.html",
+          "title": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers Click here to provide your comments",
+          "desc": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers Click here to provide your comments Aug 27, 2026| Reports : Reports for Public Comments Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers<a href='https://www.sebi.gov.in/sebiweb/publiccommentv2/PublicCommentAction.do?doPublicComments=yes' target='_blank' style='color:#007ffc'> Click here to provide your comments </a>",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/consultation-paper-on-exemption-from-the-requirement-of-mandatory-merchant-banker-appointment-for-small-value-debt-through-private-placement-by-certain-listed-issuers_104040.html",
           "isNew": false
         },
         {
@@ -8935,33 +8935,13 @@
           "date": "01 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
-          "title": "Modification in the conditions specified for reduction in denomination of debt securities and non-convertible redeemable preference shares (NCRPS)  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2025/modification-in-the-conditions-specified-for-reduction-in-denomination-of-debt-securities-and-non-convertible-redeemable-preference-shares-ncrps-_95769.html",
-          "isNew": false
-        },
-        {
-          "sr": 100,
-          "date": "01 Aug 2025",
-          "year": 2025,
-          "cat": "Consultation Paper",
-          "title": "Revised Norms for appointment of an independent third-party reviewer/ certifier for green debt security   Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2025/revised-norms-for-appointment-of-an-independent-third-party-reviewer-certifier-for-green-debt-security_95767.html",
-          "isNew": false
-        },
-        {
-          "sr": 101,
-          "date": "01 Aug 2025",
-          "year": 2025,
-          "cat": "Consultation Paper",
           "title": "Consultation Paper on Amendment to the definition of Strategic Investor for REITs and InvITs   Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2025/consultation-paper-on-amendment-to-the-definition-of-strategic-investor-for-reits-and-invits_95764.html",
           "isNew": false
         },
         {
-          "sr": 102,
+          "sr": 100,
           "date": "31 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -8971,7 +8951,7 @@
           "isNew": false
         },
         {
-          "sr": 103,
+          "sr": 101,
           "date": "25 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -8983,7 +8963,7 @@
           "isNew": false
         },
         {
-          "sr": 104,
+          "sr": 102,
           "date": "18 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -8995,7 +8975,7 @@
           "isNew": false
         },
         {
-          "sr": 105,
+          "sr": 103,
           "date": "16 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9007,7 +8987,7 @@
           "isNew": false
         },
         {
-          "sr": 106,
+          "sr": 104,
           "date": "09 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9019,7 +8999,7 @@
           "isNew": false
         },
         {
-          "sr": 107,
+          "sr": 105,
           "date": "07 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9031,7 +9011,7 @@
           "isNew": false
         },
         {
-          "sr": 108,
+          "sr": 106,
           "date": "03 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9043,7 +9023,7 @@
           "isNew": false
         },
         {
-          "sr": 109,
+          "sr": 107,
           "date": "01 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9055,7 +9035,7 @@
           "isNew": false
         },
         {
-          "sr": 110,
+          "sr": 108,
           "date": "30 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9067,7 +9047,7 @@
           "isNew": false
         },
         {
-          "sr": 111,
+          "sr": 109,
           "date": "24 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9079,7 +9059,7 @@
           "isNew": false
         },
         {
-          "sr": 112,
+          "sr": 110,
           "date": "20 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9091,7 +9071,7 @@
           "isNew": false
         },
         {
-          "sr": 113,
+          "sr": 111,
           "date": "20 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9103,7 +9083,7 @@
           "isNew": false
         },
         {
-          "sr": 114,
+          "sr": 112,
           "date": "17 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9115,7 +9095,7 @@
           "isNew": false
         },
         {
-          "sr": 115,
+          "sr": 113,
           "date": "16 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9127,7 +9107,7 @@
           "isNew": false
         },
         {
-          "sr": 116,
+          "sr": 114,
           "date": "09 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9139,7 +9119,7 @@
           "isNew": false
         },
         {
-          "sr": 117,
+          "sr": 115,
           "date": "13 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9151,7 +9131,7 @@
           "isNew": false
         },
         {
-          "sr": 118,
+          "sr": 116,
           "date": "09 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9163,7 +9143,7 @@
           "isNew": false
         },
         {
-          "sr": 119,
+          "sr": 117,
           "date": "09 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9175,7 +9155,7 @@
           "isNew": false
         },
         {
-          "sr": 120,
+          "sr": 118,
           "date": "09 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9187,7 +9167,7 @@
           "isNew": false
         },
         {
-          "sr": 121,
+          "sr": 119,
           "date": "06 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9199,7 +9179,7 @@
           "isNew": false
         },
         {
-          "sr": 122,
+          "sr": 120,
           "date": "02 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9211,7 +9191,7 @@
           "isNew": false
         },
         {
-          "sr": 123,
+          "sr": 121,
           "date": "02 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9220,6 +9200,26 @@
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2025/consultation-paper-on-regulatory-amendments-for-reits-and-invits_93776.html",
           "summary": "This appears to be a consultation paper, not a final rule or binding circular, and the only information provided is the title: **“Consultation Paper on Regulatory Amendments for REITs and InvITs.”** Based on that title alone, the document indicates that the regulator is seeking feedback on proposed changes to the regulatory framework governing **Real Estate Investment Trusts (REITs)** and **Infrastructure Investment Trusts (InvITs)**, but no specific amendments, thresholds, deadlines, or compliance requirements are included in the text provided.  \n\nFor a corporate compliance team, the key takeaway is that this is an **upstream policy consultation** that may affect entities operating as REITs/InvITs, sponsors, investment managers, trustees, managers, unitholders, and potentially other market participants subject to those regimes, but the exact scope of impact cannot be determined from the supplied content. There are no stated effective dates, implementation timelines, filing obligations, approval processes, numerical thresholds, or reporting changes in the material provided.  \n\nBecause no substantive text was provided, this summary is necessarily general: the document signals that regulatory amendments are being considered and comments are being invited, so relevant stakeholders should review the full consultation paper and any accompanying draft amendments to assess whether operational, governance, disclosure, investor communication, or transaction-structuring changes would be required.",
           "summarySource": "title",
+          "isNew": false
+        },
+        {
+          "sr": 122,
+          "date": "30 Apr 2025",
+          "year": 2025,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on amendment to Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018 with the objective of mandatory de-materialization of existing securities of select shareholders prior to IPO  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2025/consultation-paper-on-amendment-to-securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018-with-the-objective-of-mandatory-de-materialization-of-existin-_93728.html",
+          "isNew": false
+        },
+        {
+          "sr": 123,
+          "date": "29 Apr 2025",
+          "year": 2025,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on Framework for Orderly Winding Down of Critical Operations and Services of a KYC (Know Your Client) Registration Agency (KRA)  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2025/consultation-paper-on-framework-for-orderly-winding-down-of-critical-operations-and-services-of-a-kyc-know-your-client-registration-agency-kra-_93696.html",
           "isNew": false
         },
         {
@@ -9498,26 +9498,6 @@
         },
         {
           "sr": 147,
-          "date": "12 Feb 2025",
-          "year": 2025,
-          "cat": "Consultation Paper",
-          "title": "Margin obligations to be given by way of Pledge / re-pledge in the Depository system  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2025/margin-obligations-to-be-given-by-way-of-pledge-re-pledge-in-the-depository-system_91849.html",
-          "isNew": false
-        },
-        {
-          "sr": 148,
-          "date": "11 Feb 2025",
-          "year": 2025,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on Treatment of unclaimed funds and securities of clients lying with Trading Members  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2025/consultation-paper-on-treatment-of-unclaimed-funds-and-securities-of-clients-lying-with-trading-members_91811.html",
-          "isNew": false
-        },
-        {
-          "sr": 149,
           "date": "07 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9527,7 +9507,7 @@
           "isNew": false
         },
         {
-          "sr": 150,
+          "sr": 148,
           "date": "07 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9537,7 +9517,7 @@
           "isNew": false
         },
         {
-          "sr": 151,
+          "sr": 149,
           "date": "07 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9549,7 +9529,7 @@
           "isNew": false
         },
         {
-          "sr": 152,
+          "sr": 150,
           "date": "03 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9561,7 +9541,7 @@
           "isNew": false
         },
         {
-          "sr": 153,
+          "sr": 151,
           "date": "31 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9573,7 +9553,7 @@
           "isNew": false
         },
         {
-          "sr": 154,
+          "sr": 152,
           "date": "28 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9585,7 +9565,7 @@
           "isNew": false
         },
         {
-          "sr": 155,
+          "sr": 153,
           "date": "22 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9597,7 +9577,7 @@
           "isNew": false
         },
         {
-          "sr": 156,
+          "sr": 154,
           "date": "20 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9609,7 +9589,7 @@
           "isNew": false
         },
         {
-          "sr": 157,
+          "sr": 155,
           "date": "20 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9621,7 +9601,7 @@
           "isNew": false
         },
         {
-          "sr": 158,
+          "sr": 156,
           "date": "14 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9633,7 +9613,7 @@
           "isNew": false
         },
         {
-          "sr": 159,
+          "sr": 157,
           "date": "10 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -9645,7 +9625,7 @@
           "isNew": false
         },
         {
-          "sr": 160,
+          "sr": 158,
           "date": "17 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9657,7 +9637,7 @@
           "isNew": false
         },
         {
-          "sr": 161,
+          "sr": 159,
           "date": "13 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9669,7 +9649,7 @@
           "isNew": false
         },
         {
-          "sr": 162,
+          "sr": 160,
           "date": "13 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9681,7 +9661,7 @@
           "isNew": false
         },
         {
-          "sr": 163,
+          "sr": 161,
           "date": "13 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9693,7 +9673,7 @@
           "isNew": false
         },
         {
-          "sr": 164,
+          "sr": 162,
           "date": "10 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9705,7 +9685,7 @@
           "isNew": false
         },
         {
-          "sr": 165,
+          "sr": 163,
           "date": "10 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9717,7 +9697,7 @@
           "isNew": false
         },
         {
-          "sr": 166,
+          "sr": 164,
           "date": "06 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9729,7 +9709,7 @@
           "isNew": false
         },
         {
-          "sr": 167,
+          "sr": 165,
           "date": "05 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9741,7 +9721,7 @@
           "isNew": false
         },
         {
-          "sr": 168,
+          "sr": 166,
           "date": "05 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9753,7 +9733,7 @@
           "isNew": false
         },
         {
-          "sr": 169,
+          "sr": 167,
           "date": "05 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9765,7 +9745,7 @@
           "isNew": false
         },
         {
-          "sr": 170,
+          "sr": 168,
           "date": "03 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9777,7 +9757,7 @@
           "isNew": false
         },
         {
-          "sr": 171,
+          "sr": 169,
           "date": "22 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9789,7 +9769,7 @@
           "isNew": false
         },
         {
-          "sr": 172,
+          "sr": 170,
           "date": "22 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9799,7 +9779,7 @@
           "isNew": false
         },
         {
-          "sr": 173,
+          "sr": 171,
           "date": "19 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9809,7 +9789,7 @@
           "isNew": false
         },
         {
-          "sr": 174,
+          "sr": 172,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9819,7 +9799,7 @@
           "isNew": false
         },
         {
-          "sr": 175,
+          "sr": 173,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9829,7 +9809,7 @@
           "isNew": false
         },
         {
-          "sr": 176,
+          "sr": 174,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9841,7 +9821,7 @@
           "isNew": false
         },
         {
-          "sr": 177,
+          "sr": 175,
           "date": "12 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9853,7 +9833,7 @@
           "isNew": false
         },
         {
-          "sr": 178,
+          "sr": 176,
           "date": "11 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9865,7 +9845,7 @@
           "isNew": false
         },
         {
-          "sr": 179,
+          "sr": 177,
           "date": "09 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9877,7 +9857,7 @@
           "isNew": false
         },
         {
-          "sr": 180,
+          "sr": 178,
           "date": "06 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9889,7 +9869,7 @@
           "isNew": false
         },
         {
-          "sr": 181,
+          "sr": 179,
           "date": "04 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9901,7 +9881,7 @@
           "isNew": false
         },
         {
-          "sr": 182,
+          "sr": 180,
           "date": "01 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9913,7 +9893,7 @@
           "isNew": false
         },
         {
-          "sr": 183,
+          "sr": 181,
           "date": "31 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9925,7 +9905,7 @@
           "isNew": false
         },
         {
-          "sr": 184,
+          "sr": 182,
           "date": "31 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9937,7 +9917,7 @@
           "isNew": false
         },
         {
-          "sr": 185,
+          "sr": 183,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9949,7 +9929,7 @@
           "isNew": false
         },
         {
-          "sr": 186,
+          "sr": 184,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9961,7 +9941,7 @@
           "isNew": false
         },
         {
-          "sr": 187,
+          "sr": 185,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9973,7 +9953,7 @@
           "isNew": false
         },
         {
-          "sr": 188,
+          "sr": 186,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9985,7 +9965,7 @@
           "isNew": false
         },
         {
-          "sr": 189,
+          "sr": 187,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -9997,7 +9977,7 @@
           "isNew": false
         },
         {
-          "sr": 190,
+          "sr": 188,
           "date": "28 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10009,7 +9989,7 @@
           "isNew": false
         },
         {
-          "sr": 191,
+          "sr": 189,
           "date": "24 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10021,7 +10001,7 @@
           "isNew": false
         },
         {
-          "sr": 192,
+          "sr": 190,
           "date": "22 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10033,7 +10013,7 @@
           "isNew": false
         },
         {
-          "sr": 193,
+          "sr": 191,
           "date": "16 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10045,7 +10025,7 @@
           "isNew": false
         },
         {
-          "sr": 194,
+          "sr": 192,
           "date": "08 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10057,7 +10037,7 @@
           "isNew": false
         },
         {
-          "sr": 195,
+          "sr": 193,
           "date": "04 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10069,7 +10049,7 @@
           "isNew": false
         },
         {
-          "sr": 196,
+          "sr": 194,
           "date": "27 Sept 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10081,27 +10061,7 @@
           "isNew": false
         },
         {
-          "sr": 197,
-          "date": "26 Sept 2024",
-          "year": 2024,
-          "cat": "Consultation Paper",
-          "title": "Consultation paper on the proposal to exempt certain transactions from trading window restrictions",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/sep-2024/consultation-paper-on-the-proposal-to-exempt-certain-transactions-from-trading-window-restrictions_87021.html",
-          "isNew": false
-        },
-        {
-          "sr": 198,
-          "date": "24 Sept 2024",
-          "year": 2024,
-          "cat": "Consultation Paper",
-          "title": "Consultation paper on Draft Circular for “Simplified registration for Foreign Portfolio Investors (FPIs)”  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/sep-2024/consultation-paper-on-draft-circular-for-simplified-registration-for-foreign-portfolio-investors-fpis-_86950.html",
-          "isNew": false
-        },
-        {
-          "sr": 199,
+          "sr": 195,
           "date": "20 Sept 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10111,7 +10071,7 @@
           "isNew": false
         },
         {
-          "sr": 200,
+          "sr": 196,
           "date": "30 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10121,7 +10081,7 @@
           "isNew": false
         },
         {
-          "sr": 201,
+          "sr": 197,
           "date": "29 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10133,7 +10093,7 @@
           "isNew": false
         },
         {
-          "sr": 202,
+          "sr": 198,
           "date": "29 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10145,7 +10105,7 @@
           "isNew": false
         },
         {
-          "sr": 203,
+          "sr": 199,
           "date": "28 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10157,7 +10117,7 @@
           "isNew": false
         },
         {
-          "sr": 204,
+          "sr": 200,
           "date": "28 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10169,7 +10129,7 @@
           "isNew": false
         },
         {
-          "sr": 205,
+          "sr": 201,
           "date": "22 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10181,7 +10141,7 @@
           "isNew": false
         },
         {
-          "sr": 206,
+          "sr": 202,
           "date": "21 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10193,7 +10153,7 @@
           "isNew": false
         },
         {
-          "sr": 207,
+          "sr": 203,
           "date": "20 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10205,7 +10165,7 @@
           "isNew": false
         },
         {
-          "sr": 208,
+          "sr": 204,
           "date": "17 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10217,7 +10177,7 @@
           "isNew": false
         },
         {
-          "sr": 209,
+          "sr": 205,
           "date": "16 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10229,7 +10189,7 @@
           "isNew": false
         },
         {
-          "sr": 210,
+          "sr": 206,
           "date": "16 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10241,7 +10201,7 @@
           "isNew": false
         },
         {
-          "sr": 211,
+          "sr": 207,
           "date": "16 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10253,7 +10213,7 @@
           "isNew": false
         },
         {
-          "sr": 212,
+          "sr": 208,
           "date": "09 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10265,7 +10225,7 @@
           "isNew": false
         },
         {
-          "sr": 213,
+          "sr": 209,
           "date": "08 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10277,7 +10237,7 @@
           "isNew": false
         },
         {
-          "sr": 214,
+          "sr": 210,
           "date": "06 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10289,7 +10249,7 @@
           "isNew": false
         },
         {
-          "sr": 215,
+          "sr": 211,
           "date": "06 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10301,7 +10261,7 @@
           "isNew": false
         },
         {
-          "sr": 216,
+          "sr": 212,
           "date": "05 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10313,7 +10273,7 @@
           "isNew": false
         },
         {
-          "sr": 217,
+          "sr": 213,
           "date": "30 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10325,7 +10285,7 @@
           "isNew": false
         },
         {
-          "sr": 218,
+          "sr": 214,
           "date": "30 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10337,7 +10297,7 @@
           "isNew": false
         },
         {
-          "sr": 219,
+          "sr": 215,
           "date": "29 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10349,7 +10309,7 @@
           "isNew": false
         },
         {
-          "sr": 220,
+          "sr": 216,
           "date": "25 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10361,7 +10321,7 @@
           "isNew": false
         },
         {
-          "sr": 221,
+          "sr": 217,
           "date": "22 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10373,7 +10333,7 @@
           "isNew": false
         },
         {
-          "sr": 222,
+          "sr": 218,
           "date": "16 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10383,7 +10343,7 @@
           "isNew": false
         },
         {
-          "sr": 223,
+          "sr": 219,
           "date": "16 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10393,7 +10353,7 @@
           "isNew": false
         },
         {
-          "sr": 224,
+          "sr": 220,
           "date": "09 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10403,7 +10363,7 @@
           "isNew": false
         },
         {
-          "sr": 225,
+          "sr": 221,
           "date": "05 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10413,7 +10373,7 @@
           "isNew": false
         },
         {
-          "sr": 226,
+          "sr": 222,
           "date": "01 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10425,7 +10385,7 @@
           "isNew": false
         },
         {
-          "sr": 227,
+          "sr": 223,
           "date": "28 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10437,7 +10397,7 @@
           "isNew": false
         },
         {
-          "sr": 228,
+          "sr": 224,
           "date": "26 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10449,7 +10409,7 @@
           "isNew": false
         },
         {
-          "sr": 229,
+          "sr": 225,
           "date": "08 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10461,7 +10421,7 @@
           "isNew": false
         },
         {
-          "sr": 230,
+          "sr": 226,
           "date": "07 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10473,7 +10433,7 @@
           "isNew": false
         },
         {
-          "sr": 231,
+          "sr": 227,
           "date": "05 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10485,7 +10445,7 @@
           "isNew": false
         },
         {
-          "sr": 232,
+          "sr": 228,
           "date": "23 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10497,7 +10457,7 @@
           "isNew": false
         },
         {
-          "sr": 233,
+          "sr": 229,
           "date": "22 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10509,7 +10469,7 @@
           "isNew": false
         },
         {
-          "sr": 234,
+          "sr": 230,
           "date": "21 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10521,7 +10481,7 @@
           "isNew": false
         },
         {
-          "sr": 235,
+          "sr": 231,
           "date": "17 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10533,7 +10493,7 @@
           "isNew": false
         },
         {
-          "sr": 236,
+          "sr": 232,
           "date": "09 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10545,7 +10505,7 @@
           "isNew": false
         },
         {
-          "sr": 237,
+          "sr": 233,
           "date": "09 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10557,7 +10517,7 @@
           "isNew": false
         },
         {
-          "sr": 238,
+          "sr": 234,
           "date": "09 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10569,7 +10529,7 @@
           "isNew": false
         },
         {
-          "sr": 239,
+          "sr": 235,
           "date": "19 Apr 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10581,7 +10541,7 @@
           "isNew": false
         },
         {
-          "sr": 240,
+          "sr": 236,
           "date": "05 Apr 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10593,7 +10553,7 @@
           "isNew": false
         },
         {
-          "sr": 241,
+          "sr": 237,
           "date": "19 Mar 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10605,7 +10565,7 @@
           "isNew": false
         },
         {
-          "sr": 242,
+          "sr": 238,
           "date": "08 Mar 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10617,7 +10577,7 @@
           "isNew": false
         },
         {
-          "sr": 243,
+          "sr": 239,
           "date": "27 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10629,7 +10589,7 @@
           "isNew": false
         },
         {
-          "sr": 244,
+          "sr": 240,
           "date": "23 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10641,7 +10601,7 @@
           "isNew": false
         },
         {
-          "sr": 245,
+          "sr": 241,
           "date": "15 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10653,7 +10613,7 @@
           "isNew": false
         },
         {
-          "sr": 246,
+          "sr": 242,
           "date": "07 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10665,7 +10625,7 @@
           "isNew": false
         },
         {
-          "sr": 247,
+          "sr": 243,
           "date": "02 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10675,7 +10635,7 @@
           "isNew": false
         },
         {
-          "sr": 248,
+          "sr": 244,
           "date": "02 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10685,7 +10645,7 @@
           "isNew": false
         },
         {
-          "sr": 249,
+          "sr": 245,
           "date": "19 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10697,7 +10657,7 @@
           "isNew": false
         },
         {
-          "sr": 250,
+          "sr": 246,
           "date": "12 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10709,7 +10669,7 @@
           "isNew": false
         },
         {
-          "sr": 251,
+          "sr": 247,
           "date": "11 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10721,7 +10681,7 @@
           "isNew": false
         },
         {
-          "sr": 252,
+          "sr": 248,
           "date": "10 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -10733,7 +10693,7 @@
           "isNew": false
         },
         {
-          "sr": 253,
+          "sr": 249,
           "date": "28 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10745,7 +10705,7 @@
           "isNew": false
         },
         {
-          "sr": 254,
+          "sr": 250,
           "date": "22 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10757,7 +10717,7 @@
           "isNew": false
         },
         {
-          "sr": 255,
+          "sr": 251,
           "date": "09 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10769,7 +10729,7 @@
           "isNew": false
         },
         {
-          "sr": 256,
+          "sr": 252,
           "date": "09 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10781,7 +10741,7 @@
           "isNew": false
         },
         {
-          "sr": 257,
+          "sr": 253,
           "date": "28 Nov 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10793,7 +10753,7 @@
           "isNew": false
         },
         {
-          "sr": 258,
+          "sr": 254,
           "date": "24 Nov 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10805,7 +10765,7 @@
           "isNew": false
         },
         {
-          "sr": 259,
+          "sr": 255,
           "date": "31 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10817,7 +10777,7 @@
           "isNew": false
         },
         {
-          "sr": 260,
+          "sr": 256,
           "date": "31 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10829,7 +10789,7 @@
           "isNew": false
         },
         {
-          "sr": 261,
+          "sr": 257,
           "date": "29 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10841,7 +10801,7 @@
           "isNew": false
         },
         {
-          "sr": 262,
+          "sr": 258,
           "date": "25 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10853,7 +10813,7 @@
           "isNew": false
         },
         {
-          "sr": 263,
+          "sr": 259,
           "date": "25 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10865,7 +10825,7 @@
           "isNew": false
         },
         {
-          "sr": 264,
+          "sr": 260,
           "date": "25 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10877,7 +10837,7 @@
           "isNew": false
         },
         {
-          "sr": 265,
+          "sr": 261,
           "date": "22 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10889,7 +10849,7 @@
           "isNew": false
         },
         {
-          "sr": 266,
+          "sr": 262,
           "date": "14 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10901,7 +10861,7 @@
           "isNew": false
         },
         {
-          "sr": 267,
+          "sr": 263,
           "date": "10 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10913,7 +10873,7 @@
           "isNew": false
         },
         {
-          "sr": 268,
+          "sr": 264,
           "date": "01 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10925,7 +10885,7 @@
           "isNew": false
         },
         {
-          "sr": 269,
+          "sr": 265,
           "date": "21 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10937,7 +10897,7 @@
           "isNew": false
         },
         {
-          "sr": 270,
+          "sr": 266,
           "date": "20 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10947,7 +10907,7 @@
           "isNew": false
         },
         {
-          "sr": 271,
+          "sr": 267,
           "date": "05 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10957,7 +10917,7 @@
           "isNew": false
         },
         {
-          "sr": 272,
+          "sr": 268,
           "date": "04 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10967,7 +10927,7 @@
           "isNew": false
         },
         {
-          "sr": 273,
+          "sr": 269,
           "date": "01 Jun 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10977,7 +10937,7 @@
           "isNew": false
         },
         {
-          "sr": 274,
+          "sr": 270,
           "date": "01 Jun 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -10989,7 +10949,7 @@
           "isNew": false
         },
         {
-          "sr": 275,
+          "sr": 271,
           "date": "31 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11001,7 +10961,7 @@
           "isNew": false
         },
         {
-          "sr": 276,
+          "sr": 272,
           "date": "23 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11013,7 +10973,7 @@
           "isNew": false
         },
         {
-          "sr": 277,
+          "sr": 273,
           "date": "20 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11025,7 +10985,7 @@
           "isNew": false
         },
         {
-          "sr": 278,
+          "sr": 274,
           "date": "20 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11037,7 +10997,7 @@
           "isNew": false
         },
         {
-          "sr": 279,
+          "sr": 275,
           "date": "20 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11049,7 +11009,7 @@
           "isNew": false
         },
         {
-          "sr": 280,
+          "sr": 276,
           "date": "19 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11061,7 +11021,7 @@
           "isNew": false
         },
         {
-          "sr": 281,
+          "sr": 277,
           "date": "19 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11073,7 +11033,7 @@
           "isNew": false
         },
         {
-          "sr": 282,
+          "sr": 278,
           "date": "19 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11085,7 +11045,7 @@
           "isNew": false
         },
         {
-          "sr": 283,
+          "sr": 279,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11097,7 +11057,7 @@
           "isNew": false
         },
         {
-          "sr": 284,
+          "sr": 280,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11109,7 +11069,7 @@
           "isNew": false
         },
         {
-          "sr": 285,
+          "sr": 281,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11121,7 +11081,7 @@
           "isNew": false
         },
         {
-          "sr": 286,
+          "sr": 282,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11133,7 +11093,7 @@
           "isNew": false
         },
         {
-          "sr": 287,
+          "sr": 283,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11145,7 +11105,7 @@
           "isNew": false
         },
         {
-          "sr": 288,
+          "sr": 284,
           "date": "16 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11157,7 +11117,7 @@
           "isNew": false
         },
         {
-          "sr": 289,
+          "sr": 285,
           "date": "16 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11169,7 +11129,7 @@
           "isNew": false
         },
         {
-          "sr": 290,
+          "sr": 286,
           "date": "12 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11181,7 +11141,7 @@
           "isNew": false
         },
         {
-          "sr": 291,
+          "sr": 287,
           "date": "12 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11193,7 +11153,7 @@
           "isNew": false
         },
         {
-          "sr": 292,
+          "sr": 288,
           "date": "09 Mar 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11205,7 +11165,7 @@
           "isNew": false
         },
         {
-          "sr": 293,
+          "sr": 289,
           "date": "08 Mar 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11217,7 +11177,7 @@
           "isNew": false
         },
         {
-          "sr": 294,
+          "sr": 290,
           "date": "23 Feb 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -11227,29 +11187,9 @@
           "summary": "This appears to be a consultation paper, so it is not itself a final rule or binding requirement; rather, it indicates that the relevant regulator is considering changes to the rules governing sponsor holdings in REITs and InvITs and is seeking stakeholder input before any amendment is finalized. Based on the title alone, the paper likely concerns whether sponsors of Real Estate Investment Trusts (REITs) and Infrastructure Investment Trusts (InvITs) should be required to hold a minimum stake, how long that stake must be maintained, whether any phased reduction or lock-in framework should apply over time, and whether the current sponsor alignment requirements remain appropriate for market protection and governance. Because no document text was provided, there are no specific threshold percentages, deadlines, procedural steps, or affected-party definitions available to summarize, and no compliance action can be confirmed at this stage beyond monitoring the consultation and preparing to review any proposed changes once published. For a corporate compliance team, the practical takeaway is that REIT/InvIT sponsors, managers, and trustees should watch for proposed amendments that could affect ownership structure, sponsor obligations, or ongoing eligibility conditions, but the exact requirements cannot be stated from the title alone.",
           "summarySource": "title",
           "isNew": false
-        },
-        {
-          "sr": 295,
-          "date": "22 Feb 2023",
-          "year": 2023,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on Regulatory Framework for ESG Rating Providers (ERPs) in Securities Market",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-regulatory-framework-for-esg-rating-providers-erps-in-securities-market_68337.html",
-          "isNew": false
-        },
-        {
-          "sr": 296,
-          "date": "22 Feb 2023",
-          "year": 2023,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on certain Amendments to Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018, with the objective of increasing transparency and streamlining certain processes",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-certain-amendments-to-securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018-with-the-objective-of-increasing-transparency-and-s-_68336.html",
-          "isNew": false
         }
       ],
-      "ts": 1792879714030,
+      "ts": 1792888959692,
       "ok": true,
       "newCount": 0
     },
@@ -11273,7 +11213,7 @@
           "year": null,
           "cat": "FAQ",
           "title": "Click here to make payment to SEBI IPEF",
-          "desc": "ErrorErrorThis page can't be displayed. Contact support for additional information.The incident ID is: 7699657567004126554.",
+          "desc": "ErrorErrorThis page can't be displayed. Contact support for additional information.The incident ID is: 7699657567014239065.",
           "link": "https://eazypay.icicibank.com/eazypayLink?P1=R1ws3SZl9MhbXRHocyY3FA==",
           "summary": "The provided document does not contain any substantive regulatory or financial content to summarize. It appears to be an error page stating: “This page can't be displayed. Contact support for additional information. The incident ID is: N/A.”\n\nBecause the page contains no rule text, filing instructions, deadlines, rates, thresholds, affected entities, or compliance obligations, there are no actionable requirements for a corporate compliance team to extract from it. The title references “Click here to make payment to SEBI IPEF,” but the actual document content does not confirm any payment obligation, due date, amount, or affected party. If you intended to provide the underlying SEBI payment notice or regulatory circular, please resend the correct document text or attachment.",
           "summarySource": "desc",
@@ -12684,7 +12624,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879716968,
+      "ts": 1792888963034,
       "ok": true,
       "newCount": 0
     },
@@ -12715,7 +12655,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879718594,
+      "ts": 1792888964752,
       "ok": true,
       "newCount": 0
     },
@@ -16320,7 +16260,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879754983,
+      "ts": 1792889003419,
       "ok": true,
       "newCount": 0
     },
@@ -16555,7 +16495,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879757314,
+      "ts": 1792889005745,
       "ok": true,
       "newCount": 0
     },
@@ -20162,7 +20102,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879760134,
+      "ts": 1792889008838,
       "ok": true,
       "newCount": 0
     },
@@ -20181,7 +20121,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879762295,
+      "ts": 1792889010899,
       "ok": true,
       "newCount": 0
     },
@@ -20428,7 +20368,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879764569,
+      "ts": 1792889013212,
       "ok": true,
       "newCount": 0
     },
@@ -20436,256 +20376,256 @@
       "rows": [
         {
           "sr": 1,
-          "date": "10 Mar 2026",
+          "date": "23 Oct 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "Revised Norms for appointment of an independent third-party reviewer/ certifier for green debt security",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260310-1",
+          "title": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2026.",
+          "desc": "NOTICE NoticeNo. 20261023-12 NoticeDate 23Oct2026 Category CircularsListedCompanies Segment Equity Department ListingCompliance-Monitoring Subject SecuritiesandExchangeBoardofIndia(ListingObligationsand DisclosureRequirements)(ThirdAmendment)Regulations,2026. Attachments SEBI_LODR_THIRD_AMENDMENT To, All Listed Entities Dear Sir/Madam, The Securities and Exchange Board of India (SEBI) has issued notification No. SEBI/LAD-DOP/2026/329 dated October 12, 2026, regarding further amendment to the Securities and Exchange Board of India (Listing Obligations and Disclosure requirements) Regulations, 2015. These regulations may be called the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2026. They shall come into force on the date of their publication in the Official Gazette. The aforesaid notification is attached for reference. All Listed companies are requested to take note and comply accordingly. Amish Shah Assistant Vice President Listing Compliance Shyam Bhagirath Manager Listing Compliance",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261023-12/20261023-12.pdf",
           "isNew": false
         },
         {
           "sr": 2,
-          "date": "06 Mar 2026",
+          "date": "21 Oct 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "Update on single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260306-25",
+          "title": "Common Standard Operating Procedure (SOP) for grant of approvals for further issues by Stock Exchanges",
+          "desc": "NOTICE NoticeNo. 20261021-14 NoticeDate 21Oct2026 Category CircularsListedCompanies Segment Equity Department ListingOperations Subject CommonStandardOperatingProcedure(SOP)forgrantof approvalsforfurtherissuesbyStockExchanges Attachments NoAttachment To, All Listed Entities Listed entities proposing to raise capital through Preferential Issues, Rights Issues, Qualified Institutions Placements, Foreign Currency Convertible Bonds, American Depository Receipts, Global Depository Receipts, Employee Stock Option Plans, Employee Stock Purchase Schemes (ESPS), Sweat Equity, Bonus, Schemes of Arrangement etc, shall submit applications to the respective recognised Stock Exchange(s) for the requisite approvals/No Objection letter for a scheme. Further, currently, each Recognised Stock Exchange - follows its own procedures for processing applications relating to further issues of securities, although approval is given in coordination with other Exchanges In order to achieve uniform, consistent, coordinated and expeditious approval process in the Commonly listed entities, Exchanges in consultation with SEBI have agreed to adopt a unified approach and issue a joint common (SOP). For Commonly listed entities, Exchanges will be allocating the application(s) amongst themselves on an alternate basis, only for the processing purpose. The Exchange getting allocation of the application will be called as “The Lead Stock Exchange” for the purpose of that application. The other Stock Exchange (“Recipient Stock Exchange”) will share the queries/ concerns etc, observed in the submitted applications and other documents submitted by the Company, with the Lead Stock Exchange processing the further issue application Post which the Lead Stock Exchange will raise the queries /concerns with the listed entities for their response. Below is the detail process of same: • The listed entity shall simultaneously submit application(s) along with all the requisite checklist documents to the Exchange(s), o",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261021-14/20261021-14.pdf",
           "isNew": false
         },
         {
           "sr": 3,
-          "date": "20 Feb 2026",
+          "date": "14 Oct 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "Update on single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260220-44",
+          "title": "Update in the formats for publishing financial results as required under the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and Filing of Financial Results in XBRL Mode by all Insurers and Reinsurers",
+          "desc": "NOTICE NoticeNo. 20261014-25 NoticeDate 14Oct2026 Category CircularsListedCompanies Segment Equity Department ListingCompliance-Monitoring Subject Updateintheformatsforpublishingfinancialresultsasrequired undertheSEBI(ListingObligationsandDisclosureRequirements) Regulations,2015andFilingofFinancialResultsinXBRLModeby allInsurersandReinsurers Attachments BSEcircular To, All Insurers and Reinsurers Subject: Update in the formats for publishing financial results as required under the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and Filing of Financial Results in XBRL Mode by all Insurers and Reinsurers This is in reference to the IRDAI Circular IRDAI/F&I/CIR/MISC/92/7/2026 dated July 08, 2026 read with IRDAI (Actuarial, Finance and Investment Functions of Insurers), (Amendment) Regulations, 2026 as may be amended from time to time and SEBI Master Circular no. HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026. Please note that, the formats for publishing Unaudited/Audited quarterly financial results by listed Insurers to Stock Exchanges for all Life Insurers, General Insurers, Health Insurers and Reinsurers have been revised. In this regard, we wish to inform you that the issuers can download excel utility of Integrated Filling Financials- Insurance IND AS, as per the said revised format, from the BSE Listing Centre and can upload the same on the below path: BSE listing centre path for downloading XBRL excel utility: Listing Centre Menu button > Listing compliance > XBRL > XBRL > Excel utility > Integrated Filing (Finance)_Insurance Companies Ind AS BSE listing centre path for submitting XML file: Listing Centre Menu button > Listing compliance > XBRL > E-filing > Integrated Financial Result > Integrated Financial Result IND AS Further, the listed Insurers, who were granted forbearance for the financial year 2026-27 for Ind AS implementation and are required to prepare their financial statements under Schedule II of the Insurance",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261014-25/20261014-25.pdf",
           "isNew": false
         },
         {
           "sr": 4,
-          "date": "03 Feb 2026",
+          "date": "08 Oct 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "Master Circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015 by listed entities",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-14",
+          "title": "Introduction of Credit Risk-o-Meter as an additional disclosure mechanism for debt securities.",
+          "desc": "NOTICE NoticeNo. 20261008-23 NoticeDate 08Oct2026 Category CircularsListedCompanies Segment Debt Department ListingCompliance-Monitoring Subject IntroductionofCreditRisk-o-Meterasanadditionaldisclosure mechanismfordebtsecurities. Attachments Introduction_of_Credit_Risk_o_Meter",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-23/20261008-23.pdf",
           "isNew": false
         },
         {
           "sr": 5,
-          "date": "03 Feb 2026",
+          "date": "08 Oct 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "SEBI (Issue and Listing of Non-Convertible Securities)(Amendment) Regulations, 2026",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-13",
+          "title": "Exemption from the requirement of mandatory merchant banker appointment for debt issued through private placement by certain listed issuers.",
+          "desc": "NOTICE NoticeNo. 20261008-22 NoticeDate 08Oct2026 Category CircularsListedCompanies Segment Debt Department ListingCompliance-Monitoring Subject Exemptionfromtherequirementofmandatorymerchantbanker appointmentfordebtissuedthroughprivateplacementbycertain listedissuers. Attachments Exemption_from_mandatory_merchant_banker_appointment",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-22/20261008-22.pdf",
           "isNew": false
         },
         {
           "sr": 6,
-          "date": "03 Feb 2026",
+          "date": "08 Oct 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "SEBI (Listing Obligations and Disclosure Requirements) (Amendment) Regulations, 2026",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-12",
+          "title": "Review of provisions related to International Securities Identification Number (ISIN) for debt securities issued on private placement basis.",
+          "desc": "NOTICE NoticeNo. 20261008-21 NoticeDate 08Oct2026 Category CircularsListedCompanies Segment Debt Department ListingCompliance-Monitoring Subject ReviewofprovisionsrelatedtoInternationalSecuritiesIdentification Number(ISIN)fordebtsecuritiesissuedonprivateplacementbasis. Attachments International_Securities_Identification_Number_ISIN Subject: Review of provisions related to International Securities Identification Number (ISIN) for debt securities issued on private placement basis. Dear Sir \\ Madam The Securities and Exchange Board of India (SEBI) has issued Circular No. HO/17/11/24(8)2026-DDHS- POD1/I/23125/2026 dated October 07, 2026, regarding review of provisions related to International Securities Identification Number (ISIN) for debt securities issued on private placement basis. The circular shall come into force with immediate effect. The aforesaid circular is attached for reference. Listed entities are requested to take note and comply accordingly. Sonal Sawant Deputy Manager Listing Compliance and Monitoring Amish Shah Assistant Vice President Listing Compliance and Monitoring",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-21/20261008-21.pdf",
           "isNew": false
         },
         {
           "sr": 7,
-          "date": "02 Feb 2026",
+          "date": "18 Sept 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "Ease of Doing Investment -Special Window for Transfer and Dematerialisation of Physical Securities",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260202-37",
+          "title": "Framework for Calculation of Net Distributable Cash Flows for InvITs",
+          "desc": "NOTICE NoticeNo. 20260918-25 NoticeDate 18Sep2026 Category CircularsListedCompanies Segment Debt Department ListingCompliance-Monitoring Subject FrameworkforCalculationofNetDistributableCashFlowsforInvITs Attachments Framework_for_Calculation_of_Net_Distributable_Cash_Flows_for_InvITs Subject: - Framework for Calculation of Net Distributable Cash Flows for InvITs Dear Sir \\ Madam The Securities and Exchange Board of India (SEBI) has issued Circular No. HO/17/11/17(5)2026-DDHS- POD2/I/18791/2026 dated August 14, 2026, regarding framework for Calculation of Net Distributable Cash Flows for InvITs The circular shall come into force with immediate effect. The aforesaid circular is attached for reference. Listed entities are requested to take note and comply accordingly. Jayshree Soni Deputy Vice President Listing Compliance and Monitoring Amish Shah Assistant Vice President Listing Compliance and Monitoring",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260918-25/20260918-25.pdf",
           "isNew": false
         },
         {
           "sr": 8,
-          "date": "02 Jan 2026",
+          "date": "24 Aug 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "Update on single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260102-23",
+          "title": "Frequently Asked Questions (FAQs) on Record Date for Corporate Actions",
+          "desc": "NOTICE NoticeNo. 20260824-16 NoticeDate 24Aug2026 Category CircularsListedCompanies Segment General Department ListingOperations Subject FrequentlyAskedQuestions(FAQs)onRecordDateforCorporate Actions Attachments FAQ_RecordDate_Corporate_Action RESTRICTED Date : -- -- To, All Listed Entities, Sub: Frequently Asked Questions (FAQs) on intimation of Record Date for Corporate Actions With reference to the intimation of Record Date for Corporate Actions, please find annexed the Frequently Asked Questions (FAQs) for your reference and guidance purpose. All the listed entities are requested to take note of the same and comply accordingly. Marian Dsouza Assistant Vice President Listing Compliance and Operations",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260824-16/20260824-16.pdf",
           "isNew": false
         },
         {
           "sr": 9,
-          "date": "22 Dec 2025",
-          "year": 2025,
+          "date": "07 Aug 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Modification in the conditions specified for reduction in denomination of debt securities",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251222-26",
+          "title": "Adherence to Compliance Requirements for Handling Unpublished Price Sensitive Information (UPSI) under the SEBI (Prohibition of Insider Trading) Regulations, 2015",
+          "desc": "NOTICE NoticeNo. 20260807-20 NoticeDate 07Aug2026 Category CircularsListedCompanies Segment General Department ListingCompliance-Monitoring Subject AdherencetoComplianceRequirementsforHandlingUnpublished PriceSensitiveInformation(UPSI)undertheSEBI(Prohibitionof InsiderTrading)Regulations,2015 Attachments NoAttachment To, All Listed Entities Dear Sir/Madam, SEBI (Prohibition of Insider Trading) Regulations, 2015 “(PIT Regulations)”, as amended from time to time, and the relevant circulars issued by SEBI and the Stock Exchanges detail, inter-alia, the manner in which the listed companies are required to deal with Unpublished Price Sensitive Information (UPSI). The provisions of the PIT Regulations are further supplemented and clarified through the Frequently Asked Questions (FAQs) issued by SEBI. In light of the observations made in certain cases, it is considered imperative that listed companies diligently adhere to best practices to ensure full compliance with the PIT Regulations as amended from time to time including the following: 1. Listed companies shall maintain a structured digital database containing the nature of UPSI, the names and PANs (or any other identifier authorized by law) of persons who have shared the information, and the names and PANs of persons with whom such information has been shared. In case where UPSI is shared with a listed company, intermediaries, or fiduciaries, the names and identifier of the individuals handling such information shall be recorded. 2. Listed companies shall diligently implement and periodically review internal policies designed to prevent the leakage of UPSI. Such measures must be in alignment with the statutory and regulatory provisions prescribed under the PIT Regulations. 3. To ensure a culture of compliance, companies shall conduct periodic training and awareness programs for all employees and fiduciaries regarding the prescribed manner of handling UPSI. 4. Listed companies shall ensure compliance with the Code of C",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260807-20/20260807-20.pdf",
           "isNew": false
         },
         {
           "sr": 10,
-          "date": "22 Dec 2025",
-          "year": 2025,
+          "date": "22 Jul 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Mandating periodic disclosure requirements- Securitised Debt  Instruments (SDIs).",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251222-25",
+          "title": "SEBI (Listing Obligations and Disclosure Requirements) (Second Amendment) Regulations, 2026",
+          "desc": "NOTICE NoticeNo. 20260722-7 NoticeDate 22Jul2026 Category CircularsListedCompanies Segment Equity Department ListingCompliance-Monitoring Subject SEBI(ListingObligationsandDisclosureRequirements)(Second Amendment)Regulations,2026 Attachments SEBI_LODR_SecondAmendment_Regulations_2026 To All Listed Companies Dear Sir \\ Madam The Securities and Exchange Board of India (SEBI) has issued notification No. SEBI/LAD-NRO/GN/2026/312 dated July 10, 2026, regarding further amendment to the Securities and Exchange Board of India (Listing Obligations and Disclosure requirements) Regulations, 2015. These regulations may be called the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) (Second Amendment) Regulations, 2026. They shall come into force on the date of their publication in the Official Gazette. The aforesaid notification is attached for reference. All Listed companies are requested to take note and comply accordingly. Jayshree Soni Deputy Vice President-Listing Compliance Shyam Bhagirath Manager-Listing Compliance",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260722-7/20260722-7.pdf",
           "isNew": false
         },
         {
           "sr": 11,
-          "date": "18 Dec 2025",
-          "year": 2025,
+          "date": "19 Jun 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Reclassification of Real Estate Investment Trusts (REITs) as equity related instruments for facilitating enhanced participation by Mutual Funds and Specialized Investment Funds (SIFs).",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251218-23",
+          "title": "Update of single filing system through API-based integration between Stock Exchanges.",
+          "desc": "NOTICE NoticeNo. 20260619-11 NoticeDate 19Jun2026 Category CircularsListedCompanies Segment General Department ListingCompliance-Monitoring Subject UpdateofsinglefilingsystemthroughAPI-basedintegration betweenStockExchanges. Attachments NoAttachment To, The Compliance Officer, All Listed Entities Subject: Update of single filing system through API-based integration between Stock Exchanges This has reference to Exchange notice no. 20240930-60 dated September 30, 2024, with respect to single filing system through API-based integration between Stock Exchanges. In this connection, we are pleased to inform you that the single filing system has been extended for the XBRL filing pertaining to the below mentioned event with effect from June 20, 2026, along with the release of the few new XBRL utilities as mentioned in the below table. At the initial stage, the PDF filings will be considered by the Exchange as compliance under Regulation 30 of the SEBI LODR Regulations 2015. Further, all listed entities would be required to submit the filings in XBRL mode within 24 hours of submission of the said PDF filing. The XBRL utility for the new events mentioned in the table below will be made available at the path Listing Center>> Listing Compliance>>XBRL >> XBRL utility. Further, it may be noted that the said XBRL filing, will also be made available in iXBRL format (readable format) to the listed entities/stakeholders on the website of the Exchange at path https://www.bseindia.com/corporates/ann (selection of announcement type) Further, please note that the XBRL utility and filing of single event of Para B of Part A of Schedule III of SEBI LODR 2015 i.e. Awarding, bagging/ receiving, amendment or termination of awarded/bagged orders/contracts not in the normal course of business, will be discontinued effective June 20, 2026 and will be merged with the single utility of Para B events. With this, the Single filing system through API-based integration shall now be available for below ",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260619-11/20260619-11.pdf",
           "isNew": false
         },
         {
           "sr": 12,
-          "date": "09 Dec 2025",
-          "year": 2025,
+          "date": "12 Jun 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "SEBI (Substantial Acquisition of Shares and Takeovers) (Amendment) Regulations, 2025",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251209-53",
+          "title": "Frequently Asked Questions (FAQs) on the submission of the Quarterly Integrated Filing – Governance",
+          "desc": "NOTICE NoticeNo. 20260612-13 NoticeDate 12Jun2026 Category CircularsListedCompanies Segment Equity Department ListingCompliance-Monitoring Subject FrequentlyAskedQuestions(FAQs)onthesubmissionofthe QuarterlyIntegratedFiling–Governance Attachments Annexure1 To, All Listed Entities, Sub: Frequently Asked Questions (FAQs) on the submission of the Quarterly Integrated Filing – Governance. With reference to the submission of Integrated Filing – Governance (Formerly known as Corporate Governance Report), please find annexed the Frequently Asked Questions (FAQs) for your reference and guidance purpose. All the listed entities are requested to take note of the same and comply accordingly. Yours faithfully Jayshree Soni Shraddha Bagwe Deputy Vice President Deputy Manager Listing Compliance and Operations Listing Compliance and Operations Encl: Annexure - FAQs",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260612-13/20260612-13.pdf",
           "isNew": false
         },
         {
           "sr": 13,
-          "date": "27 Nov 2025",
-          "year": 2025,
+          "date": "01 Jun 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Modifications to Chapter IV of the Master Circular for Debenture Trustees dated August 13, 2025.",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-66",
+          "title": "MCA Notifications relating to Corporate Social Responsibility (CSR) and Social Stock Exchange",
+          "desc": "NOTICE NoticeNo. 20260601-37 NoticeDate 01Jun2026 Category CircularsListedCompanies Segment SSE Department DCS-Listing Subject MCANotificationsrelatingtoCorporateSocialResponsibility(CSR) andSocialStockExchange Attachments PressRelease_PressInformationBureau;GSR416;GSR415 To, All Listed Entities All Not-for-Profit Organizations All Market Participants This is to inform all listed entities, not-for-profit organizations, market participants, and the public at large that the Ministry of Corporate Affairs (“MCA”) has issued the following notifications dated May 27, 2026: • G.S.R. 415(E) – Companies (Corporate Social Responsibility Policy) Amendment Rules, 2026 • G.S.R. 416(E) – Amendment to Schedule VII of the Companies Act, 2013 (collectively referred to as the “Notifications”). Pursuant to the aforesaid MCA Notifications, subscription to Zero Coupon Zero Principal (“ZCZP”) instruments on Social Stock Exchange by companies has been added in the list of activities which may be included by the companies in their Corporate Social Responsibility (“CSR”) Policy (Schedule VII to the Companies Act, 2013). All listed entities and other stakeholders are advised to take note of the above amendments and align their CSR Policy to take benefit of the Social Stock Exchange Platform for discharging their CSR obligations. For details, stakeholders are advised to refer to the attached Notifications. The Press Release issued by the Press Information Bureau is also attached for ready reference. This Circular is disseminated for information purposes. In case of any inconsistency between this Circular and the aforesaid Notifications, the provisions of the Notifications shall prevail. For any further details, you may contact us at sse@bseindia.com For BSE Ltd Hardik Bhuta Assistant Vice President Monday, June 1, 2026",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-37/20260601-37.pdf",
           "isNew": false
         },
         {
           "sr": 14,
-          "date": "27 Nov 2025",
-          "year": 2025,
+          "date": "01 Jun 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Specification of the terms and conditions for Debenture Trustees for carrying out activities outside the purview of SEBI.",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-65",
+          "title": "Pre-Packaged Insolvency Resolution Process under Section 54L of the Insolvency and Bankruptcy Code, 2016",
+          "desc": "NOTICE NoticeNo. 20260601-34 NoticeDate 01Jun2026 Category CircularsListedCompanies Segment Equity Department ListingOperations Subject Pre-PackagedInsolvencyResolutionProcessunderSection54Lof theInsolvencyandBankruptcyCode,2016 Attachments NoAttachment To All Listed Entities, Sub: Pre-Packaged Insolvency Resolution Process under Section 54L of the Insolvency and Bankruptcy Code, 2016 Attention is invited to the provisions relating to Pre-Packaged Insolvency Resolution Process (“PPIRP”) under Chapter III-A of the Insolvency and Bankruptcy Code, 2016 (“IBC”). In this regard, as advised by SEBI, it is clarified that, the exemptions available under various SEBI Regulations in respect of a Resolution Plan approved under Section 31 of the IBC are not available in case of a Resolution Plan approved under Section 54L of the IBC under the PPIRP framework. Accordingly, listed entities undergoing PPIRP shall be required to comply with all applicable procedural and regulatory requirements prescribed under the relevant SEBI Regulations. The listed entities are advised to take note of the above and ensure compliance of the same. For and on behalf of BSE Limited Vishal Jhaveri Janardhan Wagle Deputy Chief Regulatory Officer - Issuer Oversight Deputy Vice President Listing Compliance Listing Compliance June 01, 2026",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-34/20260601-34.pdf",
           "isNew": false
         },
         {
           "sr": 15,
-          "date": "27 Nov 2025",
-          "year": 2025,
+          "date": "29 May 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Timeline for submission of information by the Issuer to the Debenture Trustee(s)",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-64",
+          "title": "Update of single filing system through API-based integration between Stock Exchanges",
+          "desc": "NOTICE NoticeNo. 20260529-28 NoticeDate 29May2026 Category CircularsListedCompanies Segment General Department ListingCompliance-Monitoring Subject UpdateofsinglefilingsystemthroughAPI-basedintegration betweenStockExchanges Attachments NoAttachment To, The Compliance Officer, All Listed Entities Subject: Update of single filing system through API-based integration between Stock Exchanges This has reference to Exchange notice no. 20240930-60 dated September 30, 2024, with respect to single filing system through API-based integration between Stock Exchanges. In this connection, we are pleased to inform you that the single filing system has been extended for the XBRL filing pertaining to the below mentioned event with effect from May 29, 2026. With this, the Single filing system through API-based integration shall now be available for below mentioned disclosures: - Particulars Regulation as per SEBI (LODR) Regulations 2015/ SEBI (Depositories & Participants) Regulations 2018 Effective date Type of Listed Companies Only Equity Equity+Debt Exclusively Debt REITs and INVIT Schedule of analysts or institutional investors meet, Investor Presentation, Transcripts, Audio & Video recording Regulation. 30 of SEBI LODR read with sub-para 15 of Para A Part A Schedule III of SEBI LODR May 29, 2026* √ √ - - Action(s) initiated or orders passed by any regulatory, statutory, enforcement authority or judicial body Regulation. 30 of SEBI LODR read with sub-para 19 of Para A Part A Schedule III of SEBI LODR May 29, 2026* √ √ - - Action(s) taken or orders passed by any regulatory, statutory, enforcement authority or judicial body Regulation. 30 of SEBI LODR read with sub-para 20 of Para A Part A Schedule III of SEBI LODR May 29, 2026* √ √ - - Initiation of Forensic audit Regulation 30 of SEBI LODR read with sub-para 17 of Para A Part A Schedule III of SEBI LODR May 05, 2026* √ √ - - Prohibition of Insider Trading Regulation 7 (2 ) of SEBI PIT Regulation May 05, 2026 √ √ - √ Outcome of Bo",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260529-28/20260529-28.pdf",
           "isNew": false
         },
         {
           "sr": 16,
-          "date": "27 Nov 2025",
-          "year": 2025,
+          "date": "20 May 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "SEBI (Listing obligations and disclosure requirements) (Fifth amendment) regulations, 2025",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-63",
+          "title": "Status of SPVs post conclusion or termination of Concession Agreement",
+          "desc": "NOTICE NoticeNo. 20260520-10 NoticeDate 20May2026 Category CircularsListedCompanies Segment Debt Department ListingCompliance-Monitoring Subject StatusofSPVspostconclusionorterminationofConcession Agreement Attachments StatusofSPVCircular Dear Sir \\ Madam The Securities and Exchange Board of India (SEBI) has issued Circular No. SEBI/HO/DDHS/DDHS-PoD- 2/I/11698/2026 dated May 15, 2026, regarding Status of SPVs post conclusion or termination of Concession Agreement. The circular shall come into force with immediate effect. The aforesaid circular is attached for reference. Listed entities are requested to take note and comply accordingly. Jayshree Soni Deputy Vice President Listing Compliance and Monitoring Amish Shah Assistant Vice President Listing Compliance and Monitoring",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-10/20260520-10.pdf",
           "isNew": false
         },
         {
           "sr": 17,
-          "date": "21 Nov 2025",
-          "year": 2025,
+          "date": "20 May 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Master Circular for issue and listing of Non-convertible Securities, Securitised Debt Instruments, Security Receipts, Municipal Debt Securities and Commercial Paper.",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251121-73",
+          "title": "Permitted use of fresh borrowings for InvITs where Net Borrowings exceeds forty-nine percent of the value of InvIT assets",
+          "desc": "NOTICE NoticeNo. 20260520-8 NoticeDate 20May2026 Category CircularsListedCompanies Segment Debt Department ListingCompliance-Monitoring Subject PermitteduseoffreshborrowingsforInvITswhereNetBorrowings exceedsforty-ninepercentofthevalueofInvITassets Attachments PermittedfreshborrowingsInvITscircular Dear Sir \\ Madam The Securities and Exchange Board of India (SEBI) has issued Circular No. SEBI/HO/DDHS/DDHS-PoD- 2/I/11700/2026 dated May 15, 2026, regarding permitted use of fresh borrowings for InvITs where Net Borrowings exceeds forty-nine percent of the value of InvIT assets. The circular shall come into force with immediate effect. The aforesaid circular is attached for reference. Listed entities are requested to take note and comply accordingly. Jayshree Soni Deputy Vice President Listing Compliance and Monitoring Amish Shah Assistant Vice President Listing Compliance and Monitoring",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-8/20260520-8.pdf",
           "isNew": false
         },
         {
           "sr": 18,
-          "date": "21 Nov 2025",
-          "year": 2025,
+          "date": "06 May 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "XBRL based filing of Regulation 50 for Entities which has listed its non-convertible securities",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251121-72",
+          "title": "Extension of timeline for compliance with terms and conditions by\nDebenture Trustees for carrying out activities outside the purview of\nSEBI",
+          "desc": "NOTICE NoticeNo. 20260506-37 NoticeDate 06May2026 Category CircularsListedCompanies Segment Debt Department ListingCompliance-Monitoring Subject Extensionoftimelineforcompliancewithtermsandconditionsby DebentureTrusteesforcarryingoutactivitiesoutsidethepurviewof SEBI Attachments ExtensionoftimelinebyDebentureTrustees28042026 Dear Sir \\ Madam The Securities and Exchange Board of India (SEBI) has issued Circular No. HO/(201)2026-DDHS- POD1I/10421/2026 dated April 28, 2026, regarding Extension of timeline for compliance with terms and conditions by Debenture Trustees for carrying out activities outside the purview of SEBI. The circular shall come into force with immediate effect. The aforesaid circular is attached for reference. Listed entities are requested to take note and comply accordingly. Amish Shah Assistant Vice President Listing Compliance and Monitoring Monica Pandey Deputy Manager Listing Compliance and Monitoring",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260506-37/20260506-37.pdf",
           "isNew": false
         },
         {
           "sr": 19,
-          "date": "17 Nov 2025",
-          "year": 2025,
+          "date": "04 May 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Frequently Asked Questions (FAQ) for submission of financial results as required under Regulation 33 of SEBI (LODR) Regulations, 2015 & Master circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015.",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251117-20",
+          "title": "XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI PIT Regulations, 2015",
+          "desc": "NOTICE NoticeNo. 20260504-17 NoticeDate 04May2026 Category CircularsListedCompanies Segment General Department ListingCompliance-Monitoring Subject XBRLbasedfilingforViolationsrelatedtoCodeofConduct(CoC) underSEBIPITRegulations,2015 Attachments NoAttachment To, Compliance Officers, All Listed Entities/Intermediaries/Fiduciaries Subject: XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI PIT Regulations, 2015 SEBI, vide Circular No. SEBI/HO/ISD/ISD/CIR/P/2020/135 dated July 23, 2020, prescribed the format for reporting violations of the Code of Conduct under the Securities and Exchange Board of India (Prohibition of Insider Trading) Regulations 2015 (SEBI PIT Regulations 2015). To enhance accuracy and efficiency in disclosures, the Exchange has introduced an XBRL utility for reporting such violations through the Listing Centre, with effect from May 05, 2026. Listed entities/intermediaries/fiduciaries shall submit the reporting through the following paths: • To download XBRL Utility: Listing Centre > Listing Compliance Module > XBRL > Download XBRL Utility • For submission: Listing Centre > Listing Compliance Module > XBRL > E-filing > Violation related to Code of Conduct (CoC) It may be noted that reporting shall be made only in XBRL mode, without submission of any PDF file. Further, any unlisted entity reporting in the capacity of Intermediary or Fiduciary shall continue to submit the disclosures through email at corp.relations@bseindia.com, as per Exchange Circular No. 20200724-10 dated 24 July 2020. Accordingly, the existing filing path i.e. Compliance Module > Non quarterly submissions > Reporting of Code of Conduct violations SEBI PIT Regulations 2015; as specified under Exchange Circular No. 20201223-8 dated December 23, 2020, shall be discontinued. The disclosures pertaining to violations of the Code of Conduct shall not be disseminated on the Exchange website. All listed entities are advised to mandatorily submit the reporting throug",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-17/20260504-17.pdf",
           "isNew": false
         },
         {
           "sr": 20,
-          "date": "14 Oct 2025",
-          "year": 2025,
+          "date": "04 May 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "SEBI Circular on “Minimum information to be provided to the Audit Committee and Shareholders for approval of Related Party Transactions.”",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251014-34",
+          "title": "Update of single filing system through API-based integration between Stock Exchanges",
+          "desc": "NOTICE NoticeNo. 20260504-16 NoticeDate 04May2026 Category CircularsListedCompanies Segment General Department ListingCompliance-Monitoring Subject UpdateofsinglefilingsystemthroughAPI-basedintegration betweenStockExchanges Attachments NoAttachment To, The Compliance Officer, All Listed Entities Subject: Update of single filing system through API-based integration between Stock Exchanges This has reference to Exchange notice no. 20240930-60 dated September 30, 2024, with respect to single filing system through API-based integration between Stock Exchanges. In this connection, we are pleased to inform you that the single filing system has been extended for the XBRL filing pertaining to the below mentioned event with effect from May 05, 2026. With this, the Single filing system through API-based integration shall now be available for below mentioned disclosures: - Particulars Regulation as per SEBI (LODR) Regulations 2015/ SEBI (Depositories & Participants) Regulations 2018 Effective date Type of Listed Companies Only Equity Equity+Debt Exclusively Debt REITs and INVIT Initiation of Forensic audit Regulation 30 of SEBI LODR read with sub-para 17 of Para A Part A Schedule III of SEBI LODR May 05,2026* √ √ - - Prohibition of Insider Trading Regulation 7 (2) of SEBI PIT Regulation May 05,2026 √ √ - √ Outcome of Board Meeting for Dividend, Buyback, Bonus and Voluntary Delisting events Regulation 30 of SEBI LODR read with sub-para 4 of Para A Part A Schedule III of SEBI LODR April 25,2026* √ √ - - Agreements/Contracts/Arr angements/ MOU- Para A of Schedule III of LODR; Regulation 30 of SEBI LODR read with sub-para 5 and 5A of Para A Part A Schedule III of SEBI LODR √ √ - - Notice of Shareholders Meeting. Regulation 30 of SEBI LODR read with sub-para 12 of Para A Part A Schedule III of SEBI LODR √ √ - - Corporate Insolvency Resolution Process events Regulation 30 of SEBI LODR read with sub-para 16 of Para A Part A Schedule III of SEBI LODR √ √ - - Issuance/Allotment/Alterat",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-16/20260504-16.pdf",
           "isNew": false
         },
         {
           "sr": 21,
-          "date": "09 Oct 2025",
-          "year": 2025,
+          "date": "30 Apr 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Filing of Financial Results by REITs & InvITs in XBRL Mode",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251009-62",
+          "title": "Master Circular - Listing Compliance",
+          "desc": "NOTICE NoticeNo. 20260430-29 NoticeDate 30Apr2026 Category CircularsListedCompanies Segment General Department ListingCompliance-Monitoring Subject MasterCircular-ListingCompliance Attachments MasterCircularDebt2026;MasterCircularSOP2026; MasterCrcularEquity2026 Dear Sir / Madam, Exchange periodically consolidates circulars issued to provide one single document to refer for various policy and operational matters. This circular is a consolidation of all the previous circulars issued by the Listing Compliance Department as on March 31, 2026. All Listed entities are requested to take note and comply accordingly. For any further clarifications, you are advised to contact on email id bse.regulation30@bseindia.com Netra Sahani Shyam Bhagirath Deputy Vice President - Listing Compliance Manager - Listing Compliance",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260430-29/20260430-29.pdf",
           "isNew": false
         },
         {
           "sr": 22,
-          "date": "26 Sept 2025",
-          "year": 2025,
+          "date": "24 Apr 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Framework on Social Stock Exchange (“SSE”)",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250926-67",
+          "title": "Update of single filing system through API-based integration between Stock Exchanges",
+          "desc": "NOTICE NoticeNo. 20260424-25 NoticeDate 24Apr2026 Category CircularsListedCompanies Segment General Department ListingCompliance-Monitoring Subject UpdateofsinglefilingsystemthroughAPI-basedintegration betweenStockExchanges Attachments NoAttachment To, The Company Secretaries, All Listed Entities Subject: Update of single filing system through API-based integration between Stock Exchanges This has reference to Exchange notice no. 20240930-60 dated September 30, 2024, with respect to single filing system through API-based integration between Stock Exchanges. In this connection, we are pleased to inform you that the single filing system has been extended for the XBRL filing pertaining to the below mentioned event with effect from April 25, 2026. With this, the Single filing system through API-based integration shall now be available for below mentioned disclosures: - Particulars Regulation as per SEBI (LODR) Regulations 2015/ SEBI (Depositories & Participants) Regulations 2018 Effective date Type of Listed Companies Only Equity Equity+Debt Exclusively Debt REITs and INVIT Outcome of Board Meeting for Dividend, Buyback, Bonus and Voluntary Delisting events Regulation 30 of SEBI LODR read with sub-para 4 of Para A Part A Schedule III of SEBI LODR April 25,2026* √ √ - - Agreements/Contracts/Arr angements/ MOU- Para A of Schedule III of LODR; Regulation 30 of SEBI LODR read with sub-para 5 and 5A of Para A Part A Schedule III of SEBI LODR √ √ - - Notice of Shareholders Meeting. Regulation 30 of SEBI LODR read with sub-para 12 of Para A Part A Schedule III of SEBI LODR √ √ - - Corporate Insolvency Resolution Process events Regulation 30 of SEBI LODR read with sub-para 16 of Para A Part A Schedule III of SEBI LODR √ √ - - Issuance/Allotment/Alterat ion/Restriction on transferability of securities- Para A Regulation 30 of SEBI LODR read with sub-para 2 of Para A Part A Schedule III of SEBI LODR √ √ - - Awarding, Bagging/receiving, amendment or termination of orders not in th",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260424-25/20260424-25.pdf",
           "isNew": false
         },
         {
           "sr": 23,
-          "date": "24 Sept 2025",
-          "year": 2025,
+          "date": "20 Apr 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Listing of further securities issued by the companies under ESOP/ESOS",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250924-42",
+          "title": "Update of single filing system through API-based integration between Stock Exchanges",
+          "desc": "NOTICE NoticeNo. 20260420-31 NoticeDate 20Apr2026 Category CircularsListedCompanies Segment General Department ListingCompliance-Monitoring Subject UpdateofsinglefilingsystemthroughAPI-basedintegration betweenStockExchanges Attachments NoAttachment To, The Company Secretaries, All Listed Entities This has reference to Exchange notice no. 20240930-60 dated September 30, 2024, with respect to single filing system through API-based integration between Stock Exchanges. In this connection, we are pleased to inform you that the single filing system has been extended for the XBRL filing Pertaining to the below-mentioned event with effect from April 20, 2026. With this, the Single filing system through API-based integration shall now be available for below mentioned disclosures: Particulars Regulation as per SEBI (LODR) Regulations 2015/ SEBI (Depositories & Participants) Regulations 2018 Effective date Type of Listed Companies Only Equity Equity+Debt Exclusively Debt REITs and INVIT Annual Report- XBRL Regulation 34 of SEBI LODR April 20,2026* √ √ - - Acquisition/Amalgamatio n/Merger/De-merger /Sale or disposal/Other Restructuring; Regulation 30 of SEBI LODR read with sub-para 1 of Para A Part A Schedule III of SEBI LODR √ √ - - Change in directors, key managerial personnel (Managing Director, Chief Executive Officer, Chief Financial Officer, Company Secretary etc.), senior management, Auditor and Compliance Officer, Registrar to an issue and share transfer agent Regulation 30 of SEBI LODR read with sub-para 7 and 8 of Para A Part A Schedule III of SEBI LODR Note: Please note the utility provides an option to submit the details of resignation and the resignation letter(s) as required under sub-para 7A, 7B and 7C of Para A Part A Schedule III of SEBI LODR √ √ - - Resignation of Statutory Auditor Regulation 30 of SEBI LODR read with sub-para 7A of Para A Part A Schedule III of SEBI LODR √ √ - - Resignation of Independent Director, Director, KMP, SMP, Compliance Officer Regul",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260420-31/20260420-31.pdf",
           "isNew": false
         },
         {
           "sr": 24,
-          "date": "12 Sept 2025",
-          "year": 2025,
+          "date": "09 Apr 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Update on single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250912-89",
+          "title": "Master Circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015 on non-compliance with the Minimum Public Shareholding (MPS) requirements",
+          "desc": "NOTICE NoticeNo. 20260409-3 NoticeDate 09Apr2026 Category CircularsListedCompanies Segment Equity Department ListingCompliance-Monitoring Subject MasterCircularforcompliancewiththeprovisionsoftheSEBI (LODR)Regulations,2015onnon-compliancewiththeMinimum PublicShareholding(MPS)requirements Attachments RelaxationfromtheapplicabilityofSEBIMasterCircularLODR To All Listed Companies This has reference to the SEBI circular No. HO/49/14/14(13)2026-CFD-POD2/ I/8772/2026 dated April 07, 2026, regarding relaxation from the applicability of SEBI Master Circular for compliance with the provisions of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 on non-compliance with the Minimum Public Shareholding (MPS) requirements. On account of capital market volatility arising from ongoing geopolitical tensions in the Middle East, SEBI decided to grant one-time relaxation from the applicability of penal provisions under the Master Circular for listed entities whose due date for compliance with MPS requirements falls during the period from April 1, 2026, to September 30, 2026. The circular shall be applicable with immediate effect. The aforesaid circular is attached for reference. All listed company are requested to take note and comply accordingly. Yours faithfully, Jayshree Soni Shyam Bhagirath Deputy Vice President - Listing Compliance Manager -Listing Compliance",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260409-3/20260409-3.pdf",
           "isNew": false
         },
         {
           "sr": 25,
-          "date": "11 Sept 2025",
-          "year": 2025,
+          "date": "30 Mar 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "SEBI (LODR) (Third Amendment) Regulations, 2025",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250911-86",
+          "title": "Update on single filing system through API-based integration between Stock Exchanges",
+          "desc": "NOTICE NoticeNo. 20260330-41 NoticeDate 30Mar2026 Category CircularsListedCompanies Segment General Department ListingCompliance-Monitoring Subject UpdateonsinglefilingsystemthroughAPI-basedintegration betweenStockExchanges Attachments NoAttachment To, The Company Secretaries, All Listed Entities This has reference to Exchange notice no. 20240930-60 dated September 30, 2024, with respect to single filing system through API-based integration between Stock Exchanges. In this connection, we are pleased to inform you that the single filing system has been extended for the XBRL filing pertaining to the below-mentioned event with effect from March 31, 2026. With this, the Single filing system through API-based integration shall now be available for below mentioned disclosures: Particulars Regulation as per SEBI (LODR) Regulations 2015/ SEBI (Depositories & Participants) Regulations 2018 Effective date Type of Listed Companies Only Equity Equity+Debt Exclusively Debt REITs and INVIT Business Responsibility and Sustainability Report Regulation 34(2)(f) of SEBI LODR March 31, 2026** √ √ - - Prior Intimation for Board Meeting Regulation 29 of SEBI LODR March 07, 2026* √ √ - - Closure of Trading Window SEBI PIT Regulations √ √ - - Fraud/Default/Arrest Regulation 30 of SEBI LODR, sub-para 6 of Para A Part A Schedule III of SEBI LODR February 21, 2026* √ √ - - Corporate Debt Restructuring Regulation 30 of SEBI LODR, sub-para 9 and10 of Para A Part A Schedule III of SEBI LODR √ √ - - Resolution plan/ /Restructuring in relation to loans/borrowings from banks/financial institutions (Inter- Creditors Agreement) and One time settlement (OTS) √ √ - - Issue Summary Document (ISD)- Buyback- Open and Tender Route SEBI Circular on Introduction of Issue Summary Document (ISD) and dissemination of issue advertisements √ √ - - Integrated Filing- Financials 23(9), Reg 30 r/w Section V-B of the Master circular, 32(1) & 33(3) January 03, 2026 √ √ shall be communicated later shall be communi cat",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260330-41/20260330-41.pdf",
           "isNew": false
         }
       ],
-      "ts": 1792879772872,
+      "ts": 1792889022276,
       "ok": true,
       "newCount": 0
     },
@@ -24288,7 +24228,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879775168,
+      "ts": 1792889024634,
       "ok": true,
       "newCount": 0
     },
@@ -24535,7 +24475,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879778358,
+      "ts": 1792889028187,
       "ok": true,
       "newCount": 0
     },
@@ -24778,7 +24718,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879781372,
+      "ts": 1792889031399,
       "ok": true,
       "newCount": 0
     },
@@ -25025,7 +24965,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879784465,
+      "ts": 1792889034679,
       "ok": true,
       "newCount": 0
     },
@@ -25082,7 +25022,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879794920,
+      "ts": 1792889047849,
       "ok": true,
       "newCount": 0
     },
@@ -25149,7 +25089,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879799730,
+      "ts": 1792889052714,
       "ok": true,
       "newCount": 0
     },
@@ -25206,7 +25146,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879804549,
+      "ts": 1792889057538,
       "ok": true,
       "newCount": 0
     },
@@ -25225,28 +25165,28 @@
           "isNew": false
         }
       ],
-      "ts": 1792879822667,
+      "ts": 1792889101761,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1792879863583,
+      "ts": 1792889143628,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1792879897485,
+      "ts": 1792889178389,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1792879942985,
+      "ts": 1792889213908,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1792879986697,
+      "ts": 1792889251674,
       "ok": true
     },
     "NFRA_0": {
@@ -25324,7 +25264,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879989540,
+      "ts": 1792889254468,
       "ok": true,
       "newCount": 0
     },
@@ -25475,7 +25415,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879991007,
+      "ts": 1792889255971,
       "ok": true,
       "newCount": 0
     },
@@ -25614,7 +25554,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879992461,
+      "ts": 1792889257459,
       "ok": true,
       "newCount": 0
     },
@@ -25765,7 +25705,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792879993922,
+      "ts": 1792889258953,
       "ok": true,
       "newCount": 0
     },
