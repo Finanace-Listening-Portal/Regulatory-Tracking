@@ -25361,7 +25361,9 @@
           "title": "Click here to participate",
           "desc": "",
           "link": "https://nesda.gov.in/wayforward/",
-          "isNew": false
+          "isNew": false,
+          "summary": "The document content is not provided, so there are no substantive regulatory, financial, or compliance requirements to summarize from the text itself. Based on the title alone, “Click here to participate” appears to be a generic call-to-action or participation prompt rather than a document containing specific obligations, deadlines, thresholds, affected entities, or procedural changes. Because no underlying content is available, there are no identifiable effective dates, reporting requirements, compliance actions, or regulated parties to flag for a corporate compliance team. In short, this is only a placeholder-style title, and any detailed compliance analysis would require the actual document content.",
+          "summarySource": "title"
         },
         {
           "sr": 2,
@@ -25371,7 +25373,9 @@
           "title": "MCA Open house webinar on name reservation/name change of companies and LLPs",
           "desc": "",
           "link": "https://www.mca.gov.in/content/dam/mca/pdf/MCA-open-house-session-new-20261022.pdf",
-          "isNew": false
+          "isNew": false,
+          "summary": "This appears to be a general MCA open-house webinar notice rather than a rulemaking or binding regulatory amendment. Based on the title alone, the session concerns the Indian Ministry of Corporate Affairs’ processes for **name reservation and name change for companies and LLPs**, so the practical focus would be on explaining the filing workflow, eligibility, documentation, and any common issues or clarifications around requesting a new name or changing an existing entity name. Because no document text is provided, there are **no specific effective dates, deadlines, fees, thresholds, procedural changes, or compliance obligations** that can be confirmed from the source itself. For a compliance team, the only safe takeaway is that this is an informational webinar relevant to entities that need to reserve a proposed name or undertake a name change under MCA procedures, but it does **not by itself indicate a new legal requirement** or change in law.",
+          "summarySource": "title"
         }
       ],
       "ts": 1794094147202,
