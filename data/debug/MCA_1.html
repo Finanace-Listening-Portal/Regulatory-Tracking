@@ -68,7 +68,7 @@
         
     
 <!--<sly data-sly-test="false">-->
-<!--	<input type="hidden" id="referer" value="/content/mca/global/en/mca/document-related-services/view-public-documents-v3/document-list.html"/>-->
+<!--	<input type="hidden" id="referer" value="/content/mca/global/en/foportal/fo-forgot-password-hintanswer.html"/>-->
 <!--</sly>-->
 
         
@@ -107,7 +107,7 @@
                     <div class="navbar-nav" style="font-size: 14px;">
                         <div id="skip" class="nav-item" style="font-size: 14px;">
                             <!--<a class="nav-link"></a>-->
-                            <a href="#" class="nav-link" style="font-size: 12px;">Skip to Main Content</a>
+                            <a href="#main-content" class="nav-link" style="font-size: 12px;">Skip to Main Content</a>
                         </div>
                         <div class="nav-item" id="site-map" style="font-size: 14px;">
                             <img src="/content/dam/mca/icons/home-new/sitemapimage.png" alt="sitemap" style="font-size: 14px;">
@@ -164,13 +164,14 @@
             <div class="col-md-12 col-lg-5 col-xl-6" style="font-size: 14px;">
                 
                 
-                <a href="/content/mca/global/en/home.html" style="font-size: 14px;"><img src="/content/dam/mca/logos/MCA_Logo_3.svg" alt="National Emblem &amp; Ministry of Corporate Affairs logo" id="emblem" class="img-fluid" style="font-size: 14px;"></a>
+                <a href="/content/mca/global/en/home.html" style="font-size: 14px;"><img src="/content/dam/mca/logos/MCA_Logo_3.svg" alt="Ministry of Corporate Affairs, Government of India – Empowering Business, Protecting Investors" id="emblem" class="img-fluid" style="font-size: 14px;"></a>
             </div>
             
             <div class="col-md-12 col-lg-4 col-xl-4 d-flex align-items-center flex-wrap topSearchForm" style="font-size: 14px;">
                 <form target="_self" action="/content/mca/global/en/search-result.html" style="font-size: 14px;">
                     <div class="input-group" id="searchdiv" style="font-size: 14px;">
-                        <input type="text" name="query" placeholder="Search" id="searchbox" aria-label="search" autocomplete="on" class="form-control p-1 my-auto pr-0 rounded-pill shadow-sm border header-search pr-0" onkeypress="return searchKeyPress(event);" style="font-size: 14px;">
+                        <label aria-hidden="true" for="searchbox" class="sr-only" style="font-size: 14px;">Search</label>
+                        <input type="text" name="query" placeholder="Search" id="searchbox" autocomplete="on" class="form-control p-1 my-auto pr-0 rounded-pill shadow-sm border header-search pr-0" onkeypress="return searchKeyPress(event);" style="font-size: 14px;">
                         <input type="hidden" name="maxresults" value="10" style="font-size: 14px;">
                         <input type="hidden" name="fe" value="UTF-8" style="font-size: 14px;">
                         <button type="button" aria-label="search" class="searchIcon search-icon mca-services" id="search-icon" onclick="getSearchResult(event)" style="font-size: 14px;"></button>
@@ -207,15 +208,15 @@
     <input type="hidden" class="profilePagePath" value="/content/mca/global/en/foportal/fo-user-profile-update.html" style="font-size: 14px;">
     <input type="hidden" class="externalAgencyText" value="External Agency User" style="font-size: 14px;">
 
-    <button onclick="userInfoMCAFO()" class="nav-link dropdown-toggle signInopt" aria-label="User Profile Menu" id="welcomeUser" style="font-size: 14px;"><span id="sign-in-firstname" class="hide-md welcome-text-name" style="font-size: 12px;"></span></button>
+    <button onclick="userInfoMCAFO()" class="nav-link dropdown-toggle signInopt" id="welcomeUser" aria-expanded="false" style="font-size: 14px;"><span id="sign-in-firstname" class="hide-md welcome-text-name" style="font-size: 12px;"></span></button>
 
     <ul id="myDropdownUser" class="dropdown-menu signInoptions" style="font-size: 14px;">
         <li style="font-size: 14px;">
             <a href="#" class="logoutIcon profileUpdateButton" style="font-size: 12px;">
-                <img src="/content/dam/mca/header/user.png" alt="profileIcon" class="mr-3" style="font-size: 14px;">Profile Update </a>
+                <img src="/content/dam/mca/header/user.png" aria-hidden="true" alt="profileIcon" class="mr-3" style="font-size: 14px;">Profile Update </a>
         </li>
         <li style="font-size: 14px;">
-            <a href="#" class="logoutIcon removeCookies" style="font-size: 12px;"> <img src="/content/dam/mca/icons/logout.png" alt="logoutIcon" class="mr-3" style="font-size: 14px;">LogOut </a>
+            <a href="#" class="logoutIcon removeCookies" style="font-size: 12px;"> <img src="/content/dam/mca/icons/logout.png" aria-hidden="true" alt="logoutIcon" class="mr-3" style="font-size: 14px;">LogOut </a>
 
         </li>
     </ul>
@@ -319,7 +320,7 @@
 <div class="topNav" style="font-size: 14px;">
 	<div class="container" style="font-size: 14px;">
 		<div class="row" style="font-size: 14px;">
-			<nav class="site-nav navbar py-0 navbar-expand-lg navbar-dark" id="second-navbar" role="navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement" aria-label="Primary navigation" style="font-size: 14px;">
+			<nav class="site-nav navbar py-0 navbar-expand-lg navbar-dark" id="second-navbar" role="navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement" style="font-size: 14px;">
 				
 				<button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primaryMenu" style="font-size: 14px;">
 					<span class="menu-toggle__bar bar1" style="font-size: 14px;"></span>
@@ -356,7 +357,7 @@
 
 
 
-<ul class="topmenu" id="primaryMenu" role="menubar" aria-orientation="horizontal" aria-label="Primary navigation" style="font-size: 14px;">
+<ul class="topmenu" id="primaryMenu" role="menubar" aria-orientation="horizontal" style="font-size: 14px;">
 	
 	
 
@@ -10302,11 +10303,11 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-<div id="main-content-focus" tabindex="-1" class="cmp-carousel" role="group" aria-roledescription="carousel" data-cmp-autoplay="" data-cmp-delay="5000" style="font-size: 14px;">
+<div class="cmp-carousel" role="group" aria-roledescription="carousel" data-cmp-autoplay="" data-cmp-delay="5000" style="font-size: 14px;">
     <div class="cmp-carousel__content" style="font-size: 14px;">
-        <div class="cmp-carousel__item cmp-carousel__item--active" tabindex="-1" aria-label="Slide 1 of 6" data-cmp-hook-carousel="item" role="group" style="font-size: 14px;"><div class="cbpsBannerComp" style="font-size: 14px;"><img src="/bin/mca/cbpsImage" id="_WGTmyWw1sp3rfwlR" onclick="javascript:window.open('https://cbpssubscriber.mygov.in/aff/WGTmyWw1sp3rfwlR')" style="cursor: pointer; font-size: 14px;" onload="javascript:(function(){ _done=true;}).call(this)"></div>
+        <div class="cmp-carousel__item cmp-carousel__item--active" tabindex="-1" aria-label="Slide 1 of 6" data-cmp-hook-carousel="item" style="font-size: 14px;"><div class="cbpsBannerComp" style="font-size: 14px;"><img src="/bin/mca/cbpsImage" id="_WGTmyWw1sp3rfwlR" onclick="javascript:window.open('https://cbpssubscriber.mygov.in/aff/WGTmyWw1sp3rfwlR')" style="cursor: pointer; font-size: 14px;" onload="javascript:(function(){ _done=true;}).call(this)"></div>
 </div>
-<div class="cmp-carousel__item" tabindex="-1" aria-label="Slide 2 of 6" data-cmp-hook-carousel="item" role="group" aria-hidden="true" style="font-size: 14px;"><div class="image" style="font-size: 14px;">
+<div class="cmp-carousel__item" tabindex="-1" aria-label="Slide 2 of 6" data-cmp-hook-carousel="item" aria-hidden="true" style="font-size: 14px;"><div class="image" style="font-size: 14px;">
 <div data-cmp-is="image" data-cmp-lazythreshold="0" data-cmp-src="/content/mca/global/en/home/_jcr_content/root/responsivegrid/carousel/item_1610906827319.coreimg{.width}.png/1783099370807/corporate-mitra-course.png" data-asset="/content/dam/mca/banners/corporate-mitra-course.png" data-asset-id="a03775a8-2e40-4ff0-891d-0f2b11bcb4b8" data-title="Corporate Mitra Course banner showing eligibility, academic support institutions, course fee, and fee concession details." id="image-cb0cc4c281" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject" style="font-size: 14px;">
     <a class="cmp-image__link" href="https://www.mcacdm.nic.in/corporate-mitra/" data-cmp-hook-image="link" style="font-size: 14px;">
         
@@ -10322,7 +10323,7 @@ beneficial interest in contribution received by the LLP</a>
     
 </div>
 </div>
-<div class="cmp-carousel__item" tabindex="-1" aria-label="Slide 3 of 6" data-cmp-hook-carousel="item" role="group" aria-hidden="true" style="font-size: 14px;"><div class="image" style="font-size: 14px;">
+<div class="cmp-carousel__item" tabindex="-1" aria-label="Slide 3 of 6" data-cmp-hook-carousel="item" aria-hidden="true" style="font-size: 14px;"><div class="image" style="font-size: 14px;">
 <div data-cmp-is="image" data-cmp-lazythreshold="0" data-cmp-src="/content/mca/global/en/home/_jcr_content/root/responsivegrid/carousel/item_1610906827318.coreimg{.width}.jpeg/1775473550879/pmis-20260406.jpeg" data-asset="/content/dam/mca/banners/PMIS-20260406.jpg" data-asset-id="8f65bf3d-9f44-43b8-953c-3f17eef7b6ec" data-title="Banner for the Prime Minister Internship Scheme showing internship benefits, eligibility, and registration details." id="image-08d39a0d3c" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject" style="font-size: 14px;">
     <a class="cmp-image__link" href="https://pminternship.mca.gov.in" data-cmp-hook-image="link" style="font-size: 14px;">
         
@@ -10338,7 +10339,7 @@ beneficial interest in contribution received by the LLP</a>
     
 </div>
 </div>
-<div class="cmp-carousel__item" tabindex="-1" aria-label="Slide 4 of 6" data-cmp-hook-carousel="item" role="group" aria-hidden="true" style="font-size: 14px;"><div class="image" style="font-size: 14px;">
+<div class="cmp-carousel__item" tabindex="-1" aria-label="Slide 4 of 6" data-cmp-hook-carousel="item" aria-hidden="true" style="font-size: 14px;"><div class="image" style="font-size: 14px;">
 <div data-cmp-is="image" data-cmp-lazythreshold="0" data-cmp-src="/content/mca/global/en/home/_jcr_content/root/responsivegrid/carousel/item_1595829668932.coreimg{.width}.jpeg/1711010934002/banner-1234-3.jpeg" data-asset="/content/dam/mca/banners/banner-1234-3.jpg" data-asset-id="990da9fb-a8db-4505-8af5-ef91eb46ba75" data-title="Ease of Doing Business through Digital Transformation improves business processes by enabling easy e‑filing, e‑consultation, service integration, simplified incorporation, better accessibility, and an enhanced user experience." id="image-0af7da81d6" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject" style="font-size: 14px;">
     <a class="cmp-image__link" href="/content/mca/global/en/ease-of-doing-business.html" data-cmp-hook-image="link" style="font-size: 14px;">
         
@@ -10354,7 +10355,7 @@ beneficial interest in contribution received by the LLP</a>
     
 </div>
 </div>
-<div class="cmp-carousel__item" tabindex="-1" aria-label="Slide 5 of 6" data-cmp-hook-carousel="item" role="group" aria-hidden="true" style="font-size: 14px;"><div class="image" style="font-size: 14px;">
+<div class="cmp-carousel__item" tabindex="-1" aria-label="Slide 5 of 6" data-cmp-hook-carousel="item" aria-hidden="true" style="font-size: 14px;"><div class="image" style="font-size: 14px;">
 <div data-cmp-is="image" data-cmp-lazythreshold="0" data-cmp-src="/content/mca/global/en/home/_jcr_content/root/responsivegrid/carousel/item_1595941582411.coreimg{.width}.png/1767969456177/corporate-seva-kendra-banner-20260107.png" data-asset="/content/dam/mca/banners/corporate-seva-kendra_Banner-20260107.png" data-asset-id="6edd97f7-2ed9-408d-acaf-368ee6e59814" data-title="Corporate Seva Kendra offers corporate support through helplines 0120‑4832500, 1800‑202‑3454, and 0120‑6951300, email appl.helpdesk@mca.gov.in, and a DIN Cell Helpline at 7796698925–27 for quick assistance." id="image-a2dd242e47" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject" style="font-size: 14px;">
     <a class="cmp-image__link" href="/content/mca/global/en/corporate-seva-kendra.html" data-cmp-hook-image="link" style="font-size: 14px;">
         
@@ -10370,7 +10371,7 @@ beneficial interest in contribution received by the LLP</a>
     
 </div>
 </div>
-<div class="cmp-carousel__item" tabindex="-1" aria-label="Slide 6 of 6" data-cmp-hook-carousel="item" role="group" aria-hidden="true" style="font-size: 14px;"><div class="image" style="font-size: 14px;">
+<div class="cmp-carousel__item" tabindex="-1" aria-label="Slide 6 of 6" data-cmp-hook-carousel="item" aria-hidden="true" style="font-size: 14px;"><div class="image" style="font-size: 14px;">
 <div data-cmp-is="image" data-cmp-lazythreshold="0" data-cmp-src="/content/mca/global/en/home/_jcr_content/root/responsivegrid/carousel/item_1610906827365.coreimg{.width}.jpeg/1714623028038/iepf-banner-image1.jpeg" data-asset="/content/dam/mca/banners/iepf-banner-image1.jpg" data-asset-id="e42627dd-625a-488a-8e64-58772a6ef891" data-title="The message cautions investors not to let greed put their investments at risk and encourages making informed and careful financial decisions, as advised in public interest by the IEPF Authority, with more information available at www.iepf.gov.in." id="image-39781a2cfb" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject" style="font-size: 14px;">
     <a class="cmp-image__link" href="http://www.iepf.gov.in/" data-cmp-hook-image="link" style="font-size: 14px;">
         
@@ -10388,8 +10389,8 @@ beneficial interest in contribution received by the LLP</a>
 </div>
 
         <div class="cmp-carousel__actions" style="font-size: 14px;">
-            <button type="button" class="cmp-carousel__action cmp-carousel__action--previous" aria-label="Previous" id="prevBtn" data-cmp-hook-carousel="previous" title="carousel previous button" tabindex="0" style="font-size: 14px;"></button>
-            <button type="button" class="cmp-carousel__action cmp-carousel__action--next" data-cmp-hook-carousel="next" id="nxtBtn" title="carousel next button" tabindex="0" style="font-size: 14px;"></button>
+            <button type="button" class="cmp-carousel__action cmp-carousel__action--previous" aria-label="Previous" id="prevBtn" data-cmp-hook-carousel="previous" tabindex="0" style="font-size: 14px;"></button>
+            <button type="button" class="cmp-carousel__action cmp-carousel__action--next" aria-label="Next" data-cmp-hook-carousel="next" id="nxtBtn" tabindex="0" style="font-size: 14px;"></button>
         </div>
         <button class="carousel-toggle" type="button" tabindex="0" aria-label="Pause carousel" aria-pressed="false" title="Pause carousel" style="font-size: 14px;">
             <img src="/content/dam/mca/icons/home-new/pause_icon.svg" alt="" class="carousel-icon" style="font-size: 14px;">
@@ -10666,7 +10667,7 @@ Hon'ble Minister of State</p>
 
 
 
- <span class="config-tab" data-tabdialog="[{&quot;tabID&quot;:&quot;tab-6588&quot;,&quot;tabType&quot;:&quot;messages&quot;,&quot;messageFilePath&quot;:&quot;/content/dam/mca/configurations/important_updates_2026_01_29.csv&quot;},{&quot;tabID&quot;:&quot;tab-6594&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;325&quot;},{&quot;tabID&quot;:&quot;tab-1319&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;1442&quot;},{&quot;tabID&quot;:&quot;tab-8600&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;1420&quot;},{&quot;tabID&quot;:&quot;tab-1344&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;377&quot;},{&quot;tabID&quot;:&quot;tab-9021&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;329&quot;},{&quot;tabID&quot;:&quot;tab-8869&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;344&quot;},{&quot;tabID&quot;:&quot;tab-6883&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;342&quot;}]" data-alltabid="{&quot;columns&quot;:[&quot;Title&quot;,&quot;Date&quot;],&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;null,325,1442,1420,377,329,344,342&quot;}" style="font-size: 14px;"></span>
+ <span class="config-tab" data-tabdialog="[{&quot;tabID&quot;:&quot;tab-8073&quot;,&quot;tabType&quot;:&quot;messages&quot;,&quot;messageFilePath&quot;:&quot;/content/dam/mca/configurations/important_updates_2026_01_29.csv&quot;},{&quot;tabID&quot;:&quot;tab-6679&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;325&quot;},{&quot;tabID&quot;:&quot;tab-5798&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;1442&quot;},{&quot;tabID&quot;:&quot;tab-188&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;1420&quot;},{&quot;tabID&quot;:&quot;tab-9498&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;377&quot;},{&quot;tabID&quot;:&quot;tab-9299&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;329&quot;},{&quot;tabID&quot;:&quot;tab-8730&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;344&quot;},{&quot;tabID&quot;:&quot;tab-4664&quot;,&quot;tabType&quot;:&quot;dms&quot;,&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;342&quot;}]" data-alltabid="{&quot;columns&quot;:[&quot;Title&quot;,&quot;Date&quot;],&quot;language&quot;:&quot;English&quot;,&quot;folder&quot;:&quot;null,325,1442,1420,377,329,344,342&quot;}" style="font-size: 14px;"></span>
     
     <div class="notification-tenders-tab-component mb-4" style="font-size: 14px;">
         <h2 class="firstheading" style="font-size: 20px;">Notifications &amp; Updates</h2>
@@ -10737,7 +10738,7 @@ Hon'ble Minister of State</p>
         </span>
                 </li>
 					<li style="font-size: 14px; float: left; list-style: none; position: relative; width: 183.333px;">
-                    <button type="button" data-tabid="tab-6588" class="nav-link nav-items slide dms-tab messages briefcase-iu active show" id="tab-6588-tab" data-bs-toggle="tab" data-bs-target="#tab-6588" tabindex="0" style="font-size: 14px;">
+                    <button type="button" data-tabid="tab-8073" class="nav-link nav-items slide dms-tab messages briefcase-iu active show" id="tab-8073-tab" data-bs-toggle="tab" data-bs-target="#tab-8073" tabindex="0" style="font-size: 14px;">
 
                         Important Updates
 
@@ -10753,7 +10754,7 @@ Hon'ble Minister of State</p>
         </span>
                 </li>
 					<li style="font-size: 14px; float: left; list-style: none; position: relative; width: 183.333px;">
-                    <button type="button" data-tabid="tab-6594" class="nav-link nav-items slide dms-tab dms circle-important " id="tab-6594-tab" data-bs-toggle="tab" data-bs-target="#tab-6594" tabindex="0" style="font-size: 14px;">
+                    <button type="button" data-tabid="tab-6679" class="nav-link nav-items slide dms-tab dms circle-important " id="tab-6679-tab" data-bs-toggle="tab" data-bs-target="#tab-6679" tabindex="0" style="font-size: 14px;">
 
                         What's New
 
@@ -10769,7 +10770,7 @@ Hon'ble Minister of State</p>
         </span>
                 </li>
 					<li style="font-size: 14px; float: left; list-style: none; position: relative; width: 183.333px;">
-                    <button type="button" data-tabid="tab-1319" class="nav-link nav-items slide dms-tab dms notice-circular " id="tab-1319-tab" data-bs-toggle="tab" data-bs-target="#tab-1319" tabindex="0" style="font-size: 14px;">
+                    <button type="button" data-tabid="tab-5798" class="nav-link nav-items slide dms-tab dms notice-circular " id="tab-5798-tab" data-bs-toggle="tab" data-bs-target="#tab-5798" tabindex="0" style="font-size: 14px;">
 
                         Notices
 
@@ -10785,7 +10786,7 @@ Hon'ble Minister of State</p>
         </span>
                 </li>
 					<li style="font-size: 14px; float: left; list-style: none; position: relative; width: 183.333px;">
-                    <button type="button" data-tabid="tab-8600" class="nav-link nav-items slide dms-tab dms circulars-assign " id="tab-8600-tab" data-bs-toggle="tab" data-bs-target="#tab-8600" tabindex="0" style="font-size: 14px;">
+                    <button type="button" data-tabid="tab-188" class="nav-link nav-items slide dms-tab dms circulars-assign " id="tab-188-tab" data-bs-toggle="tab" data-bs-target="#tab-188" tabindex="0" style="font-size: 14px;">
 
                         Circulars
 
@@ -10801,7 +10802,7 @@ Hon'ble Minister of State</p>
         </span>
                 </li>
 					<li style="font-size: 14px; float: left; list-style: none; position: relative; width: 183.333px;">
-                    <button type="button" data-tabid="tab-1344" class="nav-link nav-items slide dms-tab dms press-releases " id="tab-1344-tab" data-bs-toggle="tab" data-bs-target="#tab-1344" tabindex="0" style="font-size: 14px;">
+                    <button type="button" data-tabid="tab-9498" class="nav-link nav-items slide dms-tab dms press-releases " id="tab-9498-tab" data-bs-toggle="tab" data-bs-target="#tab-9498" tabindex="0" style="font-size: 14px;">
 
                         Recent Reports
 
@@ -10817,7 +10818,7 @@ Hon'ble Minister of State</p>
         </span>
                 </li>
 					<li style="font-size: 14px; float: left; list-style: none; position: relative; width: 183.333px;">
-                    <button type="button" data-tabid="tab-9021" class="nav-link nav-items slide dms-tab dms rupees-qt " id="tab-9021-tab" data-bs-toggle="tab" data-bs-target="#tab-9021" tabindex="0" style="font-size: 14px;">
+                    <button type="button" data-tabid="tab-9299" class="nav-link nav-items slide dms-tab dms rupees-qt " id="tab-9299-tab" data-bs-toggle="tab" data-bs-target="#tab-9299" tabindex="0" style="font-size: 14px;">
 
                         Quotations &amp; Tenders
 
@@ -10833,7 +10834,7 @@ Hon'ble Minister of State</p>
         </span>
                 </li>
 					<li style="font-size: 14px; float: left; list-style: none; position: relative; width: 183.333px;">
-                    <button type="button" data-tabid="tab-8869" class="nav-link nav-items slide dms-tab dms press-releases " id="tab-8869-tab" data-bs-toggle="tab" data-bs-target="#tab-8869" tabindex="0" style="font-size: 14px;">
+                    <button type="button" data-tabid="tab-8730" class="nav-link nav-items slide dms-tab dms press-releases " id="tab-8730-tab" data-bs-toggle="tab" data-bs-target="#tab-8730" tabindex="0" style="font-size: 14px;">
 
                         Press Release
 
@@ -10849,20 +10850,20 @@ Hon'ble Minister of State</p>
         </span>
                 </li>
 					<li style="font-size: 14px; float: left; list-style: none; position: relative; width: 183.333px;">
-                    <button type="button" data-tabid="tab-6883" class="nav-link nav-items slide dms-tab dms vacancies " id="tab-6883-tab" data-bs-toggle="tab" data-bs-target="#tab-6883" tabindex="0" style="font-size: 14px;">
+                    <button type="button" data-tabid="tab-4664" class="nav-link nav-items slide dms-tab dms vacancies " id="tab-4664-tab" data-bs-toggle="tab" data-bs-target="#tab-4664" tabindex="0" style="font-size: 14px;">
 
                         Vacancies
 
                     </button>
                 </li>
-                </ul></div><div class="bx-controls bx-has-controls-direction"><div class="bx-controls-direction"><a class="bx-prev disabled" href="">Prev</a><a class="bx-next" href="">Next</a></div></div></div>
+                </ul></div><div class="bx-controls bx-has-controls-direction"><div class="bx-controls-direction"><a class="bx-prev disabled" href="" role="button">Prev</a><a class="bx-next" href="" role="button">Next</a></div></div></div>
             </div>
             <!-- <hr> -->
             <div class="tab-content" style="font-size: 14px;">
                 
-                    <div id="tab-6588" class="tab-pane fade active show" style="font-size: 14px;">
+                    <div id="tab-8073" class="tab-pane fade active show" style="font-size: 14px;">
 						
-                        <div class="updatedtabtext" style="font-size: 14px;"><h3 style="font-size: 16px;">Important Updates (<span id="totalSpan-tab-6588" style="font-size: 14px;"> 50</span> items) </h3> </div>
+                        <div class="updatedtabtext" style="font-size: 14px;"><h3 style="font-size: 16px;">Important Updates (<span id="totalSpan-tab-8073" style="font-size: 14px;"> 50</span> items) </h3> </div>
                         <!-- Row 1 -->
                         
                         <!-- Row 2 -->
@@ -12294,9 +12295,9 @@ V2 Portal for Company filing will remain available for all the forms during this
                         
                     </div>
                 
-                    <div id="tab-6594" class="tab-pane fade " style="font-size: 14px;">
+                    <div id="tab-6679" class="tab-pane fade " style="font-size: 14px;">
 						
-                        <div class="updatedtabtext" style="font-size: 14px;"><h3 style="font-size: 16px;">What's New (<span id="totalSpan-tab-6594" style="font-size: 14px;"> 0</span> items) </h3> </div>
+                        <div class="updatedtabtext" style="font-size: 14px;"><h3 style="font-size: 16px;">What's New (<span id="totalSpan-tab-6679" style="font-size: 14px;"> 0</span> items) </h3> </div>
                         <!-- Row 1 -->
                         
                             <div class="row" style="font-size: 14px;">
@@ -12329,9 +12330,9 @@ V2 Portal for Company filing will remain available for all the forms during this
                         
                     </div>
                 
-                    <div id="tab-1319" class="tab-pane fade " style="font-size: 14px;">
+                    <div id="tab-5798" class="tab-pane fade " style="font-size: 14px;">
 						
-                        <div class="updatedtabtext" style="font-size: 14px;"><h3 style="font-size: 16px;">Notices (<span id="totalSpan-tab-1319" style="font-size: 14px;"> 0</span> items) </h3> </div>
+                        <div class="updatedtabtext" style="font-size: 14px;"><h3 style="font-size: 16px;">Notices (<span id="totalSpan-tab-5798" style="font-size: 14px;"> 0</span> items) </h3> </div>
                         <!-- Row 1 -->
                         
                             <div class="row" style="font-size: 14px;">
@@ -12364,9 +12365,9 @@ V2 Portal for Company filing will remain available for all the forms during this
                         
                     </div>
                 
-                    <div id="tab-8600" class="tab-pane fade " style="font-size: 14px;">
+                    <div id="tab-188" class="tab-pane fade " style="font-size: 14px;">
 						
-                        <div class="updatedtabtext" style="font-size: 14px;"><h3 style="font-size: 16px;">Circulars (<span id="totalSpan-tab-8600" style="font-size: 14px;"> 0</span> items) </h3> </div>
+                        <div class="updatedtabtext" style="font-size: 14px;"><h3 style="font-size: 16px;">Circulars (<span id="totalSpan-tab-188" style="font-size: 14px;"> 0</span> items) </h3> </div>
                         <!-- Row 1 -->
                         
                             <div class="row" style="font-size: 14px;">
@@ -12399,9 +12400,9 @@ V2 Portal for Company filing will remain available for all the forms during this
                         
                     </div>
                 
-                    <div id="tab-1344" class="tab-pane fade " style="font-size: 14px;">
+                    <div id="tab-9498" class="tab-pane fade " style="font-size: 14px;">
 						
-                        <div class="updatedtabtext" style="font-size: 14px;"><h3 style="font-size: 16px;">Recent Reports (<span id="totalSpan-tab-1344" style="font-size: 14px;"> 0</span> items) </h3> </div>
+                        <div class="updatedtabtext" style="font-size: 14px;"><h3 style="font-size: 16px;">Recent Reports (<span id="totalSpan-tab-9498" style="font-size: 14px;"> 0</span> items) </h3> </div>
                         <!-- Row 1 -->
                         
                             <div class="row" style="font-size: 14px;">
@@ -12434,9 +12435,9 @@ V2 Portal for Company filing will remain available for all the forms during this
                         
                     </div>
                 
-                    <div id="tab-9021" class="tab-pane fade " style="font-size: 14px;">
+                    <div id="tab-9299" class="tab-pane fade " style="font-size: 14px;">
 						
-                        <div class="updatedtabtext" style="font-size: 14px;"><h3 style="font-size: 16px;">Quotations &amp; Tenders (<span id="totalSpan-tab-9021" style="font-size: 14px;"> 0</span> items) </h3> </div>
+                        <div class="updatedtabtext" style="font-size: 14px;"><h3 style="font-size: 16px;">Quotations &amp; Tenders (<span id="totalSpan-tab-9299" style="font-size: 14px;"> 0</span> items) </h3> </div>
                         <!-- Row 1 -->
                         
                             <div class="row" style="font-size: 14px;">
@@ -12469,9 +12470,9 @@ V2 Portal for Company filing will remain available for all the forms during this
                         
                     </div>
                 
-                    <div id="tab-8869" class="tab-pane fade " style="font-size: 14px;">
+                    <div id="tab-8730" class="tab-pane fade " style="font-size: 14px;">
 						
-                        <div class="updatedtabtext" style="font-size: 14px;"><h3 style="font-size: 16px;">Press Release (<span id="totalSpan-tab-8869" style="font-size: 14px;"> 0</span> items) </h3> </div>
+                        <div class="updatedtabtext" style="font-size: 14px;"><h3 style="font-size: 16px;">Press Release (<span id="totalSpan-tab-8730" style="font-size: 14px;"> 0</span> items) </h3> </div>
                         <!-- Row 1 -->
                         
                             <div class="row" style="font-size: 14px;">
@@ -12504,9 +12505,9 @@ V2 Portal for Company filing will remain available for all the forms during this
                         
                     </div>
                 
-                    <div id="tab-6883" class="tab-pane fade " style="font-size: 14px;">
+                    <div id="tab-4664" class="tab-pane fade " style="font-size: 14px;">
 						
-                        <div class="updatedtabtext" style="font-size: 14px;"><h3 style="font-size: 16px;">Vacancies (<span id="totalSpan-tab-6883" style="font-size: 14px;"> 0</span> items) </h3> </div>
+                        <div class="updatedtabtext" style="font-size: 14px;"><h3 style="font-size: 16px;">Vacancies (<span id="totalSpan-tab-4664" style="font-size: 14px;"> 0</span> items) </h3> </div>
                         <!-- Row 1 -->
                         
                             <div class="row" style="font-size: 14px;">
@@ -12674,7 +12675,7 @@ V2 Portal for Company filing will remain available for all the forms during this
 
 
 
-<div id="languagePopup" class="popup-overlay" role="dialog" data-backdrop="false" tabindex="-1" aria-label="View website in English and hindi" aria-modal="true" aria-hidden="false" style="font-size: 14px;">
+<div id="languagePopup" class="popup-overlay" role="dialog" data-backdrop="false" tabindex="-1" aria-label="View website in English and hindi" aria-modal="true" aria-hidden="false" style="font-size: 14px; display: block;">
 	<div class="popup-content" tabindex="0" style="font-size: 14px;">
 		<img class="mca-logo" src="/content/dam/mca/logos/login-screenlogo.png" alt="MCA Logo" style="font-size: 14px;">
 		<div class="divider" style="font-size: 14px;">
@@ -12912,7 +12913,7 @@ V2 Portal for Company filing will remain available for all the forms during this
 				
 				
 				
-					<p class="footer-updated" style="font-size: 12px;">Last Updated:  <span style="font-size: 14px;">25 November, 2026</span></p>
+					<p tabindex="0" class="footer-updated" style="font-size: 12px;">Last Updated:  <span style="font-size: 14px;">26 November, 2026</span></p>
 				
 			</div>
 			<div class="footer-right" style="font-size: 14px;">
@@ -12934,7 +12935,7 @@ V2 Portal for Company filing will remain available for all the forms during this
 									
 									
 									
-									<a tabindex="0" href="https://x.com/MCA21India" target="_blank" class="social-icon" aria-label="twitter" style="font-size: 14px;">
+									<a tabindex="0" href="https://x.com/MCA21India" target="_blank" class="social-icon" style="font-size: 14px;">
 										<img src="/content/dam/mca/icons/home-new/social-icon/twitericon.png" alt="twitter" style="font-size: 14px;">
 									</a>
 								
@@ -12948,7 +12949,7 @@ V2 Portal for Company filing will remain available for all the forms during this
 									
 									
 									
-									<a tabindex="0" href="https://www.facebook.com/MCA21India" target="_blank" class="social-icon" aria-label="facebook" style="font-size: 14px;">
+									<a tabindex="0" href="https://www.facebook.com/MCA21India" target="_blank" class="social-icon" style="font-size: 14px;">
 										<img src="/content/dam/mca/icons/home-new/social-icon/fbicon.png" alt="facebook" style="font-size: 14px;">
 									</a>
 								
@@ -12962,7 +12963,7 @@ V2 Portal for Company filing will remain available for all the forms during this
 									
 									
 									
-									<a tabindex="0" href="https://www.youtube.com/@MCA21India" target="_blank" class="social-icon" aria-label="youTube" style="font-size: 14px;">
+									<a tabindex="0" href="https://www.youtube.com/@MCA21India" target="_blank" class="social-icon" style="font-size: 14px;">
 										<img src="/content/dam/mca/icons/home-new/social-icon/youtubeicon.png" alt="youTube" style="font-size: 14px;">
 									</a>
 								
@@ -12976,7 +12977,7 @@ V2 Portal for Company filing will remain available for all the forms during this
 									
 									
 									
-									<a tabindex="0" href="https://www.instagram.com/mca21india/" target="_blank" class="social-icon" aria-label="instagram" style="font-size: 14px;">
+									<a tabindex="0" href="https://www.instagram.com/mca21india/" target="_blank" class="social-icon" style="font-size: 14px;">
 										<img src="/content/dam/mca/icons/home-new/social-icon/instaicon.png" alt="instagram" style="font-size: 14px;">
 									</a>
 								
@@ -12990,7 +12991,7 @@ V2 Portal for Company filing will remain available for all the forms during this
 									
 									
 									
-									<a tabindex="0" href="https://www.linkedin.com/company/mca21india/" target="_blank" class="social-icon" aria-label="linkedin" style="font-size: 14px;">
+									<a tabindex="0" href="https://www.linkedin.com/company/mca21india/" target="_blank" class="social-icon" style="font-size: 14px;">
 										<img src="/content/dam/mca/icons/home-new/social-icon/linkedinicon.png" alt="linkedin" style="font-size: 14px;">
 									</a>
 								
@@ -13003,7 +13004,7 @@ V2 Portal for Company filing will remain available for all the forms during this
 	</div>
 	<div class="backToTopDiv" id="btn-back-to-top" style="font-size: 14px;">
 		<!--<a onclick="scrollTopFunction()" id="scrollbtn" title="Go to top"><img src="" alt="BacktoTop Icon" /></a>-->
-		<a tabindex="0" href="#" onclick="scrollTopFunction()" id="scrollbtn" title="Go to top" style="font-size: 14px;"><img src="/content/dam/mca/icons/home-new/go-to-top.svg" alt="BacktoTop Icon" style="font-size: 14px;"></a>
+		<a href="#" onclick="scrollTopFunction()" id="scrollbtn" style="font-size: 14px;"><img src="/content/dam/mca/icons/home-new/go-to-top.svg" alt="BacktoTop Icon" style="font-size: 14px;"></a>
 	</div>
 </footer></div>
 <div class="chatBot aem-GridColumn aem-GridColumn--default--12" style="font-size: 14px;">
